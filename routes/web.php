@@ -24,34 +24,8 @@ use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 
 
-Route::get('alo',function (){
+Route::get('alo',function () {
 
-$curl = curl_init();
-
-curl_setopt_array($curl, [
-    CURLOPT_URL => "https://sandbox-api.alopeyk.com/api/v2/locations?latlng=35.755484%2C51.415306",
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => "GET",
-    CURLOPT_HTTPHEADER => [
-        "Authorization: Bearer " . $token,
-        "X-Requested-With: XMLHttpRequest"
-    ],
-]);
-
-$response = curl_exec($curl);
-$err = curl_error($curl);
-
-curl_close($curl);
-
-if ($err) {
-    echo 'cURL Error #:' . $err;
-} else {
-    echo $response;
-}
 
 
 });
@@ -448,10 +422,7 @@ $names = \App\Helper::pluck('helper')->all();
 
 Route::get('/', function () {
 
- $user = \App\User::first();
-    $user2 = $user->newQuery();
-    $user2->where('name', 'sahand');
-    dd($user2);
+
 });
 
 Route::get('login',function (){
