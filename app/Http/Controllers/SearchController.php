@@ -139,7 +139,7 @@ class SearchController extends Controller
                             ->orWhere('manufacturer', 'like', "%$keyword%")
                             ->orWhere('description', 'like', "%$keyword%")
                             ->join('components', 'commons.component_id', '=', 'components.id')
-//                            ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
+                            ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
                             ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
                             ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
 
@@ -184,6 +184,21 @@ class SearchController extends Controller
                         //            }
                         $this->type = '30';
 
+                        for($t=0;$t<count($parts);$t++){
+                            unset(
+                                $parts[$t]->names,
+                                $parts[$t]->id,
+                                $parts[$t]->component_id,
+                                $parts[$t]->common_id,
+                                $parts[$t]->links,
+                                $parts[$t]->product_id,
+                                $parts[$t]->model,
+                                $parts[$t]->created_at,
+                                $parts[$t]->updated_at
+
+                            );
+                        }
+
                         return [$this->type, $parts, $filters, $names ,$tableCols];
                     }
 
@@ -197,11 +212,8 @@ class SearchController extends Controller
     public function getPrice(Request $request){
         $stop = 0;
         $start = Carbon::now();
-
+        $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
         while ($stop == 0) {
-
-
-            $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
 
             exec($command, $output, $return);
             if (count($output) != 0) {
