@@ -24,11 +24,6 @@ use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 
 
-Route::get('alo',function () {
-
-
-
-});
 
 Route::get('url',function (){
 
@@ -422,7 +417,7 @@ $names = \App\Helper::pluck('helper')->all();
 
 Route::get('/', function () {
 
-
+    return 'Salam Mamad';
 });
 
 Route::get('login',function (){
