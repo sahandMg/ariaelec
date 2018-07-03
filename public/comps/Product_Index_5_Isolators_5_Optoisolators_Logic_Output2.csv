@@ -1,0 +1,31 @@
+2,2/0,2500Vrms,1kV/µs,DC,Open Collector   Schottky Clamped,16mA,10MBd,75ns   75ns,30ns   30ns,1.65V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,1/0,5000Vrms,10kV/µs (Typ),DC,Open Collector,50mA,10Mbps,75ns   75ns,30ns   10ns,1.45V,50mA,4.5 V ~ 5.5 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+2,2/0,2500Vrms,5kV/µs,DC,Open Collector,50mA,10Mbps,75ns   75ns,50ns   12ns,1.4V,30mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-MDIP
+1,1/0,3750Vrms,25kV/µs,DC,Open Collector   Schottky Clamped,50mA,10Mbps,90ns   75ns,22ns   3ns,1.4V,50mA,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,1/0,3750Vrms,20kV/µs,DC,Push-Pull   Totem Pole,10mA,20Mbps,55ns   55ns,5.8ns   5.3ns,1.35V,20mA,3 V ~ 5.5 V,-40°C ~ 110°C,Surface Mount,6-SOIC (0.173"   4.40mm Width)   5 Leads,5-Mini-Flat
+1,1/0,5000Vrms,-,DC,Open Collector,50mA,1MHz,4µs   4µs,100ns   100ns,1.15V,60mA,3 V ~ 16 V,-55°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,1/0,4170Vrms,-,DC,Open Collector,50mA,1MHz,4µs   4µs,100ns   100ns,1.2V,30mA,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,1/0,7500Vrms,-,DC,Open Collector,50mA,5MHz,330ns   330ns,-,1.4V,10mA,-,-,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,1/0,5000Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,15mA,-,550ns   400ns,-,1.6V,25mA,4.5 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+1,1/0,3750Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,15mA,-,550ns   400ns,-,1.5V,25mA,4.5 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+1,1/0,3750Vrms,5kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,1/0,3750Vrms,10kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,1/0,3750Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,5kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,15mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,10kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,15mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,5kV/µs,DC,Open Collector   Schottky Clamped,15mA,10Mbps,75ns   75ns,17ns   5ns,1.75V (Max),-,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,10kV/µs,DC,Open Collector   Schottky Clamped,50mA,15MBd,75ns   75ns,24ns   10ns,1.5V,15mA,2.7 V ~ 3.6 V   4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,42ns   12ns,1.3V,10mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+2,2/0,3750Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,100ns   100ns,24ns   10ns,1.5V,15mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,1/0,3750Vrms,10kV/µs,Logic,Push-Pull   Totem Pole,10mA,12.5MBd,40ns   40ns,13ns   5ns,-,-,4.5 V ~ 5.5 V,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+1,1/0,3750Vrms,10kV/µs,Logic,Push-Pull   Totem Pole,10mA,25MBd,40ns   40ns,9ns   8ns,-,-,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+1,1/0,3750Vrms,10kV/µs,Logic,Push-Pull   Totem Pole,10mA,50MBd,22ns   22ns,8ns   6ns,-,-,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+1,1/0,3750Vrms,15kV/µs,DC,Open Collector   Schottky Clamped,15mA,-,550ns   400ns,-,1.5V,25mA,4.5 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,1/0,3750Vrms,10kV/µs,DC,Open Collector   Schottky Clamped,50mA,10MBd,75ns   75ns,24ns   10ns,1.5V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,1/0,3750Vrms,10kV/µs,Logic,Push-Pull   Totem Pole,10mA,12.5MBd,40ns   40ns,13ns   5ns,-,-,4.5 V ~ 5.5 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,1/0,3750Vrms,10kV/µs,Logic,Push-Pull   Totem Pole,10mA,25MBd,40ns   40ns,9ns   8ns,-,-,4.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,1/0,3750Vrms,10kV/µs (Typ),DC,Open Collector   Schottky Clamped,50mA,10MBd,75ns   75ns,24ns   10ns,1.5V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,6-SOIC (0.173"   4.40mm Width)   5 Leads,5-SO
+1,1/0,3750Vrms,10kV/µs,DC,Open Collector,50mA,10Mbps,75ns   75ns,20ns   10ns,1.6V,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,6-SOIC (0.173"   4.40mm Width)   5 Leads,5-SOP
+2,2/0,2500Vrms,15kV/µs,DC,Open Collector,25mA,10Mbps,75ns   75ns,20ns   5ns,1.65V,15mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SSOP
+2,2/0,5300Vrms,1kV/µs,DC,Push-Pull   Totem Pole,25mA,5MBd,300ns   300ns,40ns   10ns,1.6V,10mA,4.5 V ~ 15 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+2,2/0,5300Vrms,1kV/µs,DC,Open Drain,50mA,10MBd,75ns   75ns,23ns   7ns,1.4V,15mA,4.5 V ~ 5.5 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD

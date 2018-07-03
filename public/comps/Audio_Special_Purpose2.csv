@@ -1,0 +1,20 @@
+Audio Signal Processor,Communication Systems,2,Serial,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Full-Duplex,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Volume Control,Audio Systems,2,SPI,4.75 V ~ 5.25 V,0°C ~ 70°C (TA),-95.5dB   +31.5dB,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Audio Transmitter,Digital Audio Interfacing,2,I²C   SPI,3.3 V ~ 5 V,-10°C ~ 70°C (TA),8kHz ~ 192kHz,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+Audio Receiver,Digital Audio Interfacing,7,I²C   SPI,3.3 V ~ 5 V,-10°C ~ 70°C (TA),8kHz ~ 96kHz,-,28-SOIC
+Audio Receiver,Digital Audio Interfacing,8,I²C   SPI,3.3 V ~ 5 V,-10°C ~ 70°C (TA),32kHz ~ 192kHz,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Audio Receiver,Digital Audio Interfacing,8,I²C   SPI,3.3 V ~ 5 V,-10°C ~ 70°C (TA),32kHz ~ 192kHz,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+Audio Transceiver,Automotive Audio   Musical Instruments   Professional Audio,2,I²C   SPI,4.5 V ~ 5.5 V,-10°C ~ 70°C (TA),8kHz ~ 108kHz,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Line Driver,Pre-Amplifier   Professional Audio,2,Analog,±4.5 V ~ 18 V,-55°C ~ 125°C (TA),Differential Output,8-DIP (0.300"   7.62mm),8-PDIP
+Line Driver,Pre-Amplifier   Professional Audio,2,Analog,±4.5 V ~ 18 V,-55°C ~ 125°C (TA),Differential Output,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Line Driver,Pre-Amplifier   Professional Audio,1,Analog,±4.5 V ~ 18 V,-55°C ~ 125°C (TA),Differential Output,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Volume Control,Automotive Audio   Musical Instruments   Professional Audio,2,SPI,±4.5 V ~ 15.5 V,-40°C ~ 85°C (TA),31.5dB ~ -95.5dB,16-DIP (0.300"   7.62mm),16-PDIP
+Volume Control,Automotive Audio   Musical Instruments   Professional Audio,2,SPI,±4.5 V ~ 15.5 V,-40°C ~ 85°C (TA),31.5dB ~ -95.5dB,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Volume Control,Automotive Audio   Musical Instruments   Professional Audio,2,SPI,±4.75 V ~ 5.25 V,-40°C ~ 85°C (TA),31.5dB ~ -95.5dB,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Volume Control,Automotive Audio   Musical Instruments   Professional Audio,4,SPI,±4.75 V ~ 5.25 V,-40°C ~ 85°C (TA),31.5dB ~ -95.5dB,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Volume Control,Audio Systems,6,Serial,10 V ~ 20 V   ±5 V ~ 10 V,0°C ~ 70°C (TA),-127dB   +31dB,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Audio Signal Processor,Automotive Audio,4,I²C,8 V ~ 10 V,-40°C ~ 85°C (TA),-,20-SOIC (0.295"   7.50mm Width),20-SO
+Volume Control,Pre-Amplifier,2,I²C,7.5 V ~ 9.5 V,-40°C ~ 85°C (TA),110dB   20dB,32-SOIC (0.295"   7.50mm Width),32-SO
+Audio Signal Processor,Signal Mixing,1,I²S,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Delay,16-VQFN Exposed Pad,16-QFN (4x4)
+Audio Signal Processor,Communication Systems,2,Serial,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Full-Duplex,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Line Driver,Audio Systems,2,Analog,10 V ~ 18 V,-40°C ~ 125°C (TA),-,16-SOIC (0.154"   3.90mm Width),16-SOIC

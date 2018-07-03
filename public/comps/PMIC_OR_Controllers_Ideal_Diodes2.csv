@@ -1,0 +1,3 @@
+N+1 ORing Controller,N-Channel,N:1,No,250ns,200ns,-,1.4mA,2.9 V ~ 18 V,Redundant Power Supplies   Telecom Infrastructure,-40°C ~ 85°C,Surface Mount,12-TSSOP (0.118"   3.00mm Width),12-MSOP
+N+1 ORing Controller,N-Channel,N:1,No,-,300ns,-,500µA,9 V ~ 80 V,Automotive   Redundant Power Supplies   Telecom Infrastructure,-40°C ~ 85°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Source Selector Switch,P-Channel,2:1,No,110µs,13µs,-,15µA,2.5 V ~ 28 V,Handheld   USB Powered Supplies,-40°C ~ 85°C,Surface Mount,SOT-23-6 Thin   TSOT-23-6,TSOT-23-6

@@ -1,0 +1,9 @@
+OTP,440kb,3 V ~ 3.6 V   4.75 V ~ 5.25 V,0°C ~ 70°C,20-LCC (J-Lead),20-PLCC (9x9)
+OTP,1Mb,3 V ~ 3.6 V   4.75 V ~ 5.25 V,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+OTP,1Mb,3 V ~ 3.6 V   4.75 V ~ 5.25 V,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+In System Programmable,1.6Mb,3 V ~ 3.6 V   4.5 V ~ 5.5 V,-40°C ~ 85°C,20-LCC (J-Lead),20-PLCC (9x9)
+In System Programmable,1.6Mb,3 V ~ 3.6 V   4.75 V ~ 5.25 V,0°C ~ 70°C,32-TQFP,32-TQFP (7x7)
+In System Programmable,1Mb,2.7 V ~ 3.6 V,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+In System Programmable,4MB,2.7 V ~ 3.6 V,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+In System Programmable,4MB,2.7 V ~ 3.6 V,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+In System Programmable,64Mb,2.7 V ~ 3.6 V,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC

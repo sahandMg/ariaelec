@@ -1,0 +1,13 @@
+Voltage to Frequency,500kHz,±50ppm/°C,±0.2%,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Voltage to Frequency,100kHz,±150ppm/°C,±0.01%,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Volt to Frequency and Frequency to Volt,1MHz,±150ppm/°C,±0.1%,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Voltage to Frequency,2MHz,±25ppm/°C,±0.02%,Through Hole,16-CDIP (0.300"   7.62mm),16-CERDIP
+Voltage to Frequency,2MHz,±25ppm/°C,±0.02%,Surface Mount,20-LCC (J-Lead),20-PLCC (9x9)
+Voltage to Frequency,500kHz,±50ppm/°C,±0.2%,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Voltage to Frequency,1MHz,±50ppm/°C,±0.012%,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Volt to Frequency and Frequency to Volt,500kHz,±75ppm/°C,±0.05%,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Frequency to Voltage,10kHz,-,±0.3%,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Frequency to Voltage,10kHz,-,±0.3%,Through Hole,14-DIP (0.300"   7.62mm),14-DIP
+Frequency to Voltage,10kHz,-,±0.3%,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Frequency to Voltage,10kHz,-,±0.3%,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Voltage to Frequency,100kHz,±50ppm/°C,±0.01%,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP

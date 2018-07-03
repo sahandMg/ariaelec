@@ -1,0 +1,279 @@
+Non-Volatile,EEPROM,EEPROM,20Kb (256 x 80),-,-,2.27µs,1-Wire®,-,-40°C ~ 85°C (TA),Surface Mount,6-LSOJ (0.148"   3.76mm Width),6-TSOC
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,128Kb (16K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,256Kb (32K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,512Kb (64K x 8),1MHz,5ms,550ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,16Mb (528 Bytes x 4096 pages),66MHz,6ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,32Mb (528 Bytes x 8192 pages),50MHz,6ms,-,SPI,2.5 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,32Mb (528 Bytes x 8192 pages),85MHz,8µs   4ms,-,SPI,2.3 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,16Mb (2M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8),104MHz,50µs   3ms,-,SPI - Quad I/O   QPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,4Kb (512 x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,8Kb (1K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,32Kb (4K x 8),1MHz,5ms,550ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,16Mb (512 Bytes x 4096 pages),85MHz,8µs   4ms,-,SPI,2.5 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,1Kb (128 x 8   64 x 16),2MHz,5ms,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,4Mb (512K x 8),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,32-TFSOP (0.724"   18.40mm Width),32-TSOP (8x20)
+Volatile,SRAM,SRAM,256Kb (32K x 8),20MHz,-,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8),400kHz,5ms,900ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Non-Volatile,EEPROM,EEPROM,4Kb (256 x 8 x 2),400kHz,5ms,900ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,32Kb (4K x 8),400kHz,5ms,900ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),400kHz,10ms,900ns,I²C,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Non-Volatile,EEPROM,EEPROM,1Kb (128 x 8),400kHz,5ms,3500ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,4Kb (256 x 8 x 2),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,128Kb (16K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,EEPROM,EEPROM,32Kb (4K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,512Kb (64K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),2MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),2MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,2Kb (128 x 16),2MHz,6ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Non-Volatile,EEPROM,EEPROM,2Kb (128 x 16),2MHz,6ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Volatile,DRAM,SDRAM,256Mb (16M x 16),166MHz,12ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,256Mb (16M x 16),166MHz,12ns,5ns,Parallel,3 V ~ 3.6 V,-40°C ~ 105°C (TA),Surface Mount,54-TFBGA,54-TFBGA (8x8)
+Volatile,DRAM,SDRAM,256Mb (16M x 16),166MHz,12ns,5ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,64Mb (4M x 16),166MHz,2ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 105°C (TA),Surface Mount,54-TFBGA,54-TFBGA (8x8)
+Volatile,DRAM,SDRAM - DDR2,1Gb (64M x 16),400MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,-40°C ~ 95°C (TC),Surface Mount,84-TFBGA,84-FBGA (8x12.5)
+Volatile,SRAM,SRAM - Asynchronous,8Mb (512K x 16),-,55ns,55ns,Parallel,2.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Non-Volatile,EEPROM,EEPROM,8Kb (1K x 8),400kHz,5ms,900ns,I²C,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,1Mb (128K x 8),1MHz,5ms,550ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,1Mb (128K x 8),1MHz,5ms,550ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,128Kb (16K x 8),1MHz,5ms,550ns,I²C,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),-,10ms,150ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),-,10ms,150ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TC),Through Hole,28-DIP (0.600"   15.24mm),28-PDIP
+Non-Volatile,EEPROM,EEPROM,256Kb (32K x 8),-,10ms,90ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TC),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,10ms,90ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,256Kb (32K x 8),-,10ms,90ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,512Kb (64K x 8),-,10ms,120ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,2Mb (256K x 8),-,20ms,250ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,20ms,200ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,32-TFSOP (0.724"   18.40mm Width),32-TSOP
+Non-Volatile,FLASH,FLASH,1Mb (264 Bytes x 512 pages),20MHz,15ms,-,SPI,2.7 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,2Mb (264 Bytes x 1024 pages),66MHz,4ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-UDFN Exposed Pad,8-UDFN-EP (5x6)
+Non-Volatile,FLASH,FLASH,4Mb (264 Bytes x 2048 pages),66MHz,4ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,8Mb (264 Bytes x 4096 pages),20MHz,14ms,-,SPI,2.7 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,14-LBGA   CSPBGA,14-CBGA (4.5x7)
+Non-Volatile,FLASH,FLASH,8Mb (264 Bytes x 4096 pages),66MHz,4ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,8Mb (264 Bytes x 4096 pages),85MHz,8µs   4ms,-,SPI,1.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,16Mb (528 Bytes x 4096 pages),20MHz,14ms,-,SPI,2.7 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP
+Non-Volatile,FLASH,FLASH,16Mb (528 Bytes x 4096 pages),85MHz,8µs   4ms,-,SPI,2.3 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,64Mb (264 Bytes x 32K pages),85MHz,8µs   5ms,-,SPI,1.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,64Mb (1056 Bytes x 8192 pages),66MHz,6ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,8-VDFN,8-CASON (6x8)
+Non-Volatile,FLASH,FLASH,64Mb (1056 Bytes x 8192 pages),66MHz,6ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,50µs,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,64Mb (4M x 16),-,120µs,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TC),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH,1Mb (128K x 8),-,50µs,45ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,40µs,55ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TC),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,1Mb (64K x 16),-,50µs,70ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TC),Surface Mount,44-LCC (J-Lead),44-PLCC (16.59x16.59)
+Non-Volatile,EEPROM,EEPROM,4Kb (512 x 8   256 x 16),2MHz,10ms,-,SPI,2.7 V ~ 5.5 V,0°C ~ 70°C (TC),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8),400kHz,5ms,-,I²C,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-LSSOP (0.173"   4.40mm Width),8-SSOPB
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),400kHz,5ms,-,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP-B
+Non-Volatile,EEPROM,EEPROM,1Kb (64 x 16),2MHz,5ms,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.173"   4.40mm Width),8-SOP
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),400kHz,5ms,900ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,256Kb (32K x 8),1MHz,5ms,500ns,I²C,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8   128 x 16),1MHz,-,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,EEPROM,EEPROM,4Kb (512 x 8   256 x 16),2MHz,-,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Volatile,SRAM,SRAM - Asynchronous,1Mb (128K x 8),-,45ns,45ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,32-SOIC (0.445"   11.30mm Width),32-SOIC
+Volatile,SRAM,SRAM - Asynchronous,2Mb (256K x 8),-,45ns,45ns,Parallel,2.2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-TFSOP (0.465"   11.80mm Width),32-sTSOP
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,45ns,45ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,45ns,45ns,Parallel,2.2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (512K x 8),-,45ns,45ns,Parallel,2.2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-SOIC (0.400"   10.16mm Width),32-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (512K x 8),-,45ns,45ns,Parallel,2.2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-SOIC (0.400"   10.16mm Width),32-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,16Mb (2M x 8   1M x 16),-,45ns,45ns,Parallel,2.2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,28-DIP (0.600"   15.24mm),28-DIP
+Volatile,SRAM,SRAM - Asynchronous,1Mb (64K x 16),-,15ns,15ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,10ns,10ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,16Mb (1M x 16),-,10ns,10ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,SRAM,SRAM - Synchronous,72Mb (2M x 36),133MHz,-,6.5ns,Parallel,2.375 V ~ 2.625 V,-40°C ~ 85°C (TA),Surface Mount,100-LQFP,100-TQFP (14x20)
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,15ns,15ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,28-BSOJ (0.300"   7.62mm Width),28-SOJ
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),64Kb (8K x 8),-,150ns,150ns,Parallel,4.75 V ~ 5.25 V,0°C ~ 70°C (TA),Through Hole,28-DIP Module (0.600"   15.24mm),28-EDIP
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),64Kb (8K x 8),-,150ns,150ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,28-DIP Module (0.600"   15.24mm),28-EDIP
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),256Kb (32K x 8),-,150ns,150ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,28-DIP Module (0.600"   15.24mm),28-EDIP
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),256Kb (32K x 8),-,200ns,200ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,28-DIP Module (0.600"   15.24mm),28-EDIP
+Non-Volatile,EEPROM,EEPROM,1Kb (256 x 4),-,-,2µs,1-Wire®,-,-40°C ~ 85°C (TA),Surface Mount,6-WFBGA   CSPBGA,6-UCSPR (1.68x1.68)
+Non-Volatile,EEPROM,EEPROM,1Kb (256 x 4),-,-,2µs,1-Wire®,-,-40°C ~ 85°C (TA),Surface Mount,6-LSOJ (0.148"   3.76mm Width),6-TSOC
+Non-Volatile,EPROM,EPROM - OTP,1Kb (1K x 1),-,-,15µs,1-Wire®,-,-40°C ~ 85°C (TA),Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),-,130ns,-,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),4Mb (256K x 16),-,110ns,110ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),16Kb (2K x 8),1MHz,-,550ns,I²C,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),64Kb (8K x 8),1MHz,-,550ns,I²C,3 V ~ 3.6 V,-40°C ~ 125°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),3.4MHz,-,130ns,I²C,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),3.4MHz,-,130ns,I²C,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),3.4MHz,-,130ns,I²C,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),1MHz,-,550ns,I²C,2.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),64Kb (8K x 8),20MHz,-,-,SPI,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),128Kb (16K x 8),40MHz,-,-,SPI,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),256Kb (32K x 8),40MHz,-,-,SPI,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),1Mb (128K x 8),-,90ns,90ns,Parallel,2 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-TFSOP (0.465"   11.80mm Width),32-TSOP I
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,256Kb (16K x 16),-,55ns,55ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,100-LQFP,100-TQFP (14x14)
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,64Kb (4K x 16),-,20ns,20ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,100-LQFP,100-TQFP (14x14)
+Volatile,SRAM,SRAM - Asynchronous,1Mb (64K x 16),-,20ns,20ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,44-BSOJ (0.400"   10.16mm Width),44-SOJ
+Volatile,SRAM,SRAM - Asynchronous,1Mb (128K x 8),-,15ns,15ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,32-BSOJ (0.400"   10.16mm Width),32-SOJ
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,15ns,15ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,28-BSOJ (0.300"   7.62mm Width),28-SOJ
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,8Kb (1K x 8),-,55ns,55ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,52-LCC (J-Lead),52-PLCC (19.13x19.13)
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,8Kb (1K x 8),-,100ns,100ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,52-LCC (J-Lead),52-PLCC (19.13x19.13)
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,16Kb (2K x 8),-,25ns,25ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,52-LCC (J-Lead),52-PLCC (19.13x19.13)
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,16Kb (2K x 8),-,100ns,100ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,52-LCC (J-Lead),52-PLCC (19.13x19.13)
+Volatile,SRAM,SRAM - Dual Port   Asynchronous,8Kb (1K x 8),-,55ns,55ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,52-LCC (J-Lead),52-PLCC (19.13x19.13)
+Volatile,SRAM,SRAM - Asynchronous,1Mb (64K x 16),-,12ns,12ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (512K x 8),-,10ns,10ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (512K x 8),-,15ns,15ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),100MHz,5ms,-,SPI,2.3 V ~ 3.6 V,-40°C ~ 105°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Volatile,DRAM,DRAM - EDO,16Mb (1M x 16),-,-,25ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,DRAM,SDRAM,16Mb (1M x 16),143MHz,-,5.5ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,50-TSOP (0.400"   10.16mm Width),50-TSOP II
+Volatile,DRAM,SDRAM,256Mb (16M x 16),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,64Mb (4M x 16),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,64Mb (4M x 16),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,512Mb (16M x 32),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,64Mb (2M x 32),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,90-TFBGA,90-TFBGA (8x13)
+Volatile,DRAM,SDRAM,512Mb (64M x 8),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,64Mb (2M x 32),143MHz,-,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 105°C (TA),Surface Mount,90-TFBGA,90-TFBGA (8x13)
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,4Mb (256K x 16),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,1Mb (64K x 16),-,10ns,10ns,Parallel,3.135 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Synchronous,18Mb (1M x 18),200MHz,-,3.1ns,Parallel,3.135 V ~ 3.465 V,0°C ~ 70°C (TA),Surface Mount,100-LQFP,100-TQFP (14x20)
+Volatile,SRAM,SRAM - Synchronous,18Mb (1M x 18),250MHz,-,2.6ns,Parallel,3.135 V ~ 3.465 V,0°C ~ 70°C (TA),Surface Mount,165-TFBGA,165-TFBGA (13x15)
+Volatile,SRAM,SRAM - Asynchronous,16Mb (1M x 16),-,10ns,10ns,Parallel,2.4 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,16Mb (1M x 16),-,10ns,10ns,Parallel,2.4 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,4Mb (512K x 8),-,10ns,10ns,Parallel,2.4 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,44-TSOP (0.400"   10.16mm Width),44-TSOP II
+Volatile,SRAM,SRAM - Asynchronous,1Mb (128K x 8),-,35ns,35ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,32-TFSOP (0.724"   18.40mm Width),32-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,45ns,45ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,28-SOIC (0.330"   8.38mm Width),28-SOP
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,45ns,45ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP I
+Volatile,SRAM,SRAM - Asynchronous,1Mb (128K x 8),-,10ns,10ns,Parallel,3.15 V ~ 3.45 V,-40°C ~ 85°C (TA),Surface Mount,32-BSOJ (0.400"   10.16mm Width),32-SOJ
+Volatile,SRAM,SRAM - Asynchronous,256Kb (32K x 8),-,25ns,25ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 125°C (TA),Surface Mount,28-TSSOP (0.465"   11.80mm Width),28-TSOP I
+Volatile,SRAM,SRAM,16Kb (2K x 8),-,100ns,100ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,24-SOIC (0.339"   8.60mm Width),24-SOP
+Non-Volatile,EEPROM,EEPROM,256Kb (32K x 8),1MHz,5ms,450ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,1Kb (128 x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,8Kb (1K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,EEPROM,EEPROM,16Kb (2K x 8),400kHz,5ms,900ns,I²C,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),1MHz,5ms,450ns,I²C,1.7 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),1MHz,5ms,450ns,I²C,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,FLASH,FLASH - NOR,16Mb (2M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-VDFN Exposed Pad,8-VDFPN (MLP8) (8x6)
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,4Mb (512K x 8),50MHz,15ms   5ms,-,SPI,2.3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8),50MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO W
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8),75MHz,15ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EPROM,EPROM - OTP,256Kb (32K x 8),-,-,100ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC (11.35x13.89)
+Non-Volatile,FLASH,FLASH - NOR,1Mb (128K x 8),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC (11.35x13.89)
+Non-Volatile,FLASH,FLASH - NOR,4Mb (512K x 8),-,45ns,45ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC (11.35x13.89)
+Non-Volatile,FLASH,FLASH - NOR,16Mb (2M x 8   1M x 16),-,55ns,55ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 125°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8   512K x 16),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,16Mb (2M x 8   1M x 16),-,70ns,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8   2M x 16),-,70ns,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,4Mb (512K x 8   256K x 16),-,55ns,55ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8   512K x 16),-,70ns,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,1Mb (128K x 8),75MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),1Mb (128K x 8),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,32-DIP Module (0.600"   15.24mm),32-PMDIP Module
+Non-Volatile,NVSRAM,NVSRAM (Non-Volatile SRAM),256Kb (32K x 8),-,70ns,70ns,Parallel,4.5 V ~ 5.5 V,0°C ~ 70°C (TA),Through Hole,28-DIP Module (0.600"   15.24mm),28-PCDIP   CAPHAT®
+Non-Volatile,EEPROM,EEPROM,2Kb (256 x 8   128 x 16),2MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,EEPROM,EEPROM,2Kb (128 x 16),2MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,128Kb (16K x 8),20MHz,5ms,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,32Kb (4K x 8),20MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,64Kb (8K x 8),20MHz,5ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,EEPROM,EEPROM,1Mb (128K x 8),16MHz,4ms,-,SPI,2.5 V ~ 5.5 V,-40°C ~ 145°C (TA),Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Non-Volatile,EEPROM,EEPROM,2Mb (256K x 8),5MHz,10ms,-,SPI,1.8 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Non-Volatile,FRAM,FRAM (Ferroelectric RAM),2Mb (256K x 8),25MHz,-,-,SPI,1.8 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOP
+Non-Volatile,RAM,MRAM (Magnetoresistive RAM),1Mb (128K x 8),40MHz,-,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-VDFN Exposed Pad,8-DFN-EP   Large Flag (5x6)
+Non-Volatile,FLASH,FLASH - NOR,256Mb (32M x 8),133MHz,8ms   2.8ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOP2
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8),-,90ns,90ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,40-TFSOP (0.724"   18.40mm Width),40-TSOP I
+Non-Volatile,FLASH,FLASH - NOR,4Mb (512K x 8   256K x 16),-,80ns,80ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8   512K x 16),-,80ns,80ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,44-SOIC (0.496"   12.60mm Width),44-SOP
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8   512K x 16),-,80ns,80ns,Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NAND,16Gb (2G x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NAND,1Gb (128M x 8),-,-,-,Parallel,1.7 V ~ 1.95 V,-40°C ~ 85°C (TA),Surface Mount,63-VFBGA,63-VFBGA
+Non-Volatile,FLASH,FLASH - NAND,2Gb (256M x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NAND,2Gb (256M x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NAND,4Gb (512M x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,63-VFBGA,63-VFBGA (9x11)
+Non-Volatile,FLASH,FLASH - NAND,4Gb (512M x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NAND,4Gb (256M x 16),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,63-VFBGA,63-VFBGA (9x11)
+Non-Volatile,FLASH,FLASH - NAND,4Gb (256M x 16),-,-,-,Parallel,1.7 V ~ 1.95 V,-40°C ~ 85°C (TA),Surface Mount,63-VFBGA,63-VFBGA
+Non-Volatile,FLASH,FLASH - NAND,64Gb (8G x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),-,-,-
+Non-Volatile,FLASH,FLASH - NAND,8Gb (1G x 8),-,-,-,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Volatile,DRAM,SDRAM - DDR3L,2Gb (128M x 16),800MHz,-,13.75ns,Parallel,1.283 V ~ 1.45 V,-40°C ~ 95°C (TC),Surface Mount,96-TFBGA,96-FBGA (8x14)
+Volatile,DRAM,SDRAM - DDR3L,4Gb (256M x 16),800MHz,-,13.75ns,Parallel,1.283 V ~ 1.45 V,-40°C ~ 95°C (TC),Surface Mount,96-TFBGA,96-FBGA (9x14)
+Volatile,PSRAM,PSRAM (Pseudo SRAM),32Mb (2M x 16),-,70ns,70ns,Parallel,1.7 V ~ 1.95 V,-30°C ~ 85°C (TC),Surface Mount,48-VFBGA,48-VFBGA (6x8)
+Volatile,DRAM,SDRAM - Mobile LPDDR,512Mb (32M x 16),200MHz,15ns,5.0ns,Parallel,1.7 V ~ 1.95 V,-40°C ~ 85°C (TA),Surface Mount,60-VFBGA,60-VFBGA (8x9)
+Volatile,DRAM,SDRAM - Mobile LPDDR,512Mb (32M x 16),200MHz,15ns,5.0ns,Parallel,1.7 V ~ 1.95 V,-40°C ~ 85°C (TA),Surface Mount,60-VFBGA,60-VFBGA (8x9)
+Volatile,DRAM,SDRAM - Mobile LPDDR,1Gb (64M x 16),200MHz,15ns,5.0ns,Parallel,1.7 V ~ 1.95 V,-40°C ~ 85°C (TA),Surface Mount,60-VFBGA,60-VFBGA (8x9)
+Volatile,DRAM,SDRAM - DDR,256Mb (16M x 16),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,256Mb (16M x 16),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,0°C ~ 70°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,256Mb (16M x 16),167MHz,15ns,700ps,Parallel,2.3 V ~ 2.7 V,0°C ~ 70°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,256Mb (16M x 16),167MHz,15ns,700ps,Parallel,2.3 V ~ 2.7 V,0°C ~ 70°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),167MHz,15ns,700ps,Parallel,2.3 V ~ 2.7 V,0°C ~ 70°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),167MHz,15ns,700ps,Parallel,2.3 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,512Mb (32M x 16),167MHz,15ns,700ps,Parallel,2.3 V ~ 2.7 V,-40°C ~ 85°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR,256Mb (32M x 8),200MHz,15ns,700ps,Parallel,2.5 V ~ 2.7 V,0°C ~ 70°C (TA),Surface Mount,66-TSSOP (0.400"   10.16mm Width),66-TSOP
+Volatile,DRAM,SDRAM - DDR2,2Gb (128M x 16),400MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,0°C ~ 85°C (TC),Surface Mount,84-TFBGA,84-FBGA (9x12.5)
+Volatile,DRAM,SDRAM - DDR2,2Gb (128M x 16),400MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,-40°C ~ 95°C (TC),Surface Mount,84-TFBGA,84-FBGA (9x12.5)
+Volatile,DRAM,SDRAM - DDR2,512Mb (32M x 16),267MHz,15ns,500ps,Parallel,1.7 V ~ 1.9 V,-40°C ~ 95°C (TC),Surface Mount,84-TFBGA,84-FBGA (12x12.5)
+Volatile,DRAM,SDRAM - DDR2,512Mb (32M x 16),400MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,0°C ~ 85°C (TC),Surface Mount,84-TFBGA,84-FBGA (8x12.5)
+Volatile,DRAM,SDRAM - DDR2,1Gb (64M x 16),267MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,0°C ~ 85°C (TC),Surface Mount,92-VFBGA,92-FBGA (11x19)
+Volatile,DRAM,SDRAM - DDR2,1Gb (64M x 16),333MHz,15ns,450ps,Parallel,1.7 V ~ 1.9 V,0°C ~ 85°C (TC),Surface Mount,84-TFBGA,84-FBGA (8x12.5)
+Volatile,DRAM,SDRAM - DDR2,512Mb (64M x 8),400MHz,15ns,400ps,Parallel,1.7 V ~ 1.9 V,-40°C ~ 95°C (TC),Surface Mount,60-TFBGA,60-FBGA (8x10)
+Volatile,DRAM,SDRAM,256Mb (16M x 16),133MHz,15ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,256Mb (16M x 16),133MHz,15ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,64Mb (2M x 32),167MHz,12ns,5.5ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,512Mb (32M x 16),133MHz,15ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,256Mb (32M x 8),133MHz,15ns,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,60-FBGA,60-FBGA (8x16)
+Volatile,DRAM,SDRAM,64Mb (4M x 16),133MHz,15ns,5.4ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,128Mb (4M x 32),167MHz,12ns,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,128Mb (4M x 32),143MHz,14ns,5.5ns,Parallel,3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,90-VFBGA,90-VFBGA (8x13)
+Volatile,DRAM,SDRAM,128Mb (4M x 32),143MHz,14ns,5.5ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,128Mb (4M x 32),143MHz,14ns,5.5ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,128Mb (4M x 32),167MHz,12ns,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,86-TFSOP (0.400"   10.16mm Width),86-TSOP II
+Volatile,DRAM,SDRAM,128Mb (8M x 16),167MHz,12ns,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Volatile,DRAM,SDRAM,256Mb (8M x 32),166MHz,12ns,5.5ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,90-VFBGA,90-VFBGA (8x13)
+Volatile,DRAM,SDRAM,64Mb (8M x 8),133MHz,14ns,5.4ns,Parallel,3 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,54-TSOP (0.400"   10.16mm Width),54-TSOP II
+Non-Volatile,FLASH,FLASH - NAND,16Gb (2G x 8),-,-,-,MMC,2.7 V ~ 3.6 V,-25°C ~ 85°C (TA),-,-,-
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8),86MHz,300µs   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOP
+Non-Volatile,FLASH,FLASH - NOR,1Gb (256M x 4),108MHz,8ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOP
+Non-Volatile,FLASH,FLASH - NOR,32Mb (8M x 4),108MHz,8ms   5ms,-,SPI,1.7 V ~ 2 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SO W
+Non-Volatile,FLASH,FLASH - NOR,128Mb (32M x 4),108MHz,8ms   5ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 125°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOP2
+Non-Volatile,FLASH,FLASH - NAND,256Mb (32M x 8),-,50ns,50ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,128Mb (8M x 16),52MHz,85ns,85ns,Parallel,1.7 V ~ 2 V,-40°C ~ 85°C (TA),Surface Mount,64-TFBGA,64-EasyBGA (10x13)
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8   4M x 16),-,75ns,75ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,64-TBGA,64-EasyBGA (10x13)
+Volatile,SRAM,SRAM,16Mb (2M x 8   1M x 16),-,55ns,55ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TSOP,48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8   4M x 16),-,75ns,75ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,64-TBGA,64-EasyBGA (10x13)
+Non-Volatile,FLASH,FLASH - NOR,128Mb (16M x 8),108MHz,-,-,SPI - Quad I/O,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SO
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8   512K x 16),-,70ns,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,16Mb (2M x 8   1M x 16),-,70ns,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8   4M x 16),-,90ns,90ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NOR,128M (16M x 8),-,110ns,110ns,Parallel,1.65 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,56-TFSOP (0.724"   18.40mm Width),56-TSOP
+Non-Volatile,FLASH,FLASH - NOR,128Mb (16M x 8),-,110ns,110ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,56-TFSOP (0.724"   18.40mm Width),56-TSOP
+Non-Volatile,FLASH,FLASH - NOR,256Mb (32M x 8),-,110ns,110ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,56-TFSOP (0.724"   18.40mm Width),56-TSOP
+Non-Volatile,FLASH,FLASH - NOR,512Mb (32M x 16),-,100ns,100ns,Parallel,2.7 V ~ 3.6 V,0°C ~ 85°C (TA),Surface Mount,64-LBGA,64-Fortified BGA (13x11)
+Non-Volatile,FLASH,FLASH,16Mb (2M x 8),50MHz,10µs,-,SPI,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,8-WDFN Exposed Pad,8-WSON (6x5)
+Non-Volatile,FLASH,FLASH,16Mb (2M x 8),50MHz,10µs,-,SPI,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,16Mb (2M x 8),50MHz,10µs,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,32Mb (4M x 8),66MHz,10µs,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),50MHz,10µs,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,64Mb (8M x 8),80MHz,2.5ms,-,SPI - Dual I/O,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Non-Volatile,FLASH,FLASH,8Mb (1M x 8),50MHz,10µs,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,1Mb (128K x 8),-,20µs,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,20µs,70ns,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,4Mb (512K x 8),-,20µs,70ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,32-LCC (J-Lead),32-PLCC
+Non-Volatile,FLASH,FLASH,4Mb (256K x 16),-,20µs,70ns,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,48-WFBGA,48-WFBGA (6x4)
+Non-Volatile,FLASH,FLASH,64Mb (4M x 16),-,10µs,70ns,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP
+Non-Volatile,FLASH,FLASH - NAND (SLC),2Gb (256M x 8),-,25ns,25ns,Parallel,2.7 V ~ 3.6 V,0°C ~ 70°C (TA),Surface Mount,48-TFSOP (0.724"   18.40mm Width),48-TSOP I
+Non-Volatile,FLASH,FLASH - NOR,128Mb (16M x 8   8M x 16),-,75ns,75ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,56-TFSOP (0.724"   18.40mm Width),56-TSOP (14x20)
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8   4M x 16),-,75ns,75ns,Parallel,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,56-TFSOP (0.724"   18.40mm Width),56-TSOP (14x20)
+Non-Volatile,FLASH,FLASH - NOR,128Mb (16M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,128Mb (16M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,256Mb (32M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-WDFN Exposed Pad,8-WSON (8x6)
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8),104MHz,50µs   3ms,-,SPI - Quad I/O   QPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-WDFN Exposed Pad,8-WSON (6x5)
+Non-Volatile,FLASH,FLASH - NOR,32Mb (4M x 8),133MHz,3ms,-,SPI - Quad I/O,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH - NOR,64Mb (8M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-WDFN Exposed Pad,8-WSON (6x5)
+Non-Volatile,FLASH,FLASH - NOR,8Mb (1M x 8),104MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,1Mb (128K x 8),104MHz,800µs,-,SPI,2.3 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Non-Volatile,FLASH,FLASH,16Mb (2M x 8),75MHz,3ms,-,SPI,2.7 V ~ 3.6 V,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.209"   5.30mm Width),8-SOIC

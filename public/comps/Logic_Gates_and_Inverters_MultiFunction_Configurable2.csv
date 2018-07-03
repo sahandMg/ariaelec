@@ -1,0 +1,7 @@
+AND/OR/INVERT Gate,2,10 Input (3   3   2   2),No,Single-Ended,400µA   8mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+AND/OR/INVERT Gate,2,8 Input (2   2   2   2),No,Single-Ended,1mA   20mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+XOR/XNOR Gate,1,2,No,Differential,-,4.2 V ~ 5.7 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+NOR/OR Gate,3,7 Input (2   3   2),No,Differential,-,-,0°C ~ 75°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOEIAJ
+NOR/OR Gate,2,9 Input (4   5),No,Differential,-,-,0°C ~ 75°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOEIAJ
+AND/OR/INVERT Gate,2,10 Input (3   3   2   2),No,Single-Ended,400µA   8mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Configurable Multiple Function,1,3,Yes,Single-Ended,32mA   32mA,1.65 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6

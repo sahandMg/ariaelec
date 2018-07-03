@@ -1,0 +1,24 @@
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm)   8 Leads,16-PDIP
+General Purpose,1,-,1.5 V/µs,150kHz,-,-,1mV,3mA,10mA,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Audio,1,-,10 V/µs,-,7MHz,-,50µV,2.7mA,45mA,±6 V ~ 18 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Audio,1,-,10 V/µs,-,7MHz,-,50µV,2.7mA,45mA,±6 V ~ 18 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Instrumentation,1,-,1.2 V/µs,-,1MHz,500pA,30µV,900µA,18mA,±2.3 V ~ 18 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Instrumentation,1,-,1.2 V/µs,-,1MHz,500pA,30µV,900µA,18mA,4.6 V ~ 36 V   ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Zero-Drift,2,Rail-to-Rail,0.4 V/µs,1.5MHz,-,10pA,1µV,850µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Zero-Drift,2,Rail-to-Rail,1 V/µs,2.5MHz,2.5MHz,30pA,1µV,850µA,30mA,2.7 V ~ 5 V   ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,60mA,3 V ~ 30 V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Audio,1,-,20 V/µs,8MHz,-,5pA,500µV,4mA,35mA,5 V ~ 36 V   ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Isolation,1,Differential,-,-,100kHz,500nA,300µV,10.86mA,15.5mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+Isolation,1,-,-,-,100kHz,500nA,300µV,10.9mA,16mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+Isolation,1,-,-,-,30kHz,-,3mV,20mA,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm)   8 Leads,16-PDIP
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,28-SOIC (0.295"   7.50mm Width)   8 Leads,8-SOIC
+Current Sense,1,-,0.4 V/µs,80kHz,-,28µA,5µV,65µA,-,2.7 V ~ 26 V,-40°C ~ 125°C,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+Current Sense,1,-,0.4 V/µs,80kHz,-,28µA,5µV,65µA,-,2.7 V ~ 26 V,-40°C ~ 125°C,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+Current Sense,1,-,2 V/µs,-,100kHz,-,100µV,240µA,1mA,2.85 V ~ 36 V   ±1.425 V ~ 18 V,0°C ~ 70°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Current Sense,1,-,-,-,200kHz,40nA,150µV,70µA,1mA,2.7 V ~ 36 V,0°C ~ 70°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Current Sense,1,-,-,-,200kHz,40nA,150µV,70µA,1mA,2.7 V ~ 36 V,-55°C ~ 150°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Current Sense,1,Open Drain,-,1MHz,-,60nA,200µV,450µA,-,2.7 V ~ 60 V,-40°C ~ 85°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Current Sense,1,-,-,200kHz,-,100nA,400µV,375µA,1mA,4 V ~ 60 V,0°C ~ 70°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Current Sense,1,-,-,-,250kHz,5µA,100µV,75µA,-,4.5 V ~ 76 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Sense,1,-,-,-,150kHz,5µA,100µV,103µA,-,4.5 V ~ 76 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC

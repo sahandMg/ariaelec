@@ -1,0 +1,18 @@
+Single Phase,Standard,1kV,35A,1.1V @ 17.5A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square   KBPC-W,KBPC-W
+Single Phase,Standard,1kV,1A,1.1V @ 1A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD   Gull Wing,DB-S
+Single Phase,Standard,600V,800mA,1V @ 400mA,5µA @ 600V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD   Gull Wing,4-MiniDIP
+Single Phase,Standard,600V,4A,1.1V @ 4A,10µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP   KBL,KBL
+Single Phase,Standard,600V,2A,1.1V @ 2A,5µA @ 600V,-65°C ~ 150°C (TJ),Through Hole,4-SIP   KBP,KBP
+Single Phase,Standard,600V,500mA,1V @ 500mA,5µA @ 600V,-55°C ~ 150°C (TJ),Surface Mount,TO-269AA   4-BESOP,4-SOIC
+Single Phase,Standard,600V,25A,1.05V @ 12.5A,10µA @ 600V,-65°C ~ 150°C (TJ),Through Hole,4-SIP   GBJ,GBJ
+Single Phase,Standard,1kV,25A,1.1V @ 12.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square   GBPC-W,GBPC-W
+Single Phase,Standard,200V,35A,1.1V @ 17.5A,5µA @ 200V,-55°C ~ 150°C (TJ),QC Terminal,4-Square   GBPC,GBPC
+Single Phase,Standard,800V,35A,1.1V @ 17.5A,10µA @ 800V,-55°C ~ 150°C (TJ),Through Hole,4-Square   GBPC-W,GBPC-W
+Single Phase,Standard,600V,4A,1V @ 2A,5µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP   GBU,GBU
+Single Phase,Standard,600V,6A,1V @ 3A,5µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP   GBU,GBU
+Single Phase,Standard,400V,800mA,1V @ 400mA,5µA @ 400V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD   Gull Wing,4-MiniDIP
+Single Phase,Standard,1kV,10A,1.1V @ 5A,10µA @ 1000V,-55°C ~ 150°C (TJ),QC Terminal,4-Square   KBPC,KBPC
+Single Phase,Standard,400V,1A,1.1V @ 1A,10µA @ 400V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD   Gull Wing,SDB-1
+Single Phase,Standard,600V,2A,1.1V @ 3.14A,5µA @ 600V,-55°C ~ 165°C (TJ),Through Hole,4-SIP   KBPM,KBPM
+Single Phase,Standard,30V,900mA,-,350µA @ 30V,150°C (TJ),Surface Mount,TO-253-4   TO-253AA,PG-SOT143-4
+Single Phase,Standard,1kV,1.5A,1.1V @ 1.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD   Gull Wing,DB-S

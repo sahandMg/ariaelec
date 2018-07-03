@@ -1,0 +1,26 @@
+TxRx + MCU,802.15.4,6LoWPAN   Zigbee®,O-QPSK,2.4GHz,2Mbps,3.5dBm,-100dBm,128kB Flash   4kB EEPROM   16kB SRAM,I²C   JTAG   SPI   USART,38,1.8 V ~ 3.6 V,12mA ~ 12.5mA,8mA ~ 14.5mA,-40°C ~ 85°C,64-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,O-QPSK,2.4GHz,2Mbps,3.5dBm,-100dBm,256kB Flash   8kB EEPROM   32kB SRAM,I²C   JTAG   SPI   USART,32,1.8 V ~ 3.6 V,5mA ~ 12.5mA,8mA ~ 14.5mA,-40°C ~ 125°C,48-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,DSSS   O-QPSK,2.4GHz,2Mbps,3.5dBm,-100dBm,256kB Flash   8kB EEPROM   32kB SRAM,I²C   JTAG   SPI   USART,35,1.8 V ~ 3.6 V,5mA ~ 12.5mA,8mA ~ 14.5mA,-40°C ~ 85°C,64-VFQFN Exposed Pad
+TxRx + MCU,General ISM < 1GHz,-,2FSK   ASK   GFSK   MSK   OOK,300MHz ~ 348MHz   391MHz ~ 464MHz   782MHz ~ 928MHz,500kBaud,10dBm,-112dBm,32kB Flash   4kB SRAM,I²S   USART,21,2 V ~ 3.6 V,16.2mA ~ 21.5mA,18mA ~ 36.2mA,-40°C ~ 85°C,36-QFN
+TxRx + MCU,General ISM < 1GHz,-,2FSK   ASK   GFSK   MSK   OOK,300MHz ~ 348MHz   391MHz ~ 464MHz   782MHz ~ 928MHz,500kBaud,10dBm,-112dBm,8kB Flash   1kB SRAM,I²S   USART,21,2 V ~ 3.6 V,16.2mA ~ 21.5mA,18mA ~ 36.2mA,-40°C ~ 85°C,36-VFQFN Exposed Pad
+TxRx + MCU,General ISM < 1GHz,-,DSSS   GFSK,300MHz ~ 930MHz,50kbps,14dBm,-124dBm,128kB Flash   20kB RAM,I²C   I²S   JTAG   SPI   UART,30,1.8 V ~ 3.8 V,5.5mA,12.9mA ~ 22.6mA,-40°C ~ 85°C,48-VFQFN Exposed Pad
+TxRx Only,802.15.4,Zigbee®,DSSS   O-QPSK,2.4GHz,250kbps,0dBm,-95dBm,-,SPI,-,2.1 V ~ 3.6 V,18.8mA,8.5mA ~ 17.4mA,-40°C ~ 85°C,48-VFQFN Exposed Pad
+TxRx Only,General ISM > 1GHZ,-,2FSK   GFSK   MSK   OOK,2.4GHz,500kBaud,1dBm,-104dBm,-,SPI,-,1.8 V ~ 3.6 V,13.3mA ~ 19.6mA,11.1mA ~ 21.5mA,-40°C ~ 85°C,20-VFQFN Exposed Pad
+TxRx + MCU,General ISM > 1GHZ,-,2FSK   GFSK   MSK,2.4GHz,500kBaud,1dBm,-103dBm,32kB Flash   4kB SRAM,I²S   SPI   USART   USB,19,3 V ~ 3.6 V,14.7mA ~ 22.9mA,15.5mA ~ 26mA,0°C ~ 85°C,36-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,DSSS   O-QPSK,2.4GHz,250kbps,5dBm,-98dBm,768B RAM,SPI,6,1.8 V ~ 3.8 V,18.5mA ~ 22.3mA,25.8mA ~ 33.6mA,-40°C ~ 125°C,28-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,-,2.4GHz,250kbps,4.5dBm,-97dBm,256kB Flash   8kB RAM,SPI   USART,21,2 V ~ 3.6 V,20.5mA ~ 24.3mA,28.7mA ~ 33.5mA,-40°C ~ 125°C,40-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,-,2.4GHz,250kbps,4.5dBm,-97dBm,256kB Flash   8kB RAM,SPI   USART,21,2 V ~ 3.6 V,20.5mA ~ 24.3mA,28.7mA ~ 33.5mA,-40°C ~ 125°C,40-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,Zigbee®,-,2.4GHz,250kbps,4.5dBm,-97dBm,256kB Flash   8kB RAM,SPI   USART   USB,21,2 V ~ 3.6 V,20.5mA ~ 24.3mA,28.7mA ~ 33.5mA,-40°C ~ 125°C,40-VFQFN Exposed Pad
+TxRx + MCU,802.15.4,6LoWPAN   Zigbee®,-,2.4GHz,250kbps,7dbm,-97dBm,512kB Flash   32kB RAM,I²C   JTAG   SPI   UART   USB,32,2 V ~ 3.6 V,20mA ~ 24mA,24mA ~ 34mA,-40°C ~ 125°C,56-VFQFN Exposed Pad
+TxRx + MCU,Bluetooth,Bluetooth v4.0,GFSK,2.4GHz,1Mbps,4dBm,-93dBm,256kB Flash   8kB SRAM,SPI   USART   USB,21,2 V ~ 3.6 V,19.6mA ~ 22.1mA,21.1mA ~ 31.6mA,-40°C ~ 85°C,40-VFQFN Exposed Pad
+TxRx + MCU,Bluetooth,Bluetooth v4.0,GFSK   MSK,2.4GHz,2Mbps,0dBm,-99dBm,128kB Flash   8kB RAM,I²C   SPI   USART,23,2 V ~ 3.6 V,17.9mA ~ 20.2mA,16.8mA ~ 18.2mA,-40°C ~ 85°C,40-VFQFN Exposed Pad
+TxRx + MCU,Bluetooth,Bluetooth v4.0,GFSK   MSK,2.4GHz,2Mbps,0dBm,-99dBm,256kB Flash   8kB RAM,I²C   SPI   USART,23,2 V ~ 3.6 V,17.9mA ~ 20.2mA,16.8mA ~ 18.2mA,-40°C ~ 85°C,40-VFQFN Exposed Pad
+TxRx + MCU,Bluetooth,Bluetooth v4.1,DSSS   O-QPSK   GFSK,2.4GHz,1Mbps,5dBm,-97dBm,128kB Flash   28kB SRAM,I²C   I²S   JTAG   SPI   UART,15,1.8 V ~ 3.8 V,5.9mA ~ 6.1mA,6.1mA ~ 9.1mA,-40°C ~ 85°C,32-VFQFN Exposed Pad
+TxRx + MCU,WiFi,802.11b/g/n,DSSS   OFDM,2.4GHz,54Mbps,18.3dBm,-95.7dBm,256kB RAM   64kB ROM,I²C   I²S   JTAG   SPI   UART,27,2.1 V ~ 3.6 V,53mA ~ 59mA,53mA ~ 59mA,-40°C ~ 85°C,64-VFQFN Exposed Pad
+TxRx + MCU,General ISM < 1GHz,-,2FSK   2GFSK   ASK   MSK   OOK,300MHz ~ 348MHz   389MHz ~ 464MHz   779MHz ~ 928MHz,500kBaud,13dBm,-117dBm,32kB Flash   4kB SRAM,I²C   IrDA   JTAG   SPI   UART,30,2 V ~ 3.6 V,15mA ~ 18.5mA,15mA ~ 36mA,-40°C ~ 85°C,48-VFQFN Exposed Pad
+TxRx Only,VHF,FM Radio,ASK   FSK   GFSK   GOOK   OOK,80MHz ~ 650MHz,200kbps,13dBm (Max),-119.2dBm,-,SPI,-,2.3 V ~ 3.6 V,17.6mA ~ 20.1mA,13mA ~ 21mA,-40°C ~ 85°C,48-VFQFN Exposed Pad   CSP
+TxRx Only,General ISM < 1GHz,-,ASK   FSK   GFSK   GMSK   MSK   OOK   O-QPSK,431MHz ~ 478MHz   862MHz ~ 956MHz,200kbps,13dBm (Max),-119.2dBm,-,SPI,-,2.3 V ~ 3.6 V,19mA ~ 21mA,14.8mA ~ 28.5mA,-40°C ~ 85°C,48-VFQFN Exposed Pad   CSP
+TxRx Only,General ISM < 1GHz,-,2FSK   2GFSK   3FSK   4FSK   FHSS   GMSK   MSK,80MHz ~ 650MHz   862MHz ~ 950MHz,32.8kbps,13dBm,-130dBm,-,SPI   UART,-,2.3 V ~ 3.6 V,17.5mA ~ 26.4mA,13.5mA ~ 32.3mA,-40°C ~ 85°C,48-VFQFN Exposed Pad   CSP
+TxRx Only,General ISM < 1GHz,-,2FSK   2GFSK   3FSK   4FSK   FHSS   GMSK   MSK,80MHz ~ 650MHz   842MHz ~ 916MHz,24kbps,13dBm,-130dBm,-,SPI   UART,-,2.3 V ~ 3.6 V,17.5mA ~ 26.4mA,13.5mA ~ 32.3mA,-40°C ~ 85°C,48-VFQFN Exposed Pad   CSP
+TxRx + MCU,802.15.4,-,DSSS   GSK   GFSK   GMSK   MSK   O-QPSK,2.4GHz,2Mbps,4.8dBm,-96dBm,4kB ROM   2.5kB RAM,SPI,7,1.8 V ~ 3.6 V,19mA,16.5mA ~ 25mA,-40°C ~ 85°C,32-WFQFN Exposed Pad   CSP
+TxRx + MCU,Bluetooth,Bluetooth v4.0,-,2.4GHz,3.69Mbaud,9dBm,-94dBm,64kB RAM   64kB ROM,I²C   SPI   UART,15,1.2 V ~ 3.6 V,20mA,18mA,-30°C ~ 85°C,32-UFQFN Exposed Pad

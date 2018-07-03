@@ -1,0 +1,36 @@
+Thermocouple to Digital Converter,Thermocouple (Multiple),Digital,SPI,900µA,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,-,23mA,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Thermocouple to Digital Converter,Thermocouple (K),Digital,SPI,1.5mA,-20°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,2-Wire,20mA,-55°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,-,23mA,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+CCD Signal Processor   12-Bit,Logic,Logic,3-Wire Serial,-,-20°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+Preamplifier,Voltage,Voltage,-,300µA,-30°C ~ 75°C,Surface Mount,14-LSSOP (0.173"   4.40mm Width),14-SSOPB
+Signal Conditioner,Analog,Analog,Serial,2.5mA,-40°C ~ 125°C,Surface Mount,16-SSOP (0.209"   5.30mm Width),16-SSOP
+Thermocouple to Digital Converter,Thermocouple (Multiple),Digital,SPI,900µA,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Thermocouple to Digital Converter,Thermocouple,Digital,SPI,1.2mA,-55°C ~ 125°C,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Detector Controller,Digital,Digital,CMOS,50µA,-40°C ~ 85°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Proximity Detector,Analog,Analog,-,550µA,-40°C ~ 110°C,-,16-SOIC (0.154"   3.90mm Width),PG-DSO-16-1
+Proximity Detector,-,-,-,12mA,150°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Current Transmitter,Differential,Voltage,2-Wire,20mA,-40°C ~ 85°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Current Transmitter,Differential,Voltage,2-Wire,20mA,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Current Transmitter,Differential,Voltage,3-Wire,20mA,-40°C ~ 85°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Current Transmitter,Differential,Voltage,3-Wire,20mA,-40°C ~ 85°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Current Transmitter,Voltage,Current,-,20mA,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Current Transmitter,Voltage,Current,-,20mA,0°C ~ 70°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Current Transmitter,Voltage,Voltage,3-Wire,550µA,-40°C ~ 85°C,Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width) Exposed Pad,10-MSOP-PowerPad
+Current Transmitter,Voltage,Voltage,2-Wire,20mA,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,2-Wire,20mA,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+Capacitance-to-Digital Converter,Voltage,Digital,2-Wire Serial,120µA,-40°C ~ 85°C,Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Signal Processor,Analog,Digital,Serial,95mA,0°C ~ 70°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+Image Sensor,Logic,Logic,3-Wire Serial,75mA,-40°C ~ 85°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+CCD Signal Processor   12-Bit,Logic,Logic,3-Wire Serial,-,-20°C ~ 85°C,Surface Mount,48-LQFP,48-LQFP (7x7)
+CCD Signal Processor   10-Bit,Logic,Logic,3-Wire Serial,-,-20°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+Data Acquisition System (DAS),Differential,Digital,I²C,-,-40°C ~ 125°C,Surface Mount,12-WFDFN Exposed Pad,12-MLPD-WEP (4x4)
+Thermocouple to Digital Converter,Thermocouple (Multiple),Digital,SPI,900µA,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,-,23mA,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Thermocouple to Digital Converter,Thermocouple (K),Digital,SPI,1.5mA,-20°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,2-Wire,20mA,-55°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Current Transmitter,Voltage,Voltage,-,23mA,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+CCD Signal Processor   12-Bit,Logic,Logic,3-Wire Serial,-,-20°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+Preamplifier,Voltage,Voltage,-,300µA,-30°C ~ 75°C,Surface Mount,14-LSSOP (0.173"   4.40mm Width),14-SSOPB
+CCD Signal Processor   14-Bit,Logic,Logic,3-Wire Serial,73mA,0°C ~ 70°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP

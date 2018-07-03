@@ -1,0 +1,38 @@
+PIN - Single,30V,50mA,0.5pF @ 0V   100MHz,50 Ohm @ 1.5mA   100MHz,-,125°C (TJ),DO-204AH   DO-35   Axial,DO-35
+PIN - Single,100V,1A,0.35pF @ 50V   1MHz,3 Ohm @ 100mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - Single,100V,1A,0.35pF @ 50V   1MHz,3 Ohm @ 100mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - 1 Pair Common Cathode,100V,1A,0.35pF @ 50V   1MHz,3 Ohm @ 100mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - 1 Pair Common Cathode,100V,1A,0.35pF @ 50V   1MHz,3 Ohm @ 100mA   100MHz,-,150°C (TJ),SC-70   SOT-323,SOT-323
+PIN - 1 Pair Series Connection,50V,1A,0.8pF @ 20V   1MHz,600 mOhm @ 10mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - 1 Pair Series Connection,50V,1A,0.2pF @ 50V   1MHz,1.5 Ohm @ 100mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - 2 Pair CA + CC,50V,1A,0.22pF @ 50V   1MHz,1.5 Ohm @ 100mA   100MHz,-,150°C (TJ),SC-74A   SOT-753,SOT-25-5
+PIN - Single,50V,1A,0.75pF @ 20V   1MHz,600 mOhm @ 10mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+PIN - Single,100V,1A,0.375pF @ 5V   1MHz,2.5 Ohm @ 5mA   100MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - Single,70V,1A,2pF @ 0V   1MHz,35 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Series Connection,70V,1A,2pF @ 0V   1MHz,35 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Common Cathode,70V,1A,2pF @ 0V   1MHz,35 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Series Connection,20V,1A,1.2pF @ 0V   1MHz,15 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - Single,15V,1A,1pF @ 0V   1MHz,12 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - Single,15V,1A,1pF @ 0V   1MHz,12 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Series Connection,15V,1A,1pF @ 0V   1MHz,12 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 2 Independent,15V,1A,1pF @ 0V   1MHz,12 Ohm @ 5mA   1MHz,-,150°C (TJ),TO-253-4   TO-253AA,SOT-143-4
+Schottky - 1 Pair Series Connection,15V,1A,1pF @ 0V   1MHz,12 Ohm @ 5mA   1MHz,-,150°C (TJ),SC-70   SOT-323,SOT-323
+Schottky - 1 Pair Series Connection,2V,-,0.3pF @ 1V   1MHz,-,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Series Connection,2V,-,0.3pF @ 1V   1MHz,-,-,150°C (TJ),SC-70   SOT-323,SOT-323
+Schottky - 1 Pair Series Connection,4V,-,0.3pF @ 0V   1MHz,-,-,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - 1 Pair Series Connection,4V,-,0.25pF @ 0V   1MHz,-,-,150°C (TJ),SC-70   SOT-323,SOT-323
+Schottky - 1 Pair Isolated,4V,-,0.25pF @ 0V   1MHz,-,-,150°C (TJ),6-TSSOP   SC-88   SOT-363,SOT-363
+Schottky - 1 Pair Series Connection,4V,-,0.26pF @ 0V   1MHz,14 Ohm @ 5mA   1MHz,75mW,150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Schottky - Single,3V,20mA,0.3pF @ 0V   1MHz,-,-,-65°C ~ 125°C (TJ),SC-76   SOD-323,SOD-323
+PIN - Single,100V,-,1.2pF @ 50V   1MHz,750 mOhm @ 50mA   100MHz,6W,-55°C ~ 175°C (TJ),2-SMD,-
+Schottky - 1 Pair Series Connection,7V,-,1pF @ 0V   1MHz,-,225mW,-55°C ~ 150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Schottky - Single,8V,10mA,1pF @ 0V   1MHz,-,150mW,-60°C ~ 150°C (TJ),DO-204AH   DO-35   Axial,-
+PIN - Single,50V,50mA,0.35pF @ 5V   1MHz,5 Ohm @ 10mA   100MHz,500mW,-65°C ~ 150°C (TJ),SC-76   SOD-323,SOD-323
+PIN - Single,30V,100mA,0.375pF @ 20V   1MHz,350 mOhm @ 100mA   100MHz,715mW,-65°C ~ 150°C (TJ),SC-79   SOD-523,SOD-523
+PIN - 1 Pair Series Connection,100V,140mA,0.5pF @ 50V   1MHz,12 Ohm @ 10mA   100MHz,250mW,150°C (TJ),TO-236-3   SC-59   SOT-23-3,PG-SOT23-3
+PIN - 1 Pair Series Connection,50V,100mA,0.3pF @ 5V   1MHz,1 Ohm @ 10mA   100MHz,250mW,150°C (TJ),TO-236-3   SC-59   SOT-23-3,PG-SOT23-3
+PIN - 1 Pair Series Connection,50V,100mA,0.3pF @ 5V   1MHz,1 Ohm @ 10mA   100MHz,250mW,150°C (TJ),SC-70   SOT-323,PG-SOT323-3
+PIN - Single,150V,200mA,0.55pF @ 5V   1MHz,1 Ohm @ 10mA   100MHz,250mW,150°C (TJ),SC-79   SOD-523,PG-SC79-2
+Schottky - Single,4V,130mA,0.75pF @ 0V   1MHz,15 Ohm @ 5mA   10kHz,150mW,150°C (TJ),TO-236-3   SC-59   SOT-23-3,PG-SOT23-3
+Schottky - Single,40V,20mA,0.6pF @ 0V   1MHz,-,100mW,150°C (TJ),SC-76   SOD-323,PG-SOD323-2
+PIN - Single,120V,100mA,0.32pF @ 6V   1MHz,2.2 Ohm @ 10mA   500MHz,10W,175°C (TJ),2-VDFN Exposed Pad,3-QFN (2x2)

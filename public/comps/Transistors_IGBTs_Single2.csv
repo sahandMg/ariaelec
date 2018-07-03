@@ -1,0 +1,23 @@
+NPT and Trench,1200V,50A,90A,2.65V @ 15V   50A,312W,4.1mJ (on)   960µJ (off),Standard,200nC,50ns/190ns,600V   25A   10 Ohm   15V,350ns,-55°C ~ 150°C (TJ),Through Hole,TO-3P-3   SC-65-3,TO-3P
+Field Stop,600V,120A,180A,2.9V @ 15V   60A,378W,1.97mJ (on)   570µJ (off),Standard,188nC,26ns/134ns,400V   60A   5 Ohm   15V,55ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247
+-,600V,54A,96A,2.7V @ 15V   12A,167W,55µJ (on)   50µJ (off),Standard,78nC,17ns/96ns,390V   12A   10 Ohm   15V,30ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247
+-,1200V,60A,90A,1.75V @ 15V   30A,349W,1.47mJ (off),Standard,263nC,-/326ns,600V   30A   10 Ohm   15V,-,-40°C ~ 175°C (TJ),Through Hole,TO-247-3,TO-247-3
+-,650V,80A,150A,2.1V @ 15V   50A,305W,520µJ (on)   180µJ (off),Standard,120nC,21ns/180ns,400V   25A   12 Ohm   15V,57ns,-40°C ~ 175°C (TJ),Through Hole,TO-247-3,PG-TO247-3
+Trench Field Stop,600V,80A,225A,2V @ 15V   75A,428W,4.5mJ,Standard,470nC,33ns/330ns,400V   75A   5 Ohm   15V,121ns,-40°C ~ 175°C (TJ),Through Hole,TO-247-3,PG-TO247-3
+-,600V,16A,64A,2V @ 15V   9A,60W,250µJ (on)   640µJ (off),Standard,27nC,43ns/240ns,480V   9A   50 Ohm   15V,37ns,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220AB
+-,600V,13A,52A,2.6V @ 15V   6.5A,60W,60µJ (on)   80µJ (off),Standard,26nC,22ns/110ns,480V   6.5A   50 Ohm   15V,-,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220AB
+-,600V,31A,124A,1.8V @ 15V   17A,100W,630µJ (on)   1.39mJ (off),Standard,51nC,42ns/230ns,480V   17A   23 Ohm   15V,42ns,-55°C ~ 150°C (TJ),Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+-,600V,40A,160A,2.1V @ 15V   20A,160W,320µJ (on)   350µJ (off),Standard,100nC,34ns/110ns,480V   20A   10 Ohm   15V,-,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220AB
+-,600V,60A,120A,1.5V @ 15V   31A,160W,450µJ (on)   6.5mJ (off),Standard,100nC,22ns/650ns,480V   31A   10 Ohm   15V,-,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,600V,70A,280A,1.6V @ 15V   39A,200W,1.5mJ (on)   2.4mJ (off),Standard,190nC,55ns/240ns,480V   39A   5 Ohm   15V,50ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,600V,55A,220A,2V @ 15V   27A,200W,990µJ (on)   590µJ (off),Standard,180nC,46ns/140ns,480V   27A   5 Ohm   15V,50ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,600V,55A,220A,2V @ 15V   27A,200W,990µJ (on)   590µJ (off),Standard,180nC,46ns/140ns,480V   27A   5 Ohm   15V,50ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,600V,75A,300A,2V @ 15V   40A,520W,280µJ (on)   1.1mJ (off),Standard,310nC,39ns/200ns,480V   40A   5 Ohm   15V,-,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,900V,51A,204A,2.7V @ 15V   28A,200W,2.63mJ (on)   1.34mJ (off),Standard,160nC,71ns/150ns,720V   28A   5 Ohm   15V,90ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+-,1200V,41A,82A,3.1V @ 15V   21A,160W,1.8mJ (on)   1.93mJ (off),Standard,86nC,46ns/97ns,800V   21A   10 Ohm   15V,63ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+NPT,600V,60A,120A,2.55V @ 15V   35A,308W,220µJ (on)   215µJ (off),Standard,160nC,26ns/110ns,390V   22A   3.3 Ohm   15V,-,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+NPT,600V,75A,150A,2.85V @ 15V   50A,390W,255µJ (on)   375µJ (off),Standard,205nC,30ns/130ns,390V   33A   3.3 Ohm   15V,42ns,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247AC
+NPT,600V,7.8A,15.6A,2.4V @ 15V   3A,52W,62µJ (on)   39µJ (off),Standard,13nC,18ns/110ns,400V   3A   100 Ohm   15V,77ns,-55°C ~ 150°C (TJ),Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+NPT,600V,11A,22A,2.5V @ 15V   4A,63W,73µJ (on)   47µJ (off),Standard,12nC,22ns/100ns,400V   4A   100 Ohm   15V,93ns,-55°C ~ 175°C (TJ),Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+NPT,1200V,6.2A,9.6A,3.6V @ 15V   2A,62W,220µJ,Standard,11nC,23ns/260ns,800V   2A   91 Ohm   15V,-,-55°C ~ 150°C (TJ),Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,PG-TO263-3
+NPT,600V,12A,24A,3.15V @ 15V   6A,68W,190µJ,Standard,33nC,11ns/196ns,400V   6A   50 Ohm   15V,100ns,-55°C ~ 150°C (TJ),Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,PG-TO263-3-2

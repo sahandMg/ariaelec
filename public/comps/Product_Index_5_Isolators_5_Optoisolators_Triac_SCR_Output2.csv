@@ -1,0 +1,22 @@
+Triac,No,1,5000Vrms,400V,1kV/µs,15mA,-,250µA (Typ),-,1.15V,50mA,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,CQC   CSA   TUV   UL   VDE
+Triac,No,1,5000Vrms,400V,1kV/µs,5mA,-,250µA (Typ),-,1.15V,50mA,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD,CQC   CSA   TUV   UL   VDE
+Triac,No,1,4170Vrms,250V,-,5mA,-,100µA (Typ),-,1.15V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UL
+Triac,No,1,5000Vrms,400V,1kV/µs,30mA,-,250µA (Typ),-,1.15V,50mA,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,CQC   CSA   TUV   UL   VDE
+Triac,No,1,4170Vrms,400V,-,15mA,-,100µA (Typ),-,1.15V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,No,1,5000Vrms,400V,1kV/µs,10mA,-,250µA (Typ),-,1.15V,50mA,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD,CQC   CSA   TUV   UL   VDE
+Triac,No,1,4170Vrms,400V,-,10mA,-,100µA (Typ),-,1.15V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,No,1,4170Vrms,400V,-,5mA,-,100µA (Typ),-,1.15V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,Yes,1,4170Vrms,400V,1kV/µs,15mA,-,400µA (Typ),-,1.25V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,Yes,1,4170Vrms,400V,1kV/µs,10mA,-,400µA (Typ),-,1.25V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,Yes,1,4170Vrms,400V,1kV/µs,5mA,-,400µA (Typ),-,1.25V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UL
+Triac,No,1,4170Vrms,600V,1kV/µs,15mA,-,220µA (Typ),-,1.18V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UR
+Triac,No,1,4170Vrms,600V,1kV/µs,10mA,-,220µA (Typ),-,1.18V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UR
+Triac,No,1,4170Vrms,600V,1kV/µs,10mA,-,220µA (Typ),-,1.18V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UR
+Triac,Yes,1,4170Vrms,600V,600V/µs,15mA,-,500µA (Typ),-,1.3V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,Yes,1,4170Vrms,600V,600V/µs,10mA,-,500µA (Typ),-,1.3V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UL
+Triac,Yes,1,5000Vrms,600V,1kV/µs,5mA,-,400µA (Typ),-,1.2V,50mA,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD,CSA   FIMKO   UL
+Triac,Yes,1,4170Vrms,800V,600V/µs,15mA,-,500µA (Typ),-,1.3V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,Yes,1,4170Vrms,800V,600V/µs,5mA,-,500µA (Typ),-,1.3V,60mA,-40°C ~ 85°C,Surface Mount,6-SMD   Gull Wing,6-SMD,UL
+Triac,Yes,1,4170Vrms,600V,1kV/µs,5mA,-,500µA (Typ),-,1.3V,60mA,-40°C ~ 85°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP,UL
+Triac,No,1,5000Vrms,600V,1kV/µs,7mA,100mA,3.5mA,100µs (Max),1.2V,50mA,-30°C ~ 100°C,-,-,-,CSA   UR
+Triac,No,1,5300Vrms,800V,5kV/µs,2mA,300mA,-,-,1.2V,60mA,-55°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD,BSI   cUR   FIMKO   UR

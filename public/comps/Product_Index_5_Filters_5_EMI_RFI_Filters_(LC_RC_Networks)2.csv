@@ -1,0 +1,6 @@
+Low Pass,2nd,RC (Pi),2,-,-28dB @ 900MHz,22,-,R = 22 Ohms   C = 47pF,Yes,-40°C ~ 125°C,USB,-,Surface Mount,6-TSSOP   SC-88   SOT-363,0.079" L x 0.049" W (2.00mm x 1.25mm),0.043" (1.09mm)
+Low Pass,2nd,RC (Pi),2,-,-,33,-,R = 33 Ohms   C = 20pF,Yes,-40°C ~ 85°C,USB,-,Surface Mount,11-WFBGA   FCBGA,0.076" L x 0.057" W (1.94mm x 1.44mm),0.028" (0.70mm)
+Low Pass,2nd,RC (Pi),3,-,-,22,-,R = 22 Ohms   C = 42pF (Total),Yes,-55°C ~ 125°C,USB,-,Surface Mount,SOT-563   SOT-666,0.063" L x 0.047" W (1.60mm x 1.20mm),0.024" (0.60mm)
+Low Pass,2nd,RC (Pi),2,-,-,55,-,R = 55 Ohms   C = 250pF (Total),Yes,-,Data Lines for Mobile Devices,-,Surface Mount,SOT-23-6,0.115" L x 0.064" W (2.93mm x 1.63mm),0.057" (1.45mm)
+Low Pass,2nd,RC (Pi),2,-,-28dB @ 900MHz,22,-,R = 22 Ohms   C = 47pF,Yes,-40°C ~ 125°C,USB,-,Surface Mount,6-TSSOP   SC-88   SOT-363,0.079" L x 0.049" W (2.00mm x 1.25mm),0.043" (1.09mm)
+Low Pass,2nd,RC (Pi),2,-,-,33,-,R = 33 Ohms   C = 20pF,Yes,-40°C ~ 85°C,USB,-,Surface Mount,11-WFBGA   FCBGA,0.076" L x 0.057" W (1.94mm x 1.44mm),0.028" (0.70mm)

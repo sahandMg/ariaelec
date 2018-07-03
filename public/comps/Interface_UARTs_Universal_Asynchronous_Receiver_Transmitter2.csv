@@ -1,0 +1,11 @@
+Configurable GPIO   Internal Oscillator   Timer/Counter,2   DUART,16 Byte,RS232   RS485,4Mbps,2.97 V ~ 5.5 V,-,-,Yes,Yes,Surface Mount,44-LCC (J-Lead),44-PLCC (16.59x16.59)
+-,2   DUART,16 Byte,-,1.5Mbps,5V,-,-,Yes,Yes,Surface Mount,44-LCC (J-Lead),44-PLCC (16.58x16.58)
+-,1   UART,128 Byte,RS485,5Mbps,2.5 V ~ 3.3 V,Yes,Yes,Yes,Yes,Surface Mount,32-VFQFN Exposed Pad,32-HVQFN (5x5)
+Configurable GPIO   Internal Oscillator   Timer/Counter,1   UART,-,-,-,5V,Yes,-,Yes,-,Through Hole,24-DIP (0.300"   7.62mm),24-DIP
+Configurable GPIO   Internal Oscillator   Timer/Counter,2   DUART,-,-,1Mbps,5V,Yes,-,Yes,-,Surface Mount,44-LCC (J-Lead),44-PLCC (16.59x16.59)
+-,-,-,-,-,-,-,-,-,-,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+Timer/Counter,1   UART,16 Byte,-,1.5Mbps,2.97 V ~ 5.5 V,-,-,Yes,Yes,Surface Mount,44-LCC (J-Lead),44-PLCC (16.59x16.59)
+Internal Oscillator   Timer/Counter,4   QUART,16 Byte,RS232,1.5Mbps,2.97 V ~ 5.5 V,Yes,-,Yes,Yes,Surface Mount,68-LCC (J-Lead),68-PLCC (24.23x24.23)
+Internal Oscillator   Timer/Counter,4   QUART,16 Byte,RS232,1.5Mbps,2.97 V ~ 5.5 V,Yes,-,Yes,Yes,Surface Mount,68-LCC (J-Lead),68-PLCC (24.23x24.23)
+Printer Port,2   DUART,-,-,-,4.75 V ~ 5.25 V,-,-,-,Yes,Surface Mount,68-LCC (J-Lead),68-PLCC (24.23x24.23)
+Configurable GPIO   Internal Oscillator   Timer/Counter,2   DUART,16 Byte,RS232   RS485,4Mbps,2.97 V ~ 5.5 V,-,-,Yes,Yes,Surface Mount,44-LCC (J-Lead),44-PLCC (16.59x16.59)

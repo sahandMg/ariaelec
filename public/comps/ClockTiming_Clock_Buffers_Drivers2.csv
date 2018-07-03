@@ -1,0 +1,13 @@
+Fanout Buffer (Distribution),1,1:4,No/No,LVCMOS,LVCMOS,250MHz,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Fanout Buffer (Distribution)   Multiplexer,1,2:4,Yes/Yes,LVCMOS   LVDS   LVPECL   LVTTL,LVPECL,2GHz,2.375 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Fanout Buffer (Distribution),1,1:2,No/No,LVTTL,LVCMOS   LVTTL,166MHz,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Fanout Buffer (Distribution),1,1:4,Yes/Yes,HCSL   LVDS   LVHSTL   LVPECL   SSTL,LVDS,700MHz,3.135 V ~ 3.465 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Fanout Buffer (Distribution),1,1:10,No/No,LVTTL,CMOS   TTL,100MHz,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+Fanout Buffer (Distribution),1,1:10,No/No,LVTTL,CMOS   TTL,100MHz,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Fanout Buffer (Distribution),1,1:2,Yes/No,CML   CMOS   LVDS   LVPECL,CMOS,300MHz,3.15 V ~ 3.45 V,-40°C ~ 85°C,Surface Mount,12-TSSOP (0.118"   3.00mm Width),12-MSOP
+Fanout Buffer (Distribution),2,1:4   1:5,Yes/Yes,ECL   PECL,ECL   PECL,700MHz,4.2 V ~ 5.7 V,0°C ~ 85°C,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+Fanout Buffer (Distribution)   Multiplexer,1,2:4,Yes/Yes,CML   HCSL   LVCMOS   LVDS   LVPECL,CML   HCSL   LVCMOS   LVDS   LVPECL,1.25GHz,1.71 V ~ 3.63 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Fanout Buffer (Distribution),1,1:2,Yes/Yes,ECL   PECL,ECL   PECL,3.8GHz,2.375 V ~ 3.8 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+-,-,-,-,-,-,-,-,-,-,-,-
+Fanout Buffer (Distribution),1,1:4,No/No,LVCMOS,LVCMOS,250MHz,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Fanout Buffer (Distribution)   Multiplexer,1,2:4,Yes/Yes,LVCMOS   LVDS   LVPECL   LVTTL,LVPECL,2GHz,2.375 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)

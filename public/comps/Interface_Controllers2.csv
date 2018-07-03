@@ -1,0 +1,59 @@
+USB,Bridge   USB to UART  FIFO,UART,USB 2.0,3 V ~ 3.6 V,70mA,-40°C ~ 85°C,64-LQFP,64-LQFP
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 3.6 V,70mA,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 5.5 V,13mA,-40°C ~ 85°C,20-VQFN Exposed Pad,20-VQFN
+CAN,Controller,Parallel,CAN 2.0,4.5 V ~ 5.5 V,15mA,-40°C ~ 125°C,28-SOIC (0.295"   7.50mm Width),28-SO
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,20mA,0°C ~ 70°C,48-LQFP,48-LQFP (7x7)
+USB,Controller,SPI   UART,USB 2.0,1.62 V ~ 1.98 V,25mA,-40°C ~ 85°C,32-LQFP,32-LQFP (7x7)
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 3.6 V,20mA,-40°C ~ 85°C,28-VFQFN Exposed Pad,28-QFN (5x5)
+USB,Bridge   USB to UART,UART,USB 2.0,1.8V   3 V ~ 3.6 V,17mA,-40°C ~ 85°C,24-WFQFN Exposed Pad,24-QFN (4x4)
+USB,Bridge   USB to UART,UART,USB 2.0,1.71 V ~ 5.5 V,20mA,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,3.3 V ~ 5 V,8mA,-40°C ~ 85°C,16-SSOP (0.154"   3.90mm Width),16-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,3.3 V ~ 5 V,8mA,-40°C ~ 85°C,20-SSOP (0.154"   3.90mm Width),20-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,4.35 V ~ 5.25 V,25mA,0°C ~ 70°C,32-LQFP,32-LQFP (7x7)
+USB,Bridge   USB to UART  FIFO,UART   FIFO,USB 2.0,1.62 V ~ 1.98 V   2.97 V ~ 3.63 V,24mA,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+USB,Bridge   USB to UART  FIFO,UART   FIFO,USB 2.0,1.62 V ~ 1.98 V   2.97 V ~ 3.63 V,24mA,-40°C ~ 85°C,48-VFQFN Exposed Pad,48-QFN (8x8)
+USB,Controller,UART,USB 2.0,2.97 V ~ 3.63 V,25mA,-40°C ~ 85°C,32-LQFP,32-LQFP (7x7)
+USB,Controller,USB,USB 2.0,2.97 V ~ 3.63 V,35mA,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+USB,Controller,USB,USB 2.0,2.97 V ~ 3.63 V,35mA,-40°C ~ 85°C,64-TQFP,64-TQFP (7x7)
+RS232   RS485,Controller,SPI   UART,-,2.7 V ~ 5.5 V,150µA,0°C ~ 70°C,16-SSOP (0.154"   3.90mm Width),16-QSOP
+RS232   RS485,Controller,SPI   UART,-,2.7 V ~ 5.5 V,150µA,-40°C ~ 85°C,16-SSOP (0.154"   3.90mm Width),16-QSOP
+CAN,Controller,SPI,CAN 2.0,2.7 V ~ 5.5 V,10mA,-40°C ~ 85°C,18-SOIC (0.295"   7.50mm Width),18-SOIC
+CAN,Controller,SPI,CAN 2.0,2.7 V ~ 5.5 V,10mA,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+I²C,Controller,Parallel,-,4.5 V ~ 5.5 V,1.5mA,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SO
+RS232   RS485,Controller,I²C   SPI   UART,-,2.5V   3.3V,6mA,-40°C ~ 95°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+RS232   RS485,Controller,I²C   SPI   UART,-,2.5V   3.3V,6mA,-40°C ~ 95°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+RS232   RS485,Controller,I²C   SPI   UART,-,2.5V   3.3V,2mA,-40°C ~ 95°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+IEEE 1394,Physical Layer Controller,-,IEEE 1394-1995,3.3V,-,0°C ~ 70°C,48-TQFP,48-TQFP (7x7)
+IEEE 1394,Physical Layer Controller,Parallel,IEEE 1394a-2000,3.3V,-,-,144-LQFP,144-LQFP (20x20)
+IEEE 1394,Physical Layer Controller,Parallel,IEEE 1394a-2000,3.3V,-,-,144-LQFP,144-LQFP (20x20)
+IEEE 1394,Physical Layer Controller,PCI,IEEE 1394-1995   1394a-2000   OHCI   Firewire™   i.Link™,3 V ~ 3.6 V,-,0°C ~ 70°C,128-TQFP,128-TQFP (14x14)
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,40mA,0°C ~ 70°C,32-LQFP,32-LQFP (7x7)
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,20mA,0°C ~ 70°C,48-LQFP,48-LQFP (7x7)
+USB,Host Controller,USB   PCIe,USB 3.0,1.1V   3.3V,-,-40°C ~ 85°C,100-WQFN Dual Rows   Exposed Pad,100-WQFN-MR (9x9)
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,85mA,-40°C ~ 85°C,36-VFQFN Exposed Pad,36-QFN (6x6)
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,-,-40°C ~ 85°C,36-VFQFN Exposed Pad,36-QFN-EP (6x6)
+USB,Controller,ULPI,USB 2.0   OTG,3 V ~ 3.6 V,-,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (5x5)
+USB,Hub Controller,USB,USB 2.0,1.8V   3.3V,-,0°C ~ 70°C,48-VFQFN Exposed Pad,48-SQFN (7x7)
+USB,Controller,Parallel,USB 1.0 and 1.1,3 V ~ 5.5 V,30mA,0°C ~ 70°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+-,-,-,-,3 V ~ 3.6 V,-,-,128-BFQFP,PG-BFQFP-128
+Ethernet,Controller,PCI,IEEE 802.3   10/100 Base-T/TX PHY,3 V ~ 3.6 V,150mA,0°C ~ 70°C,128-BFQFP,PG-PQFP-128
+Ethernet,Controller,PCI,IEEE 802.3   10/100 Base-T/TX PHY,3 V ~ 3.6 V,116mA,0°C ~ 85°C,144-LQFP,144-LQFP (20x20)
+Ethernet,Bridge   USB to Ethernet,USB,USB 2.0   10/100 Base-T/TX PHY,1.2V   2.5V   3.3V,-,-40°C ~ 85°C,56-VFQFN Exposed Pad,56-QFN (8x8)
+Ethernet,Bridge   USB to Ethernet,USB,USB 2.0   10/100 Base-T/TX PHY,1.8V   3.3V,288mA,0°C ~ 70°C,64-VFQFN Exposed Pad,64-QFN (9x9)
+USB,Bridge   USB to UART  FIFO,UART,USB 2.0,3 V ~ 3.6 V,70mA,-40°C ~ 85°C,64-LQFP,64-LQFP
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 3.6 V,70mA,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 5.5 V,13mA,-40°C ~ 85°C,20-VQFN Exposed Pad,20-VQFN
+CAN,Controller,Parallel,CAN 2.0,4.5 V ~ 5.5 V,15mA,-40°C ~ 125°C,28-SOIC (0.295"   7.50mm Width),28-SO
+USB,Hub Controller,USB,USB 2.0,3 V ~ 3.6 V,20mA,0°C ~ 70°C,48-LQFP,48-LQFP (7x7)
+USB,Controller,SPI   UART,USB 2.0,1.62 V ~ 1.98 V,25mA,-40°C ~ 85°C,32-LQFP,32-LQFP (7x7)
+USB,Bridge   USB to UART,UART,USB 2.0,3 V ~ 3.6 V,20mA,-40°C ~ 85°C,28-VFQFN Exposed Pad,28-QFN (5x5)
+USB,Bridge   USB to UART,UART,USB 2.0,1.8V   3 V ~ 3.6 V,17mA,-40°C ~ 85°C,24-WFQFN Exposed Pad,24-QFN (4x4)
+USB,Bridge   USB to UART,UART,USB 2.0,1.71 V ~ 5.5 V,20mA,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,3.3 V ~ 5 V,8mA,-40°C ~ 85°C,16-SSOP (0.154"   3.90mm Width),16-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,3.3 V ~ 5 V,8mA,-40°C ~ 85°C,20-SSOP (0.154"   3.90mm Width),20-SSOP
+USB,Bridge   USB to UART,UART,USB 2.0,4.35 V ~ 5.25 V,25mA,0°C ~ 70°C,32-LQFP,32-LQFP (7x7)
+USB,Bridge   USB to UART  FIFO,UART   FIFO,USB 2.0,1.62 V ~ 1.98 V   2.97 V ~ 3.63 V,24mA,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+USB,Bridge   USB to UART  FIFO,UART   FIFO,USB 2.0,1.62 V ~ 1.98 V   2.97 V ~ 3.63 V,24mA,-40°C ~ 85°C,48-VFQFN Exposed Pad,48-QFN (8x8)
+USB,Controller,UART,USB 2.0,2.97 V ~ 3.63 V,25mA,-40°C ~ 85°C,32-LQFP,32-LQFP (7x7)
+USB,Controller,USB,USB 2.0,2.97 V ~ 3.63 V,35mA,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+USB,Controller,USB,USB 2.0,2.97 V ~ 3.63 V,35mA,-40°C ~ 85°C,64-TQFP,64-TQFP (7x7)

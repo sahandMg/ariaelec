@@ -1,0 +1,15 @@
+Proximity Only,Yes,1,-,-,-,5 V ~ 30 V,600µA,-25°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),PG-DSO-8-1
+Buttons,Yes,1,-,-,14 b,1.8 V ~ 5.5 V,378.5µA,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+Buttons,Yes,1,-,-,14 b,1.8 V ~ 5.5 V,378.5µA,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+Buttons,No,1,-,-,14 b,1.8 V ~ 5.5 V,59µA,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+Buttons,No,Up to 4,4,-,-,1.8 V ~ 5.5 V,10mA,-40°C ~ 85°C,20-VFQFN Exposed Pad,20-VQFN (3x3)
+Buttons,No,Up to 7,Up to 5,I²C,-,1.8 V ~ 5.5 V,-,-40°C ~ 85°C,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Buttons,No,Up to 11,Up to 7,SPI,-,1.8 V ~ 5.5 V,12mA,-40°C ~ 85°C,32-TQFP,32-TQFP (7x7)
+Buttons   Slider,No,Up to 16,11,I²C,10 b,1.8 V ~ 5.5 V,1.127µA,-40°C ~ 85°C,28-VFQFN Exposed Pad,28-QFN (4x4)
+Proximity Only,Yes,4,-,I²C,16 b,3 V ~ 3.6 V,750µA,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+Buttons,Yes,1,-,-,14 b,2 V ~ 5.5 V,600µA,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+Buttons,Yes,Up to 8,-,-,8 b,2.8 V ~ 5 V,5.6mA,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (5x5)
+Buttons   Slider,Yes,Up to 10,-,-,8 b,2.8 V ~ 5 V,4.5mA,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (5x5)
+Buttons,No,Up to 16,-,I²C   SPI,10 b,1.8 V ~ 5.25 V,4.6mA,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (5x5)
+Buttons,Yes,Up to 16,Up to 16,I²C,9 b,2.7 V ~ 5.5 V,400µA,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (4x4)
+Buttons,Yes,Up to 16,Up to 16,I²C,9 b,2.7 V ~ 5.5 V,400µA,-40°C ~ 85°C,32-VFQFN Exposed Pad,32-QFN (4x4)

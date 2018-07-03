@@ -1,0 +1,18 @@
+Synchronous Separator,HDTV   Projectors   Set-Top Boxes,Surface Mount,24-SSOP (0.154"   3.90mm Width),24-QSOP
+Line Driver   Transmitter,Modems   CATV,Surface Mount,20-SSOP (0.154"   3.90mm Width),20-QSOP
+Video Filter,Recorders   Set-Top Boxes,Surface Mount,32-VFQFN Exposed Pad   CSP,32-LFCSP-VQ (5x5)
+Video Decoder,Digital Cameras   Mobile Phones   Portable Video,Surface Mount,40-VFQFN Exposed Pad   CSP,40-LFCSP-VQ (6x6)
+Video Decoder,Digital Cameras   Mobile Phones   Portable Video,Surface Mount,64-LQFP,64-LQFP (10x10)
+Video Decoder,Digital Cameras   Mobile Phones   Portable Video,Surface Mount,64-LQFP,64-LQFP (10x10)
+Synchronous Separator,On-Screen Displays,Surface Mount,8-SOIC (0.173"   4.40mm Width),8-SOP
+Synchronous Separator,Drivers   Communications   PCMCIA,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Cable Driver,Video,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Video Processor,Video,Surface Mount,80-LQFP,80-LQFP (14x14)
+Synchronous Separator,NTSC   PAL,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Synchronous Separator,NTSC   PAL,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Serial Driver,SMPTE 259M / 344M,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Reclocker,SDTV/HDTV,Surface Mount,48-WFQFN Exposed Pad,48-WQFN (7x7)
+Driver,Video Switching,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Driver,Amplifiers   Video Distribution,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Reclocker,SDTV/HDTV,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Video Processor,AGP Cards   PCMCIA   Video Phones,Surface Mount,44-QFP,44-PQFP (10x10)

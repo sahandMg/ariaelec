@@ -1,0 +1,67 @@
+Divide-by-2,-,1,24,Asynchronous,-,13MHz,Negative Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,14,Asynchronous,-,30MHz,Negative Edge,3V ~ 15V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,2,4,Asynchronous,-,107MHz,Negative Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Counter   Decade,Up,1,10,Asynchronous,Synchronous,5.5MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,1,5,Asynchronous,Synchronous,16MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter   Decade,Up   Down,1,4,Asynchronous,Synchronous,11MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+BCD Counter,Up   Down,1,4,Asynchronous,Synchronous,11MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+BCD Counter,Up,2,4,Asynchronous,Synchronous,8MHz,Positive   Negative,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up   Down,1,4,Asynchronous,Synchronous,24MHz,Positive Edge,2V ~ 6V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,2,4,Asynchronous,-,27MHz,Negative Edge,4.5V ~ 5.5V,-55°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Counter   Decade,Up,1,10,Asynchronous,-,30MHz,Positive   Negative,4.5V ~ 15.5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,12,Asynchronous,-,50MHz,Negative Edge,4.5V ~ 15.5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up   Down,1,4,-,Synchronous,40MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up   Down,1,4,Asynchronous/Synchronous,Synchronous,30MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+Binary Counter,Up,1,4,Synchronous,Synchronous,40MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,4,Asynchronous,Synchronous,36MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up   Down,1,4,-,Synchronous,24MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,14,Asynchronous,Asynchronous,33MHz,Negative Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.209"   5.30mm Width),16-SSOP
+Binary Counter,Up,1,4,Asynchronous,Synchronous,25MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up,1,4,Asynchronous,Synchronous,25MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up,1,4,Synchronous,Synchronous,25MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,2,4,Asynchronous,-,35MHz,Negative Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,14-SOIC (0.209"   5.30mm Width),14-SOP
+Binary Counter,Up,1,8,-,-,35MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,1,4,Asynchronous,-,42MHz,Negative Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Binary Counter,Up,1,4,Synchronous,Synchronous,140MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Up,1,4,Asynchronous,Synchronous,40MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,4,Asynchronous,Synchronous,100MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up   Down,1,4,-,Synchronous,100MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOP
+Binary Counter,Up   Down,1,8,-,-,115MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SO
+Binary Counter,Up,1,4,Asynchronous,Synchronous,36MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Binary Counter,Up   Down,1,4,-,Synchronous,24MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Up   Down,1,4,Asynchronous,Synchronous,24MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Up   Down,1,4,Asynchronous,Synchronous,24MHz,Positive Edge,2V ~ 6V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,2,4,Asynchronous,-,35MHz,Negative Edge,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Down,1,8,Asynchronous,Synchronous,32MHz,Positive Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Counter   Decade,Up,1,10,Asynchronous,-,83MHz,Positive   Negative,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-VFQFN Exposed Pad,16-DHVQFN (2.5x3.5)
+Binary Counter,Up,1,14,Asynchronous,Asynchronous,33MHz,Negative Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Up,1,7,Asynchronous,-,90MHz,Negative Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Binary Counter,Up,1,12,Asynchronous,-,98MHz,Negative Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,12,Asynchronous,-,98MHz,Negative Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,14,Asynchronous,-,95MHz,Negative Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-VFQFN Exposed Pad,16-DHVQFN (2.5x3.5)
+Binary Counter,Up,2,4,Asynchronous,Synchronous,69MHz,Positive   Negative,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,8,Asynchronous,-,61MHz,Positive Edge,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,4,Asynchronous,-,35MHz,Negative Edge,2V ~ 6V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Binary Counter,Up,1,4,Synchronous,Synchronous,20MHz,Negative Edge,4.5V ~ 5.5V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,1,10,Asynchronous,-,67MHz,Positive   Negative,4.5V ~ 5.5V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,14,Asynchronous,-,47MHz,Negative Edge,4.5V ~ 5.5V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,14,Asynchronous,-,47MHz,Negative Edge,4.5V ~ 5.5V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Binary Counter,Up,1,4,Synchronous,-,42MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Binary Counter,Up,1,8,Asynchronous,-,35MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up,1,8,Asynchronous,-,35MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up,2,4,Asynchronous,-,115MHz,Negative Edge,2V ~ 5.5V,-40°C ~ 85°C,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Binary Counter,Up,1,12,Asynchronous,-,210MHz,Negative Edge,2V ~ 5.5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Counter   Decade,Up   Down,1,4,-,-,5MHz,Positive   Negative,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Divide-by-N,-,1,5,Asynchronous,Synchronous,8.5MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up   Down,1,4,Asynchronous,Synchronous,5.5MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,14,Asynchronous,-,24MHz,Negative Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,1,5,Asynchronous,Synchronous,16MHz,Positive Edge,3V ~ 18V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up,1,4,Asynchronous,Synchronous,24MHz,Negative Edge,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Binary Counter,Up,1,14,Asynchronous,-,35MHz,Negative Edge,3V ~ 15V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Binary Counter,Up,1,4,Asynchronous,Synchronous,40MHz,Positive Edge,4.5V ~ 5.5V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Binary Counter,Up,2,4,Asynchronous,-,36MHz,Negative Edge,2V ~ 6V,-40°C ~ 85°C,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Binary Counter,Up   Down,1,4,-,Synchronous,25MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Binary Counter,Up   Down,1,4,Asynchronous,Synchronous,32MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,2,4,Asynchronous,-,35MHz,Negative Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Counter   Decade,Up,1,4,Asynchronous,-,42MHz,Negative Edge,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Binary Counter,Up,1,4,Asynchronous,-,42MHz,Positive Edge,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP

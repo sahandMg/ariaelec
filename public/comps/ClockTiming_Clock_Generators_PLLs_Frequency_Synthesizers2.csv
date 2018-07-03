@@ -1,0 +1,6 @@
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:1,No/No,2.4MHz,Yes/No,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:4,No/No,38MHz,No/No,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:4,No/No,38MHz,No/No,4.5 V ~ 5.5 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:1,No/No,2.4MHz,Yes/No,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:4,No/No,38MHz,No/No,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Phase Lock Loop (PLL),Yes,Clock,Clock,1,1:4,No/No,2.7MHz,No/No,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO

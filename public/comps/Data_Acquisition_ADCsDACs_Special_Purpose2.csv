@@ -1,0 +1,40 @@
+ADC   DAC,8 b,11.1k,I²C   Serial,Single Supply,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO
+Data Acquisition System (DAS),16 b,200k,Serial,Analog and Digital,4.75 V ~ 5.25 V,-40°C ~ 85°C,Through Hole,28-DIP (0.600"   15.24mm),28-PDIP
+Video DAC,8 b,80M,Parallel,Analog and Digital,3 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,48-TQFP Exposed Pad,48-HTQFP (7x7)
+DAC   Audio,24 b,192k,DSP   I²S,Analog and Digital,5V,0°C ~ 70°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+DAC   Audio,24 b,96k,DSP   I²S,Analog and Digital,5V,0°C ~ 70°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+ADC   Audio,16 b,48k,Serial,Analog and Digital,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+DAC   Audio,26 b,48k,DSD   PCM,Analog and Digital,5V,-40°C ~ 105°C,Surface Mount,48-LQFP,48-LQFP (7x7)
+ADC   Audio,24 b,192k,SPI,Analog and Digital,3 V ~ 3.6 V,-40°C ~ 105°C,Surface Mount,48-LQFP,48-LQFP (7x7)
+Capacitance-to-Digital Converter,16 b,250k,SPI,Single Supply,2.6 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad   CSP,32-LFCSP-VQ (5x5)
+Capacitance-to-Digital Converter,16 b,250k,SPI,Single Supply,2.6 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad   CSP,24-LFCSP-WQ (4x4)
+Capacitance-to-Digital Converter,16 b,250k,SPI,Single Supply,2.6 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad   CSP,24-LFCSP-WQ (4x4)
+Data Acquisition System (DAS)   ADC,16 b,200k,DSP   MICROWIRE™   Parallel   QSPI™   Serial   SPI™,Analog and Digital,2.3 V ~ 5.25 V   4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+Data Acquisition System (DAS)   ADC,16 b,200k,DSP   MICROWIRE™   Parallel   QSPI™   Serial   SPI™,Analog and Digital,2.3 V ~ 5.25 V   4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+Data Acquisition System (DAS)   ADC,18 b,200k,SPI   DSP,Analog and Digital,2.3 V ~ 5 V   4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+DAC   Audio,24 b,192k,I²S,Single Supply,3 V ~ 3.6 V,-20°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Analog Monitor/Control Circuit,12 b,500k,I²C   Serial   SPI™,Analog and Digital,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,64-TQFP Exposed Pad,64-HTQFP (10x10)
+DAC   Audio,24 b,192k,SPI,Single Supply,3 V ~ 3.47 V   5V,-10°C ~ 70°C,Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-TSSOP
+ADC   Audio,24 b,192k,Serial,Single Supply,3.1 V ~ 5.25 V,-10°C ~ 70°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+DAC,16 b,-,Serial,Analog and Digital,2.7 V ~ 3.6 V,-40°C ~ 105°C,Surface Mount,16-WFQFN Exposed Pad,16-WQFN (4x4)
+DAC,16 b,-,DSP   MICROWIRE™   QSPI™   Serial   SPI™,Analog and Digital,2.7 V ~ 3.6 V,-40°C ~ 105°C,Surface Mount,16-WFQFN Exposed Pad,16-WQFN (4x4)
+Data Acquisition System (DAS)   ADC,12 b,46.5k,Serial   Parallel,Dual ±,±5V   5V,0°C ~ 70°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Data Acquisition System (DAS),14 b,250k,Parallel,Analog and Digital   Dual ±,5V   ±5V,-40°C ~ 85°C,Surface Mount,36-BSOP (0.295"   7.50mm Width),36-SSOP
+Data Acquisition System (DAS)   ADC,12 b,133k,MICROWIRE™   QSPI™   Serial   SPI™,Dual ±,±5V,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+DAC   Audio,20 b,48k,Serial,Analog and Digital,5V,-25°C ~ 85°C,Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+DAC   Audio,24 b,200k,I²S,Single Supply,5V,-25°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+DAC   Audio,24 b,200k,DSD   PCM,Analog and Digital,3 V ~ 3.6 V   5V,-25°C ~ 85°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+DAC   Audio,24 b,200k,I²S,Analog and Digital,3 V ~ 3.6 V   5V,-25°C ~ 85°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+DAC   Audio,24 b,200k,PCM,Analog and Digital,3 V ~ 3.6 V   5V,-25°C ~ 85°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+ADC   Audio,16 b,48k,Serial,Analog and Digital,4.5 V ~ 5.5 V,-25°C ~ 85°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+ADC   Audio,16 b,5k ~ 50k,I²C   Serial   SPI™,Analog and Digital,1.71 V ~ 3.6 V   2.4 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-UFBGA   DSBGA,24-DSBGA (3.45x2.45)
+Audio,16 b,48k,SPI   USB,Analog and Digital,3 V ~ 3.6 V   5V,-40°C ~ 125°C,-,32-TQFP,32-TQFP (7x7)
+ADC   Audio,24 b,216k,DSP   PCM,Analog and Digital,1.65 V ~ 3.6 V   5V,-10°C ~ 70°C,-,28-SSOP (0.209"   5.30mm Width),28-SSOP
+DAC   Audio,16 b,-,PCM,Dual ±,±4.75 V ~ 13.2 V,-25°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+DAC   Audio,16 b,-,PCM,Dual ±,±4.75 V ~ 13.2 V,-25°C ~ 70°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+DAC   Audio,24 b,8k ~ 96k,I²S   SPI,Analog and Digital,1.5V   3.3V,-10°C ~ 70°C,Surface Mount,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+DAC   Audio,24 b,96k,I²S,Analog and Digital,2.4 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-LSSOP (0.173"   4.40mm Width),16-SSOP
+DAC   Audio,24 b,192k,SPI,Analog and Digital,3.3 V ~ 5 V,-40°C ~ 85°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+Video DAC,10 b,240M,Parallel,Analog and Digital,1.65 V ~ 2 V   3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,48-TQFP Exposed Pad,48-HTQFP (7x7)
+Isolated Module,12 b,-,DSP,Single Supply,5V,-40°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+Isolated Module,12 b,-,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO

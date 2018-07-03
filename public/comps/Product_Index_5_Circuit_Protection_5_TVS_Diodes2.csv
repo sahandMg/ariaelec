@@ -1,0 +1,197 @@
+Zener,1,-,5.8V,6.45V,10.5V,58.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,5V,6.4V,9.2V,65.3A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,214V,237V,344V,4.4A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,-,1,70.1V,77.9V,113V,13.5A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,8.55V,9.5V,14.5V,42.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,10.2V,11.4V,16.7V,36A,600W,No,General Purpose,-,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,11.1V,12.4V,18.2V,33.5A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,12.8V,14.3V,21.2V,28.8A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,15.3V,17.1V,32.5V,123A (8/20µs),600W,No,General Purpose,1600pF @ 1MHz,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,171V,190V,274V,2.2A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,171V,190V,274V,2.2A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,17.1V,19V,27.7V,22A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,20V,22.8V,42.8V,93A (8/20µs),600W,No,General Purpose,1250pF @ 1MHz,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,213V,237V,442V,9A (8/20µs),600W,No,General Purpose,310pF @ 1MHz,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,300V,332V,482V,1.3A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,342V,380V,548V,1.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,7.02V,7.79V,12.1V,50.4A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Steering (Rail to Rail),2,-,5.5V (Max),6V,-,-,-,Yes,Automotive,1pF @ 1MHz,-40°C ~ 85°C (TA),Surface Mount,SC-74   SOT-457,6-TSOP
+Steering (Rail to Rail),4,-,-,6V,-,-,-,Yes,Automotive,1pF @ 1MHz,-55°C ~ 150°C (TA),Surface Mount,SC-74   SOT-457,6-TSOP
+Zener,1,-,12V,13.3V,19.9V,30.2A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB
+Zener,1,-,15V,16.7V,24.4V,24.6A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,170V,189V,275V,2.2A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB
+Zener,1,-,18V,20V,29.2V,20.6A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,20V,22.2V,32.4V,18.6A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,20V,22.2V,32.4V,18.6A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,24V,26.7V,38.9V,15.5A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,23.1V,25.7V,37.5V,16.3A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,45V,50V,72.7V,8.3A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMB)
+Zener,-,1,48V,53.3V,77.4V,7.8A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,5V,6.4V,9.2V,65.3A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB (DO-214AA)
+Zener,1,-,6.5V,7.22V,11.2V,53.6A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,8V,8.89V,13.6V,44.2A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,8.5V,9.44V,14.4V,41.7A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB
+Zener,1,-,9V,10V,15.4V,39A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,5,-,5V (Max),6V,12.5V,8A (8/20µs),100W,No,General Purpose,130pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+Zener,-,1,15V,16V,30V,10A (8/20µs),300W,No,General Purpose,1.5pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,TO-253-4   TO-253AA,SOT-143
+Zener,-,9,24V,25V,36V,25A (8/20µs),300W,No,General Purpose,420pF @ 1MHz,-,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Steering (Rail to Rail),2,-,3.3V (Max),3.3V,17V,150A (8/20µs),3300W (3.3kW),Yes,Ethernet,9pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Zener,1,-,20V,22V,32V,500A (8/20µs),22500 (22.5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Zener,2,1,26V,31.35V,46V,870mA,40W,No,Automotive,-,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Zener,2,1,3V,5.32V,8V,3A,24W,No,Automotive,-,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Zener,1,-,23V,24V,-,-,-,No,General Purpose,-,-40°C ~ 150°C (TJ),Surface Mount,Top Can,TOP CAN
+Steering (Rail to Rail),2,-,5V (Max),6V,20V,8A (8/20µs),500W,Yes,General Purpose,3pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin   TSOT-23-6,6-TSOP
+Steering (Rail to Rail),2,-,5V (Max),6V,20V,8A (8/20µs),500W,Yes,General Purpose,3pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+Steering (Rail to Rail),4,-,5V (Max),6V,14.5V (Typ),28A (8/20µs),500W,No,General Purpose,3pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+Zener,4,-,3V,5.3V,13V,1.6A (8/20µs),20W,No,Automotive,13pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-553,SOT-553
+Zener,1,-,36V,40V,58.1V,6.9A,400W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,2-SMD   Flat Lead,D-Flat
+Zener,1,-,85.5V,95V,137V,4.5A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,85.5V,95V,137V,4.4A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,128V,143V,207V,3A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,12.8V,14.3V,21.2V,28A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,13.6V,15.2V,22.5V,27.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,154V,171V,246V,2.4A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,15.3V,17.1V,25.2V,24A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,256V,285V,414V,1.5A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,28.2V,31.4V,45.7V,13.3A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,28.2V,31.4V,59V,68A (8/20µs),600W,No,General Purpose,500pF @ 1MHz,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,1,-,30.8V,34.2V,49.9V,12.6A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,36.8V,40.9V,59.3V,10.3A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,36.8V,40.9V,59.3V,10.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,1,-,40.2V,44.7V,64.8V,9.4A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,5.8V,6.45V,10.5V,58.1A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,64.1V,71.3V,103V,5.9A,600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,13.6V,15.2V,22.5V,27.1A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMB)
+Zener,1,-,18.8V,20.9V,30.6V,19.9A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMB)
+Zener,1,-,20.5V,22.8V,33.2V,18.4A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,28.2V,31.4V,45.7V,13.1A,600W,No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMB)
+Zener,-,1,5.8V,6.45V,10.5V,58.1A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,1,-,53V,58.9V,85V,7.2A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,94V,105V,152V,4A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,12.8V,14.3V,21.2V,28.8A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,28.2V,31.4V,45.7V,13.3A,600W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,DO-214AA (SMBJ)
+Zener,-,1,14V (Max),-,40V,-,-,No,Ethernet   HDMI,-,-55°C ~ 125°C (TJ),Surface Mount,0402 (1005 Metric),0402
+Zener,-,1,24V,-,45V,-,-,No,Ethernet   HDMI,-,-55°C ~ 125°C (TJ),Surface Mount,0603 (1608 Metric),0603 (1608 Metric)
+Zener,-,1,15V (Max),17.1V,44V,5A (8/20µs),200W,No,General Purpose,16pF @ 1MHz,-65°C ~ 150°C (TA),Surface Mount,SC-76   SOD-323,SOD-323
+Zener,-,2,24V (Max),25.4V,50V,3A (8/20µs),150W,No,Automotive   CAN,9.3pF @ 1MHz,-55°C ~ 150°C (TA),Surface Mount,SC-70   SOT-323,SOT-323-3
+Zener,-,2,24V (Max),25.4V,50V,3A (8/20µs),150W,No,Automotive   CAN,9.3pF @ 1MHz,-55°C ~ 150°C (TA),Surface Mount,SC-70   SOT-323,SOT-323-3
+Zener,1,-,3.3V (Max),5.2V,20V,18A (8/20µs),330W,No,General Purpose,207pF @ 1MHz,-65°C ~ 150°C (TA),Surface Mount,SC-79   SOD-523,SOD-523
+Zener,4,-,3.3V (Max),5.3V,12V,20A (8/20µs),200W,No,General Purpose,215pF @ 1MHz,-65°C ~ 150°C (TA),Surface Mount,SC-74   SOT-457,6-TSOP
+Zener,1,-,3.3V (Max),4.5V,-,-,-,No,Automotive,2.6pF @ 1MHz,-55°C ~ 150°C (TA),Surface Mount,SOD-882,DFN1006-2
+Zener,4,-,5V (Max),6.46V,13V,2.5A (8/20µs),30W,No,General Purpose,16pF @ 1MHz,-65°C ~ 150°C (TA),Surface Mount,5-TSSOP   SC-70-5   SOT-353,5-TSSOP
+Zener,-,2,5V (Max),5.5V,14V,12A (8/20µs),130W,No,General Purpose,35pF @ 1MHz,-65°C ~ 150°C (TA),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23 (TO-236AB)
+Zener,4,-,5V (Max),6.46V,12V,10A (8/20µs),110W,No,Automotive,85pF @ 1MHz,-55°C ~ 150°C (TA),Surface Mount,6-XFDFN,6-XSON   SOT886 (1.45x1)
+Zener,-,1,24V,-,150V (Typ),-,-,No,General Purpose,-,-65°C ~ 125°C (TJ),Surface Mount,0603 (1608 Metric),0603 (1608 Metric)
+Steering (Rail to Rail),2,-,5.5V (Max),6V,-,-,-,Yes,General Purpose,1pF @ 1MHz,-40°C ~ 85°C (TA),Surface Mount,TO-253-4   TO-253AA,SOT-143B
+Steering (Rail to Rail),2,-,5.5V (Max),6V,-,-,-,Yes,General Purpose,1pF @ 1MHz,-40°C ~ 85°C (TA),Surface Mount,TO-253-4   TO-253AA,SOT-143B
+Steering (Rail to Rail),4,-,5.5V,6V,-,-,-,Yes,General Purpose,1pF @ 1MHz,-40°C ~ 85°C (TA),Surface Mount,6-TSSOP   SC-88   SOT-363,6-TSSOP
+Zener,1,-,54V,60V,87.1V,6.9A,600W,No,Automotive,-,-55°C ~ 150°C (TA),Surface Mount,SOD-128,CFP5
+Zener,1,1,20V,24V,40V,20A   37.5A,1500W (1.5kW),No,General Purpose,-,-40°C ~ 150°C (TJ),Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Steering (Rail to Rail),4,-,5V (Max),6V,15V,25A (8/20µs),375W,Yes,General Purpose,5pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Zener,1,-,5V,6.4V,9.2V,55.4A,500W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,2,-,5V (Max),6V,9.8V,17A (8/20µs),300W,No,General Purpose,400pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Zener,2,-,5V,6.2V,9.8V,17A (8/20µs),300W,No,Automotive,-,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Zener,2,-,12V (Max),13.3V,19V,12A (8/20µs),300W,No,General Purpose,150pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Zener,2,-,12V (Max),13.3V,19V,12A (8/20µs),300W,No,General Purpose,150pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Zener,2,-,15V,16.7V,24V,10A (8/20µs),300W,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Zener,1,-,25.6V,28.5V,53.5V,187A (8/20µs),1500W (1.5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Zener,1,-,33.3V,37.1V,69.7V,143A (8/20µs),1500W (1.5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Zener,-,1,5.5V (Max),6V,14V,5A (8/20µs),90W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,2-XDFN,2-X1SON (1x.60)
+Steering (Rail to Rail),2,-,5.5V (Max),11V,-,-,-,Yes,Ethernet,-,-40°C ~ 85°C (TA),Surface Mount,SOT-553,SOT-5
+Zener,4,-,3V,6.1V,-,-,35W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,SOT-553,SOT-5
+Steering (Rail to Rail),4,-,5.5V (Max),7V,14.5V (Typ),3A (8/20µs),45W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+Steering (Rail to Rail),6,-,5V (Max),11V,-,-,-,Yes,General Purpose,-,-40°C ~ 85°C (TA),Surface Mount,12-WQFN Exposed Pad,12-WQFN (4x4)
+Zener,8,-,-,6V,10V,2A (8/20µs),55W,No,General Purpose,-,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-WSON (1.7x1.35)
+Steering (Rail to Rail),2,-,5.25V,6V,17V,5A (8/20µs),-,Yes,Ethernet,-,-40°C ~ 125°C (TJ),Surface Mount,SOT-563   SOT-666,SOT-666
+Zener,1,-,5V,6.4V,9.2V,543.6A,5000W (5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMC)
+Zener,1,-,85.5V,95V,137V,10.9A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,-,1,85.5V,95V,137V,11.1A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,102V,114V,165V,9.1A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,1,-,10.2V,11.4V,16.7V,91A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,10.2V,11.4V,16.7V,91A,1500W (1.5kW),No,Automotive,-,-55°C ~ 150°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,-,-,-,-,1500W (1.5kW),No,General Purpose,-,-,Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,128V,143V,207V,7.3A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,128V,143V,207V,7.2A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,12.8V,14.3V,21.2V,71.7A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,13.6V,15.2V,22.5V,66.7A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,1,-,154V,171V,246V,6.2A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,154V,171V,317V,31.5A (8/20µs),1500W (1.5kW),No,General Purpose,362.5pF @ 1MHz,-,Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,15.3V,17.1V,25.5V,60.3A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMC)
+Zener,-,1,15.3V,17.1V,25.2V,59.5A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,-,1,185V,209V,328V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,1,-,20.5V,22.8V,33.2V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,-,1,214V,237V,344V,4.4A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,256V,285V,414V,3.7A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,28.2V,31.4V,59V,169A (8/20µs),1500W (1.5kW),No,General Purpose,2700pF @ 1MHz,-,Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,300V,332V,482V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,1,-,30.8V,34.2V,49.9V,30.1A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,1,-,33.3V,37.1V,53.9V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,-,1,33.3V,37.1V,53.9V,27.8A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,1.5KE
+Zener,1,-,342V,380V,548V,2.8A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,-,1,342V,380V,548V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,-,1,36.8V,40.9V,59.3V,25.6A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMC)
+Zener,-,1,376V,418V,602V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,1,-,40.2V,44.7V,64.8V,23.5A,1500W (1.5kW),No,Automotive,-,-55°C ~ 150°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,47.8V,53.2V,77V,19.7A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,5.8V,6.45V,10.5V,144.8A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMC)
+Zener,1,-,58.1V,64.6V,121V,83A (8/20µs),1500W (1.5kW),No,General Purpose,1550pF @ 1MHz,-,Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,7.02V,7.79V,12.1V,-,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Zener,1,-,70.1V,77.9V,113V,13.5A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,77.8V,86.5V,125V,12.2A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,15.3V,17.1V,25.2V,59.5A,1500W (1.5kW),No,General Purpose,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMCJ)
+Zener,1,-,30.8V,34.2V,49.9V,30.5A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMCJ)
+Zener,1,-,33.3V,37.1V,53.9V,28A,1500W (1.5kW),No,Automotive,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Zener,1,-,5.8V,6.45V,10.5V,143A,1500W (1.5kW),No,Automotive,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Zener,1,-,64.1V,71.3V,103V,14.6A,1500W (1.5kW),No,Automotive,-,-65°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,SMC
+Steering (Rail to Rail),4,-,5.25V,6V,17V,5A (8/20µs),-,Yes,Ethernet,-,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Zener,1,-,3V (Max),4V,12V (Typ),9A (8/20µs),108W,No,General Purpose,110pF @ 1MHz,-40°C ~ 125°C (TJ),Surface Mount,SC-79   SOD-523,SOD-523
+Zener,1,-,7V,7.78V,12V,416.8A,5000W (5kW),No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,DO-214AB   SMC,DO-214AB (SMC)
+Zener,1,-,5.8V,6.45V,10.5V,143A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,43.6V,48.5V,70.1V,21.4A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AA   DO-27   Axial,DO-201
+Zener,1,-,36V,40V,58.1V,6.9A,400W,No,Automotive,345pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,DO-214AC   SMA,SMA
+Zener,1,-,22V,24.4V,35.5V,16.9A,600W,No,Automotive,730pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB
+Zener,1,-,70V,77.8V,113V,5.3A,600W,No,General Purpose,260pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,DO-214AA   SMB,SMB
+Zener,-,1,342V,380V,548V,2.8A,1500W (1.5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-201AE   Axial,DO-201AE
+Steering (Rail to Rail),4,-,5.5V,6V,-,-,100W,Yes,General Purpose,2.5pF @ 1MHz,-40°C ~ 85°C (TA),Surface Mount,SC-74   SOT-457,6-TSOP
+Zener,-,2,24V (Min),26.2V,44V,8A (8/20µs),350W,No,General Purpose,30pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+Steering (Rail to Rail),2,-,5.25V,6V,-,-,500W,Yes,General Purpose,-,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Zener,1,-,180V,200V,292V,17.5A,5000W (5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,P600   Axial,P600
+Zener,1,-,30V,33.3V,48.4V,-,5000W (5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,R6   Axial,R-6
+Zener,1,-,48V,53.3V,77.7V,-,15000W (15kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,R6   Axial,R-6
+Zener,-,1,75V,83.3V,121V,42.1A,5000W (5kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,P600   Axial,P600
+Zener,-,1,85V,94.4V,137V,-,15000W (15kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,R6   Axial,R-6
+Zener,1,-,85V,94.4V,137V,-,15000W (15kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,R6   Axial,R-6
+Zener,1,-,24V,26.81V,40.7V,371A,15000W (15kW),No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,P600   Axial,P600
+Zener,-,4,5V (Max),-,-,-,20W,No,General Purpose,75pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,SC-74   SOT-457,6-TSOP
+Zener,1,-,120V,138V,204V,1.5A,600W,No,General Purpose,-,-,Through Hole,SOD-57   Axial,SOD-57
+Zener,1,-,20V,22.8V,33.8V,8.9A,600W,No,General Purpose,-,-,Through Hole,SOD-57   Axial,SOD-57
+Zener,1,-,33V,37V,54.1V,5.5A,600W,No,General Purpose,-,-,Through Hole,SOD-57   Axial,SOD-57
+Zener,1,-,75V,85V,126V,2.4A,600W,No,General Purpose,-,-,Through Hole,SOD-57   Axial,SOD-57
+Zener,1,-,171V,190V,353V,11A (8/20µs),600W,No,General Purpose,-,-55°C ~ 175°C (TJ),Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15)
+Zener,-,1,5.8V,6.45V,13.4V,298A (8/20µs),600W,No,General Purpose,2000pF @ 1MHz,-,Through Hole,DO-204AC   DO-15   Axial,DO-15
+Zener,-,1,39V,43.3V,90V,667A (8/20µs),5000W (5kW),No,General Purpose,2400pF @ 1MHz,-,Through Hole,R6   Axial,R-6
+Steering (Rail to Rail),2,-,2.8V,3V,5V,12A (8/20µs),200W,Yes,Ethernet,4.5pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,TO-253-4   TO-253AA,SOT-143
+Steering (Rail to Rail),4,-,5V (Max),6V,12V (Typ),3.8A (8/20µs),30W,Yes,HDMI,-,-55°C ~ 85°C (TA),Surface Mount,10-UFDFN,10-DFN (2.5x1)
+Zener,-,2,7V (Max)   12V (Max),7.5V   13.3V,14V   26V,17A (8/20µs),400W,No,RS-485,75pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Steering (Rail to Rail),8,-,3.3V,6V,8.8V (Typ),1A (8/20µs),-,Yes,General Purpose,-,-40°C ~ 85°C (TA),Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Steering (Rail to Rail),2,-,3.3V,6V,10V (Typ),1A (8/20µs),-,Yes,Automotive,-,-40°C ~ 85°C (TA),Surface Mount,TO-253-4   TO-253AA,SOT-143-4
+Steering (Rail to Rail),2,-,5V,-,9V (Typ),1A (8/20µs),-,Yes,General Purpose,-,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Steering (Rail to Rail),4,-,5V (Max),6V,9V,6.5A (8/20µs),-,Yes,General Purpose,-,-55°C ~ 85°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Zener,-,2,3.3V (Max),3.8V,7V,5A (8/20µs),35W,No,General Purpose,10pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,3-XFDFN,X2-DFN1010-3
+Zener,-,1,5V (Max),6V,14V,6A (8/20µs),84W,No,General Purpose,15pF @ 1MHz,-65°C ~ 150°C (TJ),Surface Mount,SC-76   SOD-323,SOD-323
+Steering (Rail to Rail),4,-,15V,-,-,-,-,No,General Purpose,-,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Steering (Rail to Rail),4,-,5V,-,-,-,-,No,General Purpose,-,-,Surface Mount,SOT-23-6,SOT-23-6
+Zener,1,-,5V (Max),6.2V,15.5V,12A (8/20µs),350W,No,General Purpose,350pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,SC-76   SOD-323,SOD-323
+Zener,1,-,5V (Max),5.5V,14V,40A (8/20µs),600W,No,General Purpose,430pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,SC-76   SOD-323,PG-SOD323-2
+Zener,2,-,5V (Max),5.5V,14V,40A (8/20µs),600W,No,General Purpose,-,-55°C ~ 125°C (TJ),Surface Mount,TO-236-3   SC-59   SOT-23-3,PG-SOT23-3
+Zener,1,-,3.3V (Max),5V,14.1V,11.2A (8/20µs),158W,No,General Purpose,105pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,SC-79   SOD-523,SOD-523
+Zener,1,-,5V (Max),6.2V,18.6V,9.4A (8/20µs),174W,No,General Purpose,80pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,SC-79   SOD-523,SOD-523
+Zener,1,-,5V (Max),5.4V,9.8V,1A (8/20µs),-,No,General Purpose,0.5pF @ 1MHz,-55°C ~ 150°C (TJ),Surface Mount,SOD-923,SOD-923
+Zener,1,-,3.3V (Max),4.8V,7.8V,1A (8/20µs),-,No,General Purpose,0.5pF @ 1MHz,-55°C ~ 125°C (TJ),Surface Mount,SOD-923,SOD-923
+Zener,4,-,3V,5.3V,-,-,500W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Zener,-,4,3V,6.1V,-,-,80W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Zener,5,-,3V,6.1V,-,-,100W,No,General Purpose,-,-40°C ~ 125°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SOT-323-6L
+Zener,4,-,5.25V,6.1V,-,-,400W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A   SOT-753,SOT-23-5L
+Zener,4,-,5.25V,6.1V,-,-,400W,No,General Purpose,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Zener,6,-,5V,6.1V,-,-,200W,No,General Purpose,-,-,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Zener,4,-,3V,6.1V,-,-,150W,No,General Purpose,-,-40°C ~ 125°C (TJ),Surface Mount,5-TSSOP   SC-70-5   SOT-353,SOT-323-5

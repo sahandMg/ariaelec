@@ -1,0 +1,7 @@
+18K (2K x 9),Synchronous,66.7MHz,10ns,3V ~ 3.6V,20mA,Uni-Directional,Depth   Width,Yes,No,No,-40°C ~ 85°C,Surface Mount,32-LQFP,32-TQFP (7x7)
+64 (16 x 4),Asynchronous,36MHz,34ns,2V ~ 6V,-,Uni-Directional,Depth   Width,No,No,No,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+4.5K (512 x 9),Asynchronous,22.2MHz,35ns,4.5V ~ 5.5V,80mA,Uni-Directional,Depth   Width,No,Yes,No,0°C ~ 70°C,Surface Mount,28-SOIC (0.345"   8.77mm Width),28-SOIC
+9K (1K x 9),Asynchronous,40MHz,15ns,4.5V ~ 5.5V,80mA,Uni-Directional,Depth   Width,No,Yes,No,0°C ~ 70°C,Surface Mount,32-LCC (J-Lead),32-PLCC (14x11.46)
+9K (1K x 9),Asynchronous,40MHz,15ns,4.5V ~ 5.5V,80mA,Uni-Directional,Depth   Width,No,Yes,No,0°C ~ 70°C,Through Hole,28-DIP (0.600"   15.24mm),28-PDIP
+4.5M (256K x 18)(512K x 9),Synchronous,166MHz,4ns,3.15V ~ 3.45V,35mA,Uni-Directional,Depth   Width,Yes,Yes,Yes,0°C ~ 70°C,Surface Mount,80-LQFP,80-TQFP (14x14)
+72K (8K x 9),Synchronous,50MHz,12ns,3V ~ 3.6V,20mA,Uni-Directional,Depth   Width,Yes,No,No,0°C ~ 70°C,Surface Mount,32-LQFP,32-TQFP (7x7)

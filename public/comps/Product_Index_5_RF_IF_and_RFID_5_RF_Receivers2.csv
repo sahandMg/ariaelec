@@ -1,0 +1,6 @@
+380MHz ~ 450MHz,-110dBm,10 kbps,ASK   OOK,ISM   Garage Door Openers   RKE,6mA,PCB   Surface Mount,-,PCB   Surface Mount,No IF Filter Required,3 V ~ 3.6 V,-40°C ~ 105°C,16-SSOP (0.154"   3.90mm Width),16-QSOP
+27MHz ~ 930MHz,-112dBm,100kbps,ISM,General Purpose,12mA,SPI,-,-,-,3 V ~ 5.5 V,-40°C ~ 110°C,32-VFQFN Exposed Pad,32-QFN (5x5)
+433MHz   868MHz,-107dBm,-,ASK,Alarm Systems   Communication Systems,4.8mA,PCB   Surface Mount,-,PCB   Surface Mount,-,4.5 V ~ 5.5 V,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),PG-TSSOP-28
+925MHz ~ 2.175GHz,-,-,-,Digital TV   CATV   Set Top Boxes,100mA,PCB   Surface Mount,-,PCB   Surface Mount,-,3.13 V ~ 3.47 V,0°C ~ 70°C,28-WFQFN Exposed Pad,28-TQFN (5x5)
+850MHz ~ 2.175GHz,-,-,-,DVB   DSS,-,PCB   Surface Mount,-,PCB   Surface Mount,-,4.75 V ~ 5.25 V,0°C ~ 85°C,40-WFQFN Exposed Pad,40-TQFN-EP (6x6)
+925MHz ~ 2.175GHz,-,-,-,DVB   DSS,100mA,PCB   Surface Mount,-,PCB   Surface Mount,-,3.13 V ~ 3.47 V,0°C ~ 70°C,28-WFQFN Exposed Pad,28-TQFN (5x5)

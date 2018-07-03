@@ -1,0 +1,3 @@
+Controller (PSE),4,15.4W,No,No,802.3af (PoE),48 V ~ 57 V,2mA,0°C ~ 70°C,36-BSOP (0.295"   7.50mm Width),36-SSOP
+Controller (PSE),1,15.4W,Yes,No,802.3af (PoE),33 V ~ 66 V,2mA,-40°C ~ 85°C,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Controller (PD),1,12.95W,Yes,No,802.3af (PoE),0 V ~ 57 V,240µA,-40°C ~ 85°C,8-TSSOP (0.173"   4.40mm Width),8-TSSOP

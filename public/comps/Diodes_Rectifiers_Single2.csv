@@ -1,0 +1,246 @@
+Standard,200V,2A,875mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),35ns,2µA @ 200V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 175°C
+Standard,600V,1A,1.25V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),50ns,5µA @ 600V,10pF @ 4V   1MHz,Surface Mount,DO-214AA   SMB,SMB,-55°C ~ 175°C
+Standard,1000V,1A,1.7V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1000V,10pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,SMA,-65°C ~ 150°C
+Schottky,40V,3A,500mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,100mA @ 40V,-,Surface Mount,SQ-MELF   B,B   SQ-MELF,-65°C ~ 125°C
+Schottky,20V,1A,600mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 20V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 125°C
+Schottky,40V,4A,500mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,2mA @ 40V,-,Surface Mount,DO-214AB   SMC,SMC,-65°C ~ 150°C
+Standard,1000V,1A,1.7V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 1000V,10pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Standard,50V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),2µs,5µA @ 50V,-,Through Hole,DO-204AL   DO-41   Axial,DO-41,-55°C ~ 150°C
+Standard,600V,1A,1V @ 1A,Standard Recovery >500ns   > 200mA (Io),-,5µA @ 600V,8pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 150°C
+Standard,800V,1A,1V @ 1A,Standard Recovery >500ns   > 200mA (Io),-,5µA @ 800V,8pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 150°C
+Schottky,20V,1A,450mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 20V,110pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-55°C ~ 125°C
+Schottky,30V,1A,550mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 30V,-,Through Hole,DO-204AL   DO-41   Axial,DO-41,-55°C ~ 125°C
+Schottky,40V,1A,600mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,110pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 125°C
+Standard,800V,3A,1.25V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),500ns,10µA @ 800V,28pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-50°C ~ 125°C
+Standard,600V,1A,2.5V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),30ns,5µA @ 600V,-,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 175°C
+Avalanche,1000V,1A,2.5V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1000V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Avalanche,400V,3A,1.5V @ 9A,Fast Recovery =< 500ns   > 200mA (Io),100ns,1µA @ 400V,-,Through Hole,SOD-64   Axial,SOD-64,-55°C ~ 175°C
+Standard,200V,1A,1.4V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),400ns,10µA @ 200V,-,Through Hole,Axial,-,-40°C ~ 150°C
+Standard,100V,200mA,1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,4ns,25nA @ 20V,4pF @ 0V   1MHz,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80,-55°C ~ 175°C
+Schottky,40V,500mA,550mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),5ns,100µA @ 35V,60pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,Mini3-G1,125°C (Max)
+Standard,600V,4A,1.28V @ 4A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 600V,-,Through Hole,DO-201AA   DO-27   Axial,DO-201AD,-65°C ~ 175°C
+Standard,600V,8A,1.5V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),60ns,10µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 175°C
+Standard,1200V,15A,3.2V @ 15A,Fast Recovery =< 500ns   > 200mA (Io),75ns,100µA @ 1200V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 175°C
+Standard,400V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),150ns,5µA @ 400V,6.6pF @ 4V   1MHz,Through Hole,MPG06   Axial,MPG06,-55°C ~ 150°C
+Standard,600V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),200ns,5µA @ 600V,6.6pF @ 4V   1MHz,Through Hole,MPG06   Axial,MPG06,-55°C ~ 150°C
+Standard,1000V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),1µs,5µA @ 1000V,15pF @ 4V   1MHz,Surface Mount,SOD-123F,SOD-123FL,-65°C ~ 175°C
+Standard,1000V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),1µs,5µA @ 1000V,15pF @ 4V   1MHz,Surface Mount,SOD-123F,SOD-123FL,-65°C ~ 175°C
+Standard,125V,200mA,1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,-,1nA @ 125V,6pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,175°C (Max)
+Standard,125V,200mA,1.15V @ 300mA,Small Signal =< 200mA (Io)   Any Speed,-,3nA @ 125V,6pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,175°C (Max)
+Standard,125V,200mA,1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,-,1nA @ 125V,6pF @ 0V   1MHz,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80,175°C (Max)
+Standard,600V,16A,1.5V @ 16A,Fast Recovery =< 500ns   > 200mA (Io),50ns,10µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 150°C
+Standard,600V,6A,900mV @ 6A,Standard Recovery >500ns   > 200mA (Io),2.5µs,5µA @ 600V,150pF @ 4V   1MHz,Through Hole,P600   Axial,P600,-50°C ~ 150°C
+Standard,4000V,250mA,3V @ 1A,Standard Recovery >500ns   > 200mA (Io),2µs,5µA @ 4000V,-,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 175°C
+Standard,400V,2A,1.25V @ 2A,Fast Recovery =< 500ns   > 200mA (Io),50ns,5µA @ 400V,45pF @ 4V   1MHz,Through Hole,DO-204AC   DO-15   Axial,DO-15,-65°C ~ 150°C
+Standard,400V,3A,1.3V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),50ns,10µA @ 400V,60pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-55°C ~ 150°C
+Standard,1200V,16A (DC),3.93V @ 32A,Fast Recovery =< 500ns   > 200mA (Io),135ns,20µA @ 1.2kV,-,Through Hole,TO-220-2,TO-220AC,-55°C ~ 150°C
+Standard,600V,25A,1.7V @ 25A,Fast Recovery =< 500ns   > 200mA (Io),75ns,20µA @ 600V,-,Through Hole,TO-247-2,TO-247AC Modified,-55°C ~ 150°C
+Silicon Carbide Schottky,650V,3A (DC),1.7V @ 3A,No Recovery Time > 500mA (Io),0ns,50µA @ 650V,100pF @ 1V   1MHz,Through Hole,TO-220-2,PG-TO220-2-1,-55°C ~ 175°C
+Silicon Carbide Schottky,650V,4A (DC),1.7V @ 4A,No Recovery Time > 500mA (Io),0ns,70µA @ 650V,130pF @ 1V   1MHz,Through Hole,TO-220-2,PG-TO220-2-1,-55°C ~ 175°C
+Standard,1200V,18A,3.3V @ 18A,Fast Recovery =< 500ns   > 200mA (Io),300ns,100µA @ 1200V,-,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,TO-263AB,-55°C ~ 175°C
+Schottky,20V,200mA,600mV @ 200mA,Small Signal =< 200mA (Io)   Any Speed,10ns,5µA @ 10V,50pF @ 0V   1MHz,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80 MiniMELF,125°C (Max)
+Schottky,20V,500mA,385mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,250µA @ 20V,-,Surface Mount,SOD-123,SOD-123,-65°C ~ 125°C
+Schottky,30V,500mA,430mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,130µA @ 30V,-,Surface Mount,SOD-123,SOD-123,-65°C ~ 125°C
+Schottky,40V,500mA,510mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,20µA @ 40V,-,Surface Mount,SOD-123,SOD-123,-55°C ~ 150°C
+Schottky,45V,16A,630mV @ 16A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 45V,1400pF @ 5V   1MHz,Through Hole,TO-220-2,TO-220AC,-55°C ~ 150°C
+Schottky,60V,-,750mV @ 16A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 60V,-,Through Hole,TO-220-2,TO-220AC,-55°C ~ 150°C
+Schottky,30V,2A,430mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 30V,-,Surface Mount,SOD-123F,SOD-123L,-55°C ~ 125°C
+Schottky,35V,7.5A,840mV @ 15A,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 35V,-,Through Hole,TO-220-2,TO-220-2,-65°C ~ 175°C
+Schottky,40V,3A,450mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,300µA @ 40V,-,Surface Mount,DO-214AC   SMA,SMA,-55°C ~ 150°C
+Schottky,40V,3A,450mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,300µA @ 40V,-,Surface Mount,DO-214AC   SMA,SMA,-55°C ~ 150°C
+Schottky,60V,16A,750mV @ 16A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 60V,-,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,TO-263AB,-65°C ~ 150°C
+Schottky,20V,1A,530mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,10µA @ 20V,-,Surface Mount,DO-216AA,Powermite,-65°C ~ 150°C
+Schottky,100V,1A,750mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 100V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 175°C
+Schottky,30V,2A,445mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 30V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 125°C
+Schottky,40V,1A,600mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 40V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 125°C
+Schottky,60V,2A,630mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,200µA @ 60V,-,Surface Mount,DO-214AA   SMB,SMB,-55°C ~ 125°C
+Schottky,60V,3A,740mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,150µA @ 60V,-,Surface Mount,DO-214AB   SMC,SMC,-65°C ~ 175°C
+Standard,100V,200mA (DC),1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,4ns,5µA @ 75V,4pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-55°C ~ 150°C
+Standard,200V,200mA,1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,50ns,100nA @ 175V,5pF @ 0V   1MHz,Surface Mount,SOD-123,SOD-123,150°C (Max)
+Standard,100V,200mA (DC),1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,4ns,5µA @ 75V,4pF @ 0V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 150°C
+Standard,600V,6A,900mV @ 6A,Standard Recovery >500ns   > 200mA (Io),-,25µA @ 600V,-,Through Hole,Button   Axial,Microde Button,-65°C ~ 175°C
+Standard,400V,3A,1.25V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),300ns,10µA @ 400V,-,Through Hole,DO-201AA   DO-27   Axial,DO-201AD,-65°C ~ 125°C
+Schottky,40V,1A,550mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,200µA @ 40V,50pF @ 4V   1MHz,Surface Mount,MicroSMP,MicroSMP,-55°C ~ 150°C
+Standard,150V,1A,875mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),35ns,2µA @ 150V,-,Through Hole,DO-204AL   DO-41   Axial,Axial,-65°C ~ 175°C
+Standard,200V,1A,875mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),35ns,2µA @ 200V,-,Through Hole,DO-204AL   DO-41   Axial,Axial,-65°C ~ 175°C
+Standard,600V,1A,1.25V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 600V,-,Through Hole,DO-204AL   DO-41   Axial,Axial,-65°C ~ 175°C
+Standard,600V,1A,1.25V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 600V,-,Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15),-65°C ~ 175°C
+Standard,600V,1A,1.35V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),60ns,5µA @ 600V,20pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-55°C ~ 150°C
+Standard,200V,2A,950mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),35ns,2µA @ 200V,-,Through Hole,DO-204AL   DO-41   Axial,Axial,-65°C ~ 175°C
+Standard,200V,3A,875mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),25ns,5µA @ 200V,-,Surface Mount,DO-214AB   SMC,DO-214AB (SMC),-55°C ~ 175°C
+Standard,1000V,4A,1.85V @ 4A,Fast Recovery =< 500ns   > 200mA (Io),100ns,25µA @ 1000V,-,Through Hole,DO-201AA   DO-27   Axial,DO-201AD,-65°C ~ 175°C
+Standard,200V,4A,890mV @ 4A,Fast Recovery =< 500ns   > 200mA (Io),35ns,5µA @ 200V,-,Through Hole,DO-201AA   DO-27   Axial,DO-201AD,-65°C ~ 175°C
+Standard,1000V,8A,1.8V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),100ns,25µA @ 1000V,-,Through Hole,TO-220-2,TO-220-2,-65°C ~ 175°C
+Standard,400V,2A,1.25V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 400V,-,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 175°C
+Standard,200V,3A,875mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),35ns,5µA @ 200V,-,Surface Mount,DO-214AB   SMC,DO-214AB (SMC),-65°C ~ 175°C
+Standard,600V,3A,1.25V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 600V,-,Surface Mount,DO-214AB   SMC,DO-214AB (SMC),-65°C ~ 175°C
+Standard,600V,3A,1.25V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 600V,-,Surface Mount,DO-214AB   SMC,SMC,-65°C ~ 175°C
+Schottky,40V,5A,500mV @ 5A,Fast Recovery =< 500ns   > 200mA (Io),-,300µA @ 40V,-,Surface Mount,DO-214AB   SMC,SMC,-65°C ~ 150°C
+Standard,600V,6A,900mV @ 6A,Standard Recovery >500ns   > 200mA (Io),2.5µs,5µA @ 600V,150pF @ 4V   1MHz,Through Hole,P600   Axial,P600,-55°C ~ 150°C
+Schottky,40V,10A,510mV @ 10A,Fast Recovery =< 500ns   > 200mA (Io),-,700µA @ 40V,-,Surface Mount,PowerDI™ 5,PowerDI™ 5,-65°C ~ 150°C
+Schottky,10V,3A (DC),530mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,3mA @ 10V,85pF @ 1V   1MHz,Surface Mount,SC-90   SOD-323F,SOD-323F,150°C (Max)
+Schottky,30V,1A,360mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1.5mA @ 30V,170pF @ 1V   1MHz,Surface Mount,SOD-123W,CFP3,150°C (Max)
+Schottky,30V,3A,360mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,5mA @ 30V,470pF @ 1V   1MHz,Surface Mount,SOD-128,CFP5,150°C (Max)
+Schottky,30V,5A,360mV @ 5A,Fast Recovery =< 500ns   > 200mA (Io),-,8mA @ 30V,800pF @ 1V   1MHz,Surface Mount,SOD-128,CFP5,150°C (Max)
+Schottky,40V,500mA (DC),470mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 40V,50pF @ 1V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,150°C (Max)
+Schottky,60V,1A (DC),660mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,50µA @ 60V,68pF @ 1V   1MHz,Surface Mount,SOD-123F,SOD-123F,150°C (Max)
+Schottky,60V,3A,530mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,200µA @ 60V,360pF @ 1V   1MHz,Surface Mount,SOD-128,CFP5,150°C (Max)
+Standard,75V,200mA (DC),1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,4ns,25nA @ 20V,4pF @ 0V   1MHz,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80C,200°C (Max)
+Schottky,60V,2A,610mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,50µA @ 60V,-,Surface Mount,SOD-123F,PMDU,150°C (Max)
+Schottky,60V,1A,550mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,50µA @ 60V,40pF @ 10V   1MHz,Surface Mount,SOD-123F,PMDU,150°C (Max)
+Schottky,30V,200mA (DC),600mV @ 200mA,Small Signal =< 200mA (Io)   Any Speed,-,1µA @ 10V,-,Surface Mount,SC-79   SOD-523,SOD-523,-55°C ~ 150°C
+Schottky,30V,30mA (DC),370mV @ 1mA,Small Signal =< 200mA (Io)   Any Speed,-,500nA @ 30V,2.5pF @ 1V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-55°C ~ 150°C
+Schottky,60V,5A,550mV @ 5A,Fast Recovery =< 500ns   > 200mA (Io),-,250µA @ 60V,-,Surface Mount,DO-214AC   SMA,PMDS,150°C (Max)
+Standard,200V,700mA,850mV @ 700mA,Fast Recovery =< 500ns   > 200mA (Io),25ns,10µA @ 200V,-,Surface Mount,SOD-123F,PMDU,150°C (Max)
+Standard,600V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),250ns,5µA @ 600V,8.5pF @ 4V   1MHz,Surface Mount,DO-214BA,DO-214BA (GF1),-65°C ~ 175°C
+Standard,400V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),150ns,5µA @ 400V,15pF @ 4V   1MHz,Surface Mount,DO-213AB   MELF (Glass),DO-213AB,-65°C ~ 175°C
+Standard,1200V,500mA,1.8V @ 100mA,Fast Recovery =< 500ns   > 200mA (Io),300ns,5µA @ 1200V,-,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 175°C
+Standard,800V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),500ns,5µA @ 800V,15pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 175°C
+Standard,600V,15A,2.1V @ 15A,Fast Recovery =< 500ns   > 200mA (Io),40ns,100µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 175°C
+Standard,1200V,30A,3.2V @ 30A,Fast Recovery =< 500ns   > 200mA (Io),85ns,250µA @ 1200V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 175°C
+Standard,1200V,8A,3.2V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),70ns,100µA @ 1200V,-,Through Hole,TO-220-2,TO-220AC,-65°C ~ 175°C
+Standard,1000V,3A,1.3V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),500ns,5µA @ 1000V,50pF @ 4V   1MHz,Surface Mount,DO-214AB   SMC,SMC,-65°C ~ 150°C
+Schottky,30V,700mA,550mV @ 700mA,Fast Recovery =< 500ns   > 200mA (Io),10ns,80µA @ 15V,25pF @ 10V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,3-CP,-55°C ~ 125°C
+Schottky,100V,-,850mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 100V,140pF @ 5V   1MHz,Through Hole,DO-204AC   DO-15   Axial,DO-15,-55°C ~ 150°C
+Schottky,100V,3A,850mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 100V,250pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-65°C ~ 150°C
+Schottky,40V,350mA,600mV @ 200mA,Fast Recovery =< 500ns   > 200mA (Io),10ns,5µA @ 30V,50pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-65°C ~ 125°C
+Schottky,100V,3A,850mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 100V,250pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (HSMA),-50°C ~ 125°C
+Schottky,40V,3A,500mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,250pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-50°C ~ 125°C
+Schottky,40V,3A,500mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,250pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-50°C ~ 125°C
+Schottky,60V,3A,750mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 60V,250pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-50°C ~ 125°C
+Schottky,60V,3A,750mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 60V,250pF @ 4V   1MHz,Surface Mount,DO-214AB   SMC,DO-214AB (SMC),-55°C ~ 150°C
+Schottky,40V,1.1A,510mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),10ns,20µA @ 40V,-,Surface Mount,DO-219AB,DO-219AB (SMF),125°C (Max)
+Schottky,30V,1.5A,445mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,200µA @ 30V,-,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 125°C
+Schottky,30V,2A,440mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,400µA @ 30V,-,Surface Mount,DO-214AA   SMB,DO-214AA (SMB),-55°C ~ 125°C
+Standard,1200V,1A,1.65V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),115ns,10µA @ 1200V,-,Surface Mount,DO-214AA   SMB,SMB,125°C (Max)
+Standard,600V,12A,1.75V @ 12A,Fast Recovery =< 500ns   > 200mA (Io),55ns,100µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,150°C (Max)
+Standard,600V,4A (DC),1.75V @ 4A,Fast Recovery =< 500ns   > 200mA (Io),55ns,50µA @ 600V,-,Through Hole,DO-201AD   Axial,DO-201AD,125°C (Max)
+Standard,600V,8A,1.75V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),52ns,100µA @ 600V,-,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK,150°C (Max)
+Standard,200V,1A,970mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),20ns,1µA @ 200V,-,Surface Mount,DO-214AC   SMA,SMA (DO-214AC),175°C (Max)
+Standard,800V,1A,1.65V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 800V,-,Surface Mount,DO-214AC   SMA,SMA (DO-214AC),175°C (Max)
+Standard,800V,1A,1.65V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 800V,-,Surface Mount,DO-214AC   SMA,SMA (DO-214AC),175°C (Max)
+Standard,1200V,1A,1.9V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1200V,-,Surface Mount,DO-214AA   SMB,SMB,175°C (Max)
+Standard,1000V,12A,2V @ 12A,Fast Recovery =< 500ns   > 200mA (Io),90ns,10µA @ 1000V,-,Through Hole,TO-220-2,TO-220AC,-40°C ~ 175°C
+Standard,600V,12A,2.9V @ 12A,Fast Recovery =< 500ns   > 200mA (Io),45ns,45µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,175°C (Max)
+Standard,600V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),80ns,1µA @ 600V,-,Surface Mount,DO-214AC   SMA,SMA,175°C (Max)
+Standard,600V,1A,1.7V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),45ns,1µA @ 600V,-,Surface Mount,DO-214AC   SMA,SMA,175°C (Max)
+Standard,1000V,30A,2V @ 30A,Fast Recovery =< 500ns   > 200mA (Io),100ns,15µA @ 1000V,-,Through Hole,DO-247-2 (Straight Leads),-,-40°C ~ 175°C
+Standard,200V,4A,1.05V @ 4A,Fast Recovery =< 500ns   > 200mA (Io),30ns,3µA @ 200V,-,Surface Mount,DO-214AB   SMC,SMC,175°C (Max)
+Standard,600V,5A,1.85V @ 5A,Fast Recovery =< 500ns   > 200mA (Io),50ns,5µA @ 600V,-,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak,175°C (Max)
+Standard,600V,5A,2V @ 5A,Fast Recovery =< 500ns   > 200mA (Io),55ns,60µA @ 600V,-,Surface Mount,8-PowerVDFN,PowerFlat™ (5x6),175°C (Max)
+Schottky,80V,500mA (DC),420mV @ 100mA,Fast Recovery =< 500ns   > 200mA (Io),-,200µA @ 80V,120pF @ 0V   1MHz,Surface Mount,DO-213AB   MELF,MELF,-65°C ~ 125°C
+Schottky,30V,200mA (DC),1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,5ns,500nA @ 25V,7pF @ 1V   1MHz,Surface Mount,DO-213AA (Glass),Mini MELF,-65°C ~ 125°C
+Schottky,40V,350mA (DC),750mV @ 200mA,Fast Recovery =< 500ns   > 200mA (Io),10ns,25µA @ 40V,20pF @ 0V   1MHz,Surface Mount,DO-213AA (Glass),Mini MELF,-65°C ~ 125°C
+Standard,200V,1A,1V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),50ns,10µA @ 200V,17pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 150°C
+Standard,800V,1A,1.7V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 800V,17pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 150°C
+Standard,400V,3A,1V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),50ns,10µA @ 400V,45pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-55°C ~ 150°C
+Standard,100V,1A,950mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),25ns,5µA @ 100V,7pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-55°C ~ 150°C
+Standard,1000V,1A,1.7V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1000V,15pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-55°C ~ 150°C
+Standard,1000V,3A,1.7V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),75ns,10µA @ 1000V,-,Through Hole,DO-201AD   Axial,DO-201AD,-55°C ~ 150°C
+Schottky,60V,1.1A,580mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 60V,-,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-40°C ~ 150°C
+Standard,600V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),2µs,5µA @ 600V,8pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 175°C
+Standard,800V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),3µs,5µA @ 800V,10pF @ 4V   1MHz,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 150°C
+Standard,75V,150mA,1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,4ns,5µA @ 75V,4pF @ 0V   1MHz,Surface Mount,SC-90   SOD-323F,SOD-323F,150°C (Max)
+Standard,75V,200mA,1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,4ns,5µA @ 75V,5pF @ 0V   1MHz,Surface Mount,SC-79   SOD-523F,SOD-523F,-55°C ~ 150°C
+Standard,75V,150mA,1.25V @ 150mA,Small Signal =< 200mA (Io)   Any Speed,4ns,1µA @ 75V,2pF @ 0V   1MHz,Surface Mount,SC-79   SOD-523,SOD-523,-65°C ~ 150°C
+Standard,50V,150mA,880mV @ 20mA,Small Signal =< 200mA (Io)   Any Speed,4ns,50nA @ 50V,2pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,-,-65°C ~ 175°C
+Schottky,100V,8A,680mV @ 8A,Fast Recovery =< 500ns   > 200mA (Io),-,70µA @ 100V,-,Surface Mount,TO-277   3-PowerDFN,TO-277A (SMPC),-40°C ~ 150°C
+Schottky,60V,1A,490mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 60V,80pF @ 5V   1MHz,Surface Mount,DO-214AA   SMB,SMB,-55°C ~ 150°C
+Schottky,100V,1A,780mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 100V,38pF @ 10V   1MHz,Surface Mount,DO-214AC   SMA,SMA,-55°C ~ 150°C
+Schottky,40V,500mA,470mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 30V,50pF @ 1V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-65°C ~ 150°C
+Schottky,40V,380mA (DC),1V @ 275mA,Fast Recovery =< 500ns   > 200mA (Io),1ns,4µA @ 30V,6pF @ 30V   1MHz,Surface Mount,SC-79   SOD-523,SOD-523,150°C (Max)
+Schottky,40V,700mA (DC),530mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),3ns,10µA @ 30V,16pF @ 30V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,150°C (Max)
+Standard,25V,150mA,1V @ 30mA,Small Signal =< 200mA (Io)   Any Speed,4ns,100nA @ 25V,4pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,-65°C ~ 175°C
+Standard,75V,200mA,1V @ 20mA,Small Signal =< 200mA (Io)   Any Speed,4ns,25nA @ 20V,-,Through Hole,DO-204AH   DO-35   Axial,DO-35,-65°C ~ 150°C
+Standard,75V,150mA,1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,4ns,5µA @ 75V,4pF @ 0V   1MHz,Surface Mount,SC-90   SOD-323F,SOD-323F,-55°C ~ 150°C
+Standard,70V,200mA,1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,-,25nA @ 60V,8pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,175°C (Max)
+Standard,400V,1A,1.2V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),300ns,5µA @ 400V,-,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 150°C
+Avalanche,400V,2A,1.15V @ 2.5A,Standard Recovery >500ns   > 200mA (Io),4µs,1µA @ 400V,40pF @ 0V   1MHz,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Standard,600V,1.5A,1.4V @ 1.5A,Standard Recovery >500ns   > 200mA (Io),2µs,5µA @ 600V,15pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-50°C ~ 150°C
+Schottky,20V,1A,450mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 20V,125pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41),-65°C ~ 125°C
+Schottky,40V,120mA (DC),1V @ 40mA,Small Signal =< 200mA (Io)   Any Speed,-,10µA @ 40V,5pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,150°C (Max)
+Standard,400V,1A,1.1V @ 1A,Standard Recovery >500ns   > 200mA (Io),-,10µA @ 400V,-,Through Hole,DO-41 Mini   Axial,MSR,150°C (Max)
+Standard,220V,200mA,1.5V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,75ns,10µA @ 220V,3pF @ 0V   1MHz,Through Hole,DO-204AG   DO-34   Axial,MSD,175°C (Max)
+Standard,80V,100mA,1.2V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,4ns,500nA @ 80V,3pF @ 0V   1MHz,Surface Mount,SC-76A,SC-76-2,125°C (Max)
+Standard,80V,150mA,1.2V @ 100mA,Fast Recovery =< 500ns   > 200mA (Io),4ns,100nA @ 80V,4pF @ 500mV   1MHz,Surface Mount,SC-90   SOD-323F,SOD-323F,-65°C ~ 150°C
+Standard,80V,100mA,1.2V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,4ns,500nA @ 80V,3pF @ 0V   1MHz,Surface Mount,SC-79   SOD-523,ESC,125°C (Max)
+Standard,1200V,20A,1.1V @ 20A,Standard Recovery >500ns   > 200mA (Io),-,100µA @ 1200V,-,Through Hole,TO-220-2 Full Pack,TO-220AC Full Pack,-40°C ~ 150°C
+Standard   Reverse Polarity,1200V,85A,1.2V @ 267A,Standard Recovery >500ns   > 200mA (Io),-,9mA @ 1200V,-,Chassis   Stud Mount,DO-203AB   DO-5   Stud,DO-203AB,-65°C ~ 180°C
+Schottky,40V,500mA,550mV @ 500mA,Fast Recovery =< 500ns   > 200mA (Io),-,5µA @ 30V,125pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-40°C ~ 125°C
+Schottky,100V,1A,790mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 100V,80pF @ 4V   1MHz,Surface Mount,DO-214AA   SMB,SMB,-65°C ~ 150°C
+Schottky,30V,1A,420mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,1mA @ 30V,40pF @ 10V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 125°C
+Schottky,40V,2A,500mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,200pF @ 40V   1MHz,Surface Mount,DO-214AC   SMA,SMA,-65°C ~ 150°C
+Schottky,40V,3A,450mV @ 3A,Fast Recovery =< 500ns   > 200mA (Io),-,2mA @ 40V,180pF @ 4V   1MHz,Surface Mount,DO-214AA   SMB,SMB,-55°C ~ 125°C
+Schottky,40V,5A,550mV @ 5A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,300pF @ 4V   1MHz,Surface Mount,DO-214AB   SMC,SMC,-55°C ~ 150°C
+Schottky,30V,100mA,1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,5ns,500nA @ 30V,7pF @ 1V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,150°C (Max)
+Standard,50V,250mA (DC),1V @ 100mA,Fast Recovery =< 500ns   > 200mA (Io),4ns,100nA @ 50V,2pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,PG-SOT23-3,-65°C ~ 150°C
+Standard,85V,215mA (DC),1.25V @ 150mA,Standard Recovery >500ns   > 200mA (Io),3µs,5nA @ 75V,2pF @ 0V   1MHz,Surface Mount,SOT-523,SOT-523,-65°C ~ 150°C
+Standard,75V,200mA,1.25V @ 150mA,Small Signal =< 200mA (Io)   Any Speed,4ns,1µA @ 75V,2pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,-65°C ~ 150°C
+Standard,75V,250mA (DC),1.25V @ 150mA,Fast Recovery =< 500ns   > 200mA (Io),6ns,1µA @ 75V,2pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,150°C (Max)
+Standard,100V,200mA,1.25V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,50ns,100nA @ 100V,5pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,-65°C ~ 150°C
+Standard,250V,200mA (DC),1.25V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,50ns,100nA @ 200V,5pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23,-55°C ~ 150°C
+Standard,100V,250mA (DC),1.25V @ 150mA,Fast Recovery =< 500ns   > 200mA (Io),4ns,1µA @ 75V,1.5pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-65°C ~ 150°C
+Standard,75V,200mA (DC),1.25V @ 150mA,Small Signal =< 200mA (Io)   Any Speed,3µs,5nA @ 75V,2pF @ 0V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,150°C (Max)
+Schottky,30V,200mA (DC),800mV @ 100mA,Small Signal =< 200mA (Io)   Any Speed,5ns,2µA @ 25V,10pF @ 1V   1MHz,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80 MiniMELF,125°C (Max)
+Schottky,40V,1A,500mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 30V,175pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,-40°C ~ 125°C
+Schottky,30V,200mA (DC),1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,5ns,500nA @ 25V,10pF @ 1V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 125°C
+Schottky,30V,200mA (DC),1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,5ns,500nA @ 25V,10pF @ 1V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 125°C
+Schottky,30V,200mA (DC),1V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,5ns,500nA @ 25V,10pF @ 1V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 125°C
+Schottky,100V,150mA (DC),450mV @ 10mA,Small Signal =< 200mA (Io)   Any Speed,-,2µA @ 75V,20pF @ 0V   1MHz,Surface Mount,SOD-123,SOD-123,-55°C ~ 125°C
+Schottky,100V,150mA (DC),1V @ 250mA,Small Signal =< 200mA (Io)   Any Speed,-,5µA @ 75V,10pF @ 0V   1MHz,Surface Mount,SOD-123,SOD-123,150°C (Max)
+Schottky,30V,200mA (DC),800mV @ 100mA,Small Signal =< 200mA (Io)   Any Speed,5ns,2µA @ 25V,10pF @ 1V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-55°C ~ 150°C
+Schottky,30V,200mA (DC),400mV @ 10mA,Small Signal =< 200mA (Io)   Any Speed,5ns,4µA @ 25V,7.5pF @ 1V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3,125°C (Max)
+Schottky,30V,200mA (DC),1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,5ns,2µA @ 25V,10pF @ 1V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,125°C (Max)
+Schottky,10V,3A (DC),370mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,2.6mA @ 8V,35pF @ 5V   1MHz,Surface Mount,SC-76   SOD-323,PG-SOD323-2,150°C (Max)
+Schottky,10V,3A (DC),580mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,6µA @ 10V,-,Surface Mount,SC-76   SOD-323,SOD-323,150°C (Max)
+Schottky,40V,120mA,750mV @ 100mA,Small Signal =< 200mA (Io)   Any Speed,5ns,2µA @ 30V,6pF @ 1V   1MHz,Surface Mount,SC-80,PG-SCD80-2,150°C (Max)
+Standard,200V,200mA,1.25V @ 200mA,Small Signal =< 200mA (Io)   Any Speed,50ns,100nA @ 200V,5pF @ 0V   1MHz,Surface Mount,SOD-123,SOD-123,-65°C ~ 150°C
+Standard,20V,50mA (DC),1V @ 10mA,Small Signal =< 200mA (Io)   Any Speed,600ns,5pA @ 5V,1.3pF @ 0V   1MHz,Surface Mount,Die,Die,-65°C ~ 125°C
+Standard,60V,600mA (DC),1.25V @ 400mA,Fast Recovery =< 500ns   > 200mA (Io),6ns,100nA @ 60V,4pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,175°C (Max)
+Standard,125V,200mA,1V @ 100mA,Small Signal =< 200mA (Io)   Any Speed,50ns,100nA @ 100V,5pF @ 0V   1MHz,Through Hole,DO-204AH   DO-35   Axial,DO-35,175°C (Max)
+Avalanche,1500V,3A,1.5V @ 5A,Standard Recovery >500ns   > 200mA (Io),20µs,5µA @ 1500V,-,Through Hole,SOD-64   Axial,SOD-64,140°C (Max)
+Standard,1500V,2.5A,1.6V @ 2.5A,Standard Recovery >500ns   > 200mA (Io),20µs,5µA @ 1500V,40pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-65°C ~ 150°C
+Standard,1300V,3A,1.1V @ 3A,Standard Recovery >500ns   > 200mA (Io),3µs,5µA @ 1300V,40pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-55°C ~ 150°C
+Standard,800V,2A,1.3V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),500ns,10µA @ 800V,28pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-50°C ~ 125°C
+Avalanche,1500V,2A,1.6V @ 3A,Standard Recovery >500ns   > 200mA (Io),20µs,3µA @ 1500V,-,Through Hole,SOD-57   Axial,SOD-57,140°C (Max)
+Avalanche,1000V,600mA,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),300ns,1µA @ 1000V,20pF @ 0V   1MHz,Surface Mount,SOD-87,MELF,-65°C ~ 175°C
+Avalanche,1000V,1.5A,1.15V @ 1.5A,Standard Recovery >500ns   > 200mA (Io),4µs,1µA @ 1000V,-,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Standard,200V,1.5A,1.4V @ 1.5A,Fast Recovery =< 500ns   > 200mA (Io),75ns,1µA @ 200V,-,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Avalanche,600V,1.5A,1.4V @ 1.5A,Fast Recovery =< 500ns   > 200mA (Io),75ns,1µA @ 600V,-,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Avalanche,1000V,1.5A,1.6V @ 1.5A,Fast Recovery =< 500ns   > 200mA (Io),120ns,1µA @ 1000V,-,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Standard,1000V,1A,1.2V @ 1A,Standard Recovery >500ns   > 200mA (Io),-,10µA @ 1000V,8pF @ 4V   1MHz,Surface Mount,DO-213AB   MELF (Glass),DO-213AB,-65°C ~ 175°C
+Standard,400V,1A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),150ns,5µA @ 400V,15pF @ 4V   1MHz,Surface Mount,DO-213AB   MELF (Glass),DO-213AB,-65°C ~ 175°C
+Avalanche,800V,1.4A,1.3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),200ns,5µA @ 800V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Avalanche,600V,3A,1.4V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),100ns,5µA @ 600V,-,Through Hole,SOD-64   Axial,SOD-64,-55°C ~ 175°C
+Schottky,40V,1A,550mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,-,Surface Mount,DO-213AB   MELF,MELF,-65°C ~ 125°C
+Avalanche,1000V,1A,2.5V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1000V,15pF @ 4V   1MHz,Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15),-65°C ~ 175°C
+Standard,100V,2A,1.07V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),15ns,5µA @ 100V,15pF @ 4V   1MHz,Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15),-55°C ~ 150°C
+Standard,150V,2A,1.07V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),15ns,5µA @ 150V,15pF @ 4V   1MHz,Through Hole,DO-204AC   DO-15   Axial,DO-204AC (DO-15),-55°C ~ 150°C
+Avalanche,600V,2A,1.35V @ 3A,Fast Recovery =< 500ns   > 200mA (Io),250ns,5µA @ 600V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Standard,200V,3.5A,1.1V @ 3.5A,Fast Recovery =< 500ns   > 200mA (Io),20ns,5µA @ 200V,20pF @ 4V   1MHz,Through Hole,DO-201AD   Axial,DO-201AD,-55°C ~ 150°C
+Standard,600V,9A,1.26V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),60ns,50µA @ 600V,-,Through Hole,TO-220-2 Full Pack   Isolated Tab,TO-220FP,150°C (Max)
+Avalanche,200V,4A,1.1V @ 5A,Fast Recovery =< 500ns   > 200mA (Io),35ns,10µA @ 200V,-,Through Hole,SOD-64   Axial,SOD-64,-55°C ~ 175°C
+Standard,200V,1.5A,1.2V @ 4.5A,Fast Recovery =< 500ns   > 200mA (Io),35ns,10µA @ 200V,-,Through Hole,DO-204AC   DO-15   Axial,DO-15,150°C (Max)
+Standard,200V,8A,1.3V @ 20A,Fast Recovery =< 500ns   > 200mA (Io),35ns,5µA @ 200V,-,Through Hole,TO-220-2,TO-220-2,-65°C ~ 175°C
+Avalanche,200V,2A,1.1V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),200ns,5µA @ 200V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Avalanche,400V,2A,1.1V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),200ns,5µA @ 400V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Avalanche,1000V,2A,1V @ 1A,Standard Recovery >500ns   > 200mA (Io),4µs,1µA @ 1000V,-,Through Hole,SOD-57   Axial,SOD-57,-55°C ~ 175°C
+Standard,200V,8A,1.25V @ 22A,Fast Recovery =< 500ns   > 200mA (Io),35ns,10µA @ 200V,-,Through Hole,TO-220-2,TO-220-2,-65°C ~ 175°C
+Standard,200V,3A,1.2V @ 9A,Fast Recovery =< 500ns   > 200mA (Io),35ns,10µA @ 200V,-,Through Hole,DO-201AD   Axial,DO-201AD,150°C (Max)
+Silicon Carbide Schottky,1200V,19A (DC),1.8V @ 5A,No Recovery Time > 500mA (Io),0ns,150µA @ 1200V,390pF @ 0V   1MHz,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-2,-55°C ~ 175°C
+Schottky,30V,100mA,350mV @ 10mA,Small Signal =< 200mA (Io)   Any Speed,-,10µA @ 10V,-,Surface Mount,SOD-723,SOD-723,125°C (Max)
+Standard,1000V,2A,1.3V @ 2A,Fast Recovery =< 500ns   > 200mA (Io),500ns,5µA @ 1000V,-,Surface Mount,DO-214AA   SMB,DO-214AA (SMB),150°C (Max)
+Schottky,30V,100mA,800mV @ 100mA,Small Signal =< 200mA (Io)   Any Speed,-,1µA @ 25V,7pF @ 10V   1MHz,Surface Mount,SC-76   SOD-323,SOD-323,-65°C ~ 150°C
+Schottky,40V,1A,550mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,500µA @ 40V,60pF @ 4V   1MHz,Surface Mount,SOD-123F,SOD-123F,-65°C ~ 125°C
+Standard,75V,250mA,1V @ 100mA,Fast Recovery =< 500ns   > 200mA (Io),4ns,25nA @ 20V,4pF @ 0V   1MHz,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23,-65°C ~ 150°C
+Schottky,40V,1A,510mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),-,100µA @ 40V,47pF @ 10V   1MHz,Surface Mount,SOD-123F,S-FLAT (1.6x3.5),-40°C ~ 150°C
+Standard,1000V,30A,2.4V @ 36A,Fast Recovery =< 500ns   > 200mA (Io),50ns,750µA @ 1000V,-,Through Hole,ISOPLUS247™,ISOPLUS247™,-40°C ~ 150°C
+Standard,600V,8A,1.5V @ 8A,Fast Recovery =< 500ns   > 200mA (Io),50ns,20µA @ 600V,-,Through Hole,TO-220-2,TO-220AC,-40°C ~ 150°C
+Standard,600V,30A,2.51V @ 30A,Fast Recovery =< 500ns   > 200mA (Io),30ns,250µA @ 600V,-,Through Hole,ISOPLUS247™,ISOPLUS247™,-55°C ~ 175°C
+Standard,1200V,30A,2.74V @ 30A,Fast Recovery =< 500ns   > 200mA (Io),40ns,250µA @ 1200V,-,Through Hole,TO-247-2,TO-247AD,-55°C ~ 175°C
+Standard,1200V,60A,2.66V @ 60A,Fast Recovery =< 500ns   > 200mA (Io),40ns,650µA @ 1200V,-,Through Hole,TO-247-2,TO-247AD,-55°C ~ 175°C
+Standard,1500V,6A,1.75V @ 6A,Standard Recovery >500ns   > 200mA (Io),1µs,100µA @ 1500V,-,Through Hole,TO-220-2 Full Pack,TO-220FPAC,175°C (Max)
+Standard,1300V,1A,3V @ 1A,Fast Recovery =< 500ns   > 200mA (Io),75ns,5µA @ 1300V,-,Surface Mount,DO-214BA,DO-214BA (GF1),-55°C ~ 150°C
+Standard,1800V,1A,1.1V @ 40V,Standard Recovery >500ns   > 200mA (Io),-,-,15pF @ 4V   1MHz,Through Hole,DO-204AL   DO-41   Axial,DO-41,-65°C ~ 150°C
+Standard,100V,1A,920mV @ 1A,Fast Recovery =< 500ns   > 200mA (Io),25ns,5µA @ 100V,10pF @ 4V   1MHz,Surface Mount,DO-214AC   SMA,DO-214AC (SMA),-55°C ~ 150°C
+Standard,150V,2A,900mV @ 2A,Fast Recovery =< 500ns   > 200mA (Io),30ns,10µA @ 150V,18pF @ 4V   1MHz,Surface Mount,DO-214AA   SMB,DO-214AA (SMB),-55°C ~ 150°C

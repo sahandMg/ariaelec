@@ -1,0 +1,23 @@
+Capacitive Coupling,1,5700Vrms,100kV/µs,110ns   110ns,-,18ns   20ns,1.5A   3.4A,2.7A   5.5A,-,-,15 V ~ 30 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC,CQC   CSA   UR   VDE
+Optical Coupling,1,3750Vrms,10kV/µs,700ns   700ns,-,50ns   50ns,200mA   200mA,400mA,1.5V,20mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO,CSA   UR
+Optical Coupling,1,3750Vrms,25kV/µs,500ns   500ns,300ns,100ns   100ns,2A   2A,2.5A,1.5V,25mA,15 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,CSA   UR
+Optical Coupling,2,5000Vrms,15kV/µs,500ns   500ns,300ns,100ns   100ns,2A   2A,2.5A,-,-,15 V ~ 30 V,-40°C ~ 100°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO,CSA   IEC/EN/DIN   UR
+Optical Coupling,1,5000Vrms,15kV/µs,200ns   200ns,65ns,75ns   55ns,2A   2A,2.5A,1.43V,25mA,10 V ~ 20 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD,cUL   UL   VDE
+Optical Coupling,1,5000Vrms,25kV/µs,500ns   500ns,300ns,100ns   100ns,2A   2A,2.5A,1.6V,25mA,15 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing,CSA   IEC/EN/DIN   UR
+Optical Coupling,1,3750Vrms,25kV/µs,700ns   700ns,-,50ns   50ns,400mA   400mA,600mA,1.5V,25mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO,CSA   UR
+Optical Coupling,1,3750Vrms,10kV/µs,700ns   700ns,-,50ns   50ns,200mA   200mA,400mA,1.5V,20mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing,CSA   UR
+Optical Coupling,1,3750Vrms,25kV/µs,500ns   500ns,300ns,100ns   100ns,2A   2A,2.5A,1.5V,25mA,15 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing,CSA   UR
+Optical Coupling,2,5000Vrms,25kV/µs,700ns   700ns,-,50ns   50ns,500mA   -,600mA,1.5V,25mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO,CSA   IEC/EN/DIN   UR
+Optical Coupling,1,3750Vrms,15kV/µs,500ns   500ns,300ns,100ns   100ns,500mA   500mA,600mA,1.5V,25mA,15 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,CSA   UR
+Optical Coupling,2,5000Vrms,15kV/µs,500ns   500ns,300ns,100ns   100ns,500mA   500mA,600mA,1.6V,25mA,15 V ~ 30 V,-40°C ~ 100°C,Surface Mount,16-SOIC (0.295"   7.50mm Width)   12 Leads,16-SO,CSA   IEC/EN/DIN   UR
+Optical Coupling,1,3750Vrms,25kV/µs,700ns   700ns,-,50ns   50ns,400mA   400mA,600mA,1.5V,25mA,10 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,CSA   IEC/EN/DIN   UR
+Optical Coupling,1,5000Vrms,15kV/µs,500ns   500ns,-,200ns   200ns,-,600mA,1.6V,20mA,15 V ~ 30 V,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,UR   VDE
+Optical Coupling,1,5000Vrms,15kV/µs,500ns   500ns,300ns,100ns   100ns,2A   2A,2.5A,1.8V (Max),25mA,15 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD,UR
+Optical Coupling,1,4000Vrms,1.5kV/µs,500ns   500ns,-,200ns   200ns,-,400mA,1.6V,20mA,15 V ~ 30 V,-25°C ~ 80°C,Surface Mount,14-SOIC (0.256"   6.50mm Width),14-SMT,UR
+Optical Coupling,1,3750Vrms,15kV/µs,170ns   170ns,-,35ns   15ns,400mA   400mA,600mA,1.55V,20mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,6-SOIC (0.179"   4.55mm Width)   5 Leads,6-SO   5 Lead,CSA   cUL   UL
+Optical Coupling,1,3750Vrms,15kV/µs,500ns   500ns,-,15ns   8ns,2A   2A,2.5A,1.6V,20mA,15 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,UR
+Optical Coupling,1,3750Vrms,10kV/µs,700ns   700ns,-,50ns   50ns,400mA   400mA,600mA,1.55V,20mA,10 V ~ 30 V,-40°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP,-
+Optical Coupling,1,3750Vrms,20kV/µs,200ns   200ns,50ns,15ns   8ns,2A   2A,2.5A,1.55V,20mA,15 V ~ 30 V,-40°C ~ 125°C,Surface Mount,8-SMD   Gull Wing,8-SMD,CSA   cUL   UL
+Optical Coupling,1,5000Vrms,10kV/µs,700ns   700ns,-,50ns   50ns,400mA   400mA,600mA,1.55V,20mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,6-SOIC (0.268"   6.80mm Width),6-SDIP Gull Wing,cUL   UL
+Optical Coupling,1,5000Vrms,20kV/µs,170ns   170ns,50ns,35ns   15ns,400mA   400mA,600mA,1.57V,25mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,6-SOIC (0.268"   6.80mm Width),6-SDIP,cUL   UL
+Optical Coupling,1,5000Vrms,35kV/µs,210ns   210ns,65ns,38ns   24ns,2.5A   2.5A,3A,1.43V,25mA,10 V ~ 30 V,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD,UL

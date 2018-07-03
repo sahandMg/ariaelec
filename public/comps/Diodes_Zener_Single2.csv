@@ -1,0 +1,85 @@
+18V,±6%,200mW,45 Ohms,50nA @ 13V,900mV @ 10mA,-,Surface Mount,TO-236-3   SC-59   SOT-23-3,Mini3-G1
+18V,±6%,300mW,45 Ohms,50nA @ 12.6V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SC-76   SOD-323,SOD-323
+15V,±5%,225mW,16 Ohms,100nA @ 11V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+43V,±5%,500mW,150 Ohms,50nA @ 30.1V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+3.3V,±5%,500mW,-,7.5µA @ 1.5V,950mV @ 10mA,150°C,Surface Mount,SOD-123,SOD-123
+15V,±5%,500mW,-,50nA @ 11.4V,950mV @ 10mA,150°C,Surface Mount,SOD-123,SOD-123
+2.4V,±5%,500mW,30 Ohms,100µA @ 1V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+6V,±5%,500mW,7 Ohms,5µA @ 3.5V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+10V,±5%,500mW,17 Ohms,3µA @ 8V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+12V,±5%,500mW,30 Ohms,1µA @ 9.1V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+16V,±5%,500mW,17 Ohms,100nA @ 12V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+43V,±5%,500mW,93 Ohms,100nA @ 33V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+4.3V,±2%,300mW,90 Ohms,3µA @ 1V,1.1V @ 100mA,-65°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SMT3; MPAK
+5.1V,±5%,3W,4 Ohms,5µA @ 2V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AA   SMB,SMB
+3.3V,±2%,500mW,90 Ohms,2µA @ 1V,1.5V @ 200mA,-65°C ~ 175°C,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80 MiniMELF
+3V,±5%,500mW,90 Ohms,4µA @ 1V,1.5V @ 200mA,-65°C ~ 175°C,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80 MiniMELF
+47V,±5%,500mW,110 Ohms,100nA @ 36V,1.5V @ 200mA,-65°C ~ 175°C,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80 MiniMELF
+5.1V,±2%,200mW,80 Ohms,2µA @ 1.5V,-,-55°C ~ 150°C,Surface Mount,SC-90   SOD-323F,UMD2
+3V,±2%,590mW,95 Ohms,10µA @ 1V,900mV @ 10mA,-55°C ~ 150°C (TA),Surface Mount,SOD-123,SOD-123
+11V,±5%,1W,7 Ohms,4µA @ 8.2V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+18V,-,800mW,15 Ohms,1µA @ 13V,1.2V @ 200mA,-65°C ~ 175°C,Surface Mount,DO-219AB,DO-219AB (SMF)
+47V,±5%,1W,45 Ohms,1µA @ 36V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+43V,±5%,1W,45 Ohms,1µA @ 33V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+47V,±5%,1W,45 Ohms,1µA @ 36V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+74.5V,±5%,1W,100 Ohms,1µA @ 56V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+16.2V,±5.55%,1W,15 Ohms,1µA @ 12V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+10V,±6%,1W,4 Ohms,7µA @ 7.5V,1.2V @ 200mA,-55°C ~ 175°C (TJ),Surface Mount,DO-219AB,Sub SMA
+2.4V,±5%,1W,150 Ohms,200µA @ 1V,1.2V @ 200mA,-40°C ~ 85°C,Surface Mount,SOD-123F,Mini2-F3-B
+1.8V,±5%,500mW,1200 Ohms,7.5µA @ 1V,-,-,Through Hole,DO-204AH   DO-35   Axial,DO-35
+3.6V,±5%,500mW,24 Ohms,15µA @ 1V,1.2V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+5.6V,±5%,500mW,11 Ohms,5µA @ 3V,1.2V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+7.5V,±5%,500mW,6 Ohms,3µA @ 6V,1.1V @ 200mA,175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+120V,±5%,500mW,900 Ohms,100nA @ 91V,1.1V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+3.3V,±5%,5W,3 Ohms,300µA @ 1V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+4.7V,±5%,5W,2 Ohms,5µA @ 1V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+8.2V,±5%,5W,1.5 Ohms,10µA @ 6.2V,1.2V @ 1A,-55°C ~ 150°C,Through Hole,DO-204AC   DO-15   Axial,DO-15
+12V,±5%,5W,2.5 Ohms,2µA @ 9.1V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+13V,±5%,5W,2.5 Ohms,1µA @ 9.9V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+14V,±5%,5W,2.5 Ohms,1µA @ 10.6V,1.2V @ 1A,-55°C ~ 150°C,Through Hole,DO-204AC   DO-15   Axial,DO-15
+15V,±5%,5W,2.5 Ohms,1µA @ 11.5V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+17V,±5%,5W,2.5 Ohms,500nA @ 12.9V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+18V,±5%,5W,2.5 Ohms,500nA @ 13.7V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+24V,±5%,5W,3.5 Ohms,500nA @ 18.2V,1.2V @ 1A,-55°C ~ 150°C,Through Hole,DO-204AC   DO-15   Axial,DO-15
+25V,±5%,5W,4 Ohms,500nA @ 19V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+30V,±5%,5W,8 Ohms,500nA @ 22.8V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+36V,±5%,5W,11 Ohms,500nA @ 27.4V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+39V,±5%,5W,14 Ohms,500nA @ 29.7V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+43V,±5%,5W,20 Ohms,500nA @ 32.7V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+62V,±5%,5W,42 Ohms,500nA @ 47.1V,1.2V @ 1A,-65°C ~ 200°C,Through Hole,T-18   Axial,Axial
+12V,±5%,3W,6.5 Ohms,1µA @ 9.1V,1.5V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AL   DO-41   Axial,Axial
+-,-,-,-,-,-,-,-,-,-
+3.9V,±5%,500mW,20 Ohms,2µA @ 1V,1.1V @ 200mA,-65°C ~ 175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+5.1V,±5%,500mW,17 Ohms,1µA @ 1V,1.5V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+8.2V,±5%,500mW,8 Ohms,1µA @ 6V,1.1V @ 200mA,-65°C ~ 175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+6.2V,±5%,500mW,10 Ohms,2µA @ 3V,-,-65°C ~ 175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35 (DO-204AH)
+9V,-,500mW,20 Ohms,10µA @ 6V,-,-65°C ~ 175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+5.1V,±5%,1.5W,4 Ohms,2.5µA @ 2V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AC   SMA,SMA
+12V,±5%,1.5W,6.5 Ohms,500nA @ 9.1V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AC   SMA,SMA
+18V,±5%,1.5W,12 Ohms,500nA @ 13.7V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AC   SMA,SMA
+33V,±5%,1.5W,33 Ohms,500nA @ 25.1V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AC   SMA,SMA
+5.1V,±5%,3W,4 Ohms,5µA @ 2V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AA   SMB,SMB
+6.8V,±5%,3W,2.5 Ohms,5µA @ 5.2V,1.5V @ 200mA,-65°C ~ 150°C,Surface Mount,DO-214AA   SMB,SMB
+14V,±5%,2W,5.5 Ohms,500nA @ 10.6V,1.2V @ 200mA,-65°C ~ 150°C,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41)
+120V,-,800mW,250 Ohms,1µA @ 91V,1.2V @ 200mA,-65°C ~ 175°C,Surface Mount,DO-219AB,DO-219AB (SMF)
+20V,±6%,1.25W,15 Ohms,1µA @ 15V,1.2V @ 500mA,150°C (TJ),Surface Mount,DO-214AC   SMA,DO-214AC (SMA)
+24V,±5.83%,1.25W,15 Ohms,1µA @ 18V,1.2V @ 500mA,150°C (TJ),Surface Mount,DO-214AC   SMA,DO-214AC (SMA)
+240V,-,1.25W,850 Ohms,1µA @ 180V,1.2V @ 500mA,-65°C ~ 150°C,Surface Mount,DO-214AC   SMA,DO-214AC
+15V,±6%,500mW,30 Ohms,100nA @ 10.5V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+2V,±5%,300mW,100 Ohms,150µA @ 1V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SC-79   SOD-523,SOD-523
+5.1V,±6%,500mW,60 Ohms,2µA @ 2V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+5.1V,±6%,500mW,60 Ohms,2µA @ 2V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-123,SOD-123
+2.4V,±5%,500mW,100 Ohms,50µA @ 1V,900mV @ 10mA,-65°C ~ 200°C,Surface Mount,DO-213AC   MINI-MELF   SOD-80,SOD-80C
+43V,±2%,300mW,150 Ohms,50nA @ 30.1V,1.1V @ 100mA,-65°C ~ 150°C,Surface Mount,SC-76   SOD-323,SOD-323
+7.5V,±2%,300mW,15 Ohms,1µA @ 5V,1.1V @ 100mA,-65°C ~ 150°C,Surface Mount,SC-76   SOD-323,SOD-323
+6.2V,±5%,500mW,10 Ohms,100nA @ 2V,1.5V @ 200mA,-65°C ~ 175°C,Through Hole,DO-204AH   DO-35   Axial,DO-35
+10V,±2%,400mW,20 Ohms,200nA @ 7V,900mV @ 10mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,ALF2
+11V,±2%,400mW,20 Ohms,100nA @ 8V,900mV @ 10mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,ALF2
+6.2V,±2%,400mW,10 Ohms,3µA @ 4V,900mV @ 10mA,-65°C ~ 200°C,Through Hole,DO-204AH   DO-35   Axial,ALF2
+16V,±2%,300mW,40 Ohms,100nA @ 11.2V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23
+3.3V,±2%,300mW,95 Ohms,5µA @ 1V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23
+7.5V,±2%,250mW,15 Ohms,1µA @ 5V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,TO-236AB (SOT23)
+10V,±6%,225mW,20 Ohms,200nA @ 7V,900mV @ 10mA,-55°C ~ 150°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3 (TO-236)
+20V,±6%,1W,24 Ohms,500nA @ 14V,1.2V @ 200mA,-65°C ~ 200°C,Through Hole,DO-204AL   DO-41   Axial,DO-204AL (DO-41)
+51V,±5%,250mW,180 Ohms,50nA @ 35.7V,900mV @ 10mA,-65°C ~ 150°C,Surface Mount,SOD-882,DFN1006-2
+10V,±2.5%,200mW,30 Ohms,50nA @ 7V,1V @ 10mA,-,Surface Mount,SC-90   SOD-323F,SMini2-F5-B

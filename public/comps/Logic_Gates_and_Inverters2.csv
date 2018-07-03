@@ -1,0 +1,269 @@
+NAND Gate,4,2,-,3 V ~ 15 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,35ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,3 V ~ 15 V,4µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,60ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,18ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,-,2 V ~ 6 V,40µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,7ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,14ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+XOR (Exclusive OR),4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,3 V ~ 18 V,4µA,3.4mA   3.4mA,0.9 V ~ 4 V,3.6 V ~ 10.8 V,120ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1 V ~ 2.5 V,4 V ~ 12.5 V,50ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+OR Gate,4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,3,3,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,-,3 V ~ 18 V,4µA,3.4mA   3.4mA,0.9 V ~ 4 V,3.6 V ~ 10.8 V,130ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,1,8,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,28ns @ 4.5V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NOR Gate,4,2,-,3 V ~ 15 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,40ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,3 V ~ 15 V,1µA,3.4mA   3.4mA,1 V ~ 2.5 V,4 V ~ 12.5 V,30ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,3 V ~ 15 V,4µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,35ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,3 V ~ 15 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,40ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,3 V ~ 15 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,60ns @ 15V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Open Collector,4.75 V ~ 5.25 V,-,-   60mA,0.8V,2V,9ns @ 5V   150pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Open Collector,4.75 V ~ 5.25 V,12mA,-   16mA,0.8V,2V,55ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Open Collector,4.75 V ~ 5.25 V,-,-   40mA,0.8V,2V,23ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NOR Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,6,6,Open Collector,4.5 V ~ 5.5 V,-,-   8mA,0.8V,2V,54ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,3mA,15mA   24mA,0.8V,2V,7ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,3,3,-,4.5 V ~ 5.5 V,-,400µA   8mA,0.8V,2V,11ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,1,13,-,4.5 V ~ 5.5 V,-,400µA   8mA,0.8V,2V,25ns @ 5V   50pF,0°C ~ 70°C,Through Hole,16-PDIP,16-DIP (0.300"   7.62mm)
+NAND Gate,1,8,-,4.5 V ~ 5.5 V,-,400µA   8mA,0.8V,2V,12ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NOR Gate,4,2,Open Collector,4.5 V ~ 5.5 V,-,-   24mA,0.8V,2V,33ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,-,2.6mA   24mA,0.8V,2V,8ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,3,3,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,4.5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,1,8,-,4.5 V ~ 5.5 V,1.5mA,2mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,4.5 V ~ 5.5 V,-,1mA   20mA,0.8V,2V,6ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,1,8,-,4.5 V ~ 5.5 V,1.5mA,1mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NOR Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,16ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,3,3,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NOR Gate,3,3,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SSOP,14-SSOP (0.209"   5.30mm Width)
+XOR (Exclusive OR),4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,6,-,4.75 V ~ 5.25 V,-,400µA   8mA,0.8V,2V,15ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Open Collector,4.75 V ~ 5.25 V,-,-   40mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,4,2,-,4.75 V ~ 5.25 V,-,400µA   8mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Schmitt Trigger,4.75 V ~ 5.25 V,-,400µA   8mA,0.5V,1.9V,22ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,2,4,-,4.75 V ~ 5.25 V,800µA,400µA   8mA,0.8V,2V,15ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,1,8,-,4.75 V ~ 5.25 V,800µA,400µA   8mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NOR Gate,4,2,Open Collector,4.75 V ~ 5.25 V,3.6mA,-   24mA,0.8V,2V,32ns @ 5V   45pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Open Collector,4.75 V ~ 5.25 V,-,-   20mA,0.8V,2V,7.5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,4.75 V ~ 5.25 V,-,40mA   60mA,0.8V,2V,6ns @ 5V   150pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,4.75 V ~ 5.25 V,8mA,1mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+OR Gate,4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,-,-,-,-,-,-,-,-,-,Surface Mount,Die,Die
+NAND Gate,4,2,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,8ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,4,2,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,8ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,4,2,-,1.5 V ~ 5.5 V,4µA,24mA   24mA,0.3 V ~ 1.65 V,1.2 V ~ 3.85 V,11.5ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,4,2,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,6.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,1.5 V ~ 5.5 V,4µA,24mA   24mA,0.3 V ~ 1.65 V,1.2 V ~ 3.85 V,6.5ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,7ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+AND Gate,4,2,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,3,3,-,2 V ~ 6 V,2µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,7ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,24mA   24mA,0.5 V ~ 1.1 V,2.2 V ~ 3.9 V,10ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,24mA   24mA,0.8V,2V,9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,4,2,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,9.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,8.1ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,16-SOIC,16-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,4.5 V ~ 5.5 V,2µA,24mA   24mA,0.5 V ~ 0.6 V,1.9 V ~ 2.1 V,11.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,4.5 V ~ 5.5 V,2µA,24mA   24mA,0.8V,2V,10ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 5.5 V,1µA,8mA   8mA,0.9 V ~ 1.65 V,2.2 V ~ 3.85 V,10.6ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSOP,SC-74A   SOT-753
+NOR Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+Inverter,1,1,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+AND Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.9ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,SC-70-5,5-TSSOP   SC-70-5   SOT-353
+AND Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+Inverter,1,1,Schmitt Trigger,2 V ~ 5.5 V,1µA,8mA   8mA,0.9 V ~ 1.65 V,2.2 V ~ 3.85 V,10.6ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+NAND Gate,1,2,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+XOR (Exclusive OR),1,2,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,6,6,Schmitt Trigger,4.5 V ~ 5.5 V,-,400µA   8mA,0.75 V ~ 0.85 V,1.85 V ~ 2 V,12ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,1.65 V ~ 3.6 V,10µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,2.8ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,5.5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,5.8ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,1,3,-,0.8 V ~ 3.6 V,500nA,4mA   4mA,0.7 V ~ 0.9 V,1.6 V ~ 2 V,6.1ns @ 3.3V   30pF,-40°C ~ 125°C,Surface Mount,6-TSSOP,6-TSSOP   SC-88   SOT-363
+XOR (Exclusive OR),1,3,-,0.8 V ~ 3.6 V,500nA,4mA   4mA,0.7 V ~ 0.9 V,1.6 V ~ 2 V,6.1ns @ 3.3V   30pF,-40°C ~ 125°C,Surface Mount,6-TSSOP,6-TSSOP   SC-88   SOT-363
+AND Gate,2,2,-,0.8 V ~ 3.6 V,500nA,4mA   4mA,0.7 V ~ 0.9 V,1.6 V ~ 2 V,6.7ns @ 3.3V   30pF,-40°C ~ 85°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,-,1mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,-,1mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,2,4,-,4.5 V ~ 5.5 V,4.3mA,1mA   20mA,0.8V,2V,5.1ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NOR Gate,2,5,-,4.5 V ~ 5.5 V,6.5mA,1mA   20mA,0.8V,2V,5.5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NOR Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SSOP,14-SSOP (0.209"   5.30mm Width)
+Inverter,6,6,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,14ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-DHVQFN (2.5x3),14-VFQFN Exposed Pad
+Inverter,6,6,Open Drain,2 V ~ 6 V,2µA,-   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Open Drain,2 V ~ 6 V,2µA,-   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,4,2,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.3 V ~ 1.5 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,1,2,-,2 V ~ 6 V,20µA,2.6mA   2.6mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,23ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,5-TSOP,SC-74A   SOT-753
+Inverter,1,1,Schmitt Trigger,2 V ~ 6 V,20µA,2.6mA   2.6mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,32ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+AND Gate,2,4,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,19ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,2,2,Schmitt Trigger,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,6-TSSOP,6-TSSOP   SC-88   SOT-363
+NAND Gate,1,8,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,22ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+OR Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,3,3,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,8-TSSOP,8-TSSOP   8-MSOP (0.118"   3.00mm Width)
+XNOR (Exclusive NOR),4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+XNOR (Exclusive NOR),4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+XNOR (Exclusive NOR),4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,9,9,Schmitt Trigger   Open Drain,2 V ~ 6 V,8µA,-   5.2mA,-,1.5 V ~ 4.2 V,19ns @ 6V   50pF,-40°C ~ 125°C,Surface Mount,20-SO,20-SOIC (0.295"   7.50mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,18ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,18ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Open Drain,4.5 V ~ 5.5 V,2µA,-   4mA,0.8V,2V,24ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,1µA,4mA   4mA,0.8V,2V,17ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,18ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,19ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,22ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.5 V ~ 0.6 V,1.9 V ~ 2.1 V,33ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,1,1,-,4.5 V ~ 5.5 V,20µA,2mA   2mA,0.8V,2V,10ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSOP,SC-74A   SOT-753
+Inverter,1,1,-,4.5 V ~ 5.5 V,20µA,2mA   2mA,0.8V,2V,10ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+NAND Gate,2,4,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,28ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+XOR (Exclusive OR),4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,32ns @ 4.5V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.7 V ~ 4.8 V,14ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,2 V ~ 3.6 V,10µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,5.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,2 V ~ 3.6 V,10µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,5.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,2 V ~ 3.6 V,10µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,5.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 3.6 V,10µA,24mA   24mA,0.4 V ~ 0.6 V,1.7 V ~ 2.2 V,6.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 3.6 V,10µA,24mA   24mA,0.4 V ~ 0.6 V,1.7 V ~ 2.2 V,6.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+OR Gate,4,2,-,2 V ~ 3.6 V,10µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,5.5ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,4.75 V ~ 5.25 V,-,400µA   8mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,4.75 V ~ 5.25 V,11mA,400µA   8mA,0.5V,1.9V,22ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,1 V ~ 5.5 V,40µA,12mA   12mA,0.3 V ~ 0.8 V,0.9 V ~ 2 V,8ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,1 V ~ 5.5 V,40µA,12mA   12mA,0.3 V ~ 0.8 V,0.9 V ~ 2 V,8ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,1 V ~ 5.5 V,40µA,12mA   12mA,0.3 V ~ 0.8 V,0.9 V ~ 2 V,9ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,1 V ~ 5.5 V,40µA,12mA   12mA,0.3 V ~ 1.1 V,1.4 V ~ 3.85 V,15ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NOR Gate,4,2,-,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,4.2ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,1.2 V ~ 3.6 V,40µA,24mA   24mA,0.12 V ~ 0.8 V,1.08 V ~ 2 V,4.5ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.15 V ~ 0.8 V,1.3 V ~ 2 V,6.2ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,1,2,-,1.65 V ~ 5.5 V,4µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,4ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSSOP,5-TSSOP   SC-70-5   SOT-353
+Inverter,1,1,Schmitt Trigger,1.65 V ~ 5.5 V,4µA,32mA   32mA,0.46 V ~ 1.58 V,1.14 V ~ 2.79 V,5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,5-TSOP,SC-74A   SOT-753
+Inverter,2,2,-,1.65 V ~ 5.5 V,4µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.2ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,6-TSOP,SC-74   SOT-457
+Inverter,2,2,Open Drain,1.65 V ~ 5.5 V,4µA,-   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,2.9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,6-TSSOP,6-TSSOP   SC-88   SOT-363
+Inverter,2,2,Schmitt Trigger,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.3 V ~ 1.4 V,1.4 V ~ 3.7 V,4.3ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Inverter,2,2,Schmitt Trigger,1.65 V ~ 5.5 V,4µA,32mA   32mA,0.25 V ~ 1.2 V,1.5 V ~ 3.6 V,4.3ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,6-TSOP,SC-74   SOT-457
+Inverter,6,6,Schmitt Trigger,2 V ~ 3.6 V,2µA,4mA   4mA,0.9V,2.2V,14.1ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 3.6 V,2µA,4mA   4mA,0.9V,2.2V,14.1ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+OR Gate,4,2,-,2 V ~ 3.6 V,2µA,4mA   4mA,0.5 V ~ 0.8 V,1.5 V ~ 2.4 V,10.1ns @ 3.3V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.75 V ~ 5.25 V,-,1mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,Open Collector,4.75 V ~ 5.25 V,32mA,-   20mA,0.8V,2V,9ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 5.5 V,2µA,8mA   8mA,0.9 V ~ 1.65 V,2.2 V ~ 3.85 V,10.6ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NOR Gate,1,2,-,3 V ~ 16 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,30ns @ 15V   50pF,-40°C ~ 85°C,Surface Mount,5-SSOP,SC-74A   SOT-753
+NAND Gate,1,2,-,3 V ~ 16 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,30ns @ 15V   50pF,-40°C ~ 85°C,Surface Mount,5-SSOP,SC-74A   SOT-753
+Inverter,1,1,Schmitt Trigger,3 V ~ 16 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,50ns @ 15V   50pF,-40°C ~ 85°C,Surface Mount,5-SSOP,SC-74A   SOT-753
+Inverter,1,1,-,3 V ~ 16 V,1µA,3.4mA   3.4mA,1 V ~ 2.5 V,4 V ~ 12.5 V,25ns @ 15V   50pF,-40°C ~ 85°C,Surface Mount,5-SSOP,SC-74A   SOT-753
+Inverter,6,6,-,3 V ~ 18 V,4µA,1.5mA   24mA,1 V ~ 2.5 V,4 V ~ 12.5 V,60ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,16-TSSOP,16-TSSOP (0.173"   4.40mm Width)
+NAND Gate,2,2,Open Drain,3 V ~ 18 V,4µA,-   68mA,1.5 V ~ 4 V,3.5 V ~ 11 V,100ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,8-PDIP,8-DIP (0.300"   7.62mm)
+NAND Gate,2,2,Open Drain,3 V ~ 18 V,4µA,-   68mA,1.5 V ~ 4 V,3.5 V ~ 11 V,100ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,3 V ~ 18 V,4µA,4.3mA   24mA,1 V ~ 2.5 V,4 V ~ 12.5 V,50ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,16-SOIC,16-SOIC (0.154"   3.90mm Width)
+OR Gate,2,4,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+XNOR (Exclusive NOR),4,2,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,100ns @ 15V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,2,4,-,3 V ~ 18 V,1µA,3.4mA   3.4mA,1.5 V ~ 4 V,3.5 V ~ 11 V,90ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,3 V ~ 15 V,1µA,3.4mA   3.4mA,1.5 V ~ 4.5 V,3.5 V ~ 10.5 V,160ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Open Drain,1.5 V ~ 5.5 V,4µA,-   24mA,0.3 V ~ 1.65 V,1.2 V ~ 3.85 V,8.2ns @ 5V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,13.5ns @ 5V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,15ns @ 6V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,23ns @ 6V   50pF,-55°C ~ 125°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+OR Gate,3,3,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,-,400µA   8mA,0.8V,2V,11ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,3 V ~ 15 V,16µA,3mA   20mA,1.5 V ~ 4 V,3.5 V ~ 11 V,40ns @ 15V   50pF,-40°C ~ 85°C,Surface Mount,16-SO,16-SOIC (0.154"   3.90mm Width)
+XOR (Exclusive OR),4,2,-,3 V ~ 15 V,4µA,3mA   3mA,1.5 V ~ 4 V,3.5 V ~ 11 V,55ns @ 15V   50pF,-40°C ~ 85°C,Through Hole,14-DIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.7 V ~ 4.8 V,10ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SO,14-SOIC (0.154"   3.90mm Width)
+XOR (Exclusive OR),4,2,-,-4.94 V ~ -5.46 V,-,50mA   50mA,-1.48V,-1.13V,1.8ns @ -5.2V   -,0°C ~ 75°C,Surface Mount,16-SOEIAJ,16-SOIC (0.209"   5.30mm Width)
+XOR (Exclusive OR),4,2,-,3 V ~ 18 V,1µA,8.8mA   8.8mA,1.5 V ~ 4 V,3.5 V ~ 11 V,110ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,3 V ~ 18 V,1µA,8.8mA   8.8mA,0.9 V ~ 4 V,3.6 V ~ 10.8 V,80ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,3 V ~ 18 V,1µA,8.8mA   8.8mA,1.6 V ~ 4.6 V,3.4 V ~ 10.5 V,80ns @ 15V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,4µA,24mA   24mA,0.9 V ~ 1.65 V,2.1 V ~ 3.85 V,7ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,4µA,24mA   24mA,0.5 V ~ 1.1 V,2.2 V ~ 3.9 V,10ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,8.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,4µA,24mA   24mA,0.8V,2V,11.5ns @ 5V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,4,2,Schmitt Trigger,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,1,2,-,2 V ~ 6 V,1µA,2.6mA   2.6mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,SC-88A (SC-70-5/SOT-353),5-TSSOP   SC-70-5   SOT-353
+XOR (Exclusive OR),4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,1,1,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,5-TSOP,SOT-23-5 Thin   TSOT-23-5
+NAND Gate,4,2,-,3 V ~ 15 V,-,8mA   8mA,1.5 V ~ 2 V,3.5 V ~ 8 V,60ns @ 10V   50pF,-55°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,Open Collector,4.75 V ~ 5.25 V,-,-   8mA,0.8V,2V,35ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,1,2,-,2 V ~ 6 V,1µA,2.6mA   2.6mA,0.5V,1.5V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+NOR Gate,1,2,-,4.5 V ~ 5.5 V,1µA,2mA   2mA,0.8V,2V,26ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,1,1,-,4.5 V ~ 5.5 V,1µA,2mA   2mA,0.8V,2V,26ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,1,1,-,1.65 V ~ 5.5 V,2µA,32mA   32mA,-,-,4.3ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,1,2,-,1.65 V ~ 5.5 V,2µA,32mA   32mA,-,-,4.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,1,2,-,1.65 V ~ 5.5 V,2µA,32mA   32mA,-,-,4.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+OR Gate,1,2,-,1.65 V ~ 5.5 V,2µA,32mA   32mA,-,-,4.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,2,2,-,1.65 V ~ 5.5 V,1µA,32mA   32mA,-,-,3.7ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)
+Inverter,2,2,-,1.65 V ~ 5.5 V,1µA,16mA   16mA,-,-,5.6ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,SC-88/SC70-6/SOT-363,6-TSSOP   SC-88   SOT-363
+NOR Gate,4,2,-,4.75 V ~ 5.25 V,-,400µA   16mA,0.8V,2V,22ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,4,2,Open Collector,4.75 V ~ 5.25 V,8.5mA,-   48mA,0.8V,2V,22ns @ 5V   45pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,24mA   24mA,0.5 V ~ 1.1 V,2.2 V ~ 3.9 V,10ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.5 V ~ 5.5 V,2µA,24mA   24mA,0.8V,2V,8.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,24mA   24mA,0.8V,2V,9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+NAND Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+NOR Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SC-70-5,5-TSSOP   SC-70-5   SOT-353
+Inverter,1,1,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,7.9ns @ 5V   50pF,-55°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,1,1,Schmitt Trigger,2 V ~ 5.5 V,1µA,8mA   8mA,0.9 V ~ 1.65 V,2.2 V ~ 3.85 V,10.6ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+XOR (Exclusive OR),1,2,-,2 V ~ 5.5 V,1µA,8mA   8mA,0.5 V ~ 1.65 V,1.5 V ~ 3.85 V,8.8ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 125°C (TA),Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,1,1,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,1,2,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+OR Gate,1,2,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+OR Gate,1,2,-,4.5 V ~ 5.5 V,1µA,8mA   8mA,0.8V,2V,7.9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,SC-70-5,5-TSSOP   SC-70-5   SOT-353
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,-,400µA   8mA,0.8V,2V,11ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,4.5ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+Inverter,6,6,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,5ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,4,2,-,4.5 V ~ 5.5 V,3.5mA,48mA   48mA,0.8V,2V,4ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,3,3,-,4.5 V ~ 5.5 V,7mA,2mA   20mA,0.8V,2V,6ns @ 5V   50pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+AND Gate,2,4,-,4.5 V ~ 5.5 V,-,2mA   20mA,0.8V,2V,6ns @ 5V   50pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+OR Gate,1,2,-,0.8 V ~ 2.7 V,10µA,9mA   9mA,0 V ~ 0.7 V,1.7V,2.1ns @ 2.5V   30pF,-40°C ~ 85°C,Surface Mount,SC-70-5,5-TSSOP   SC-70-5   SOT-353
+AND Gate,2,2,-,0.8 V ~ 3.6 V,500nA,4mA   4mA,0.7 V ~ 0.9 V,1.6 V ~ 2 V,6.7ns @ 3.3V   30pF,-40°C ~ 85°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)
+NAND Gate,4,2,Open Drain,2 V ~ 6 V,2µA,-   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,23ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,16ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Open Drain,2 V ~ 6 V,2µA,-   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Open Drain,2 V ~ 6 V,2µA,-   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,20ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.3 V ~ 1.2 V,1.5 V ~ 4.2 V,21ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,2,4,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,19ns @ 6V   50pF,-40°C ~ 85°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NAND Gate,2,4,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,19ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+XOR (Exclusive OR),4,2,-,2 V ~ 6 V,2µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+AND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,22ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,22ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+OR Gate,4,2,-,4.5 V ~ 5.5 V,2µA,4mA   4mA,0.8V,2V,22ns @ 5.5V   50pF,-40°C ~ 85°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,-,4.75 V ~ 5.25 V,-,400µA   8mA,0.8V,2V,15ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Open Collector,4.75 V ~ 5.25 V,-,-   40mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SSOP,14-SSOP (0.209"   5.30mm Width)
+AND Gate,2,4,-,4.75 V ~ 5.25 V,-,400µA   8mA,0.8V,2V,20ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+XNOR (Exclusive NOR),4,2,Open Collector,4.75 V ~ 5.25 V,13mA,-   8mA,0.8V,2V,30ns @ 5V   15pF,0°C ~ 70°C,Through Hole,14-PDIP,14-DIP (0.300"   7.62mm)
+NOR Gate,3,3,-,4.75 V ~ 5.25 V,4mA,400µA   8mA,0.8V,2V,15ns @ 5V   15pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NAND Gate,4,2,Open Collector,4.75 V ~ 5.25 V,-,-   24mA,0.8V,2V,32ns @ 5V   45pF,0°C ~ 70°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+Inverter,6,6,-,2 V ~ 5.5 V,20µA,12mA   12mA,0.5V,1.5V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Open Drain,2 V ~ 5.5 V,20µA,-   16mA,0.5V,1.5V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 5.5 V,20µA,12mA   12mA,0.75 V ~ 1.5 V,1.75 V ~ 3.5 V,10.6ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+AND Gate,2,4,-,2 V ~ 5.5 V,20µA,12mA   12mA,0.5V,1.5V,7ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+AND Gate,4,2,-,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.9ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+Inverter,6,6,Schmitt Trigger,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.15 V ~ 0.8 V,1.3 V ~ 2 V,6.2ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+Inverter,6,6,Schmitt Trigger,2 V ~ 3.6 V,10µA,24mA   24mA,0.4 V ~ 0.8 V,2V,6.4ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,1,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,4.3ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+AND Gate,1,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,-,-,4ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,1,1,Schmitt Trigger,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.39 V ~ 1.87 V,1.16 V ~ 3.33 V,5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SOT-23-5,SC-74A   SOT-753
+Inverter,1,1,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,-,-,3.5ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SC-70-5,5-TSSOP   SC-70-5   SOT-353
+NAND Gate,2,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.3ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SM8 (SSOP),8-LSSOP   8-MSOP (0.110"   2.80mm Width)
+NAND Gate,2,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.3ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)
+NOR Gate,2,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,4.4ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SM8 (SSOP),8-LSSOP   8-MSOP (0.110"   2.80mm Width)
+OR Gate,2,2,-,1.65 V ~ 5.5 V,10µA,32mA   32mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.2ns @ 5V   50pF,-40°C ~ 125°C,Surface Mount,SM8 (SSOP),8-LSSOP   8-MSOP (0.110"   2.80mm Width)
+OR Gate,4,2,-,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.6ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+OR Gate,4,2,-,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.6ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-SOIC,14-SOIC (0.154"   3.90mm Width)
+OR Gate,4,2,-,1.65 V ~ 3.6 V,1µA,24mA   24mA,0.7 V ~ 0.8 V,1.7 V ~ 2 V,3.6ns @ 3.3V   50pF,-40°C ~ 125°C,Surface Mount,14-TSSOP,14-TSSOP (0.173"   4.40mm Width)
+NAND Gate,4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.209"   5.30mm Width)
+NOR Gate,4,2,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,14-SOP,14-SOIC (0.173"   4.40mm Width)
+Inverter,1,1,-,2 V ~ 6 V,1µA,2.6mA   2.6mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,17ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,USV,5-TSSOP   SC-70-5   SOT-353
+AND Gate,1,2,-,2 V ~ 5.5 V,2µA,8mA   8mA,0.5V,1.5V,7.9ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,USV,5-TSSOP   SC-70-5   SOT-353
+Inverter,3,3,-,2 V ~ 6 V,1µA,5.2mA   5.2mA,0.5 V ~ 1.8 V,1.5 V ~ 4.2 V,13ns @ 6V   50pF,-40°C ~ 85°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)
+Inverter,3,3,-,2 V ~ 5.5 V,2µA,8mA   8mA,0.5V,1.5V,7.5ns @ 5V   50pF,-40°C ~ 85°C,Surface Mount,US8,8-VFSOP (0.091"   2.30mm Width)

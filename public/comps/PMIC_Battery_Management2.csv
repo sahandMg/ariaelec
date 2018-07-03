@@ -1,0 +1,29 @@
+Battery Monitor,Multi-Chemistry,-,-,I²C,-40°C ~ 85°C (TA),14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Multi-Function Controller,Lithium-Ion/Polymer,1,Over Current   Over Temperature   Over Voltage   Short Circuit,-,-40°C ~ 85°C (TA),24-VFQFN Exposed Pad,24-QFN (4x4)
+Battery Monitor,Multi-Chemistry,-,-,-,0°C ~ 70°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Battery Monitor,Lithium-Ion,-,-,-,0°C ~ 70°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multi-Function Controller,Lithium-Ion/Polymer,2 ~ 4,Over Current   Over Temperature   Over/Under Voltage   Short Circuit,-,-40°C ~ 85°C (TA),38-TFSOP (0.173"   4.40mm Width),38-TSSOP
+Battery Monitor,Lithium-Ion/Polymer,-,Over Current   Over Temperature   Over/Under Voltage   Short Circuit,SMBus,-40°C ~ 85°C (TA),30-TFSOP (0.173"   4.40mm Width),30-TSSOP
+Battery Protection,Lithium-Ion,-,Over Current   Over Temperature   Over/Under Voltage,-,-40°C ~ 125°C (TJ),8-WFDFN Exposed Pad,8-WSON (2x2)
+Battery Protection,Lithium-Ion,-,Over Current   Over Temperature   Over/Under Voltage,-,-40°C ~ 125°C (TJ),8-WFDFN Exposed Pad,8-WSON (2x2)
+Battery Monitor,Lithium-Ion,1,-,HDQ,-20°C ~ 70°C (TA),8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Battery Monitor,Lithium-Ion/Polymer,1,-,I²C,-20°C ~ 70°C (TA),10-VFDFN Exposed Pad,10-VSON (3x4)
+Battery Protection,Lithium-Ion,2 ~ 4,Over Voltage,-,-40°C ~ 110°C (TA),8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Battery Monitor,Multi-Chemistry,-,-,HDQ   I²C,-40°C ~ 85°C (TA),14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Battery Monitor,Multi-Chemistry,3 ~ 5,Over Current   Over/Under Voltage   Short Circuit,I²C,-40°C ~ 85°C (TA),20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Battery Monitor,Multi-Chemistry,6 ~ 10,Over Current   Over/Under Voltage   Short Circuit,I²C,-40°C ~ 85°C (TA),30-TFSOP (0.173"   4.40mm Width),30-TSSOP
+Multi-Function Controller,Lithium-Ion,3 ~ 6,Over Temperature   Over/Under Voltage,SPI,-40°C ~ 105°C (TA),64-TQFP Exposed Pad,64-HTQFP (10x10)
+Battery Protection,Lithium-Ion/Polymer,5 ~ 10,Over Current   Over/Under Voltage   Short Circuit,I²C,-40°C ~ 100°C (TA),48-BSSOP (0.295"   7.50mm Width),48-SSOP
+Battery Monitor,Smart Batteries,-,-,1-Wire,-40°C ~ 85°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Battery Monitor,Smart Batteries,-,-,1-Wire,-40°C ~ 85°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Battery Monitor,Lithium-Ion/Polymer,1,-,I²C,-20°C ~ 70°C (TA),8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Battery Monitor,Lithium-Ion/Polymer,1,-,1-Wire,-20°C ~ 70°C (TA),14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Multi-Function Controller,Multi-Chemistry,1 ~ 12,-,SPI,-40°C ~ 85°C (TA),64-TQFP,64-QFP
+Battery Protection,Lithium-Ion/Polymer,2,Over Current,-,-40°C ~ 85°C (TA),8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Battery Protection,Lithium-Ion/Polymer,3 ~ 4,Over Current,-,-40°C ~ 85°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Battery Protection,Lithium-Ion/Polymer,1,Over Current   Short Circuit,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-23-6
+Battery Protection,Lithium-Ion/Polymer,1,Over Current   Short Circuit,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-23-6
+Battery Protection,Lithium-Ion/Polymer,1,Over Current   Short Circuit,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-23-6
+Power Management,Lithium-Ion/Polymer,1,Over Temperature   Under Voltage,I²C,-40°C ~ 85°C (TA),40-VFQFN Exposed Pad,40-VQFN (6x6)
+Power Management,Lithium-Ion/Polymer,1,Over Temperature,I²C,-40°C ~ 85°C (TA),40-WFQFN Exposed Pad,40-WQFN (5x5)
+Power Management,Lithium-Ion/Polymer,1,Over Temperature,-,-40°C ~ 85°C (TA),32-VFQFN Exposed Pad,32-VQFN (5x5)

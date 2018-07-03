@@ -1,0 +1,14 @@
+Binary Full Adder with Fast Carry,4.75 V ~ 5.25 V,4,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Arithmetic Logic Unit,4.5 V ~ 5.5 V,-,0°C ~ 70°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Crystal Oscillator Driver,1.65 V ~ 5.5 V,1,-40°C ~ 125°C,Surface Mount,6-TSSOP   SC-88   SOT-363,6-TSSOP
+IEEE STD 1284 Translation Transceiver,4.5 V ~ 5.5 V,8,-40°C ~ 85°C,Surface Mount,48-BSSOP (0.295"   7.50mm Width),48-SSOP
+Complementary Pair Plus Inverter,3 V ~ 18 V,3,-55°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Differential Receiver,4.2 V ~ 5.7 V,1,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Differential Receiver,3 V ~ 3.8 V,1,-40°C ~ 85°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-TSSOP
+Contact Bounce Eliminator,3 V ~ 18 V,6,-55°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Bus Termination Array,4.5 V ~ 5.5 V,16,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+IEEE STD 1284 Translation Transceiver,4.5 V ~ 5.5 V,7,0°C ~ 70°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Delay Element,4.75 V ~ 5.25 V,6,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Voltage Clamp,-,-,-40°C ~ 85°C,Surface Mount,8-LSSOP   8-MSOP (0.110"   2.80mm Width),SM8 (SSOP)
+Differential Receiver,4.2 V ~ 5.5 V,5,-40°C ~ 85°C,Surface Mount,28-LCC (J-Lead),28-PLCC (11.5x11.5)
+Binary Rate Multiplier,4.75 V ~ 5.25 V,6,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP

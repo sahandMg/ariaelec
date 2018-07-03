@@ -1,0 +1,34 @@
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,50µA,-,-,-,-20°C ~ 70°C (TA),-,16-SOIC (0.154"   3.90mm Width),16-SOIC
+8 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,-,1000 @ 350mA   2V,1.31W,-,-40°C ~ 85°C (TA),Surface Mount,18-SOIC (0.295"   7.50mm Width),18-SOL
+NPN   PNP,200mA,40V,250mV @ 1mA   10mA,50nA (ICBO),100 @ 10mA   1V,300mW,200MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+2 NPN (Dual),500mA,40V,1V @ 50mA   500mA,10nA (ICBO),100 @ 150mA   10V,700mW,300MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-6 Thin   TSOT-23-6,SuperSOT™-6
+2 NPN (Dual) Matched Pair,25mA,45V,800mV @ 1mA   10mA,300nA,-,500mW,450MHz,-55°C ~ 150°C (TJ),Through Hole,TO-78-6 Metal Can,TO-78-6
+2 NPN (Dual) Matched Pair,25mA,45V,800mV @ 1mA   10mA,400nA,-,500mW,450MHz,-55°C ~ 150°C (TJ),Through Hole,TO-78-6 Metal Can,TO-78-6
+4 NPN (Quad),500mA,40V,1V @ 50mA   500mA,10nA (ICBO),100 @ 150mA   10V,1W,300MHz,-55°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+2 NPN (Dual),1A,60V,250mV @ 100mA   1A,100nA,200 @ 500mA   5V,420mW,220MHz,150°C (TJ),Surface Mount,SC-74   SOT-457,6-TSOP
+NPN   PNP (Emitter Coupled),2A,30V,370mV @ 75mA   1.5A,100nA (ICBO),270 @ 200mA   2V,1.25W,280MHz,150°C (TJ),Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSMT5
+NPN   PNP,3A,30V,700mV @ 100mA   2A,1µA,100 @ 1A   2V,2W,-,150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,50µA,1000 @ 350mA   2V,-,-,-40°C ~ 85°C (TA),-,16-SOIC (0.154"   3.90mm Width),16-SO
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,50µA,-,-,-,-40°C ~ 85°C (TA),-,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,50µA,-,-,-,-20°C ~ 70°C (TA),-,16-SOIC (0.154"   3.90mm Width),16-SOIC
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,50µA,1000 @ 350mA   2V,1.25W,-,-40°C ~ 85°C (TA),-,16-SOIC (0.154"   3.90mm Width),16-SOL
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,-,1000 @ 350mA   2V,-,-,150°C (TJ),Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+7 NPN Darlington,500mA,50V,1.6V @ 500µA   350mA,-,1000 @ 350mA   2V,-,-,150°C (TJ),Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+2 NPN (Dual),5A,17.5V,300mV @ 50mA   5A,10nA,300 @ 500mA   2V,2.75W,150MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-8,SM8
+NPN   PNP,2A   1.5A,20V,200mV @ 50mA   2.5A / 220mV @ 50mA   1.5A,100nA,300 @ 200mA   2V / 300 @ 100mA   2V,2.5W,140MHz   180MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-8,SM8
+2 PNP (Dual),2A,25V,500mV @ 200mA   2A,100nA (ICBO),100 @ 1A   2V,2.75W,160MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-8,SM8
+2 NPN   2 PNP (H-Bridge),2.5A,20V,200mV @ 50mA   2.5A,100µA,200 @ 2A   2V,1.25W,140MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-8,SOT-223
+2 NPN   2 PNP (H-Bridge),2.5A,20V,200mV @ 50mA   2.5A,100µA,200 @ 2A   2V,1.25W,140MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-8,SOT-223
+2 PNP (Dual),50mA,60V,250mV @ 100µA   1mA,10µA (ICBO),300 @ 1mA   5V,350mW,-,-65°C ~ 200°C (TJ),Through Hole,TO-78-6 Metal Can,TO-78-6
+NPN   PNP,500mA,45V,700mV @ 50mA   500mA,100nA (ICBO),160 @ 100mA   1V,600mW,100MHz   80MHz,150°C (TJ),Surface Mount,SC-74   SOT-457,6-TSOP
+2 NPN (Dual),100mA,45V,600mV @ 5mA   100mA,15nA (ICBO),200 @ 2mA   5V,380mW,100MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+NPN   PNP,100mA,45V,600mV @ 5mA   100mA,15nA (ICBO),200 @ 2mA   5V,380mW,100MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+NPN   PNP,100mA,45V,300mV @ 5mA   100mA,15nA (ICBO),200 @ 2mA   5V,300mW,100MHz,150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,6-TSSOP   SC-88
+2 NPN (Dual),100mA,45V,300mV @ 5mA   100mA,15nA (ICBO),200 @ 2mA   5V,150mW,100MHz,-55°C ~ 150°C (TJ),Surface Mount,SOT-563   SOT-666,SOT-563
+2 NPN (Dual),100mA,45V,600mV @ 5mA   100mA,15nA (ICBO),200 @ 2mA   5V,250mW,250MHz,150°C (TJ),Surface Mount,6-VSSOP   SC-88   SOT-363,PG-SOT363-6
+2 PNP (Dual),100mA,45V,650mV @ 5mA   100mA,15nA (ICBO),220 @ 2mA   5V,380mW,100MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+2 PNP (Dual),100mA,45V,650mV @ 5mA   100mA,15nA (ICBO),220 @ 2mA   5V,380mW,100MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+2 PNP (Dual),200mA,45V,650mV @ 5mA   100mA,15nA (ICBO),125 @ 2mA   5V,300mW,200MHz,-55°C ~ 150°C (TJ),Surface Mount,6-TSSOP   SC-88   SOT-363,SOT-363
+5 NPN,100mA,15V,700mV @ 5mA   50mA,10µA,40 @ 50mA   3V,500mW,450MHz,150°C (TJ),Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+NPN   PNP (Common Base),1A,50V,430mV @ 10mA   500mA,100nA (ICBO),200 @ 100mA   2V,900mW,420MHz,150°C (TJ),Surface Mount,SOT-23-5 Thin   TSOT-23-5,5-CPH
+2 PNP (Dual),100mA,50V,500mV @ 10mA   100mA,100µA,210 @ 2mA   10V,300mW,150MHz,150°C (TJ),Surface Mount,SC-74A   SOT-753,Mini5-G3-B

@@ -1,0 +1,17 @@
+Butterworth   Low Pass Switched Capacitor,20kHz,1,5th,4.75 V ~ 16 V   ±2.375 V ~ 8 V,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Butterworth   Low Pass Switched Capacitor,15kHz,1,5th,2.7 V ~ 3.6 V,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-uMAX
+Butterworth   Low Pass Switched Capacitor,2kHz,1,8th,4.5 V ~ 5.5 V,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Universal Switched Capacitor,100kHz,2,4th,4 V ~ 15 V,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Universal Switched Capacitor,25kHz,4,8th,3.14 V ~ 11 V   ±3.14 V ~ 5.5 V,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+Universal Switched Capacitor,200kHz,4,8th,3.14 V ~ 11 V   ±3.14 V ~ 5.5 V,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+Universal Switched Capacitor,50kHz,4,8th,3.14 V ~ 11 V   ±3.14 V ~ 5.5 V,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+Elliptic   Low Pass Switched Capacitor,12kHz,1,8th,±1.57 V ~ 5.5 V,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low Pass,2.5MHz,2,9th,2.7 V ~ 3.6 V,Surface Mount,24-WFQFN Exposed Pad,24-QFN (4x4)
+Continuous   Band Pass Low Pass,300kHz,2,4th,4.74 V ~ 11 V   ±2.37 V ~ 5.5 V,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+Elliptic   Low Pass Switched Capacitor,10kHz,1,8th,2.7 V ~ 3.6 V,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Elliptic   Low Pass Switched Capacitor,45kHz,1,5th,4.5 V ~ 5.5 V,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-uMAX
+Universal Switched Capacitor,40kHz,2,2nd,4.5 V ~ 5.5 V,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+Universal Switched Capacitor,40kHz,2,2nd,2.7 V ~ 3.6 V,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+Universal Switched Capacitor,200kHz,2,4th,±9 V ~ 14 V,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+Universal   Continuous-Time,100kHz,3,-,±6 V ~ 18 V,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Universal   Continuous-Time,100kHz,3,-,±6 V ~ 18 V,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC

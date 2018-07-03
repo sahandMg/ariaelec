@@ -1,0 +1,120 @@
+Bus Switch,2 x 1:2,1,-,Single Supply,1.65 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Decoder/Demultiplexer,1 x 2:4,2,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer/Demultiplexer,4 x 2:1,1,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Decoder/Demultiplexer,1 x 3:8,1,12mA   12mA,Single Supply,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Decoder/Demultiplexer,1 x 3:8,1,24mA   24mA,Single Supply,3 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder,1 x 4:10,1,6.8mA   6.8mA,Single Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Bilateral   FET Switches,1 x 1:1,4,-,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Decoder/Demultiplexer,1 x 4:16,1,6.8mA   6.8mA,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Priority Encoder,1 x 8:3,1,6.8mA   6.8mA,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Priority Encoder,1 x 10:4,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 1:2,1,32mA   32mA,Single Supply,1.65 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,6-UFDFN,6-MicroPak
+Multiplexer,2 x 4:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,4 x 2:1,1,400µA   8mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Multiplexer,1 x 8:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,2 x 4:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,2 x 4:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Multiplexer,4 x 2:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 2:4,2,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Priority Encoder,1 x 8:3,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,1 x 8:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,4 x 2:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 3:8,1,400µA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 2:4,2,400µA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Decoder/Demultiplexer,2 x 1:4,1,100µA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Multiplexer,4 x 2:1,1,400µA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Priority Encoder,1 x 8:3,1,400µA   24mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,4 x 2:1,1,400µA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Decoder/Demultiplexer,1 x 2:4,2,24mA   24mA,Single Supply,1.5 V ~ 5.5 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 2:4,2,24mA   24mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,24mA   24mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,75mA   75mA,Single Supply,1.5 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,24mA   24mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOP
+Multiplexer,2 x 4:1,1,24mA   24mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,24mA   24mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,400µA   8mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,400µA   8mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,1 x 8:1,1,2.6mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Multiplexer,4 x 2:1,1,400µA   8mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Bus Switch,10 x 1:1,2,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,48-TFSOP (0.173"   4.40mm Width),48-TVSOP
+Bus Switch,5 x 1:1,2,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Bus Switch,10 x 1:1,2,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,48-TFSOP (0.173"   4.40mm Width),48-TVSOP
+Bus FET Exchange Switch,12 x 2:2,1,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,56-TFSOP (0.240"   6.10mm Width),56-TSSOP
+Multiplexer/Demultiplexer,12 x 1:2,1,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,56-TFSOP (0.240"   6.10mm Width),56-TSSOP
+Decoder/Demultiplexer,1 x 3:8,1,1mA   20mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 2:4,2,1mA   20mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOP
+Multiplexer,2 x 4:1,1,1mA   20mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,1mA   20mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,3mA   24mA,Single Supply,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOP
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Multiplexer,1 x 8:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,2 x 4:1,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder/Demultiplexer,1 x 4:16,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Through Hole,24-DIP (0.600"   15.24mm),24-DIP
+Decoder,1 x 2:4,2,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-DIP
+Multiplexer,4 x 2:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Multiplexer,1 x 8:1,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder,1 x 4:10,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 4:16,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SO
+Decoder/Demultiplexer,1 x 4:16,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder/Demultiplexer,1 x 3:8,1,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder/Demultiplexer,1 x 3:8,1,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Decoder/Demultiplexer,1 x 2:4,2,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Multiplexer,4 x 2:1,1,6mA   6mA,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,4mA   4mA,Single Supply,4.5 V ~ 5.5 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,4 x 2:1,1,24mA   24mA,Single Supply,2 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Multiplexer,4 x 2:1,1,24mA   24mA,Single Supply,2 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Decoder,1 x 4:10,1,-   80mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,2 x 4:1,1,2.6mA   8mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,2 x 4:1,1,6mA   6mA,Single Supply,1 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,16-SSOP (0.209"   5.30mm Width),16-SSOP
+Decoder/Demultiplexer,1 x 3:8,1,24mA   24mA,Single Supply,1.2 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Multiplexer/Demultiplexer,2 x 4:1,1,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Priority Encoder,10 x 1:4,1,6.8mA   6.8mA,Single Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Bilateral   FET Switches,1 x 1:1,4,-,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Bilateral   FET Switches,1 x 1:1,4,-,Dual Supply,3 V ~ 15 V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Bilateral   FET Switches,1 x 1:1,4,-,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Decoder/Demultiplexer,1 x 4:16,1,6.8mA   6.8mA,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,24-DIP (0.600"   15.24mm),24-PDIP
+Decoder/Demultiplexer,1 x 3:8,1,24mA   24mA,Single Supply,1.5 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Priority Encoder,1 x 10:4,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder/Demultiplexer,1 x 4:16,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-55°C ~ 125°C,Through Hole,24-DIP (0.300"   7.62mm),24-PDIP
+Decoder/Demultiplexer,1 x 3:8,1,32mA   64mA,Single Supply,4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Decoder/Demultiplexer,1 x 2:4,2,3mA   3mA,Dual Supply,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Multiplexer,1 x 2:1,4,-,Dual Supply,±4.2 V ~ 5.7 V,0°C ~ 85°C,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+Bilateral   FET Switches,1 x 1:1,4,-,Dual Supply,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Decoder/Demultiplexer,1 x 4:16,1,3.5mA   8.8mA,Single Supply,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,24-DIP (0.600"   15.24mm),24-PDIP
+16-Key Encoder,1 x 8:4,1,15mA   16mA,Single Supply,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+20-Key Encoder,1 x 9:4,1,15mA   16mA,Single Supply,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Decoder/Demultiplexer,1 x 3:8,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,1 x 8:1,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Decoder,1 x 4:16,1,5.2mA   5.2mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Decoder/Demultiplexer,1 x 4:16,1,5.2mA   5.2mA,Dual Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Multiplexer,1 x 16:1,1,800µA   16mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,24-DIP (0.600"   15.24mm),24-PDIP
+Multiplexer,4 x 2:1,1,8mA   8mA,Single Supply,2 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer,4 x 2:1,1,8mA   8mA,Single Supply,2 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Multiplexer/Demultiplexer,4 x 2:1,1,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Multiplexer/Demultiplexer,12 x 1:2,1,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,56-TFSOP (0.240"   6.10mm Width),56-TSSOP
+Bus Switch,1 x 1:1,4,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Multiplexer/Demultiplexer,1 x 8:1,1,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Multiplexer/Demultiplexer,4 x 2:1,1,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Bus Switch,10 x 1:1,2,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Bus Switch,1 x 1:1,2,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-TSSOP (0.173"   4.40mm Width),8-TSSOP
+Bus Switch,5 x 1:1,2,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Bus Switch,10 x 1:1,1,-,Single Supply,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-SSOP (0.154"   3.90mm Width),24-SSOP/QSOP
+Multiplexer/Demultiplexer,4 x 2:1,1,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Bus Switch,5 x 1:1,2,-,Single Supply,2.3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Multiplexer,2 x 4:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Multiplexer,4 x 2:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SSOP (0.209"   5.30mm Width),16-SSOP
+Multiplexer,4 x 2:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Multiplexer,4 x 2:1,1,7.8mA   7.8mA,Single Supply,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder,1 x 4:10,1,-   80mA,Single Supply,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Decoder/Demultiplexer,1 x 2:4,2,24mA   24mA,Single Supply,1.65 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multiplexer/Demultiplexer,2 x 4:1,1,-,Single Supply,4 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP

@@ -1,0 +1,20 @@
+General Purpose,1,1:1,Low Side,N-Channel,On/Off,50V (Max),Not Required,11A,53 mOhm,Non-Inverting,-,Over Temperature   Over Voltage,-55°C ~ 150°C (TJ),TO-220-3,TO-220AB
+Relay   Solenoid Driver,8,1:8,Low Side,-,SPI,4.5 V ~ 5.5 V,-,-,550 mOhm,-,Status Flag,Current Limiting (Fixed),-40°C ~ 150°C (TJ),20-SOIC (0.433"   11.00mm Width) Exposed Pad,PowerSO-20
+General Purpose,1,1:1,High Side,P-Channel,On/Off,1.8 V ~ 8 V,-,3.3A,40 mOhm,-,-,-,-55°C ~ 150°C (TJ),SOT-23-6 Thin   TSOT-23-6,6-TSOP
+General Purpose,8,1:1,High Side,Bipolar,On/Off,5 V ~ 50 V,Not Required,500mA,-,Non-Inverting,-,Current Limiting (Fixed),-20°C ~ 85°C (TA),20-SOIC (0.295"   7.50mm Width),20-SOIC
+Relay   Solenoid Driver,7,1:1,Low Side,NPN,Parallel,50V (Max),Not Required,500mA,-,Inverting,-,-,-40°C ~ 85°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Relay   Solenoid Driver,7,1:1,Low Side,NPN,Parallel,50V (Max),Not Required,500mA,-,Inverting,-,-,-40°C ~ 105°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+General Purpose,1,1:1,Low Side,N-Channel,On/Off,55V (Max),Not Required,25A,28 mOhm (Max),Non-Inverting,Status Flag,Current Limiting (Fixed)   Over Temperature   Over Voltage,-,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+General Purpose,1,1:1,Low Side,N-Channel,On/Off,-,Not Required,6A,150 mOhm,Non-Inverting,-,Current Limiting (Fixed)   Over Temperature   Over Voltage,-,TO-251-3 Short Leads   IPak   TO-251AA,I-PAK
+General Purpose,1,1:1,Low Side,N-Channel,On/Off,36V (Max),Not Required,1.7A,250 mOhm (Max),Non-Inverting,-,Current Limiting (Fixed)   Over Temperature   Over Voltage,-40°C ~ 150°C (TJ),TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+USB Switch,2,1:2,High Side,P-Channel,On/Off,2.7 V ~ 5.5 V,Not Required,500mA,100 mOhm,Non-Inverting,Status Flag,Current Limiting (Fixed)   Over Temperature   UVLO,-40°C ~ 125°C (TJ),8-SOIC (0.154"   3.90mm Width),8-SOIC
+USB Switch,2,1:2,High Side,P-Channel,On/Off,2.7 V ~ 5.5 V,Not Required,500mA,100 mOhm,Non-Inverting,Status Flag,Current Limiting (Fixed)   Over Temperature   UVLO,-40°C ~ 125°C (TJ),8-SOIC (0.154"   3.90mm Width),8-SOIC
+USB Switch,1,1:1,High Side,N-Channel,On/Off,2.5 V ~ 5.5 V,Not Required,1.5A,80 mOhm,Non-Inverting,Status Flag,Current Limiting (Fixed)   Over Temperature   Reverse Current   UVLO,-40°C ~ 125°C (TJ),SC-74A   SOT-753,SOT-23-5
+General Purpose,1,1:1,High Side,N-Channel,On/Off,5 V ~ 34 V,Not Required,2.6A,50 mOhm,Non-Inverting,Auto Restart,Current Limiting (Fixed)   Over Temperature   Over Voltage,-40°C ~ 150°C (TJ),8-SOIC (0.154"   3.90mm Width),P-DSO-8
+General Purpose,4,1:1,Low Side,N-Channel,On/Off,50V (Max),Not Required,800mA,150 mOhm,Non-Inverting,-,Current Limiting (Fixed)   Over Temperature   Over Voltage,150°C (TJ),20-SOIC (0.295"   7.50mm Width),20-SO
+General Purpose,1,1:1,High Side,P-Channel,On/Off,1.5 V ~ 6 V,Not Required,2A,80 mOhm,Non-Inverting,Load Discharge   Slew Rate Controlled,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-26
+USB Switch,2,1:2,High Side,P-Channel,On/Off,2.7 V ~ 5.5 V,Not Required,500mA,100 mOhm,Non-Inverting,Status Flag,Current Limiting (Fixed)   Over Temperature   UVLO,-40°C ~ 125°C (TJ),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Relay   Solenoid Driver,1,1:1,-,Bipolar,On/Off,3 V ~ 5 V,Not Required,250mA,-,-,-,-,-55°C ~ 150°C (TJ),TO-236-3   SC-59   SOT-23-3,SOT-23
+General Purpose,1,1:1,High Side,N-Channel,On/Off,5.5 V ~ 36 V,Not Required,700mA,135 mOhm (Max),Non-Inverting,Auto Restart   Status Flag,Current Limiting (Fixed)   Over Temperature   Over Voltage,-40°C ~ 150°C (TJ),8-SOIC (0.154"   3.90mm Width),8-SO
+General Purpose,1,1:1,High Side,N-Channel,On/Off,5.5 V ~ 36 V,Not Required,30A,15 mOhm (Max),Non-Inverting,Auto Restart,Current Limiting (Fixed)   Over Temperature   Over Voltage,-40°C ~ 150°C (TJ),PowerSO-10 Exposed Bottom Pad,10-PowerSO
+General Purpose,4,1:1,High Side,N-Channel,On/Off,5.5 V ~ 36 V,Not Required,3.5A,160 mOhm (Max),Non-Inverting,Auto Restart   Status Flag,Current Limiting (Fixed)   Open Load Detect   Over Temperature   Over Voltage,-40°C ~ 150°C (TJ),28-SOIC (0.295"   7.50mm Width),28-SO

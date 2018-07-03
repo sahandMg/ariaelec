@@ -1,0 +1,6 @@
+Fixed Point,Host Interface   SSI   SCI,100MHz,ROM (576 B),24kB,3.30V,3.30V,-40°C ~ 100°C (TJ),Surface Mount,196-LBGA,196-MAPBGA (15x15)
+Fixed Point,Host Interface   SSI   SCI,150MHz,ROM (576 B),384kB,3.30V,1.80V,-40°C ~ 100°C (TJ),Surface Mount,196-LBGA,196-MAPBGA (15x15)
+Digital Media System-on-Chip (DMSoC),ASP   EBI/EMI   Host Interface   I²C   SPI   UART   USB,513MHz DSP   256.5MHz ARM®,ROM (8 kB),160kB,1.8V   3.3V,1.20V,-40°C ~ 105°C (TC),Surface Mount,361-LFBGA,361-NFBGA (16x16)
+Floating Point,Serial Port,60MHz,External,136.25kB,3.30V,1.80V,0°C ~ 90°C (TC),Surface Mount,144-LQFP,144-LQFP (20x20)
+Fixed Point,Host Interface   I²C   McBSP,200MHz,ROM (64 kB),256kB,3.00V   3.30V,1.60V,-40°C ~ 85°C (TC),Surface Mount,179-LFBGA,179-BGA MicroStar (12x12)
+Sigma,I²C   SPI,50MHz,-,12kB,3.30V,1.80V,0°C ~ 70°C (TA),Surface Mount,48-LQFP,48-LQFP (7x7)

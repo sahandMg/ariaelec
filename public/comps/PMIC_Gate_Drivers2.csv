@@ -1,0 +1,143 @@
+Low-Side,Independent,2,-,4.5 V ~ 5.5 V,0.8V   2V,500mA   500mA,Non-Inverting,-,50ns   90ns,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.75 V ~ 5.25 V,0.8V   2V,500mA   500mA,Inverting,-,5ns   7ns,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.75 V ~ 5.25 V,0.8V   2V,500mA   500mA,Non-Inverting,-,5ns   7ns,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.75 V ~ 5.25 V,0.8V   2V,500mA   500mA,Non-Inverting,-,5ns   7ns,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Inverting   Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,80ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,30ns   30ns,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting,-,25ns   25ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,25ns   25ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,19ns   19ns,0°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Inverting   Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,3.3 V ~ 20 V,6V   9.5V,2A   2A,Non-Inverting,500V,25ns   17ns,-40°C ~ 150°C (TJ),Through Hole,14-DIP (0.300"   7.62mm),14-DIP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,3.3 V ~ 20 V,6V   9.5V,2A   2A,Non-Inverting,600V,25ns   17ns,-40°C ~ 150°C (TJ),Through Hole,14-DIP (0.300"   7.62mm),14-DIP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,3.3 V ~ 20 V,6V   9.5V,2A   2A,Non-Inverting,600V,25ns   17ns,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,80ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 15.4 V,-,180mA   260mA,RC Input Circuit,600V,120ns   50ns,-40°C ~ 125°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting   Non-Inverting,-,25ns   25ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 30 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,25ns   33ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Single,1,IGBT,4.5 V ~ 5.5 V,1.5V   3.5V,2A   2A,Inverting   Non-Inverting,1200V,30ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),PG-DSO-16-15
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,14 V ~ 18 V,0.8V   2V,1A   2A,Inverting,1200V,20ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,20-SOIC (0.295"   7.50mm Width)   18 Leads,PG-DSO-18-2
+Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 16 V,0.8V   2.4V,4A   4A,Non-Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Single,1,IGBT,4.5 V ~ 12 V,0.8V   2.4V,12A   12A,Non-Inverting,-,12ns   12.2ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 15 V,0.8V   2.4V,2A   2A,Non-Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 15 V,0.8V   2.4V,2A   2A,Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 15 V,0.8V   2.4V,2A   2A,Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 15 V,0.8V   2.4V,2A   2A,Inverting   Non-Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 16 V,0.8V   2.4V,2A   2A,Inverting   Non-Inverting,-,10ns   10ns,-40°C ~ 125°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+High-Side or Low-Side,Independent,4,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,2A   2A,Non-Inverting,-,13.5ns   13ns,-40°C ~ 85°C (TA),Surface Mount,16-VQFN Exposed Pad,16-QFN (4x4)
+High-Side or Low-Side,Independent,4,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,2A   2A,Non-Inverting,-,13.5ns   13ns,-40°C ~ 85°C (TA),Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+Low-Side,Single,1,N-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,3A   3A,Inverting   Non-Inverting,-,13ns   9ns,-55°C ~ 150°C (TJ),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Low-Side,Single,1,N-Channel MOSFET,4.5 V ~ 18 V,-,1.4A   1.4A,Inverting   Non-Inverting,-,9ns   8ns,-40°C ~ 150°C (TJ),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Low-Side,Single,1,N-Channel MOSFET,4.5 V ~ 18 V,-,1.4A   1.4A,Non-Inverting,-,9ns   8ns,-40°C ~ 150°C (TJ),Surface Mount,SC-74A   SOT-753,SOT-23-5
+High-Side,Single,1,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,4A   4A,Non-Inverting,600V,25ns   15ns,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,350mA   650mA,Non-Inverting,600V,60ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,11 V ~ 20 V,1.2V   2.5V,350mA   650mA,Non-Inverting,600V,50ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOP
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,15 V ~ 20 V,1.2V   2.9V,350mA   650mA,Non-Inverting,600V,50ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,13 V ~ 20 V,1.2V   2.5V,250mA   500mA,Non-Inverting,600V,50ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOP
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,350mA   650mA,Inverting,600V,50ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,2.5A   2.5A,Non-Inverting,600V,25ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOP
+Half-Bridge,Independent,2,N-Channel MOSFET,9 V ~ 14 V,4V   7V,2A   2A,Non-Inverting,114V,10ns   10ns,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,4,N-Channel MOSFET,9.5 V ~ 15 V,1V   2.5V,2.6A   2.4A,Non-Inverting,95V,10ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Half-Bridge,Independent,4,N-Channel MOSFET,9.5 V ~ 15 V,1V   2.5V,2.6A   2.4A,Non-Inverting,95V,10ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Half-Bridge,Independent,4,N-Channel MOSFET,8.5 V ~ 15 V,1V   2.5V,1.4A   1.3A,Non-Inverting,95V,9ns   9ns,-55°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+High-Side or Low-Side,Independent,2,N-Channel MOSFET,4.5 V ~ 15 V,0.8V   2V,-,Inverting,-,20ns   20ns,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,N-Channel MOSFET,4.5 V ~ 17 V,0.8V   2V,-,Inverting,-,20ns   20ns,0°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Half-Bridge,Independent,2,N-Channel MOSFET,10 V ~ 20 V,0.7V   2.2V,1A   1A,Inverting,200V,35ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,Non-Inverting,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   3V,210mA   360mA,-,600V,100ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.9V,200mA   350mA,Non-Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.9V,200mA   350mA,Non-Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,200mA   350mA,Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.9V,200mA   350mA,Non-Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.9V,200mA   350mA,Non-Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.9V,200mA   350mA,Non-Inverting,600V,150ns   50ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,3.3 V ~ 20 V,6V   9.5V,2A   2A,Non-Inverting,500V,25ns   17ns,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,8.3V   12.6V,250mA   500mA,Non-Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,8.3V   12.6V,250mA   500mA,Non-Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,6V   9.5V,250mA   500mA,Non-Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Half-Bridge,Independent,2,IGBT,11.5 V ~ 20 V,0.8V   2V,2A   3A,Non-Inverting,600V,24ns   7ns,-40°C ~ 150°C (TJ),Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP
+High-Side,Single,1,IGBT   N-Channel MOSFET,10 V ~ 20 V,6V   9.5V,250mA   500mA,Non-Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side,Single,1,IGBT   N-Channel MOSFET,10 V ~ 20 V,6V   9.5V,250mA   500mA,Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+High-Side,Single,1,IGBT   N-Channel MOSFET,0 V ~ 18 V,0.8V   2.2V,1.6A   3.3A,Non-Inverting,500V,43ns   26ns,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+High-Side or Low-Side,Single,1,IGBT   N-Channel MOSFET,12 V ~ 20 V,0.8V   3V,250mA   500mA,Non-Inverting,600V,80ns   40ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,80ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,44-LCC (J-Lead)   32 Leads,44-PLCC   32 Leads (16.58x16.58)
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,80ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,44-LCC (J-Lead)   32 Leads,44-PLCC   32 Leads (16.58x16.58)
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,80ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,28-SOIC (0.295"   7.50mm Width),28-SOIC
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.2V,250mA   500mA,Inverting,600V,90ns   40ns,125°C (TJ),Surface Mount,44-LCC (J-Lead)   32 Leads,44-PLCC   32 Leads (16.58x16.58)
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,-,125mA   250mA,RC Input Circuit,600V,80ns   40ns,-40°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 15.6 V,-,-,RC Input Circuit,600V,80ns   45ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 15.6 V,-,-,RC Input Circuit,600V,80ns   45ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 15.6 V,-,-,RC Input Circuit,600V,80ns   45ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 15.6 V,-,-,RC Input Circuit,600V,80ns   45ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,-,250mA   500mA,RC Input Circuit,600V,80ns   45ns,-40°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,1.9A   2.3A,Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,1.9A   2.3A,Inverting   Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,1.9A   2.3A,Inverting   Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,1.9A   2.3A,Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.7V,1.9A   2.3A,Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,12 V ~ 20 V,6V   9.5V,2A   2.5A,Non-Inverting,1200V,25ns   17ns,-55°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2V,250mA   500mA,Inverting,1200V,90ns   40ns,125°C (TJ),Surface Mount,44-LCC (J-Lead)   32 Leads,44-PLCC   32 Leads (16.58x16.58)
+Half-Bridge,3-Phase,6,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2V,250mA   500mA,Inverting,1200V,90ns   40ns,125°C (TJ),Surface Mount,44-LCC (J-Lead)   32 Leads,44-PLCC   32 Leads (16.58x16.58)
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.3V,60mA   130mA,Non-Inverting,600V,200ns   100ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,IGBT   N-Channel MOSFET,6 V ~ 20 V,0.8V   2.7V,2.3A   3.3A,Non-Inverting,-,15ns   10ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,IGBT   N-Channel MOSFET,6 V ~ 20 V,0.8V   2.7V,2.3A   3.3A,Non-Inverting,-,15ns   10ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,290mA   600mA,Non-Inverting,600V,70ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,290mA   600mA,Non-Inverting,600V,70ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,1.9A   2.3A,Inverting   Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 20 V,0.8V   2.5V,1.9A   2.3A,Non-Inverting,600V,40ns   20ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Low-Side,Independent,2,N-Channel MOSFET,4.5 V ~ 16 V,1.22V   2.08V,6A   6A,Inverting,-,20ns   20ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width) Exposed Pad,8-SOIC-EP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,2A   2A,Inverting,-,7.5ns   10ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,IGBT   N-Channel   P-Channel MOSFET,4.5 V ~ 35 V,0.8V   2.5V,4A   4A,Non-Inverting,-,16ns   13ns,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,14.6 V ~ 16.6 V,1.5V   3.6V,400mA   650mA,Inverting,600V,50ns   30ns,-45°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,17V (Max),1.5V   3.6V,400mA   650mA,Inverting,600V,50ns   30ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Half-Bridge,Independent,2,IGBT   N-Channel MOSFET,12.5 V ~ 20 V,1.1V   1.9V,290mA   430mA,Non-Inverting,600V,75ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Half-Bridge,Synchronous,2,IGBT   N-Channel MOSFET,10 V ~ 16.6 V,-,170mA   270mA,RC Input Circuit,600V,-,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Half-Bridge,Synchronous,2,N-Channel MOSFET,4 V ~ 6.85 V,-,3A   4.5A,Non-Inverting,33V,17ns   12ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,N-Channel MOSFET,9 V ~ 14 V,2.3V   -,3A   3A,Non-Inverting,118V,430ns   260ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Independent,2,N-Channel MOSFET,9 V ~ 14 V,2.3V   -,1A   1A,Non-Inverting,118V,990ns   715ns,-40°C ~ 125°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side,Single,1,N-Channel MOSFET,7 V ~ 26 V,1.5V   3.5V,-,Non-Inverting,-,-,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side,Independent,4,N-Channel MOSFET,8 V ~ 48 V,0.8V   2V,-,Non-Inverting,-,-,-40°C ~ 150°C (TJ),Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+High-Side,Independent,2,N-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,-,Non-Inverting,-,-,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Independent,2,N-Channel MOSFET,4.5 V ~ 13.2 V,1.7V   2.2V,1.5A   1.5A,Non-Inverting,-,16ns   16ns,0°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Independent,2,N-Channel MOSFET,4.5 V ~ 13.2 V,1.7V   2.2V,1.5A   1.5A,Inverting   Non-Inverting,-,16ns   16ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side,Single,1,N-Channel MOSFET,8 V ~ 15 V,1.3V   1.6V,2.4A   2.4A,Non-Inverting,80V,10ns   7ns,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin   TSOT-23-6,TSOT-23-6
+Half-Bridge,Independent,2,N-Channel MOSFET,7.2 V ~ 13.5 V,1.85V   3.25V,2.5A   3A,Non-Inverting,114V,8ns   5ns,-40°C ~ 125°C (TJ),Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-EP
+Low-Side,Single,1,N-Channel MOSFET,4.5 V ~ 28 V,0.8V   2V,4A   8A,Inverting   Non-Inverting,-,22ns   16ns,-40°C ~ 150°C (TJ),Surface Mount,10-WFDFN Exposed Pad,10-TDFN-EP (3x3)
+Low-Side,Single,1,N-Channel MOSFET,4 V ~ 12.6 V,0.8V   2.4V,1.3A   7.6A,Inverting   Non-Inverting,-,82ns   12.5ns,-40°C ~ 150°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,2A   2A,Inverting,-,25ns   20ns,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2V,2A   2A,Inverting   Non-Inverting,-,25ns   20ns,0°C ~ 70°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel MOSFET,6.5 V ~ 18 V,0.8V   2.6V,1.5A   1.5A,Inverting,-,31ns   32ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Single,1,IGBT   N-Channel MOSFET,11 V ~ 20 V,1.2V   3.2V,1A   2A,Inverting,-,17ns   17ns,-40°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel MOSFET,6.5 V ~ 18 V,0.8V   2.6V,1.5A   1.5A,Inverting,-,31ns   32ns,0°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Independent,2,N-Channel MOSFET,6.1 V ~ 18 V,0.8V   2.6V,1.5A   1.5A,Non-Inverting,-,36ns   32ns,0°C ~ 150°C (TJ),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,6A   6A,Non-Inverting,-,12ns   13ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting   Non-Inverting,-,20ns   29ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Single,1,IGBT   N-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,12A   12A,Inverting,-,20ns   24ns,-40°C ~ 85°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Half-Bridge,Synchronous,2,N-Channel MOSFET,10 V ~ 13.2 V,1V   2V,-,Non-Inverting,30V,16ns   15ns,0°C ~ 150°C (TJ),Surface Mount,8-VFDFN Exposed Pad,8-DFN (2x2)
+High-Side,Single,1,N-Channel MOSFET,10.8 V ~ 16.5 V,-,1A   1A,Non-Inverting,500V,50ns   35ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,30ns   30ns,0°C ~ 70°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,6A   6A,Non-Inverting,-,25ns   25ns,0°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting,-,19ns   19ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting,-,19ns   19ns,-40°C ~ 150°C (TJ),Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,19ns   19ns,0°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting   Non-Inverting,-,25ns   25ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,1.5A   1.5A,Inverting   Non-Inverting,-,19ns   19ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 18 V,0.8V   2.4V,6A   6A,Inverting,-,25ns   25ns,0°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+High-Side or Low-Side,Single,1,N-Channel   P-Channel MOSFET,4.5 V ~ 30 V,0.8V   2.4V,1.5A   1.5A,Non-Inverting,-,25ns   33ns,-40°C ~ 150°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,3,IGBT   N-Channel MOSFET,4 V ~ 16 V,0.8V   2V,-,Inverting   Non-Inverting,-,-,-40°C ~ 150°C (TJ),Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Non-Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Non-Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Inverting   Non-Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Synchronous,2,N-Channel   P-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Inverting,-,14ns   15ns,-40°C ~ 125°C (TA),Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Low-Side,Single,1,N-Channel MOSFET,4 V ~ 14 V,1V   4V,2A   2A,Inverting,-,14ns   14ns,-40°C ~ 125°C (TA),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Low-Side,Single,1,IGBT   N-Channel MOSFET,4.7 V ~ 18 V,0.8V   2V,6A   6A,Inverting   Non-Inverting,-,85ns   85ns,-55°C ~ 150°C (TJ),Through Hole,TO-220-5,TO-220-5
+Half-Bridge,Independent,2,N-Channel MOSFET,8 V ~ 17 V,0.8V   2.5V,3A   3A,Non-Inverting,120V,8ns   7ns,-40°C ~ 140°C (TJ),Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4 V ~ 15 V,1V   2V,4A   4A,Non-Inverting,-,20ns   15ns,-55°C ~ 150°C (TJ),Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-PowerPad
+Low-Side,Independent,2,N-Channel   P-Channel MOSFET,4 V ~ 15 V,1V   2V,4A   4A,Inverting   Non-Inverting,-,20ns   15ns,-55°C ~ 150°C (TJ),Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-PowerPad
+Low-Side,Single,1,IGBT   N-Channel MOSFET,4.5 V ~ 18 V,1V   2.4V,4A   8A,Inverting   Non-Inverting,-,8ns   7ns,-40°C ~ 140°C (TJ),Surface Mount,SOT-23-6,SOT-23-6

@@ -1,0 +1,48 @@
+Class D,1-Channel (Mono),20W x 1 @ 4 Ohm,4.5 V ~ 15 V,Depop   Short-Circuit and Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),16-SO,16-SOIC (0.154"   3.90mm Width) Exposed Pad
+Class AB,1-Channel (Mono),2.5W x 1 @ 8 Ohm,10 V ~ 22 V,Short-Circuit and Thermal Protection,Through Hole,0°C ~ 70°C (TA),8-PDIP,8-DIP (0.300"   7.62mm)
+Class AB,1-Channel (Mono),25W x 1 @ 8 Ohm,16 V ~ 60 V   ±8 V ~ 30 V,Short-Circuit and Thermal Protection,Through Hole,0°C ~ 70°C (TA),TO-220-5,TO-220-5 Formed Leads
+Class AB,1-Channel (Mono),1.4W x 1 @ 8 Ohm,2.7 V ~ 5.5 V,Depop   Differential Inputs   Short-Circuit Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),10-VSSOP,10-TFSOP   10-MSOP (0.118"   3.00mm Width)
+Class AB,2-Channel (Stereo),40W x 2 @ 8 Ohm,20 V ~ 60 V   ±10 V ~ 30 V,Depop   Mute   Thermal Protection,Through Hole,-20°C ~ 85°C (TA),TO-220-15,TO-220-15 Formed Leads
+Class AB,1-Channel (Mono),1.5W x 1 @ 8 Ohm,2 V ~ 5.5 V,Shutdown   Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),8-SOIC,8-SOIC (0.154"   3.90mm Width)
+Class AB,2-Channel (Stereo) with Stereo Headphones,3.2W x 2 @ 3 Ohm; 440mW x 2 @ 8 Ohm,2 V ~ 5.5 V,Depop   Shutdown   Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),16-SOIC,16-SOIC (0.295"   7.50mm Width)
+Class AB,1-Channel (Mono),1W x 1 @ 8 Ohm,2.2 V ~ 5.5 V,Depop   Shutdown   Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),8-SOIC,8-SOIC (0.154"   3.90mm Width)
+Class AB,2-Channel (Stereo) with Stereo Headphones,2.2W x 2 @ 3 Ohm; 92mW x 2 @ 32 Ohm,2.7 V ~ 5.5 V,Bass Boost   Depop   Mute   Shutdown   Thermal Protection   Volume Control,Surface Mount,-20°C ~ 85°C (TA),28-HTSSOP,28-TSSOP (0.173"   4.40mm Width) Exposed Pad
+Class AB,1-Channel (Mono),-,2.4 V ~ 5.5 V,Microphone   Shutdown,Surface Mount,-40°C ~ 85°C (TA),SOT-23-8,SOT-23-8
+Class AB,1-Channel (Mono),3W x 1 @ 3 Ohm,4.5 V ~ 5.5 V,Depop   Mute   Shutdown   Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),12-TQFN (4x4),12-WQFN Exposed Pad
+Class D,2-Channel (Stereo),2.8W x 2 @ 4 Ohm,4.5 V ~ 5.5 V,Depop   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),16-TQFN (5x5),16-WQFN Exposed Pad
+Class D,1-Channel (Mono) with Stereo Headphones,1.5W x 1 @ 4 Ohm; 60mW x 2 @ 16 Ohm,2.7 V ~ 5.5 V,Depop   Differential Inputs   I²C   Mute   Short-Circuit and Thermal Protection   Shutdown   Volume Control,Surface Mount,-40°C ~ 85°C (TA),32-TQFN-EP (5x5),32-WFQFN Exposed Pad
+Class AB,2-Channel (Stereo) with Stereo Headphones,2W x 2 @ 4 Ohm; 100mW x 2 @ 16 Ohm,4.5 V ~ 5.5 V,Depop   Mute   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),32-TQFN-EP (5x5),32-WFQFN Exposed Pad
+Class D,2-Channel (Stereo),3.2W x 2 @ 4 Ohm,2.5 V ~ 5.5 V,Depop   Short-Circuit and Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),16-TQFN (3x3),16-WFQFN Exposed Pad
+Class D,2-Channel (Stereo),20W x 2 @ 8 Ohm,8 V ~ 28 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),36-TQFN (6x6),36-WFQFN Exposed Pad
+Class D,2-Channel (Stereo),12W x 2 @ 8 Ohm,8 V ~ 28 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),24-TQFN (4x4),24-WFQFN Exposed Pad
+Class AB,1-Channel (Mono),400mW x 1 @ 100 Ohm,2 V ~ 16 V   ±1 V ~ 8 V,Shutdown,Surface Mount,-20°C ~ 70°C (TA),8-TSSOP,8-TSSOP (0.173"   4.40mm Width)
+Class D,1-Channel (Mono),3W x 1 @ 4 Ohm,2.8 V ~ 5.5 V,Depop   Short-Circuit and Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),16-SOP,16-SOIC (0.154"   3.90mm Width)
+Class AB,1-Channel (Mono),1.5W x 1 @ 4 Ohm,2.7 V ~ 5.5 V,Differential Inputs   Shutdown,Surface Mount,-40°C ~ 85°C (TA),8-SOIC,8-SOIC (0.154"   3.90mm Width)
+Class D,2-Channel (Stereo),2.4W x 2 @ 4 Ohm,2.5 V ~ 5 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),16-LFCSP-VQ (3x3),16-VFQFN Exposed Pad   CSP
+Class D,1-Channel (Mono),2.8W x 1 @ 4 Ohm,2.2 V ~ 5.5 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),8-MSOP,8-TSSOP   8-MSOP (0.118"   3.00mm Width)
+Class D,2-Channel (Stereo),50W x 2 @ 6 Ohm,3 V ~ 3.6 V,Digital Inputs   Mute   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,0°C ~ 70°C (TA),32-HTSSOP,32-TSSOP (0.240"   6.10mm Width) Exposed Pad
+Class D,1-Channel (Mono) or 2-Channel (Stereo),250W x 1 @ 2 Ohm; 125W x 2 @ 4 Ohm,10.8 V ~ 13.2 V,Digital PWM Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,0°C ~ 70°C (TA),44-HTSSOP,44-TSSOP (0.244"   6.20mm Width) Exposed Pad
+Class D,1-Channel (Mono) or 2-Channel (Stereo),480W x 1 @ 2 Ohm; 300W x 2 @ 4 Ohm,25 V ~ 52.5 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,0°C ~ 70°C (TA),64-HTQFP (14x14),64-TQFP Exposed Pad
+Class B,1-Channel (Mono) or 2-Channel (Stereo),8W x 1 @ 8 Ohm; 4W x 2 @ 4 Ohm,6 V ~ 18 V,Depop   Mute   Short-Circuit and Thermal Protection   Standby,Surface Mount,-40°C ~ 85°C (TA),20-HTSSOP,20-TSSOP (0.173"   4.40mm Width) Exposed Pad
+Class AB,1-Channel (Mono),12W x 1 @ 1.6 Ohm,8 V ~ 18 V,Short-Circuit and Thermal Protection,Through Hole,-40°C ~ 150°C (TJ),5-PENTAWATT,Pentawatt-5 (Vertical   Bent and Staggered Leads)
+Class B,1-Channel (Mono) or 2-Channel (Stereo),22W x 1 @ 3.2 Ohm; 12W x 2 @ 2 Ohm,8 V ~ 18 V,Short-Circuit and Thermal Protection,Through Hole,-40°C ~ 150°C (TJ),11-Multiwatt,Multiwatt-11 (Vertical   Bent and Staggered Leads)
+Class AB,1-Channel (Mono),18W x 1 @ 4 Ohm,12 V ~ 44 V   ±6 V ~ 22 V,Short-Circuit and Thermal Protection,Through Hole,-40°C ~ 150°C (TJ),5-PENTAWATT,Pentawatt-5 (Vertical   Bent and Staggered Leads)
+Class AB,1-Channel (Mono) or 2-Channel (Stereo),1W x 1 @ 32 Ohm; 380mW x 2 @ 8 Ohm,1.8 V ~ 15 V,-,Surface Mount,-40°C ~ 150°C (TJ),8-SO,8-SOIC (0.154"   3.90mm Width)
+Class AB,1-Channel (Mono),3.5W x 1 @ 16 Ohm,4.5 V ~ 18 V,Depop   Mute   Short-Circuit and Thermal Protection   Volume Control,Surface Mount,-40°C ~ 85°C (TA),20-SO,20-SOIC (0.295"   7.50mm Width)
+Class AB,1-Channel (Mono),100W x 1 @ 4 Ohm,±12 V ~ 50 V,Depop   Differential Inputs   Mute   Short-Circuit and Thermal Protection   Standby,Through Hole,0°C ~ 70°C (TA),15-Multiwatt,Multiwatt-15 (Vertical   Bent and Staggered Leads)
+Class AB,1-Channel (Mono) or 2-Channel (Stereo),22W x 1 @ 3.2 Ohm; 12W x 2 @ 1.6 Ohm,8 V ~ 18 V,Depop   Short-Circuit and Thermal Protection   Standby,Through Hole,-40°C ~ 150°C (TJ),11-Multiwatt,Multiwatt-11 (Vertical   Bent and Staggered Leads)
+Class AB,2-Channel (Stereo),1.2W x 2 @ 8 Ohm,2.2 V ~ 18 V,Depop   Mute   Short-Circuit and Thermal Protection   Standby,Surface Mount,-40°C ~ 85°C (TA),20-SSOP,20-LSSOP (0.173"   4.40mm Width)
+Class AB,1-Channel (Mono),1.4W x 1 @ 8 Ohm,2.7 V ~ 5.5 V,Depop   Mute   Short-Circuit and Thermal Protection   Standby   Volume Control,Surface Mount,-40°C ~ 85°C (TA),8-SO,8-SOIC (0.154"   3.90mm Width)
+Class AB,2-Channel (Stereo),1.4W x 2 @ 8 Ohm,2.7 V ~ 5.5 V,Depop   Mute   Short-Circuit and Thermal Protection   Standby   Volume Control,Surface Mount,-40°C ~ 85°C (TA),20-SSOP,20-LSSOP (0.173"   4.40mm Width)
+Class B,2-Channel (Stereo) or 4-Channel (Quad),24W x 2 @ 4 Ohm; 12W x 4 @ 2 Ohm,6 V ~ 18 V,Depop   Differential Inputs   Mute   Short-Circuit and Thermal Protection   Standby,Through Hole,-40°C ~ 85°C (TA),DBS17P,17-SIP Formed Leads
+Class AB,4-Channel (Quad),75W x 4 @ 2 Ohm,8 V ~ 18 V,I²C   Mute   Short-Circuit and Thermal Protection   Standby,Through Hole,-40°C ~ 105°C (TA),27-RDBS,27-SIP Formed Leads
+Class D,1-Channel (Mono) or 2-Channel (Stereo),420W x 1 @ 8 Ohm; 210W x 2 @ 4 Ohm,±12.5 V ~ 42.5 V,Depop   Differential Inputs   Mute   Short-Circuit and Thermal Protection   Standby,Surface Mount,-40°C ~ 85°C (TA),24-HSOP,24-BSOP (0.433"   11.00mm Width) Exposed Pad
+Class AB,1-Channel (Mono) or 2-Channel (Stereo),4.7W x 1 @ 8 Ohm; 2.4W x 2 @ 8 Ohm,3 V ~ 12 V,Depop   Thermal Protection,Surface Mount,-,20-SO,20-SOIC (0.295"   7.50mm Width)
+Class D,2-Channel (Stereo),21.8W x 2 @ 8 Ohm,10 V ~ 26 V,Differential Inputs   Mute   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),48-HTQFP (7x7),48-TQFP Exposed Pad
+Class D,1-Channel (Mono),40W x 1 @ 8 Ohm,10 V ~ 26 V,Differential Inputs   Mute   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),32-HLQFP (7x7),32-LQFP Exposed Pad
+Class D,1-Channel (Mono),10W x 1 @ 8 Ohm,8 V ~ 26 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),28-HTSSOP,28-TSSOP (0.173"   4.40mm Width) Exposed Pad
+Class D,2-Channel (Stereo),15W x 2 @ 8 Ohm,8 V ~ 26 V,Depop   Differential Inputs   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),32-VQFN (5x5),32-VFQFN Exposed Pad
+Class AB,Headphones   2-Channel (Stereo),80mW x 2 @ 600 Ohm,10 V ~ 30 V   ±5 V ~ 15 V,Differential Inputs   Short-Circuit and Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),20-SO PowerPad,20-SOIC (0.295"   7.50mm Width) Exposed Pad
+Class AB,1-Channel (Mono),700mW x 1 @ 8 Ohm,2.5 V ~ 5.5 V,Depop   Short-Circuit and Thermal Protection   Shutdown,Surface Mount,-40°C ~ 85°C (TA),8-MSOP-PowerPad,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad
+Class AB,Headphones   2-Channel (Stereo),158mW x 2 @ 16 Ohm,2.2 V ~ 5.5 V,Depop   Standby,Surface Mount,-40°C ~ 85°C (TA),10-DFN (3x3),10-VFDFN Exposed Pad
+Class AB,1-Channel (Mono),1.2W x 1 @ 8 Ohm,2.2 V ~ 5.5 V,Depop   Differential Inputs   Standby   Thermal Protection,Surface Mount,-40°C ~ 85°C (TA),8-MiniSO,8-TSSOP   8-MSOP (0.118"   3.00mm Width)

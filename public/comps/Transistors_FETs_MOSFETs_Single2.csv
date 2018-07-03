@@ -1,0 +1,376 @@
+N-Channel,MOSFET (Metal Oxide),100V,5A (Ta)   32A (Tc),4.5V   10V,2.7V @ 250µA,44nC @ 10V,±20V,2000pF @ 50V,-,2.5W (Ta)   100W (Tc),37 mOhm @ 10A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252   (D-Pak),TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,500mA (Ta),10V,3V @ 1mA,-,±20V,40pF @ 10V,-,830mW (Ta),5 Ohm @ 200mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads)
+N-Channel,MOSFET (Metal Oxide),60V,1.8A (Ta),4.5V   10V,1.8V @ 400µA,17nC @ 10V,±20V,368pF @ 25V,-,1.8W (Ta),300 mOhm @ 1.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),20V,13.5A (Ta),1.8V   4.5V,1.5V @ 250µA,120nC @ 4.5V,±8V,8237pF @ 10V,-,2.5W (Ta),8.5 mOhm @ 13.5A   4.5V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,2A (Ta),4.5V   10V,3V @ 250µA,9nC @ 10V,±20V,298pF @ 15V,-,500mW (Ta),80 mOhm @ 2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,50A (Tc),10V,4V @ 250µA,41nC @ 10V,±25V,1540pF @ 25V,-,120W (Tc),22 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),75V,82A (Tc),10V,4V @ 250µA,160nC @ 10V,±20V,3820pF @ 25V,-,230W (Tc),13 mOhm @ 43A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),500V,20A (Tc),10V,4V @ 250µA,105nC @ 10V,±30V,3100pF @ 25V,-,280W (Tc),270 mOhm @ 12A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+P-Channel,MOSFET (Metal Oxide),20V,3.7A (Ta),2.5V   4.5V,1.2V @ 250µA,12nC @ 5V,±12V,633pF @ 10V,-,1.3W (Ta),65 mOhm @ 3.7A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,500mA (Ta),10V,3V @ 1mA,-,±20V,60pF @ 10V,-,225mW (Ta),5 Ohm @ 200mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),650V,3.2A (Tc),10V,3.9V @ 135µA,17nC @ 10V,±20V,400pF @ 25V,-,38W (Tc),1.4 Ohm @ 2A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TO252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),100V,120A (Tc),10V,4.5V @ 250µA,210nC @ 10V,±20V,15265pF @ 25V,-,375W (Tc),4.7 mOhm @ 75A   10V,-55°C ~ 175°C (TJ),Surface Mount,D²PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),150V,8A (Ta)   79A (Tc),6V   10V,4V @ 250µA,107nC @ 10V,±20V,5870pF @ 25V,-,310W (Tc),16 mOhm @ 33A   10V,-55°C ~ 175°C (TJ),Surface Mount,D²PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),200V,62A (Tc),10V,5V @ 250µA,99nC @ 10V,±30V,7230pF @ 25V,-,260W (Tc),27 mOhm @ 31A   10V,-55°C ~ 150°C (TJ),Surface Mount,D²PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),150V,35A (Tc),10V,4V @ 250µA,36nC @ 10V,±20V,2040pF @ 25V,-,150W (Tc),42 mOhm @ 12A   10V,-55°C ~ 175°C (TJ),Surface Mount,D²PAK (TO-263),TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),60V,3A (Ta),4.5V   10V,3V @ 250µA,24nC @ 10V,±20V,759pF @ 30V,-,1.6W (Ta),105 mOhm @ 3A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT™-6,SOT-23-6 Thin   TSOT-23-6
+N-Channel,MOSFET (Metal Oxide),30V,5.5A (Ta),4.5V   10V,2V @ 250µA,21nC @ 4.5V,±12V,1460pF @ 15V,-,1.6W (Ta),26 mOhm @ 6.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT™-6,SOT-23-6 Thin   TSOT-23-6
+N-Channel,MOSFET (Metal Oxide),30V,21A (Ta),4.5V   10V,3V @ 250µA,7nC @ 5V,±20V,462pF @ 15V,-,28W (Ta),35 mOhm @ 7.6A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),30V,84A (Ta),4.5V   10V,3V @ 250µA,56nC @ 10V,±20V,3845pF @ 15V,-,83W (Ta),5 mOhm @ 18A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-PAK (TO-252),TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),30V,13A (Ta)   58A (Tc),4.5V   10V,2.5V @ 250µA,31nC @ 10V,±20V,1260pF @ 15V,-,55W (Tc),9 mOhm @ 35A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),30V,17A (Ta)   94A (Tc),4.5V   10V,2.5V @ 250µA,60nC @ 10V,±20V,2525pF @ 15V,-,80W (Tc),5.7 mOhm @ 35A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),30V,8.5A (Ta)   18A (Tc),4.5V   10V,3V @ 250µA,46nC @ 10V,±25V,2045pF @ 15V,-,2.3W (Ta)   31W (Tc),20 mOhm @ 8.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-MLP (3.3x3.3),8-PowerWDFN
+N-Channel,MOSFET (Metal Oxide),30V,14.8A (Ta)   18A (Tc),4.5V   10V,3V @ 1mA,42nC @ 10V,±20V,2520pF @ 15V,-,2.3W (Ta)   36W (Tc),6 mOhm @ 14.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-MLP (3.3x3.3),8-PowerWDFN
+P-Channel,MOSFET (Metal Oxide),20V,2.4A (Ta),2.5V   4.5V,1.5V @ 250µA,14nC @ 4.5V,±12V,882pF @ 10V,-,500mW (Ta),55 mOhm @ 2.4A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),12V,2.6A (Ta),1.8V   4.5V,1.5V @ 250µA,17nC @ 4.5V,±8V,1138pF @ 6V,-,500mW (Ta),40 mOhm @ 2.6A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),20V,2A (Ta),1.8V   4.5V,1.5V @ 250µA,6.3nC @ 4.5V,±8V,423pF @ 10V,-,500mW (Ta),70 mOhm @ 2A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),20V,1.3A (Ta),2.5V   4.5V,1.5V @ 250µA,5nC @ 4.5V,±8V,330pF @ 10V,-,500mW (Ta),200 mOhm @ 1.3A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,2.2A (Ta),2.5V   4.5V,1V @ 250µA,9nC @ 4.5V,±8V,300pF @ 10V,-,500mW (Ta),65 mOhm @ 2.2A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),20V,1.6A (Ta),2.5V   4.5V,1.5V @ 250µA,6.2nC @ 4.5V,±8V,451pF @ 10V,-,500mW (Ta),115 mOhm @ 1.6A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,1.9A (Ta),4.5V   10V,2V @ 250µA,5.9nC @ 5V,±20V,235pF @ 10V,-,500mW (Ta),60 mOhm @ 2.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,1.5A (Ta),4.5V   10V,3V @ 250µA,5.6nC @ 10V,±20V,182pF @ 15V,-,500mW (Ta),125 mOhm @ 1.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,1.4A (Ta),4.5V   10V,3V @ 250µA,1.8nC @ 4.5V,±20V,193pF @ 15V,-,500mW (Ta),110 mOhm @ 1.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),150V,1.6A (Ta),6V   10V,4V @ 250µA,5nC @ 10V,±20V,225pF @ 75V,-,1.5W (Ta),261 mOhm @ 1.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),500V,20A (Tc),10V,5V @ 250µA,59.5nC @ 10V,±30V,3120pF @ 25V,-,38.5W (Tc),230 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220F,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),250V,33A (Tc),10V,5V @ 250µA,48nC @ 10V,±30V,2135pF @ 25V,-,37W (Tc),94 mOhm @ 16.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220F,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),150V,4.1A (Ta),6V   10V,4V @ 250µA,25nC @ 10V,±20V,1290pF @ 25V,-,2.5W (Ta),66 mOhm @ 4.1A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,8.8A (Ta),4.5V   10V,3V @ 250µA,40nC @ 10V,±25V,1845pF @ 15V,-,2.5W (Ta),20 mOhm @ 8.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,8.8A (Ta),4.5V   10V,3V @ 250µA,40nC @ 10V,±25V,1845pF @ 15V,-,2.5W (Ta),20 mOhm @ 8.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),40V,12.5A (Ta),10V,5V @ 250µA,63nC @ 10V,+30V   -20V,2659pF @ 20V,-,2.5W (Ta),9 mOhm @ 12.5A   10V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),60V,10A (Ta),6V   10V,4V @ 250µA,70nC @ 10V,±20V,2900pF @ 15V,-,2.5W (Ta),14 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,13A (Ta),4.5V   10V,3V @ 250µA,14nC @ 5V,±20V,1205pF @ 15V,-,3W (Ta),11.3 mOhm @ 13A   10V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),20V,8A (Ta),2.5V   4.5V,1.5V @ 250µA,36nC @ 4.5V,±8V,2694pF @ 10V,-,2.5W (Ta),24 mOhm @ 8A   4.5V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,8.4A (Ta),4.5V   10V,3V @ 250µA,7.6nC @ 5V,±20V,560pF @ 15V,-,2.5W (Ta),22 mOhm @ 8.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,14.5A (Ta),4.5V   10V,3V @ 1mA,63nC @ 10V,±20V,2510pF @ 15V,-,2.5W (Ta),6 mOhm @ 14.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,13A (Ta),4.5V   10V,3V @ 250µA,96nC @ 10V,±25V,3845pF @ 15V,-,2.5W (Ta),9.3 mOhm @ 13A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,12.5A (Ta),4.5V   10V,3V @ 250µA,23nC @ 5V,±20V,1620pF @ 15V,-,2.5W (Ta),9.5 mOhm @ 12.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,12.5A (Ta),4.5V   10V,3V @ 250µA,23nC @ 5V,±20V,1620pF @ 15V,-,2.5W (Ta),9.5 mOhm @ 12.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,20A (Ta),4.5V   10V,3V @ 250µA,260nC @ 10V,±25V,7540pF @ 15V,-,2.5W (Ta),4.6 mOhm @ 20A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,10A (Ta),4.5V   10V,3V @ 1mA,23nC @ 10V,±20V,910pF @ 15V,-,2.5W (Ta),12 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,20A (Ta),4.5V   10V,3V @ 250µA,126nC @ 10V,±20V,6925pF @ 15V,-,2.5W (Ta),4 mOhm @ 20A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,11.6A (Ta),4.5V   10V,2.5V @ 250µA,30nC @ 10V,±20V,1235pF @ 15V,-,2.5W (Ta),10 mOhm @ 11.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,5.3A (Ta),4.5V   10V,3V @ 250µA,14nC @ 10V,±25V,528pF @ 15V,-,2.5W (Ta),50 mOhm @ 5.3A   10V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),150V,1.2A (Ta)   3A (Tc),6V   10V,4V @ 250µA,2nC @ 10V,±20V,73pF @ 75V,-,2.3W (Ta)   10W (Tc),845 mOhm @ 1.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),25V,220mA (Ta),2.7V   4.5V,1.06V @ 250µA,0.7nC @ 4.5V,±8V,9.5pF @ 10V,-,350mW (Ta),4 Ohm @ 400mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),25V,120mA (Ta),2.7V   4.5V,1.5V @ 250µA,0.31nC @ 4.5V,±8V,11pF @ 10V,-,350mW (Ta),10 Ohm @ 200mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),25V,680mA (Ta),2.7V   4.5V,1.5V @ 250µA,2.3nC @ 4.5V,±8V,50pF @ 10V,-,350mW (Ta),450 mOhm @ 500mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),500V,24A (Tc),10V,5V @ 250µA,120nC @ 10V,±30V,4500pF @ 25V,-,290W (Tc),200 mOhm @ 12A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-3PN,TO-3P-3   SC-65-3
+N-Channel,MOSFET (Metal Oxide),900V,9A (Tc),10V,5V @ 250µA,58nC @ 10V,±30V,2730pF @ 25V,-,280W (Tc),1.4 Ohm @ 4.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-3PN,TO-3P-3   SC-65-3
+N-Channel,MOSFET (Metal Oxide),60V,11A (Tc),5V   10V,2.5V @ 250µA,6.4nC @ 5V,±20V,350pF @ 25V,-,2.5W (Ta)   28W (Tc),115 mOhm @ 5.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),800V,1A (Tc),10V,5V @ 250µA,7.2nC @ 10V,±30V,195pF @ 25V,-,2.5W (Ta)   45W (Tc),20 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),1000V,1.6A (Tc),10V,5V @ 250µA,15.5nC @ 10V,±30V,520pF @ 25V,-,2.5W (Ta)   50W (Tc),9 Ohm @ 800mA   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),800V,1.8A (Tc),10V,5V @ 250µA,15nC @ 10V,±30V,550pF @ 25V,-,2.5W (Ta)   50W (Tc),6.3 Ohm @ 900mA   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),400V,1.56A (Tc),10V,5V @ 250µA,13nC @ 10V,±30V,350pF @ 25V,-,2.5W (Ta)   38W (Tc),6.5 Ohm @ 780mA   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),500V,2.1A (Tc),10V,5V @ 250µA,23nC @ 10V,±30V,660pF @ 25V,-,2.5W (Ta)   50W (Tc),4.9 Ohm @ 1.05A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),200V,3.7A (Tc),10V,5V @ 250µA,13nC @ 10V,±30V,430pF @ 25V,-,2.5W (Ta)   45W (Tc),1.4 Ohm @ 1.85A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),500V,40A (Tc),10V,5V @ 250µA,200nC @ 10V,±30V,7500pF @ 25V,-,460W (Tc),110 mOhm @ 20A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-264,TO-264-3   TO-264AA
+N-Channel,MOSFET (Metal Oxide),200V,19A (Tc),10V,4V @ 250µA,53nC @ 10V,±30V,1080pF @ 25V,-,139W (Tc),170 mOhm @ 9.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),600V,12A (Tc),10V,4V @ 250µA,63nC @ 10V,±30V,2290pF @ 25V,-,51W (Tc),650 mOhm @ 6A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220F,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),500V,13A (Tc),10V,4V @ 250µA,56nC @ 10V,±30V,2055pF @ 25V,-,48W (Tc),540 mOhm @ 6.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220F,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),900V,4A (Tc),10V,5V @ 250µA,22nC @ 10V,±30V,960pF @ 25V,-,47W (Tc),4.2 Ohm @ 2A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220F,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),100V,56A (Tc),10V,4V @ 250µA,130nC @ 20V,±20V,2000pF @ 25V,-,200W (Tc),25 mOhm @ 56A   10V,-55°C ~ 175°C (TJ),Surface Mount,D²PAK (TO-263AB),TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,20A (Tc),4.5V   10V,3V @ 250µA,46nC @ 10V,±16V,1285pF @ 25V,-,110W (Tc),52 mOhm @ 20A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),100V,20A (Tc),4.5V   10V,3V @ 250µA,46nC @ 10V,±16V,1285pF @ 25V,-,110W (Tc),52 mOhm @ 20A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),500V,6.3A (Tc),13V,3.5V @ 260µA,24.8nC @ 10V,±20V,584pF @ 100V,-,29.2W (Tc),380 mOhm @ 3.2A   13V,-40°C ~ 150°C (TJ),Through Hole,TO-220 Full Pack,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),800V,5.7A (Tc),10V,3.9V @ 250µA,31nC @ 10V,±20V,785pF @ 100V,-,32W (Tc),950 mOhm @ 3.6A   10V,-40°C ~ 150°C (TJ),Through Hole,PG-TO220-FP,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),120V,180A (Tc),10V,4V @ 270µA,211nC @ 10V,±20V,13800pF @ 60V,-,300W (Tc),3.6 mOhm @ 100A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-TO263-7,TO-263-7   D²Pak (6 Leads + Tab)   TO-263CB
+N-Channel,MOSFET (Metal Oxide),600V,31A (Tc),10V,3.5V @ 1.2mA,80nC @ 10V,±20V,2800pF @ 100V,-,255W (Tc),99 mOhm @ 18A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TO263-3-2,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),60V,90A (Tc),10V,4V @ 90µA,98nC @ 10V,±20V,8000pF @ 30V,-,188W (Tc),3.8 mOhm @ 90A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-TO252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),25V,50A (Tc),4.5V   10V,2V @ 40µA,22nC @ 5V,±20V,2653pF @ 15V,-,83W (Tc),5.7 mOhm @ 30A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-TO252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),25V,50A (Tc),4.5V   10V,2V @ 20µA,13nC @ 5V,±20V,1642pF @ 15V,-,63W (Tc),8.6 mOhm @ 30A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-TO252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,18A (Tc),4.5V   10V,2V @ 16µA,13nC @ 10V,±20V,470pF @ 30V,-,47W (Tc),64 mOhm @ 18A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-TO252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),150V,100A (Tc),8V   10V,4V @ 270µA,93nC @ 10V,±20V,5470pF @ 75V,-,300W (Tc),7.5 mOhm @ 100A   10V,-55°C ~ 175°C (TJ),Through Hole,PG-TO262-3,TO-262-3 Long Leads   I²Pak   TO-262AA
+N-Channel,MOSFET (Metal Oxide),40V,300A (Tc),10V,4V @ 125µA,151nC @ 10V,±20V,12090pF @ 25V,-,300W (Tc),1.15 mOhm @ 100A   10V,-55°C ~ 175°C (TJ),Surface Mount,PG-HSOF-8-1,8-PowerSFN
+N-Channel,MOSFET (Metal Oxide),700V,43.3A (Tc),10V,4.5V @ 1.76mA,170nC @ 10V,±20V,5030pF @ 100V,-,391W (Tc),80 mOhm @ 17.6A   10V,-55°C ~ 150°C (TJ),Through Hole,PG-TO247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),100V,42A (Tc),10V,4V @ 250µA,110nC @ 10V,±20V,1900pF @ 25V,-,3.8W (Ta)   160W (Tc),36 mOhm @ 22A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),75V,100A (Tc),10V,4V @ 250µA,250nC @ 10V,±20V,5600pF @ 25V,-,3.8W (Ta)   200W (Tc),7.8 mOhm @ 78A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),30V,75A (Tc),10V,4V @ 250µA,200nC @ 10V,±20V,5730pF @ 25V,-,330W (Tc),3.3 mOhm @ 140A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),40V,195A (Tc),10V,4V @ 250µA,240nC @ 10V,±20V,6450pF @ 25V,-,300W (Tc),2 mOhm @ 75A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-262,TO-262-3 Long Leads   I²Pak   TO-262AA
+N-Channel,MOSFET (Metal Oxide),40V,160A (Tc),10V,4V @ 250µA,260nC @ 10V,±20V,6930pF @ 25V,-,330W (Tc),1.6 mOhm @ 160A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK (7-Lead),TO-263-7   D²Pak (6 Leads + Tab)   TO-263CB
+N-Channel,MOSFET (Metal Oxide),75V,82A (Tc),10V,4V @ 250µA,160nC @ 10V,±20V,3820pF @ 25V,-,230W (Tc),13 mOhm @ 43A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),75V,160A (Tc),10V,4V @ 250µA,270nC @ 10V,±20V,7500pF @ 25V,-,300W (Tc),4.5 mOhm @ 75A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),75V,160A (Tc),10V,4V @ 250µA,270nC @ 10V,±20V,7500pF @ 25V,-,300W (Tc),4.5 mOhm @ 75A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),55V,110A (Tc),10V,4V @ 250µA,146nC @ 10V,±20V,3247pF @ 25V,-,200W (Tc),8 mOhm @ 62A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),150V,43A (Tc),10V,4V @ 250µA,200nC @ 10V,±20V,2400pF @ 25V,-,200W (Tc),42 mOhm @ 22A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),20V,77A (Tc),4.5V   10V,3V @ 250µA,19nC @ 4.5V,±20V,1996pF @ 10V,-,87W (Tc),9 mOhm @ 15A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,57A (Tc),10V,4V @ 250µA,130nC @ 10V,±20V,3130pF @ 25V,-,200W (Tc),23 mOhm @ 28A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),75V,140A (Tc),10V,4V @ 250µA,220nC @ 10V,±20V,5310pF @ 25V,-,330W (Tc),7 mOhm @ 82A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+P-Channel,MOSFET (Metal Oxide),55V,42A (Tc),10V,4V @ 250µA,180nC @ 10V,±20V,3500pF @ 25V,-,170W (Tc),20 mOhm @ 42A   10V,-55°C ~ 150°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,5.6A (Tc),10V,4V @ 250µA,8.3nC @ 10V,±20V,180pF @ 25V,-,43W (Tc),540 mOhm @ 3.4A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+P-Channel,MOSFET (Metal Oxide),100V,38A (Tc),10V,4V @ 250µA,230nC @ 10V,±20V,2780pF @ 25V,-,3.1W (Ta)   170W (Tc),60 mOhm @ 38A   10V,-55°C ~ 150°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),55V,31A (Tc),10V,4V @ 250µA,63nC @ 10V,±20V,1200pF @ 25V,-,3.8W (Ta)   110W (Tc),60 mOhm @ 16A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),55V,31A (Tc),10V,4V @ 250µA,63nC @ 10V,±20V,1200pF @ 25V,-,3.8W (Ta)   110W (Tc),60 mOhm @ 16A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,17A (Tc),10V,4V @ 250µA,37nC @ 10V,±20V,920pF @ 25V,-,3.8W (Ta)   70W (Tc),90 mOhm @ 9A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,33A (Tc),10V,4V @ 250µA,71nC @ 10V,±20V,1960pF @ 25V,-,130W (Tc),44 mOhm @ 16A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),200V,600mA (Ta),10V,5.5V @ 250µA,3.9nC @ 10V,±30V,88pF @ 25V,-,2W (Ta),2.2 Ohm @ 360mA   10V,-55°C ~ 150°C (TJ),Surface Mount,Micro6™(TSOP-6),SOT-23-6 Thin   TSOT-23-6
+P-Channel,MOSFET (Metal Oxide),150V,13A (Tc),10V,4V @ 250µA,66nC @ 10V,±20V,860pF @ 25V,-,110W (Tc),290 mOhm @ 6.6A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),200V,9.3A (Tc),10V,4V @ 250µA,35nC @ 10V,±20V,575pF @ 25V,-,82W (Tc),300 mOhm @ 5.4A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),12V,16A (Ta),2.5V   4.5V,600mV @ 500µA,212nC @ 5V,±12V,17179pF @ 10V,-,2.5W (Ta),7 mOhm @ 16A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),20V,8.7A (Ta),2.7V   4.5V,700mV @ 250µA,48nC @ 4.5V,±12V,1600pF @ 15V,-,2.5W (Ta),22 mOhm @ 4.1A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,8.5A (Ta),4.5V   10V,1V @ 250µA,57nC @ 10V,±20V,1200pF @ 25V,-,2.5W (Ta),22 mOhm @ 4A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,5.8A (Ta),4.5V   10V,1V @ 250µA,59nC @ 10V,±20V,1100pF @ 25V,-,2.5W (Ta),45 mOhm @ 2.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),400V,10A (Tc),10V,4V @ 250µA,39nC @ 10V,±30V,1100pF @ 25V,-,125W (Tc),550 mOhm @ 6A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),30V,13A (Ta),4.5V   10V,3V @ 250µA,79nC @ 10V,±20V,1800pF @ 25V,-,2.5W (Ta),11 mOhm @ 7.3A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),20V,4.3A (Ta),2.7V   4.5V,700mV @ 250µA,22nC @ 4.5V,±12V,610pF @ 15V,Schottky Diode (Isolated),2W (Ta),90 mOhm @ 2.2A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,15A (Ta),2.8V   10V,2V @ 250µA,56nC @ 5V,±12V,3480pF @ 25V,-,2.5W (Ta),7.5 mOhm @ 15A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),40V,9.4A (Ta),4.5V   10V,2V @ 250µA,34nC @ 4.5V,±12V,2460pF @ 20V,-,2.5W (Ta),15.5 mOhm @ 9.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),100V,6.9A (Ta),10V,5.5V @ 250µA,61nC @ 10V,±20V,3180pF @ 25V,-,2.5W (Ta),26 mOhm @ 4.1A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),60V,7A (Ta),4.5V   10V,3V @ 250µA,31nC @ 4.5V,±20V,1740pF @ 25V,-,2.5W (Ta),26 mOhm @ 4.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),40V,135A (Tc),6V   10V,3.9V @ 100µA,81nC @ 10V,±20V,3913pF @ 25V,-,74W (Tc),2.3 mOhm @ 81A   10V,-55°C ~ 150°C (TJ),Surface Mount,DirectFET™ Isometric MF,DirectFET™ Isometric MF
+N-Channel,MOSFET (Metal Oxide),30V,13.3A (Ta),4.5V,1V @ 250µA,62nC @ 5V,±12V,3780pF @ 16V,-,2.5W (Ta),9 mOhm @ 15A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,10.8A (Ta),4.5V,3V @ 250µA,26nC @ 5V,±20V,1801pF @ 10V,-,2.5W (Ta),14 mOhm @ 15A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,11A (Ta),4.5V   10V,2.35V @ 25µA,9.3nC @ 4.5V,±20V,760pF @ 15V,-,2.5W (Ta),11.9 mOhm @ 11A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),100V,19A (Tc),10V,4V @ 250µA,61nC @ 10V,±20V,1400pF @ 25V,-,3.7W (Ta)   150W (Tc),200 mOhm @ 11A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),55V,19A (Tc),10V,4V @ 250µA,35nC @ 10V,±20V,620pF @ 25V,-,3.8W (Ta)   68W (Tc),100 mOhm @ 10A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-262,TO-262-3 Long Leads   I²Pak   TO-262AA
+N-Channel,MOSFET (Metal Oxide),500V,17A (Tc),10V,5V @ 250µA,89nC @ 10V,±30V,2210pF @ 25V,-,280W (Tc),350 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),500V,16A (Tc),10V,5V @ 250µA,130nC @ 10V,±30V,2760pF @ 25V,-,220W (Tc),320 mOhm @ 9.9A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),100V,97A (Tc),10V,4V @ 150µA,120nC @ 10V,±20V,4820pF @ 50V,-,230W (Tc),9 mOhm @ 58A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),100V,73A (Tc),10V,4V @ 100µA,140nC @ 10V,±20V,3550pF @ 50V,-,190W (Tc),14 mOhm @ 44A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),600V,9.2A (Tc),10V,4V @ 250µA,49nC @ 10V,±30V,1400pF @ 25V,-,170W (Tc),750 mOhm @ 5.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),600V,3.6A (Tc),10V,4V @ 250µA,31nC @ 10V,±20V,660pF @ 25V,-,74W (Tc),2.2 Ohm @ 2.2A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),100V,1A (Ta),10V,4V @ 250µA,8.3nC @ 10V,±20V,180pF @ 25V,-,1.3W (Ta),540 mOhm @ 600mA   10V,-55°C ~ 175°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+N-Channel,MOSFET (Metal Oxide),200V,600mA (Ta),10V,4V @ 250µA,8.2nC @ 10V,±20V,140pF @ 25V,-,1W (Ta),1.5 Ohm @ 360mA   10V,-55°C ~ 150°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+N-Channel,MOSFET (Metal Oxide),400V,490mA (Ta),10V,4V @ 250µA,20nC @ 10V,±20V,410pF @ 25V,-,1W (Ta),1.8 Ohm @ 210mA   10V,-55°C ~ 150°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+P-Channel,MOSFET (Metal Oxide),60V,1.1A (Ta),10V,4V @ 250µA,12nC @ 10V,±20V,270pF @ 25V,-,1.3W (Ta),500 mOhm @ 660mA   10V,-55°C ~ 175°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+P-Channel,MOSFET (Metal Oxide),100V,700mA (Ta),10V,4V @ 250µA,8.7nC @ 10V,±20V,200pF @ 25V,-,1.3W (Ta),1.2 Ohm @ 420mA   10V,-55°C ~ 175°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+P-Channel,MOSFET (Metal Oxide),200V,400mA (Ta),10V,4V @ 250µA,8.9nC @ 10V,±20V,170pF @ 25V,-,1W (Ta),3 Ohm @ 240mA   10V,-55°C ~ 150°C (TJ),Through Hole,4-DIP   Hexdip   HVMDIP,4-DIP (0.300"   7.62mm)
+N-Channel,MOSFET (Metal Oxide),100V,12A (Tc),10V,4V @ 250µA,44nC @ 10V,±20V,640pF @ 25V,-,41W (Tc),110 mOhm @ 6.6A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB Full-Pak,TO-220-3 Full Pack
+N-Channel,MOSFET (Metal Oxide),400V,5.4A (Tc),10V,4V @ 250µA,66nC @ 10V,±20V,1370pF @ 25V,-,40W (Tc),550 mOhm @ 3.2A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220-3 Full Pack   Isolated Tab
+N-Channel,MOSFET (Metal Oxide),500V,4.5A (Tc),10V,4V @ 250µA,39nC @ 10V,±30V,1100pF @ 25V,-,40W (Tc),850 mOhm @ 2.7A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220-3 Full Pack   Isolated Tab
+N-Channel,MOSFET (Metal Oxide),500V,4.5A (Tc),10V,4V @ 250µA,39nC @ 10V,±30V,1100pF @ 25V,-,40W (Tc),850 mOhm @ 2.7A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220-3 Full Pack   Isolated Tab
+N-Channel,MOSFET (Metal Oxide),55V,1.9A (Ta),10V,4V @ 250µA,11nC @ 10V,±20V,190pF @ 25V,-,1W (Ta),160 mOhm @ 1.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),200V,960mA (Tc),10V,4V @ 250µA,8.2nC @ 10V,±20V,140pF @ 25V,-,2W (Ta)   3.1W (Tc),1.5 Ohm @ 580mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),60V,1.8A (Tc),10V,4V @ 250µA,12nC @ 10V,±20V,270pF @ 25V,-,2W (Ta)   3.1W (Tc),500 mOhm @ 1.1A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),55V,81A (Tc),10V,4V @ 250µA,130nC @ 10V,±20V,2900pF @ 25V,-,170W (Tc),12 mOhm @ 43A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-247AC,TO-247-3
+N-Channel,MOSFET (Metal Oxide),60V,70A (Tc),10V,4V @ 250µA,190nC @ 10V,±20V,7400pF @ 25V,-,300W (Tc),9 mOhm @ 78A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),55V,95A (Tc),10V,4V @ 250µA,180nC @ 10V,±20V,5600pF @ 25V,-,310W (Tc),5.3 mOhm @ 95A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-247AC,TO-247-3
+N-Channel,MOSFET (Metal Oxide),200V,20A (Tc),10V,4V @ 250µA,70nC @ 10V,±20V,1300pF @ 25V,-,150W (Tc),180 mOhm @ 12A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),250V,38A (Tc),10V,4V @ 250µA,210nC @ 10V,±20V,5400pF @ 25V,-,280W (Tc),75 mOhm @ 23A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),400V,23A (Tc),10V,4V @ 250µA,210nC @ 10V,±20V,4500pF @ 25V,-,280W (Tc),200 mOhm @ 14A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+P-Channel,MOSFET (Metal Oxide),200V,12A (Tc),10V,4V @ 250µA,44nC @ 10V,±20V,1200pF @ 25V,-,150W (Tc),500 mOhm @ 7.2A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),800V,7.8A (Tc),10V,4V @ 250µA,200nC @ 10V,±20V,3100pF @ 25V,-,190W (Tc),1.2 Ohm @ 4.7A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),1000V,4.3A (Tc),10V,4V @ 250µA,120nC @ 10V,±20V,1600pF @ 25V,-,150W (Tc),3.5 Ohm @ 2.6A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),500V,36A (Tc),10V,4V @ 250µA,180nC @ 10V,±30V,5579pF @ 25V,-,446W (Tc),130 mOhm @ 22A   10V,-55°C ~ 150°C (TJ),Through Hole,SUPER-247 (TO-274AA),TO-274AA
+N-Channel,MOSFET (Metal Oxide),500V,46A (Tc),10V,5V @ 250µA,380nC @ 10V,±30V,8110pF @ 25V,-,540W (Tc),100 mOhm @ 28A   10V,-55°C ~ 150°C (TJ),Through Hole,SUPER-247 (TO-274AA),TO-274AA
+N-Channel,MOSFET (Metal Oxide),100V,9.4A (Tc),10V,4V @ 250µA,25nC @ 10V,±20V,330pF @ 25V,-,48W (Tc),210 mOhm @ 5.6A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),100V,9.4A (Tc),10V,4V @ 250µA,25nC @ 10V,±20V,330pF @ 25V,-,48W (Tc),210 mOhm @ 5.6A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),200V,5A (Tc),10V,4V @ 250µA,23nC @ 10V,±20V,300pF @ 25V,-,43W (Tc),600 mOhm @ 2.9A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),400V,1.7A (Tc),10V,4V @ 250µA,12nC @ 10V,±20V,170pF @ 25V,-,2.5W (Ta)   25W (Tc),3.6 Ohm @ 1A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),400V,3.1A (Tc),10V,4V @ 250µA,20nC @ 10V,±20V,350pF @ 25V,-,2.5W (Ta)   42W (Tc),1.8 Ohm @ 1.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),40V,42A (Tc),10V,4V @ 250µA,89nC @ 10V,±20V,2950pF @ 25V,-,140W (Tc),5.5 mOhm @ 42A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),55V,30A (Tc),10V,4V @ 250µA,27nC @ 10V,±20V,740pF @ 25V,-,48W (Tc),24.5 mOhm @ 18A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),500V,2.4A (Tc),10V,4V @ 250µA,19nC @ 10V,±20V,360pF @ 25V,-,2.5W (Ta)   42W (Tc),3 Ohm @ 1.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),500V,5A (Tc),10V,4.5V @ 250µA,24nC @ 10V,±30V,490pF @ 25V,-,110W (Tc),1.7 Ohm @ 3A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),55V,31A (Tc),10V,4V @ 250µA,63nC @ 10V,±20V,1200pF @ 25V,-,110W (Tc),65 mOhm @ 16A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),55V,11A (Tc),10V,4V @ 250µA,19nC @ 10V,±20V,350pF @ 25V,-,38W (Tc),175 mOhm @ 6.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),60V,8.8A (Tc),10V,4V @ 250µA,19nC @ 10V,±20V,570pF @ 25V,-,2.5W (Ta)   42W (Tc),280 mOhm @ 5.3A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),100V,6.6A (Tc),10V,4V @ 250µA,27nC @ 10V,±20V,350pF @ 25V,-,40W (Tc),480 mOhm @ 3.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),600V,2A (Tc),10V,4V @ 250µA,18nC @ 10V,±20V,350pF @ 25V,-,2.5W (Ta)   42W (Tc),4.4 Ohm @ 1.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),75V,120A (Tc),10V,4V @ 150µA,180nC @ 10V,±20V,5150pF @ 50V,-,200W (Tc),6.3 mOhm @ 75A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),150V,85A (Tc),10V,5V @ 250µA,110nC @ 10V,±30V,4460pF @ 25V,-,350W (Tc),15 mOhm @ 33A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),60V,240A (Tc),6V   10V,3.7V @ 250µA,354nC @ 10V,±20V,12960pF @ 25V,-,375W (Tc),1.4 mOhm @ 100A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK (7-Lead),TO-263-7   D²Pak (6 Leads + Tab)
+N-Channel,MOSFET (Metal Oxide),600V,9.2A (Tc),10V,4V @ 250µA,49nC @ 10V,±30V,1400pF @ 25V,-,170W (Tc),750 mOhm @ 5.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),55V,31A (Tc),10V,4V @ 250µA,63nC @ 10V,±20V,1200pF @ 25V,-,110W (Tc),65 mOhm @ 16A   10V,-55°C ~ 175°C (TJ),Through Hole,IPAK (TO-251),TO-251-3 Short Leads   IPak   TO-251AA
+P-Channel,MOSFET (Metal Oxide),60V,5.1A (Tc),10V,4V @ 250µA,12nC @ 10V,±20V,270pF @ 25V,-,2.5W (Ta)   25W (Tc),500 mOhm @ 3.1A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-251AA,TO-251-3 Short Leads   IPak   TO-251AA
+N-Channel,MOSFET (Metal Oxide),55V,49A (Tc),10V,4V @ 250µA,63nC @ 10V,±20V,1470pF @ 25V,-,3.8W (Ta)   94W (Tc),17.5 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-262,TO-262-3 Long Leads   I²Pak   TO-262AA
+N-Channel,MOSFET (Metal Oxide),60V,55A (Tc),10V,4V @ 250µA,67nC @ 10V,±20V,1812pF @ 25V,-,115W (Tc),16.5 mOhm @ 31A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),55V,53A (Tc),10V,4V @ 250µA,72nC @ 10V,±20V,1696pF @ 25V,-,3.8W (Ta)   107W (Tc),16.5 mOhm @ 28A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),30V,116A (Tc),4.5V   10V,1V @ 250µA,60nC @ 4.5V,±16V,3290pF @ 25V,-,180W (Tc),7 mOhm @ 60A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),30V,64A (Tc),4.5V   10V,1V @ 250µA,33nC @ 4.5V,±16V,1650pF @ 25V,-,94W (Tc),12 mOhm @ 34A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),55V,89A (Tc),4V   10V,2V @ 250µA,98nC @ 5V,±16V,3600pF @ 25V,-,170W (Tc),10 mOhm @ 46A   10V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),30V,260A (Tc),4.5V   10V,2.5V @ 250µA,110nC @ 4.5V,±20V,5890pF @ 15V,-,330W (Tc),3 mOhm @ 38A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,5.6A (Tc),4V   5V,2V @ 250µA,6.1nC @ 5V,±10V,250pF @ 25V,-,43W (Tc),540 mOhm @ 3.4A   5V,-55°C ~ 175°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),55V,2A (Ta),4V   10V,2V @ 250µA,14nC @ 10V,±16V,230pF @ 25V,-,1W (Ta),140 mOhm @ 2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),100V,1.5A (Tc),4V   5V,2V @ 250µA,6.1nC @ 5V,±10V,250pF @ 25V,-,2W (Ta)   3.1W (Tc),540 mOhm @ 900mA   5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),20V,4.3A (Ta),2.5V   4.5V,1.1V @ 10µA,6.9nC @ 4.5V,±12V,570pF @ 16V,-,1.3W (Ta),54 mOhm @ 4.3A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),20V,1.2A (Ta),2.7V   4.5V,700mV @ 250µA,3.9nC @ 4.5V,±12V,110pF @ 15V,-,540mW (Ta),250 mOhm @ 930mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),20V,4.2A (Ta),2.5V   4.5V,1.2V @ 250µA,12nC @ 5V,±12V,740pF @ 15V,-,1.25W (Ta),45 mOhm @ 4.2A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),20V,6.3A (Ta),2.5V   4.5V,1.1V @ 10µA,8.9nC @ 4.5V,±12V,700pF @ 16V,-,1.3W (Ta),21 mOhm @ 6.3A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),12V,4.3A (Ta),1.8V   4.5V,950mV @ 250µA,15nC @ 5V,±8V,830pF @ 10V,-,1.3W (Ta),50 mOhm @ 4.3A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,Micro3™/SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),55V,17A (Tc),4V   10V,2V @ 250µA,15nC @ 5V,±16V,480pF @ 25V,-,45W (Tc),65 mOhm @ 10A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),100V,10A (Tc),4V   10V,2V @ 250µA,20nC @ 5V,±16V,440pF @ 25V,-,48W (Tc),185 mOhm @ 6A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),55V,42A (Tc),4V   10V,2V @ 250µA,48nC @ 5V,±16V,1700pF @ 25V,-,110W (Tc),27 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),55V,30A (Tc),5V   10V,3V @ 250µA,92nC @ 10V,±16V,1870pF @ 25V,-,120W (Tc),14 mOhm @ 30A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),30V,161A (Tc),4.5V   10V,2.3V @ 250µA,50nC @ 4.5V,±20V,4380pF @ 15V,-,140W (Tc),3.3 mOhm @ 15A   10V,-55°C ~ 175°C (TJ),Surface Mount,D-Pak,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),55V,47A (Tc),4V   10V,2V @ 250µA,48nC @ 5V,±16V,1700pF @ 25V,-,3.8W (Ta)   110W (Tc),22 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),800V,13A (Tc),10V,4.5V @ 4mA,155nC @ 10V,±20V,4200pF @ 25V,-,300W (Tc),800 mOhm @ 500mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247AD (IXFH),TO-247-3
+N-Channel,MOSFET (Metal Oxide),800V,15A (Tc),10V,4.5V @ 4mA,90nC @ 10V,±20V,4300pF @ 25V,-,300W (Tc),600 mOhm @ 7.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247AD (IXFH),TO-247-3
+N-Channel,MOSFET (Metal Oxide),500V,26A (Tc),10V,5.5V @ 4mA,60nC @ 10V,±30V,3600pF @ 25V,-,400W (Tc),230 mOhm @ 13A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247AD (IXFH),TO-247-3
+N-Channel,MOSFET (Metal Oxide),500V,44A (Tc),10V,5V @ 4mA,98nC @ 10V,±30V,5440pF @ 25V,-,658W (Tc),140 mOhm @ 22A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-264AA (IXFK),TO-264-3   TO-264AA
+N-Channel,MOSFET (Metal Oxide),500V,48A (Tc),10V,4V @ 8mA,270nC @ 10V,±20V,8400pF @ 25V,-,500W (Tc),100 mOhm @ 24A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-264AA (IXFK),TO-264-3   TO-264AA
+N-Channel,MOSFET (Metal Oxide),1000V,24A (Tc),10V,5.5V @ 8mA,267nC @ 10V,±20V,8700pF @ 25V,-,568W (Tc),390 mOhm @ 12A   10V,-55°C ~ 150°C (TJ),Chassis Mount,SOT-227B,SOT-227-4   miniBLOC
+N-Channel,MOSFET (Metal Oxide),500V,32A (Tc),10V,4V @ 4mA,300nC @ 10V,±20V,5450pF @ 25V,-,360W (Tc),150 mOhm @ 15A   10V,-55°C ~ 150°C (TJ),Through Hole,PLUS247™-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),500V,30mA (Tj),0V,-,-,±20V,10pF @ 25V,Depletion Mode,740mW (Ta),1000 Ohm @ 500µA   0V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),60V,12A (Tc),5V,2V @ 250µA,10nC @ 5V,±20V,570pF @ 25V,-,3.9W (Ta)   48W (Tc),180 mOhm @ 6A   5V,-55°C ~ 175°C (TJ),Surface Mount,TO-252-3,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),500V,2A (Tc),10V,4V @ 250µA,27nC @ 10V,±20V,1183pF @ 25V,-,75W (Tc),6 Ohm @ 1A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220AB,TO-220-3
+N-Channel,MOSFET (Metal Oxide),30V,3.2A (Ta),4.5V   10V,3V @ 250µA,20nC @ 10V,20V,290pF @ 15V,-,1.6W (Ta),60 mOhm @ 4A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT™-6,SOT-23-6 Thin   TSOT-23-6
+N-Channel,MOSFET (Metal Oxide),60V,48A (Tc),5V   10V,2V @ 250µA,60nC @ 5V,±16V,2000pF @ 25V,-,100W (Tc),20 mOhm @ 24A   10V,-65°C ~ 175°C (TJ),Through Hole,TO-220,TO-220-3
+N-Channel,MOSFET (Metal Oxide),30V,1.7A (Ta),4.5V   10V,2V @ 250µA,5nC @ 5V,±20V,195pF @ 15V,-,500mW (Ta),85 mOhm @ 1.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,1.1A (Ta),4.5V   10V,2.5V @ 250µA,4.4nC @ 5V,±20V,280pF @ 10V,-,500mW (Ta),200 mOhm @ 1.3A   10V,-55°C ~ 150°C (TJ),Surface Mount,SuperSOT-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,280mA (Ta),5V   10V,2.5V @ 250µA,-,±20V,50pF @ 25V,-,300mW (Ta),2 Ohm @ 500mA   10V,-65°C ~ 150°C (TJ),Surface Mount,SOT-23 (TO-236AB),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),60V,3A (Ta),4.5V   10V,3V @ 250µA,22nC @ 10V,±20V,732pF @ 30V,-,2.5W (Ta),150 mOhm @ 3A   10V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),60V,2.5A (Ta),4.5V   10V,4V @ 250µA,15nC @ 10V,±20V,601pF @ 30V,-,3W (Ta),300 mOhm @ 2.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),30V,5A (Ta),4.5V   10V,2.8V @ 250µA,30nC @ 10V,±20V,690pF @ 15V,-,3W (Ta),65 mOhm @ 5A   10V,-65°C ~ 150°C (TJ),Surface Mount,SOT-223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),20V,760mA (Tj),1.8V   4.5V,450mV @ 250µA,2.1nC @ 4.5V,±6V,156pF @ 5V,-,301mW (Tj),360 mOhm @ 350mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SC-75   SOT-416,SC-75   SOT-416
+N-Channel,MOSFET (Metal Oxide),30V,154mA (Tj),2.5V   4.5V,1.5V @ 100µA,-,±10V,20pF @ 5V,-,300mW (Tj),7 Ohm @ 154mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SC-75   SOT-416,SC-75   SOT-416
+N-Channel,MOSFET (Metal Oxide),200V,30A (Ta),10V,4V @ 250µA,100nC @ 10V,±30V,2335pF @ 25V,-,2W (Ta)   214W (Tc),81 mOhm @ 15A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),30V,20A (Ta),4V   5V,2V @ 250µA,18.9nC @ 10V,±20V,1260pF @ 25V,-,1.75W (Ta)   74W (Tc),27 mOhm @ 10A   5V,-55°C ~ 150°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,20A (Ta),5V,2V @ 250µA,32nC @ 5V,±15V,990pF @ 25V,-,1.36W (Ta)   60W (Tj),48 mOhm @ 10A   5V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),60V,15.5A (Ta),5V,2V @ 250µA,26nC @ 5V,±20V,1190pF @ 25V,-,65W (Tc),150 mOhm @ 7.5A   5V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,24A (Ta),5V,2V @ 250µA,32nC @ 5V,±15V,1140pF @ 25V,-,1.36W (Ta)   62.5W (Tj),45 mOhm @ 10A   5V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),30V,25A (Ta),4V   5V,2V @ 250µA,20nC @ 5V,±15V,1260pF @ 25V,-,75W (Tj),80 mOhm @ 25A   5V,-55°C ~ 150°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),60V,12A (Ta),10V,4V @ 250µA,30nC @ 10V,±20V,750pF @ 25V,-,55W (Tj),180 mOhm @ 6A   10V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,9A (Ta),10V,4V @ 250µA,15nC @ 10V,±20V,280pF @ 25V,-,1.5W (Ta)   28.8W (Tj),150 mOhm @ 4.5A   10V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),25V,11.2A (Ta)   73A (Tc),4.5V   10V,2.5V @ 250µA,19.2nC @ 4.5V,±20V,1563pF @ 12V,-,1.3W (Ta)   54.5W (Tc),6.2 mOhm @ 30A   10V,-55°C ~ 175°C (TJ),Surface Mount,DPAK,TO-252-3   DPak (2 Leads + Tab)   SC-63
+P-Channel,MOSFET (Metal Oxide),30V,3.7A (Ta),4.5V   10V,3V @ 250µA,38nC @ 10V,±20V,950pF @ 25V,-,1.56W (Ta),100 mOhm @ 5.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),20V,2.5A (Ta),2.5V   4.5V,1.2V @ 250µA,15nC @ 4.5V,±12V,750pF @ 10V,-,500mW (Ta),45 mOhm @ 5.1A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,6-TSOP,SOT-23-6
+P-Channel,MOSFET (Metal Oxide),30V,2.34A (Ta),4.5V   10V,2.5V @ 250µA,25nC @ 10V,±20V,750pF @ 24V,-,730mW (Ta),85 mOhm @ 3.05A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,270mA (Ta),2.5V   4V,1.5V @ 100µA,1.3nC @ 5V,±20V,33pF @ 5V,-,330mW (Ta),1.5 Ohm @ 10mA   4V,-55°C ~ 150°C (TJ),Surface Mount,SC-70-3 (SOT323),SC-70   SOT-323
+P-Channel,MOSFET (Metal Oxide),20V,1A (Ta),4.5V   10V,2.3V @ 250µA,2.5nC @ 5V,±20V,165pF @ 5V,-,400mW (Ta),180 mOhm @ 1.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),25V,100A (Tc),-,2V @ 1mA,32nC @ 4.5V,-,4308pF @ 12V,-,62.5W (Tc),2.8 mOhm @ 25A   10V,-55°C ~ 150°C (TJ),Surface Mount,LFPAK56   Power-SO8,SC-100   SOT-669
+N-Channel,MOSFET (Metal Oxide),30V,68A (Tc),4.5V   10V,2V @ 1mA,12nC @ 5V,±20V,1362pF @ 10V,-,62.5W (Tc),7.9 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,LFPAK56   Power-SO8,SC-100   SOT-669
+N-Channel,MOSFET (Metal Oxide),100V,3.5A (Tc),5V,2V @ 1mA,12.2nC @ 5V,±16V,374pF @ 25V,-,6.9W (Tc),250 mOhm @ 1.75A   5V,-65°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),100V,3.5A (Tc),10V,4V @ 1mA,7.4nC @ 10V,±20V,300pF @ 25V,-,6.9W (Tc),250 mOhm @ 1.75A   10V,-65°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),30V,5.7A (Ta),2.5V   4.5V,1.5V @ 250µA,10nC @ 4.5V,±12V,585pF @ 15V,-,545mW (Ta)   6.25W (Tc),27 mOhm @ 5.7A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,6-TSOP,SC-74   SOT-457
+N-Channel,MOSFET (Metal Oxide),30V,4.1A (Ta),4.5V   10V,2V @ 250µA,6.3nC @ 10V,±20V,209pF @ 15V,-,510mW (Ta)   5W (Tc),42 mOhm @ 4.1A   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-236AB (SOT23),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),100V,75A (Tc),10V,4V @ 1mA,90nC @ 10V,±20V,4900pF @ 25V,-,300W (Tc),15 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),50V,14A (Tc),5V,2V @ 250µA,40nC @ 10V,±10V,670pF @ 25V,-,48W (Tc),100 mOhm @ 14A   5V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),50V,14A (Tc),5V,2V @ 250µA,40nC @ 10V,±10V,670pF @ 25V,-,48W (Tc),100 mOhm @ 14A   5V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),50V,16A (Tc),4V   5V,2V @ 250mA,80nC @ 10V,±10V,-,-,60W (Tc),47 mOhm @ 16A   5V,-55°C ~ 150°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),50V,16A (Tc),4V   5V,2V @ 250mA,80nC @ 10V,±10V,-,-,60W (Tc),47 mOhm @ 16A   5V,-55°C ~ 150°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,11A (Tc),5V,3V @ 250µA,11.3nC @ 10V,±16V,350pF @ 25V,-,38W (Tc),107 mOhm @ 8A   5V,-55°C ~ 175°C (TJ),Surface Mount,TO-252AA,TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),30V,30A (Ta),4.5V   10V,-,8nC @ 4.5V,+16V   -12V,1250pF @ 10V,-,-,8 mOhm @ 15A   10V,-,Surface Mount,LFPAK,SC-100   SOT-669
+N-Channel,MOSFET (Metal Oxide),45V,2A (Ta),2.5V   4.5V,1.5V @ 1mA,4.1nC @ 4.5V,±12V,200pF @ 10V,-,1W (Ta),180 mOhm @ 2A   4.5V,150°C (TJ),Surface Mount,TSMT3,SC-96
+N-Channel,MOSFET (Metal Oxide),20V,3.1A (Ta),1.8V   4.5V,1.2V @ 250µA,7.5nC @ 4.5V,±8V,-,-,1W (Ta),65 mOhm @ 3.9A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SC-70-6 (SOT-363),6-TSSOP   SC-88   SOT-363
+N-Channel,MOSFET (Metal Oxide),30V,3.6A (Tc),2.5V   4.5V,1.5V @ 250µA,10nC @ 10V,±12V,320pF @ 15V,-,1.1W (Ta)   1.7W (Tc),68 mOhm @ 2.9A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),20V,3.1A (Tc),2.5V   4.5V,1V @ 250µA,10nC @ 4.5V,±8V,405pF @ 10V,-,860mW (Ta)   1.6W (Tc),112 mOhm @ 2.8A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,2.7A (Tc),4.5V   10V,3V @ 250µA,8nC @ 10V,±20V,155pF @ 15V,-,1W (Ta)   2.3W (Tc),190 mOhm @ 1.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),60V,-,4.5V   10V,1V @ 250µA (Min),12nC @ 10V,±20V,-,-,1.25W (Ta),340 mOhm @ 1.25A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),40V,2.3A (Ta),4.5V   10V,3V @ 250µA,17nC @ 10V,±20V,470pF @ 20V,-,750mW (Ta),82 mOhm @ 3A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),20V,3.7A (Ta),1.8V   4.5V,1V @ 250µA,19nC @ 4.5V,±8V,1020pF @ 10V,-,750mW (Ta),39 mOhm @ 4.7A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),100V,1.15A (Ta),10V,4V @ 250µA,5nC @ 10V,±20V,-,-,730mW (Ta),250 mOhm @ 1.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),12V,4.1A (Ta),1.8V   4.5V,1V @ 250µA,18nC @ 4.5V,±8V,1100pF @ 6V,-,750mW (Ta),32 mOhm @ 5.3A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,6A (Tc),4.5V   10V,2.5V @ 250µA,13nC @ 10V,±20V,424pF @ 15V,-,1.3W (Ta)   2.5W (Tc),28 mOhm @ 5.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,4.6A (Ta),2.5V   4.5V,600mV @ 1mA (Min),12nC @ 4.5V,±12V,-,-,1.14W (Ta),34 mOhm @ 6.1A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,6-TSOP,SOT-23-6 Thin   TSOT-23-6
+P-Channel,MOSFET (Metal Oxide),20V,4A (Ta),2.5V   4.5V,1.5V @ 250µA,10nC @ 4.5V,±8V,640pF @ 10V,-,1.6W (Ta),65 mOhm @ 4A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,6-SSOT,SOT-23-6 Thin   TSOT-23-6
+N-Channel,MOSFET (Metal Oxide),30V,3.4A (Ta),4.5V   10V,3V @ 250µA,15nC @ 10V,±20V,-,-,1.14W (Ta),60 mOhm @ 4.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,6-TSOP,SOT-23-6 Thin   TSOT-23-6
+N-Channel,MOSFET (Metal Oxide),30V,14A (Tc),4.5V   10V,2.5V @ 250µA,23nC @ 10V,±20V,846pF @ 15V,-,2.5W (Ta)   5W (Tc),14 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,5.8A (Ta),4.5V   10V,1V @ 250µA (Min),20nC @ 10V,±20V,-,-,1.3W (Ta),24 mOhm @ 8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,8.8A (Ta),4.5V   10V,3V @ 250µA,100nC @ 10V,±20V,-,-,1.5W (Ta),12 mOhm @ 11.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,9.7A (Ta),2.5V   10V,1.4V @ 250µA,70nC @ 4.5V,±12V,-,-,1.5W (Ta),10.5 mOhm @ 12.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,5.7A (Ta),4.5V   10V,3V @ 250µA,20nC @ 5V,±20V,-,-,1.5W (Ta),30 mOhm @ 7.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,7A (Ta),4.5V   10V,3V @ 250µA,70nC @ 10V,±20V,-,-,1.5W (Ta),20 mOhm @ 9.1A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),20V,9.8A (Ta),2.5V   10V,1.4V @ 250µA,56nC @ 4.5V,±12V,-,-,1.5W (Ta),11 mOhm @ 13.7A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,18.2A (Tc),4.5V   10V,3V @ 250µA,26nC @ 10V,±20V,1220pF @ 15V,-,3W (Ta)   5.2W (Tc),9.5 mOhm @ 13.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,6.5A (Ta),4.5V   10V,1.8V @ 250µA,13nC @ 5V,±25V,-,-,1.3W (Ta),18.5 mOhm @ 9A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,13A (Tc),4.5V   10V,3V @ 250µA,65nC @ 10V,±25V,1960pF @ 15V,-,2.5W (Ta)   5.6W (Tc),18 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),150V,2.7A (Ta),6V   10V,2V @ 250µA (Min),21nC @ 10V,±20V,-,-,1.5W (Ta),85 mOhm @ 3.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),20V,3.5A (Ta),1.8V   4.5V,450mV @ 250µA (Min),10nC @ 4.5V,±8V,-,-,1.3W (Ta),76 mOhm @ 3.5A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,1206-8 ChipFET™,8-SMD   Flat Lead
+P-Channel,MOSFET (Metal Oxide),30V,16A (Tc),4.5V   10V,3V @ 250µA,65nC @ 10V,±25V,1960pF @ 15V,-,3.7W (Ta)   52W (Tc),18 mOhm @ 10A   10V,-50°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+N-Channel,MOSFET (Metal Oxide),30V,6.5A (Ta),4.5V   10V,1.8V @ 250µA,13nC @ 5V,±25V,-,-,1.5W (Ta),19.5 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+N-Channel,MOSFET (Metal Oxide),30V,30A (Ta),4.5V   10V,3V @ 250µA,50nC @ 4.5V,±20V,5600pF @ 15V,-,5.4W (Ta),3 mOhm @ 25A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+P-Channel,MOSFET (Metal Oxide),30V,7.4A (Ta),4.5V   10V,3V @ 250µA,56nC @ 10V,±20V,-,-,1.5W (Ta),18 mOhm @ 11.7A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+P-Channel,MOSFET (Metal Oxide),30V,35A (Tc),4.5V   10V,2.5V @ 250µA,59nC @ 10V,±25V,1800pF @ 15V,-,3.7W (Ta)   52W (Tc),12.3 mOhm @ 13.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+N-Channel,MOSFET (Metal Oxide),150V,4A (Ta),10V,4.5V @ 250µA,36nC @ 10V,±20V,-,-,1.9W (Ta),50 mOhm @ 5A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+N-Channel,MOSFET (Metal Oxide),80V,7.6A (Ta),6V   10V,2V @ 250µA (Min),41nC @ 10V,±20V,-,-,1.9W (Ta),16.5 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+N-Channel,MOSFET (Metal Oxide),40V,58A (Tc),4.5V   10V,3V @ 250µA,77nC @ 10V,±20V,3540pF @ 20V,-,4.6W (Ta)   46W (Tc),7.5 mOhm @ 16A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+P-Channel,MOSFET (Metal Oxide),60V,4.7A (Tc),4.5V   10V,3V @ 250µA,22nC @ 10V,±20V,600pF @ 30V,-,2.4W (Ta)   5W (Tc),120 mOhm @ 3.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,4.1A (Ta),4.5V   10V,3V @ 250µA,24nC @ 10V,±20V,-,-,1.3W (Ta),42 mOhm @ 5.7A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,5.3A (Ta),4.5V   10V,3V @ 250µA,23nC @ 10V,±20V,690pF @ 15V,-,2.5W (Ta),50 mOhm @ 5.3A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),100V,40A (Tc),4.5V   10V,2.8V @ 250µA,48nC @ 10V,±20V,1640pF @ 50V,-,5W (Ta)   62.5W (Tc),10.8 mOhm @ 20A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+N-Channel,MOSFET (Metal Oxide),100V,40A (Tc),4.5V   10V,2.8V @ 250µA,43nC @ 10V,±20V,1250pF @ 50V,-,5W (Ta)   44.5W (Tc),14 mOhm @ 15A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® SO-8,PowerPAK® SO-8
+N-Channel,MOSFET (Metal Oxide),30V,12A (Tc),4.5V   10V,2.5V @ 250µA,12nC @ 10V,±20V,435pF @ 15V,-,3.2W (Ta)   15.6W (Tc),24 mOhm @ 7.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+N-Channel,MOSFET (Metal Oxide),100V,28A (Tc),4.5V   10V,3V @ 250µA,19.5nC @ 10V,±20V,550pF @ 50V,-,3.7W (Ta)   52W (Tc),33 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,PowerPAK® 1212-8,PowerPAK® 1212-8
+P-Channel,MOSFET (Metal Oxide),30V,2A (Ta),4.5V   10V,2.5V @ 250µA,6nC @ 4.5V,±20V,639pF @ 25V,-,350mW (Tc),56 mOhm @ 1A   10V,150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,17A (Tc),4.5V   10V,1V @ 250µA,35nC @ 4.5V,±18V,2160pF @ 25V,-,3.2W (Tc),5.5 mOhm @ 8.5A   10V,-55°C ~ 175°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,4A (Tc),5V   10V,1V @ 250µA,9nC @ 5V,±16V,330pF @ 25V,Schottky Diode (Isolated),2W (Tc),55 mOhm @ 2A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,7A (Tc),4.5V   10V,2.5V @ 250µA,38nC @ 4.5V,±20V,2600pF @ 25V,-,2.5W (Tc),21 mOhm @ 3.5A   10V,150°C (TJ),Surface Mount,8-SO,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),600V,20A (Tc),10V,5V @ 250µA,54nC @ 10V,±30V,1500pF @ 25V,-,192W (Tc),290 mOhm @ 10A   10V,150°C (TJ),Through Hole,TO-247-3,TO-247-3
+N-Channel,MOSFET (Metal Oxide),500V,45A (Tc),10V,5V @ 250µA,117nC @ 10V,±30V,3700pF @ 25V,-,417W (Tc),100 mOhm @ 22.5A   10V,-65°C ~ 150°C (TJ),Through Hole,TO-247-3,TO-247-3
+P-Channel,MOSFET (Metal Oxide),60V,110A (Tc),4.5V   10V,3V @ 250µA,345nC @ 10V,±20V,11400pF @ 25V,-,3.75W (Ta)   375W (Tc),6.9 mOhm @ 30A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-263 (D2Pak),TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+P-Channel,MOSFET (Metal Oxide),80V,110A (Tc),4.5V   10V,3V @ 250µA,270nC @ 10V,±20V,10850pF @ 40V,-,13.6W (Ta)   375W (Tc),11.2 mOhm @ 20A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-263 (D2Pak),TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),40V,630mA (Tj),3V   10V,1.6V @ 500µA,-,±20V,70pF @ 20V,-,1.6W (Tc),2 Ohm @ 1A   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-243AA (SOT-89),TO-243AA
+N-Channel,MOSFET (Metal Oxide),60V,350mA (Tj),4.5V   10V,2V @ 500µA,-,±20V,60pF @ 25V,-,1W (Tc),3 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),240V,360mA (Tj),4.5V   10V,2V @ 1mA,-,±20V,125pF @ 25V,-,1.6W (Tc),6 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-243AA (SOT-89),TO-243AA
+N-Channel,MOSFET (Metal Oxide),400V,260mA (Tj),4.5V   10V,2V @ 1mA,-,±20V,125pF @ 25V,-,1.6W (Ta),12 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-243AA (SOT-89),TO-243AA
+P-Channel,MOSFET (Metal Oxide),60V,270mA (Ta),4.5V   10V,3V @ 250µA,3nC @ 15V,±20V,-,-,800mW (Ta),6 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-226AA,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads)
+P-Channel,MOSFET (Metal Oxide),400V,86mA (Tj),4.5V   10V,2.4V @ 1mA,-,±20V,125pF @ 25V,-,740mW (Ta),25 Ohm @ 100mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+P-Channel,MOSFET (Metal Oxide),20V,2.8A (Tc),2.5V   4.5V,950mV @ 250µA,4.5nC @ 4.5V,±8V,447pF @ 6V,-,900mW (Ta),130 mOhm @ 2.8A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,330mA (Tj),10V,2V @ 1mA,-,±30V,50pF @ 25V,-,1W (Tc),3 Ohm @ 1A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),500V,250mA (Tj),4.5V   10V,4V @ 1mA,-,±20V,150pF @ 25V,-,1.6W (Ta),13 Ohm @ 400mA   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-243AA (SOT-89),TO-243AA
+N-Channel,MOSFET (Metal Oxide),60V,150mA (Ta),10V,2.4V @ 1mA,-,±20V,35pF @ 18V,-,330mW (Ta),5 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,600mA (Ta),5V   10V,3V @ 1mA,-,±20V,100pF @ 25V,-,700mW (Ta),1 Ohm @ 1.5A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+P-Channel,MOSFET (Metal Oxide),60V,280mA (Ta),10V,3.5V @ 1mA,-,±20V,100pF @ 18V,-,700mW (Ta),5 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+P-Channel,MOSFET (Metal Oxide),60V,450mA (Ta),10V,3.5V @ 1mA,-,±20V,100pF @ 18V,-,2W (Ta),5 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),60V,160mA (Ta),10V,3.5V @ 1mA,-,±20V,50pF @ 18V,-,625mW (Ta),14 Ohm @ 200mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+P-Channel,MOSFET (Metal Oxide),60V,90mA (Ta),10V,3.5V @ 1mA,-,±20V,50pF @ 18V,-,330mW (Ta),14 Ohm @ 200mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),100V,140mA (Ta),10V,3.5V @ 1mA,-,±20V,50pF @ 25V,-,625mW (Ta),20 Ohm @ 150mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+P-Channel,MOSFET (Metal Oxide),50V,175mA (Ta),5V,2V @ 1mA,-,±20V,40pF @ 25V,-,625mW (Ta),10 Ohm @ 100mA   5V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),100V,1A (Ta),6V   10V,4V @ 250µA,2.9nC @ 10V,±20V,138pF @ 50V,-,1.5W (Ta),700 mOhm @ 1.5A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-89-3,TO-243AA
+N-Channel,MOSFET (Metal Oxide),60V,1.2A (Ta),4.5V   10V,3V @ 250µA,3.2nC @ 10V,±20V,166pF @ 40V,-,625mW (Ta),250 mOhm @ 1.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,1.4A (Ta),4.5V   10V,1V @ 250µA,6.4nC @ 10V,±20V,206pF @ 15V,-,625mW (Ta),210 mOhm @ 1.4A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),40V,4.6A (Ta),4.5V   10V,1V @ 250µA,26.1nC @ 10V,±20V,1007pF @ 20V,-,2W (Ta),60 mOhm @ 3.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),60V,200mA (Ta),4.5V   10V,3V @ 1mA,-,±20V,50pF @ 25V,-,400mW (Ta),5 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Through Hole,TO-92-3,TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),60V,240mA (Ta),4.5V   10V,2.5V @ 250µA,0.6nC @ 4.5V,±20V,21pF @ 5V,-,350mW (Ta),3 Ohm @ 250mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,100A (Ta),4V   10V,-,220nC @ 10V,±20V,12500pF @ 20V,-,1.75W (Ta)   90W (Tc),5 mOhm @ 50A   10V,150°C (TJ),Through Hole,TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),60V,320mA (Ta),4.5V   10V,2.3V @ 250µA,0.7nC @ 4.5V,±20V,24.5pF @ 20V,-,300mW (Tj),1.6 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,5.7A (Ta),2.5V   10V,1.5V @ 250µA,7nC @ 4.5V,±12V,630pF @ 15V,-,1.4W (Ta),26.5 mOhm @ 5.7A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3L,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,4A (Ta),2.5V   10V,1.3V @ 250µA,12.2nC @ 4.5V,±12V,1200pF @ 15V,-,1.4W (Ta),44 mOhm @ 4.3A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3L,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),30V,5.8A (Ta),4.5V   10V,3V @ 250µA,17nC @ 10V,±20V,820pF @ 15V,-,1.4W (Ta),28 mOhm @ 5.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3L,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),20V,6.5A (Ta),1.8V   4.5V,1V @ 250µA,16nC @ 4.5V,±8V,1160pF @ 10V,-,1.4W (Ta),22 mOhm @ 6.5A   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),30V,12A (Ta),6V   20V,3V @ 250µA,39nC @ 10V,±25V,2600pF @ 15V,-,3.1W (Ta),11 mOhm @ 12A   20V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,12A (Ta),6V   20V,3V @ 250µA,39nC @ 10V,±25V,2600pF @ 15V,-,3.1W (Ta),11 mOhm @ 12A   20V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,9.7A (Ta),4.5V   10V,2.7V @ 250µA,32nC @ 10V,±20V,1900pF @ 15V,-,3.1W (Ta),20 mOhm @ 9.7A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,12.5A (Ta),4.5V   10V,3V @ 250µA,52nC @ 10V,±25V,2900pF @ 15V,-,3W (Ta),12 mOhm @ 12.5A   20V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),30V,10.5A (Ta),5V   20V,3V @ 250µA,24nC @ 10V,±25V,1400pF @ 15V,-,3.1W (Ta),14 mOhm @ 11A   20V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),60V,4A (Ta),4.5V   10V,3V @ 250µA,20nC @ 10V,±20V,1120pF @ 30V,-,3.1W (Ta),100 mOhm @ 4A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,10.5A (Ta),4.5V   10V,3V @ 250µA,24nC @ 10V,±20V,1200pF @ 15V,-,3.1W (Ta),14 mOhm @ 11.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,10A (Ta),4.5V   10V,2.5V @ 250µA,13nC @ 10V,±20V,715pF @ 15V,-,3.1W (Ta),19.5 mOhm @ 10A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+N-Channel,MOSFET (Metal Oxide),30V,15A (Ta),4.5V   10V,2.5V @ 250µA,32nC @ 10V,±20V,1950pF @ 15V,Schottky Diode (Body),3.1W (Ta),9 mOhm @ 15A   10V,-55°C ~ 150°C (TJ),Surface Mount,8-SOIC,8-SOIC (0.154"   3.90mm Width)
+P-Channel,MOSFET (Metal Oxide),60V,26A (Tc),4.5V   10V,2.4V @ 250µA,54nC @ 10V,±20V,3600pF @ 30V,-,2.5W (Ta)   60W (Tc),40 mOhm @ 20A   10V,-55°C ~ 175°C (TJ),Surface Mount,TO-252   (D-Pak),TO-252-3   DPak (2 Leads + Tab)   SC-63
+N-Channel,MOSFET (Metal Oxide),60V,23A (Ta)   100A (Tc),6V   10V,2.8V @ 50µA,37nC @ 10V,±20V,2700pF @ 30V,-,2.5W (Ta)   83W (Tc),2.8 mOhm @ 50A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TDSON-8,8-PowerTDFN
+N-Channel,MOSFET (Metal Oxide),60V,100A (Tc),10V,4V @ 93µA,130nC @ 10V,±20V,11000pF @ 30V,-,2.5W (Ta)   139W (Tc),3.1 mOhm @ 50A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TDSON-8,8-PowerTDFN
+N-Channel,MOSFET (Metal Oxide),80V,16A (Ta)   100A (Tc),6V   10V,3.5V @ 73µA,56nC @ 10V,±20V,3900pF @ 40V,-,2.5W (Ta)   114W (Tc),5.7 mOhm @ 50A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TDSON-8,8-PowerTDFN
+N-Channel,MOSFET (Metal Oxide),30V,11A (Ta)   39A (Tc),4.5V   10V,2V @ 250µA,20nC @ 10V,±20V,1500pF @ 15V,-,2.5W (Ta)   28W (Tc),12 mOhm @ 30A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TDSON-8,8-PowerTDFN
+N-Channel,MOSFET (Metal Oxide),80V,7A (Ta)   23A (Tc),6V   10V,3.5V @ 12µA,9.1nC @ 10V,±20V,756pF @ 40V,-,2.5W (Ta)   32W (Tc),34 mOhm @ 12A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-TDSON-8,8-PowerTDFN
+N-Channel,MOSFET (Metal Oxide),60V,300mA (Ta),4.5V   10V,2V @ 1mA,-,±15V,40pF @ 10V,-,830mW (Tc),5 Ohm @ 500mA   10V,-65°C ~ 150°C (TJ),Surface Mount,TO-236AB (SOT23),TO-236-3   SC-59   SOT-23-3
+P-Channel,MOSFET (Metal Oxide),60V,300mA (Ta),4.5V   10V,1V @ 1mA (Min),3nC @ 10V,±20V,70pF @ 48V,-,417mW (Ta),2.5 Ohm @ 160mA   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-236AB (SOT23),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),50V,500mA (Ta),4.5V   10V,1.5V @ 250µA,0.8nC @ 10V,±20V,40pF @ 10V,-,600mW (Ta),1.8 Ohm @ 220mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),600V,120mA (Ta),4.5V   10V,2.3V @ 94µA,6.6nC @ 10V,±20V,150pF @ 25V,-,1.8W (Ta),45 Ohm @ 120mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),240V,350mA (Ta),0V   10V,1V @ 108µA,5.7nC @ 5V,±20V,108pF @ 25V,Depletion Mode,1.8W (Ta),6 Ohm @ 350mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),600V,120mA (Ta),0V   10V,1V @ 94µA,4.9nC @ 5V,±20V,146pF @ 25V,Depletion Mode,1.8W (Ta),45 Ohm @ 120mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),200V,660mA (Ta),0V   10V,1V @ 400µA,14nC @ 5V,±20V,430pF @ 25V,Depletion Mode,1.8W (Ta),1.8 Ohm @ 660mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),60V,1.9A (Ta),10V,4V @ 250µA,14nC @ 10V,±20V,410pF @ 25V,-,1.8W (Ta),300 mOhm @ 1.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),250V,225mA (Ta),10V,2.8V @ 1mA,-,±20V,90pF @ 25V,-,1.5W (Ta),15 Ohm @ 200mA   10V,150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),30V,3A (Tc),10V,2.8V @ 1mA,25nC @ 10V,±20V,250pF @ 20V,-,1.65W (Ta),250 mOhm @ 1A   10V,150°C (TJ),Surface Mount,SOT-223,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),100V,1.2A (Ta),4.5V   10V,1.8V @ 100µA,6.7nC @ 10V,±20V,152.7pF @ 25V,-,1.8W (Ta),600 mOhm @ 1.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),200V,660mA (Ta),4.5V   10V,1.8V @ 400µA,16.1nC @ 10V,±20V,357pF @ 25V,-,1.8W (Ta),1.8 Ohm @ 660mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),60V,2.6A (Tj),4.5V   10V,2V @ 20µA,20nC @ 10V,±20V,380pF @ 25V,-,1.8W (Ta),90 mOhm @ 2.6A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),100V,1.8A (Ta),4.5V   10V,1.8V @ 218µA,14.3nC @ 10V,±20V,329pF @ 25V,-,1.8W (Ta),230 mOhm @ 1.8A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),60V,2.9A (Ta),10V,4V @ 1mA,33nC @ 10V,±20V,875pF @ 25V,-,1.8W (Ta),130 mOhm @ 2.9A   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),240V,350mA (Ta),4.5V   10V,1.8V @ 108µA,6.4nC @ 10V,±20V,140pF @ 25V,-,1.8W (Ta),6 Ohm @ 350mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT223-4,TO-261-4   TO-261AA
+N-Channel,MOSFET (Metal Oxide),100V,150mA (Ta),10V,2.8V @ 1mA,-,±20V,40pF @ 25V,-,250mW (Ta),6 Ohm @ 120mA   10V,-55°C ~ 150°C (TJ),Surface Mount,TO-236AB (SOT23),TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),100V,170mA (Ta),10V,2V @ 1mA,-,±20V,60pF @ 25V,-,300mW (Ta),6 Ohm @ 170mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),240V,110mA (Ta),4.5V   10V,1.8V @ 56µA,3.1nC @ 10V,±20V,77pF @ 25V,-,360mW (Ta),14 Ohm @ 100mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),50V,200mA (Ta),10V,1.5V @ 250µA,-,±20V,50pF @ 10V,-,300mW (Ta),3.5 Ohm @ 220mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,230mA (Ta),4.5V   10V,1.4V @ 26µA,1.4nC @ 10V,±20V,41pF @ 25V,-,360mW (Ta),3.5 Ohm @ 230mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),60V,230mA (Ta),0V   10V,2.4V @ 26µA,1.4nC @ 5V,±20V,39pF @ 25V,Depletion Mode,360mW (Ta),3.5 Ohm @ 160mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),100V,170mA (Ta),0V   10V,1.8V @ 50µA,2.8nC @ 7V,±20V,68pF @ 25V,Depletion Mode,360mW (Ta),6 Ohm @ 170mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),55V,540mA (Ta),4.5V   10V,2V @ 2.7µA,2.26nC @ 10V,±20V,75pF @ 25V,-,360mW (Ta),650 mOhm @ 270mA   10V,-55°C ~ 150°C (TJ),Surface Mount,PG-SOT23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),200V,400mA (Ta),10V,2.8V @ 1mA,-,±20V,120pF @ 25V,-,580mW (Ta)   12.5W (Tc),3 Ohm @ 400mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-89-3,TO-243AA
+N-Channel,MOSFET (Metal Oxide),100V,100mA (Ta),10V,2.4V @ 1mA,-,±20V,40pF @ 25V,-,330mW (Ta),10 Ohm @ 500mA   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),100V,11A (Tc),5V   10V,2V @ 1mA,-,±15V,619pF @ 25V,-,54W (Tc),173 mOhm @ 5A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),100V,39A (Tc),4.5V   10V,2V @ 1mA,48nC @ 5V,±15V,3072pF @ 25V,-,158W (Tc),39 mOhm @ 25A   10V,-55°C ~ 175°C (TJ),Surface Mount,D2PAK,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB
+N-Channel,MOSFET (Metal Oxide),50V,30A (Tc),10V,4V @ 1mA,-,±20V,2000pF @ 25V,-,75W (Tc),40 mOhm @ 15A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),200V,21A (Tc),10V,4V @ 1mA,-,±20V,1900pF @ 25V,-,125W (Tc),130 mOhm @ 13.5A   10V,-55°C ~ 150°C (TJ),Through Hole,PG-TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),200V,9.5A (Tc),10V,4V @ 1mA,-,±20V,530pF @ 25V,-,75W (Tc),400 mOhm @ 6A   10V,-55°C ~ 150°C (TJ),Through Hole,PG-TO-220-3,TO-220-3
+N-Channel,MOSFET (Metal Oxide),350V,5mA (Ta),-0.35V,-,-,±20V,-,Depletion Mode,2.5W (Ta),14 Ohm @ 50mA   350mV,-40°C ~ 85°C (TA),Surface Mount,SOT-223,TO-261-4   TO-261AA
+P-Channel,MOSFET (Metal Oxide),60V,1.8A (Ta),4V   10V,-,6nC @ 10V,±20V,262pF @ 20V,-,1W (Ta),250 mOhm @ 1A   10V,150°C (TJ),Surface Mount,3-CPH,TO-236-3   SC-59   SOT-23-3
+N-Channel,MOSFET (Metal Oxide),25V,5A (Tc),3V   8V,1.55V @ 250µA,2.8nC @ 4.5V,+10V   -8V,340pF @ 12.5V,-,2.3W (Ta),24 mOhm @ 4A   8V,-55°C ~ 150°C (TJ),Surface Mount,6-SON,6-SMD   Flat Leads
+N-Channel,MOSFET (Metal Oxide),20V,630mA (Ta),1.8V   4.5V,1V @ 250µA,0.74nC @ 4.5V,±6V,60.67pF @ 16V,-,280mW (Ta),400 mOhm @ 600mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SOT-523,SOT-523
+N-Channel,MOSFET (Metal Oxide),400V,120mA (Tj),0V,-,-,±20V,300pF @ 25V,Depletion Mode,1W (Tc),25 Ohm @ 120mA   0V,-55°C ~ 150°C (TJ),Through Hole,TO-92 (TO-226),TO-226-3   TO-92-3 (TO-226AA)
+N-Channel,MOSFET (Metal Oxide),450V,200mA,0V,-,-,±20V,360pF @ 25V,Depletion Mode,1.6W (Ta),20 Ohm @ 150mA   0V,-55°C ~ 150°C (TJ),Surface Mount,TO-243AA (SOT-89),TO-243AA
+N-Channel,GaNFET (Gallium Nitride),100V,500mA (Ta),5V,2.5V @ 20µA,0.044nC @ 5V,+6V   -4V,8.4pF @ 50V,-,-,3.3 Ohm @ 50mA   5V,-40°C ~ 150°C (TJ),Surface Mount,Die,Die
+N-Channel,MOSFET (Metal Oxide),600V,76A (Tc),10V,5V @ 250µA,360nC @ 10V,±20V,14365pF @ 100V,-,595W (Tc),41 mOhm @ 38A   10V,-55°C ~ 150°C (TJ),Through Hole,TO-247,TO-247-3
+P-Channel,MOSFET (Metal Oxide),20V,350mA (Ta),1.8V   4.5V,450mV @ 250µA (Min),1.5nC @ 4.5V,±6V,-,-,150mW (Ta),1.2 Ohm @ 350mA   4.5V,-55°C ~ 150°C (TJ),Surface Mount,SC-75A,SC-75A
+P-Channel,MOSFET (Metal Oxide),30V,2.5A (Ta),4.5V   10V,3V @ 250µA,15nC @ 10V,±20V,380pF @ 15V,-,750mW (Ta),78 mOhm @ 3.2A   10V,-55°C ~ 150°C (TJ),Surface Mount,SOT-23-3 (TO-236),TO-236-3   SC-59   SOT-23-3

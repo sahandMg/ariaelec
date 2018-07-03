@@ -1,0 +1,10 @@
+LED,7 Segment,BCD,-,7mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+LED,7 Segment,BCD,-,40nA,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+LCD,7 Segment,BCD,1 Digit,40nA,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+LED   LCD,7 Segment,BCD,-,-,3 V ~ 15 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+LED,7 Segment,BCD,1 Digit,8µA,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+LED   LCD,7 Segment,BCD,-,-,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+LED,7 Segment,BCD,-,7mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+LCD,7 Segment,BCD,1 Digit,40nA,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+LED,7 Segment,BCD,-,7mA,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+LCD,7 Segment + DP   Alphanumeric and Bar Graph,Serial,4.5 Digits,40µA,3 V ~ 10 V,-40°C ~ 85°C,Surface Mount,44-LCC (J-Lead),44-PLCC (16.58x16.58)

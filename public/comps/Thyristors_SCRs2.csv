@@ -1,0 +1,14 @@
+500V,1.5V,15mA,1.75V,7.5A,12A,20mA,500µA,120A   132A,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+600V,1V,20mA,1.9V,7.8A,12A,40mA,10µA,100A @ 60Hz,Standard Recovery,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+600V,1.5V,200µA,2V,-,8A,6mA,10µA,100A @ 60Hz,Sensitive Gate,-40°C ~ 110°C,Through Hole,TO-220-3,TO-220AB
+1kV,1.3V,25mA,1.6V,10A,16A,40mA,5µA,190A   200A,Standard Recovery,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+600V,1.3V,5mA,1.6V,5A,8A,25mA,5µA,70A   73A,Standard Recovery,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+1.2kV,2V,45mA,1.25V,16A,25A,150mA,500µA,350A @ 50Hz,Standard Recovery,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,TO-263AB (D²PAK)
+1.2kV,2V,45mA,1.25V,16A,25A,100mA,500µA,350A @ 50Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3 Full Pack,TO-220ABFP
+400V,1.5V,30mA,2.2V,-,12A,50mA,10µA,100A @ 60Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+600V,1.5V,30mA,1.8V,16A,25A,40mA,10µA,250A @ 60Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+800V,1.5V,30mA,1.8V,16A,25A,40mA,10µA,250A @ 60Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+1.2kV,2.5V,150mA,1.85V,35A,55A,150mA,500µA,600A @ 50Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-247-3,TO-247AC
+1.2kV,2.5V,150mA,1.85V,35A,55A,150mA,500µA,600A @ 50Hz,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-247-3,TO-247AC
+800V,1V,35mA,1.5V,16A,25A,60mA,1mA,300A   330A,Standard Recovery,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+1.6kV,1.5V,100mA,1.64V,48A,75A,100mA,5mA,520A   560A,Standard Recovery,-40°C ~ 140°C,Through Hole,ISOPLUS247™,ISOPLUS247™

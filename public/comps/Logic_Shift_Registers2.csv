@@ -1,0 +1,45 @@
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,3 V ~ 15 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Shift Register,Push-Pull,1,8,Serial to Parallel,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Push-Pull,2,4,Serial to Parallel,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Tri-State,1,8,Serial to Parallel,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Push-Pull,1,8,Serial to Parallel,2 V ~ 6 V,-40°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Shift Register,Tri-State,1,8,Universal,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+Register File,Tri-State,4,4,Universal,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Tri-State,1,8,Universal,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Shift Register,Push-Pull,1,8,Serial to Parallel,2 V ~ 5.5 V,-40°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Shift Register,Push-Pull,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Tri-State,1,8,Serial to Parallel,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Push-Pull,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Register   Multiplexed,Push-Pull,4,64,Universal,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Push-Pull,1,8,Serial to Parallel,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Push-Pull,1,8,Parallel to Serial,4.5 V ~ 5.5 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Push-Pull,1,8,Parallel to Serial,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,1 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,1 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-VFSOP (0.118"   3.00mm Width),16-VSSOP
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Tri-State,1,8,Serial to Parallel,3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,16-LSSOP (0.173"   4.40mm Width),16-SSOPB
+Shift Register,Tri-State,1,8,Serial to Parallel,3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,16-LSSOP (0.173"   4.40mm Width),16-SSOPB
+Register   Bidirectional,Push-Pull,1,4,Universal,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Register   D-Type,Complementary,1,4,Universal,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Push-Pull,1,8,Serial to Parallel,4.5 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Register   Bidirectional,Push-Pull,1,4,Universal,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Push-Pull,1,8,Parallel or Serial to Serial,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Push-Pull,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Shift Register,Tri-State,1,8,Universal,4.5 V ~ 5.5 V,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Push-Pull,1,8,Parallel or Serial to Serial,2 V ~ 6 V,-40°C ~ 85°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Shift Register,Tri-State,1,8,Serial to Parallel   Serial,2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Shift Register,Push-Pull,1,8,Serial to Parallel,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Shift Register,Complementary,1,8,Parallel or Serial to Serial,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP

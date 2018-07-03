@@ -1,0 +1,20 @@
+8,I²C,Yes,POR,Push-Pull,300µA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO
+5,Serial,No,-,Push-Pull,-,-,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-TFSOJ (0.069"   1.75mm Width),8-SC70JW
+24,Parallel,No,-,Open Drain,2.5mA,-,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,44-LCC (J-Lead),44-PLCC (16.58x16.58)
+8,I²C   SMBus,No,POR,Open Drain   Push-Pull,18mA   30mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,I²C,Yes,POR,Push-Pull,25mA,1.7MHz,1.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,28-SSOP (0.209"   5.30mm Width),28-SSOP
+8,I²C,Yes,POR,Push-Pull,100µA   25mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,20-LSSOP (0.173"   4.40mm Width),20-SSOP
+16,I²C,Yes,POR,Push-Pull,100µA   25mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP
+4,I²C   SMBus,No,POR,Push-Pull,10mA   25mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-TSSOP
+16,I²C   SMBus,Yes,POR,Push-Pull,10mA   25mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+8,I²C   SMBus,No,POR,Open Drain   Push-Pull,10mA   25mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+8,I²C   SMBus,No,POR,Open Drain   Push-Pull,10mA   20mA,400kHz,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+8,I²C,Yes,POR,Push-Pull,1mA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+8,I²C,Yes,POR,Push-Pull,1mA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+8,I²C,Yes,POR,Push-Pull,300µA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO
+8,I²C,Yes,POR,Push-Pull,1mA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+8,I²C,Yes,POR,Push-Pull,300µA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,20-LSSOP (0.173"   4.40mm Width),20-SSOP
+16,I²C,Yes,POR,Push-Pull,10mA   25mA,400kHz,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP
+8,I²C,Yes,POR,Push-Pull,300µA   25mA,100kHz,2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SO
+5,Serial,No,-,Push-Pull,-,-,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-TFSOJ (0.069"   1.75mm Width),8-SC70JW
+24,Parallel,No,-,Open Drain,2.5mA,-,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,44-LCC (J-Lead),44-PLCC (16.58x16.58)

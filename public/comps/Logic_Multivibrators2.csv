@@ -1,0 +1,21 @@
+Monostable,2,No,100ns,6.8mA   6.8mA,3V ~ 20V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Monostable,2,No,40ns,3.4mA   3.4mA,3V ~ 15V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Monostable,2,No,28ns,400µA   8mA,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Monostable,2,No,65ns,5.2mA   5.2mA,2V ~ 6V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Astable   Monostable,1,No,80ns,6.8mA   6.8mA,3V ~ 18V,-55°C ~ 125°C,Through Hole,14-DIP (0.300"   7.62mm),14-PDIP
+Astable   Monostable,1,No,80ns,6.8mA   6.8mA,3V ~ 18V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Monostable,2,No,25ns,5.2mA   5.2mA,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Monostable,2,No,40ns,800µA   16mA,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Monostable,2,No,28ns,400µA   8mA,4.75V ~ 5.25V,0°C ~ 70°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+Monostable,2,Yes,5.3ns,8mA   8mA,4.5V ~ 5.5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Monostable,2,Yes,21ns,5.2mA   5.2mA,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+Monostable,1,No,28ns,400µA   8mA,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,14-SOIC (0.209"   5.30mm Width),14-SOP
+Monostable,2,Yes,100ns,6.8mA   6.8mA,3V ~ 18V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Monostable,2,No,100ns,6.8mA   6.8mA,3V ~ 18V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Monostable,2,Yes,18ns,5.2mA   5.2mA,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Astable   Monostable,1,No,125ns,6.8mA   6.8mA,3V ~ 20V,-55°C ~ 125°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Astable   Monostable,1,No,50ns,-,4.5V ~ 15.5V,-40°C ~ 85°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),14-SO
+Monostable,2,No,35ns,-,4.5V ~ 15.5V,-,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Monostable,2,Yes,30ns,5.2mA   5.2mA,2V ~ 6V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Monostable,2,Yes,26ns,5.2mA   5.2mA,2V ~ 6V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Monostable,1,No,28ns,400µA   8mA,4.75V ~ 5.25V,0°C ~ 70°C,Surface Mount,14-SOIC (0.209"   5.30mm Width),14-SOP

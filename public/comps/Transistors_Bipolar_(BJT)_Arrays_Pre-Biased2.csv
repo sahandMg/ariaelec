@@ -1,0 +1,17 @@
+1 NPN   1 PNP - Pre-Biased (Dual),100mA   500mA,50V,100 kOhms   2.2 kOhms,22 kOhms,100 @ 1mA   5V / 82 @ 50mA   5V,300mV @ 2.5mA   50mA / 300mV @ 100µA   1mA,-,250MHz,300mW,Surface Mount,SC-74   SOT-457,SMT6
+2 NPN - Pre-Biased (Dual),100mA,50V,10 kOhms,-,160 @ 5mA   10V,250mV @ 1mA   10mA,500nA,-,250mW,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+2 NPN - Pre-Biased (Dual),100mA,50V,4.7 kOhms,47 kOhms,80 @ 5mA   10V,250mV @ 1mA   10mA,500nA,-,250mW,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-88/SC70-6/SOT-363
+1 NPN Pre-Biased   1 PNP,100mA   700mA,50V   60V,47 kOhms,47 kOhms,80 @ 5mA   5V / 150 @ 500mA   5V,150mV @ 500µA   10mA / 340mV @ 100mA   1A,1µA   100nA,185MHz,600mW,Surface Mount,SC-74   SOT-457,6-TSOP
+2 NPN - Pre-Biased (Dual),100mA,50V,47 kOhms,47 kOhms,80 @ 10mA   5V,300mV @ 250µA   5mA,100nA (ICBO),250MHz,100mW,Surface Mount,SOT-563   SOT-666,ES6
+2 PNP - Pre-Biased (Dual) (Emitter Coupled),100mA,50V,10 kOhms,-,400 @ 1mA   5V,300mV @ 250µA   5mA,100nA (ICBO),200MHz,200mW,Surface Mount,5-TSSOP   SC-70-5   SOT-353,USV
+1 NPN   1 PNP - Pre-Biased (Dual),100mA,50V,10 kOhms,10 kOhms,50 @ 10mA   5V,300mV @ 250µA   5mA,100µA (ICBO),250MHz   200MHz,200mW,Surface Mount,6-TSSOP   SC-88   SOT-363,US6
+1 NPN   1 PNP - Pre-Biased (Dual),100mA,50V,22 kOhms,22 kOhms,70 @ 10mA   5V,300mV @ 250µA   5mA,100nA (ICBO),250MHz,100mW,Surface Mount,SOT-563   SOT-666,ES6
+1 NPN   1 PNP - Pre-Biased (Dual),100mA,50V,4.7 kOhms,47 kOhms,80 @ 10mA   5V,300mV @ 250µA   5mA,500nA,250MHz   200MHz,100mW,Surface Mount,SOT-563   SOT-666,ES6
+1 NPN   1 PNP - Pre-Biased (Dual),30mA,50V,22 kOhms,22 kOhms,56 @ 5mA   5V,300mV @ 500µA   10mA,500nA,250MHz,150mW,Surface Mount,5-TSSOP   SC-70-5   SOT-353,UMT5
+2 NPN - Pre-Biased (Dual),100mA,50V,10 kOhms,10 kOhms,30 @ 5mA   5V,300mV @ 500µA   10mA,500nA,250MHz,150mW,Surface Mount,5-TSSOP   SC-70-5   SOT-353,UMT5
+2 NPN - Pre-Biased (Dual),100mA,50V,47 kOhms,47 kOhms,80 @ 5mA   10V,250mV @ 300µA   10mA,500nA,150MHz,150mW,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SMini5-G1
+2 NPN - Pre-Biased (Dual),100mA,50V,10 kOhms,47 kOhms,80 @ 5mA   10V,250mV @ 300µA   10mA,500nA,150MHz,150mW,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SMini5-G1
+2 NPN - Pre-Biased (Dual),100mA,50V,47 kOhms,47 kOhms,70 @ 5mA   5V,300mV @ 500µA   10mA,-,100MHz,250mW,Surface Mount,6-VSSOP   SC-88   SOT-363,PG-SOT363-6
+2 NPN - Pre-Biased (Dual),100mA,50V,4.7 kOhms,-,100 @ 1mA   5V,300mV @ 250µA   2.5mA,-,250MHz,200mW,Surface Mount,6-TSSOP   SC-88   SOT-363,SOT-363
+1 NPN   1 PNP - Pre-Biased (Dual),100mA,50V,4.7 kOhms,47 kOhms,80 @ 10mA   5V,300mV @ 250µA   2.5mA,500nA,250MHz,150mW,Surface Mount,SOT-563   SOT-666,EMT6
+1 NPN   1 PNP - Pre-Biased (Dual),100mA,50V,10 kOhms,10 kOhms,30 @ 5mA   5V,300mV @ 500µA   10mA,500nA,250MHz,150mW,Surface Mount,SOT-563   SOT-666,EMT6

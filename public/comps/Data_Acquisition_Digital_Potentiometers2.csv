@@ -1,0 +1,37 @@
+Linear,Potentiometer,2,256,10k,I²C,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Selectable Address,±30%,30 ppm/°C,60,-40°C ~ 105°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Linear,Potentiometer,1,256,100k,SPI,Volatile,2.7 V ~ 5.5 V,-,±15%,45 ppm/°C,50,-40°C ~ 125°C,SOT-23-8,SOT-23-8
+Linear,Potentiometer,1,256,100k,SPI,Volatile,2.7 V ~ 5.5 V,-,±20%,35 ppm/°C,160,-40°C ~ 125°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+Linear,Rheostat,1,1024,10k,SPI,Non-Volatile,2.7 V ~ 5.5 V   ±2.5 V ~ 2.75 V,Cascade Pin,±15%,35 ppm/°C,35,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Linear,Potentiometer,4,256,10k,SPI,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Cascade Pin   Selectable Address,±30%,700 ppm/°C,50,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Linear,Potentiometer,6,256,10k,SPI,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Selectable Address,±30%,700 ppm/°C,50,-40°C ~ 85°C,24-DIP (0.300"   7.62mm),24-PDIP
+Linear,Potentiometer,6,256,50k,SPI,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Selectable Address,±30%,700 ppm/°C,50,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,6,256,100k,SPI,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Selectable Address,±30%,700 ppm/°C,50,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,1,1024,10k,SPI,Non-Volatile,2.7 V ~ 5.5 V   ±2.25 V ~ 2.75 V,Cascade Pin,-40%   +20%,600 ppm/°C,50,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Linear,Potentiometer,2,256,1M,I²C,Volatile,2.7 V ~ 5.5 V   ±2.3 V ~ 2.7 V,Selectable Address,-30%   +50%,30 ppm/°C,60,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Linear,Potentiometer,4,256,50k,I²C   SPI,Volatile,4.5 V ~ 16.5 V   ±4.5 V ~ 7.5 V,Cascade Pin   Selectable Address,±30%,30 ppm/°C,60,-40°C ~ 125°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Linear,Rheostat,1,256,100k,SPI,Non-Volatile,2.7 V ~ 5.5 V   ±2.5 V ~ 2.75 V,Cascade Pin,±1%,5 ppm/°C,35,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Linear,Potentiometer,1,256,10k,SPI,Volatile,±15V   30V,Cascade Pin,±30%,35 ppm/°C,50,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Linear,Potentiometer,1,1024,20k,SPI,Non-Volatile,9 V ~ 33 V   ±9 V ~ 16.5 V,Cascade Pin,±1%,35 ppm/°C,60,-40°C ~ 105°C,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Linear,Potentiometer,1,1024,20k,SPI,Volatile,9 V ~ 33 V   ±9 V ~ 16.5 V,Cascade Pin,±1%,35 ppm/°C,60,-40°C ~ 105°C,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Linear,Potentiometer,1,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,-,±20%,500 ppm/°C,200,-40°C ~ 125°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Linear,Potentiometer,2,256,1k,SPI,Volatile,2.7 V ~ 5.5 V,-,±33%,700 ppm/°C,200,-40°C ~ 125°C,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Linear,Potentiometer,2,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,-,±20%,500 ppm/°C,200,-40°C ~ 125°C,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Linear,Potentiometer,2,256,50k,SPI,Volatile,2.7 V ~ 5.5 V,-,±30%,500 ppm/°C,200,-40°C ~ 125°C,14-SOIC (0.154"   3.90mm Width),14-SOIC
+Linear,Potentiometer,4,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,Cascade Pin,±20%,500 ppm/°C,200,-40°C ~ 125°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,4,256,100k,SPI,Volatile,2.7 V ~ 5.5 V,Cascade Pin,±30%,500 ppm/°C,200,-40°C ~ 125°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,4,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,Cascade Pin,±20%,500 ppm/°C,200,-40°C ~ 125°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Linear,Potentiometer,4,256,100k,SPI,Volatile,2.7 V ~ 5.5 V,Cascade Pin,±30%,500 ppm/°C,200,-40°C ~ 125°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Linear,Potentiometer,4,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,Cascade Pin,±20%,500 ppm/°C,200,-40°C ~ 125°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Linear,Potentiometer,2,256,100k,Serial,Volatile,5V,Cascade Pin,±20%,750 ppm/°C,400,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Linear,Potentiometer,2,256,10k,Serial,Non-Volatile,5V,Cascade Pin,±20%,750 ppm/°C,400,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Linear,Potentiometer,2,256,10k,Serial,Non-Volatile,5V,Cascade Pin,±20%,750 ppm/°C,400,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Logarithmic,Potentiometer,2,64,45k,I²C,Non-Volatile,2.7 V ~ 5.5 V,Mute   Selectable Address   Zero-Cross Sense,±20%,750 ppm/°C,160,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Linear,Potentiometer,1,256,10k,SPI,Volatile,2.7 V ~ 5.5 V,-,±25%,35 ppm/°C,275,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-uMAX
+Linear,Rheostat,1,32,10k,Up/Down (U/D   CS),Volatile,2.7 V ~ 5.5 V,-,±25%,35 ppm/°C,-,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+Linear,Rheostat,1,64,50k,Up/Down (U/D   CS),Volatile,1.8 V ~ 5.5 V,-,±20%,150 ppm/°C,70,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+Linear,Potentiometer,4,256,100k,I²C,Non-Volatile,±2.7 V ~ 5.5 V,Selectable Address,±20%,±300 ppm/°C,150,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,4,256,50k,I²C,Non-Volatile,±2.7 V ~ 5.5 V,Selectable Address,±20%,±300 ppm/°C,150,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Linear,Potentiometer,1,100,10k,Up/Down (U/D   INC   CS),Non-Volatile,5V,-,±20%,±300 ppm/°C,40,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Linear,Potentiometer,1,100,10k,Up/Down (U/D   INC   CS),Non-Volatile,5V,-,±20%,±300 ppm/°C,40,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+Linear,Potentiometer,1,100,10k,Up/Down (U/D   INC   CS),Non-Volatile,5V,-,±20%,±300 ppm/°C,40,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Linear,Potentiometer,1,100,50k,Up/Down (U/D   INC   CS),Non-Volatile,5V,-,±20%,±300 ppm/°C,40,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC

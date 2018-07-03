@@ -1,0 +1,54 @@
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,12ns,7.8mA   7.8mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,14ns,7.8mA   7.8mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+S-R Latch,1:1,Tri-State,3 V ~ 18 V,4,50ns,6.8mA   6.8mA,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,15ns,7.8mA   7.8mA,-40°C ~ 85°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,23ns,7.8mA   7.8mA,-,Surface Mount,20-SOIC (0.209"   5.30mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,4.75 V ~ 5.25 V,1,12ns,2.6mA   24mA,0°C ~ 70°C,Surface Mount,20-SOIC (0.209"   5.30mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,4ns,32mA   64mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,8.5ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,8ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,6ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,6.5ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 5.5 V,1,1ns,8mA   8mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,1ns,8mA   8mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,2ns,2.6mA   24mA,0°C ~ 70°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,6.1ns,15mA   64mA,0°C ~ 70°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,8.6ns,3mA   24mA,0°C ~ 70°C,Surface Mount,20-SOIC (0.209"   5.30mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,8.6ns,3mA   24mA,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+D-Type   Addressable,1:8,Standard,2 V ~ 6 V,1,17ns,5.2mA   5.2mA,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+D-Type   Addressable,1:8,Standard,2 V ~ 6 V,1,17ns,5.2mA   5.2mA,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+D-Type   Addressable,1:8,Standard,2 V ~ 6 V,1,17ns,5.2mA   5.2mA,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,15ns,7.8mA   7.8mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,12ns,7.8mA   7.8mA,-55°C ~ 125°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,23ns,7.8mA   7.8mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,14ns,7.8mA   7.8mA,-40°C ~ 125°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,14ns,6mA   6mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,14ns,6mA   6mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,17ns,6mA   6mA,-40°C ~ 125°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,17ns,6mA   6mA,-40°C ~ 125°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,17ns,6mA   6mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 3.6 V,1,1.5ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,1:1,Differential,4.75 V ~ 5.25 V,4,9ns,400µA   8mA,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type Transparent Latch,1:1,Differential,4.75 V ~ 5.25 V,4,9ns,400µA   8mA,0°C ~ 70°C,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SO
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 5.5 V,1,1ns,16mA   16mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,1 V ~ 5.5 V,1,24ns,16mA   16mA,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SO
+D-Type Transparent Latch,8:8,Tri-State,2.7 V ~ 3.6 V,2,2.1ns,32mA   64mA,-40°C ~ 85°C,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,2.7 V ~ 3.6 V,1,6.3ns,32mA   64mA,-40°C ~ 85°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 5.5 V,1,5ns,8mA   8mA,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+D-Type Transparent Latch,1:1,Differential,3 V ~ 18 V,4,40ns,6.8mA   6.8mA,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+S-R Latch,1:1,Tri-State,3 V ~ 18 V,4,50ns,6.8mA   6.8mA,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+S-R Latch,1:1,Tri-State,3 V ~ 18 V,4,50ns,6.8mA   6.8mA,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type   Addressable,1:8,Standard,3 V ~ 18 V,1,50ns,6.8mA   6.8mA,-55°C ~ 125°C,Through Hole,16-DIP (0.300"   7.62mm),16-PDIP
+D-Type Transparent Latch,8:8,Standard,3 V ~ 18 V,2,50ns,6.8mA   6.8mA,-55°C ~ 125°C,Surface Mount,24-SOIC (0.209"   5.30mm Width),24-SO
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,30ns,7.8mA   7.8mA,-55°C ~ 125°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+D-Type Transparent Latch,2:2,Differential,2 V ~ 6 V,2,10ns,5.2mA   5.2mA,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type   Addressable,1:8,Standard,4.5 V ~ 5.5 V,1,16ns,4mA   4mA,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,10ns,24mA   24mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,19ns,7.8mA   7.8mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,8.6ns,3mA   24mA,0°C ~ 70°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+D-Type Transparent Latch,8:8,Tri-State,4.5 V ~ 5.5 V,1,6ns,15mA   48mA,0°C ~ 70°C,Through Hole,20-DIP (0.300"   7.62mm),20-PDIP
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 6 V,1,15ns,7.8mA   7.8mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type   Addressable,1:8,Standard,4.75 V ~ 5.25 V,1,19ns,400µA   8mA,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type Transparent Latch,1:1,Differential,4.75 V ~ 5.25 V,4,9ns,400µA   8mA,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+D-Type Transparent Latch,8:8,Tri-State,2 V ~ 5.5 V,1,1ns,16mA   16mA,-40°C ~ 85°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+D-Type Latch,8:8,Standard,4.5 V ~ 5.5 V,1,150ns,-,-40°C ~ 125°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC

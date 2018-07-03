@@ -1,0 +1,12 @@
+Magnitude Comparator,4,Active High,A<B   A=B   A>B,2 V ~ 6 V,5.2mA   5.2mA,33ns @ 6V   50pF,8µA,-55°C ~ 125°C,16-SOIC (0.209"   5.30mm Width),Surface Mount
+Magnitude Comparator,4,Active High,A<B   A=B   A>B,3 V ~ 18 V,4.2mA   4.2mA,350ns @ 15V   50pF,100µA,-55°C ~ 125°C,16-DIP (0.300"   7.62mm),Through Hole
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,24mA   24mA,10ns @ 5V   50pF,4µA,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),Surface Mount
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,2.6mA   24mA,20ns @ 5V   50pF,-,0°C ~ 70°C,20-SOIC (0.295"   7.50mm Width),Surface Mount
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,4mA   4mA,34ns @ 4.5V   50pF,8µA,-40°C ~ 125°C,20-SSOP (0.209"   5.30mm Width),Surface Mount
+Magnitude Comparator,8,Active Low,A=B   A>B,4.85 V ~ 5.25 V,400µA   24mA,30ns @ 5V   45pF,-,0°C ~ 70°C,20-SOIC (0.209"   5.30mm Width),Surface Mount
+Magnitude Comparator,4,Active High,A<B   A=B   A>B,4.75 V ~ 5.25 V,1mA   20mA,18ns @ 5V   15pF,-,0°C ~ 70°C,16-SOIC (0.154"   3.90mm Width),Surface Mount
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,2.6mA   24mA,20ns @ 5V   50pF,-,0°C ~ 70°C,20-DIP (0.300"   7.62mm),Through Hole
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,2.6mA   24mA,20ns @ 5V   50pF,-,0°C ~ 70°C,20-SOIC (0.209"   5.30mm Width),Surface Mount
+Identity Comparator,8,Active Low,A=B,4.5 V ~ 5.5 V,1mA   20mA,10ns @ 5V   50pF,-,0°C ~ 70°C,20-SOIC (0.209"   5.30mm Width),Surface Mount
+Magnitude Comparator,8,Active Low,A=B   A>B,2 V ~ 6 V,5.2mA   5.2mA,47ns @ 6V   50pF,-,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),Surface Mount
+Identity Comparator,8,Active Low,A=B,4.85 V ~ 5.25 V,400µA   24mA,23ns @ 5V   45pF,-,0°C ~ 70°C,20-DIP (0.300"   7.62mm),Through Hole

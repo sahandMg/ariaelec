@@ -1,0 +1,218 @@
+24,470,3,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,80,2,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.3 V,2.7 V ~ 5.3 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,3.84k,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,±3V   0 V ~ 5 V,3 V ~ 5 V,PGA   Selectable Address,-40°C ~ 85°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+16,500,2,Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,1k,3   5,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,3 V ~ 5.25 V,PGA,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+8,10k,1,Differential,Parallel,ADC,-,1,SAR,External   Supply,4.5 V ~ 6.3 V,4.5 V ~ 6.3 V,-,0°C ~ 70°C,20-DIP (0.300"   7.62mm),20-DIP
+8,-,1,Pseudo-Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Flash,External,4.5 V ~ 8 V,4.5 V ~ 8 V,-,0°C ~ 70°C,20-DIP (0.300"   7.62mm),20-PDIP
+8,31.25k,1,Differential   Pseudo-Differential   Single Ended,SPI,MUX-ADC,-,1,SAR,External,4.5 V ~ 6.3 V,4.5 V ~ 6.3 V,-,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+20,80,1,Differential   Single Ended,SPI,PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.3 V,2.7 V ~ 5.3 V,PGA,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,200k,1,Differential,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+16,500k,1,Differential,SPI,S/H-ADC,1:1,1,SAR,External,2.375 V ~ 2.625 V,2.375 V ~ 2.625 V,-,-40°C ~ 125°C,16-TFSOP (0.118"   3.00mm Width),16-MSOP
+12,100k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,±11.4 V ~ 16.5 V,5V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+12,100k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,±11.4 V ~ 16.5 V,5V,-,0°C ~ 70°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+12,-,1,Single Ended,Parallel,ADC,-,1,SAR,Internal,±11.4 V ~ 16.5 V,5V,-,0°C ~ 70°C,28-DIP (0.600"   15.24mm),28-PDIP
+16,100k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,±12V,5V,-,0°C ~ 70°C,16-DIP (0.300"   7.62mm),16-PDIP
+24,19.2k,8   15   16,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,±1.8V   2.7 V ~ 3.6 V,1.65 V ~ 3.6 V,PGA   Temperature Sensor,-40°C ~ 105°C,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+24,250k,2   4,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2 V ~ 5.5 V,2 V ~ 5.5 V,Temperature Sensor,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,250k,2   4,Differential   Pseudo-Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2 V ~ 5.5 V,2 V ~ 5.5 V,-,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,-,2   4,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,4.8k,2   4,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,5V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,-,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,3 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,-,2   4,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,3 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,-,4   8,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,3 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+12,2M,6   12,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,2,SAR,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,Simultaneous Sampling,-40°C ~ 125°C,32-TQFP,32-TQFP (7x7)
+12,500k,2   3   4,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,±12 V ~ 16.5 V,2.7 V ~ 5.25 V,Temperature Sensor   True Bipolar,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,5M,2,Differential,SPI   DSP,S/H-ADC,1:1,2,SAR,External   Internal,2.25 V ~ 2.75 V,2.25 V ~ 2.75 V,Simultaneous Sampling,-40°C ~ 125°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,1M,1,Differential,SPI   DSP,S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+8,1.2M,1,Single Ended,SPI   DSP,S/H-ADC,1:1,1,SAR,Supply,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+12,1M,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+16,250k,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,True Bipolar,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,750k,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,True Bipolar,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,3M,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,2.37 V ~ 2.63 V,2.37 V ~ 2.63 V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,2M,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,2.37 V ~ 2.63 V,2.37 V ~ 2.63 V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,10M,1,Differential,LVDS - Serial,ADC,-,1,SAR,External   Internal,5V,2.37 V ~ 2.63 V,-,-40°C ~ 85°C,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+16,570k,1,Pseudo-Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,1M,2   4,Pseudo-Differential   Single Ended,SPI   Parallel   DSP,MUX-S/H-MUX-ADC,2:1,1,SAR,External,5V,5V,Simultaneous Sampling,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,250k,6,Single Ended,SPI   Parallel   DSP,S/H-ADC,1:1,6,SAR,External   Internal,5V,5V,Simultaneous Sampling   True Bipolar,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+16,250k,6,Single Ended,SPI   Parallel   DSP,S/H-ADC,1:1,6,SAR,External   Internal,5V,5V,Simultaneous Sampling   True Bipolar,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+12,250k,6,Single Ended,SPI   Parallel   DSP,S/H-ADC,1:1,6,SAR,External   Internal,5V,5V,Simultaneous Sampling   True Bipolar,-40°C ~ 85°C,64-LQFP,64-LQFP (10x10)
+16,1M,1,Pseudo-Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,1M,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External,5V,5V,True Bipolar,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+18,800k,1,Differential,SPI   Parallel   DSP,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+16,250k,1,Pseudo-Differential,SPI   DSP,S/H-ADC,1:1,1,SAR,External,2.3 V ~ 5.5 V,2.3 V ~ 5.5 V,-,-40°C ~ 85°C,10-WFDFN Exposed Pad   CSP,10-LFCSP-WD (3x3)
+16,250k,1,Differential,SPI   DSP,S/H-ADC,1:1,1,SAR,External,2.3 V ~ 5.5 V,2.3 V ~ 5.5 V,-,-40°C ~ 85°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,500k,1,Differential,SPI   DSP,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,250k,8,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,2.3 V ~ 5.5 V,2.3 V ~ 5.5 V,Temperature Sensor,-40°C ~ 85°C,20-WFQFN Exposed Pad   CSP,20-LFCSP-WQ (4x4)
+18,250k,1,Differential,SPI   DSP,S/H-ADC,1:1,1,SAR,External,2.3 V ~ 5.5 V,2.3 V ~ 5.5 V,-,-40°C ~ 85°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,500k,8,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,Temperature Sensor,-40°C ~ 85°C,20-WFQFN Exposed Pad   CSP,20-LFCSP-WQ (4x4)
+16,4k,1,Single Ended,SPI,S/H-ADC,1:1,1,Sigma-Delta,External,5V,5V,-,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+16,4k,1,Single Ended,SPI,S/H-ADC,1:1,1,Sigma-Delta,External,5V,5V,-,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+16,500,2,Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,16-DIP (0.300"   7.62mm),16-PDIP
+16,500,2,Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,500,3,Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,16-DIP (0.300"   7.62mm),16-PDIP
+16,1.37k,4   8,Differential   Pseudo-Differential   Single Ended,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+16,105,2   4,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,PGA,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,1k,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,5 V ~ 10 V,5V,PGA,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+24,1k,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,5 V ~ 10 V,5V,PGA,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+24,1k,3   5,Differential   Pseudo-Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+16,1.2M,1,Differential,SPI   Parallel,ADC,-,1,Sigma-Delta,External   Internal,5V,5V,-,-40°C ~ 85°C,44-QFP,44-MQFP (10x10)
+24,6.4k,3   5,Differential,SPI   DSP,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,5V,PGA,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,15.4k,2,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,15.4k,4   8,Differential   Single Ended,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,5V,2.7 V ~ 3.6 V   5V,True Bipolar,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,15.1k,4   8,Differential   Single Ended,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,5V,2.7 V ~ 3.6 V   5V,True Bipolar,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,2.5M,1,Differential,Parallel,ADC,-,1,Sigma-Delta,External,2.5V   3.15 V ~ 5.25 V,2.5V,-,-40°C ~ 85°C,64-TQFP Exposed Pad,64-TQFP-EP (10x10)
+24,625k,1,Differential,Parallel,ADC,-,1,Sigma-Delta,External,2.5V   3.15 V ~ 5.25 V,2.5V,-,-40°C ~ 85°C,64-TQFP Exposed Pad,64-TQFP-EP (10x10)
+24,625k,1,Differential,I²S   SPI,ADC,-,1,Sigma-Delta,External,2.5V   3.15 V ~ 5.25 V,2.5V,-,-40°C ~ 85°C,64-TQFP Exposed Pad,64-TQFP-EP (10x10)
+24,32k,8,Differential   Single Ended,SPI,MUX-PGA-ADC,-,8,Sigma-Delta,External   Internal,2.2 V ~ 3.6 V,-,PGA   Simultaneous Sampling,-40°C ~ 125°C,64-WFQFN Exposed Pad   CSP,64-LFCSP-WQ (9x9)
+24,16.7,1,Differential,SPI,PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,16.7,1,Differential,SPI,PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,14-SOIC (0.154"   3.90mm Width),14-SO
+20,16.7,1,Differential,SPI,PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,14-SOIC (0.154"   3.90mm Width),14-SO
+24,120,2,Differential   Single Ended,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,2.5 V ~ 5.25 V,2.5 V ~ 5.25 V,-,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,120,1,Differential,SPI   DSP,ADC,-,1,Sigma-Delta,External,2.5 V ~ 5.25 V,2.5 V ~ 5.25 V,PGA,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+24,120,1,Differential,SPI   DSP,ADC,-,1,Sigma-Delta,External,2.5 V ~ 5.25 V,2.5 V ~ 5.25 V,-,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,470,3,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,470,6,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,470,6,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 125°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+24,123,1,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,Temperature Sensor,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,470,3,Differential,SPI   DSP,MUX-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+8,-,1,Single Ended,Parallel,S/H-ADC,1:1,1,Flash,External,5V,5V,-,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+8,1M,1,Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External,5V,5V,-,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+8,2M,4,Single Ended,Parallel,MUX-S/H-ADC,1:1,1,Pipelined,External   Internal,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,-,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+14,333k,1,Pseudo-Differential,SPI,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 125°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+14,175k,4,Single Ended,Parallel,MUX-S/H-ADC,1:1,2,SAR,External   Internal,5V,5V,Simultaneous Sampling,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+12,1M,4,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,2,SAR,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,Simultaneous Sampling,-40°C ~ 125°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,125k,8,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,125k,8,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 105°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+12,500k,2,Single Ended,SPI   Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,600k,2,Single Ended,SPI   Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,117k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,220k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+8,1M,4,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+8,1M,8,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,250k,2,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,Supply,2.35 V ~ 5.25 V,2.35 V ~ 5.25 V,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+12,1M,4,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,200k,8,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 125°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+10,20M,2,Differential   Single Ended,Parallel,S/H-ADC,1:1,2,Pipelined,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,Simultaneous Sampling,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+10,40M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,-,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+12,10M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,5V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,25M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,5V,2.85 V ~ 5.25 V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+11,200M,1,Differential   Single Ended,LVDS - Parallel,S/H-ADC,1:1,1,Pipelined,Internal,1.7 V ~ 1.9 V,1.7 V ~ 1.9 V,-,-40°C ~ 85°C,56-VFQFN Exposed Pad   CSP,56-LFCSP-VQ (8x8)
+12,80M,2,Differential   Single Ended,Parallel,S/H-ADC,1:1,2,Pipelined,Internal,1.7 V ~ 1.9 V,1.7 V ~ 3.6 V,Simultaneous Sampling,-40°C ~ 85°C,64-VFQFN Exposed Pad   CSP,64-LFCSP-VQ (9x9)
+12,20M,2,Differential   Single Ended,Parallel,S/H-ADC,1:1,2,Pipelined,External   Internal,2.7 V ~ 3.6 V,2.25 V ~ 3.6 V,Simultaneous Sampling,-40°C ~ 85°C,64-LQFP,64-LQFP (7x7)
+14,10M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,5V,5V,-,-55°C ~ 85°C,44-QFP,44-MQFP (10x10)
+16,100k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,28-DIP (0.600"   15.24mm),28-PDIP
+16,1.8M,4,Differential,SPI   Parallel,PGA-ADC,-,4,Sigma-Delta,Internal,2.97 V ~ 3.6 V,1.62 V ~ 1.98 V,PGA   Simultaneous Sampling,-40°C ~ 125°C,48-WFQFN Exposed Pad   CSP,48-LFCSP (7x7)
+16,1M,4   8,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,SAR,External   Internal,5V,5V,PGA   Temperature Sensor,-40°C ~ 85°C,40-VFQFN Exposed Pad   CSP,40-LFCSP-VQ (6x6)
+8,10k,8,Single Ended,Parallel,MUX-S/H-ADC,1:1,1,SAR,External,4.5 V ~ 6.5 V,4.5 V ~ 6.5 V,-,-40°C ~ 85°C,28-DIP (0.600"   15.24mm),28-DIP
+8,10k,8,Single Ended,Parallel,MUX-S/H-ADC,1:1,1,SAR,External,4.5 V ~ 6.5 V,4.5 V ~ 6.5 V,-,-40°C ~ 85°C,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+8,-,4,Differential   Pseudo-Differential   Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,Internal,4.5 V ~ 6.3 V,4.5 V ~ 6.3 V,-,-40°C ~ 85°C,14-SOIC (0.295"   7.50mm Width),14-SOIC
+8,189k,1,Single Ended,I²C,S/H-ADC,1:1,1,SAR,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,-40°C ~ 105°C,SOT-23-6 Thin   TSOT-23-6,TSOT-23-6
+8,200k,1,Single Ended,SPI   DSP,S/H-ADC,1:1,1,SAR,Supply,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+8,31.25k,2,Differential   Pseudo-Differential   Single Ended,SPI,MUX-ADC,-,1,SAR,External,4.5 V ~ 6.3 V,4.5 V ~ 6.3 V,-,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+8,-,4   8,Differential   Pseudo-Differential   Single Ended,SPI,MUX-ADC,-,1,SAR,External,4.5 V ~ 6.3 V,4.5 V ~ 6.3 V,-,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-DIP
+8,200M,1,Single Ended,Parallel,ADC,-,1,-,External,3 V ~ 3.6 V,2.7 V ~ 3.6 V,-,-40°C ~ 105°C,48-TQFP,48-TQFP (7x7)
+10,227k,8,Differential   Pseudo-Differential   Single Ended,Parallel,MUX-S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+10,1.5M,2,Single Ended,Parallel,S/H-ADC,1:1,1,Flash,External   Internal,5V,5V,-,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+10,1.5M,4,Single Ended,Parallel,S/H-ADC,1:1,1,Flash,External   Internal,5V,5V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+8,20M,1,Single Ended,Parallel,S/H-ADC,1:1,1,Two-Step,External   Internal,5V,5V,-,-20°C ~ 75°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+12,20M,1,Differential,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,5V,5V,-,-40°C ~ 85°C,32-LQFP,32-TQFP (7x7)
+12,200k,1,Single Ended,SPI   DSP,S/H-ADC,1:1,1,SAR,Supply,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+16,128,1,Differential   Single Ended,I²C,PGA-ADC,-,1,Sigma-Delta,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 85°C,SOT-23-6,SOT-23-6
+16,240,1,Differential   Single Ended,I²C,PGA-ADC,-,1,Sigma-Delta,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+16,240,2   3,Differential   Single Ended,I²C,MUX-PGA-ADC,-,1,Sigma-Delta,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 85°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+16,860,2   4,Differential   Single Ended,I²C,MUX-PGA-ADC,-,1,Sigma-Delta,Internal,2 V ~ 5.5 V,2 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+16,860,2   4,Differential   Single Ended,I²C,MUX-PGA-ADC,-,1,Sigma-Delta,Internal,2 V ~ 5.5 V,2 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+16,860,2   4,Differential   Single Ended,I²C,MUX-PGA-ADC,-,1,Sigma-Delta,Internal,2 V ~ 5.5 V,2 V ~ 5.5 V,PGA   Selectable Address,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+16,2k,4   7,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,780,8,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 3.3 V   5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 85°C,48-TQFP,48-TQFP (7x7)
+24,2k,2   4,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal   Supply,2.3 V ~ 5.5 V   ±2.5,2.3 V ~ 5.5 V,PGA   Temperature Sensor,-40°C ~ 125°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,2k,2   4,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal   Supply,2.3 V ~ 5.5 V   ±2.5,2.3 V ~ 5.5 V,PGA   Temperature Sensor,-40°C ~ 125°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,2k,2   4,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal   Supply,2.3 V ~ 5.5 V   ±2.5,2.3 V ~ 5.5 V,PGA   Temperature Sensor,-40°C ~ 125°C,16-VFQFN Exposed Pad,16-VQFN (3.5x3.5)
+24,240,2,Differential   Single Ended,SPI,MUX-ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,Temperature Sensor,-40°C ~ 85°C,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+24,15,4,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 85°C,24-SSOP (0.209"   5.30mm Width),24-SSOP
+24,15,4,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,2k,2   3,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+24,2k,4   7,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,2k,4   7,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,2.7 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,40k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+24,30k,1   2,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,1.8 V ~ 3.6 V,PGA,-40°C ~ 85°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+24,30k,4   8,Differential   Single Ended,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,1.8 V ~ 3.6 V,PGA,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+24,105k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,1.65 V ~ 3.6 V,-,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+24,144k,4,Differential,SPI,ADC,-,4,Sigma-Delta,External,5V,1.65 V ~ 1.95 V,-,-40°C ~ 125°C,64-TQFP Exposed Pad,64-HTQFP (10x10)
+24,144k,8,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,1.65 V ~ 1.95 V,-,-40°C ~ 105°C,64-TQFP Exposed Pad,64-HTQFP (10x10)
+24,144k,8,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,1.65 V ~ 1.95 V,-,-55°C ~ 125°C,64-TQFP Exposed Pad,64-HTQFP (10x10)
+31,4k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,1.65 V ~ 3.6 V,PGA,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+12,20k,1,Differential,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+16,5M,1,Differential,Parallel,ADC,-,1,Sigma-Delta,External   Internal,5V,2.7 V ~ 3.3 V,-,-40°C ~ 85°C,64-TQFP Exposed Pad,64-HTQFP (10x10)
+12,50M,2,Differential   Single Ended,Parallel,S/H-ADC,1:1,2,Pipelined,External   Internal,5V,3 V ~ 5 V,Simultaneous Sampling,-40°C ~ 85°C,64-TQFP Exposed Pad,64-HTQFP (10x10)
+16,40M,1,Differential,LVDS - Parallel   Parallel,S/H-ADC,1:1,1,Pipelined,Internal,3 V ~ 3.6 V,3 V ~ 3.6 V,-,-40°C ~ 85°C,48-VFQFN Exposed Pad,48-VQFN (7x7)
+14,1M,1,Pseudo-Differential   Single Ended,SPI   DSP,S/H-ADC,1:1,1,SAR,External,5V,1.65 V ~ 5.5 V,-,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,125k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V   -16.5 V ~ 5.5,5V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+12,100k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+16,100k,1,Single Ended,SPI   DSP,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,200k,1,Differential,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,200k,1,Pseudo-Differential,SPI,S/H-ADC,1:1,1,SAR,External,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,500k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+12,200k,4   8,Differential   Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 85°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+12,500k,4,Differential,SPI,MUX-S/H-ADC,1:1,2,SAR,External   Internal,5V,5V,Selectable Address   Simultaneous Sampling,-40°C ~ 125°C,24-SSOP (0.154"   3.90mm Width),24-SSOP/QSOP
+12,500k,6,Differential,SPI,S/H-MUX-ADC,3:1,2,SAR,External   Internal,5V,5V,Selectable Address   Simultaneous Sampling,-40°C ~ 85°C,48-TQFP,48-TQFP (7x7)
+16,1M,4,Pseudo-Differential,Parallel,MUX-S/H-ADC,1:1,1,SAR,External   Internal,5V,2.7 V ~ 5.25 V,-,-40°C ~ 85°C,64-VFQFN Exposed Pad,64-VQFN (9x9)
+16,100k,1,Pseudo-Differential   Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+16,100k,1,Pseudo-Differential   Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+16,500k,1,Differential   Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,5V,1.65 V ~ 5.5 V,-,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,500k,4,Differential,SPI,MUX-S/H-ADC,1:1,2,SAR,External   Internal,5V,2.7 V ~ 3.6 V   5V,Simultaneous Sampling,-40°C ~ 125°C,24-SSOP (0.154"   3.90mm Width),24-SSOP
+16,630k,6,Single Ended,SPI   Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,2.7 V ~ 3.6 V   5V,Simultaneous Sampling,-40°C ~ 125°C,64-LQFP,64-LQFP (10x10)
+16,500k,8,Single Ended,SPI   Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,2.7 V ~ 5.5 V,Simultaneous Sampling,-40°C ~ 125°C,64-LQFP,64-LQFP (10x10)
+24,617,8,Single Ended,SPI,MUX-ADC,-,1,Sigma-Delta,External,5V,5V,Selectable Address,-40°C ~ 85°C,24-SSOP (0.209"   5.30mm Width),24-SSOP
+24,3.84k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,±3V   0 V ~ 5 V,2.7 V ~ 5.5 V,Selectable Address,-20°C ~ 70°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+24,3.84k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,±3V   0 V ~ 5 V,2.7 V ~ 5.5 V,Selectable Address,-20°C ~ 70°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+24,3.84k,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,±3V   0 V ~ 5 V,3 V ~ 5 V,PGA   Selectable Address,-40°C ~ 85°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+24,3.84k,4,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,±3V   0 V ~ 5 V,3 V ~ 5 V,PGA   Selectable Address,-40°C ~ 85°C,24-SSOP (0.209"   5.30mm Width),24-SSOP
+24,50k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,2.5 V ~ 5 V,1.8 V ~ 3.3 V,-,-40°C ~ 85°C,24-SSOP (0.209"   5.30mm Width),24-SSOP
+8,20M,1,Single Ended,Parallel,S/H-ADC,1:1,1,Flash,External   Internal,5V,5V,-,-40°C ~ 85°C,24-SOIC (0.209"   5.30mm Width),24-SOIC
+24,4k,4,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External,5V,2.7 V ~ 5.25 V,PGA   Temperature Sensor,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+24,80,2,Differential,SPI,MUX-PGA-ADC,-,1,Sigma-Delta,External   Internal,5V,2.7 V ~ 5.25 V,PGA,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+12,3M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,±5V,5V,-,0°C ~ 70°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,1.25M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,0°C ~ 70°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,10M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,±4.75 V ~ 5.25 V,2.7 V ~ 5.25 V,PGA,-40°C ~ 85°C,28-SSOP (0.154"   3.90mm Width),28-SSOP
+12,16.8k,8,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,24-SSOP (0.209"   5.30mm Width),24-SSOP
+16,100k,1,Single Ended,Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,150k,2,Differential   Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,-,0°C ~ 70°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,10M,1,Differential,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,3.135 V ~ 3.465 V,3.135 V ~ 3.465 V,PGA,0°C ~ 70°C,48-WFQFN Exposed Pad,48-QFN (7x7)
+16,25M,1,Differential,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,3.135 V ~ 3.465 V,3.135 V ~ 3.465 V,PGA,0°C ~ 70°C,48-WFQFN Exposed Pad,48-QFN (7x7)
+12,40M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,2.7 V ~ 3.4 V,2.7 V ~ 3.4 V,-,0°C ~ 70°C,32-WFQFN Exposed Pad,32-QFN (5x5)
+10,80M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,2.7 V ~ 3.4 V,2.7 V ~ 3.4 V,-,0°C ~ 70°C,32-WFQFN Exposed Pad,32-QFN (5x5)
+14,65M,1,Differential   Single Ended,Parallel,S/H-ADC,1:1,1,Pipelined,External   Internal,2.7 V ~ 3.4 V,2.7 V ~ 3.4 V,-,0°C ~ 70°C,32-WFQFN Exposed Pad,32-QFN (5x5)
+12,500k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,Internal,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,0°C ~ 70°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+12,2.5M,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,Internal,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,0°C ~ 70°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+14,2.5M,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,Internal,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 125°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+14,2.5M,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,Internal,2.7 V ~ 3.6 V   5V,2.7 V ~ 3.6 V   5V,-,-40°C ~ 85°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+16,1M,1,Differential,SPI   Parallel,S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,-,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+24,7.5,1,Single Ended,SPI,ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,0°C ~ 70°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+24,7.5,2,Single Ended,SPI,ADC,-,1,Sigma-Delta,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,0°C ~ 70°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+24,3.5k,1,Differential,SPI,ADC,-,1,Sigma-Delta,External,5V,5V,-,-40°C ~ 85°C,16-SSOP (0.154"   3.90mm Width),16-SSOP
+8,188k,6   12,Differential   Single Ended,I²C,MUX-S/H-ADC,1:1,1,SAR,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,-,-40°C ~ 85°C,16-SSOP (0.154"   3.90mm Width),16-QSOP
+24,64k,4,Differential,SPI,S/H-ADC,1:1,4,Sigma-Delta,External   Internal,3 V ~ 3.6 V,2.7 V ~ 3.6 V,Simultaneous Sampling,-40°C ~ 105°C,38-TFSOP (0.173"   4.40mm Width),38-TSSOP
+16,64k,4,Differential,SPI,ADC,-,4,Sigma-Delta,External   Internal,3 V ~ 3.6 V,2.7 V ~ 3.6 V,Simultaneous Sampling,-40°C ~ 105°C,38-TFSOP (0.173"   4.40mm Width),38-TSSOP
+10,65M,2,Differential   Single Ended,Parallel,S/H-ADC,1:1,2,Pipelined,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,Simultaneous Sampling,-40°C ~ 85°C,48-TQFP Exposed Pad,48-TQFP-EP (7x7)
+8,1M,8,Single Ended,Parallel,MUX-S/H-ADC,1:1,1,Flash,External,5V,5V,Selectable Address,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,400k,2   4,Pseudo-Differential   Single Ended,Parallel,MUX-S/H-ADC,1:1,1,SAR,External   Internal,5V,2.7 V ~ 5.5 V,-,-40°C ~ 85°C,24-SSOP (0.154"   3.90mm Width),24-QSOP
+18,100,1,Pseudo-Differential,SPI,ADC,-,1,Multi-Slope,External,±5V,±5V,PGA,0°C ~ 70°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+18,100,1,Pseudo-Differential,SPI,ADC,-,1,Multi-Slope,External,±5V,±5V,PGA,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,75k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,Internal,5V,5V,-,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+12,100k,1,Pseudo-Differential,SPI   Parallel,S/H-ADC,1:1,1,SAR,Internal,±5V   5V,5V,-,0°C ~ 70°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+18,3.75,1,Differential,I²C,PGA-ADC,-,1,Sigma-Delta,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,PGA,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+18,3.75,1,Differential,I²C,PGA-ADC,-,1,Sigma-Delta,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,PGA,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+10,38k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,Selectable Address,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+10,38k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+12,66k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,-,0°C ~ 70°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,66k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,66k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+12,66k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,5V,5V,-,-40°C ~ 125°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+8,76k,20,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External   Internal,5V,5V,Selectable Address,-40°C ~ 85°C,28-DIP (0.600"   15.24mm),28-PDIP
+8,40k,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,3 V ~ 6 V,3 V ~ 6 V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+10,38k,11,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,3 V ~ 5.5 V,3 V ~ 5.5 V,Selectable Address,0°C ~ 70°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+10,87k,8,Single Ended,SPI,MUX-S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,-40°C ~ 85°C,20-SSOP (0.209"   5.30mm Width),20-SSOP
+10,1.25M,1,Single Ended,SPI,S/H-ADC,1:1,1,SAR,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,200k,4,Single Ended,SPI   DSP,MUX-S/H-ADC,1:1,1,SAR,External   Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,-,0°C ~ 70°C,16-SOIC (0.154"   3.90mm Width),16-SOIC

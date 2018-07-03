@@ -1,0 +1,10 @@
+2 Independent,1200V,480A,1450W,2.15V @ 15V   300A,5mA,21nF @ 25V,Standard,No,-40°C ~ 125°C,Chassis Mount,Module,Module
+2 Independent,1200V,900A,5100W,2.05V @ 15V   900A,5mA,54nF @ 25V,Standard,Yes,-40°C ~ 150°C,Chassis Mount,Module,Module
+Three Phase Inverter,1200V,20A,20mW,2.25V @ 15V   10A,1mA,600pF @ 25V,Three Phase Bridge Rectifier,Yes,-40°C ~ 150°C,Chassis Mount,Module,Module
+-,-,-,-,-,-,-,-,-,-,-,-,-
+Three Phase Inverter,1200V,70A,20mW,2.2V @ 15V   35A,1mA,2nF @ 25V,Three Phase Bridge Rectifier,Yes,-40°C ~ 150°C,Chassis Mount,Module,Module
+Single,1200V,140A,480W,2.15V @ 15V   100A,5mA,7.1nF @ 25V,Standard,No,-40°C ~ 125°C (TJ),Chassis Mount,Module,Module
+Full Bridge,1200V,107A,375W,2.15V @ 15V   75A,1mA,4.3nF @ 25V,Standard,Yes,-40°C ~ 150°C,Chassis Mount,Module,Module
+Full Bridge,1200V,72A,350W,3V @ 15V   50A,1mA,3.3nF @ 25V,Standard,No,150°C (TJ),Chassis Mount,Module,Module
+Three Phase Inverter,1200V,69A,335W,2.15V @ 15V   50A,1mA,2.8nF @ 25V,Standard,Yes,-40°C ~ 150°C,Chassis Mount,Module,Module
+2 Independent,1700V,-,-,-,-,-,Standard,No,-25°C ~ 85°C,Through Hole,Module,Module

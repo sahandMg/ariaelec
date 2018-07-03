@@ -1,0 +1,111 @@
+Magnetic Coupling,CAN,Yes,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,-,-,-,3.3V   5V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Magnetic Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,I²C,No,2,2/2,Bidirectional,2500Vrms,25kV/µs,1Mbps,-,145ns   85ns,-,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,3750Vrms,25kV/µs,10Mbps,50ns   50ns,5ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,3750Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,3750Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,5000Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,5000Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,5000Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,SPI,No,7,5/2,Unidirectional,3750Vrms,25kV/µs,34Mbps,14ns   14ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,50ns   50ns,5ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,USB,No,2,2/2,Bidirectional,5000Vrms,25kV/µs,12Mbps,70ns   70ns,-,20ns   20ns (Max),3.1 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC-IC
+Magnetic Coupling,USB,No,2,2/2,Bidirectional,5000Vrms,25kV/µs,12Mbps,70ns   70ns,-,20ns   20ns (Max),3.1 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,2/2,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,1/3,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,3/1,Unidirectional,5000Vrms,25kV/µs,25Mbps,60ns   60ns,6ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,1000Vrms,15kV/µs,1Mbps,75ns   75ns,25ns,2ns   2ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,1000Vrms,15kV/µs,25Mbps,50ns   50ns,5ns,2ns   2ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+GMR (Giant Magnetoresistive),General Purpose,No,1,1/0,Unidirectional,2500Vrms,15kV/µs,100Mbps,15ns   15ns,5ns,2ns   2ns,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+GMR (Giant Magnetoresistive),General Purpose,No,4,3/1,Unidirectional,2500Vrms,30kV/µs,110Mbps,15ns   15ns,3ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 100°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,I²C,No,2,2/2,Bidirectional,2500Vrms,25kV/µs,1Mbps,-,80ns   21ns,-,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,I²C,No,2,2/1,Bidirectional   Unidirectional,2500Vrms,25kV/µs,1Mbps,-,80ns   21ns,-,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,RS422   RS485,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,20Mbps,-,-,-,3.15 V ~ 5.5 V   4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,50Mbps,35ns   35ns,3ns,2ns   2ns,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+Capacitive Coupling,General Purpose,No,1,1/0,Unidirectional,2500Vrms,25kV/µs,100Mbps,24ns   24ns,2ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,1Mbps,475ns   475ns,14ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,25Mbps,42ns   42ns,2ns,1ns   1ns,2.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,150Mbps,16ns   16ns,1ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,475ns   475ns,14ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,5Mbps,70ns   70ns,3ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,25Mbps,42ns   42ns,2ns,1ns   1ns,2.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,2,1/1,Unidirectional,4000Vpk,25kV/µs,25Mbps,42ns   42ns,2ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,25Mbps,42ns   42ns,2.5ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,4/0,Unidirectional,4000Vpk,25kV/µs,1Mbps,95ns   95ns,10ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,25Mbps,42ns   42ns,2.5ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,3/1,Unidirectional,4000Vpk,25kV/µs,1Mbps,95ns   95ns,10ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,25Mbps,42ns   42ns,2.5ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,2/2,Unidirectional,4000Vpk,25kV/µs,1Mbps,95ns   95ns,10ns,2ns   2ns,3.15 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,4/0,Unidirectional,4243Vrms,25kV/µs,150Mbps,10.5ns   10.5ns,2ns,1.6ns   1ns,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,6,4/4,Bidirectional   Unidirectional,600Vrms,1.5kV/µs,2Mbps   50Mbps,-,-,-,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,3/1,Unidirectional,5000Vrms,25kV/µs (Typ),25Mbps,27.5ns   28.8ns,2.6ns,2ns   2ns,1.71 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs (Typ),1Mbps,35ns   35ns,25ns,3.8ns   2.8ns,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,6,4/2,Unidirectional,2500Vrms,35kV/µs,1Mbps,35ns   35ns,25ns,2.5ns   2.5ns,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Capacitive Coupling,General Purpose,No,1,1/0,Unidirectional,3750Vrms,35kV/µs,15Mbps,60ns   60ns,20ns,15ns   5ns,3 V ~ 30 V,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Capacitive Coupling,General Purpose,No,1,1/0,Unidirectional,5000Vrms,35kV/µs,15Mbps,50ns   50ns,25ns,2.5ns   2.5ns,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,6-SOIC (0.295"   7.50mm Width),6-SDIP Gull Wing
+Magnetic Coupling,RS422   RS485,No,3,2/1,Bidirectional,2500Vrms,25kV/µs,500kbps,-,-,600ns   600ns (Max),3 V   5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,RS422   RS485,No,3,2/1,Unidirectional,5000Vrms,25kV/µs,500kbps,-,-,450ns   450ns,3.3V   5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,RS422   RS485,No,3,2/1,Bidirectional,2500Vrms,25kV/µs,20Mbps,55ns   55ns,5ns,5ns   5ns,3 V   5 V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,RS422   RS485,No,2,1/1,Unidirectional,5000Vrms,25kV/µs,16Mbps,60ns   60ns,-,-,3 V   5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,RS422   RS485,No,3,2/1,Unidirectional,5000Vrms,25kV/µs,16Mbps,60ns   60ns,-,20ns   20ns (Max),3.3V   5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,RS422   RS485,Yes,3,2/1,Unidirectional,2500Vrms,25kV/µs,500kbps,-,-,1.1µs   1.1µs (Max),3.3V   5V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Magnetic Coupling,RS422   RS485,Yes,3,2/1,Unidirectional,5000Vrms,25kV/µs,16Mbps,100ns   100ns,-,15ns   15ns (Max),3.3V   5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC-IC
+Magnetic Coupling,RS422   RS485,Yes,3,2/1,Unidirectional,5000Vrms,25kV/µs,500kbps,700ns   700ns,-,1.1µs   1.1µs (Max),3.3V   5V,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC-IC
+Magnetic Coupling,RS232,Yes,2,1/1,Unidirectional,2500Vrms,25kV/µs,460Kbps,-,-,2.3ns   2.3ns,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Magnetic Coupling,CAN,Yes,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,-,-,-,3.3V   5V,-40°C ~ 85°C,Surface Mount,20-SOIC (0.295"   7.50mm Width),20-SOIC
+Magnetic Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,2/0,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,I²C,No,2,2/2,Bidirectional,2500Vrms,25kV/µs,1Mbps,-,145ns   85ns,-,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,3750Vrms,25kV/µs,10Mbps,50ns   50ns,5ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,3750Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,3750Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,5000Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,5000Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,2/2,Unidirectional,5000Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,SPI,No,7,5/2,Unidirectional,3750Vrms,25kV/µs,34Mbps,14ns   14ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,150ns   150ns,40ns,10ns   10ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,50ns   50ns,5ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,2,1/1,Unidirectional,2500Vrms,25kV/µs,10Mbps,50ns   50ns,3ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Magnetic Coupling,General Purpose,No,3,2/1,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,4/0,Unidirectional,2500Vrms,25kV/µs,90Mbps,32ns   32ns,2ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,USB,No,2,2/2,Bidirectional,5000Vrms,25kV/µs,12Mbps,70ns   70ns,-,20ns   20ns (Max),3.1 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC-IC
+Magnetic Coupling,USB,No,2,2/2,Bidirectional,5000Vrms,25kV/µs,12Mbps,70ns   70ns,-,20ns   20ns (Max),3.1 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,3/1,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,2/2,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,1/3,Unidirectional,2500Vrms,25kV/µs,1Mbps,100ns   100ns,40ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,Yes,4,3/1,Unidirectional,5000Vrms,25kV/µs,25Mbps,60ns   60ns,6ns,2.5ns   2.5ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,1000Vrms,15kV/µs,1Mbps,75ns   75ns,25ns,2ns   2ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+Magnetic Coupling,General Purpose,No,4,3/1,Unidirectional,1000Vrms,15kV/µs,25Mbps,50ns   50ns,5ns,2ns   2ns,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-QSOP
+GMR (Giant Magnetoresistive),General Purpose,No,4,4/0,Unidirectional,2500Vrms,15kV/µs,110MBd,15ns   15ns,3ns,1ns   1ns,3 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+GMR (Giant Magnetoresistive),General Purpose,No,4,4/0,Unidirectional,2500Vrms,15kV/µs,110MBd,15ns   15ns,3ns,1ns   1ns,3 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+GMR (Giant Magnetoresistive),General Purpose,No,4,2/2,Unidirectional,2500Vrms,30kV/µs,110Mbps,15ns   15ns,3ns,1ns   1ns,3 V ~ 5.5 V,-40°C ~ 100°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC

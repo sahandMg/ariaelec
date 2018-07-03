@@ -1,0 +1,4 @@
+Converter   Analog and Digital Satellite Receivers,15 V ~ 25 V,1,13V   18V,0°C ~ 85°C,Surface Mount,PowerSO-10 Exposed Bottom Pad,10-PowerSO
+Charge Pump   SIM Cards,2.7 V ~ 4.2 V,1,4.75V,-40°C ~ 85°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-uMAX
+Converter   DDR Bus Termination Regulator,1.4 V ~ 5.5 V,1,Adjustable,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width) Exposed Pad,8-SOP-EP
+Converter   DDR,3.1 V ~ 6.5 V,1,0.5 V ~ 0.9 V,-40°C ~ 85°C,Surface Mount,10-WFDFN Exposed Pad,10-SON (2x2)

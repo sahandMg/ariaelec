@@ -1,0 +1,12 @@
+-,0.4%,-,-,-,3V ~ 3.6V,Single Phase   Dual Phase,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+-,0.1%,2V,0.8V,-,3V ~ 3.6V,Single Phase,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+390 kOhm,0.1%,2.4V,0.8V,3mA,4.75V ~ 5.25V,Single Phase,-40°C ~ 85°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+320 kOhm,0.1%,2.4V   4V   4.5V,0.5V   0.8V,5mA,4.75V ~ 5.25V,Single Phase,-40°C ~ 85°C,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+770 kOhm,0.1%,1.3V   2V   2.4V,0.4V   0.8V,4mA,2.4V ~ 3.7V,Single Phase,-40°C ~ 85°C,Surface Mount,64-LQFP,64-LQFP (10x10)
+370 kOhm,0.1%,2.4V,0.8V,7mA,4.75V ~ 5.25V,3 Phase,-40°C ~ 85°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+380 kOhm,0.1%,2.4V,0.8V,8mA,4.75V ~ 5.25V,3 Phase,-40°C ~ 85°C,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+390 kOhm,0.1%,2.4V,0.8V,3mA,4.75V ~ 5.25V,Single Phase,-40°C ~ 85°C,Surface Mount,20-SSOP (0.209"   5.30mm Width),20-SSOP
+400 kOhm,0.2%,2V   2.4V,0.4V   0.8V,20mA,2.8V ~ 3.7V,3 Phase,-40°C ~ 85°C,Surface Mount,40-WFQFN Exposed Pad   CSP,40-LFCSP-WQ (6x6)
+490 kOhm,-,2.4V   3V,0.4V   0.8V,25mA,2.97V ~ 3.63V,3 Phase,-40°C ~ 85°C,Surface Mount,40-WFQFN Exposed Pad   CSP,40-LFCSP-WQ (6x6)
+-,0.1%,2.4V,0.4V,7mA,3V ~ 3.6V,Single Phase,-40°C ~ 85°C,Surface Mount,28-WFQFN Exposed Pad   CSP,28-LFCSP-WQ (5x5)
+30 kOhm,0.1%,0.8V,0.2V,2.9mA,4.75V ~ 5.25V,Single Phase,-40°C ~ 85°C,Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP

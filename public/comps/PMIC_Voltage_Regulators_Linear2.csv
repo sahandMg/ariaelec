@@ -1,0 +1,469 @@
+Positive,Fixed,1,9V,3.3V,-,0.7V @ 300mA,300mA,650µA,-,-,-,Over Current   Over Temperature,-30°C ~ 80°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1.5A,8mA,-,62dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1.5A,8mA,-,62dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,40V,24V,-,2V @ 1A (Typ),1.5A,8mA,-,50dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,5V,-,-,500mA,6mA,-,62dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 150°C,Through Hole,TO-251-3 Short Leads   IPak   TO-251AA,IPAK (TO-251)
+Positive,Fixed,1,35V,9V,-,-,500mA,6mA,-,56dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,35V,12V,-,-,500mA,6mA,-,55dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,30V,3.3V,-,1.5V @ 1.5A,1.5A,10mA,-,79dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,16V,3.3V,-,0.7V @ 500mA,500mA,1mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,26V,5V,-,1V @ 1A,1A,15mA,60mA,72dB (120Hz),-,Over Temperature   Reverse Polarity   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,1.2V,37V,-,500mA,-,-,80dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C (TJ),Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252   (D-Pak)
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Adjustable,1,16V,1V,5.5V,1.1V @ 800mA,800mA,1.5mA,15mA,60dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-PowerSOIC (0.154"   3.90mm Width),8-SO PowerPad
+Positive,Fixed,1,7.5V,3.3V,-,1.5V @ 1.5A,1.5A,-,-,72dB (120Hz),-,Over Current   Over Temperature,25°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,TO-263-3
+Positive,Fixed,1,35V,6V,-,2V @ 1A (Typ),1.5A,8mA,-,59dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,35V,9V,-,2V @ 1A (Typ),1.5A,8mA,-,55dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,12V,-,2V @ 1A (Typ),1.5A,8mA,-,55dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,12V,-,2V @ 1A (Typ),1.5A,8mA,-,55dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,15V,-,2V @ 1A (Typ),1.5A,8mA,-,54dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,18V,-,2V @ 1A (Typ),1.5A,8mA,-,53dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220
+Positive,Fixed,1,30V,5V,-,-,100mA,5.5mA,6mA,49dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Fixed,1,30V,5V,-,-,100mA,5.5mA,6mA,49dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Positive,Fixed,1,35V,15V,-,-,500mA,6mA,-,54dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Negative,Fixed,1,-35V,-5V,-,1.4V @ 1A (Typ),1.5A,3mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220
+Negative,Fixed,1,-35V,-8V,-,1.1V @ 1A (Typ),1.5A,3mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220
+Negative,Fixed,1,-35V,-12V,-,1.1V @ 1A (Typ),1.5A,3mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Negative,Fixed,1,-35V,-15V,-,1.1V @ 1A (Typ),1.5A,3mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,16V,3.3V,-,1.3V @ 500mA,500mA,2mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Negative,Adjustable,1,-40V,-1.2V,-37V,-,1.5A,-,-,77dB (120Hz),-,Over Current   Over Temperature,-25°C ~ 150°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,26V,12V,-,0.8V @ 1A,1A,10mA,15mA,66dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,1.2V,37V,-,100mA,10mA,-,80dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Adjustable,1,-50V,-1.2V,-37V,-,1.5A,-,-,77dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,1.24V,32V,-,5A,-,-,75dB ~ 60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,2V,37V,-,150mA,-,-,86dB ~ 74dB (50Hz ~ 10kHz),Current Limit   Frequency Control,Short Circuit,0°C ~ 70°C,Through Hole,14-DIP (0.300"   7.62mm),14-DIP
+Positive,Fixed,1,30V,5V,-,0.6V @ 100mA,100mA,120µA,14mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,5.5V,2.5V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,30V,5V,-,-,100mA,6mA,-,49dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Fixed,1,-30V,-8V,-,-,100mA,5.5mA,6mA,45dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,5.5V,2.8V,-,0.16V @ 150mA,150mA,22µA,320µA,-,Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,4-WFBGA   WLCSP,4-WLCSP (0.76x0.76)
+Positive,Fixed,1,5.5V,3.3V,-,0.16V @ 150mA,150mA,22µA,320µA,70dB ~ 55dB (10kHz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-5
+Positive,Adjustable,1,3.6V,0.75V,3.3V,0.28V @ 2A,2A,800µA,1.8mA,65dB ~ 51dB (1kHz ~ 100kHz),Enable   Power Good   Soft Start,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,16-WQFN Exposed Pad   CSP,16-LFCSP-WQ (4x4)
+Positive,Fixed,1,12V,3.3V,-,0.4V @ 200mA,200mA,400µA,4mA,-,Enable,Over Temperature,-25°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,12V,5V,-,0.4V @ 200mA,200mA,400µA,4mA,-,Enable,Over Temperature,-25°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,12V,2.5V,-,0.23V @ 200mA,200mA,50µA,4mA,-,Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Positive,Fixed,1,12V,5V,-,0.23V @ 200mA,200mA,50µA,4mA,-,Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Positive,Adjustable,1,11V,1.5V,10V,0.4V @ 500mA,500mA,130µA,10mA,-,Enable,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,8-WFDFN Exposed Pad   CSP,8-LFCSP-WD (3x3)
+Positive,Adjustable,1,11V,1.5V,10V,0.4V @ 500mA,500mA,130µA,10mA,-,Enable,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Positive,Adjustable,1,11V,1.5V,10V,0.4V @ 500mA,500mA,130µA,10mA,-,Enable,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,8V,1.8V,-,0.4V @ 1A,1A,190µA,30mA,-,-,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Fixed,1,8V,2.5V,-,0.4V @ 1A,1A,190µA,30mA,-,-,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Fixed,1,8V,3.3V,-,0.4V @ 1A,1A,190µA,30mA,-,-,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Adjustable (Fixed),1,16.5V,1.3V (5V),16V,0.35V @ 200mA,250mA,35µA,20mA,-,Enable   Low Battery Detection,-,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,20V,5V,-,0.55V @ 500mA,500mA,900µA,1.6mA,60dB ~ 50dB (10kHz ~ 100kHz),Enable   Power Good   Under Voltage Lockout,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width) Exposed Pad,8-SOIC-EP
+Positive,Fixed,2,18V,1.8V   3.3V,-,1.4V @ 1A   1.4V @ 1A,1A   1A,10mA,-,60dB (120Hz),-,Over Current   Over Temperature,0°C ~ 150°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOP
+Positive,Fixed,1,5.5V,1.8V,-,0.5V @ 300mA,300mA,100µA,-,58dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SC-59R
+Positive,Fixed,1,6V,3.3V,-,0.4V @ 600mA,600mA,80µA,-,65sB (100Hz ~ 1KHz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,SC-74A   SOT-753,SOT-25
+Positive,Fixed,1,6V,3.3V,-,0.6V @ 250mA,250mA,1.5µA,-,-,-,Over Current,-40°C ~ 85°C (TA),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,3.3V,-,0.3V @ 150mA,150mA,75µA,85µA,65dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,25V,10V,-,-,1A,2.5mA,5mA,55dB (120Hz),-,Over Current   Over Temperature   Over Voltage,-40°C ~ 85°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,18V,1.2V,-,1.2V @ 1A,1A,-,-,72dB (120Hz),Enable,Over Current   Over Temperature,25°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-PAK (TO-252)
+Positive,Fixed,1,18V,1.2V,-,1.2V @ 1A,1A,-,-,72dB (120Hz),Enable,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Adjustable,1,5.5V,1V,5.5V,0.4V @ 180mA,180mA,150µA,-,50dB (100kHz),Enable   Power Good,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Positive,Adjustable (Fixed),4,5.6V,2.5V (3V   3V   3V   4.5V),5.2V,-,20mA   20mA   80mA   120mA,2.3mA,-,80dB ~ 35dB (1kHz ~ 10mHz),Enable,-,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Positive,Adjustable,1,5.5V,1.8V,5V,-,400mA,1.5mA,-,70dB ~ 20dB (1kHz ~ 50MHz),Enable,Over Temperature,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Positive,Fixed,1,7V,3.3V,-,1.3V @ 1.5A,1.5A,10mA,-,70dB (120Hz),-,Over Current   Over Temperature,0°C ~ 150°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,TO-263
+Positive,Fixed,1,15V,3.3V,-,1.4V @ 800mA,800mA,10mA,-,55dB (120Hz),-,Over Current   Over Temperature,-25°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,15V,3.3V,-,1.4V @ 800mA,800mA,10mA,-,55dB (120Hz),-,Over Current   Over Temperature,-25°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Adjustable,1,12V,1.25V,10.5V,1.5V @ 5A,5A,10mA,-,72dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,20V,5V,-,0.8V @ 250mA,250mA,1mA,6mA,70dB ~ 55dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,20V,3.3V,-,0.82V @ 250mA,250mA,1mA,6mA,73dB ~ 55dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,20V,3.3V,-,0.8V @ 250mA,250mA,1mA,6mA,73dB ~ 55dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Adjustable (Fixed),2,28V,4.9V (5V),5.1V,0.4V @ 100mA   0.6V @ 400mA,100mA   400mA,-,-,-,Enable   Reset,Over Temperature,-40°C ~ 150°C,Surface Mount,20-SOIC (0.433"   11.00mm Width) Exposed Pad,PowerSO-20
+Positive,Fixed,1,28V,5V,-,0.5V @ 100mA,100mA,300µA,5mA,-,Reset,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1.5A,6mA,-,68dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1.5A,6mA,-,68dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,8V,-,2V @ 1A (Typ),1.5A,6mA,-,62dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220
+Positive,Fixed,1,35V,8V,-,2V @ 1A (Typ),1.5A,8mA,-,56dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,12V,-,2V @ 1A (Typ),1.5A,6mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,15V,-,2V @ 1A (Typ),1.5A,6mA,-,58dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,15V,-,2V @ 1A (Typ),1.5A,8mA,-,54dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,40V,24V,-,2V @ 1A (Typ),1.5A,8mA,-,50dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,30V,8V,-,-,100mA,5.5mA,6mA,45dB (120Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,30V,8V,-,-,100mA,5.5mA,6mA,45dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Fixed,1,35V,12V,-,-,100mA,6mA,6.5mA,42dB (120Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Fixed,1,20V,5V,-,2.2V @ 40mA,150mA,-,-,79dB (120Hz),Reset,Over Current   Over Temperature,-30°C ~ 80°C,Through Hole,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,TP5HFA
+Positive,Fixed,1,35V,5V,-,-,500mA,6mA,-,62dB (120Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,35V,9V,-,-,500mA,6mA,-,56dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,35V,15V,-,-,500mA,6mA,-,54dB (120Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,40V,24V,-,-,500mA,6mA,-,50dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,35V,5V,-,-,2A,8mA,-,54dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 150°C,Through Hole,TO-220-3,TO-220AB
+Negative,Fixed,1,-35V,-5V,-,1.4V @ 1A (Typ),1.5A,3mA,-,60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Negative,Fixed,1,-30V,-5V,-,-,100mA,5.5mA,6mA,49dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Negative,Fixed,1,-30V,-5V,-,-,100mA,5.5mA,6mA,49dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Adjustable,1,30V,1.25V,28.5V,1.5V @ 5A,5A,10mA,-,72dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,30V,3.3V,-,1.5V @ 1.5A,1.5A,10mA,-,79dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,D2PAK-3
+Positive,Fixed,1,30V,3.3V,-,1.5V @ 1.5A,1.5A,10mA,-,79dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,30V,1.8V,-,1.5V @ 1.5A,1.5A,10mA,-,82dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,30V,2.5V,-,1.5V @ 1.5A,1.5A,10mA,-,81dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,30V,3.3V,-,1.5V @ 1.5A,1.5A,10mA,-,79dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Adjustable,1,30V,1.25V,28.5V,1.5V @ 1.5A,1.5A,10mA,-,88dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,30V,3.3V,-,1.5V @ 1.5A,1.5A,10mA,-,79dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,15V,1.2V,-,1.2V @ 800mA,800mA,5mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,15V,2.5V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,15V,5V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Adjustable,1,15V,1.25V,15V,1.3V @ 800mA,800mA,5mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,15V,1.2V,-,1.3V @ 800mA,800mA,5mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,1.2V,-,1.2V @ 800mA,800mA,5mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,1.8V,-,1.3V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,1.8V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,2.5V,-,1.3V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,3.3V,-,1.3V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,5V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,15V,5V,-,1.2V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,14V,1.8V,-,0.7V @ 1.5A,1.5A,180µA,80mA,72dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,14V,2.5V,-,0.7V @ 1.5A,1.5A,180µA,80mA,70dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,14V,5V,-,0.7V @ 1.5A,1.5A,180µA,80mA,64dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,14V,3.3V,-,0.7V @ 1.5A,1.5A,180µA,80mA,67dB (120Hz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,P²PAK (4 Leads + Tab),P2PAK
+Positive,Fixed,1,14V,5V,-,0.7V @ 1.5A,1.5A,180µA,80mA,64dB (120Hz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Adjustable,1,14V,1.23V,13.3V,0.7V @ 1.5A,1.5A,180µA,80mA,75dB (120Hz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Fixed,1,6V,3.3V,-,0.4V @ 1.5A,1.5A,2.5mA,-,65dB ~ 55dB (120Hz ~ 1kHz),-,Over Current   Over Temperature,-40°C ~ 125°C (TJ),Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,6V,2.5V,-,0.1V @ 150mA,150mA,150µA,250µA,60dB ~ 50dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,6V,3.3V,-,0.1V @ 150mA,150mA,150µA,250µA,60dB ~ 50dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Adjustable,1,5.5V,0.8V,4.5V,0.4V @ 3A,3A,4mA,6mA,68dB (120Hz),Enable,Over Current   Over Temperature,-25°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Adjustable,1,5.5V,0.8V,5.4V,0.1V @ 100mA,150mA,160µA,-,52dB ~ 51dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3.3V,-,0.4V @ 300mA,300mA,60µA,120µA,55dB (120Hz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C (TJ),Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,18V,5V,-,0.6V @ 1.2A,1.2A,1.5µA,380µA,87dB ~ 50dB (120Hz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C (TJ),Surface Mount,6-VDFN Exposed Pad,6-DFN (3x3)
+Positive,Adjustable,1,18V,1.18V,-,0.6V @ 1.2A,1.2A,1.5µA,380µA,87dB ~ 50dB (120Hz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C (TJ),Surface Mount,6-VDFN Exposed Pad,6-DFN (3x3)
+Positive,Fixed,1,6V,3.3V,-,0.25V @ 300mA,300mA,150µA,300µA,55dB ~ 50dB (1kHz ~ 10kHz),Shutdown,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,1.5V,-,1V @ 200mA (Typ),500mA,1mA,12mA,82dB ~ 65dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,16V,2.5V,-,1.3V @ 500mA,500mA,2mA,12mA,82dB ~ 65dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,16V,3.3V,-,0.7V @ 500mA,500mA,1mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,16V,3.3V,-,0.7V @ 500mA,500mA,1mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Fixed,1,16V,3.3V,-,0.7V @ 500mA,500mA,1mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,16V,3.3V,-,1.3V @ 500mA,500mA,2mA,12mA,80dB ~ 65dB (120Hz ~ 65dB),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Fixed,1,16V,5V,-,0.7V @ 500mA,500mA,1mA,12mA,76dB ~ 60dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,16V,9V,-,0.7V @ 500mA,500mA,1.5mA,12mA,71dB ~ 56dB (120Hz ~ 10kHz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Fixed,1,16V,9V,-,0.7V @ 500mA,500mA,1.5mA,12mA,71dB ~ 56dB (120Hz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,PPAK
+Positive,Fixed,1,14V,8V,-,0.35V @ 150mA,150mA,250µA,-,55dB (400Hz),Enable,Over Current   Over Temperature,-30°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,14V,3.3V,-,0.5V @ 200mA,200mA,250µA,-,55dB (400Hz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,27V,3.3V,-,1.5V @ 3A,3A,10mA,-,72dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C (TJ),Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Adjustable,1,29V,1.25V,15V,1.5V @ 3A,3A,10mA,-,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C (TJ),Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Fixed,1,27V,3.3V,-,1.5V @ 3A,3A,10mA,-,72dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C (TJ),Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Fixed,1,15V,1.8V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,15V,3.3V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,15V,5V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Adjustable,1,15V,1.25V,13.8V,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Adjustable,1,15V,1.25V,13.8V,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,15V,5V,-,1.2V @ 800mA,800mA,5mA,10mA,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Negative,Adjustable,1,-41.25V,-1.2V,-37V,-,1.5A,-,-,66dB (120Hz),-,Over Current   Over Temperature,-55°C ~ 125°C (TA),-,-,-
+Positive,Adjustable,1,40V,1.2V,32V,-,5A,-,-,75dB (120Hz),-,Over Temperature,-55°C ~ 150°C,Through Hole,TO-204AA   TO-3,TO-3-2
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,-25°C ~ 150°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Adjustable,1,40V,1.2V,37V,-,500mA,-,-,80dB ~ 65dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,D-Pak
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,-25°C ~ 150°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,26V,8V,-,0.6V @ 150mA,150mA,7mA,40mA,52dB (120Hz),-,Load Dump   Mirror-Image Insertion   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,26V,3V,24V,0.3V @ 100mA,100mA,1mA,15mA,55dB (120Hz),-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable,1,40V,2.7V,29.5V,0.6V @ 100mA,100mA,-,-,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-5,TO-220-5
+Positive,Fixed,1,40V,5V,-,0.6V @ 100mA,100mA,-,-,90dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Positive,Fixed,1,40V,3.3V,-,0.2V @ 50mA,50mA,15µA,2.5mA,60dB (120Hz),-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,40V,5V,-,0.12V @ 50mA,50mA,9µA,2.5mA,60dB (120Hz),-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Positive,Fixed,1,26V,10V,-,1V @ 50mA,400mA,2mA,20mA,-,-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,26V,2.5V,-,1V @ 50mA,400mA,2mA,1.25A,-,-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,26V,3.3V,-,1V @ 50mA,400mA,2mA,1.25A,-,-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,26V,5V,-,1V @ 50mA,400mA,2mA,20mA,-,-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,26V,5V,-,0.8V @ 1A,1A,10mA,15mA,64dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Fixed,1,26V,5V,-,1V @ 1A,1A,10mA,15mA,64dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Positive,Fixed,1,26V,12V,-,1V @ 1A,1A,10mA,15mA,66dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Fixed,1,26V,5V,-,1V @ 1A,1A,10mA,15mA,64dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Positive,Fixed,1,26V,5V,-,1V @ 1A,1A,10mA,15mA,64dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,26V,8V,-,1V @ 1A,1A,10mA,15mA,66dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,26V,5V,20V,1V @ 1A,1A,10mA,15mA,-,Enable,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,26V,5V,20V,1V @ 1A,1A,10mA,15mA,-,Enable,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-5,TO-220-5
+Negative,Fixed,1,-26V,-5V,-,1V @ 1A,1.8A,1mA,5mA,58dB (1kHz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,DDPAK/TO-263-3
+Negative,Adjustable,1,-26V,-3V,-24V,1V @ 1A,1A,0.7mA,5mA,60dB (1kHz),Enable,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,40V,1.25V,37V,-,1.5A,10mA,-,80dB ~ 65dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Adjustable,1,40V,1.25V,37V,-,1.5A,10mA,-,80dB ~ 65dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252-3
+Positive,Adjustable,1,40V,1.25V,37V,-,1.5A,10mA,-,80dB ~ 65dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,10mA,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,10mA,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Adjustable,1,40V,1.2V,37V,-,1.5A,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Adjustable,1,60V,1.25V,57V,-,-,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,60V,1.25V,57V,-,-,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-204AA   TO-3,TO-3-2
+Positive,Adjustable,1,37V,1.25V,37V,-,1.5A,-,-,80dB ~ 65dB (120Hz),-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-204AA   TO-3,TO-3-2
+Negative,Adjustable,1,-40V,-1.2V,-37V,-,1.5A,6mA,10mA,77dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Negative,Adjustable,1,-40V,-1.2V,-37V,-,1.5A,6mA,10mA,77dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Negative,Adjustable,1,-50V,-1.2V,-37V,-,1A,-,-,60dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-4
+Negative,Adjustable,1,-40V,-1.2V,-37V,-,100mA,-,-,60dB (120Hz),-,Over Temperature   Short Circuit,-25°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Adjustable,1,-40V,-1.2V,-37V,-,100mA,-,-,60dB (120Hz),-,Over Temperature   Short Circuit,-25°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Positive,Adjustable,1,40V,1.24V,32V,-,5A,-,-,75dB ~ 60dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-204AA   TO-3,TO-3-2
+Positive,Fixed,1,35V,15V,-,2V @ 1A,1A,8mA,-,80dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,35V,15V,-,2V @ 1A,1A,8mA,-,80dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,30V,3.3V,-,1.2V @ 100mA,100mA,2mA,-,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,30V,12V,-,1.2V @ 100mA,100mA,4mA,-,-,Enable,Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Adjustable,1,35V,1.25V,33V,-,3A,-,-,86dB ~ 65dB (120Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,35V,1.2V,33V,-,3A,-,-,80dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,35V,8V,-,2V @ 1A (Typ),1A,8mA,-,73dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,35V,12V,-,2V @ 1A,1A,8mA,-,80dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,35V,5V,-,-,100mA,3mA,-,62dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,5V,-,-,100mA,3mA,-,62dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,12V,-,-,100mA,3mA,-,54dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,15V,-,-,100mA,3mA,-,51dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Fixed,1,-35V,-5V,-,-,100mA,6mA,-,50dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 70°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Fixed,1,-35V,-15V,-,-,100mA,6mA,-,50dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 70°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,30V,5V,-,0.6V @ 100mA,100mA,120µA,14mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Positive,Fixed,1,30V,5V,-,0.6V @ 100mA,100mA,120µA,14mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Positive,Fixed,1,30V,5V,-,0.6V @ 100mA,100mA,120µA,14mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA),TO-92-3
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 100mA,100mA,150µA,14mA,-,Enable   Error Flag,-,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 100mA,100mA,150µA,14mA,-,Enable   Error Flag,-,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.235V (5V),30V,0.6V @ 100mA,100mA,120µA,14mA,-,Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.235V (5V),30V,0.45V @ 100mA,100mA,120µA,12mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),Micro8™
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 100mA,100mA,120µA,14mA,-,Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 100mA,100mA,120µA,14mA,-,Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.235V (5V),30V,0.45V @ 100mA,100mA,120µA,12mA,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Positive,Fixed,1,16V,3.3V,-,0.22V @ 50mA,50mA,95µA,1.2mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,5V,-,0.22V @ 50mA,50mA,95µA,1.2mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3V,-,0.22V @ 50mA,50mA,95µA,1.2mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3.3V,-,0.22V @ 50mA,50mA,95µA,1.2mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Adjustable,1,16V,1.23V,15V,0.22V @ 50mA,50mA,95µA,1.2mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3.3V,-,0.37V @ 100mA,100mA,95µA,1.7mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,5V,-,0.37V @ 100mA,100mA,95µA,1.7mA,63dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3V,-,0.58V @ 150mA,150mA,95µA,2.5mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,5V,-,0.58V @ 150mA,150mA,95µA,2.5mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,4V,-,0.58V @ 150mA,150mA,95µA,2.5mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3V,-,0.58V @ 150mA,150mA,95µA,2.5mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,5V,-,0.58V @ 150mA,150mA,95µA,2.5mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3.3V,-,0.85V @ 250mA,250mA,95µA,4mA,45dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,7V,1.8V,-,0.6V @ 3A,3A,4mA,10mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,7V,2.5V,-,0.6V @ 3A,3A,4mA,10mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,7V,3.3V,-,0.6V @ 3A,3A,4mA,10mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,7V,2.5V,-,0.6V @ 3A,3A,4mA,10mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,10V,3.3V,-,1V @ 1A,1A,55µA,100µA,55dB (120Hz),-,Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-5   TO-261AB,SOT-223-5
+Positive,Adjustable,1,10V,1.25V,9V,-,1A,55µA,100µA,55dB (120Hz),-,Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-5   TO-261AB,SOT-223-5
+Positive,Adjustable,1,7V,1.22V,6.4V,0.55V @ 1.5A,1.5A,5mA,15mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-261-5   TO-261AB,SOT-223-5
+Positive,Fixed,1,7V,3.3V,-,0.55V @ 1.5A,1.5A,5mA,15mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,7V,1.22V,6.4V,0.55V @ 1.5A,1.5A,5mA,15mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,7V,1.22V,6.4V,0.55V @ 1.5A,1.5A,5mA,15mA,73dB ~ 57dB (120Hz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,16V,1V,5.5V,1.1V @ 800mA,800mA,1.5mA,15mA,60dB (1kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-WDFN Exposed Pad,8-WSON (4x4)
+Positive,Fixed,1,5.5V,1.2V,-,1V @ 1A,3A,30µA,8mA,80dB ~ 65dB (120Hz ~ 1kHz),Enable,Over Current   Over Temperature   Short Circuit   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,6V,1.5V,-,0.12V @ 150mA,150mA,125µA,150µA,60dB ~ 40dB (1kHz ~ 10kHz),Enable,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,6V,2.5V,-,0.1V @ 150mA,150mA,150µA,250µA,50dB ~ 40dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,6V,3.3V,-,0.1V @ 150mA,150mA,150µA,250µA,50dB ~ 40dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,6V,3.3V,-,0.1V @ 150mA,150mA,150µA,250µA,50dB ~ 40dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Adjustable,1,450V,1.2V,438V,-,10mA,-,-,60dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252   (D-Pak)
+Positive,Adjustable,1,30V,1.25V,28.5V,1.5V @ 7.5A,7.5A,-,-,75dB (120Hz),-,Over Temperature,0°C ~ 125°C,Through Hole,TO-3P-3   SC-65-3,TO-3P
+Positive,Fixed,1,20V,5V,-,1.5V @ 3A,3A,10mA,-,68dB (120Hz),-,Over Temperature,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,25V,1.25V,23.5V,1.5V @ 1.5A,1.5A,-,-,75dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,15V,3.3V,-,1.3V @ 800mA,800mA,10mA,-,75dB (120Hz),-,Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Fixed,1,15V,2.5V,-,1.3V @ 800mA,800mA,1mA,-,80dB (120Hz),Enable,Over Current   Over Temperature,0°C ~ 70°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Fixed,1,30V,5V,-,0.7V @ 150mA,150mA,50µA,14mA,58dB (120Hz),Enable,Over Temperature   Reverse Polarity,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,30V,5V,-,0.7V @ 150mA,150mA,50µA,14mA,58dB (120Hz),Enable,Over Temperature   Reverse Polarity,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,30V,5V,-,0.7V @ 150mA,150mA,50µA,14mA,58dB (120Hz),Enable,Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Fixed,1,30V,5V,-,0.7V @ 700mA,700mA,70µA,90mA,64dB (120Hz),Enable,Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Fixed,1,-20V,-5V,-,0.7V @ 500mA,500mA,80µA,-,60db ~ 15dB (1kHz ~ 100kHz),Current Limit   Enable,-,-40°C ~ 85°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive or Negative,Adjustable,1,-35V,±2.5V,±25V,1V @ 3A,3A,3.5mA,-,-,-,Over Current,-40°C ~ 85°C,Through Hole,TO-220-5 Formed Leads,TO-220-5
+Positive,Fixed,1,15V,5V,-,0.95V @ 3A,3A,100µA,160mA,62dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,0°C ~ 125°C,Through Hole,TO-220-5,TO-220-5 Flow 6
+Positive,Fixed,1,15V,3.3V,-,0.95V @ 3A,3A,100µA,160mA,62dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-45°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,15V,5V,-,0.95V @ 3A,3A,100µA,160mA,62dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-45°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,7V,3.3V,-,1.3V @ 3A,3A,-,-,-,-,Over Current   Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,D2PAK-3
+Positive,Adjustable,1,20V,1.22V,20V,0.45V @ 100mA,100mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Positive,Adjustable,1,20V,1.22V,20V,0.45V @ 100mA,100mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Positive,Adjustable,1,20V,1.22V,20V,0.45V @ 100mA,100mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Positive,Fixed,1,20V,1.8V,-,0.45V @ 500mA,500mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 500mA,500mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,20V,5V,-,0.45V @ 500mA,500mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 3A,3A,5mA,200mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,20V,1.8V,-,0.45V @ 3A,3A,5mA,200mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,20V,2.5V,-,0.45V @ 3A,3A,5mA,200mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 3A,3A,5mA,200mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 3A,3A,5mA,200mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Through Hole,TO-220-5 Formed Leads,TO-220-5
+Positive,Fixed,1,20V,1.8V,-,0.43V @ 300mA,300mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Positive,Fixed,1,20V,2.5V,-,0.43V @ 300mA,300mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Positive,Fixed,1,20V,3.3V,-,0.43V @ 300mA,300mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Positive,Fixed,1,20V,5V,-,0.43V @ 300mA,300mA,-,-,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+Positive,Adjustable,1,20V,1.21V,20V,0.55V @ 1.5A,1.5A,1.5mA,120mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Fixed,1,20V,1.5V,-,0.55V @ 1.5A,1.5A,1.5mA,120mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Adjustable,1,20V,1.21V,20V,0.55V @ 1.5A,1.5A,1.5mA,120mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Through Hole,TO-220-5 Formed Leads,TO-220-5
+Positive,Fixed,1,20V,3.3V,-,0.55V @ 1.5A,1.5A,1.5mA,120mA,63dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Negative,Fixed,1,-20V,-5V,-,0.49V @ 200mA,200mA,-,-,54dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Negative,Adjustable,1,-20V,-1.22V,-20V,0.49V @ 200mA,200mA,-,-,54dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Positive,Fixed,1,45V,3.3V,-,0.5V @ 20mA,20mA,6µA,1.2mA,59dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 20mA,20mA,6µA,1mA,61dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,6-WFDFN Exposed Pad,6-DFN (2x2)
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 20mA,20mA,6µA,1mA,61dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,6-WFDFN Exposed Pad,6-DFN (2x2)
+Positive,Fixed,1,20V,3.3V,-,0.45V @ 20mA,20mA,6µA,1mA,61dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-VFSOP (0.049"   1.25mm Width),SC-70-8
+Positive,Fixed,1,80V,5V,-,0.55V @ 50mA,50mA,-,-,68dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-55°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-EP
+Negative,Fixed,1,-30V,-5V,-,0.5V @ 1.5A,1.5A,2.4mA,70mA,58dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,12-TSSOP (0.118"   3.00mm Width) Exposed Pad,12-MSOP-EP
+Negative,Adjustable,1,-30V,-1.22V,-29.5V,0.5V @ 1.5A,1.5A,2.4mA,70mA,65dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,12-TSSOP (0.118"   3.00mm Width) Exposed Pad,12-MSOP-EP
+Positive,Adjustable,1,10V,0.2V,9.5V,0.285V @ 1A,1A,3.5mA,36mA,70dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,16-WFDFN Exposed Pad,16-DFN (5x3)
+Positive,Adjustable,1,20V,0V,15V,0.35V @ 200mA (Typ),200mA,-,-,117dB ~ 56dB (120Hz ~ 10MHz),Current Limit   Enable   Power Good,Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width) Exposed Pad,10-MSOP-EP
+Positive,Adjustable,1,20V,0V,15V,0.35V @ 200mA (Typ),200mA,-,-,117dB ~ 56dB (120Hz ~ 10MHz),Current Limit   Enable   Power Good,Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,10-TFSOP   10-MSOP (0.118"   3.00mm Width) Exposed Pad,10-MSOP-EP
+Positive,Programmable,1,20V,0V,15V,0.45V @ 500mA,500mA,20µA,25mA,117dB ~ 53dB (120Hz ~ 10MHz),Enable   Power Good   Soft Start,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C (TJ),Surface Mount,12-WFDFN Exposed Pad,12-DFN (3x3)
+Positive,Adjustable,1,45V,0.6V,44.5V,0.51V @ 100mA,100mA,80µA,4mA,85dB (120Hz),Enable   Soft Start,Over Current   Over Temperature   Reverse Polarity,-55°C ~ 150°C,Surface Mount,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+Positive,Adjustable,1,40V,0V,38.5V,1.65V @ 200mA,200mA,500µA,-,90dB ~ 20dB (120Hz ~ 1MHz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223-3
+Positive,Adjustable,1,23V,0V,23V,0.51V @ 3A,3A,50.5µA,1mA,85dB ~ 20dB (120Hz ~ 1MHz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,5-DDPAK
+Positive,Adjustable,1,5.5V,0.4V,3.6V,0.1V @ 300mA,300mA,200µA,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 125°C,Surface Mount,8-WFDFN Exposed Pad,8-DFN (3x2)
+Positive,Adjustable,1,6V,1.2V,5.5V,0.3V @ 300mA,300mA,90µA,-,68dB ~ 54dB (100Hz ~ 10kHz),Enable,Over Temperature   Short Circuit   Soft Start,-40°C ~ 85°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Adjustable (Fixed),1,45V,2.5V (5V),11V,2.2V @ 400mA,400mA,150µA,-,70dB (100Hz),Enable   Reset,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,16-WQFN Exposed Pad,16-TQFN (5x5)
+Positive,Adjustable (Fixed),1,45V,2.5V (3.3V),11V,2.2V @ 400mA,400mA,150µA,-,70dB (100Hz),Enable   Reset,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,16-WQFN Exposed Pad,16-TQFN (5x5)
+Positive,Adjustable (Fixed),1,45V,2.5V (5V),11V,2.2V @ 400mA,400mA,150µA,-,70dB (100Hz),Enable   Reset,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,16-WQFN Exposed Pad,16-TQFN (5x5)
+Positive,Adjustable (Fixed),1,16.5V,1.3V (5V),16V,0.35V @ 200mA,250mA,35µA,20mA,-,Dropout Detector   Enable   Low Battery Detection,-,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,6V,3V,-,0.12V @ 120mA (Typ),120mA,90µA,-,78dB ~ 54dB (1kHz ~ 100kHz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SC-70-5
+Positive,Adjustable,1,6V,1.5V,4.5V,0.12V @ 120mA (Typ),120mA,90µA,-,72dB ~ 46dB (1kHz ~ 100kHz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SC-70-5
+Positive,Adjustable (Fixed),1,11.5V,1.25V (3.3V),11V,0.64V @ 200mA,200mA,15µA,25µA,-,Enable   Low Battery Detection,Over Current   Over Temperature   Reverse Polarity,0°C ~ 70°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,11.5V,1.25V (5V),11V,0.44V @ 200mA,200mA,15µA,25µA,-,Enable   Low Battery Detection,Over Current   Over Temperature   Reverse Polarity,0°C ~ 70°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,6.5V,3V,-,0.165V @ 150mA (Typ),150mA,180µA,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Positive,Adjustable,1,12V,1.25V,5V,0.2V @ 50mA,200mA,10µA,-,-,Enable   Power Good,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Positive,Fixed,1,20V,3.3V,-,1.35V @ 800mA,800mA,8mA,-,55dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,20V,12V,-,1.35V @ 800mA,800mA,-,-,55dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,20V,5V,-,1.35V @ 800mA,800mA,-,-,55dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Positive,Fixed,1,13V,3.3V,-,0.5V @ 300mA,300mA,200µA,-,75dB (120Hz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1A,6mA,-,83dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1A,8mA,-,68dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,5V,-,2V @ 1A (Typ),1A,8mA,-,73dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,TO-252   (D-Pak)
+Positive,Fixed,1,35V,9V,-,2V @ 1A (Typ),1A,8mA,-,61dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,12V,-,2V @ 1A (Typ),1A,6mA,-,60dB (1kHz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,35V,12V,-,2V @ 1A (Typ),1A,8mA,-,60dB (1kHz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Positive,Fixed,1,30V,5V,-,-,100mA,5.5mA,-,80dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,12V,-,-,100mA,6.5mA,-,42dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,35V,15V,-,-,100mA,6.5mA,-,39dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,12V,3V,-,0.06V @ 1mA,80mA,3.6µA,-,-,-,-,-40°C ~ 85°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,5-TSOP
+Positive,Fixed,1,12V,3.3V,-,0.053V @ 1mA,80mA,3.6µA,-,-,-,-,-40°C ~ 85°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,5-TSOP
+Positive,Fixed,1,35V,9V,-,-,500mA,-,-,80dB (120Hz),-,Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,35V,18V,-,-,500mA,-,-,70dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,8V,5V,-,0.26V @ 100mA,150mA,-,-,70dB (1kHz),Enable,Over Current,-40°C ~ 85°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Negative,Fixed,1,-35V,-5V,-,1.3V @ 1A (Typ),1A,-,-,70dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Negative,Fixed,1,-35V,-5V,-,1.3V @ 1A (Typ),1A,-,-,70dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Negative,Fixed,1,-35V,-12V,-,1.3V @ 1A (Typ),1A,-,-,61dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-3   D²Pak (2 Leads + Tab)   TO-263AB,D2PAK
+Negative,Fixed,1,-35V,-12V,-,1.3V @ 1A (Typ),1A,-,-,61dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220AB
+Negative,Fixed,1,-20V,-5V,-,1.7V @ 40mA,100mA,-,-,49dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-226-3   TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Negative,Fixed,1,-35V,-5V,-,1.1V @ 500mA (Typ),500mA,-,-,66dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Negative,Fixed,1,-35V,-5V,-,1.1V @ 500mA (Typ),500mA,-,-,66dB (120Hz),-,Over Current   Over Temperature,0°C ~ 125°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,6V,1.8V,-,0.35V @ 200mA,200mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,2.5V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,2.5V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,3V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,3V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Fixed,1,6V,3.3V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Fixed,1,6V,3.3V,-,0.35V @ 250mA,250mA,4µA,-,44dB (100Hz),-,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23-3
+Positive,Fixed,1,6V,3.3V,-,0.55V @ 1.5A,1.5A,220µA,-,60dB (100Hz),Enable   Power Good,Over Temperature   Short Circuit   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,8-VDFN Exposed Pad,8-DFN-EP (3x3)
+Positive,Fixed,1,10V,3.3V,-,0.25V @ 100mA,300mA,50µA,-,70dB (10kHz),Enable,Over Current,-40°C ~ 85°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,26V,3.3V,-,0.6V @ 1.5A,1.5A,-,-,-,-,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,TO-263-3
+Positive,Fixed,1,26V,3.3V,-,0.6V @ 3A,3A,-,-,-,-,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,TO-263-3
+Positive,Fixed,1,26V,5V,-,0.6V @ 3A,3A,-,-,-,-,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-4   D²Pak (3 Leads + Tab)   TO-263AA,TO-263-3
+Positive,Fixed,1,26V,5V,-,0.6V @ 3A,3A,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable,1,16V,1.24V,15V,0.8V @ 3A,3A,20mA,150mA,-,Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable,1,26V,1.25V,25V,0.6V @ 3A,3A,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable,1,26V,1.25V,25V,0.6V @ 3A,3A,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable,1,26V,1.25V,25V,0.6V @ 3A,3A,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable,1,26V,1.25V,25V,0.6V @ 5A,5A,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 250mA,250mA,300µA,12mA,-,Enable,Load Dump   Over Current   Over Temperature   Reverse Polarity   UV POR,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),1,30V,1.24V (5V),29V,0.6V @ 250mA,250mA,300µA,12mA,-,Enable,Load Dump   Over Current   Over Temperature   Reverse Polarity   UV POR,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,6V,2.5V,-,0.5V @ 1A,1A,-,-,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,6V,3.3V,-,0.5V @ 1A,1A,-,-,-,-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,16V,2.5V,-,0.575V @ 5A,5A,-,-,-,-,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Fixed,1,16V,5V,-,0.35V @ 150mA,150mA,150µA,2.5mA,75dB (100Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3.3V,-,0.6V @ 500mA,500mA,170µA,25mA,75dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,16V,5V,-,0.6V @ 500mA,500mA,170µA,25mA,75dB (120Hz),-,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Adjustable,1,16V,2.5V,5V,0.6V @ 500mA,500mA,170µA,25mA,75dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,12V,3.3V,-,0.6V @ 500mA,500mA,8µA,-,75dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,16V,3.3V,-,0.45V @ 150mA,150mA,-,-,-,Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,2.8V,-,0.4V @ 500mA,500mA,150µA,-,70dB ~ 60dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,6-VQFN Exposed Pad   6-MLF®,6-MLF® (2x2)
+Positive,Fixed,1,5.5V,3.3V,-,0.4V @ 500mA,500mA,150µA,-,70dB ~ 60dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,6-VQFN Exposed Pad   6-MLF®,6-MLF® (2x2)
+Positive,Fixed,2,5.5V,1.2V   2.5V,-,0.24V @ 300mA   0.24V @ 300mA,300mA   300mA,50µA,75µA,65dB ~ 45dB (1kHz ~ 20kHz),Enable   Power On Reset,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-VFDFN Exposed Pad   8-MLF®,8-MLF® (2x2)
+Positive,Fixed,2,5.5V,3.3V   3.3V,-,0.24V @ 300mA   0.24V @ 300mA,300mA   300mA,50µA,75µA,65dB ~ 45dB (1kHz ~ 20kHz),Enable   Power On Reset,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-UFDFN Exposed Pad   8-TMLF®,8-TMLF® (2x2)
+Positive,Fixed,2,5.5V,3.3V   3.3V,-,0.24V @ 300mA   0.24V @ 300mA,300mA   300mA,50µA,75µA,65dB ~ 45dB (1kHz ~ 20kHz),Enable   Power On Reset,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-UFDFN Exposed Pad   8-TMLF®,8-TMLF® (2x2)
+Positive,Fixed,1,9V,1.2V,-,1.3V @ 2A,2A,3mA,-,70dB ~ 65dB (120Hz ~ 1kHz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,D2PAK-5
+Positive,Fixed,1,9V,2.5V,-,1.3V @ 2A,2A,3mA,-,70dB ~ 65dB (120Hz ~ 1kHz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,D2PAK-5
+Positive,Fixed,1,6V,3.3V,-,0.23V @ 300mA,300mA,180µA,-,62dB ~ 38dB (120Hz ~ 10kHz),Enable,Over Current   Over Temperature   Transient Voltage,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,5-TSOP
+Positive,Adjustable,1,12V,1.216V,10.75V,1.25V @ 3A,3A,1mA,2mA,85dB (1kHz),Enable,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,D2PAK-5
+Positive,Fixed,1,450V,3.3V,-,-,10mA,14µA,-,70dB (1kHz),-,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,TO-243AA,SOT-89-3
+Positive,Fixed,1,40V,5V,-,0.6V @ 100mA,100mA,-,-,90dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,45V,3.3V,-,1.266V @ 100mA,100mA,55µA,70µA,67dB (100Hz),-,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,40V,5V,-,0.5V @ 250mA,400mA,250µA,35mA,60dB (100Hz),-,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C,Surface Mount,TO-252-3   DPak (2 Leads + Tab)   SC-63,DPAK
+Positive,Fixed,1,40V,3.3V,-,-,150mA,30µA,40µA,60dB (100Hz),Reset,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,20V,5V,-,0.5V @ 2A,2A,10mA,-,55dB (120Hz),Enable,Over Current   Over Temperature,-20°C ~ 80°C,Through Hole,TO-220-4,TO-220-4
+Positive,Fixed,1,24V,12V,-,0.5V @ 500mA,1A,8mA,-,60dB (120Hz),Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,SC-63
+Positive,Adjustable (Fixed),1,5.5V,0.8V (1.8V),5.15V,0.35V @ 3A,3A,1.2mA,-,-,Enable   Power Good,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width) Exposed Pad,8-SOP-EP
+Positive,Fixed,1,5.5V,1.8V,-,0.15V @ 300mA,1A,1µA,90µA,65dB (1kHz),Enable,Over Current   Thermal Shutdown,-40°C ~ 85°C (TA),Surface Mount,SOT-89-5/6,SOT-89-5
+Positive,Fixed,1,5.5V,3.3V,-,0.1V @ 300mA,1A,1µA,90µA,60dB (1kHz),Enable,Over Current   Thermal Shutdown,-40°C ~ 85°C (TA),Surface Mount,SOT-89-5/6,SOT-89-5
+Positive,Fixed,1,5.5V,2.5V,-,0.6V @ 1.5A,1.5A,35µA,1.75mA,-,Enable,Over Current   Over Temperature,-40°C ~ 150°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+Positive,Adjustable (Fixed),1,6V,0.5V (0.5V),5.5V,0.4V @ 2A,2A,50µA,3mA,-,Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width) Exposed Pad,8-SOIC-EP
+Positive,Adjustable,1,16V,1.25V,15.4V,0.6V @ 1.5A,1.5A,-,-,-,Enable,Over Current   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,TO-263-5
+Positive,Fixed,1,12V,1.8V,-,0.7V @ 50mA,50mA,5µA,6µA,30dB (120Hz),-,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SOT-323-5
+-,-,1,-,-,-,-,150mA,-,-,-,-,-,-30°C ~ 85°C,Through Hole,TO-226-3   TO-92-3 Long Body,LSTM
+Positive,Fixed,1,35V,9V,-,-,150mA,6mA,6.5mA,44dB (120Hz),-,Over Current   Over Temperature,-30°C ~ 85°C,Surface Mount,TO-243AA,PW-MINI (SOT-89)
+Positive,Fixed,1,45V,5V,-,0.3V @ 50mA,100mA,30µA,2.5mA,60dB (120Hz),-,Over Temperature   Reverse Polarity   Short Circuit   Transient Voltage,-40°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223
+Positive,Fixed,1,14.5V,5V,-,0.37V @ 300mA,300mA,90µA,3mA,-,Enable,Over Current   Over Temperature,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23L-6
+Positive,Adjustable,1,20V,1.21V,20V,0.55V @ 1.5A,1.5A,1mA,80mA,63dB (120Hz),Enable,Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Adjustable,1,150V,1.25V,125V,-,700mA,-,-,76dB (120Hz),-,Over Temperature   Short Circuit,0°C ~ 125°C,Through Hole,TO-220-3,TO-220-3
+Positive,Adjustable,1,40V,Tracking,-,0.3V @ 10mA,50mA,20µA,5mA,48dB (100Hz),Enable,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C,Surface Mount,6-SMD (5 Leads)   Gull Wing,PG-SCT595-5
+Positive,Fixed,1,40V,5V,-,0.6V @ 400mA,400mA,4mA,80mA,54dB (100Hz),Inhibit   Reset,Over Temperature   Over Voltage   Reverse Polarity   Short Circuit   Transient Voltage,-40°C ~ 150°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),PG-DSO-14
+Positive,Fixed,1,45V,5V,-,0.5V @ 100mA,100mA,280µA,8mA,70dB (100Hz),Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 150°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),PG-DSO-14
+Positive,Fixed,1,45V,5V,-,0.5V @ 100mA,150mA,300µA,8mA,-,Reset,Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C (TJ),Surface Mount,14-SOIC (0.154"   3.90mm Width),PG-DSO-14
+Positive,Fixed,1,42V,5V,-,0.7V @ 550mA,650mA,1.5mA,90mA,54dB (100Hz),Reset,Over Current   Over Temperature   Over Voltage   Reverse Polarity   Short Circuit   Transient Voltage,-40°C ~ 150°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,PG-TO263-5-1
+Positive,Fixed,1,40V,5V,-,0.7V @ 550mA,550mA,6µA,90mA,54dB (100Hz),Reset   Watchdog,Over Current   Over Temperature   Over Voltage   Reverse Polarity   Short Circuit,-40°C ~ 150°C (TJ),Surface Mount,TO-263-8   D²Pak (7 Leads + Tab)   TO-263CA,PG-TO263-7-1
+Positive,Fixed,1,42V,3.3V,-,-,400mA,220µA,30mA,60dB (100Hz),Reset,Over Current   Over Temperature   Reverse Polarity   Short Circuit   Transient Voltage,-40°C ~ 150°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,PG-TO263-5-1
+Positive,Adjustable,1,40V,2.5V,20V,0.5V @ 250mA,400mA,200µA,25mA,54dB (100Hz),Inhibit,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C,Surface Mount,TO-252-5   DPak (4 Leads + Tab)   TO-252AD,P-TO252-5
+Positive,Fixed,1,45V,5V,-,0.5V @ 150mA,200mA,200µA,12mA,-,Reset   Watchdog,Over Current   Over Temperature   Reverse Polarity   Short Circuit,-40°C ~ 150°C,Surface Mount,14-SOIC (0.154"   3.90mm Width),PG-DSO-14
+Positive,Adjustable (Fixed),3,40V,5V   Tracking,-,0.55V @ 450mA   0.6V @ 50mA   0.6V @ 100mA,450mA   50mA   100mA,1.8mA,-,30dB (20Hz ~ 20kHz)   30dB (20hz ~ 20kHz)   30dB (20Hz ~ 20kHz),Enable   Reset   Watchdog,Over Temperature   Over Voltage   Reverse Polarity   Short Circuit   Transient Voltage,-40°C ~ 150°C,Surface Mount,20-PowerSOIC (0.433"   11.00mm Width),P-DSO-20-12
+Positive,Fixed,1,12V,3.3V,-,0.5V @ 500mA,500mA,-,-,62dB (120Hz),-,Over Current   Over Temperature   Over Voltage,0°C ~ 125°C,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Positive,Fixed,2,6V,3.3V   1.8V,-,0.28V @ 500mA   -,500mA   250mA,190µA,230µA,60dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Fixed,2,6V,3.3V   1.2V,-,0.28V @ 500mA   -,500mA   250mA,190µA,230µA,60dB (1KHz)   50dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Fixed,2,6V,3.3V   1.8V,-,0.28V @ 500mA   -,500mA   250mA,190µA,230µA,60dB (1KHz)   50dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Fixed,2,6V,3.3V   2.5V,-,0.28V @ 500mA   -,500mA   250mA,190µA,230µA,60dB (1KHz)   50dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Adjustable,2,6V,1.22V,5.5V,0.25V @ 1A   -,1A   2A,250µA,-,65dB (1kHz)   60dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-HTSSOP
+Positive,Adjustable,2,6V,1.22V,5.5V,0.25V @ 1A   -,1A   2A,250µA,-,65dB (1kHz)   60dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-HTSSOP
+Positive,Fixed,2,6V,3.3V   1.2V,-,0.25V @ 1A   -,1A   2A,250µA,-,65dB (1kHz)   60dB (1kHz),Enable   Power Good   Reset   Sequencing,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-HTSSOP
+Positive,Adjustable,1,24V,1.2V,15V,0.75V @ 50mA,50mA,4.2µA,-,60dB (100kHz),-,Over Current,-40°C ~ 125°C,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SC-70-5
+Positive,Adjustable,1,10V,1.2V,9.75V,0.2V @ 350mA,250mA,80µA,-,85dB ~ 50dB (10Hz ~ 1MHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Negative,Adjustable,1,-10V,-1.2V,-10V,0.5V @ 200mA,200mA,200µA,500µA,65dB ~ 48dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Negative,Fixed,1,-10V,-2.5V,-,0.5V @ 200mA,200mA,200µA,500µA,65dB ~ 48dB (1kHz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,5V,-,1.1V @ 250mA,250mA,225µA,325µA,60dB ~ 50dB (120Hz),Enable   Power Good,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,6V,1.8V,-,0.32V @ 1A,1A,225µA,325µA,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,6V,1.8V,-,0.32V @ 1A,1A,225µA,325µA,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,6V,1.8V,-,0.32V @ 1A,1A,225µA,325µA,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,5.5V,1.2V,5.5V,0.15V @ 250mA,250mA,550µA,950µA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Short Circuit   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,3.3V,-,0.4V @ 500mA,500mA,400µA,550µA,51dB ~ 49dB (120Hz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,6.5V,3.3V,-,0.22V @ 250mA,250mA,65µA,-,60dB ~ 28dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,SOT-23-5
+Positive,Fixed,1,6.5V,3.3V,-,0.22V @ 250mA,250mA,65µA,-,60dB ~ 28dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 105°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,SOT-23-5
+Positive,Adjustable,1,6.5V,1.25V,6V,0.5V @ 500mA,500mA,65µA,-,66dB ~ 22dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,8-VDFN Exposed Pad,8-SON (3x3)
+Positive,Adjustable,1,5.5V,1.2V,5.5V,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,2.5V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,2.5V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3.3V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3.3V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3.3V,-,0.2V @ 400mA,400mA,550µA,1mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Adjustable,1,5.5V,1.2V,5.5V,0.5V @ 1A,1A,400µA,1.3mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Adjustable,1,5.5V,1.2V,5.5V,0.5V @ 1A,1A,400µA,1.3mA,58dB ~ 37dB (100Hz ~ 10kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-VDFN Exposed Pad,8-SON (3x3)
+Positive,Fixed,1,5.5V,3.3V,-,0.3V @ 1.5A,1.5A,125µA,-,63dB (100Hz),Enable   Power Good   Reset Output,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Adjustable,1,5.5V,1.22V,5V,-,5A,200µA,-,60dB (100Hz),Enable   Power Good,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,5.5V,3.3V,-,0.5V @ 5A,5A,200µA,-,60dB (100Hz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,5.5V,3.3V,-,0.3V @ 3A,3A,200µA,-,62dB (100Hz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,16V,3.3V,-,0.28V @ 100mA,100mA,115µA,4mA,63dB (1kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Transient Voltage,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,3.3V,-,0.5V @ 150mA,150mA,100µA,140µA,60dB (1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,2.5V,-,-,250mA,50µA,-,63dB (1kHz),Enable   Power Good,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,10V,5V,-,0.25V @ 250mA,250mA,50µA,-,63dB (1kHz),Enable   Power Good,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable,1,10V,1.5V,5.5V,-,1A,125µA,-,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Positive,Fixed,1,10V,3.3V,-,0.58V @ 1A,1A,125µA,-,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Adjustable (Fixed),2,10V,3.3V   1.5 V ~ 5.5 V,-,0.58V @ 1A,1A,125µA,-,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,28-TSSOP (0.173"   4.40mm Width) Exposed Pad,28-HTSSOP
+Positive,Fixed,2,10V,1.8V   3.3V,-,0.58V @ 1A,1A,125µA,-,60dB (1kHz),Enable   Reset,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,28-TSSOP (0.173"   4.40mm Width) Exposed Pad,28-HTSSOP
+Positive,Adjustable,1,10V,1.2V,5.5V,-,1A,125µA,-,60dB (1kHz),Enable   Power Good,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Positive,Fixed,1,10V,3.3V,-,0.2V @ 100mA,100mA,28µA,-,60dB (1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,3.3V,-,0.2V @ 100mA,100mA,28µA,-,60dB (1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,10V,5V,-,0.17V @ 100mA,100mA,28µA,-,60dB (1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3V,-,0.25V @ 150mA,150mA,1.3µA,8µA,40dB ~ 15dB (10Hz ~ 1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,6-WDFN Exposed Pad,6-SON (2x2)
+Positive,Fixed,1,5.5V,3.3V,-,0.25V @ 150mA,150mA,1.3µA,8µA,40dB ~ 15dB (10Hz ~ 1kHz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,SOT-23-5
+Positive,Fixed,1,5.5V,3.3V,-,0.51V @ 1.5A,1.5A,385µA,-,59dB ~ 32dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,5.5V,3.3V,-,0.51V @ 1.5A,1.5A,385µA,-,59dB ~ 32dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Fixed,1,5.5V,3.3V,-,0.9V @ 100mA,100mA,250µA,-,70dB ~ 37dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,3V,-,0.1V @ 100mA,100mA,250µA,-,70dB ~ 47dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 85°C,Surface Mount,SC-74A   SOT-753,SOT-23-5
+Positive,Fixed,1,5.5V,2.5V,-,-,250mA,220µA,-,65dB ~ 40dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-PowerPad
+Positive,Fixed,1,5.5V,2.5V,-,-,500mA,385µA,-,59dB ~ 39dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,5.5V,3.3V,-,0.16V @ 500mA,500mA,385µA,-,59dB ~ 39dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Adjustable,1,5.5V,1.2V,5.5V,-,1A,385µA,-,59dB ~ 42dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,5.5V,3.3V,-,0.33V @ 1A,1A,385µA,-,59dB ~ 42dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-223-6,SOT-223-6
+Positive,Fixed,1,5.5V,1.8V,-,-,50mA,2µA,-,50dB (100Hz),Power Good,Over Current   Reverse Polarity,-40°C ~ 85°C,Surface Mount,5-TSSOP   SC-70-5   SOT-353,SC-70-5
+Positive,Adjustable,1,6.5V,1.2V,6.5V,0.18V @ 200mA,200mA,60µA,-,70dB ~ 38dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,SOT-23-5
+Positive,Fixed,1,6.5V,3.3V,-,0.16V @ 200mA,200mA,60µA,-,70dB ~ 38dB (100Hz ~ 100kHz),Enable,Over Current   Over Temperature   Reverse Polarity   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin   TSOT-23-5,SOT-23-5
+Negative,Adjustable,1,-35V,-1.18V,-33V,0.6V @ 200mA,200mA,100µA,950µA,72dB (120Hz),Enable   Soft Start,Over Current   Over Temperature,-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-PowerPad
+Positive,Adjustable,1,20V,1.21V,20V,0.45V @ 1.5A,1.5A,1.5mA,90mA,68dB (120Hz),Enable,Over Current   Over Temperature   Reverse Polarity,-40°C ~ 125°C,Surface Mount,TO-263-6   D²Pak (5 Leads + Tab)   TO-263BA,DDPAK/TO-263-5
+Positive,Adjustable,1,35V,1.194V,33V,0.45V @ 1A,150mA,100µA,800µA,78dB (1kHz),Enable,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width) Exposed Pad,8-MSOP-PowerPad
+Positive,Adjustable (Fixed),1,6.5V,0.9V,5V,0.35V @ 1A,1A,4mA,-,-,Enable   Power Good   Soft Start,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-VQFN Exposed Pad,20-VQFN (5x5)
+Positive,Adjustable (Fixed),1,6.5V,0.9V,5V,0.7V @ 3A,3A,4mA,-,-,Enable   Power Good   Soft Start,Over Current   Over Temperature   Under Voltage Lockout (UVLO),-40°C ~ 125°C,Surface Mount,20-VQFN Exposed Pad,20-VQFN (5x5)
+Positive,Fixed,1,6V,2.5V,-,0.71V @ 100mA,150mA,3µA,-,-,-,Over Current   Short Circuit,-40°C ~ 85°C (TA),Surface Mount,TO-236-3   SC-59   SOT-23-3,SOT-23
+Positive,Fixed,1,20V,5V,-,-,200mA,600µA,-,62dB (120Hz),-,Over Temperature   Short Circuit,-55°C ~ 125°C,Surface Mount,TO-261-4   TO-261AA,SOT-223

@@ -1,0 +1,8 @@
+4 Wire Resistive,12 b,Serial,External,2.7 V ~ 5 V,2.5µA,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+4 Wire Resistive,12 b,SPI,External   Internal,2.2 V ~ 5.25 V,500µA,-40°C ~ 85°C,Surface Mount,16-SSOP (0.154"   3.90mm Width),16-SSOP
+4 Wire Resistive,12 b,SPI,Internal,2.2 V ~ 5.25 V,780µA,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+4 Wire Resistive,12 b,Serial,External,2.2 V ~ 5.25 V,-,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+4 Wire Resistive,12 b,SPI,External   Internal,2.2 V ~ 5.25 V,500µA,-40°C ~ 85°C,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+4 Wire Resistive,10 b,UART,-,2.7 V ~ 5.5 V,11.5mA,0°C ~ 70°C,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+4 Wire Resistive,12 b,I²C   SPI,Internal,1.8 V ~ 3.3 V,500nA,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+4 Wire Resistive,8 b   12 b,SPI,External,1.2 V ~ 3.6 V,-,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)

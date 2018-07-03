@@ -1,0 +1,32 @@
+SPST - NO,1:1,4,95 Ohm,3 Ohm,2 V ~ 10 V,-,30ns   20ns,200MHz,-,3.5pF,1µA,-60dB @ 1MHz,-40°C ~ 125°C (TA),14-SOIC (0.154"   3.90mm Width),14-SO
+SP4T,4:1,2,155 Ohm,5 Ohm,3 V ~ 15 V,-,-,70MHz,-,7.5pF,200nA,-50dB @ 1MHz,-40°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SO
+SPST - NO,1:1,4,155 Ohm,5 Ohm,3 V ~ 15 V,-,-,90MHz,-,7.5pF,200nA,-50dB @ 1MHz,-40°C ~ 125°C (TA),14-SOIC (0.154"   3.90mm Width),14-SO
+-,8:1,1,120 Ohm,6 Ohm,2 V ~ 10 V,±1.5 V ~ 5 V,51ns   42ns,180MHz,-,3.5pF,400nA,-,-40°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SO
+-,8:1,1,240 Ohm,5 Ohm,3 V ~ 20 V,±2.5 V ~ 9 V,-,20MHz,-,0.2pF   30pF,100nA,-,-55°C ~ 125°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+SPDT,2:1,3,240 Ohm,5 Ohm,3 V ~ 20 V,±2.5 V ~ 9 V,-,30MHz,-,0.2pF   9pF,100nA,-40dB @ 6MHz,-55°C ~ 125°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+-,16:1,1,240 Ohm,5 Ohm,3 V ~ 18 V,-,-,14MHz,-,0.2pF   55pF,100nA,-,-55°C ~ 125°C (TA),24-DIP (0.600"   15.24mm),24-PDIP
+-,8:1,1,155 Ohm,5 Ohm,3 V ~ 15 V,-,-,70MHz,-,7.5pF,200nA,-50dB @ 1MHz,-40°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPDT,2:1,3,155 Ohm,5 Ohm,3 V ~ 15 V,-,-,70MHz,-,7.5pF,200nA,-50dB @ 1MHz,-40°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SO
+SP4T,4:1,2,130 Ohm,5 Ohm,2 V ~ 6 V,±1 V ~ 5 V,-,185MHz,-,12pF,200nA,-,-55°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,16-SOIC (0.154"   3.90mm Width),16-SOIC
+SPDT,2:1,3,100 Ohm,15 Ohm,2 V ~ 6 V,±2 V ~ 6 V,41ns   32ns,35MHz,-,5pF   30pF,100nA,-50dB @ 1MHz,-40°C ~ 85°C (TA),16-SOIC (0.209"   5.30mm Width),16-SOP
+SPST - NO,1:1,4,95 Ohm,3 Ohm,2 V ~ 10 V,-,30ns   20ns,200MHz,-,3.5pF,1µA,-60dB @ 1MHz,-40°C ~ 125°C (TA),14-SOIC (0.154"   3.90mm Width),14-SO
+-,16:1,1,120 Ohm,6 Ohm,2 V ~ 10 V,-,45ns   45ns,100MHz,-,3.5pF,100nA,-,-40°C ~ 125°C (TA),24-VFQFN Exposed Pad,24-DHVQFN (5.5x3.5)
+SP4T,4:1,2,400 Ohm,-,2 V ~ 6 V,-,-,-,-,40pF,100nA,-,-55°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+-,8:1,1,120 Ohm,6 Ohm,4.5 V ~ 5.5 V,±1 V ~ 5 V,39ns   32ns,180MHz,-,3.5pF,400nA,-,-40°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SP4T,4:1,2,150 Ohm,6 Ohm,4.5 V ~ 5.5 V,±1 V ~ 5 V,60ns   48ns,180MHz,-,3.5pF,2µA,-60dB @ 1MHz,-40°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPDT,2:1,3,120 Ohm,6 Ohm,4.5 V ~ 5.5 V,±1 V ~ 5 V,34ns   31ns,170MHz,-,3.5pF,100nA,-60dB @ 1MHz,-40°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SO
+SPDT,2:1,3,130 Ohm,5 Ohm,4.5 V ~ 5.5 V,±1 V ~ 5 V,-,200MHz,-,5pF   8pF,100nA,-,-55°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPST - NO,1:1,4,280 Ohm,-,3 V ~ 18 V,-,-,-,-,10pF,300nA,-50dB @ 1MHz,-40°C ~ 85°C (TA),14-LSSOP (0.173"   4.40mm Width),14-SSOPB
+SP4T,4:1,2,240 Ohm,5 Ohm,3 V ~ 20 V,±2.5 V ~ 9 V,-,25MHz,-,0.2pF   18pF,100nA,-40dB @ 10MHz,-55°C ~ 125°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+SP4T,4:1,2,240 Ohm,5 Ohm,3 V ~ 20 V,±2.5 V ~ 9 V,-,25MHz,-,0.2pF   18pF,100nA,-40dB @ 10MHz,-55°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPST - NO,1:1,4,170 Ohm,5 Ohm,2 V ~ 6 V,±1 V ~ 5 V,37ns   37ns,200MHz,-,5pF,100nA,-,-55°C ~ 125°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+SPST - NO,1:1,4,170 Ohm,5 Ohm,2 V ~ 6 V,±1 V ~ 5 V,37ns   37ns,200MHz,-,5pF,100nA,-,-55°C ~ 125°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPDT,2:1,3,130 Ohm,5 Ohm,4.5 V ~ 5.5 V,±1 V ~ 5 V,-,200MHz,-,5pF   8pF,100nA,-,-55°C ~ 125°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+-,8:1,1,280 Ohm,5 Ohm,3 V ~ 20 V,-,-,60MHz,-,0.2pF   5pF,100nA,-40dB @ 3MHz,-55°C ~ 125°C (TA),16-SOIC (0.154"   3.90mm Width),16-SO
+SPST - NO,1:1,4,350 Ohm,10 Ohm,4.5 V ~ 15.5 V,-,-,-,-,-,200nA,-50dB @ 1MHz,-40°C ~ 85°C (TA),14-SOIC (0.154"   3.90mm Width),14-SO
+SPST - NO,1:1,4,400 Ohm,10 Ohm,3 V ~ 18 V,-,-,37MHz,-,5pF,100nA,-80dB @ 1MHz,-55°C ~ 125°C (TA),14-SOIC (0.154"   3.90mm Width),14-SOIC
+SP4T,4:1,2,100 Ohm,15 Ohm,2 V ~ 6 V,±2 V ~ 6 V,41ns   32ns,35MHz,-,5pF   45pF,100nA,-50dB @ 1MHz,-40°C ~ 85°C (TA),16-SOIC (0.295"   7.50mm Width),16-SOIC
+SPST - NO,1:1,4,70 Ohm,5 Ohm,2 V ~ 12 V,-,10ns   30ns,100MHz,-,-,20nA,-50dB @ 1MHz,-40°C ~ 85°C (TA),14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+SP4T,4:1,2,75 Ohm,700 mOhm,2 V ~ 5.5 V,-,14ns   14ns,50MHz,-,0.5pF   13.1pF,100nA,-45dB @ 1MHz,-40°C ~ 85°C (TA),16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+SPST - NO,1:1,1,160 Ohm,-,3 V ~ 18 V,-,-,30MHz,-,0.5pF   5pF,100nA,-,-40°C ~ 85°C (TA),SC-74A   SOT-753,SMV

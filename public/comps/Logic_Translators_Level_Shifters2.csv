@@ -1,0 +1,58 @@
+Voltage Level,Bidirectional,1,2,0.85V ~ 2.7V,1.35V ~ 3.6V,-,-,Non-Inverted,140Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power-Off Protection,Surface Mount,8-UFDFN,8-UDFN (1.6x1.2)
+Voltage Level,Bidirectional,1,2,1.2V ~ 3.3V,1.8V ~ 5.5V,-,-,Open Drain   Push-Pull,-,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,8-VFSOP (0.091"   2.30mm Width),8-VSSOP
+Mixed Signal,Unidirectional,1,1,-,-,ECL,LVTTL,Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-TSSOP
+Voltage Level,Bidirectional,2,8,2.3V ~ 3.6V,3V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Unidirectional,1,1,1.1V ~ 3.6V,1.1V ~ 3.6V,-,-,Non-Inverted,-,-40°C ~ 125°C (TA),-,Surface Mount,5-TSSOP   SC-70-5   SOT-353,5-TSSOP
+Voltage Level,Bidirectional,1,1,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,500Mbps,-40°C ~ 85°C (TA),-,Surface Mount,6-TSSOP   SC-88   SOT-363,SC-70-6
+Voltage Level,Bidirectional,1,2,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,500Mbps,-40°C ~ 85°C (TA),-,Surface Mount,8-LSSOP   8-MSOP (0.110"   2.80mm Width),SM8 (SSOP)
+Voltage Level,Bidirectional,2,8,1.4V ~ 3.6V,1.4V ~ 3.6V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.173"   4.40mm Width),48-TVSOP
+Voltage Level,Bidirectional,1,1,1.2V ~ 5.5V,1.2V ~ 5.5V,-,-,Tri-State   Non-Inverted,420Mbps,-40°C ~ 125°C (TA),-,Surface Mount,6-TSSOP   SC-88   SOT-363,6-TSSOP
+Voltage Level,Bidirectional,1,8,4.5V ~ 5.5V,2.7V ~ 3.6V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Voltage Level,Bidirectional,1,8,1.5V ~ 5.5V,1.5V ~ 3.6V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 125°C (TA),-,Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP
+Voltage Level,Bidirectional,1,8,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-SSOP (0.209"   5.30mm Width),24-SSOP
+Voltage Level,Bidirectional,1,8,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Voltage Level,Bidirectional,1,8,2.7V ~ 3.6V,4.5V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-SOIC (0.295"   7.50mm Width),24-SOIC
+Voltage Level,Unidirectional,1,1,1.65V ~ 3.6V,1.65V ~ 3.6V,-,-,Non-Inverted,10Mbps,-40°C ~ 85°C (TA),Short Circuit Protection,Surface Mount,SOT-23-6,SOT-23-6
+Voltage Level,Bidirectional,1,4,1.15V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,50Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Voltage Level,Unidirectional,4,1,3V ~ 18V,3V ~ 18V,-,-,Tri-State   Non-Inverted,-,-55°C ~ 125°C (TA),-,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Voltage Level,Bidirectional,1,2,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Open Drain   Tri-State,37MHz,-40°C ~ 85°C (TA),-,Surface Mount,8-UFQFN,8-MicroPak™
+Voltage Level,Bidirectional,1,8,0.95V ~ 5.5V,0.95V ~ 5.5V,-,-,Open Drain,-,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,10,1V ~ 5.5V,1V ~ 5.5V,-,-,Open Drain,-,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Voltage Level,Unidirectional,1,4,3V ~ 15V,3V ~ 15V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SO
+Voltage Level,Bidirectional,2,8,2.7V ~ 3.6V,4.5V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Bidirectional,1,8,1.2V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,230kbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power-Supply Decoupling,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,8,1.2V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,4Mbps,-40°C ~ 125°C (TA),Auto-Direction Sensing   Power-Supply Decoupling,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,8,1.2V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,4Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power-Supply Decoupling,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,2,1.2V ~ 5.5V,1.65V ~ 5.5V,-,-,Open Drain   Tri-State,16Mbps,-40°C ~ 85°C (TA),Power Supply Decoupling   Thermal-Shutdown Protection,Surface Mount,SOT-23-8,SOT-23-8
+Voltage Level,Bidirectional,1,2,1.2V ~ 5.5V,1.65V ~ 5.5V,-,-,Open Drain   Push-Pull   Tri-State,6Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power Supply Decoupling   Thermal-Shutdown Protection,Surface Mount,8-WFDFN Exposed Pad,8-TDFN-EP (3x3)
+Mixed Signal,Unidirectional,1,1,-,-,TTL,ECL,Differential,-,-40°C ~ 85°C (TA),-,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Mixed Signal,Unidirectional,1,4,-,-,MECL,TTL,Non-Inverted,-,0°C ~ 75°C (TA),-,Surface Mount,16-SOIC (0.209"   5.30mm Width),16-SOEIAJ
+Voltage Level,Unidirectional,1,6,3V ~ 18V,3V ~ 18V,-,-,Non-Inverted,-,-55°C ~ 125°C (TA),-,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Voltage Level,Bidirectional,2,8,2.3V ~ 3.6V,3V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Bidirectional,2,8,2.3V ~ 3.6V,3V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-BSSOP (0.295"   7.50mm Width),48-SSOP
+Voltage Level,Bidirectional,2,8,2.3V ~ 3.6V,3V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-BSSOP (0.295"   7.50mm Width),48-SSOP
+Voltage Level,Bidirectional,2,8,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,380Mbps,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Bidirectional,1,1,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,500Mbps,-40°C ~ 85°C (TA),-,Surface Mount,SOT-23-6,SOT-23-6
+Voltage Level,Bidirectional,2,2,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,380Mbps,-40°C ~ 85°C (TA),-,Surface Mount,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+Voltage Level,Bidirectional,2,8,1.4V ~ 3.6V,1.4V ~ 3.6V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Bidirectional,2,2,1.2V ~ 3.6V,1.2V ~ 3.6V,-,-,Tri-State   Non-Inverted,380Mbps,-40°C ~ 85°C (TA),-,Surface Mount,16-SOIC (0.154"   3.90mm Width),16-SOIC
+Voltage Level,Bidirectional,2,8,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,48-TFSOP (0.240"   6.10mm Width),48-TSSOP
+Voltage Level,Bidirectional,1,1,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,420Mbps,-40°C ~ 85°C (TA),-,Surface Mount,SOT-23-6,SOT-23-6
+Voltage Level,Bidirectional,1,1,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,420Mbps,-40°C ~ 85°C (TA),-,Surface Mount,SOT-23-6,SOT-23-6
+Voltage Level,Bidirectional,1,2,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,420Mbps,-40°C ~ 85°C (TA),-,Surface Mount,8-LSSOP   8-MSOP (0.110"   2.80mm Width),SM8 (SSOP)
+Voltage Level,Bidirectional,1,2,1.65V ~ 5.5V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,420Mbps,-40°C ~ 85°C (TA),-,Surface Mount,8-VFSOP (0.091"   2.30mm Width),US8
+Voltage Level,Bidirectional,1,8,4.5V ~ 5.5V,2.7V ~ 3.6V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Voltage Level,Bidirectional,1,8,2.3V ~ 3.6V,3V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Voltage Level,Bidirectional,1,8,4.5V ~ 5.5V,2.7V ~ 5.5V,-,-,Tri-State   Non-Inverted,-,-40°C ~ 85°C (TA),-,Surface Mount,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Voltage Level,Bidirectional,1,8,1.7V ~ 5.5V,1.7V ~ 5.5V,-,-,Open Drain,13Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power-Off Protection,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,8,1.7V ~ 5.5V,1.7V ~ 5.5V,-,-,Open Drain,13Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing   Power-Off Protection,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Mixed Signal,Unidirectional,1,6,-,-,TTL,ECL,Differential,-,-,-,Surface Mount,28-LCC (J-Lead),28-PLCC (11.5x11.5)
+Mixed Signal,Unidirectional,1,6,-,-,ECL,TTL,Non-Inverted,-,-,-,Surface Mount,28-LCC (J-Lead),28-PLCC (11.5x11.5)
+Mixed Signal,Unidirectional,1,4,-,-,PECL,TTL,Tri-State   Non-Inverted,-,0°C ~ 85°C (TA),-,Surface Mount,20-LCC (J-Lead),20-PLCC (9x9)
+Voltage Level,Bidirectional,1,4,1.2V ~ 3.6V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,100Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+Voltage Level,Bidirectional,1,8,1.2V ~ 3.6V,1.65V ~ 5.5V,-,-,Tri-State   Non-Inverted,100Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,1,1.65V ~ 3.6V,2.3V ~ 5.5V,-,-,Open Drain   Push-Pull,24Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,SOT-23-6,SOT-23-6
+Voltage Level,Bidirectional,1,2,1.65V ~ 3.6V,2.3V ~ 5.5V,-,-,Open Drain   Push-Pull,24Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,8-LSSOP   8-MSOP (0.110"   2.80mm Width),SM8 (SSOP)
+Voltage Level,Bidirectional,1,2,1.65V ~ 3.6V,2.3V ~ 5.5V,-,-,Open Drain   Push-Pull,24Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,8-VFSOP (0.091"   2.30mm Width),US8
+Voltage Level,Bidirectional,1,8,1.2V ~ 3.6V,1.65V ~ 5.5V,-,-,Open Drain   Push-Pull,60Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+Voltage Level,Bidirectional,1,8,1.2V ~ 3.6V,1.65V ~ 5.5V,-,-,Open Drain   Push-Pull,60Mbps,-40°C ~ 85°C (TA),Auto-Direction Sensing,Surface Mount,20-VFQFN Exposed Pad,20-VQFN (3.5x4.5)

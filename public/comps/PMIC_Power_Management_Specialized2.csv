@@ -1,0 +1,9 @@
+USB Dedicated Charging Port (DCP)   Power Switch,155µA,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Mobile/OMAP™,-,2.7 V ~ 4.5 V,-40°C ~ 85°C,Surface Mount,209-VFBGA,209-NFBGA
+Transformer Driver,450µA,3.3V   5V,0°C ~ 70°C,Through Hole,8-DIP (0.300"   7.62mm),8-PDIP
+Transformer Driver,450µA,3.3V   5V,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+Supercapacitor Charger,20µA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,12-TSSOP (0.118"   3.00mm Width) Exposed Pad,12-MSOP-EP
+Battery Management   Display (LED Drivers)   Handheld/Mobile Devices   Power Supply,-,2.75 V ~ 5.8 V,-40°C ~ 105°C,Surface Mount,48-VFQFN Exposed Pad,48-VQFN (6x6)
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,28-TSSOP (0.173"   4.40mm Width) Exposed Pad,28-TSSOP-EP
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,28-TSSOP (0.173"   4.40mm Width) Exposed Pad,28-TSSOP-EP
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)

@@ -1,0 +1,57 @@
+Lithium-Ion,1,-,-,-,340mA,4.2V,7V,USB,-40°C ~ 85°C (TA),SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Multi-Chemistry,-,Constant,Timer   Voltage,-,-,-,5.5V,-,0°C ~ 70°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+Multi-Chemistry,-,Constant   Pulsed,Voltage,-,-,-,5.5V,-,-20°C ~ 70°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Multi-Chemistry,-,Constant   Pulsed,Voltage,-,-,-,5.5V,-,-20°C ~ 70°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+Lead Acid,1,Constant   Pulsed,Current   Timer   Voltage,Over Temperature   Over Voltage,5mA,-,5.5V,-,-20°C ~ 70°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Lithium-Ion,-,Constant,-,Over Current   Over Voltage,-,-,5.5V,-,-20°C ~ 70°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+Lithium-Ion/Polymer,1,Constant - Programmable,Current,-,-,4.2V,15V,-,-20°C ~ 70°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Lithium-Ion/Polymer,2,Constant - Programmable,Current,-,-,8.4V,15V,-,-20°C ~ 70°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Lithium-Ion,1,Constant,Current   Timer,Over Temperature,1.2A,4.2V,10V,-,-40°C ~ 70°C (TA),20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Lithium-Ion,2,Constant,Current   Timer,Over Temperature,1.2A,8.4V,10V,-,-40°C ~ 70°C (TA),20-PowerTSSOP (0.173"   4.40mm Width),20-HTSSOP
+Lithium-Ion/Polymer,1,Constant - Programmable,Current   Timer,Over Temperature   Reverse Current   Short Circuit,1.5A,4.2V,16V,USB,-40°C ~ 125°C (TJ),20-VFQFN Exposed Pad,20-VQFN (3.5x4.5)
+Lithium-Ion,1,Constant - Programmable,Current   Timer,Over Temperature   Over Voltage   Reverse Current   Short Circuit,1.5A,4.2V,6.4V,USB,-40°C ~ 125°C (TJ),16-VFQFN Exposed Pad,16-QFN (3x3)
+Lithium-Ion,1,Constant - Programmable,Current   Timer,Over Temperature   Over Voltage   Reverse Current   Short Circuit,1.5A,4.2V,6.4V,USB,-40°C ~ 125°C (TJ),16-VFQFN Exposed Pad,16-QFN (3x3)
+Lithium-Ion/Polymer,1,Constant - Programmable,Timer,Over Temperature   Over Voltage   Short Circuit,750mA,4.2V,6.5V,-,0°C ~ 125°C (TJ),10-VFDFN Exposed Pad,10-VSON (3x3)
+Lithium-Ion/Polymer,1 ~ 2,Constant - Programmable,Current   Timer,Over Temperature   Over Voltage,2A,8.4V,16V,-,-40°C ~ 85°C (TA),20-VFQFN Exposed Pad,20-VQFN (3.5x4.5)
+Lithium-Ion/Polymer,1 ~ 3,Constant - Programmable,Current   Timer,Over Temperature,2A,8.4V,16V,-,-40°C ~ 85°C (TA),20-VFQFN Exposed Pad,20-VQFN (3.5x4.5)
+Lithium-Ion/Polymer,1 ~ 6,Constant - Programmable,Current,Over Current   Over Temperature   Over Voltage   Short Circuit,10A,26V (Max),28V,-,-40°C ~ 85°C (TA),24-VFQFN Exposed Pad,24-VQFN (4x4)
+Multi-Chemistry,-,-,-,-,-,-,28V,-,-40°C ~ 85°C (TA),24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+Multi-Chemistry,2 ~ 4,Constant - Programmable,-,Over Voltage,8.064A,19.2V (Max),24V,I²C,-40°C ~ 125°C (TJ),28-VFQFN Exposed Pad,28-VQFN (5x5)
+Lithium-Ion/Polymer,2 ~ 4,Constant - Programmable,-,Over Current   Over Voltage,10A,18.048V (Max),24V,-,-40°C ~ 125°C (TJ),28-VFQFN Exposed Pad,28-VQFN (5x5)
+Lithium-Ion/Polymer,1,-,-,Over Current   Over Temperature,4A,-,14V,I²C   USB,-40°C ~ 85°C (TA),42-UFBGA   DSBGA,42-DSBGA
+Multi-Chemistry,2 ~ 4,Constant - Programmable,-,Over Temperature   Short Circuit,2.6A,17.64V (Max),25V,-,-10°C ~ 100°C (TA),24-SSOP (0.154"   3.90mm Width),24-QSOP
+Lithium-Ion/Polymer,1,Constant - Programmable,-,-,2A,4.2V,6.5V,USB,-20°C ~ 70°C (TA),16-VQFN Exposed Pad,16-QFN (5x5)
+Lithium-Ion,2,-,-,-,1A,8.4V,20V,-,-40°C ~ 85°C (TA),SC-74A   SOT-753,SOT-23-5
+Multi-Chemistry,1,Constant - Programmable,-,-,2A,20V (Max),25V,-,0°C ~ 125°C (TJ),TO-263-8   D²Pak (7 Leads + Tab)   TO-263CA,D2PAK-7
+Lithium-Ion/Polymer,1,Constant - Programmable,Timer,Over Temperature,2A,4.2V,32V,-,-40°C ~ 85°C (TA),12-TSSOP (0.118"   3.00mm Width) Exposed Pad,12-MSOP-EP
+Multi-Chemistry,-,Constant - Programmable,-,-,-,3.072V,16V,Serial,0°C ~ 70°C (TA),18-SOIC (0.295"   7.50mm Width),18-SOIC
+Multi-Chemistry,-,Constant - Programmable,-,-,-,-,28V,-,-40°C ~ 85°C (TA),20-SSOP (0.154"   3.90mm Width),20-SSOP
+Multi-Chemistry,1 ~ 16,Constant - Programmable,Timer,-,-,-,34V,-,0°C ~ 85°C (TA),16-TSSOP (0.173"   4.40mm Width) Exposed Pad,16-TSSOP-EP
+Multi-Chemistry,1 ~ 16,Constant - Programmable,Timer,-,-,-,34V,-,0°C ~ 85°C (TA),20-TSSOP (0.173"   4.40mm Width) Exposed Pad,20-TSSOP-EP
+Lithium-Ion,1,Constant - Programmable,Timer,Over Temperature,-,4.2V,6.5V,USB,-40°C ~ 85°C (TA),10-TFSOP   10-MSOP (0.118"   3.00mm Width) Exposed Pad,10-MSOP-EP
+Lithium-Ion,1,Constant - Programmable,-,-,150mA,4.2V,6.5V,-,-40°C ~ 85°C (TA),SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Multi-Chemistry,-,Constant - Programmable,Timer,-,250mA,-,60V,-,-40°C ~ 125°C (TJ),10-WFDFN Exposed Pad,10-DFN (3x3)
+Multi-Chemistry,-,Constant - Programmable,Timer,-,250mA,-,60V,-,-40°C ~ 125°C (TJ),10-WFDFN Exposed Pad,10-DFN (3x3)
+Lithium-Ion/Polymer,1,Constant - Programmable,-,-,400mA,4.2V,40V,-,-40°C ~ 125°C (TJ),16-WFQFN Exposed Pad,16-QFN (3x3)
+Lithium-Ion,1 ~ 4,Constant,Timer,-,-,16.8V,28V,-,-40°C ~ 85°C (TA),28-SSOP (0.154"   3.90mm Width),28-QSOP
+Lithium-Ion,1 ~ 4,Constant - Programmable,Timer,-,1.5A,19V (Max),28V,-,-40°C ~ 85°C (TA),28-SSOP (0.209"   5.30mm Width),28-SSOP
+Multi-Chemistry,2 ~ 4,Constant - Programmable,-,-,4A,18.2V (Max),28V,-,-40°C ~ 85°C (TA),28-SSOP (0.154"   3.90mm Width),28-QSOP
+Lithium-Ion,1,Constant,-,Over Current,500mA,4.2V,6.5V,USB,-40°C ~ 85°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Multi-Chemistry,3,Constant - Programmable,-,-,4A,12.6V,28V,-,-40°C ~ 85°C (TA),16-SSOP (0.154"   3.90mm Width),16-QSOP
+Lithium-Ion,1,-,-,Over Voltage,1A,4.2V,6.5V,USB,-40°C ~ 85°C (TA),16-WQFN Exposed Pad,16-TQFN (5x5)
+Multi-Chemistry,-,Constant - Programmable,-,-,4A,17.65V (Max),28V,-,-40°C ~ 85°C (TA),28-WFQFN Exposed Pad,28-TQFN (5x5)
+Multi-Chemistry,1 ~ 16,Constant,-,-,-,-,5.5V,-,0°C ~ 70°C (TA),16-DIP (0.300"   7.62mm),16-PDIP
+Multi-Chemistry,1 ~ 16,Constant,-,-,-,-,5.5V,-,0°C ~ 70°C (TA),16-SOIC (0.154"   3.90mm Width),16-SOIC
+Lithium-Ion/Polymer,1,Constant - Programmable,-,Over Temperature   Over Voltage,1A,4.2V,5.5V,USB,-40°C ~ 85°C (TA),14-WFDFN Exposed Pad,14-TDFN-EP (3x3)
+Multi-Chemistry,2 ~ 4,-,-,-,-,17.6V (Max),28V,-,-40°C ~ 85°C (TA),28-WFQFN Exposed Pad,28-TQFN (5x5)
+Lithium-Ion,1,Constant - Programmable,Current   Timer,Over Voltage,2A,4.2V,16V,USB,-40°C ~ 85°C (TA),28-WFQFN Exposed Pad,28-TQFN (4x4)
+Multi-Chemistry,-,-,Timer,Over Temperature   Over Voltage,-,-,18V,-,-25°C ~ 85°C (TA),8-SOIC (0.154"   3.90mm Width),8-SOIC
+Lithium-Ion/Polymer,1,Constant - Programmable,-,-,500mA,4.2V,6V,-,-40°C ~ 85°C (TA),SC-74A   SOT-753,SOT-23-5
+Lithium-Ion/Polymer,1,Constant - Programmable,Current,Over Voltage,500mA,4.2V,6V,-,-40°C ~ 85°C (TA),SC-74A   SOT-753,SOT-23-5
+Lithium-Ion/Polymer,1,Constant - Programmable,Current,Over Voltage,500mA,4.2V,6V,-,-40°C ~ 85°C (TA),SC-74A   SOT-753,SOT-23-5
+Lithium-Ion/Polymer,1,Constant - Programmable,Current,Over Temperature,1.1A,4.2V,6V,-,-40°C ~ 85°C (TA),10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Lithium-Ion/Polymer,1 ~ 2,-,Timer,Over Temperature,-,8.4V,12V,-,-40°C ~ 85°C (TA),10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+Lithium-Ion,1,Constant - Programmable,-,Over Voltage,-,4.5V (Max),7.3V,I²C   USB,-40°C ~ 85°C (TA),25-UFBGA   FCBGA,25-FlipChip (2.55x2.2)
+Lithium-Ion,1,Constant - Programmable,Timer,Over Voltage,1.2A,4.2V,6V,-,-40°C ~ 85°C (TA),16-WFQFN Exposed Pad,16-WQFN (3x3)
+Lithium-Ion,1,Constant - Programmable,Current,-,800mA,4.2V,6.5V,-,-40°C ~ 85°C (TA),SOT-23-5 Thin   TSOT-23-5,TSOT-23-5
+Lead Acid,-,-,Current,-,-,-,40V,-,0°C ~ 70°C (TA),16-SOIC (0.295"   7.50mm Width),16-SOIC

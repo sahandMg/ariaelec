@@ -1,0 +1,134 @@
+2,3750Vrms,300% @ 1mA,30000% @ 1mA,8µs   345µs,-,AC   DC,Darlington,30V,-,1.2V,1mA,1V,-40°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+2,2500Vrms,-,-,300µs   220µs (Max),-,DC,Photovoltaic,5V,5µA,-,-,-,-40°C ~ 85°C,Surface Mount,8-SMD (4 Leads)   Gull Wing,8-SMD
+1,4170Vrms,20% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,-,1.18V,60mA,500mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,50% @ 5mA,600% @ 5mA,-,6µs   8µs,DC,Transistor,80V,50mA,1.2V,60mA,200mV,-55°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+4,2500Vrms,50% @ 5mA,400% @ 5mA,10µs   7µs,5µs   7µs,DC,Transistor,80V,30mA,1.2V,30mA,300mV,-55°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),16-SSOP
+1,4170Vrms,20% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,-,1.18V,60mA,500mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,10% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,-,1.18V,60mA,500mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,10% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,-,1.18V,60mA,500mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,500% @ 10mA,-,5µs   100µs (Max),-,DC,Darlington with Base,30V,150mA,1.2V,80mA,1V,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,100% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,-,1.18V,60mA,300mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,19% @ 16mA,50% @ 16mA,100ns   400ns,-,DC,Transistor with Base,20V,8mA,1.4V,25mA,-,-40°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+1,5000Vrms,19% @ 16mA,50% @ 16mA,250ns   260ns,-,DC,Transistor with Base,20V,8mA,1.45V,25mA,-,-40°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+1,4170Vrms,100% @ 10mA,200% @ 10mA,2µs   3µs,4µs   3.5µs (Max),DC,Transistor with Base,70V,50mA,1.35V,60mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+2,3750Vrms,19% @ 16mA,50% @ 16mA,200ns   600ns,-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,4000Vrms,20% @ 10mA,-,-,-,AC   DC,Transistor with Base,30V,-,1.2V,60mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+1,5000Vrms,80% @ 5mA,600% @ 5mA,-,3µs   5µs,DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5300Vrms,50% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,55V,-,1.15V,50mA,400mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),-
+2,5300Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,55V,-,1.15V,50mA,400mV,-55°C ~ 100°C,Through Hole,8-DIP (0.400"   10.16mm),-
+1,1500Vrms,20% @ 10mA,-,-,3µs   3µs,DC,Transistor with Base,30V,100mA,1.2V,80mA,500mV,-55°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,5000Vrms,200% @ 12mA,-,11µs   11µs,-,DC,Darlington with Base,18V,60mA,1.45V,20mA,-,-40°C ~ 85°C,Through Hole,8-DIP (0.400"   10.16mm),8-DIP
+1,5300Vrms,40% @ 10mA,160% @ 10mA,20µs   20µs,-,DC,Transistor with Base,30V,100mA,1.15V,100mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,63% @ 10mA,125% @ 10mA,-,5µs   5µs,DC,Transistor with Base,70V,150mA,1.45V,60mA,300mV,-55°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,5000Vrms,100% @ 10mA,200% @ 10mA,-,5µs   5µs,DC,Transistor with Base,70V,150mA,1.45V,60mA,300mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,63% @ 10mA,125% @ 10mA,-,5µs   5µs,DC,Transistor,70V,150mA,1.45V,60mA,300mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,100% @ 10mA,200% @ 10mA,-,5µs   5µs,DC,Transistor,70V,150mA,1.45V,60mA,300mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,8200Vrms,100% @ 5mA,300% @ 5mA,5µs   3µs,2.4µs   2.7µs,DC,Transistor,32V,50mA,1.32V,75mA,300mV,-55°C ~ 85°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,13900VDC,100% @ 5mA,300% @ 5mA,5µs   3µs,2.4µs   2.7µs,DC,Transistor,32V,50mA,1.32V,75mA,300mV,-55°C ~ 85°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5000Vrms,100% @ 10mA,200% @ 10mA,5.5µs   4µs,3µs   3.7µs,DC,Transistor with Base,70V,50mA,1.25V,60mA,300mV,-55°C ~ 110°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,50% @ 10mA,-,11µs   7µs,7µs   6.7µs,DC,Transistor with Base,32V,50mA,1.25V,60mA,300mV,-55°C ~ 100°C,Through Hole,6-DIP (0.400"   10.16mm),6-DIP
+1,5000Vrms,50% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,35V,50mA,1.2V,60mA,200mV,-55°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,2500Vrms,100% @ 10mA,200% @ 10mA,-,-,DC,Transistor,30V,50mA,1.5V (Max),-,400mV,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,5000Vrms,100% @ 10mA,200% @ 10mA,-,-,DC,Transistor,30V,50mA,1.5V (Max),-,400mV,-40°C ~ 85°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,4170Vrms,20% @ 10mA,-,-,-,AC   DC,Transistor with Base,30V,50mA,1.17V,60mA,400mV,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,4170Vrms,100% @ 10mA,-,-,-,AC   DC,Transistor with Base,30V,50mA,1.17V,60mA,400mV,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,4170Vrms,100% @ 10mA,300% @ 10mA,15µs   15µs (Max),-,DC,Transistor with Base,70V,-,1.18V,60mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,100% @ 10mA,300% @ 10mA,15µs   15µs (Max),-,DC,Transistor with Base,70V,-,1.18V,60mA,400mV,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+1,7500Vpk,50% @ 10mA,-,15µs   15µs,-,DC,Transistor with Base,70V,-,1.18V,60mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,0.36% @ 10mA,0.72% @ 10mA,-,-,DC,Photovoltaic   Linearized,-,-,1.6V,25mA,-,-55°C ~ 100°C,Through Hole,8-DIP (0.400"   10.16mm),8-DIP
+1,5000Vrms,15% @ 16mA,-,1µs   1µs (Max),-,DC,Transistor with Base,20V,8mA,1.68V,25mA,-,-55°C ~ 85°C,Through Hole,8-DIP (0.400"   10.16mm),8-DIP
+1,5000Vrms,15% @ 16mA,-,1µs   1µs (Max),-,DC,Transistor,20V,8mA,1.68V,25mA,-,-55°C ~ 85°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+1,3750Vrms,15% @ 16mA,-,1µs   1µs (Max),-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+2,2500Vrms,19% @ 16mA,50% @ 16mA,450ns   300ns,-,DC,Transistor,20V,8mA,1.45V,25mA,-,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,3750Vrms,500% @ 1.6mA,2600% @ 1.6mA,200ns   2µs,-,DC,Darlington with Base,18V,60mA,1.4V,20mA,-,-40°C ~ 85°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+2,3750Vrms,500% @ 1.6mA,2600% @ 1.6mA,5µs   10µs,-,DC,Darlington,18V,60mA,1.4V,12mA,100mV,0°C ~ 70°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO
+1,3750Vrms,50% @ 1mA,150% @ 1mA,-,4µs   3µs,AC   DC,Transistor,35V,50mA,1.2V,50mA,200mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,19% @ 16mA,50% @ 16mA,200ns   600ns,-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,3750Vrms,25% @ 16mA,60% @ 16mA,200ns   300ns,-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+1,3750Vrms,25% @ 16mA,60% @ 16mA,200ns   300ns,-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+1,3750Vrms,25% @ 16mA,60% @ 16mA,200ns   300ns,-,DC,Transistor,20V,8mA,1.5V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-DIP Gull Wing
+1,3750Vrms,50% @ 5mA,600% @ 5mA,-,3µs   3µs,DC,Transistor,80V,80mA,1.3V (Max),50mA,400mV,-40°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,100% @ 1mA,1200% @ 1mA,-,3µs   3µs,DC,Transistor,80V,80mA,1.3V (Max),50mA,400mV,-40°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,4000Vrms,100% @ 10mA,200% @ 10mA,3µs   3µs,-,DC,Transistor with Base,70V,-,1.3V,60mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+1,4000Vrms,50% @ 1mA,-,3µs   3µs,-,DC,Transistor with Base,30V,-,1V,60mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+1,4000Vrms,100% @ 1mA,-,3µs   3µs,-,DC,Transistor with Base,30V,-,1V,60mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+1,5300Vrms,750% @ 2mA,-,-,50µs   50µs,AC   DC,Darlington with Base,60V,-,1.2V,60mA,1V,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+2,4000Vrms,63% @ 10mA,125% @ 10mA,6µs   5µs,3µs   4.7µs,DC,Transistor,70V,-,1.2V,30mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+2,4000Vrms,100% @ 1mA,-,6µs   5µs,3µs   4.7µs,DC,Transistor,70V,-,1.2V,30mA,400mV,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+4,5300Vrms,100% @ 10mA,500% @ 10mA,1.2µs   2.3µs,2.6µs   2.2µs,DC,Transistor,70V,50mA,1.25V,60mA,400mV,-40°C ~ 100°C,Through Hole,16-DIP (0.300"   7.62mm),16-DIP
+4,5300Vrms,12.5% @ 16mA,-,3µs   3µs,-,DC,Transistor,20V,-,1.3V,60mA,500mV,-55°C ~ 100°C,Through Hole,16-DIP (0.300"   7.62mm),16-DIP
+2,3750Vrms,-,-,-,-,DC,Photovoltaic   Linearized,-,-,1.2V,-,-,-40°C ~ 85°C,Surface Mount,16-SOIC (0.295"   7.50mm Width),16-SOIC
+1,3750Vrms,20% @ 1mA,400% @ 1mA,-,4µs   3µs,AC   DC,Transistor,35V,50mA,1.2V,50mA,200mV,-30°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SOP (2.54mm)
+1,3750Vrms,50% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,200mV,-55°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SOP (2.54mm)
+1,3750Vrms,50% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,200mV,-55°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SOP (2.54mm)
+1,5000Vrms,20% @ 1mA,300% @ 1mA,-,4µs   3µs,AC   DC,Transistor,35V,50mA,1.2V,50mA,200mV,-30°C ~ 110°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,100% @ 10mA,-,2µs   2µs,-,DC,Transistor with Base,30V,50mA,1.25V,100mA,400mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,7500Vpk,20% @ 10mA,-,2µs   2µs,2µs   1.5µs,DC,Transistor with Base,30V,50mA,1.25V,60mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,2500Vrms,63% @ 10mA,125% @ 10mA,7.5µs   5.7µs,3.2µs   4.7µs,DC,Transistor with Base,30V,150mA,1.15V,60mA,400mV,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,2500Vrms,20% @ 10mA,-,7.5µs   5.7µs,3.2µs   4.7µs,DC,Transistor with Base,30V,150mA,1.15V,60mA,400mV,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,2500Vrms,100% @ 10mA,-,7.5µs   5.7µs,3.2µs   4.7µs,DC,Transistor with Base,30V,150mA,1.15V,60mA,400mV,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,2500Vrms,20% @ 10mA,-,-,-,AC   DC,Transistor with Base,30V,150mA,1.2V,60mA,400mV,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,4170Vrms,500% @ 10mA,-,8.5µs   95µs,-,DC,Darlington,80V,150mA,1.18V,60mA,-,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5300Vrms,108% @ 10mA,173% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,30V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,4170Vrms,50% @ 10mA,150% @ 10mA,2µs   3µs,4µs   3.5µs (Max),DC,Transistor,70V,50mA,1.15V,60mA,400mV,-40°C ~ 100°C,Surface Mount,6-SMD   Gull Wing,6-SMD
+2,2500Vrms,100% @ 10mA,200% @ 10mA,7.5µs   5.7µs,3.2µs   4.7µs,DC,Transistor,70V,150mA,1.25V,60mA,400mV,-40°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SO Tall
+1,5000Vrms,50% @ 5mA,150% @ 5mA,-,4µs   3µs,DC,Transistor,70V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Through Hole,4-DIP (0.400"   10.16mm),4-DIP
+1,3750Vrms,50% @ 1mA,150% @ 1mA,-,4µs   3µs,AC   DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,3750Vrms,20% @ 1mA,400% @ 1mA,-,4µs   3µs,AC   DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,600% @ 1mA,-,-,60µs   53µs,DC,Darlington,35V,80mA,1.2V,50mA,1V,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,80% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,80% @ 5mA,160% @ 5mA,-,4µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-Mini-Flat
+1,3750Vrms,50% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,2500Vrms,20% @ 1mA,400% @ 1mA,-,4µs   3µs,AC   DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SOIC (0.173"   4.40mm Width),4-Mini-Flat
+1,2500Vrms,100% @ 500µA,700% @ 500µA,-,4µs   3µs,DC,Transistor,80V,500µA,1.2V,10mA,200mV,-30°C ~ 100°C,-,-,-
+1,5000Vrms,20% @ 1mA,300% @ 1mA,-,4µs   3µs,AC   DC,Transistor,80V,50mA,1.2V,50mA,200mV,-30°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,-,-,-,-,4µs   5µs,DC,Transistor,350V,50mA,1.2V,50mA,300mV,-25°C ~ 100°C,-,-,-
+2,5300Vrms,80% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,80V,-,1.2V,50mA,300mV,-30°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),-
+1,5000Vrms,80% @ 5mA,600% @ 5mA,-,3µs   5µs,DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+4,5000Vrms,80% @ 5mA,600% @ 5mA,-,3µs   5µs,DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Surface Mount,16-SMD   Gull Wing,16-SMD
+1,5000Vrms,1500% @ 1mA,6500% @ 1mA,-,100µs   100µs,DC,Darlington,300V,150mA,1.15V,80mA,1V,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5000Vrms,80% @ 5mA,400% @ 5mA,-,3µs   5µs,DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5000Vrms,80% @ 5mA,400% @ 5mA,-,3µs   5µs,AC   DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5000Vrms,80% @ 5mA,400% @ 5mA,-,3µs   5µs,AC   DC,Transistor,80V,50mA,1.17V,80mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,3750Vrms,50% @ 5mA,300% @ 5mA,-,3µs   5µs,AC   DC,Transistor,40V,80mA,1.1V,50mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SOP
+1,2500Vrms,80% @ 5mA,600% @ 5mA,6µs   5µs,3µs   5µs,DC,Transistor,80V,50mA,1.1V,50mA,300mV,-55°C ~ 100°C,Surface Mount,4-SOIC (0.173"   4.40mm Width),4-SSOP
+4,2500Vrms,80% @ 5mA,600% @ 5mA,-,3µs   5µs,AC   DC,Transistor,80V,50mA,1.1V,50mA,300mV,-55°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),-
+1,2500Vrms,100% @ 1mA,400% @ 1mA,-,4µs   5µs,AC   DC,Transistor,40V,40mA,1.15V,50mA,300mV,-55°C ~ 100°C,Surface Mount,4-SOIC (0.173"   4.40mm Width),4-SSOP
+1,2500Vrms,100% @ 1mA,400% @ 1mA,40µs   120µs,5µs   10µs,DC,Transistor,40V,40mA,1.1V,50mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Flat Leads,4-Mini-Flat
+1,5000Vrms,15% @ 16mA,-,220ns   350ns,-,DC,Transistor with Base,35V,8mA,1.7V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SMD   Gull Wing,8-SMD
+1,5300Vrms,40% @ 10mA,80% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,160% @ 10mA,320% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,19% @ 16mA,-,200ns   200ns,-,DC,Transistor with Base,25V,8mA,1.6V,25mA,-,-55°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+1,5300Vrms,100% @ 10mA,200% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,160% @ 10mA,320% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,100% @ 10mA,200% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.35V,60mA,400mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5300Vrms,63% @ 10mA,125% @ 10mA,-,4µs   3µs,DC,Transistor,70V,50mA,1.65V (Max),50mA,400mV,-30°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5300Vrms,100% @ 10mA,200% @ 10mA,3µs   2.3µs,2µs   2µs,DC,Transistor,70V,50mA,1.35V,60mA,400mV,-55°C ~ 110°C,Through Hole,4-DIP (0.400"   10.16mm),4-DIP
+1,5300Vrms,100% @ 1mA,200% @ 1mA,6µs   5.5µs,3.5µs   5µs,DC,Transistor,55V,50mA,1.1V,60mA,400mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SMD
+1,5300Vrms,250% @ 1mA,500% @ 1mA,6µs   5.5µs,3.5µs   5µs,DC,Transistor,55V,50mA,1.1V,60mA,400mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5300Vrms,63% @ 10mA,200% @ 10mA,3µs   2.3µs,2µs   2µs,AC   DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,5300Vrms,100% @ 10mA,320% @ 10mA,3µs   2.3µs,2µs   2µs,AC   DC,Transistor,70V,50mA,1.25V,60mA,400mV,-55°C ~ 100°C,Through Hole,4-DIP (0.300"   7.62mm),4-DIP
+1,4000Vrms,19% @ 16mA,50% @ 16mA,250ns   500ns,-,DC,Transistor with Base,25V,8mA,1.6V,25mA,-,-55°C ~ 100°C,Surface Mount,8-SOIC (0.154"   3.90mm Width),8-SOIC
+1,5300Vrms,19% @ 16mA,-,300ns   300ns,-,DC,Transistor,25V,8mA,1.33V,25mA,400mV,-55°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+4,3750Vrms,50% @ 5mA,300% @ 5mA,5µs   4µs,4µs   3µs,DC,Transistor,70V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),16-SOP
+1,5000Vrms,40% @ 10mA,-,11µs   7µs,7µs   6.7µs,DC,Transistor,32V,50mA,1.25V,60mA,300mV,-55°C ~ 110°C,Through Hole,6-DIP (0.400"   10.16mm),6-DIP
+1,5000Vrms,40% @ 10mA,-,5.5µs   4µs,3µs   3.7µs,DC,Transistor,70V,50mA,1.25V,60mA,300mV,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,5000Vrms,100% @ 10mA,200% @ 10mA,6µs   5µs,3µs   4.7µs,DC,Transistor,70V,50mA,1.25V,60mA,300mV,-55°C ~ 100°C,Surface Mount,4-SMD   Gull Wing,4-SOP (2.54mm)
+4,3750Vrms,50% @ 5mA,600% @ 5mA,6µs   5µs,3µs   4.7µs,DC,Transistor,70V,50mA,1.25V,60mA,300mV,-40°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),16-SOP
+1,7500Vpk,50% @ 10mA,-,10µs   10µs (Max),2µs   2µs,DC,Transistor with Base,30V,-,1.2V,60mA,400mV,-40°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+1,3750Vrms,20% @ 16mA,-,800ns   800ns (Max),-,DC,Transistor,20V,8mA,1.64V,20mA,-,-55°C ~ 125°C,Surface Mount,6-SOIC (0.179"   4.55mm Width)   5 Leads,6-SO   5 Lead
+1,2500Vrms,1000% @ 1mA,-,50µs   15µs,40µs   15µs,DC,Darlington,300V,150mA,1.15V,50mA,1.2V,-55°C ~ 100°C,Surface Mount,6-SMD (4 Leads)   Gull Wing,6-MFSOP   4 Lead
+1,3750Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,AC   DC,Transistor with Base,80V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Surface Mount,6-SOIC (0.173"   4.40mm Width)   5 Leads,6-MFSOP   5 Lead
+1,3750Vrms,150% @ 5mA,300% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,80V,50mA,1.25V,50mA,300mV,-55°C ~ 110°C,Surface Mount,6-SOIC (0.179"   4.55mm Width)   4 Leads,6-SO   4 Lead
+1,3750Vrms,15% @ 16mA,-,1µs   1µs (Max),-,DC,Transistor,20V,8mA,1.55V,25mA,-,-40°C ~ 110°C,Surface Mount,6-SOIC (0.179"   4.55mm Width)   5 Leads,6-SO   5 Lead
+4,2500Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,AC   DC,Transistor,80V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),16-SOP
+1,2500Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,80V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Surface Mount,4-SOIC (0.173"   4.40mm Width),4-SOP
+4,2500Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,80V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Surface Mount,16-SOIC (0.173"   4.40mm Width),16-SOP
+4,2500Vrms,100% @ 5mA,400% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,80V,50mA,1.2V,50mA,400mV,-55°C ~ 110°C,Surface Mount,16-SOIC (0.179"   4.55mm Width),16-SO
+1,3750Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,80V,50mA,1.25V,50mA,300mV,-55°C ~ 110°C,Surface Mount,4-SOIC (0.179"   4.55mm Width),4-SO
+4,3750Vrms,100% @ 500µA,600% @ 500µA,3µs   3µs,2µs   3µs,AC   DC,Transistor,80V,50mA,1.25V,50mA,300mV,-55°C ~ 125°C,Surface Mount,16-SOIC (0.179"   4.55mm Width),16-SO
+1,5000Vrms,1000% @ 1mA,-,50µs   15µs,40µs   15µs,DC,Darlington with Base,300V,150mA,1.15V,60mA,1.2V,-55°C ~ 100°C,Through Hole,6-DIP (0.300"   7.62mm),6-DIP
+4,2500Vrms,100% @ 5mA,600% @ 5mA,3µs   3µs,2µs   3µs,DC,Transistor,55V,50mA,1.15V,50mA,400mV,-55°C ~ 100°C,Through Hole,16-DIP (0.300"   7.62mm),16-DIP
+2,5300Vrms,100% @ 5mA,600% @ 5mA,-,4µs   3µs,DC,Transistor,55V,-,1.15V,50mA,400mV,-30°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP
+4,5300Vrms,50% @ 5mA,600% @ 5mA,-,4µs   3µs,AC   DC,Transistor,55V,50mA,1.15V,50mA,400mV,-30°C ~ 100°C,Through Hole,16-DIP (0.300"   7.62mm),16-DIP
+1,5000Vrms,20% @ 16mA,-,200ns   300ns,-,DC,Transistor,20V,8mA,1.65V,25mA,-,-55°C ~ 100°C,Through Hole,8-DIP (0.300"   7.62mm),8-DIP

@@ -1,0 +1,164 @@
+10,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.7   ±0.5,Current Source,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+12,1,5µs,Voltage - Buffered,No,Parallel,External,±11.4 V ~ 15.75 V,-,±0.75 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-DIP (0.300"   7.62mm),24-PDIP
+8,2,400ns,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+12,1,1µs,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,20-DIP (0.300"   7.62mm),20-PDIP
+8,1,150µs,Current - Unbuffered,Yes,Parallel,External,±4.5 V ~ 18 V,-,-,Multiplying DAC,0°C ~ 70°C,16-DIP (0.300"   7.62mm),16-PDIP
+8,1,150ns (Typ),Current - Unbuffered,No,Parallel,External,±4.5 V ~ 18 V,-,-,Multiplying DAC,0°C ~ 75°C,16-DIP (0.300"   7.62mm),16-PDIP
+12,1,7µs (Typ),Voltage - Buffered,No,SPI,Internal,5V,5V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,8-DIP (0.300"   7.62mm),8-PDIP
+8,3,15µs (Typ),Voltage - Buffered,No,Parallel,Internal,5V,5V,±0.5   ±0.25,String DAC,0°C ~ 70°C,44-QFP,44-PQFP (10x10)
+24,8,-,Voltage - Unbuffered,Yes,I²S   SPI,Internal,3 V ~ 3.6 V,3 V ~ 3.6 V,-,Sigma-Delta,-40°C ~ 105°C,64-LQFP,64-LQFP (10x10)
+16,1,3ms,Voltage or Current - Buffered,No,SPI,External   Internal,12 V ~ 32 V,12 V ~ 32 V,-,Sigma-Delta,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,2,13µs,Voltage - Buffered,No,SPI   DSP,External,5V,5V,±0.05   ±0.2,R-2R,-40°C ~ 125°C,14-TSSOP (0.173"   4.40mm Width),14-TSSOP
+16,1,4µs (Typ),Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,SOT-23-8,SOT-23-8
+16,1,4µs (Typ),Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,SOT-23-8,SOT-23-8
+8,1,6µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±1 (Max)   ±0.25 (Max),String DAC,-40°C ~ 105°C,SOT-23-6,SOT-23-6
+8,2,8µs,Voltage - Buffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.15   ±0.02,String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+8,4,8µs,Voltage - Buffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.15   ±0.02,String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+10,1,8µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±4 (Max)   ±0.5 (Max),String DAC,-40°C ~ 105°C,SOT-23-6,SOT-23-6
+10,4,9µs,Voltage - Buffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.5   ±0.05,String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+10,4,9µs,Voltage - Buffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.5   ±0.05,String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+12,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 105°C,SOT-23-6,SOT-23-6
+12,8,10µs,Voltage - Buffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±2   ±0.2,String DAC,-40°C ~ 125°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+8,2,8µs,Voltage - Buffered,No,Parallel,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.15   ±0.02,String DAC,-40°C ~ 105°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+10,2,9µs,Voltage - Buffered,No,Parallel,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.5   ±0.05,String DAC,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width),24-TSSOP
+16,16,30µs,Voltage - Buffered,No,SPI   DSP,External,8 V ~ 16.5 V   -4.5 V ~ 16.5 V,2.5 V ~ 5.5 V,±4 (Max)   ±1 (Max),String DAC,-40°C ~ 85°C,52-LQFP,52-LQFP (10x10)
+16,1,40µs,Current - Buffered,No,SPI   DSP,External   Internal,10.8 V ~ 40 V,2.7 V ~ 5.5 V,-   ±1 (Max),R-2R,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+16,1,50µs (Typ),Voltage - Unbuffered,No,SPI   DSP,External   Internal,1.71 V ~ 5.5 V,3.17 V ~ 3.48 V,-   ±1 (Max),Cyclic Serial,-40°C ~ 105°C,32-VFQFN Exposed Pad   CSP,32-LFCSP-VQ (5x5)
+16,1,50µs (Typ),Voltage - Unbuffered,No,SPI   DSP,External   Internal,1.71 V ~ 5.5 V,3.17 V ~ 3.48 V,-   ±1 (Max),Cyclic Serial,-40°C ~ 105°C,28-TSSOP (0.173"   4.40mm Width) Exposed Pad,28-TSSOP-EP
+16,1,25µs (V)   40µs (A) (Typ),Voltage or Current - Buffered,No,SPI   DSP,External   Internal,10.8 V ~ 40 V   -3 V ~ 26.4 V,2.7 V ~ 5.5 V,-   ±1.3 (Max),R-2R,-40°C ~ 105°C,40-VFQFN Exposed Pad   CSP,40-LFCSP-VQ (6x6)
+16,1,25µs (V)   40µs (A) (Typ),Voltage or Current - Buffered,No,SPI   DSP,External   Internal,10.8 V ~ 40 V   -3 V ~ 26.4 V,2.7 V ~ 5.5 V,-   ±1.3 (Max),R-2R,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+16,1,25µs (V)   40µs (A) (Typ),Voltage or Current - Buffered,No,SPI   DSP,External   Internal,10.8 V ~ 40 V   -3 V ~ 26.4 V,2.7 V ~ 5.5 V,-   ±1.3 (Max),R-2R,-40°C ~ 105°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+12,1,160ns,Current - Unbuffered,Yes,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±1 (Max)   -1/+2 (Max),R-2R,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+12,1,120ns,Current - Unbuffered,Yes,Parallel,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±1 (Max)   -1/+2 (Max),R-2R,-40°C ~ 125°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,1,120ns,Current - Unbuffered,Yes,Parallel,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±1 (Max)   -1/+2 (Max),R-2R,-40°C ~ 125°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,2,120ns,Current - Unbuffered,Yes,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±1 (Max)   -1/+2 (Max),R-2R,-40°C ~ 125°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+10,1,110ns,Current - Unbuffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.25 (Max)   ±0.5 (Max),R-2R,-40°C ~ 125°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+12,1,110ns,Current - Unbuffered,No,SPI   DSP,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 125°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+16,1,1µs (Typ),Voltage - Unbuffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,16-WFQFN Exposed Pad   CSP,16-LFCSP-WQ (3x3)
+16,2,500ns (Typ),Current - Unbuffered,No,SPI,External,5V,5V,±2 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,2,500ns (Typ),Current - Unbuffered,No,SPI,External,5V,5V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+14,2,500ns (Typ),Current - Unbuffered,No,SPI,External,5V,5V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+8,1,1.5µs,Voltage - Unbuffered,No,Parallel,Internal,5V,5V,±0.5   -,R-2R,0°C ~ 70°C,20-LCC (J-Lead),20-PLCC (9x9)
+8,1,3µs,Voltage - Buffered,No,Parallel,Internal,4.5 V ~ 16.5 V,4.5 V ~ 16.5 V,±0.5 (Max)   -,R-2R,0°C ~ 70°C,16-DIP (0.300"   7.62mm),16-PDIP
+8,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5 (Max)   ±0.5 (Max),String DAC,-40°C ~ 125°C,6-TSSOP   SC-88   SOT-363,SC-70-6
+12,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±6 (Max)   ±0.5 (Max),String DAC,-40°C ~ 125°C,6-WDFN Exposed Pad   CSP,6-LFCSP-WD (2x3)
+12,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±6 (Max)   ±0.5 (Max),String DAC,-40°C ~ 125°C,6-TSSOP   SC-88   SOT-363,SC-70-6
+12,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±1 (Max)   ±0.5 (Max),String DAC,-40°C ~ 125°C,6-TSSOP   SC-88   SOT-363,SC-70-6
+12,2,4.5µs,Voltage - Buffered,No,SPI   DSP,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,±0.5   ±0.25 (Max),String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+12,4,4.5µs,Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.25 (Max),String DAC,-40°C ~ 105°C,10-WFDFN Exposed Pad   CSP,10-LFCSP-WD (3x3)
+14,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 125°C,6-WDFN Exposed Pad   CSP,6-LFCSP-WD (2x3)
+14,1,10µs,Voltage - Buffered,No,SPI   DSP,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 125°C,6-TSSOP   SC-88   SOT-363,SC-70-6
+12,1,400ns,Current - Unbuffered,No,Parallel,External   Internal,±11.4 V ~ 16.5 V,-,±0.5   ±0.5,R-2R,0°C ~ 70°C,24-CDIP (0.600"   15.24mm),24-CDIP
+16,1,10µs,Voltage - Buffered,No,SPI   DSP,Internal,2.7 V ~ 3.3 V,2.7 V ~ 3.3 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 105°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+16,1,10µs,Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±8   ±1 (Max),String DAC,-40°C ~ 125°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+16,4,7µs,Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±6   ±1 (Max),String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+16,8,7µs,Voltage - Buffered,No,SPI   DSP,External   Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±8   ±1 (Max),String DAC,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,1,7µs,Voltage - Buffered,No,I²C,External   Internal,2.7 V ~ 5.5 V,1.8 V ~ 5.5 V,±8 (Max)   ±1 (Max),String DAC,-40°C ~ 105°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+12,4,7µs,Voltage - Buffered,No,I²C,External   Internal,2.7 V ~ 5.5 V,1.8 V ~ 5.5 V,±0.12   ±1 (Max),String DAC,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+14,4,8µs,Voltage - Buffered,No,I²C,External   Internal,2.7 V ~ 5.5 V,1.8 V ~ 5.5 V,±0.5   ±1 (Max),String DAC,-40°C ~ 105°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+12,4,10µs (Typ),Voltage - Buffered,No,Parallel,External,5 V ~ 15 V   -15V,5V,±2 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+14,4,12µs,Voltage - Buffered,No,SPI   DSP,External,±4.5 V ~ 16.5 V,2.7 V ~ 5.5 V,±4 (Max)   ±1 (Max),String DAC,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+16,4,12µs,Voltage - Buffered,No,SPI   DSP,External,±4.5 V ~ 16.5 V,2.7 V ~ 5.5 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+16,4,12µs,Voltage - Buffered,No,SPI   DSP,External   Internal,±4.5 V ~ 16.5 V,2.7 V ~ 5.5 V,±16 (Max)   ±1 (Max),String DAC,-40°C ~ 85°C,24-TSSOP (0.173"   4.40mm Width) Exposed Pad,24-TSSOP-EP
+16,1,3.5µs (Typ),Voltage - Unbuffered,No,SPI   DSP,External,7.5 V ~ 16.5 V   -2.5 V ~ 16.5 V,2.7 V ~ 5.5 V,±2 (Max)   ±1 (Max),R-2R,-40°C ~ 125°C,24-VFQFN Exposed Pad   CSP,24-LFCSP-VQ (4x5)
+12,4,10µs,Voltage - Buffered,No,Parallel,External,±11.4 V ~ 16.5 V,5V,±0.5   ±0.5 (Max),R-2R,-40°C ~ 85°C,28-CDIP (0.600"   15.24mm),28-CDIP
+12,1,4µs,Voltage - Buffered,No,Parallel,External   Internal,±11.4 V ~ 16.5 V,-,±0.5   ±0.5,R-2R,0°C ~ 70°C,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+16,1,13µs,Voltage - Buffered,No,Parallel,External   Internal,±13.5 V ~ 16.5 V,5V,±4 (Max)   ±4 (Max),R-2R,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+16,1,13µs,Voltage - Buffered,No,Parallel,External   Internal,±13.5 V ~ 16.5 V,5V,±2 (Max)   ±2 (Max),R-2R,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+17,1,-,Current - Unbuffered,No,Parallel,-,5V,5V,-,R-2R,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+17,1,-,Current - Unbuffered,No,Parallel,-,5V,5V,-,R-2R,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+8,4,4µs,Voltage - Buffered,No,Parallel,External,11.4 V ~ 16.5 V   -5V,14.25 V ~ 15.75 V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+8,8,5µs   7µs,Voltage - Buffered,No,Parallel,External,10.8 V ~ 16.5 V   ±5V,13.5 V ~ 16.5 V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,1,10µs,Voltage - Buffered,No,SPI,External   Internal,±10.8 V ~ 16.5 V,-,±1 (Max)   ±0.9 (Max),R-2R,-40°C ~ 85°C,16-DIP (0.300"   7.62mm),16-PDIP
+12,1,7µs,Voltage - Buffered,No,Parallel,Internal,±10.8 V ~ 16.5 V,10.8 V ~ 16.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+8,4,2µs,Voltage - Buffered,No,Parallel,External,2.7 V ~ 5.5 V   ±5V,2.7 V ~ 5.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+8,1,500ns,Current - Unbuffered,Yes,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   -,R-2R,-40°C ~ 85°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+8,2,400ns,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,2,1.5µs,Current - Unbuffered,No,Parallel,External,10.8 V ~ 16.5 V,10.8 V ~ 16.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-DIP (0.300"   7.62mm),24-PDIP
+12,2,1.5µs,Current - Unbuffered,No,Parallel,External,10.8 V ~ 16.5 V,10.8 V ~ 16.5 V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+12,1,1µs,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,2,1.5µs,Current - Unbuffered,No,Parallel,External,10.8 V ~ 16.5 V,10.8 V ~ 16.5 V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-DIP (0.300"   7.62mm),24-PDIP
+12,1,1.5µs (Typ),Current - Unbuffered,No,Parallel,External,5V   11.4 V ~ 15.75 V,5V   11.4 V ~ 15.75 V,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,20-LCC (J-Lead),20-PLCC (9x9)
+12,4,3.5µs (Typ),Current - Unbuffered,Yes,SPI,External,3 V ~ 5.5 V,3 V ~ 5.5 V,±1 (Max)   ±0.9 (Max),R-2R,-40°C ~ 85°C,28-SSOP (0.209"   5.30mm Width),28-SSOP
+16,1,35ns,Current - Unbuffered,Yes,Parallel,External   Internal,±5V,-,±8   ±8,R-2R,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+8,1,2µs,Voltage - Buffered,No,Parallel,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±1 (Max)   ±1 (Max),Current Source,-40°C ~ 105°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+12,2,5µs,Voltage - Buffered,No,Parallel,External,±14.25 V ~ 15.75 V,-,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,1,5µs,Voltage - Buffered,No,Parallel,External,±14.25 V ~ 15.75 V,-,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,24-DIP (0.300"   7.62mm),24-PDIP
+12,1,14µs (Typ),Voltage - Buffered,No,SPI   DSP,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,2,16µs (Typ),Voltage - Buffered,No,Parallel,Internal,5V,5V,±0.75   ±0.75,R-2R,-40°C ~ 85°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+16,2,20ns (Typ),Current - Unbuffered,Yes,LVDS - Parallel,External   Internal,3.13 V ~ 3.47 V,1.71 V ~ 1.89 V,±3.7   ±2.1,Current Source,-40°C ~ 85°C,72-VFQFN Exposed Pad   CSP,72-LFCSP-VQ (10x10)
+8,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.1   ±0.1,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+8,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.1   ±0.1,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+12,1,11ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,±0.5   ±0.4,Current Source,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+14,1,11ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,2.7 V ~ 3.6 V,2.7 V ~ 3.6 V,±0.8   ±0.5,Current Source,-40°C ~ 85°C,32-WFQFN Exposed Pad   CSP,32-LFCSP-WQ (5x5)
+12,1,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,5V,2.7 V ~ 5.5 V,±0.5   ±0.25,Current Source,-40°C ~ 85°C,28-TSSOP (0.173"   4.40mm Width),28-TSSOP
+10,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.1   ±0.07,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+12,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.4   ±0.3,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+14,2,35ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,2.7 V ~ 5.5 V,±1.5   ±1.0,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+14,2,11ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3.1 V ~ 3.5 V,3.1 V ~ 3.5 V,±1.5   ±1,Oversampling Interpolating DAC,-40°C ~ 85°C,80-TQFP Exposed Pad,80-TQFP-EP (12x12)
+14,2,11ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3.1 V ~ 3.5 V,3.1 V ~ 3.5 V,±1.5   ±1,Oversampling Interpolating DAC,-40°C ~ 85°C,80-TQFP Exposed Pad,80-TQFP-EP (12x12)
+16,2,-,Current - Unbuffered,Yes,Parallel,Internal,3.13 V ~ 3.47 V,1.7 V ~ 1.9 V   3.13 V ~ 3.47 V,±3.7   ±2.1,Oversampling Interpolating DAC,-40°C ~ 85°C,100-TQFP Exposed Pad,100-TQFP-EP (14x14)
+10,3,-,Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 3.6 V   5V,3 V ~ 3.6 V   5V,±0.5   ±0.25,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+8,3,-,Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 3.6 V   5V,3 V ~ 3.6 V   5V,±0.5   ±0.25,Current Source,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+24,2,-,Voltage - Unbuffered,No,I²S,Internal,5V,5V,-,Sigma-Delta,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+24,2,-,Voltage - Unbuffered,No,I²S,Internal,5V,5V,-,Sigma-Delta,-10°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+24,2,-,Voltage - Unbuffered,No,I²S,Internal,5V,5V,-,Sigma-Delta,-10°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+8,1,150µs,Current - Unbuffered,Yes,Parallel,External,±4.5 V ~ 18 V,-,-,Multiplying DAC,0°C ~ 70°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+8,1,150ns (Typ),Current - Unbuffered,No,Parallel,External,±4.5 V ~ 18 V,-,-,Multiplying DAC,0°C ~ 75°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+8,1,150µs,Current - Unbuffered,Yes,Parallel,External,±4.5 V ~ 18 V,9 V ~ 36 V,-,Multiplying DAC,-40°C ~ 85°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+10,2,30ns (Typ),Current - Unbuffered,Yes,Parallel,External   Internal,3 V ~ 5.5 V,3 V ~ 5.5 V,±0.25   ±0.25,Segmented DAC,-40°C ~ 85°C,48-TQFP,48-TQFP (7x7)
+12,1,500ns,Current - Unbuffered,Yes,Parallel,External,4.5 V ~ 18 V   -10.8 V ~ 18 V,20 V ~ 36 V,-   ±1 (Max),R-2R,-40°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+12,1,500ns,Current - Unbuffered,Yes,Parallel,External,4.5 V ~ 18 V   -10.8 V ~ 18 V,20 V ~ 36 V,-   ±1 (Max),R-2R,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,1,10µs,Voltage - Buffered,No,SPI   DSP,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±8 (Max)   ±1 (Max),String DAC,-40°C ~ 105°C,SOT-23-8,SOT-23-8
+12,1,1µs,Current - Unbuffered,Yes,Parallel,External,5 V ~ 16 V,5 V ~ 16 V,±0.5 (Max)   ±0.5 (Max),R-2R,0°C ~ 70°C,18-SOIC (0.295"   7.50mm Width),18-SOIC
+12,1,7µs (Typ),Voltage - Buffered,No,SPI,Internal,5V,5V,±0.25   ±0.25,R-2R,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,4,10µs,Voltage - Buffered,No,SPI,External,±14.25 V ~ 15.75 V,14.25 V ~ 15.75 V,±2 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+12,4,10µs,Voltage - Buffered,No,Parallel,External,±14.25 V ~ 15.75 V,5V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+16,1,4µs,Voltage - Buffered,No,Parallel,External   Internal,±11.4 V ~ 15.75 V   -4.75 V ~ -15.75 V,5V,±4 (Max)   ±2 (Max),R-2R,-40°C ~ 85°C,48-LQFP,48-LQFP (7x7)
+12,1,200ns,Current - Unbuffered,Yes,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 125°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-VSSOP
+8,4,250ns,Current - Unbuffered,No,Parallel,External,5V,5V,±0.5 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,28-SOIC (0.295"   7.50mm Width),28-SOIC
+12,4,10µs (Typ),Voltage - Buffered,No,Parallel,External,5 V ~ 15 V   -15V,5V,±2 (Max)   -1,R-2R,-40°C ~ 85°C,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+8,4,3µs (Typ),Voltage - Buffered,No,Parallel,Internal,13.5 V ~ 16.5 V,13.5 V ~ 16.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+8,4,3µs (Typ),Voltage - Buffered,No,Parallel,Internal,13.5 V ~ 16.5 V,13.5 V ~ 16.5 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,1,16µs (Typ),Voltage - Buffered,No,SPI   DSP,Internal,5V,5V,±0.75   ±0.75,R-2R,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+16,1,10µs,Voltage - Buffered,No,SPI   DSP,External   Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±4   ±0.5,String DAC,-40°C ~ 105°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+16,1,1µs (Typ),Voltage - Buffered,No,SPI,External,±5V,1.8 V ~ 5.5 V,-   ±0.25,String DAC,-40°C ~ 85°C,16-TSSOP (0.173"   4.40mm Width),16-TSSOP
+16,1,500ns (Typ),Current - Unbuffered,No,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±1 (Max)   ±0.5,Multiplying DAC,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+16,1,1µs (Typ),Voltage - Unbuffered,No,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,1,6µs (Typ),Voltage - Buffered,No,SPI,External   Internal,4.75 V ~ 15.75 V,4.75 V ~ 15.75 V,±3.5 (Max)   ±0.5 (Max),R-2R,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,2,14µs (Typ),Voltage - Buffered,No,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±5.5 (Max)   ±0.2,String DAC,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+16,1,20µs (Typ),Voltage - Buffered,No,SPI,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±8   ±0.5,-,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+14,1,12µs (Typ),Voltage - Buffered,No,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±8 (Max)   ±1 (Max),-,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+10,1,30µs (Typ),Voltage - Buffered,No,I²C,Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.2,-,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-MSOP
+12,4,7µs (Typ),Voltage - Buffered,No,SPI,External,2.5 V ~ 5.5 V,2.5 V ~ 5.5 V,±0.9   ±0.5 (Max),-,0°C ~ 70°C,16-SSOP (0.154"   3.90mm Width),16-SSOP
+10,1,3.8µs (Typ),Voltage - Buffered,No,I²C,External   Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.2   ±0.5 (Max),-,0°C ~ 70°C,SOT-23-8 Thin   TSOT-23-8,TSOT-23-8
+10,8,4.3µs (Typ),Voltage - Buffered,No,I²C,External   Internal,5V,5V,±0.2   ±0.5 (Max),-,-40°C ~ 85°C,16-TFSOP (0.118"   3.00mm Width),16-MSOP
+16,1,1µs (Typ),Voltage - Unbuffered,No,SPI,External,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.5,R-2R,-40°C ~ 85°C,10-TFSOP   10-MSOP (0.118"   3.00mm Width),10-MSOP
+8,4,6µs (Typ),Voltage - Buffered,No,Parallel,External,±5V,5V,-   ±1 (Max),R-2R,0°C ~ 70°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+12,1,5µs,Voltage - Buffered,No,Parallel,Internal,±11.4 V ~ 15.75 V,11.4 V ~ 15.75 V,±0.75 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,24-DIP (0.300"   7.62mm),24-PDIP
+10,1,25µs (Typ),Voltage - Buffered,No,SPI,External,5V,5V,±0.5 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+8,1,6µs (Typ),Voltage - Buffered,No,I²C,External,5V,5V,±1.5 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+8,2,6µs (Typ),Voltage - Buffered,No,I²C,External,5V,5V,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+8,4,2µs (Typ),Voltage - Unbuffered,No,I²C,External,5V,5V,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,16-SOIC (0.295"   7.50mm Width),16-SOIC
+12,1,25µs (Typ),Voltage - Buffered,No,SPI,External,5V,5V,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,1,1µs,Current - Unbuffered,No,SPI,External,5V   11.4 V ~ 15.75 V,5V   11.4 V ~ 15.75 V,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,8-DIP (0.300"   7.62mm),8-PDIP
+12,1,1µs,Current - Unbuffered,No,SPI,External,5V   11.4 V ~ 15.75 V,5V   11.4 V ~ 15.75 V,±1 (Max)   ±1 (Max),R-2R,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+13,8,5µs (Typ),Voltage - Buffered,No,Parallel,External,±5V,-,±0.5   ±1 (Max),R-2R,-40°C ~ 85°C,44-QFP,44-MQFP (10x10)
+12,8,4.5µs (Typ),Voltage - Buffered,No,I²C,External   Internal,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±0.5   ±0.2,R-2R,-40°C ~ 125°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+6,6,-,Voltage - Buffered,Yes,SPI,Supply,4.5 V ~ 15 V,4.5 V ~ 15 V,-,R-2R,0°C ~ 85°C,20-SOIC (0.295"   7.50mm Width),20-SOIC
+12,1,6µs (Typ),Voltage - Buffered,No,I²C,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±2   ±0.2,String DAC,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+12,1,6µs (Typ),Voltage - Buffered,No,I²C,Supply,2.7 V ~ 5.5 V,2.7 V ~ 5.5 V,±2   ±0.2,String DAC,-40°C ~ 125°C,SOT-23-6,SOT-23-6
+8,1,500ns,Current - Unbuffered,Yes,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,16-SOIC (0.154"   3.90mm Width),16-SO
+12,1,5µs,Voltage - Buffered,No,Parallel,External,±14.25 V ~ 15.75 V,-,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+8,1,350ns,Current - Unbuffered,Yes,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   -,R-2R,-40°C ~ 85°C,16-SOIC (0.154"   3.90mm Width),16-SOIC
+6,6,-,Voltage - Buffered,No,I²C,External,4.5 V ~ 13.2 V,4.5 V ~ 13.2 V,±0.5 (Max)   ±0.5 (Max),-,-20°C ~ 70°C,20-SOIC (0.295"   7.50mm Width),20-SO
+6,6,-,Voltage - Buffered,No,I²C,External,4.5 V ~ 13.2 V,4.5 V ~ 13.2 V,±0.5 (Max)   ±0.5 (Max),-,-20°C ~ 70°C,16-SOIC (0.295"   7.50mm Width),16-SO
+8,4,10µs (Typ),Voltage - Buffered,No,SPI,External,5V,5V,±1 (Max)   ±0.9 (Max),String DAC,0°C ~ 70°C,14-DIP (0.300"   7.62mm),14-PDIP
+8,4,20µs,Voltage - Buffered,No,Parallel,External,11.4 V ~ 16.5 V   -5.5V,-,±1 (Max)   ±1 (Max),R-2R,0°C ~ 70°C,24-SOIC (0.295"   7.50mm Width),24-SOIC
+8,2,100ns,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   ±0.5 (Max),R-2R,0°C ~ 70°C,20-DIP (0.300"   7.62mm),20-PDIP
+8,2,100ns,Current - Unbuffered,No,Parallel,External,5 V ~ 15 V,5 V ~ 15 V,±0.5 (Max)   ±0.5 (Max),R-2R,-25°C ~ 85°C,20-DIP (0.300"   7.62mm),20-PDIP
+12,1,20µs,Voltage - Buffered,No,SPI,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,±1.9   ±0.5,String DAC,-40°C ~ 85°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+10,2,10µs,Voltage - Buffered,No,SPI,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,±0.7   ±0.1,String DAC,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
+12,1,3µs,Voltage - Buffered,No,Parallel,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,±1.5   ±0.4,String DAC,-40°C ~ 85°C,20-TSSOP (0.173"   4.40mm Width),20-TSSOP
+8,1,20µs,Voltage - Buffered,No,SPI,External,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,±0.3   ±0.07,String DAC,0°C ~ 70°C,8-TSSOP   8-MSOP (0.118"   3.00mm Width),8-VSSOP
+12,2,7µs,Voltage - Buffered,No,SPI,External   Internal,2.7 V ~ 3.3 V   5V,2.7 V ~ 3.3 V   5V,±1.7   ±0.4,String DAC,-40°C ~ 85°C,8-SOIC (0.154"   3.90mm Width),8-SOIC
