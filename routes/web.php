@@ -13,6 +13,7 @@
 
 
 use App\Common;
+use Carbon\Carbon;
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -417,7 +418,12 @@ $names = \App\Helper::pluck('helper')->all();
 
 Route::get('/', function () {
 
-    return 'Salam Mamad';
+    $start = Carbon::now();
+    $command = 'cd /var/www/html/ariaelec/public/V1 && node index.js stm32f407 qewqe';
+
+    exec($command, $output, $return);
+    $end = Carbon::now();
+    dd($output,$start,$end);
 });
 
 Route::get('login',function (){

@@ -50,6 +50,8 @@ Route::get('get-products','ProductController@all');
     Route::get('search-part','SearchController@SearchPart');
     Route::get('search-article','SearchController@findArticle');
     Route::post('sort-col','SearchController@sort');
+    // -------------------------------  Getting price from shops  -----------------------------------
+    Route::get('get-price','SearchController@getPrice');
     // -------------------------------  Searching with filter  -----------------------------------
 
     Route::post('search-part-filter','SearchController@filterPart');

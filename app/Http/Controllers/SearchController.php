@@ -139,7 +139,7 @@ class SearchController extends Controller
                             ->orWhere('manufacturer', 'like', "%$keyword%")
                             ->orWhere('description', 'like', "%$keyword%")
                             ->join('components', 'commons.component_id', '=', 'components.id')
-                            ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
+//                            ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
                             ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
                             ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
 
@@ -192,6 +192,28 @@ class SearchController extends Controller
                 return array_unique($cName2);
                 }
             }
+    }
+
+    public function getPrice(Request $request){
+        $stop = 0;
+        $start = Carbon::now();
+
+        while ($stop == 0) {
+
+
+            $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
+
+            exec($command, $output, $return);
+            if (count($output) != 0) {
+                $stop = 1;
+            }
+            elseif(Carbon::now()->diffInSeconds($start) > 5){
+                return 435;
+            }
+        }
+
+        return $output;
+
     }
 
     public function SearchPart(Request $request){
