@@ -200,8 +200,8 @@ class SearchController extends Controller
             ->join('components', 'components.product_id', '=', 'products.id')->get();
 
         if(!$product->isEmpty()){
-
-            return $product;
+            $this->type = '10';
+            return [$this->type,$product];
         }
 
 
@@ -209,7 +209,9 @@ class SearchController extends Controller
             ->join('commons', 'commons.component_id', '=', 'components.id')
             ->get();
         if(count($component) > 0){
-            return $component;
+            $this->type = '20';
+            return [$this->type,$component,];
+
         }
 
         $part = DB::table('commons')
@@ -224,8 +226,8 @@ class SearchController extends Controller
 
             return 415;
         } else {
-
-            return $part;
+            $this->type = '30';
+            return [$this->type,$part];
         }
     }
 
