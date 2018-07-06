@@ -111,7 +111,7 @@ class Common extends Model
 {
     use RelationshipsTrait;
 
-    public $fillable = ['component_id','model_id'];
+    public $fillable = ['component_id','model_id','unit_price'];
     public function __construct(array $attributes = null)
     {
         if($attributes !== null){

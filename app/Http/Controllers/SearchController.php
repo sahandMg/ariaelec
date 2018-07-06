@@ -213,6 +213,8 @@ class SearchController extends Controller
         $stop = 0;
         $start = Carbon::now();
         $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
+        $part = DB::table('commons')->where('manufacturer_part_number','like',"%$request->keyword%")->first();
+
         while ($stop == 0) {
 
             exec($command, $output, $return);
@@ -222,11 +224,13 @@ class SearchController extends Controller
             elseif(Carbon::now()->diffInSeconds($start) > 5){
                 return 435;
             }
+            dd($part);
         }
-
+        $part->update(['unit_price'=>$output[0]]);
         return $output;
 
     }
+    
 
     public function SearchPart(Request $request){
         $keyword = $request->keyword;

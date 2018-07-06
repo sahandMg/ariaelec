@@ -35,8 +35,6 @@ $factory->define(App\Brief::class, function (Faker $faker) {
     ];
 });
 
-
-
 $factory->define(App\Detail::class, function (Faker $faker) {
     return [
 

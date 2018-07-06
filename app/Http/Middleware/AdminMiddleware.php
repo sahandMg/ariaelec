@@ -18,7 +18,7 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         try {
-            JWTAuth::parseToken()->toUser();
+            JWTAuth::parseToken()->user();
         } catch (\Exception $exception) {
 
 //          throw new TokenException($exception);
