@@ -25,6 +25,7 @@ class SearchController extends Controller
     public $type;
     public $paginate;
     public $skip = 20;
+    public $shopResp = null;
 
     public function SearchPartComp(Request $request)
     {
@@ -199,7 +200,46 @@ class SearchController extends Controller
                             );
                         }
 
-                        return [$this->type, $parts, $filters, $names ,$tableCols];
+
+//                    ------------- Get part price form shop ------------
+                        $stop = 0;
+                        $start = Carbon::now();
+                        if(!$request->has('keyword')){
+                            return 'keyword not set';
+                        }
+                        $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
+
+                        while ($stop == 0) {
+
+                            exec($command, $output, $return);
+                            if (count($output) != 0) {
+                                $stop = 1;
+                            }
+                            elseif(Carbon::now()->diffInSeconds($start) > 5){
+                                $this->shopResp = '435';
+                            }
+                        }
+
+
+                        if(isset($output) && $output[0]!='not found') {
+
+
+                            $part = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
+                                ->update(['unit_price' => $output[0]]);
+                            if ($part == 0) {
+
+                                $this->shopResp ='415';
+                            }
+                        }elseif(isset($output) && $output[0] == 'not found'){
+
+                            $this->shopResp ='440';
+                        }else{
+                            $this->shopResp = $output[0];
+                        }
+
+//                ------------------------------------------------
+
+                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$tableCols];
                     }
 
                 }else{
@@ -210,27 +250,18 @@ class SearchController extends Controller
     }
 
     public function getPrice(Request $request){
-        $stop = 0;
-        $start = Carbon::now();
-        $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
-        $part = DB::table('commons')->where('manufacturer_part_number','like',"%$request->keyword%")->first();
+                try{
 
-        while ($stop == 0) {
+                    $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
+                        ->select('unit_price')->get();
+                }catch (\Exception $exception){
 
-            exec($command, $output, $return);
-            if (count($output) != 0) {
-                $stop = 1;
-            }
-            elseif(Carbon::now()->diffInSeconds($start) > 5){
-                return 435;
-            }
-            dd($part);
-        }
-        $part->update(['unit_price'=>$output[0]]);
-        return $output;
+                    return '415';
+                }
+                return $price;
 
     }
-    
+
 
     public function SearchPart(Request $request){
         $keyword = $request->keyword;

@@ -14,6 +14,9 @@
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
+Route::post('/',function (){
+    return 'weq';
+});
 
 Route::post('more-content','PageController@moreContent');
 Route::post('home/{category?}','PageController@home');

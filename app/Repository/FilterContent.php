@@ -19,25 +19,23 @@ class FilterContent
  public static function Filters($models,$parts){
      $commonTableCols = Schema::getColumnListing('commons');
 
-
          $sepTableCols = Schema::getColumnListing($models->getTable());
+
          array_shift($sepTableCols);
          array_pop($sepTableCols);
          array_pop($sepTableCols);
          array_pop($sepTableCols);
          array_pop($sepTableCols);
-
-
-     array_shift($commonTableCols);
-     array_shift($commonTableCols);
-     array_shift($commonTableCols);
-     array_shift($commonTableCols);
-     array_shift($commonTableCols);
-     array_pop($commonTableCols);
-     array_pop($commonTableCols);
-     array_pop($commonTableCols);
-     array_pop($commonTableCols);
-     array_pop($commonTableCols);
+         array_shift($commonTableCols);
+         array_shift($commonTableCols);
+         array_shift($commonTableCols);
+         array_shift($commonTableCols);
+         array_shift($commonTableCols);
+         array_pop($commonTableCols);
+         array_pop($commonTableCols);
+         array_pop($commonTableCols);
+         array_pop($commonTableCols);
+         array_pop($commonTableCols);
 
      for ($t = 0; $t < count($commonTableCols); $t++) {
          $j = 0;
@@ -49,6 +47,10 @@ class FilterContent
          }
          $cols[$commonTableCols[$t]] = array_unique($cols[$commonTableCols[$t]]);
          $cols[$commonTableCols[$t]] = array_values($cols[$commonTableCols[$t]]);
+
+         if(count($cols[$commonTableCols[$t]]) == 1){
+             unset($cols[$commonTableCols[$t]]);
+         }
      }
 
      for ($j = 0; $j < count($sepTableCols); $j++) {
@@ -59,6 +61,9 @@ class FilterContent
                  $sepCols[$sepTableCols[$j]] = array_unique($sepCols[$sepTableCols[$j]]);
                  $sepCols[$sepTableCols[$j]] = array_values($sepCols[$sepTableCols[$j]]);
              }
+         if(count($sepCols[$sepTableCols[$j]]) == 1){
+             unset($sepCols[$sepTableCols[$j]]);
+         }
          }
 
      if (!isset($cols) || !isset($sepCols)) {
