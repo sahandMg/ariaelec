@@ -250,6 +250,9 @@ class SearchController extends Controller
     }
 
     public function getPrice(Request $request){
+        if(!$request->has('keyword')){
+            return 'send a keyword';
+        }
                 try{
 
                     $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
