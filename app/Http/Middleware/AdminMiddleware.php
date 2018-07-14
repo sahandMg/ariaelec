@@ -4,6 +4,8 @@ namespace App\Http\Middleware;
 
 use Closure;
 
+use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Exceptions\TokenBlacklistedException;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AdminMiddleware
@@ -18,22 +20,27 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         try {
-            JWTAuth::parseToken()->user();
-        } catch (\Exception $exception) {
+            $userData = JWTAuth::parseToken()->toUser();
+        } catch (TokenBlacklistedException $exception) {
 
 //          throw new TokenException($exception);
             return 300;
         }
 //        new TokenUpdater(User::where('token',JWTAuth::getToken())->first());
 
-        $userData = JWTAuth::parseToken()->authenticate();
-        $_POST['user'] = JWTAuth::parseToken()->toUser();
 
-        if ($userData->role == 'admin') {
+        $_POST['user'] = $userData;
+
+        /**
+         * checks authenticated user guard
+         */
+
+        if(Auth::guard('admin')->check()){
 
             session(['userToken' => $userData]);
             return $next($request);
-        }else{
+        }
+        else{
             return response('320');
         }
 

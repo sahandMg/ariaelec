@@ -20,7 +20,11 @@ class EventServiceProvider extends ServiceProvider
         'App\Events\PostUpdate' => [
 
             'App\Listeners\BriefUpdate'
-        ]
+        ],
+        'App\Events\RunCommand' => [
+            'App\Listeners\Run',
+        ],
+
 
     ];
 

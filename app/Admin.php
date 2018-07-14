@@ -9,26 +9,19 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 
 class Admin extends Authenticatable implements JWTSubject
 {
-    use Sluggable;
-    public function sluggable(): array
-    {
 
-        return [
-            'slug' => [
-                'source' => 'name'
-            ]
-        ];
-    }
+    protected $fillable = ['token'];
+    protected $guard = 'admin';
 
     public function getJWTCustomClaims():array
     {
         return [];
-        // TODO: Implement getJWTCustomClaims() method.
+
     }
 
     public function getJWTIdentifier()
     {
-        // TODO: Implement getJWTIdentifier() method.
+
         return $this->getKey();
     }
 

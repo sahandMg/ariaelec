@@ -3,6 +3,8 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Exceptions\TokenBlacklistedException;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CmMiddleware
@@ -17,19 +19,17 @@ class CmMiddleware
     public function handle($request, Closure $next)
     {
         try {
-            JWTAuth::parseToken()->toUser();
-        } catch (\Exception $exception) {
+            $userData = JWTAuth::parseToken()->toUser();
+        } catch (TokenBlacklistedException $exception) {
 
 //          throw new TokenException($exception);
             return 300;
         }
 //        new TokenUpdater(User::where('token',JWTAuth::getToken())->first());
 
-        $userData = JWTAuth::parseToken()->authenticate();
-        $_POST['user'] = JWTAuth::parseToken()->toUser();
+        $_POST['user'] = $userData;
 
-        if ($userData->role == 'cm') {
-
+        if (Auth::guard('cManager')->check()) {
 
             session(['userToken' => $userData]);
 

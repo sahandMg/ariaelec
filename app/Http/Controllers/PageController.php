@@ -37,14 +37,7 @@ class PageController extends Controller
         return $contents;
     }
 
-    public function controlPanel(){
 
-        $cm = DB::table('users')->where('role','cm')->get();
-        if(count($cm) == 0){
-            return 410;
-        }
-        return TerminateMiddleware::terminate($cm);
-    }
 
     public function viewer(){
 

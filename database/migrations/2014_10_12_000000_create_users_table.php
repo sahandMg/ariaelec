@@ -21,8 +21,6 @@ class CreateUsersTable extends Migration
             $table->string('password')->nullable();
             $table->text('avatar')->nullable();
             $table->mediumText('token')->nullable();
-            $table->string('role')->nullable();
-            $table->index('role');
             $table->rememberToken();
             $table->timestamps();
         });

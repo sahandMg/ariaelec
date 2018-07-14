@@ -20,32 +20,50 @@ Route::post('/',function (){
 
 Route::post('more-content','PageController@moreContent');
 Route::post('home/{category?}','PageController@home');
-// ----------------------------- Authentication Routes ----------------------------------------
+// ----------------------------- User Routes ----------------------------------------
 //[
-    Route::post('user-register','AuthController@register');
-    Route::post('login','AuthController@login');
-    Route::get('login/google',['uses'=>'AuthController@redirectToProvider'])->name('googleLogin');
-    Route::get('login/google/callback',['uses'=>'AuthController@handleProviderCallback']);
-    Route::post('logout','AuthController@logout')->name('logout');
+
+    Route::group(['prefix'=>'user'],function(){
+
+        Route::post('register','UserController@register');
+        Route::post('login','UserController@login');
+        Route::get('login/google',['uses'=>'UserController@redirectToProvider'])->name('googleLogin');
+        Route::get('login/google/callback',['uses'=>'UserController@handleProviderCallback']);
+
+    });
+
 //]
 // --------------------------------- Content Manager Routes ------------------------------------
 // [
-    Route::post('cm-add-content','CmController@addContent')->middleware('terminate','cm');
-    Route::post('cm-add-image','CmController@addImage')->middleware('terminate','cm')->name('addImage');
-    Route::get('get-images','CmController@getImages')->middleware('terminate','cm');
-    Route::post('cm-edit-content','CmController@editContent')->middleware('terminate','cm');
-    Route::post('get-content','CmController@getContent');
+    Route::group(['prefix'=>'cm'],function(){
+        Route::post('login','CmController@login');
+        Route::post('content/add','CmController@addContent');
+        Route::post('content/edit','CmController@editContent');
+        Route::post('content/get','CmController@getContent');
+        Route::post('image/add','CmController@addImage')->name('addImage');
+        Route::get('image/get','CmController@getImages');
+        /**
+         * TODO add google login APIs for content managers
+         */
+//        ->middleware('terminate')
+
+});
 // ]
 // ----------------------------- Admin Routes ----------------------------------------
 // [
-    Route::post('admin-register-cm','AuthController@register')->middleware('terminate','admin');
-    Route::post('admin-register','AuthController@register');
-    Route::post('admin-delete-cm','CmController@deleteCm')->middleware('terminate','admin');
-    Route::post('admin-control-panel','PageController@controlPanel')->middleware('admin','terminate');
+    Route::group(['prefix'=>'admin'],function(){
+        Route::post('cm/register','AdminController@registerCm')->middleware('terminate');
+        Route::post('register','AdminController@register');
+        Route::post('cm/delete','AdminController@deleteCm')->middleware('terminate');
+        Route::post('control-panel','AdminController@controlPanel');
+        Route::post('login','AdminController@login');
+});
 // ]
 // ---------------------------------------------------------------------
 Route::get('add-slug','ProductController@addSlug');
 Route::get('get-products','ProductController@all');
+
+Route::post('logout','AuthController@logout')->name('logout');
 
 // -------------------------------  Searching without filter  -----------------------------------
 // [

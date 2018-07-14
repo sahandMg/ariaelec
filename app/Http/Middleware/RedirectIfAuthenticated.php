@@ -4,6 +4,9 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Exceptions\TokenExpiredException;
+use Tymon\JWTAuth\Facades\JWTAuth;
+
 
 class RedirectIfAuthenticated
 {
@@ -17,10 +20,26 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        if (Auth::guard($guard)->check()) {
-            return redirect('/home');
+        try {
+            $userData = JWTAuth::parseToken()->toUser();
+        } catch (TokenExpiredException $exception) {
+
+//          throw new TokenException($exception);
+            return 300;
+        }
+//        new TokenUpdater(User::where('token',JWTAuth::getToken())->first());
+
+        $_POST['user'] = $userData;
+
+        if (Auth::guard('user')->check()) {
+
+            session(['userToken' => $userData]);
+
+            return $next($request);
+        }else{
+
+            return 320;
         }
 
-        return $next($request);
     }
 }

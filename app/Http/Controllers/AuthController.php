@@ -72,11 +72,14 @@ class AuthController extends Controller
 
     }
 
+    /**
+     * @return int
+     */
     public function logout(){
 
         $user = JWTAuth::parseToken()->toUser();
-       JWTAuth::invalidate(JWTAuth::getToken());
         $user->update(['token'=>null]);
-        return 'logged out';
+         JWTAuth::parseToken()->invalidate();
+        return 200;
     }
 }

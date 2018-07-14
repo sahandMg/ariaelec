@@ -7,7 +7,9 @@ use App\Brief;
 use App\Common;
 use App\Component;
 use App\Detail;
+use App\Events\RunCommand;
 use App\IC\PMIC_Display_Drivers;
+use App\Jobs\GetPrice;
 use App\Product;
 use App\Repository\FilterContent;
 use App\Shops\Eshop;
@@ -16,6 +18,7 @@ use App\Shops\MetaElec;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Shops\GetSiteContent;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
@@ -27,6 +30,10 @@ class SearchController extends Controller
     public $skip = 20;
     public $shopResp = null;
 
+    /**
+     * @param Request $request
+     * @return array|int
+     */
     public function SearchPartComp(Request $request)
     {
 
@@ -199,46 +206,10 @@ class SearchController extends Controller
 
                             );
                         }
-
-
-//                    ------------- Get part price form shop ------------
-                        $stop = 0;
-                        $start = Carbon::now();
-                        if(!$request->has('keyword')){
-                            return 'keyword not set';
-                        }
-                        $command = "cd /var/www/html/ariaelec/public/V1 && node index.js $request->keyword";
-
-                        while ($stop == 0) {
-
-                            exec($command, $output, $return);
-                            if (count($output) != 0) {
-                                $stop = 1;
-                            }
-                            elseif(Carbon::now()->diffInSeconds($start) > 5){
-                                $this->shopResp = '435';
-                            }
-                        }
-
-
-                        if(isset($output) && $output[0]!='not found') {
-
-
-                            $part = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
-                                ->update(['unit_price' => $output[0]]);
-                            if ($part == 0) {
-
-                                $this->shopResp ='415';
-                            }
-                        }elseif(isset($output) && $output[0] == 'not found'){
-
-                            $this->shopResp ='440';
-                        }else{
-                            $this->shopResp = $output[0];
-                        }
-
-//                ------------------------------------------------
-
+//                -------> Running queued job <------
+                        Artisan::queue('queue:work',["--once"=>true]);
+                        GetPrice::dispatch($keyword)->delay(2);
+//                        -----------------------------
                         return [$this->type,$this->shopResp ,$parts, $filters, $names ,$tableCols];
                     }
 
@@ -249,7 +220,16 @@ class SearchController extends Controller
             }
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Support\Collection|string
+     * gets parts price from database
+     */
     public function getPrice(Request $request){
+
+        if(!$request->has('keyword')){
+            return 'send a keyword';
+        }
                 try{
 
                     $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
@@ -289,12 +269,25 @@ class SearchController extends Controller
             ->orWhere('manufacturer', 'like', "%$keyword%")
             ->orWhere('description', 'like', "%$keyword%")
             ->join('components', 'commons.component_id', '=', 'components.id')
-            ->get();
+            ->get()->take(5);
 
         if ($part->isEmpty()) {
 
             return 415;
         } else {
+            for($t=0;$t<count($part);$t++){
+                unset(
+                    $part[$t]->names,
+                    $part[$t]->id,
+                    $part[$t]->component_id,
+                    $part[$t]->common_id,
+                    $part[$t]->links,
+                    $part[$t]->product_id,
+                    $part[$t]->model,
+                    $part[$t]->created_at,
+                    $part[$t]->updated_at
+                );
+            }
             $this->type = '30';
             return [$this->type,$part];
         }
@@ -328,16 +321,22 @@ class SearchController extends Controller
 
     }
 
+    /**
+     * @param Request $request
+     *  $filters = [
+    //
+    //            'speed' => ['40MHz'],
+    ////            'packaging'=>['Tray  Alternate Packaging'],
+    //            'manufacturer'=>['Microchip Technology'],
+    ////        'voltage_supply_digital' => ['2 V ~ 5.5 V']
+    //
+    //        ];
+     * @return array|string
+     */
     public function filterPart(Request $request){
-        $filters = [
 
-            'speed' => ['40MHz'],
-//            'packaging'=>['Tray  Alternate Packaging'],
-            'manufacturer'=>['Microchip Technology'],
-//        'voltage_supply_digital' => ['2 V ~ 5.5 V']
-
-        ];
-        $component = 'Embedded-Microcontrollers';
+        $filters = $request->filters;
+        $component = $request->component;
         $component = DB::table('components')->where('slug','like',"%$component%")->first();
         if($component == null ){
             return 410;

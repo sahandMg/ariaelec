@@ -41,10 +41,21 @@ return [
             'provider' => 'users',
         ],
 
-        'api' => [
-            'driver' => 'token',
+        'user' => [
+            'driver' => 'jwt-auth',
             'provider' => 'users',
         ],
+
+        'admin' => [
+            'driver' => 'jwt-auth',
+            'provider' => 'admins'
+        ],
+
+        'cManager' => [
+            'driver' => 'jwt-auth',
+            'provider' => 'cManagers'
+        ]
+
     ],
 
     /*
@@ -68,6 +79,14 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+        ],
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
+        ],
+        'cManagers' => [
+            'driver' => 'eloquent',
+            'model' => App\Cm::class,
         ],
 
         // 'users' => [

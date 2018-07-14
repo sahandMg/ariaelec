@@ -163,6 +163,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Silber\PageCache\LaravelServiceProvider::class,
+        Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class
 
 
     ],
@@ -218,6 +219,8 @@ return [
         'JWTFactory'=>Tymon\JWTAuth\Facades\JWTFactory::class,
         'jDate' => Morilog\Jalali\Facades\jDate::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+
 
     ],
 

@@ -16,31 +16,43 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CmController extends Controller
 {
-    public function registerCm(Request $request){
 
-    $cm = new User();
-        $cm->name = $request->name;
-        $cm->email = $request->email;
-        $cm->password = bcrypt($request->password);
-        $cm->role = 'cm';
-        $cm->save();
-        return JWTAuth::getToken();
-
+    public function __construct()
+    {
+        $this->middleware('cm')->except('login');
     }
-    public function deleteCm(Request $request){
 
+    public function login(Request $request)
+    {
 
-        $cm = DB::table('users')->where('name',$request->name)->delete();
-        if($cm == 0){
-            return 410;
+        try{
+
+            $token = Auth::guard('cManager')->attempt(['email'=> $request->email,'password'=>$request->password]);
+            if(!$token){
+
+                return 'ایمیل یا کلمه عبور اشتباه است';
+            }
+
         }
-        return TerminateMiddleware::terminate(200);
+        catch(JWTException $ex){
+
+            return '500';
+        }
+//        $user = JWTAuth::parseToken()->toUser();
+        $user = Auth::guard('cManager')->user();
+        $user->update(['token'=>$token]);
+
+        return ['token'=>$token,'userData'=>$user];
+
     }
+
+
 
     public function addContent(Request $request){
 
@@ -53,6 +65,9 @@ class CmController extends Controller
         $brief->product = serialize($request->product);
         $brief->user_id = $user->id;
         $brief->save();
+        /**
+         * TODO : Create a job as TimeUpdater for updating post date time
+         */
         TimeUpdater::updateTime();
         if($request->input('image')){
             $img = new Image();
@@ -64,7 +79,8 @@ class CmController extends Controller
         $detail->brief_id = Brief::orderBy('created_at','decs')->first()->id;
         $detail->save();
         $briefs = Brief::where('user_id',$user->id)->get();
-        return TerminateMiddleware::terminate($briefs);
+//        return TerminateMiddleware::terminate($briefs);
+        return $briefs;
     }
 
     public function addImage(Request $request){
@@ -104,7 +120,8 @@ class CmController extends Controller
         }elseif($request->input('product')){
             $brief->update(['product'=>serialize($request->product)]);
         }
-        return TerminateMiddleware::terminate(200);
+//        return TerminateMiddleware::terminate(200);
+        return 200;
     }
 
       public function getContent(Request $request){
