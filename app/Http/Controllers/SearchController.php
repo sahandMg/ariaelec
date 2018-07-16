@@ -232,7 +232,7 @@ class SearchController extends Controller
         }
                 try{
 
-                    $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
+                    $price = DB::table('commons')->where('manufacturer_part_number','like', "%$request->keyword%")
                         ->select('unit_price')->get();
                 }catch (\Exception $exception){
 

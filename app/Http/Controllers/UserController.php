@@ -50,7 +50,7 @@ class UserController extends Controller
             $token = Auth::guard('user')->attempt(['email'=> $request->email,'password'=>$request->password]);
             if(!$token){
 
-                return 'ایمیل یا کلمه عبور اشتباه است';
+                return '404';
             }
 
         }
