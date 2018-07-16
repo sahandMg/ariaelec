@@ -36,7 +36,7 @@ class CmController extends Controller
             $token = Auth::guard('cManager')->attempt(['email'=> $request->email,'password'=>$request->password]);
             if(!$token){
 
-                return 'ایمیل یا کلمه عبور اشتباه است';
+                return '404';
             }
 
         }
@@ -47,7 +47,7 @@ class CmController extends Controller
 //        $user = JWTAuth::parseToken()->toUser();
         $user = Auth::guard('cManager')->user();
         $user->update(['token'=>$token]);
-
+        $user['role'] = 'cm' ;
         return ['token'=>$token,'userData'=>$user];
 
     }

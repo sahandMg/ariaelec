@@ -61,7 +61,7 @@ class UserController extends Controller
 //        $user = JWTAuth::parseToken()->toUser();
         $user = Auth::guard('user')->user();
         $user->update(['token'=>$token]);
-
+        $user['role'] = null ;
         return ['token'=>$token,'userData'=>$user];
 
     }

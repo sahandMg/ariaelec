@@ -25,7 +25,7 @@ class AdminController extends Controller
             $token = Auth::guard('admin')->attempt(['email'=> $request->email,'password'=>$request->password]);
             if(!$token){
 
-                return 'ایمیل یا کلمه عبور اشتباه است';
+                return '404';
             }
         }
         catch(JWTException $ex){
@@ -36,7 +36,7 @@ class AdminController extends Controller
 
         $user = Auth::guard('admin')->user();
         $user->update(['token'=>$token]);
-
+        $user['role'] = 'admin' ;
         return ['token'=>$token,'userData'=>$user];
     }
 
