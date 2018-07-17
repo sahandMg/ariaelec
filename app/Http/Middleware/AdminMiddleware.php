@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Admin;
 use Closure;
 
 use Illuminate\Support\Facades\Auth;
@@ -19,30 +20,37 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
+        try{
+            JWTAuth::parseToken()->checkOrFail();
+        }catch (TokenBlacklistedException $exception){
+
+            return response('300');
+        }
+
         try {
-            $userData = JWTAuth::parseToken()->toUser();
-        } catch (TokenBlacklistedException $exception) {
+            $userData = Admin::where('token',$request->token)->firstOrFail();
+        } catch (\Exception $exception) {
 
 //          throw new TokenException($exception);
-            return 300;
+            return response('320');
         }
 //        new TokenUpdater(User::where('token',JWTAuth::getToken())->first());
 
-
+        Auth::guard('admin')->login($userData);
         $_POST['user'] = $userData;
 
         /**
          * checks authenticated user guard
          */
 
-        if(Auth::guard('admin')->check()){
+//        if(Auth::guard('admin')->check()){
 
             session(['userToken' => $userData]);
             return $next($request);
-        }
-        else{
-            return response('320');
-        }
+//        }
+//        else{
+//            return response('320');
+//        }
 
 }
 }

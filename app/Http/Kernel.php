@@ -65,8 +65,8 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'terminate' => \App\Http\Middleware\TerminateMiddleware::class,
         'user'=>\App\Http\Middleware\UserMiddleware::class,
-        'admin'=>\App\Http\Middleware\AdminMiddleware::class,
-        'cm'=>\App\Http\Middleware\CmMiddleware::class,
+        'admin' =>  \App\Http\Middleware\AdminMiddleware::class,
+        'cm'    =>  \App\Http\Middleware\CmMiddleware::class,
         'page-cache' => \Silber\PageCache\Middleware\CacheResponse::class,
 
     ];

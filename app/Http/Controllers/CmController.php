@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
+use Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CmController extends Controller
@@ -44,16 +45,12 @@ class CmController extends Controller
 
             return '500';
         }
-//        $user = JWTAuth::parseToken()->toUser();
         $user = Auth::guard('cManager')->user();
         $user->update(['token'=>$token]);
         $user['role'] = 'cm' ;
         return ['token'=>$token,'userData'=>$user];
 
     }
-
-
-
     public function addContent(Request $request){
 
         $user = $_POST['user'];
@@ -63,7 +60,7 @@ class CmController extends Controller
         $brief->abstract = $request->abstract;
         $brief->category = $request->category;
         $brief->product = serialize($request->product);
-        $brief->user_id = $user->id;
+        $brief->user_id = Auth::guard('cManager')->id();
         $brief->save();
         /**
          * TODO : Create a job as TimeUpdater for updating post date time

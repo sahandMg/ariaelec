@@ -8,6 +8,7 @@ use App\Repository\Login;
 use App\Repository\Register;
 use App\Repository\ValidateQuery;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
@@ -77,9 +78,8 @@ class AuthController extends Controller
      */
     public function logout(){
 
-        $user = JWTAuth::parseToken()->toUser();
-        $user->update(['token'=>null]);
-         JWTAuth::parseToken()->invalidate();
+        $forceForever = true;
+         JWTAuth::parseToken()->invalidate($forceForever);
         return 200;
     }
 }
