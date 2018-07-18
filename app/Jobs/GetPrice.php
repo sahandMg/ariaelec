@@ -48,7 +48,7 @@ class GetPrice implements ShouldQueue
         Log::info($parts[0]);
         for($i=0;$i<count($parts);$i++) {
 
-            $command = "cd /var/www/html/ariaelec/public/storage/V1 && node index.js $parts[$i]";
+            $command = "cd /var/www/html/ariaelec/public/storage/app/public/V1 && node index.js $parts[$i]";
             while ($stop == 0) {
 
                 exec($command, $output, $return);

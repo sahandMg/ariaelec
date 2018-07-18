@@ -12,6 +12,7 @@ use App\Repository\Briefs;
 use App\Repository\Cropper;
 use App\Repository\Login;
 use App\Repository\TimeUpdater;
+use App\Repository\ValidateQuery;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

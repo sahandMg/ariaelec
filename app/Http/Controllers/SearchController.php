@@ -207,7 +207,7 @@ class SearchController extends Controller
                             );
                         }
 //                -------> Running queued job <------
-                        Artisan::queue('queue:work',["--once"=>true]);
+//                        Artisan::queue('queue:work',["--once"=>true]);
                         GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
                         return [$this->type,$this->shopResp ,$parts, $filters, $names ,$tableCols];

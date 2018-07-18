@@ -76,7 +76,7 @@ class AdminController extends Controller
      */
     public function controlPanel(){
 
-        $cm = DB::table('cms')->all();
+        $cm = DB::table('cms')->select('name','email')->get();
         if(count($cm) == 0){
             return 410;
         }

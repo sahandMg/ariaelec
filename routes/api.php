@@ -52,7 +52,7 @@ Route::post('home/{category?}','PageController@home');
 // ----------------------------- Admin Routes ----------------------------------------
 // [
     Route::group(['prefix'=>'admin'],function(){
-        Route::post('cm/register','AdminController@registerCm')->middleware('terminate');
+        Route::post('cm/register','AdminController@registerCm');
         Route::post('register','AdminController@register');
         Route::post('cm/delete','AdminController@deleteCm')->middleware('terminate');
         Route::post('control-panel','AdminController@controlPanel');

@@ -52,25 +52,25 @@
      {{--</ul>--}}
  {{--</div>--}}
 </div>
- {{--<script>--}}
+ <script>
 
-     {{--new Vue({--}}
+     new Vue({
 
-         {{--el:'#app',--}}
-         {{--data:{--}}
-            {{--searcher:'',--}}
-             {{--parts:['']--}}
-         {{--},--}}
-         {{--methods:{--}}
-             {{--find:function () {--}}
-                {{--vm = this;--}}
-                 {{--axios.get('api/search?name='+vm.searcher).then(function (response) {--}}
-                     {{--vm.parts = response.data--}}
-                     {{--console.log(response.data)--}}
-                 {{--})--}}
-             {{--}--}}
-         {{--}--}}
-     {{--})--}}
- {{--</script>--}}
+         el:'#app',
+         data:{
+            searcher:'',
+             parts:['']
+         },
+         methods:{
+             find:function () {
+                vm = this;
+                 axios.get('api/search?name='+vm.searcher).then(function (response) {
+                     vm.parts = response.data
+                     console.log(response.data)
+                 })
+             }
+         }
+     })
+ </script>
 </body>
 </html>

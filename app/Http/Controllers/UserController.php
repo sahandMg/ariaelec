@@ -69,7 +69,6 @@ class UserController extends Controller
 
     public function redirectToProvider()
     {
-
         return Socialite::driver('google')->redirect();
     }
 
