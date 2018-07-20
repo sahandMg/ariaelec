@@ -54,7 +54,15 @@
 </div>
  <script>
 
-     axios.post('api/user/register',{name:'sahand321',email:'s23@rpe.com',password:'12345678'}).then(function (response) {
+     axios.get('api/search-part-filter?keyword=stm32f4&category=Embedded-Microcontrollers',{
+     'params': {
+        'filters':{
+            'rCl':['40MHz'],
+            'tra':['Microchip Technology']
+        }
+
+     }
+     }).then(function (response) {
 
          console.log(response.data)
      })

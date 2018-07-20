@@ -343,9 +343,15 @@ class SearchController extends Controller
 //            'rCl' => ['40MHz'],
 //            'tra'=>['Microchip Technology'],
 //                    ];
+        //        $component = 'Embedded-Microcontrollers';
+
         $filters = $request->filters;
-//        $component = 'Embedded-Microcontrollers';
+
         $component = $request->category;
+        /*
+         * convert json to array
+         */
+        $filters = json_decode($filters,true);
         /*
         *  Decoding filter array keys
         */
