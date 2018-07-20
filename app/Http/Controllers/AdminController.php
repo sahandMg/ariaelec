@@ -68,7 +68,7 @@ class AdminController extends Controller
         if($cm == 0){
             return 410;
         }
-        return TerminateMiddleware::terminate(200);
+        return 200;
     }
 
     /**

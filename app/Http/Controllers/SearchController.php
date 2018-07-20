@@ -11,6 +11,7 @@ use App\Events\RunCommand;
 use App\IC\PMIC_Display_Drivers;
 use App\Jobs\GetPrice;
 use App\Product;
+use App\Repository\ColumnCode;
 use App\Repository\FilterContent;
 use App\Shops\Eshop;
 use App\Shops\IranMicro;
@@ -31,10 +32,11 @@ class SearchController extends Controller
     public $shopResp = null;
 
     /**
+     * @param ColumnCode $code
      * @param Request $request
      * @return array|int
      */
-    public function SearchPartComp(Request $request)
+    public function SearchPartComp(ColumnCode $code,Request $request)
     {
 
 // ------------ Finding the part in database without filter --------------
@@ -171,6 +173,7 @@ class SearchController extends Controller
                         return 415;
                     } else {
                         $filters = FilterContent::Filters($models,$parts);
+                        $columns = $code->sendFilter($filters);
                         //        ----------------  Finding the part in websites  -------------------
 
                         //            $crawled = new GetSiteContent();
@@ -210,7 +213,7 @@ class SearchController extends Controller
 //                        Artisan::queue('queue:work',["--once"=>true]);
                         GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
-                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$tableCols];
+                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns];
                     }
 
                 }else{
@@ -324,19 +327,31 @@ class SearchController extends Controller
     /**
      * @param Request $request
      *  $filters = [
-    //
-    //            'speed' => ['40MHz'],
-    ////            'packaging'=>['Tray  Alternate Packaging'],
-    //            'manufacturer'=>['Microchip Technology'],
-    ////        'voltage_supply_digital' => ['2 V ~ 5.5 V']
-    //
-    //        ];
+     * //
+     * //            'speed' => ['40MHz'],
+     * ////            'packaging'=>['Tray  Alternate Packaging'],
+     * //            'manufacturer'=>['Microchip Technology'],
+     * ////        'voltage_supply_digital' => ['2 V ~ 5.5 V']
+     * //
+     * //        ];
+     * @param ColumnCode $code
      * @return array|string
      */
-    public function filterPart(Request $request){
-
+    public function filterPart(Request $request,ColumnCode $code){
+//
+//        $filters = [
+//            'rCl' => ['40MHz'],
+//            'tra'=>['Microchip Technology'],
+//                    ];
         $filters = $request->filters;
-        $component = $request->component;
+//        $component = 'Embedded-Microcontrollers';
+        $component = $request->category;
+        /*
+        *  Decoding filter array keys
+        */
+        $filters = $code->getFilter($filters);
+
+
         $component = DB::table('components')->where('slug','like',"%$component%")->first();
         if($component == null ){
             return 410;

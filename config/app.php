@@ -163,7 +163,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Silber\PageCache\LaravelServiceProvider::class,
-        Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class
+        Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class,
+        App\Providers\MyServiceProvider::class
 
 
     ],

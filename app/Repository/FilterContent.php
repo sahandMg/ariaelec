@@ -14,8 +14,15 @@ use Illuminate\Support\Facades\Schema;
 class FilterContent
 {
 
-//    model => new App\IC\Audio_Special_Purpose
-//    $parts => All common table parts
+/*
+ * Getting commons table columns
+ * Getting other table columns
+ * Removing unusable columns from this two
+ * Example : model => new App\IC\Audio_Special_Purpose
+ * $parts => All common table parts
+ * Returning filters
+ */
+
  public static function Filters($models,$parts){
      $commonTableCols = Schema::getColumnListing('commons');
 

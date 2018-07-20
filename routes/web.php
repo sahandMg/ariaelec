@@ -13,6 +13,7 @@
 
 
 use App\Common;
+use App\Repository\ColumnCode;
 use Carbon\Carbon;
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\DB;
@@ -62,14 +63,18 @@ Route::get('volts',function (){
 
     dd($datas->pluck('voltage_supply'));
 });
+/**
+ *  Filling Common Table
+ *  Put the csv file in public/comps directory
+ */
 
 Route::get('add-common',function (){
 
-// Add Common part
-
     $startMemory = memory_get_usage();
 
-
+    /*
+     * product_id = 38 ==> Integrated Circuits
+     */
 
     $modelNames = App\Component::where('product_id',38)->get()->pluck('slug');
     $i = 0;
@@ -332,7 +337,10 @@ Route::get('do',function (){
 
 
 });
-// Add Separate Part
+/**
+ *  Filling Separates Table
+ *  Put the ...2.csv files in public/comps directory
+ */
 
 Route::get('add-separate',function (){
 
@@ -395,11 +403,10 @@ Route::get('add-separate',function (){
 
 });
 
+/*
+ * Modifying Helper table
+ */
 Route::get('helper-modifier',function (){
-//
-//    $digi = new \App\Shops\Digikey();
-//    $digi->digikey();
-//    return 'done';
 
 $names = \App\Helper::pluck('helper')->all();
 
@@ -541,6 +548,10 @@ Route::get('run',function (\Illuminate\Http\Request $request){
 //    return view('test',compact('part'));
 });
 
+/*
+ * Runs php artisan make:model .... -m
+ */
+
 Route::get('make-table',function (){
 
     $arr = App\Component::where('product_id',38)->get()->pluck('slug');
@@ -564,5 +575,46 @@ Route::get('get-model-name',function (){
     return $arr;
 
 });
+/*
+ * Copies ld_image Column to datasheet Column
+ */
+Route::get('datasheet',function (){
+
+    $images = DB::table('commons')->select('ld_image')->get();
+
+    for($id=1;$id<=count($images);$id++){
+
+        DB::table('commons')->where('id',$id)->update(['datasheet'=>$images[$id-1]->ld_image]);
+    }
+
+    return 200;
+
+});
+
+/*
+ * Copies manufacturer_part_number Column to ld_image Column
+ */
+
+Route::get('ldimage',function (){
+
+    $pns = DB::table('commons')->orderBy('id')->select('manufacturer_part_number')->get();
+
+    for($id=3001;$id<=3907;$id++){
+
+        DB::table('commons')->where('id',$id)->update(['ld_image'=>$pns[$id-1]->manufacturer_part_number]);
+    }
+
+    return 200;
+});
+/*
+ * This routes are using for getting all column names and
+ * creating a unit array of names with codes map to them
+ * for sending as query string in filter url
+ */
+
+App::instance('ColumnCode',new ColumnCode());
+Route::get('column/name','TableController@ColumnName');
+Route::get('column/merge','TableController@merging');
+Route::get('column/map','TableController@mapping');
 
 

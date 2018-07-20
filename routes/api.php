@@ -75,7 +75,7 @@ Route::post('logout','AuthController@logout')->name('logout');
     Route::get('get-price','SearchController@getPrice');
     // -------------------------------  Searching with filter  -----------------------------------
 
-    Route::post('search-part-filter','SearchController@filterPart');
+    Route::get('search-part-filter','SearchController@filterPart');
 
 //]
 // -------------------------------  Site Viewers  -----------------------------------

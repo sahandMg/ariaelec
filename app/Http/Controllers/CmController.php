@@ -133,5 +133,9 @@ class CmController extends Controller
 
     }
 
+    /**
+     * TODO add method for cm to add && edit parts
+     */
+
 
 }

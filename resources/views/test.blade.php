@@ -54,23 +54,24 @@
 </div>
  <script>
 
-     new Vue({
+     axios.post('api/user/register',{name:'sahand321',email:'s23@rpe.com',password:'12345678'}).then(function (response) {
 
-         el:'#app',
-         data:{
-            searcher:'',
-             parts:['']
-         },
-         methods:{
-             find:function () {
-                vm = this;
-                 axios.get('api/search?name='+vm.searcher).then(function (response) {
-                     vm.parts = response.data
-                     console.log(response.data)
-                 })
-             }
-         }
+         console.log(response.data)
      })
+//     new Vue({
+//
+//         el:'#app',
+//         data:{
+//            searcher:'',
+//             parts:['']
+//         },
+//         methods:{
+//             find:function () {
+//                vm = this;
+//
+//             }
+//         }
+//     })
  </script>
 </body>
 </html>
