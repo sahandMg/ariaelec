@@ -19,6 +19,7 @@ use Illuminate\Http\File;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
+use Laravel\Socialite\Facades\Socialite;
 use Symfony\Component\DomCrawler\Crawler;
 use Tymon\JWTAuth\Facades\JWTAuth;
 use GuzzleHttp\Client as GuzzleClient;
@@ -43,6 +44,7 @@ $client = new GuzzleClient();
 });
 
 Route::get('page',function (){
+
 
     return view('test');
 })->name('page');
@@ -509,6 +511,7 @@ Route::get('eager',function (){
 });
 Route::get('home',function (){
     return view('test');
+
 });
 Route::get('login/google',['uses'=>'AuthController@redirectToProvider'])->name('googleLogin');
 Route::get('login/google/callback',['uses'=>'AuthController@handleProviderCallback']);

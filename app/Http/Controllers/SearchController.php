@@ -42,6 +42,7 @@ class SearchController extends Controller
 // ------------ Finding the part in database without filter --------------
 
         $keyword = $request->keyword;
+
         $this->paginate = $request->num;
         //        Searching Between Products
         $product = DB::table('products')->where('product_name', 'like', "%$keyword%")
@@ -85,6 +86,7 @@ class SearchController extends Controller
 
 
                 if (isset($components) && $components->count() > 0) {
+
                     $filters = FilterContent::Filters($models, $components);
                     $this->type = '20';
                     return [$this->type, $components, $filters];
@@ -173,6 +175,7 @@ class SearchController extends Controller
                         return 415;
                     } else {
                         $filters = FilterContent::Filters($models,$parts);
+
                         $columns = $code->sendFilter($filters);
                         //        ----------------  Finding the part in websites  -------------------
 
@@ -213,6 +216,10 @@ class SearchController extends Controller
 //                        Artisan::queue('queue:work',["--once"=>true]);
                         GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
+                        if($request->has('filters') && $request->has('category')){
+                        return ([$this->type,$this->filterPart($request,$code)]);
+                        }
+
                         return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns];
                     }
 
@@ -223,106 +230,6 @@ class SearchController extends Controller
             }
     }
 
-    /**
-     * @param Request $request
-     * @return \Illuminate\Support\Collection|string
-     * gets parts price from database
-     */
-    public function getPrice(Request $request){
-
-        if(!$request->has('keyword')){
-            return 'send a keyword';
-        }
-                try{
-
-                    $price = DB::table('commons')->where('manufacturer_part_number','like', "%$request->keyword%")
-                        ->select('unit_price')->get();
-                }catch (\Exception $exception){
-
-                    return '415';
-                }
-                return $price;
-
-    }
-
-
-    public function SearchPart(Request $request){
-        $keyword = $request->keyword;
-        $product = DB::table('products')->where('product_name', 'like', "%$keyword%")
-            ->join('components', 'components.product_id', '=', 'products.id')->get();
-
-        if(!$product->isEmpty()){
-            $this->type = '10';
-            return [$this->type,$product];
-        }
-
-
-        $component = DB::table('components')->where('name', 'like', "%$keyword%")
-            ->join('commons', 'commons.component_id', '=', 'components.id')
-            ->get();
-        if(count($component) > 0){
-            $this->type = '20';
-            return [$this->type,$component,];
-
-        }
-
-        $part = DB::table('commons')
-            ->where('part_number', 'like', "%$keyword%")
-            ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
-            ->orWhere('manufacturer', 'like', "%$keyword%")
-            ->orWhere('description', 'like', "%$keyword%")
-            ->join('components', 'commons.component_id', '=', 'components.id')
-            ->get()->take(5);
-
-        if ($part->isEmpty()) {
-
-            return 415;
-        } else {
-            for($t=0;$t<count($part);$t++){
-                unset(
-                    $part[$t]->names,
-                    $part[$t]->id,
-                    $part[$t]->component_id,
-                    $part[$t]->common_id,
-                    $part[$t]->links,
-                    $part[$t]->product_id,
-                    $part[$t]->model,
-                    $part[$t]->created_at,
-                    $part[$t]->updated_at
-                );
-            }
-            $this->type = '30';
-            return [$this->type,$part];
-        }
-    }
-
-    public function findArticle(Request $request){
-        $keyword = $request->keyword;
-        $briefs = DB::table('briefs')->where('title','like',"%$keyword%")
-        ->orWhere('abstract','like',"%$keyword%")
-        ->orWhere('category','like',"%$keyword%")
-        ->orWhere('product','like',"%$keyword%")
-            ->join('details','details.brief_id','briefs.id')->get();
-        if($briefs->isEmpty()){
-            $content = DB::table('details')->where('text','like',"%$keyword%")
-                ->join('briefs','details.brief_id','briefs.id')->get();
-            if($content->isEmpty()){
-                return 417;
-            }else{
-                return $content;
-            }
-        }else{
-
-            if($briefs->count() > 0 && $briefs->pluck('category')->unique()->count() > 1){
-                return $briefs->pluck('category');
-
-            }else{
-
-                return $briefs;
-            }
-        }
-
-    }
 
     /**
      * @param Request $request
@@ -337,7 +244,7 @@ class SearchController extends Controller
      * @param ColumnCode $code
      * @return array|string
      */
-    public function filterPart(Request $request,ColumnCode $code){
+    public function filterPart($request, $code){
 //
 //        $filters = [
 //            'rCl' => ['40MHz'],
@@ -352,6 +259,7 @@ class SearchController extends Controller
          * convert json to array
          */
         $filters = json_decode($filters,true);
+
         /*
         *  Decoding filter array keys
         */
@@ -526,22 +434,125 @@ class SearchController extends Controller
 
             for ($t = 0; $t < count($sepTableCols); $t++) {
                 for ($i = 0; $i < count($parts); $i++) {
-                        $colName = $sepTableCols[$t];
-                        $sepCols[$sepTableCols[$t]][$i] = $parts[$i]->$colName;
-                        $sepCols[$sepTableCols[$t]] = array_unique($sepCols[$sepTableCols[$t]]);
-                        $sepCols[$sepTableCols[$t]] = array_values($sepCols[$sepTableCols[$t]]);
+                    $colName = $sepTableCols[$t];
+                    $sepCols[$sepTableCols[$t]][$i] = $parts[$i]->$colName;
+                    $sepCols[$sepTableCols[$t]] = array_unique($sepCols[$sepTableCols[$t]]);
+                    $sepCols[$sepTableCols[$t]] = array_values($sepCols[$sepTableCols[$t]]);
                 }
             }
 
             if (!isset($cols) || !isset($sepCols)) {
                 return '420';
             } else {
-
-                $result = array_merge($parts,$cols,$sepCols);
+                $ColsCode = $code->sendFilter(array_merge($cols,$sepCols));
+                $result = array_merge($parts,$cols,$sepCols,$ColsCode);
                 return $result;
             }
         }
     }
+
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Support\Collection|string
+     * gets parts price from database
+     */
+    public function getPrice(Request $request){
+
+        if(!$request->has('keyword')){
+            return 'send a keyword';
+        }
+                try{
+
+                    $price = DB::table('commons')->where('manufacturer_part_number','like', "%$request->keyword%")
+                        ->select('unit_price')->get();
+                }catch (\Exception $exception){
+
+                    return '415';
+                }
+                return $price;
+
+    }
+
+
+    public function SearchPart(Request $request){
+        $keyword = $request->keyword;
+        $product = DB::table('products')->where('product_name', 'like', "%$keyword%")
+            ->join('components', 'components.product_id', '=', 'products.id')->get();
+
+        if(!$product->isEmpty()){
+            $this->type = '10';
+            return [$this->type,$product];
+        }
+
+
+        $component = DB::table('components')->where('name', 'like', "%$keyword%")
+            ->join('commons', 'commons.component_id', '=', 'components.id')
+            ->get();
+        if(count($component) > 0){
+            $this->type = '20';
+            return [$this->type,$component,];
+
+        }
+
+        $part = DB::table('commons')
+            ->where('part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer', 'like', "%$keyword%")
+            ->orWhere('description', 'like', "%$keyword%")
+            ->join('components', 'commons.component_id', '=', 'components.id')
+            ->get()->take(5);
+
+        if ($part->isEmpty()) {
+
+            return 415;
+        } else {
+            for($t=0;$t<count($part);$t++){
+                unset(
+                    $part[$t]->names,
+                    $part[$t]->id,
+                    $part[$t]->component_id,
+                    $part[$t]->common_id,
+                    $part[$t]->links,
+                    $part[$t]->product_id,
+                    $part[$t]->model,
+                    $part[$t]->created_at,
+                    $part[$t]->updated_at
+                );
+            }
+            $this->type = '30';
+            return [$this->type,$part];
+        }
+    }
+
+    public function findArticle(Request $request){
+        $keyword = $request->keyword;
+        $briefs = DB::table('briefs')->where('title','like',"%$keyword%")
+        ->orWhere('abstract','like',"%$keyword%")
+        ->orWhere('category','like',"%$keyword%")
+        ->orWhere('product','like',"%$keyword%")
+            ->join('details','details.brief_id','briefs.id')->get();
+        if($briefs->isEmpty()){
+            $content = DB::table('details')->where('text','like',"%$keyword%")
+                ->join('briefs','details.brief_id','briefs.id')->get();
+            if($content->isEmpty()){
+                return 417;
+            }else{
+                return $content;
+            }
+        }else{
+
+            if($briefs->count() > 0 && $briefs->pluck('category')->unique()->count() > 1){
+                return $briefs->pluck('category');
+
+            }else{
+
+                return $briefs;
+            }
+        }
+
+    }
+
 
     public function sort(Request $request)
     {

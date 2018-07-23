@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Events\UserRegister;
-use App\Repository\GoogleRegister;
 use App\Repository\Login;
 use App\Repository\Register;
+use App\Repository\UserGoogleRegister;
 use App\Repository\ValidateQuery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -61,16 +61,12 @@ class AuthController extends Controller
     }
 
     /**
-     * Obtain the user information from GitHub.
-     *
-     * @return \Illuminate\Http\Response
+     * @return mixed
+     * Google Register & Login
      */
     public function handleProviderCallback()
     {
-
-
-     return  GoogleRegister::googleRegister();
-
+     return  UserGoogleRegister::googleRegister();
     }
 
     /**

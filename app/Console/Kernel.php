@@ -14,7 +14,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        'App\Console\Commands\PostUpdate',
+        'App\Console\Commands\ContentUpdate',
         'App\Console\Commands\GuzzleCache',
 
     ];
@@ -27,7 +27,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->command('post:update')->everyMinute();
+
 
     }
 

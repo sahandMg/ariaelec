@@ -46,8 +46,11 @@ Route::post('home/{category?}','PageController@home');
          * TODO add google login APIs for content managers
          */
 //        ->middleware('terminate')
+        Route::get('login/google',['uses'=>'CmController@redirectToProvider'])->name('googleLogin');
+        Route::get('login/google/callback',['uses'=>'CmController@handleProviderCallback']);
 
-});
+
+    });
 // ]
 // ----------------------------- Admin Routes ----------------------------------------
 // [

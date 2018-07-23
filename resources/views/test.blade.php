@@ -54,7 +54,7 @@
 </div>
  <script>
 
-     axios.get('api/search-part-filter?keyword=stm32f4&category=Embedded-Microcontrollers',{
+     axios.get('api/search-part-comp?keyword=stm32f4&category=Embedded-Microcontrollers',{
      'params': {
         'filters':{
             'rCl':['40MHz'],

@@ -64,17 +64,16 @@ class ColumnCode
         /*
          * set $keys array as values in $cols array
          */
+        $this->keys = [];
         $cols = $this->all();
-
         $values = array_keys($filters);
-
-        for($i=0;$i<count($values);$i++){
         /*
          * finding related codes
          */
+        for($i=0;$i<count($values);$i++){
+
            $key = array_search($values[$i],$cols);
             array_push($this->keys,$key);
-
         }
 
         return array_combine($this->keys,$values);

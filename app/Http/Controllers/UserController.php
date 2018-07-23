@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events\UserRegister;
-use App\Repository\GoogleRegister;
+use App\Repository\UserGoogleRegister;
 use App\Repository\ValidateQuery;
 use App\User;
 use Illuminate\Http\Request;
@@ -17,7 +17,7 @@ class UserController extends Controller
 
     public function __construct()
     {
-        $this->middleware('guest')->except('register','login');
+        $this->middleware('guest')->except('register','login','redirectToProvider','handleProviderCallback');
     }
 
     public function register(Request $request)
@@ -65,24 +65,21 @@ class UserController extends Controller
         return ['token'=>$token,'userData'=>$user];
 
     }
-//      Google login
+
 
     public function redirectToProvider()
     {
-        return Socialite::driver('google')->redirect();
+        return Socialite::driver('myGoogle')->redirect();
     }
 
     /**
-     * Obtain the user information from GitHub.
+     * Obtain the user information from Google+.
      *
      * @return \Illuminate\Http\Response
      */
     public function handleProviderCallback()
     {
-
-
-        return  GoogleRegister::googleRegister();
-
+        return  UserGoogleRegister::googleRegister();
     }
 
 }

@@ -2,25 +2,24 @@
 
 namespace App\Console\Commands;
 
-use App\Brief;
-use Carbon\Carbon;
+use App\Jobs\TimeUpdate;
 use Illuminate\Console\Command;
 
-class PostUpdate extends Command
+class ContentUpdate extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'post:update';
+    protected $signature = 'content:update';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Update contents time';
+    protected $description = 'Updating content time';
 
     /**
      * Create a new command instance.
@@ -34,17 +33,12 @@ class PostUpdate extends Command
 
     /**
      * Execute the console command.
-     *
+     *TODO add this line to crontab -e after starting supervisor service
+     *  * 0 * * * php /var/www/htm/ariaelec/artisan content:update
      * @return mixed
      */
     public function handle()
     {
-//        Brief::chunk(100,function ($briefs){
-//
-//            foreach ($briefs as $brief){
-//                $brief->update(['days'=>Carbon::now()->diffInHours($brief->created_at)]);
-//            }
-//        });
-        \Log::info('time is'.' '.Carbon::now());
+        TimeUpdate::dispatch()->onQueue('ContentTime');
     }
 }

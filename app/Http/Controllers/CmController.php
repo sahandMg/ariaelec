@@ -10,6 +10,7 @@ use App\Http\Middleware\TerminateMiddleware;
 use App\Image;
 use App\Repository\Briefs;
 use App\Repository\Cropper;
+use App\Repository\GoogleRegister;
 use App\Repository\Login;
 use App\Repository\TimeUpdater;
 use App\Repository\ValidateQuery;
@@ -20,6 +21,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
 use Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider;
+use Laravel\Socialite\Facades\Socialite;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CmController extends Controller
@@ -52,6 +54,25 @@ class CmController extends Controller
         return ['token'=>$token,'userData'=>$user];
 
     }
+    /*
+     * Google Login Methods
+     */
+
+    public function redirectToProvider()
+    {
+        return Socialite::driver('google')->redirect();
+    }
+
+    /**
+     * Obtain the user information from GitHub.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function handleProviderCallback()
+    {
+        return  GoogleRegister::googleRegister();
+    }
+
     public function addContent(Request $request){
 
         $user = $_POST['user'];
@@ -64,7 +85,8 @@ class CmController extends Controller
         $brief->user_id = Auth::guard('cManager')->id();
         $brief->save();
         /**
-         * TODO : Create a job as TimeUpdater for updating post date time
+         * Create a job as TimeUpdater for updating post date time
+         * A cron job will trigger the dispatch job method
          */
         TimeUpdater::updateTime();
         if($request->input('image')){

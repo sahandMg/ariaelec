@@ -9,6 +9,7 @@
 namespace App\Repository;
 
 
+use App\Jobs\TimeUpdate;
 use Carbon\Carbon;
 use App\Brief;
 
@@ -17,13 +18,6 @@ class TimeUpdater
 
     public static function updateTime(){
 
-        Brief::chunk(100,function ($briefs){
-
-            foreach ($briefs as $brief){
-
-                $brief->update(['days'=>Carbon::now()->diffInDays($brief->created_at)]);
-            }
-
-        });
+        TimeUpdate::dispatch()->onQueue('ContentTime');
     }
 }
