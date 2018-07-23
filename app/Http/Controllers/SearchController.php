@@ -30,6 +30,8 @@ class SearchController extends Controller
     public $paginate;
     public $skip = 20;
     public $shopResp = null;
+    public $ColsCode;
+    public $newFilter;
 
     /**
      * @param ColumnCode $code
@@ -217,7 +219,9 @@ class SearchController extends Controller
                         GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
                         if($request->has('filters') && $request->has('category')){
-                        return ([$this->type,$this->filterPart($request,$code)]);
+
+
+                        return ([$this->type,$this->shopResp,$this->filterPart($request,$code),$this->newFilter,$names,$this->ColsCode]);
                         }
 
                         return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns];
@@ -445,7 +449,10 @@ class SearchController extends Controller
                 return '420';
             } else {
                 $ColsCode = $code->sendFilter(array_merge($cols,$sepCols));
-                $result = array_merge($parts,$cols,$sepCols,$ColsCode);
+                $result = array_merge($cols,$sepCols);
+                $this->ColsCode = $ColsCode;
+                $this->newFilter = $result;
+                $result = $parts;
                 return $result;
             }
         }
