@@ -17,6 +17,7 @@ use App\Repository\ColumnCode;
 use Carbon\Carbon;
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Socialite\Facades\Socialite;
@@ -435,9 +436,55 @@ Route::get('/', function () {
     dd($output,$start,$end);
 });
 
-Route::get('login',function (){
+Route::get('login',function (\Illuminate\Http\Request $request){
+    $shopResp = 0;
+    Log::info("Searching for $request->keyword price ...");
+    $start = Carbon::now();
+    $partClass = Common::where('manufacturer_part_number','like',"%$request->keyword%")->get();
+    $parts = $partClass->pluck('manufacturer_part_number');
+    Log::info($parts);
+    for($i=0;$i<count($parts);$i++) {
+        $stop = 0;
+        $command = "cd storage/V1 && node index.js $parts[$i] ";
 
-    return view('test');
+        while ($stop == 0) {
+
+            exec($command, $output, $return);
+            if (count($output) != 0) {
+                $stop = 1;
+            } elseif (Carbon::now()->diffInSeconds($start) > 5) {
+                $shopResp = '435';
+                Log::warning('Get price status:' . $parts[$i].' --> '.'435 ' .' search stopped ...');
+                $stop = 1;
+            }
+        }
+
+        if($shopResp != '435') {
+
+
+            if (isset($output) && $output[0] != 'not found') {
+
+
+                if (count($parts) == 0) {
+
+                    $shopResp = '415';
+                    Log::warning("Get price status: $parts[$i]" . ' --> ' . '415');
+                }
+                $partClass[$i]->update(['unit_price'=>$output[0]]);
+                Log::warning("Get price status: $parts[$i] --> 200");
+            } elseif (isset($output) && $output[0] == 'not found') {
+
+                $shopResp = $parts[$i] . ' --> ' . '440';
+                Log::warning('Get price status:' . $parts[$i] . ' --> ' . '440');
+            } else {
+                $shopResp = $output[0];
+                Log::warning("Get price status: $output[0]");
+            }
+        }
+//
+//////                ------------------------------------------------
+    }
+//    return view('test');
 });
 
 

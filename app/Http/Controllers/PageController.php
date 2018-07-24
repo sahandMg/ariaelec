@@ -23,7 +23,12 @@ class PageController extends Controller
         if($category){
             $contents = Brief::where('category',$category)->where([['id','<',$data],['id','>',$data - $this->info]])->get();
         }else{
-            $contents = Brief::where([['id','<',$data],['id','>',$data - $this->info]])->get();
+            if($data - $this->info < 0){
+                $contents = Brief::where('id','<=',$data)->get();
+            }else{
+
+                $contents = Brief::where([['id','<',$data],['id','>',$data - $this->info]])->get();
+            }
         }
 
 

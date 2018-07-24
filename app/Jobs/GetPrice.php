@@ -11,6 +11,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
@@ -27,7 +28,7 @@ class GetPrice implements ShouldQueue
      */
     public function __construct($keyword)
     {
-       $this->keyword = $keyword;
+        $this->keyword = $keyword;
     }
 
     /**
@@ -41,36 +42,43 @@ class GetPrice implements ShouldQueue
 
         $stop = 0;
         $parts = [];
-    Log::info("Searching for $this->keyword price ...");
+
         $start = Carbon::now();
 
-        $parts = Common::where('manufacturer_part_number','like',"%$this->keyword%")->get()->pluck('manufacturer_part_number');
-        Log::info($parts[0]);
-        for($i=0;$i<count($parts);$i++) {
+        $partClass = Common::where('manufacturer_part_number','like',"%$this->keyword%")->get();
+        $parts = $partClass->pluck('manufacturer_part_number');
+        Log::info($parts);
 
-            $command = "cd /var/www/html/ariaelec/public/storage/app/public/V1 && node index.js $parts[$i]";
+        for($i=0;$i<count($parts);$i++) {
+            $output =[];
+            $stop = 0;
+            $command = "cd public/V1 && node index.js $parts[$i]";
+
+            Log::info("Searching for $parts[$i] ...");
             while ($stop == 0) {
 
                 exec($command, $output, $return);
+
                 if (count($output) != 0) {
                     $stop = 1;
                 } elseif (Carbon::now()->diffInSeconds($start) > 5) {
                     $this->shopResp = '435';
-                    Log::warning('Get price status:' . $parts[$i].' --> '.'435 ' .' search stopped ...');
+                    Log::warning("Get price status: $parts[$i]".' --> '.'435 ' .' search stopped ...');
                     $stop = 1;
                 }
             }
             if($this->shopResp != '435') {
 
-
+                Log::warning($output[0]);
                 if (isset($output) && $output[0] != 'not found') {
 
 
-                    if ($parts == 0) {
+                    if (count($parts) == 0) {
 
                         $this->shopResp = '415';
                         Log::warning('Get price status:' . $parts[$i] . ' --> ' . '415');
                     }
+                    $partClass[$i]->update(['unit_price'=>$output[0]]);
                     Log::warning("Get price status: 200");
                 } elseif (isset($output) && $output[0] == 'not found') {
 

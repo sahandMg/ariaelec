@@ -34,11 +34,11 @@ class ContentUpdate extends Command
     /**
      * Execute the console command.
      *TODO add this line to crontab -e after starting supervisor service
-     *  * 0 * * * php /var/www/htm/ariaelec/artisan content:update
+     *  0 0 * * * php /var/www/html/ariaelec/artisan content:update
      * @return mixed
      */
     public function handle()
     {
-        TimeUpdate::dispatch()->onQueue('ContentTime');
+        TimeUpdate::dispatch();
     }
 }

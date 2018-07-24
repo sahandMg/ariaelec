@@ -32,6 +32,12 @@ class ColumnCode
 
             $this->findCode($key);
         }
+        try{
+            array_combine($this->decode,array_values($filters));
+        }catch (\Exception $exception){
+
+            return 404;
+        }
         return array_combine($this->decode,array_values($filters));
 
     }
@@ -42,11 +48,13 @@ class ColumnCode
 
             return array_push($this->decode,$this->all()[$key]);
 
+        }else{
+            return 404;
         }
     }
 
     /*
-    * Gets the column name array from database
+    * Gets the column name array + codes from database
     */
     public function all(){
 
@@ -67,6 +75,7 @@ class ColumnCode
         $this->keys = [];
         $cols = $this->all();
         $values = array_keys($filters);
+
         /*
          * finding related codes
          */

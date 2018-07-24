@@ -29,7 +29,7 @@ class CmController extends Controller
 
     public function __construct()
     {
-        $this->middleware('cm')->except('login');
+        $this->middleware('cm')->except('login','getContent');
     }
 
     public function login(Request $request)
@@ -81,6 +81,7 @@ class CmController extends Controller
         $brief->title = $request->title;
         $brief->abstract = $request->abstract;
         $brief->category = $request->category;
+        $brief->image = $request->image;
         $brief->product = serialize($request->product);
         $brief->user_id = Auth::guard('cManager')->id();
         $brief->save();
@@ -89,12 +90,12 @@ class CmController extends Controller
          * A cron job will trigger the dispatch job method
          */
         TimeUpdater::updateTime();
-        if($request->input('image')){
-            $img = new Image();
-            $img->image = $request->image;
-            $img->type = 'brief';
-            $img->save();
-        }
+//        if($request->input('image')){
+//            $img = new Image();
+//            $img->image = $request->image;
+//            $img->type = 'brief';
+//            $img->save();
+//        }
         $detail->text = serialize($request->text);
         $detail->brief_id = Brief::orderBy('created_at','decs')->first()->id;
         $detail->save();
@@ -144,12 +145,19 @@ class CmController extends Controller
         return 200;
     }
 
+    /**
+     * @param Request $request
+     * @return array
+     *
+     * Returns Brief + Detail
+     */
+
       public function getContent(Request $request){
 
           $brief = Brief::where('id',$request->id)->first();
           $text = unserialize($brief->detail->text);
           $product = unserialize($brief->product);
-          TimeUpdater::updateTime();
+//          TimeUpdater::updateTime();
           return [$brief,$text,$product];
 
 

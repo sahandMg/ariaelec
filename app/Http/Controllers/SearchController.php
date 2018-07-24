@@ -201,6 +201,7 @@ class SearchController extends Controller
                         $this->type = '30';
 
                         for($t=0;$t<count($parts);$t++){
+
                             unset(
                                 $parts[$t]->names,
                                 $parts[$t]->id,
@@ -214,17 +215,26 @@ class SearchController extends Controller
 
                             );
                         }
+                        /*
+                         * Create a breadcrumb
+                         */
+                        $breadCrumb = DB::table('components')->where('components.slug',$parts[0]->slug)
+                            ->join('products','components.product_id','=','products.id')->select('name','product_name')->get();
+                        $breadCrumb = $breadCrumb[0];
+
 //                -------> Running queued job <------
 //                        Artisan::queue('queue:work',["--once"=>true]);
                         GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
                         if($request->has('filters') && $request->has('category')){
-
-
-                        return ([$this->type,$this->shopResp,$this->filterPart($request,$code),$this->newFilter,$names,$this->ColsCode]);
+                            $result = $this->filterPart($request,$code,$keyword);
+                            if($result == 404){
+                                return 'Incorrect Filter Name';
+                            }
+                        return ([$this->type,$this->shopResp,$result,$this->newFilter,$names,$this->ColsCode,$breadCrumb]);
                         }
 
-                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns];
+                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns,$breadCrumb];
                     }
 
                 }else{
@@ -248,7 +258,7 @@ class SearchController extends Controller
      * @param ColumnCode $code
      * @return array|string
      */
-    public function filterPart($request, $code){
+    public function filterPart($request, $code,$keyword){
 //
 //        $filters = [
 //            'rCl' => ['40MHz'],
@@ -269,6 +279,10 @@ class SearchController extends Controller
         */
         $filters = $code->getFilter($filters);
 
+        if($filters == 404){
+
+            return 404;
+        }
 
         $component = DB::table('components')->where('slug','like',"%$component%")->first();
         if($component == null ){
@@ -284,7 +298,13 @@ class SearchController extends Controller
 //        Gets related model table name --> create__pmic_display_drivers__table
         $sepTableCols = Schema::getColumnListing($model->getTable());
 
-        $common = DB::table('commons')->get();
+
+//        $common = DB::table('commons')->get();
+        $common = DB::table('commons')
+            ->where('part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer', 'like', "%$keyword%")
+            ->orWhere('description', 'like', "%$keyword%")->get();
 
         $separate = DB::table($model->getTable())->get();
         $cFlag = [];
@@ -350,7 +370,6 @@ class SearchController extends Controller
 
             }
         }
-
         if($sFlag){
             for($i=0;$i<count($sFlag);$i++) {
 
