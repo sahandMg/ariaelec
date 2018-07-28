@@ -78,7 +78,11 @@ class GetPrice implements ShouldQueue
                         $this->shopResp = '415';
                         Log::warning('Get price status:' . $parts[$i] . ' --> ' . '415');
                     }
-                    $partClass[$i]->update(['unit_price'=>$output[0]]);
+                    $arr = explode(',',$output[0]);
+                    $price = $arr[0];
+                    $quantity = $arr[1];
+                    $partClass[$i]->update(['unit_price'=>$price]);
+                    $partClass[$i]->update(['quantity_available'=>$quantity]);
                     Log::warning("Get price status: 200");
                 } elseif (isset($output) && $output[0] == 'not found') {
 

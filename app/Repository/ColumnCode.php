@@ -45,7 +45,6 @@ class ColumnCode
     private function findCode($key){
 
         if(array_key_exists($key,$this->all() )){
-
             return array_push($this->decode,$this->all()[$key]);
 
         }else{

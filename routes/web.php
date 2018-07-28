@@ -429,11 +429,11 @@ $names = \App\Helper::pluck('helper')->all();
 Route::get('/', function () {
 
     $start = Carbon::now();
-    $command = 'cd /var/www/html/ariaelec/public/V1 && node index.js stm32f407 qewqe';
+    $command = 'cd storage/V1 && node index.js stm32f407';
 
     exec($command, $output, $return);
     $end = Carbon::now();
-    dd($output,$start,$end);
+    dd(explode(',','sagahd,dd'));
 });
 
 Route::get('login',function (\Illuminate\Http\Request $request){
@@ -458,7 +458,7 @@ Route::get('login',function (\Illuminate\Http\Request $request){
                 $stop = 1;
             }
         }
-
+        dd($output);
         if($shopResp != '435') {
 
 

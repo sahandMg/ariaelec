@@ -111,7 +111,15 @@ class SearchController extends Controller
                     ->get();
 
             if ($part->isEmpty()) {
+                $query = DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->first();
 
+                if($query != null){
+
+                     DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->update(['repeat'=>$query->repeat+1]);
+                }else{
+
+                    DB::table('failed_parts')->insert(['manufacturer_part_number'=>$keyword,'repeat'=>1]);
+                }
                 return 415;
             } else {
 
@@ -260,6 +268,9 @@ class SearchController extends Controller
      */
     public function filterPart($request, $code,$keyword){
 //
+        /**
+         * TODO remove part_number unit_price quantity from filters
+         */
 //        $filters = [
 //            'rCl' => ['40MHz'],
 //            'tra'=>['Microchip Technology'],
@@ -312,7 +323,6 @@ class SearchController extends Controller
 //    $result = [];
 //    $ids = [];
 
-
         for($i=0 ; $i < count($commonTableCols) ; $i++){
             for($t=0 ; $t<count($filters);$t++) {
 //  Checking filter keys with common table column names to findout whether the common table needs to be filtered or not
@@ -337,6 +347,7 @@ class SearchController extends Controller
         }
 
         if($cFlag){
+
             for($i=0;$i<count($cFlag);$i++) {
 
                 if(count($filters[$cFlag[$i]]) > 1) {
@@ -348,20 +359,17 @@ class SearchController extends Controller
 
                         $common = $common->whereIn($cFlag[$i], [$filters[$cFlag[$i]][$j], $filters[$cFlag[$i]][$j + 1]])
                             ->where('model',str_replace('-',' ',$component->slug));
-
                     }
                 }else{
 
 //                for($i=0;$i<count($cFlag);$i++) {
                     for ($j = 0; $j < count($filters[$cFlag[$i]]); $j++) {
-
-
                         $common = $common->where($cFlag[$i], $filters[$cFlag[$i]][$j])->where('model',str_replace('-',' ',$component->slug));
-
                     }
 
                 }
             }
+
             $common = array_values($common->all());
 
             for($i=0;$i<count($common);$i++){
@@ -390,7 +398,6 @@ class SearchController extends Controller
 
             }
             $separate = array_values($separate->all());
-
             for($i=0;$i<count($separate);$i++){
 
                 $result[$i] = DB::table('commons')->where('id',$separate[$i]->common_id)->first()->id;
@@ -453,6 +460,9 @@ class SearchController extends Controller
                     $cols[$commonTableCols[$t]] = array_unique($cols[$commonTableCols[$t]]);
                     $cols[$commonTableCols[$t]] = array_values($cols[$commonTableCols[$t]]);
                 }
+                if(count($cols[$commonTableCols[$t]]) == 1){
+                    unset($cols[$commonTableCols[$t]]);
+                }
             }
 
             for ($t = 0; $t < count($sepTableCols); $t++) {
@@ -461,6 +471,9 @@ class SearchController extends Controller
                     $sepCols[$sepTableCols[$t]][$i] = $parts[$i]->$colName;
                     $sepCols[$sepTableCols[$t]] = array_unique($sepCols[$sepTableCols[$t]]);
                     $sepCols[$sepTableCols[$t]] = array_values($sepCols[$sepTableCols[$t]]);
+                }
+                if(count($sepCols[$sepTableCols[$t]]) == 1){
+                    unset($sepCols[$sepTableCols[$t]]);
                 }
             }
 
@@ -471,6 +484,9 @@ class SearchController extends Controller
                 $result = array_merge($cols,$sepCols);
                 $this->ColsCode = $ColsCode;
                 $this->newFilter = $result;
+                unset($this->newFilter['unit_price']);
+                unset($this->newFilter['quantity_available']);
+                unset($this->newFilter['part_number']);
                 $result = $parts;
                 return $result;
             }
