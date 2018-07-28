@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Cm;
 use App\Events\UserRegister;
 use App\Repository\UserGoogleRegister;
 use App\Repository\ValidateQuery;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Socialite\Facades\Socialite;
 use Tymon\JWTAuth\Facades\JWTAuth;
@@ -69,7 +71,7 @@ class UserController extends Controller
 
     public function redirectToProvider()
     {
-        return Socialite::driver('myGoogle')->redirect();
+        return Socialite::driver('google')->redirect();
     }
 
     /**
@@ -79,7 +81,20 @@ class UserController extends Controller
      */
     public function handleProviderCallback()
     {
-        return  UserGoogleRegister::googleRegister();
+        $client =  Socialite::driver('google')->stateless()->user();
+        $email = $client->email;
+        $user = User::where('email',$email)->first();
+        if($user == null) {
+            $user = Cm::where('email', $email)->first();
+            $user['role'] = 'cm' ;
+            $token = Auth::guard('cManager')->login($user);
+            $user->update(['token'=>$token]);
+            return response([$token,$user]);
+        }
+        $token = Auth::guard('user')->login($user);
+        $user->update(['token'=>$token]);
+        return response([$token,$user]);
+//        return  UserGoogleRegister::googleRegister();
     }
 
 }

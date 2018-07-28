@@ -3,26 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Brief;
-use App\Cm;
-use App\Content;
 use App\Detail;
-use App\Http\Middleware\TerminateMiddleware;
 use App\Image;
-use App\Repository\Briefs;
-use App\Repository\Cropper;
-use App\Repository\GoogleRegister;
-use App\Repository\Login;
+use App\Repository\CmGoogleRegister;
 use App\Repository\TimeUpdater;
-use App\Repository\ValidateQuery;
-use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Schema;
-use Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider;
 use Laravel\Socialite\Facades\Socialite;
-use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CmController extends Controller
 {
@@ -70,7 +57,7 @@ class CmController extends Controller
      */
     public function handleProviderCallback()
     {
-        return  GoogleRegister::googleRegister();
+        return  CmGoogleRegister::googleRegister();
     }
 
     public function addContent(Request $request){

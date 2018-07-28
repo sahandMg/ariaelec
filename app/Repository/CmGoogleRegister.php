@@ -39,7 +39,7 @@ class CmGoogleRegister
         $user->email = $client->email;
         $user->avatar = $client->avatar;
         $user->save();
-        $token = Auth::guard('user')->logn($user);
+        $token = Auth::guard('cm')->logn($user);
         $user->update(['token'=>$token]);
 
         return response(200);

@@ -10,6 +10,7 @@ namespace App\Repository;
 
 
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Laravel\Socialite\Facades\Socialite;
 use App\User;
 use Tymon\JWTAuth\Facades\JWTAuth;
@@ -22,6 +23,7 @@ class UserGoogleRegister
  * fill avatar column
  * login the user after registration
  * $role defines if the user is cm or user
+ * stateless statement makes session off while using token
  */
     public static function googleRegister(){
 
@@ -33,7 +35,7 @@ class UserGoogleRegister
 //
 //            return 404;
 //        }
-            dd('user',$client);
+
 //            $userData = JWTAuth::parseToken()->authenticate();
 
 //            return ['token'=>$token,'userData'=>$user];
@@ -44,7 +46,7 @@ class UserGoogleRegister
             $user->email = $client->email;
             $user->avatar = $client->avatar;
             $user->save();
-            $token = Auth::guard('user')->logn($user);
+            $token = Auth::guard('user')->login($user);
             $user->update(['token'=>$token]);
 
         return response(200);
