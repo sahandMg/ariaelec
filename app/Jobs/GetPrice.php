@@ -80,7 +80,7 @@ class GetPrice implements ShouldQueue
                     }
                     $arr = explode(',',$output[0]);
                     $price = $arr[0];
-                    $quantity = $arr[1];
+                    $quantity = $arr[1]/2;
                     $partClass[$i]->update(['unit_price'=>$price]);
                     $partClass[$i]->update(['quantity_available'=>$quantity]);
                     Log::warning("Get price status: 200");

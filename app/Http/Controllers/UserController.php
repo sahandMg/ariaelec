@@ -24,24 +24,43 @@ class UserController extends Controller
 
     public function register(Request $request)
     {
+/*
+ * Get generated token in google registration + password
+ * Update user password column
+ * Login the user and update the token column
+ */
 
-        if (ValidateQuery::check($request)) {
+        if($request->has('token')){
+            try{
+                $newUser = User::where('token',$request->token)->firstOrFail();
+            }catch (\Exception $exception){
+                return 404;
+            }
+            $newUser->update(['password'=>Hash::make($request->password)]);
+            $token = Auth::guard('user')->login($newUser);
+            $newUser->update(['token'=>$token]);
+            return [$token,$newUser];
 
-            return ValidateQuery::check($request);
-        }
+        }else {
 
-        $user = new User();
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->password = Hash::make($request->password);
+
+            if (ValidateQuery::check($request)) {
+
+                return ValidateQuery::check($request);
+            }
+
+            $user = new User();
+            $user->name = $request->name;
+            $user->email = $request->email;
+            $user->password = Hash::make($request->password);
 //        $user->reset_password = str_shuffle("ajleyqwncx3497");
 //        $user->avatar = 'Blank100*100.png';
-        $user->save();
+            $user->save();
 
             event(new UserRegister($user));
 
-        return '200';
-
+            return '200';
+        }
     }
 
     public function login(Request $request)
@@ -82,18 +101,22 @@ class UserController extends Controller
     public function handleProviderCallback()
     {
         $client =  Socialite::driver('google')->stateless()->user();
-        $email = $client->email;
-        $user = User::where('email',$email)->first();
-        if($user == null) {
-            $user = Cm::where('email', $email)->first();
-            $user['role'] = 'cm' ;
-            $token = Auth::guard('cManager')->login($user);
-            $user->update(['token'=>$token]);
-            return response([$token,$user]);
+        $user = User::where('email',$client->email)->first();
+        if($user == null){
+            $user = new User();
+            $user->name = $client->name;
+            $user->email = $client->email;;
+            $user->avatar = $client->avatar;
+            $user->token = str_random(80);
+            $user->save();
         }
-        $token = Auth::guard('user')->login($user);
-        $user->update(['token'=>$token]);
-        return response([$token,$user]);
+
+//        $token = Auth::guard('user')->login($user);
+//        $user->update(['token'=>$token]);
+        /**
+         * TODO change this url on server
+         */
+        return redirect('localhost:3000/google:'.$user->token);
 //        return  UserGoogleRegister::googleRegister();
     }
 

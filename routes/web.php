@@ -428,12 +428,7 @@ $names = \App\Helper::pluck('helper')->all();
 
 Route::get('/', function () {
 
-    $start = Carbon::now();
-    $command = 'cd storage/V1 && node index.js stm32f407';
 
-    exec($command, $output, $return);
-    $end = Carbon::now();
-    dd(explode(',','sagahd,dd'));
 });
 
 Route::get('login',function (\Illuminate\Http\Request $request){
