@@ -153,6 +153,7 @@ class CartController extends Controller
         /**
          * TODO Get user address in future
          * TODO if num > quantity available ??
+         * TODO BOM total price
          */
     }
 /*
@@ -187,10 +188,16 @@ class CartController extends Controller
     public function readCart(Request $request){
         try{
 
-            $carts = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail()->carts;
+            $bom = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail();
         }catch (\Exception $exception){
             return 'Empty Cart!';
         }
+        if(!$bom->carts){
+            $carts = $bom->carts;
+        }else{
+            return 'Empty Cart!';
+        }
+
         for($i=0 ; $i<count($carts) ;$i++){
            $orders[$i] = unserialize($carts[$i]->name);
             for($t=0 ; $t<count($orders[$i]);$t++){
