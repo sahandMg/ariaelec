@@ -21,7 +21,7 @@ class CartController extends Controller
 
     public function __construct()
     {
-        $this->middleware('guest');
+        $this->middleware('guest')->except('cartWithoutToken');
     }
 
 
@@ -40,29 +40,176 @@ class CartController extends Controller
          * status = 100 -> BOM : closed
          */
 
-        if(count(Auth::user()->boms) > 0 ){
-            $bom = Bom::where('user_id',Auth::id())->orderBy('created_at','decs')->first();
-            /*
-             * status != 0 means that the last BOM has closed
-             */
-            if($bom->status != 0){
-                $bom = new Bom();
-                $bom->status = 0;
-                $bom->user_id = Auth::id();
-                $bom->save();
-            }
+        if($request->has('token')){
+
+            return $this->cartWithToken($request);
         }else{
+            return $this->cartWithoutToken($request);
+        }
+
+//
+        /**
+         * TODO Get user address in future
+         * TODO if num > quantity available ??
+         * TODO BOM total price
+         */
+    }
+/*
+ *
+ *  uses for updating cart data
+ */
+    protected function cartWithToken($request){
+
+    if(count(Auth::user()->boms) > 0 ){
+        $bom = Bom::where('user_id',Auth::id())->orderBy('created_at','decs')->first();
+        /*
+         * status != 0 means that the last BOM has closed
+         */
+        if($bom->status != 0){
             $bom = new Bom();
             $bom->status = 0;
             $bom->user_id = Auth::id();
             $bom->save();
         }
+    }else{
+        $bom = new Bom();
+        $bom->status = 0;
+        $bom->user_id = Auth::id();
+        $bom->save();
+    }
 
+
+    array_push($this->cart ,[
+        'name'  =>  $request->keyword,
+        'num'   =>  $request->num,
+    ]);
+
+    $orders = DB::table('carts')->where('bom_id',$bom->id)->get();
+    /*
+     * New order registration
+     */
+    if(count($orders) == 0){
+        $cart = new Cart();
+        $cart->name = serialize($this->cart);
+        $cart->bom_id = $bom->id;
+        if ($request->has('project')) {
+            $projectId = DB::table('projects')->where('name', $request->project)->first()->id;
+            $cart->project_id = $projectId;
+        }
+        $cart->save();
+
+        return 200;
+    }
+    /*
+     * Update last order
+     */
+    else{
+        /*
+        * TODO if user , orders parts for two or more projects at a same time then ???
+        */
+        if ($request->has('project')) {
+
+            $project = DB::table('projects')->where('name', $request->project)->where('user_id', Auth::id())->first();
+            if($project){
+                $projectId = $project->id;
+            }else{
+                return 'project not found';
+            }
+            foreach ($orders as $order){
+                if($order->project_id == $projectId){
+                    $userOrder = $order;
+                }
+            }
+            if(!isset($userOrder)){
+                /*
+                 * create separate cart for project
+                 */
+                $cart = new Cart();
+                $cart->name = serialize($this->cart);
+                $cart->bom_id = $bom->id;
+                $cart->project_id = $projectId;
+                $cart->save();
+                return 200;
+            }else{
+                /*
+                 * update the project cart
+                 */
+
+                $this->updateCart($userOrder,$request,$bom);
+                return 200;
+            }
+
+//
+//
+        }else{
+            foreach ($orders as $order){
+                if($order->project_id == 0 ){
+                    $userOrder = $order;
+                }
+            }
+
+            if(isset($userOrder)) {
+
+                $this->updateCart($userOrder,$request,$bom);
+            }else{
+                $cart = new Cart();
+                $cart->name = serialize($this->cart);
+                $cart->bom_id = $bom->id;
+                $cart->save();
+
+            }
+            return 200;
+        }
+
+        /*
+         * update a cart data without project_id
+         * check all carts name for a given BOM id and a given part name
+         */
+
+    }
+
+}
+
+    protected function updateCart($userOrder,$request,$bom)
+    {
+
+        if (isset($userOrder)) {
+
+            $cartArray = unserialize($userOrder->name);
+            for ($i = 0; $i < count($cartArray); $i++) {
+                if ($cartArray[$i]['name'] == $request->keyword) {
+                    session()->put(['check' => $i]);
+                }
+            }
+            if (session()->has('check')) {
+                $cartArray[session('check')]['num'] = $cartArray[session('check')]['num'] + $request->num;
+                DB::table('carts')->where('bom_id', $bom->id)
+                    ->update(['name' => serialize($cartArray)]);
+
+            } else {
+                array_push($cartArray, $this->cart[0]);
+                DB::table('carts')->where('bom_id', $bom->id)
+                    ->update(['name' => serialize($cartArray)]);
+
+            }
+        }
+    }
+
+    protected function cartWithoutToken($request){
+        /*
+         * Create a bom query with user_id = 0
+         * create cart with user_id = 0
+         * use session to store user cart
+         */
+                $bom = new Bom();
+                $bom->status = 0;
+                $bom->user_id = Auth::id();
+                $bom->save();
 
         array_push($this->cart ,[
             'name'  =>  $request->keyword,
             'num'   =>  $request->num,
-            ]);
+        ]);
 
         $orders = DB::table('carts')->where('bom_id',$bom->id)->get();
         /*
@@ -84,9 +231,9 @@ class CartController extends Controller
          * Update last order
          */
         else{
-/*
-* TODO if user , orders parts for two or more projects at a same time then ???
-*/
+            /*
+            * TODO if user , orders parts for two or more projects at a same time then ???
+            */
             if ($request->has('project')) {
 
                 $project = DB::table('projects')->where('name', $request->project)->where('user_id', Auth::id())->first();
@@ -147,44 +294,8 @@ class CartController extends Controller
              */
 
         }
-
-
-//
-        /**
-         * TODO Get user address in future
-         * TODO if num > quantity available ??
-         * TODO BOM total price
-         */
     }
-/*
- *
- *  uses for updating cart data
- */
 
-    protected function updateCart($userOrder,$request,$bom)
-    {
-
-        if (isset($userOrder)) {
-
-            $cartArray = unserialize($userOrder->name);
-            for ($i = 0; $i < count($cartArray); $i++) {
-                if ($cartArray[$i]['name'] == $request->keyword) {
-                    session()->put(['check' => $i]);
-                }
-            }
-            if (session()->has('check')) {
-                $cartArray[session('check')]['num'] = $cartArray[session('check')]['num'] + $request->num;
-                DB::table('carts')->where('bom_id', $bom->id)
-                    ->update(['name' => serialize($cartArray)]);
-
-            } else {
-                array_push($cartArray, $this->cart[0]);
-                DB::table('carts')->where('bom_id', $bom->id)
-                    ->update(['name' => serialize($cartArray)]);
-
-            }
-        }
-    }
     public function readCart(Request $request){
         try{
 
@@ -192,11 +303,12 @@ class CartController extends Controller
         }catch (\Exception $exception){
             return '550';
         }
-        if(!$bom->carts){
+        if(count($bom->carts) != 0){
             $carts = $bom->carts;
         }else{
             return '550';
         }
+
 
         for($i=0 ; $i<count($carts) ;$i++){
            $orders[$i] = unserialize($carts[$i]->name);
