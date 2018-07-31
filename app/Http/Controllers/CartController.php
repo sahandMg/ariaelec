@@ -190,12 +190,12 @@ class CartController extends Controller
 
             $bom = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail();
         }catch (\Exception $exception){
-            return 'Empty Cart!';
+            return '550';
         }
         if(!$bom->carts){
             $carts = $bom->carts;
         }else{
-            return 'Empty Cart!';
+            return '550';
         }
 
         for($i=0 ; $i<count($carts) ;$i++){
