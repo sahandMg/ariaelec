@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Bom;
 use App\Cart;
 use App\Project;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use League\Flysystem\Exception;
 
 class CartController extends Controller
 {
@@ -87,8 +89,12 @@ class CartController extends Controller
 */
             if ($request->has('project')) {
 
-                $projectId = DB::table('projects')->where('name', $request->project)->first()->id;
-
+                $project = DB::table('projects')->where('name', $request->project)->where('user_id', Auth::id())->first();
+                if($project){
+                    $projectId = $project->id;
+                }else{
+                    return 'project not found';
+                }
                 foreach ($orders as $order){
                     if($order->project_id == $projectId){
                         $userOrder = $order;
@@ -179,7 +185,12 @@ class CartController extends Controller
         }
     }
     public function readCart(Request $request){
-        $carts = Bom::where('user_id',Auth::id())->where('status',0)->first()->carts;
+        try{
+
+            $carts = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail()->carts;
+        }catch (\Exception $exception){
+            return 'Empty Cart!';
+        }
         for($i=0 ; $i<count($carts) ;$i++){
            $orders[$i] = unserialize($carts[$i]->name);
             for($t=0 ; $t<count($orders[$i]);$t++){
