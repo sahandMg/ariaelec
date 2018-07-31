@@ -3,25 +3,14 @@
 namespace App\Http\Controllers;
 
 
-use App\Brief;
-use App\Common;
-use App\Component;
-use App\Detail;
-use App\Events\RunCommand;
-use App\IC\PMIC_Display_Drivers;
+
 use App\Jobs\GetPrice;
-use App\Product;
 use App\Repository\ColumnCode;
 use App\Repository\FilterContent;
-use App\Shops\Eshop;
-use App\Shops\IranMicro;
-use App\Shops\MetaElec;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
-use App\Shops\GetSiteContent;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use PDOException;
 
 
 class SearchController extends Controller
@@ -101,14 +90,16 @@ class SearchController extends Controller
         }
 
 
-//        Searching Between Parts
-
+/**
+ *        Searching Between Parts
+ *      TODO Check search_part_comp pagination
+**/
                 $part = DB::table('commons')
                     ->where('part_number', 'like', "%$keyword%")
                     ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
                     ->orWhere('manufacturer', 'like', "%$keyword%")
                     ->orWhere('description', 'like', "%$keyword%")
-                    ->get();
+                    ->skip(($this->skip * ($this->paginate -1)) )->take($this->skip)->get();
 
             if ($part->isEmpty()) {
                 $query = DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->first();
@@ -498,21 +489,20 @@ class SearchController extends Controller
      * @param Request $request
      * @return \Illuminate\Support\Collection|string
      * gets parts price from database
+     * TODO check this api
      */
     public function getPrice(Request $request){
 
         if(!$request->has('keyword')){
             return 'send a keyword';
         }
-                try{
+            $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
+                ->select('manufacturer_part_number','unit_price')->first();
+            if($price == null){
+            return 415;
+            }
 
-                    $price = DB::table('commons')->where('manufacturer_part_number','like', "%$request->keyword%")
-                        ->select('manufacturer_part_number','unit_price')->get();
-                }catch (\Exception $exception){
-
-                    return '415';
-                }
-                return $price;
+        return $price;
 
     }
 

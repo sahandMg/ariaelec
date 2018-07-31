@@ -2,17 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Cm;
 use App\Events\UserRegister;
-use App\Repository\UserGoogleRegister;
 use App\Repository\ValidateQuery;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Socialite\Facades\Socialite;
-use Tymon\JWTAuth\Facades\JWTAuth;
+use Illuminate\Support\Facades\Validator;
 
 class UserController extends Controller
 {
@@ -36,10 +33,22 @@ class UserController extends Controller
             }catch (\Exception $exception){
                 return 404;
             }
+            $valid = Validator::make($request->all(),[
+                'password'=>'required|min:8'
+            ]);
+            if($valid->fails()){
+
+                if(isset(json_decode($valid->errors(),true)['password'])){
+
+                    return json_decode($valid->errors(),true);
+
+                }
+            }
             $newUser->update(['password'=>Hash::make($request->password)]);
             $token = Auth::guard('user')->login($newUser);
+            $user['role'] = null ;
             $newUser->update(['token'=>$token]);
-            return [$token,$newUser];
+            return ['token'=>$token,'userData'=>$newUser];
 
         }else {
 
@@ -116,7 +125,7 @@ class UserController extends Controller
         /**
          * TODO change this url on server
          */
-        return redirect('localhost:3000/google:'.$user->token);
+        return redirect('http://localhost:3000/google/'.$user->token);
 //        return  UserGoogleRegister::googleRegister();
     }
 

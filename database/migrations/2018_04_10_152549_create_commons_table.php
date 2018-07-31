@@ -20,13 +20,14 @@ class CreateCommonsTable extends Migration
             $table->text('datasheet')->nullable();
             $table->text('ld_image')->nullable();
             $table->string('part_number')->nullable();
-            $table->index('part_number');
+//            $table->index('part_number');
             $table->string('manufacturer_part_number')->nullable();
             $table->index('manufacturer_part_number');
             $table->string('manufacturer')->nullable();
             $table->index('manufacturer');
             $table->text('description')->nullable();
             $table->string('quantity_available')->nullable();
+            $table->index('quantity_available');
             $table->string('unit_price')->nullable();
             $table->string('minimum_quantity')->nullable();
             $table->string('packaging')->nullable();

@@ -30,6 +30,19 @@ Route::post('home/{category?}','PageController@home');
         Route::get('login/google',['uses'=>'UserController@redirectToProvider'])->name('googleLogin');
         Route::get('login/google/callback',['uses'=>'UserController@handleProviderCallback']);
 
+        Route::group(['prefix'=>'cart'],function (){
+
+            Route::post('create','CartController@createCart');
+            Route::post('read','CartController@readCart');
+        });
+
+        Route::group(['prefix'=>'project'],function (){
+
+            Route::post('create','ProjectController@createProject');
+            Route::post('read','ProjectController@readProject');
+            Route::post('delete','ProjectController@deleteProject');
+        });
+
     });
 
 //]
@@ -61,7 +74,10 @@ Route::post('home/{category?}','PageController@home');
         Route::post('control-panel','AdminController@controlPanel');
         Route::post('login','AdminController@login');
 });
+
 // ]
+
+
 // ---------------------------------------------------------------------
 Route::get('add-slug','ProductController@addSlug');
 Route::get('get-products','ProductController@all');

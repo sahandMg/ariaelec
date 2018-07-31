@@ -27,6 +27,8 @@ class RedirectIfAuthenticated
         }catch (TokenBlacklistedException $exception){
 
             return response('300');
+        }catch (TokenExpiredException $exception){
+            return response('300');
         }
         try {
             $userData = User::where('token',$request->token)->firstOrFail();
@@ -48,6 +50,7 @@ class RedirectIfAuthenticated
 
 //            return response('320');
 //        }
+
 
     }
 }
