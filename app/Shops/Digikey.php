@@ -19,7 +19,7 @@ class Digikey
     public $resp = [];
     public $url = '';
 
-//    Gets digikey part's table row
+//    Gets digikey part's table roww
 
     public function digikey(){
 

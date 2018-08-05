@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use League\Flysystem\Exception;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class CartController extends Controller
 {
@@ -201,28 +202,30 @@ class CartController extends Controller
          * create cart with user_id = 0
          * use session to store user cart
          */
-                $bom = new Bom();
-                $bom->status = 0;
-                $bom->user_id = Auth::id();
-                $bom->save();
+
+        if(!session()->has('guestBom')){
+
+            $bom = new Bom();
+            $bom->status = 0;
+            $bom->save();
+            session()->put(['guestBom'=>$bom]);
+        }
+
+
 
         array_push($this->cart ,[
             'name'  =>  $request->keyword,
             'num'   =>  $request->num,
         ]);
 
-        $orders = DB::table('carts')->where('bom_id',$bom->id)->get();
+        $order = DB::table('carts')->where('bom_id',$bom->id)->first();
         /*
          * New order registration
          */
-        if(count($orders) == 0){
+        if(!$order){
             $cart = new Cart();
             $cart->name = serialize($this->cart);
             $cart->bom_id = $bom->id;
-            if ($request->has('project')) {
-                $projectId = DB::table('projects')->where('name', $request->project)->first()->id;
-                $cart->project_id = $projectId;
-            }
             $cart->save();
 
             return 200;
@@ -234,57 +237,13 @@ class CartController extends Controller
             /*
             * TODO if user , orders parts for two or more projects at a same time then ???
             */
-            if ($request->has('project')) {
 
-                $project = DB::table('projects')->where('name', $request->project)->where('user_id', Auth::id())->first();
-                if($project){
-                    $projectId = $project->id;
-                }else{
-                    return 'project not found';
-                }
-                foreach ($orders as $order){
-                    if($order->project_id == $projectId){
-                        $userOrder = $order;
-                    }
-                }
-                if(!isset($userOrder)){
-                    /*
-                     * create separate cart for project
-                     */
-                    $cart = new Cart();
-                    $cart->name = serialize($this->cart);
-                    $cart->bom_id = $bom->id;
-                    $cart->project_id = $projectId;
-                    $cart->save();
-                    return 200;
-                }else{
+
                     /*
                      * update the project cart
                      */
 
-                    $this->updateCart($userOrder,$request,$bom);
-                    return 200;
-                }
-
-//
-//
-            }else{
-                foreach ($orders as $order){
-                    if($order->project_id == 0 ){
-                        $userOrder = $order;
-                    }
-                }
-
-                if(isset($userOrder)) {
-
-                    $this->updateCart($userOrder,$request,$bom);
-                }else{
-                    $cart = new Cart();
-                    $cart->name = serialize($this->cart);
-                    $cart->bom_id = $bom->id;
-                    $cart->save();
-
-                }
+                    $this->updateCart($order,$request,$bom);
                 return 200;
             }
 
@@ -293,7 +252,7 @@ class CartController extends Controller
              * check all carts name for a given BOM id and a given part name
              */
 
-        }
+
     }
 
     public function readCart(Request $request){
@@ -326,19 +285,20 @@ class CartController extends Controller
                     }else{
                         $vars = get_object_vars($ctrl->getPrice($request));
                         $orders[$i][$t]['price'] =  $vars['unit_price'];
+                        if($carts[$i]->project_id != 0 ){
+
+                            $projs[$i] = DB::table('projects')->where('id',$carts[$i]->project_id)->first()->name;
+                            $orders[$i][$t]['project'] =  $projs[$i];
+                        }else{
+                            $orders[$i]['project'] = null;
+                        }
                     }
                     if($orders[$i][$t]['price'] == null){
                         $orders[$i][$t]['price'] = 0;
                     }
 
                 }
-            if($carts[$i]->project_id != 0 ){
 
-                $projs[$i] = DB::table('projects')->where('id',$carts[$i]->project_id)->first()->name;
-                $orders[$i]['project'] = $projs[$i];
-            }else{
-                $orders[$i]['project'] = null;
-            }
 
 
         }

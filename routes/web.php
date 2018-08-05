@@ -75,65 +75,6 @@ Route::get('add-common',function (){
 
     $startMemory = memory_get_usage();
 
-    /*
-     * product_id = 38 ==> Integrated Circuits
-     */
-
-    $modelNames = App\Component::where('product_id',38)->get()->pluck('slug');
-    $i = 0;
-    $counter = 723;
-    $corrupt = [];
-    foreach ($modelNames as $modelName){
-        $className[$i] = str_replace('-','_',$modelName);
-        $className[$i] = str_replace('+','',$className[$i]);
-        $className[$i] = str_replace('__','_',$className[$i]);
-        $i++;
-    }
-
-
-    for($t=0;$t<count($className);$t++){
-        $csv = [];
-        $common = [];
-        $class =  'App\IC\\'.$className[$t];
-        $model = new $class();
-        $commonTableCols = Schema::getColumnListing('commons');
-        array_shift($commonTableCols);
-        array_shift($commonTableCols);
-        array_shift($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        if(file_exists(public_path('/comps/'.$className[$t].'.csv'))) {
-
-            $lines = file(public_path('/comps/'.$className[$t] . '.csv'));
-            foreach ($lines as $key => $value) {
-                $csv[$key] = str_getcsv($value);
-            }
-
-            $component_id[$t] = DB::table('components')->where('slug',str_replace('_','-',$className[$t]))->first()->id;
-
-            for ($i = 0; $i < count($csv); $i++) {
-
-                $common = new \App\Common();
-
-                for ($j = 0; $j < count($csv[$i]); $j++) {
-
-                    $common[$commonTableCols[$j]] = $csv[$i][$j];
-
-                }
-                $common->component_id = $component_id[$t];
-                $common->model = str_replace('_',' ',$className[$t]);
-
-                $common->save();
-            }
-            $counter++;
-        }else{
-            $corrupt[$t] = $className[$t];
-        }
-    }
-
-    dd($corrupt);
 
 });
 
@@ -351,58 +292,6 @@ Route::get('add-separate',function (){
 
 
 
-    $modelNames = DB::table('components')->where('product_id',38)->get()->pluck('slug');
-    $i = 0;
-    $counter = 1;
-    $corrupt = [];
-    foreach ($modelNames as $modelName){
-
-        $className[$i] = str_replace('-','_',$modelName);
-        $className[$i] = str_replace('+','',$className[$i]);
-        $className[$i] = str_replace('__','_',$className[$i]);
-
-        $i++;
-    }
-
-
-    for($t=0;$t<count($className);$t++){
-        $csv = [];
-        $class =  'App\IC\\'.$className[$t];
-        $model = new $class();
-        $commonTableCols = Schema::getColumnListing($model->getTable());
-        array_shift($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        array_pop($commonTableCols);
-        if(file_exists(public_path('/comps/'.$className[$t].'2.csv'))) {
-
-            $lines = file(public_path('/comps/'.$className[$t] . '2.csv'));
-            foreach ($lines as $key => $value) {
-                $csv[$key] = str_getcsv($value);
-            }
-
-            for ($i = 0; $i < count($csv); $i++) {
-
-                $common = new $class();
-
-                for ($j = 0; $j < count($csv[$i]); $j++) {
-
-                    $common[$commonTableCols[$j]] = $csv[$i][$j];
-
-                }
-                $common->common_id = $counter++;
-                $common->save();
-            }
-        }else{
-            $corrupt[$t] = $className[$t];
-        }
-    }
-
-//    dd($startMemory,memory_get_usage() - $startMemory.' bytes');
-    dd($corrupt);
-
-
 
 });
 
@@ -599,16 +488,7 @@ Route::get('run',function (\Illuminate\Http\Request $request){
 
 Route::get('make-table',function (){
 
-    $arr = App\Component::where('product_id',38)->get()->pluck('slug');
 
-    for($i=0;$i<count($arr);$i++){
-        $arr[$i] = str_replace('-','_',$arr[$i]);
-        $arr[$i] = str_replace('+','',$arr[$i]);
-        $arr[$i] = str_replace('__','_',$arr[$i]);
-        Artisan::call("make:model",['name'=>' IC/'.$arr[$i],'-m'=>'--migration']);
-    }
-
-    return $arr;
 });
 
 
