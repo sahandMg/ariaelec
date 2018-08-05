@@ -46,7 +46,7 @@ class UserController extends Controller
             }
             $newUser->update(['password'=>Hash::make($request->password)]);
             $token = Auth::guard('user')->login($newUser);
-            $user['role'] = null ;
+            $newUser['role'] = null ;
             $newUser->update(['token'=>$token]);
             return ['token'=>$token,'userData'=>$newUser];
 
@@ -111,6 +111,7 @@ class UserController extends Controller
     {
         $client =  Socialite::driver('google')->stateless()->user();
         $user = User::where('email',$client->email)->first();
+        dd($client);
         if($user == null){
             $user = new User();
             $user->name = $client->name;
