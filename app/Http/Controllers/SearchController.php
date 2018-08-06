@@ -589,14 +589,40 @@ class SearchController extends Controller
     public function sort(Request $request)
     {
 //        باید دیتا ها رو ۲۰ تا ۲۰ تا سورت کنی
-
+    /*
+     *  use two methods to sort columns
+     *  1) commonSort -> sort common table columns
+     *  2) separateSort -> sort separate table columns
+     */
         $class = 'App\IC\\'.$request->component;
         $paginate = $request->num;
         $order = $request->order;
         $model = new $class();
         $colName = $request->colName;
+        $commonCols = Schema::getColumnListing('commons') ;
+        $sepCols = Schema::getColumnListing($model->getTable());
+        if(array_search($colName,$commonCols)){
+            return $this->commonSort($request);
+        }elseif (array_search($colName,$sepCols)){
+            return $this->separateSort($request);
+        }else{
+            return 'column not found';
+        }
 
+
+    }
+
+    private function separateSort($request){
+        $rawModel = $request->component;
+        str_replace(' ','_',$rawModel);
+
+        $class = 'App\IC\\'.$rawModel;
+        $paginate = $request->num;
+        $order = $request->order;
+        $model = new $class();
+        $colName = $request->colName;
         $component = DB::table($model->getTable())->get();
+
         if($component == null){
             return '410';
         }else{
@@ -605,8 +631,30 @@ class SearchController extends Controller
 
                 $cols[$component[$i]->id] = $component[$i]->$colName;
                 $cols[$component[$i]->id] = str_replace('~','',$cols[$component[$i]->id]);
-                $volts[$component[$i]->id] = explode(" ",$cols[$component[$i]->id])[0];
+                $str[$component[$i]->id] = explode(" ",$cols[$component[$i]->id])[0];
+                $volts[$component[$i]->id]  = preg_replace('/[^-0-9\.]/', '',$str[$component[$i]->id]);
+                /*
+                 * µ , n , m , k , K , M , G
+                */
+
+                if(strpbrk($str[$component[$i]->id],'n')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,9);
+                }elseif(strpbrk($str[$component[$i]->id],'µ')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,6);
+                }elseif(strpbrk($str[$component[$i]->id],'m')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,3);
+                }elseif(strpbrk($str[$component[$i]->id],'k')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,3);
+                }elseif(strpbrk($str[$component[$i]->id],'K')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,3);
+                }
+                elseif(strpbrk($str[$component[$i]->id],'M')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,6);
+                }elseif(strpbrk($str[$component[$i]->id],'G')) {
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,9);
+                }
             }
+
 //            $volts = not common table Ids
             if($order == 'decs'){
 
@@ -614,13 +662,15 @@ class SearchController extends Controller
             }else{
                 asort($volts);
             }
-
             $volts = array_keys($volts);
             $newVolts = array_slice($volts,20*($paginate-1),20);
             for($i=0 ;$i<count($newVolts);$i++){
-                $rows[$i] = DB::table($model->getTable())
+                $common_id = DB::table($model->getTable())
                     ->where($model->getTable().'.'.'id','=',$newVolts[$i])
-                    ->join('commons','commons.id','=',$model->getTable().'.'.'common_id')->first();
+                    ->first()->common_id;
+                $rows[$i] = DB::table('commons')->where('commons.id',$common_id)
+                    ->join($model->getTable(),'commons.id','=',$model->getTable().'.'.'common_id')
+                    ->first();
             }
             if(isset($rows)){
 
@@ -629,6 +679,71 @@ class SearchController extends Controller
                 return 420;
             }
         }
+    }
 
+    private function commonSort($request){
+
+        $rawModel = $request->component;
+        str_replace(' ','_',$rawModel);
+        $class = 'App\IC\\'.$request->component;
+        $paginate = $request->num;
+        $order = $request->order;
+        $model = new $class();
+        $colName = $request->colName;
+
+        $component = DB::table('commons')->where('model','like',"%$request->component%")->get();
+        if($component == null){
+            return '410';
+        }else{
+
+            for($i=0 ; $i < count($component) ; $i++){
+
+                $cols[$component[$i]->id] = $component[$i]->$colName;
+                $cols[$component[$i]->id] = str_replace('~','',$cols[$component[$i]->id]);
+                $str[$component[$i]->id] = explode(" ",$cols[$component[$i]->id])[0];
+                $volts[$component[$i]->id]  = preg_replace('/[^-0-9\.]/', '',$str[$component[$i]->id]);
+                /*
+                 * µ , n , m , k , K , M , G
+                */
+                if(strpbrk($str[$component[$i]->id],'n')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,9);
+                }elseif(strpbrk($str[$component[$i]->id],'µ')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,6);
+                }elseif(strpbrk($str[$component[$i]->id],'m')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] /pow(10,3);
+                }elseif(strpbrk($str[$component[$i]->id],'k')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,3);
+                }elseif(strpbrk($str[$component[$i]->id],'K')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,3);
+                }
+                elseif(strpbrk($str[$component[$i]->id],'M')){
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,6);
+                }elseif(strpbrk($str[$component[$i]->id],'G')) {
+                    $volts[$component[$i]->id] = $volts[$component[$i]->id] * pow(10,9);
+                }
+            }
+
+//            $volts = not common table Ids
+            if($order == 'decs'){
+
+                arsort($volts);
+            }else{
+                asort($volts);
+            }
+            $volts = array_keys($volts);
+            $newVolts = array_slice($volts,20*($paginate-1),20);
+            for($i=0 ;$i<count($newVolts);$i++){
+                $rows[$i] = DB::table('commons')
+                    ->where('commons.id','=',$newVolts[$i])
+                    ->join($model->getTable(),'commons.id','=',$model->getTable().'.'.'common_id')
+                    ->first();
+            }
+            if(isset($rows)){
+
+                return $rows;
+            }else{
+                return 420;
+            }
+        }
     }
 }

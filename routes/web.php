@@ -46,7 +46,7 @@ $client = new GuzzleClient();
 
 Route::get('page',function (){
 
-
+    DB::table('commons')->update(['unit_price' => 0]);
     return view('test');
 })->name('page');
 

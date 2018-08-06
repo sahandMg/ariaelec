@@ -52,7 +52,7 @@ class GetPrice implements ShouldQueue
         for($i=0;$i<count($parts);$i++) {
             $output =[];
             $stop = 0;
-            $command = "cd public/V1 && node index.js $parts[$i]";
+            $command = "cd public/storage/V1 && node index.js $parts[$i]";
 
             Log::info("Searching for $parts[$i] ...");
             while ($stop == 0) {
@@ -80,9 +80,13 @@ class GetPrice implements ShouldQueue
                     }
                     $arr = explode(',',$output[0]);
                     $price = $arr[0];
-                    $quantity = $arr[1]/2;
+                    if(isset($arr[1])){
+
+                        $quantity = $arr[1]/2;
+                        $partClass[$i]->update(['quantity_available'=>$quantity]);
+                    }
                     $partClass[$i]->update(['unit_price'=>$price]);
-                    $partClass[$i]->update(['quantity_available'=>$quantity]);
+
                     Log::warning("Get price status: 200");
                 } elseif (isset($output) && $output[0] == 'not found') {
 
