@@ -1,0 +1,29 @@
+.projects {
+    margin-top: 1%;text-align: right;
+}
+
+.projects label {
+    font-size: 1.5rem;
+}
+.badge-delete {
+    padding: 1%;
+    color: white;cursor: pointer;font-size: 75%;
+    background-color: red;border-radius: 25%;
+}
+
+.projects h3 { display: inline-block; }
+
+.react-confirm-alert {direction: rtl;}
+.react-confirm-alert-body {text-align: right !important; }
+.react-confirm-alert-body h1 {text-align: center;}
+@media (min-width: 768px) {
+    .projects {
+        margin-top: 12%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .projects {
+        margin-top: 1%;
+    }
+}

@@ -1,0 +1,45 @@
+#conversionList li {
+    flex: 0 1 24%;
+    margin-bottom: 5px;
+}
+#conversionList li:hover {
+    list-style: none;
+}
+#conversionList i {
+    font-size: 150%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#conversionList a {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: #808080;
+    width: 100%;
+    color: black;
+}
+#conversionList a:hover {
+    background-color: #FFFF00;list-style: none;
+}
+.conversionListActive {
+    background-color: #FFFF00;
+}
+.svg-icon {
+
+}
+@media only screen and (max-width: 768px) {
+    #conversionList {
+        margin-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #conversionList li {
+        flex: 0 1 48%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #conversionList li {
+        flex: 0 1 90%;
+    }
+}

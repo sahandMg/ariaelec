@@ -1,0 +1,37 @@
+footer hr {
+    height:0.75px;
+}
+
+
+/*footer {*/
+    /*!*background-color: #f4d430;*!*/
+    /*!*text-align: center;*!*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*background-color: black;*/
+/*}*/
+/*footer div {*/
+    /*color: white;*/
+    /*flex: 0 1 32%;*/
+    /*text-align: right;*/
+    /*margin: 1% 0;*/
+    /*position: relative;*/
+/*}*/
+/*footer ul {*/
+    /*display: flex;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*transform: translateX(-30%);*/
+/*}*/
+/*footer ul li {*/
+   /*margin: 0 3%;*/
+/*}*/
+/*footer a {*/
+    /*font-size: 200%;*/
+/*}*/
+/*footer div div {*/
+    /*display: flex;*/
+/*}*/
+/*footer div div button {*/
+    /*margin: 0 3%;*/
+/*}*/

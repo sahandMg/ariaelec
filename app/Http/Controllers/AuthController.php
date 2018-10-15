@@ -54,20 +54,21 @@ class AuthController extends Controller
     }
 //      Google login
 
-    public function redirectToProvider()
-    {
-
-        return Socialite::driver('google')->redirect();
-    }
+//    public function redirectToProvider()
+//    {
+//
+//        return Socialite::driver('google')->redirect();
+//    }
 
     /**
      * @return mixed
      * Google Register & Login
      */
-    public function handleProviderCallback()
-    {
-     return  UserGoogleRegister::googleRegister();
-    }
+//    public function handleProviderCallback()
+//    {
+//
+//     return  UserGoogleRegister::googleRegister();
+//    }
 
     /**
      * @return int

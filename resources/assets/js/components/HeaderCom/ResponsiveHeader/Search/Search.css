@@ -1,0 +1,11 @@
+#responsiveSearch input {
+    direction: rtl;
+}
+@media only screen and (max-width: 420px) {
+    #responsiveSearch input {
+        width: 150px;
+    }
+    .responsive-search-select {
+        width: 120px;
+    }
+}

@@ -20,6 +20,7 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Http\Middleware\TrustProxies::class,
         \Barryvdh\Cors\HandleCors::class,
+        \App\Http\Middleware\RouteRedirectMiddleware::class
 
 
     ];
@@ -38,12 +39,14 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+
+
         ],
 
         'api' => [
             'throttle:60,1',
             'bindings',
-            'Role'=> \App\Http\Middleware\RoleMiddleware::class
+            'Role'=> \App\Http\Middleware\RoleMiddleware::class,
         ],
     ];
 
@@ -68,6 +71,7 @@ class Kernel extends HttpKernel
         'admin' =>  \App\Http\Middleware\AdminMiddleware::class,
         'cm'    =>  \App\Http\Middleware\CmMiddleware::class,
         'page-cache' => \Silber\PageCache\Middleware\CacheResponse::class,
+
 
     ];
 }

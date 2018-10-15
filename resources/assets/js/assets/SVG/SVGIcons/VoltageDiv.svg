@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 31.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.51px;
+      }
+    </style>
+  </defs>
+  <title>Asset 17circuit2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <polyline class="cls-1" points="28.59 15.39 28.59 20.04 30.32 20.87 27.43 21.48 30.32 22.27 27.43 23.14 30.32 23.75 27.59 24.45 30.32 25.24 28.88 26.29 28.88 31.5 5.26 31.5 5.26 18.16"/>
+        <polyline class="cls-1" points="28.61 16.37 28.61 11.71 26.87 10.88 29.76 10.27 26.87 9.48 29.76 8.61 26.87 8 29.6 7.3 26.87 6.51 28.32 5.47 28.32 0.25 5.26 0.25 5.26 15.39 5.26 17.32"/>
+        <path d="M0,14.4H.74v-.74h.62v.74H2.1V15H1.36v.74H.74V15H0Z"/>
+        <path d="M.17,20H1.93v.94H.17Z"/>
+        <line class="cls-1" x1="3.04" y1="18.28" x2="7.62" y2="18.28"/>
+        <line class="cls-1" x1="1.76" y1="17.32" x2="8.57" y2="17.32"/>
+        <line class="cls-1" x1="28.59" y1="15.39" x2="40" y2="15.39"/>
+        <line class="cls-1" x1="28.88" y1="31.5" x2="40" y2="31.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

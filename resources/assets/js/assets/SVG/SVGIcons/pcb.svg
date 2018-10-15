@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.29 25.43">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-width: 0.36px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-width: 0.18px;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <title>Asset 18pcb</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <line class="cls-1" x1="11.55" y1="11.67" x2="40.11" y2="3.01"/>
+        <polyline class="cls-2" points="40.11 1.92 10.35 11.51 24.81 13.37 40.11 7.82"/>
+        <line class="cls-3" x1="10.35" y1="15.24" x2="10.35" y2="11.51"/>
+        <line class="cls-3" x1="40.18" y1="11.42" x2="24.81" y2="17.9"/>
+        <path class="cls-4" d="M40.18,3"/>
+        <line class="cls-3" x1="24.81" y1="17.9" x2="24.81" y2="13.37"/>
+        <polygon class="cls-5" points="28.8 18.64 0.18 13.37 40.11 0.18 40.11 13.96 28.8 18.64"/>
+        <line class="cls-3" x1="28.8" y1="18.63" x2="28.8" y2="25.25"/>
+        <polyline class="cls-3" points="0.18 13.37 0.18 19.98 28.8 25.25 40.11 20.57 40.11 6.79"/>
+        <polyline class="cls-3" points="0.18 16.64 28.8 21.94 40.11 17.35"/>
+        <polyline class="cls-3" points="40.11 18.94 28.8 23.4 0.18 18.28"/>
+      </g>
+    </g>
+  </g>
+</svg>

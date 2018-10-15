@@ -1,0 +1,19 @@
+.circle:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Brown:after {
+    background-color: brown;
+}
+
+.res-color-code {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .res-color-code {
+        width: 90%;
+    }
+}

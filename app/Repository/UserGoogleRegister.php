@@ -40,6 +40,12 @@ class UserGoogleRegister
 
 //            return ['token'=>$token,'userData'=>$user];
 
+            $user = User::where('email',$client->email)->first();
+        if(!is_null($user)){
+            $token = Auth::guard('user')->login($user);
+            $user->update(['token'=>$token]);
+            return ['token'=>$token,'userData'=>$user];
+        }
 
             $user = new User();
             $user->name = $client->name;

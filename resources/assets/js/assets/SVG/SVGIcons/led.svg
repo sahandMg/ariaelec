@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.12 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.83px;
+      }
+    </style>
+  </defs>
+  <title>Asset 13led</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M1.59,12.78V7S1.94,1.07,7.06.51,14.43,2,14.43,2,17,3.95,17,6.6v6.18H18.7v3H15.17V23.9h-.93V42.58h-3V24.4H10.15V16.05H7.53v8.53H6.41V37.37H4.34V24.71h-1V15.9h-3V12.8Z"/>
+    </g>
+  </g>
+</svg>

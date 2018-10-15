@@ -1,0 +1,21 @@
+.loginWidth {
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .loginWidth {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .loginWidth {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .loginWidth {
+        width: 95%;
+    }
+}

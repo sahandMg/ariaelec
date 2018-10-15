@@ -1,0 +1,15 @@
+.InputWithText span{
+    font-size: 150%;
+    font-weight: 400;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.InputWithText input {
+    text-align: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.InputWithText label {
+    font-size: 150%;
+    font-weight: 400;
+}

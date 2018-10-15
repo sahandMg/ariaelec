@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.27 43.27">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 3.27px;
+      }
+
+      .cls-2 {
+        stroke-width: 0.61px;
+      }
+    </style>
+  </defs>
+  <title>Asset 4clock</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <circle class="cls-1" cx="21.63" cy="21.63" r="20"/>
+        <line class="cls-2" x1="21.63" y1="21.63" x2="21.63" y2="7.76"/>
+        <line class="cls-2" x1="21.63" y1="21.63" x2="34.38" y2="11.56"/>
+      </g>
+    </g>
+  </g>
+</svg>

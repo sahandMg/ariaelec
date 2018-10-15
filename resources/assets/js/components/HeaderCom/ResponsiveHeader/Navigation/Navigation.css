@@ -1,0 +1,9 @@
+.navbar-sticky {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 100%;
+    /*background-color: rgba(192, 15, 15, 0.96);*/
+    box-shadow: 2px 0 24px #252525;
+    overflow: auto;
+    z-index: 9999; }

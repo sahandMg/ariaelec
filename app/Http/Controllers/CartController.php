@@ -35,6 +35,7 @@ class CartController extends Controller
 
 
         /**
+         * BOM Bill Of Materials
          * status = 0 -> BOM : open
          * status = 50 -> BOM : closed
          * status = 100 -> BOM : closed
@@ -64,6 +65,7 @@ class CartController extends Controller
             'name'  =>  $request->keyword,
             'num'   =>  $request->num,
         ]);
+
 
         $orders = DB::table('carts')->where('bom_id',$bom->id)->get();
         /*
@@ -157,6 +159,62 @@ class CartController extends Controller
          * TODO BOM total price
          */
     }
+
+    public function readCart(Request $request){
+        try{
+
+            $bom = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail();
+        }catch (\Exception $exception){
+            return '550';
+        }
+        if(count($bom->carts) != 0){
+            $carts = $bom->carts;
+        }else{
+            return '550';
+        }
+
+
+        for($i=0 ; $i<count($carts) ;$i++){
+            $orders[$i] = unserialize($carts[$i]->name);
+
+            for($t=0 ; $t<count($orders[$i]);$t++){
+
+                $request['keyword'] = $orders[$i][$t]['name'];
+                $ctrl = new SearchController();
+//                    /*
+//                     *
+//                     * TODO get_object_vars() --> cannot use object of type stdclass as array
+//                     * if part could not be found
+//                     */
+
+                if(gettype($ctrl->getPrice($request)) == 'integer'){
+                    $orders[$i][$t]['price'] = 0;
+                }
+                else{
+                    $vars = get_object_vars($ctrl->getPrice($request));
+                    $orders[$i][$t]['price'] =  $vars['unit_price'];
+                    if($carts[$i]->project_id != 0 ){
+
+                        $projs[$i] = DB::table('projects')->where('id',$carts[$i]->project_id)->first()->name;
+                        $orders[$i][$t]['project'] =  $projs[$i];
+                    }
+                    else{
+                        $orders[$i][$t]['project'] = null;
+                    }
+                }
+                if($orders[$i][$t]['price'] == null){
+                    $orders[$i][$t]['price'] = 0;
+                }
+
+            }
+
+
+        }
+        return $orders;
+
+
+
+    }
 /*
  *
  *  uses for updating cart data
@@ -195,7 +253,7 @@ class CartController extends Controller
          * use session to store user cart
          */
 
-        dd();
+
         if(!session()->has('guestBom')){
 
             $bom = new Bom();
@@ -248,59 +306,5 @@ class CartController extends Controller
 
     }
 
-    public function readCart(Request $request){
-        try{
 
-            $bom = Bom::where('user_id',Auth::id())->where('status',0)->firstOrFail();
-        }catch (\Exception $exception){
-            return '550';
-        }
-        if(count($bom->carts) != 0){
-            $carts = $bom->carts;
-        }else{
-            return '550';
-        }
-
-
-        for($i=0 ; $i<count($carts) ;$i++){
-           $orders[$i] = unserialize($carts[$i]->name);
-
-            for($t=0 ; $t<count($orders[$i]);$t++){
-
-                    $request['keyword'] = $orders[$i][$t]['name'];
-                    $ctrl = new SearchController();
-//                    /*
-//                     *
-//                     * TODO get_object_vars() --> cannot use object of type stdclass as array
-//                     * if part could not be found
-//                     */
-
-                    if(gettype($ctrl->getPrice($request)) == 'integer'){
-                        $orders[$i][$t]['price'] = 0;
-                    }
-                    else{
-                        $vars = get_object_vars($ctrl->getPrice($request));
-                        $orders[$i][$t]['price'] =  $vars['unit_price'];
-                        if($carts[$i]->project_id != 0 ){
-
-                            $projs[$i] = DB::table('projects')->where('id',$carts[$i]->project_id)->first()->name;
-                            $orders[$i][$t]['project'] =  $projs[$i];
-                        }
-                          else{
-                            $orders[$i][$t]['project'] = null;
-                        }
-                    }
-                    if($orders[$i][$t]['price'] == null){
-                        $orders[$i][$t]['price'] = 0;
-                    }
-
-                }
-
-
-        }
-        return $orders;
-
-
-
-    }
 }

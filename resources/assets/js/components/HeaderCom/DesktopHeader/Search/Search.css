@@ -1,0 +1,32 @@
+.input-group-append {
+    /*border-radius: 0;*/ }
+
+.input-group-append .form-control {
+    background-color: #eeeeee;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none; }
+
+.input-border {
+    border-radius: 0;
+}
+
+#desktopSearch input {
+    direction: rtl;z-index: 1000;
+}
+
+.auto-suggest-container {
+}
+.auto-suggest-inputOpen {
+    background-color: white;position: absolute;z-index: 1000;width: 53.9%;
+}
+.auto-suggest-highlighted {
+    background-color: #d9d9d9;width: 100%;
+}
+.auto-suggest-suggestionsList {
+    padding: 0px;
+}
+.auto-suggest-suggestion {
+    padding-left: 5%;
+}

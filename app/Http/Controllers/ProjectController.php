@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Project;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -25,4 +26,14 @@ class ProjectController extends Controller
         $project->save();
         return 200;
     }
+    // Sends back project detail for given token
+    public function detail(Request $request){
+
+        $token = $request->token;
+
+       $prjs =  User::where('token',$token)->first()->projects;
+
+        return $prjs;
+    }
+    // TODO Add read cart to send user project names
 }

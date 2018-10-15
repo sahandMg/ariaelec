@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.56 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.76px;
+      }
+    </style>
+  </defs>
+  <title>Asset 16geometry</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M0,40H40.56V0Zm33.89-6.13H13.73L33.89,14Z"/>
+        <line class="cls-2" x1="37.2" y1="6.51" x2="40.56" y2="6.51"/>
+        <line class="cls-2" x1="37.2" y1="10.88" x2="40.56" y2="10.88"/>
+        <line class="cls-2" x1="37.2" y1="14.66" x2="40.56" y2="14.66"/>
+        <line class="cls-2" x1="37.2" y1="18.82" x2="40.56" y2="18.82"/>
+        <line class="cls-2" x1="37.2" y1="22.43" x2="40.56" y2="22.43"/>
+        <line class="cls-2" x1="37.2" y1="27.06" x2="40.56" y2="27.06"/>
+        <line class="cls-2" x1="37.2" y1="30.84" x2="40.56" y2="30.84"/>
+        <line class="cls-2" x1="37.2" y1="34.81" x2="40.56" y2="34.81"/>
+        <line class="cls-2" x1="35.42" y1="36.79" x2="35.42" y2="40"/>
+        <line class="cls-2" x1="31.15" y1="36.79" x2="31.15" y2="40"/>
+        <line class="cls-2" x1="26.98" y1="36.79" x2="26.98" y2="40"/>
+        <line class="cls-2" x1="23.01" y1="36.79" x2="23.01" y2="40"/>
+        <line class="cls-2" x1="18.94" y1="36.79" x2="18.94" y2="40"/>
+        <line class="cls-2" x1="15.17" y1="36.79" x2="15.17" y2="40"/>
+        <line class="cls-2" x1="10.8" y1="36.79" x2="10.8" y2="40"/>
+        <line class="cls-2" x1="7.03" y1="36.79" x2="7.03" y2="40"/>
+      </g>
+    </g>
+  </g>
+</svg>

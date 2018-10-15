@@ -1,0 +1,24 @@
+nav {
+    background-color: #29272a;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    display: inline-block;
+    /*width: 100px;*/
+    padding: 10px 10px;
+}
+nav ul li:hover {
+    background-color: #f4d430;
+}
+.ActiveNav {
+    background-color: #f4d430;
+    color: #0066ff;
+}

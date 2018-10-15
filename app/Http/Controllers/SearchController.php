@@ -33,7 +33,7 @@ class SearchController extends Controller
 // ------------ Finding the part in database without filter --------------
 
         $keyword = $request->keyword;
-
+        $category = $request->category;
         $this->paginate = $request->num;
         //        Searching Between Products
         $product = DB::table('products')->where('product_name', 'like', "%$keyword%")
@@ -68,11 +68,11 @@ class SearchController extends Controller
 
             if (count($models) == 1) {
                 $models = $models[0];
-                    $components = DB::table('components')->where('slug', 'like', "%$keyword%")
-                        ->join('commons', 'commons.component_id', '=', 'components.id')
-                        ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
-                        ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
-                        ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
+                $components = DB::table('components')->where('slug', 'like', "%$keyword%")
+                    ->join('commons', 'commons.component_id', '=', 'components.id')
+                    ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
+                    ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
+                    ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
 //
 
 
@@ -88,162 +88,166 @@ class SearchController extends Controller
 
             }
         }
+        /**
+         *        Searching Between Parts
+         *      TODO Check search_part_comp pagination
+         **/
+        $part = DB::table('commons')
+            ->where('part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
+            ->orWhere('manufacturer', 'like', "%$keyword%")
+            ->orWhere('description', 'like', "%$keyword%")
+            ->skip(($this->skip * ($this->paginate -1)) )->take($this->skip)->get();
+        if ($part->isEmpty()) {
+            $query = DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->first();
+            if($query != null){
+                DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->update(['repeat'=>$query->repeat+1]);
+            }else{
+                DB::table('failed_parts')->insert(['manufacturer_part_number'=>$keyword,'repeat'=>1]);
+            }
+            return 415;
+        } else {
+                $c = null;
+            for ($i = 0; $i < count($part); $i++) {
+                $table = DB::table('components')->where('id', $part[$i]->component_id)->first();
+                if($table === null){
+                    return 410;
+                }
+                $cName[$i] = $table->slug;
+                $temp = DB::table('components')->where('components.id', $part[$i]->component_id)
+                    ->join('products','products.id','=','components.product_id')->first();
+
+                if($temp == null){
+                    return 410;
+                }
+//                $cName2[str_replace('-', 'ـ', $cName[$i])] = $temp->persian_name;
+//                $cName2["product$i"] = $temp->product_name;
+                if(isset($cName2) && count($cName2)>0){
+
+                        if($temp->slug == $cName2[$c]['category']){
+                            array_push($cName2[$c]['subcategory'],str_replace('-', 'ـ', $cName[$i]));
+                            $cName2[$c]['subcategory'] = array_unique($cName2[$c]['subcategory']);
+                        }else{
+
+                            $cName2[$i] = ['category'=>$temp->slug,'subcategory'=>[str_replace('-', '_', $cName[$i])]];
+                            $c = $i;
+                        }
+                    }else{
+
+                        $cName2[$i] = ['category'=>$temp->slug,'subcategory'=>[str_replace('-', '_', $cName[$i])]];
+                        $c = $i;
+                    }
+                    if($category != 'all' && count($cName2) != 1){
+                       if($cName2[$c]['category'] == $category  && count($cName2[$c]['subcategory']) == 1){
+                           $cName = str_replace('-', '_', $cName2[$i]['subcategory'])[0];
+                           $str = 'App\IC\\'.$cName;
+                           $models[$i] = new $str();
+                       }
+
+                    }else{
+                        if($request->has('subcategory')){
+                            $models[$i] = 'App\IC\\' . $request->subcategory;
+                            $models[$i] = new $models[$i]();
+                        }else{
+                            $cName[$i] = str_replace('-', '_', $cName[$i]);
+                            $models[$i] = 'App\IC\\' . $cName[$i];
+                            $models[$i] = new $models[$i]();
+                        }
 
 
-/**
- *        Searching Between Parts
- *      TODO Check search_part_comp pagination
-**/
-                $part = DB::table('commons')
-                    ->where('part_number', 'like', "%$keyword%")
+                    }
+
+
+            }
+            if (!isset($cName) && !isset($models)) {
+                return 420;
+            }
+            $models = collect($models)->unique();
+            $models = $models->values();
+            if (count($models) == 1) {
+                $models = $models [0];
+                $parts = DB::table('commons')->where('part_number', 'like', "%$keyword%")
                     ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
                     ->orWhere('manufacturer', 'like', "%$keyword%")
                     ->orWhere('description', 'like', "%$keyword%")
-                    ->skip(($this->skip * ($this->paginate -1)) )->take($this->skip)->get();
-
-            if ($part->isEmpty()) {
-                $query = DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->first();
-
-                if($query != null){
-
-                     DB::table('failed_parts')->where('manufacturer_part_number',$keyword)->update(['repeat'=>$query->repeat+1]);
-                }else{
-
-                    DB::table('failed_parts')->insert(['manufacturer_part_number'=>$keyword,'repeat'=>1]);
-                }
-                return 415;
-            } else {
-
-                for ($i = 0; $i < count($part); $i++) {
-                    $table = DB::table('components')->where('id', $part[$i]->component_id)->first();
-                    if($table === null){
-                        return 410;
-                    }
-                    $cName[$i] = $table->slug;
-                    $temp = DB::table('components')->join('products','products.id','=','components.product_id')
-                        ->where('components.id', $part[$i]->component_id)->first();
-                    if($temp == null){
-                        return 410;
-                    }
-
-                    $cName2[str_replace('-', ' ', $cName[$i])] = $temp->persian_name;
-                    $cName2["product$i"] = $temp->product_name;
-                    $cName[$i] = str_replace('-', '_', $cName[$i]);
-                    $models[$i] = 'App\IC\\' . $cName[$i];
-                    $models[$i] = new $models[$i]();
-
-                }
-
-                if (!isset($cName) && !isset($models)) {
-
-                    return 420;
-                }
-
-
-                $models = collect($models)->unique();
-                $models = $models->values();
-
-                if (count($models) == 1) {
-
-                    $models = $models [0];
-
-                        $parts = DB::table('commons')->where('part_number', 'like', "%$keyword%")
-                            ->orWhere('manufacturer_part_number', 'like', "%$keyword%")
-                            ->orWhere('manufacturer', 'like', "%$keyword%")
-                            ->orWhere('description', 'like', "%$keyword%")
-                            ->join('components', 'commons.component_id', '=', 'components.id')
-                            ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
-                            ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
-                            ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
-
-
-                    $names = $parts->pluck('names')->toArray();
-                    $tableCols = Schema::getColumnListing($models->getTable());
-                    array_shift($tableCols);
-                    array_pop($tableCols);
-                    array_pop($tableCols);
-                    array_pop($tableCols);
-                    array_pop($tableCols);
-
-                    if (isset($names) && count($names) > 0) {
-                            $names = array_unique($names);
-
-                                $names = unserialize($names[0]);
+                    ->join('components', 'commons.component_id', '=', 'components.id')
+                    ->join('persian_names', 'persian_names.component_id', '=', 'components.id')
+                    ->join($models->getTable(), $models->getTable() . '.' . 'common_id', '=', 'commons.id')
+                    ->skip(($this->skip * ($this->paginate - 1)))->take($this->skip)->get();
+                $names = $parts->pluck('names')->toArray();
+                $tableCols = Schema::getColumnListing($models->getTable());
+                array_shift($tableCols);
+                array_pop($tableCols);
+                array_pop($tableCols);
+                array_pop($tableCols);
+                array_pop($tableCols);
+                if (isset($names) && count($names) > 0) {
+                    $names = array_unique($names);
+                    $names = unserialize($names[0]);
 //
+                }
+                if (!isset($parts) || $parts->isEmpty()) {
+                    return 415;
+                } else {
+                    $filters = FilterContent::Filters($models,$parts);
+                    $columns = $code->sendFilter($filters);
+                    //        ----------------  Finding the part in websites  -------------------
+                    //            $crawled = new GetSiteContent();
+                    //            $crawlers = $crawled->getSite($keyword);
+                    //            if ($crawlers == 0) {
+                    //                return 435;
+                    //            }
+                    //        Sending keyword and crawled response to crawlSite method in shop directory classes
+                    //            for ($i = 0; $i < count($crawlers); $i++) {
+                    //                $className = array_keys(GetSiteContent::$website)[$i];
+                    //                $list[$i] = $className::crawlSite($crawlers[$i], $keyword);
+                    //            }
+                    //            if (isset($list)) {
+                    //                $this->type = '30';
+                    //                return [$this->type, $parts,$filters];
+                    //
+                    //            } else {
+                    //                return 420;
+                    //            }
+                    $this->type = '30';
+                    for($t=0;$t<count($parts);$t++){
+                        unset(
+                            $parts[$t]->names,
+                            $parts[$t]->id,
+                            $parts[$t]->component_id,
+                            $parts[$t]->common_id,
+                            $parts[$t]->links,
+                            $parts[$t]->product_id,
+                            $parts[$t]->model,
+                            $parts[$t]->created_at,
+                            $parts[$t]->updated_at
+                        );
                     }
-
-                    if (!isset($parts) || $parts->isEmpty()) {
-                        return 415;
-                    } else {
-                        $filters = FilterContent::Filters($models,$parts);
-
-                        $columns = $code->sendFilter($filters);
-                        //        ----------------  Finding the part in websites  -------------------
-
-                        //            $crawled = new GetSiteContent();
-                        //            $crawlers = $crawled->getSite($keyword);
-                        //            if ($crawlers == 0) {
-                        //                return 435;
-                        //            }
-                        //        Sending keyword and crawled response to crawlSite method in shop directory classes
-                        //            for ($i = 0; $i < count($crawlers); $i++) {
-                        //                $className = array_keys(GetSiteContent::$website)[$i];
-                        //                $list[$i] = $className::crawlSite($crawlers[$i], $keyword);
-                        //            }
-                        //            if (isset($list)) {
-                        //                $this->type = '30';
-                        //                return [$this->type, $parts,$filters];
-                        //
-                        //            } else {
-                        //                return 420;
-                        //            }
-                        $this->type = '30';
-
-                        for($t=0;$t<count($parts);$t++){
-
-                            unset(
-                                $parts[$t]->names,
-                                $parts[$t]->id,
-                                $parts[$t]->component_id,
-                                $parts[$t]->common_id,
-                                $parts[$t]->links,
-                                $parts[$t]->product_id,
-                                $parts[$t]->model,
-                                $parts[$t]->created_at,
-                                $parts[$t]->updated_at
-
-                            );
-                        }
-                        /*
-                         * Create a breadcrumb
-                         */
-                        $breadCrumb = DB::table('components')->where('components.slug',$parts[0]->slug)
-                            ->join('products','components.product_id','=','products.id')->select('name','product_name')->get();
-                        $breadCrumb = $breadCrumb[0];
-
+                    /*
+                     * Create a breadcrumb
+                     */
+                    $breadCrumb = DB::table('components')->where('components.slug',$parts[0]->slug)
+                        ->join('products','components.product_id','=','products.id')->select('name','product_name')->get();
+                    $breadCrumb = $breadCrumb[0];
 //                -------> Running queued job <------
 //                        Artisan::queue('queue:work',["--once"=>true]);
-                        GetPrice::dispatch($keyword)->delay(2);
+                    GetPrice::dispatch($keyword)->delay(2);
 //                        -----------------------------
-                        if($request->has('filters') && $request->has('category')){
-                            $result = $this->filterPart($request,$code,$keyword);
-                            if($result == 404){
-                                return 'Incorrect Filter Name';
-                            }
-                        return ([$this->type,$this->shopResp,$result,$this->newFilter,$names,$this->ColsCode,$breadCrumb]);
+                    if($request->has('filters') && $request->has('category')){
+                        $result = $this->filterPart($request,$code,$keyword);
+                        if($result == 404){
+                            return 'Incorrect Filter Name';
                         }
-
-                        return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns,$breadCrumb];
+                        return ([$this->type,$this->shopResp,$result,$this->newFilter,$names,$this->ColsCode,$breadCrumb]);
                     }
-
-                }else{
-
-                return array_unique($cName2);
+                    return [$this->type,$this->shopResp ,$parts, $filters, $names ,$columns,$breadCrumb];
                 }
+            }else{
+
+                return array_values($cName2);
             }
+        }
     }
-
-
     /**
      * @param Request $request
      *  $filters = [
@@ -269,8 +273,7 @@ class SearchController extends Controller
         //        $component = 'Embedded-Microcontrollers';
 
         $filters = $request->filters;
-
-        $component = $request->category;
+        $component = $request->subcategory;
         /*
          * convert json to array
          */
@@ -496,13 +499,14 @@ class SearchController extends Controller
         if(!$request->has('keyword')){
             return 'send a keyword';
         }
-            $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
-                ->select('manufacturer_part_number','unit_price')->first();
-            if($price == null){
-            return 415;
-            }
 
-        return $price;
+        $price = DB::table('commons')->where('manufacturer_part_number', $request->keyword)
+            ->select('manufacturer_part_number','unit_price')->first();
+        if($price == null){
+            return 415;
+        }
+
+        return json_encode($price);
 
     }
 
@@ -560,9 +564,9 @@ class SearchController extends Controller
     public function findArticle(Request $request){
         $keyword = $request->keyword;
         $briefs = DB::table('briefs')->where('title','like',"%$keyword%")
-        ->orWhere('abstract','like',"%$keyword%")
-        ->orWhere('category','like',"%$keyword%")
-        ->orWhere('product','like',"%$keyword%")
+            ->orWhere('abstract','like',"%$keyword%")
+            ->orWhere('category','like',"%$keyword%")
+            ->orWhere('product','like',"%$keyword%")
             ->join('details','details.brief_id','briefs.id')->get();
         if($briefs->isEmpty()){
             $content = DB::table('details')->where('text','like',"%$keyword%")
@@ -589,11 +593,11 @@ class SearchController extends Controller
     public function sort(Request $request)
     {
 //        باید دیتا ها رو ۲۰ تا ۲۰ تا سورت کنی
-    /*
-     *  use two methods to sort columns
-     *  1) commonSort -> sort common table columns
-     *  2) separateSort -> sort separate table columns
-     */
+        /*
+         *  use two methods to sort columns
+         *  1) commonSort -> sort common table columns
+         *  2) separateSort -> sort separate table columns
+         */
         $class = 'App\IC\\'.$request->component;
         $paginate = $request->num;
         $order = $request->order;

@@ -28,6 +28,7 @@ class UserController extends Controller
  */
 
         if($request->has('token')){
+
             try{
                 $newUser = User::where('token',$request->token)->firstOrFail();
             }catch (\Exception $exception){
@@ -111,23 +112,29 @@ class UserController extends Controller
     {
         $client =  Socialite::driver('google')->stateless()->user();
         $user = User::where('email',$client->email)->first();
-        dd($client);
-        if($user == null){
+
+        if($user == null) {
             $user = new User();
             $user->name = $client->name;
             $user->email = $client->email;;
             $user->avatar = $client->avatar;
             $user->token = str_random(80);
             $user->save();
-        }
+
 
 //        $token = Auth::guard('user')->login($user);
 //        $user->update(['token'=>$token]);
-        /**
-         * TODO change this url on server
-         */
-        return redirect('http://localhost:3000/google/'.$user->token);
+            /**
+             * TODO change this url on server
+             */
+            return redirect('http://localhost/google/' . $user->token);
 //        return  UserGoogleRegister::googleRegister();
+        }else{
+                $token = Auth::guard('user')->login($user);
+                $user->update(['token'=>$token]);
+            //TODO this url should be changed and logged in user token will be sent over url
+            return redirect('http://localhost/google/' . $user->token);
+        }
     }
 
 }

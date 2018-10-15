@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.4 46.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.41px;
+      }
+    </style>
+  </defs>
+  <title>Asset 15resistor</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M.71,11.3l.22,5c.11,2.47.35,5,.3,7.46C1.16,26.52,1,29.27.83,32L.71,34.59a1.41,1.41,0,0,0,1.41,1.47H7.29A1.41,1.41,0,0,0,8.69,34.6l-.22-5.7c-.08-2.2-.29-4.4-.21-6.6,0-1.31.11-2.62.16-3.94l.26-6.86v-.21A1.41,1.41,0,0,0,7.29,9.83H2.11A1.41,1.41,0,0,0,.71,11.3Z"/>
+        <line class="cls-1" x1="4.7" x2="4.7" y2="9.83"/>
+        <line class="cls-1" x1="4.7" y1="36.36" x2="4.7" y2="46.19"/>
+        <line class="cls-1" x1="0.64" y1="15.41" x2="8.75" y2="15.41"/>
+        <line class="cls-1" x1="0.64" y1="20.58" x2="8.75" y2="20.58"/>
+        <line class="cls-1" x1="0.64" y1="25.74" x2="8.75" y2="25.74"/>
+        <line class="cls-1" x1="0.64" y1="30.9" x2="8.75" y2="30.9"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -316,8 +316,7 @@ $names = \App\Helper::pluck('helper')->all();
 });
 
 Route::get('/', function () {
-
-
+   return view('welcome');
 });
 
 Route::get('login',function (\Illuminate\Http\Request $request){
@@ -444,8 +443,8 @@ Route::get('home',function (){
     return view('test');
 
 });
-Route::get('login/google',['uses'=>'AuthController@redirectToProvider'])->name('googleLogin');
-Route::get('login/google/callback',['uses'=>'AuthController@handleProviderCallback']);
+Route::get('login/google',['uses'=>'UserController@redirectToProvider'])->name('googleLogin');
+//Route::get('login/google/callback',['uses'=>'AuthController@handleProviderCallback'])->name('googleCallback');
 
 Route::get('crop','PageController@crop')->name('send');
 Route::post('crop','PageController@post_crop')->name('send');

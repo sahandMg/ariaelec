@@ -1,0 +1,28 @@
+.searchResultContainer {
+    width: 100%;margin: 0 !important; padding-left: 1%;padding-right: 1%;
+    max-width: 2400px;
+}
+.rowScrollable {
+    flex-wrap: nowrap;
+}
+
+.colScrollable {
+    display: inline-block;
+    float: none;
+}
+.buttonFilter {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.btnHoverGreen:hover {
+    background-color: forestgreen;
+}
+
+.btnHoverRed:hover {
+    background-color: red;
+}
+

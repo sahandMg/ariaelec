@@ -27,19 +27,24 @@ Route::post('home/{category?}','PageController@home');
 
         Route::post('register','UserController@register');
         Route::post('login','UserController@login');
-        Route::get('login/google',['uses'=>'UserController@redirectToProvider'])->name('googleLogin');
+
         Route::get('login/google/callback',['uses'=>'UserController@handleProviderCallback']);
 
         Route::group(['prefix'=>'cart'],function (){
 
             Route::post('create','CartController@createCart');
             Route::post('read','CartController@readCart');
+
         });
+
+
+
 
         Route::group(['prefix'=>'project'],function (){
 
             Route::post('create','ProjectController@createProject');
             Route::post('read','ProjectController@readProject');
+            Route::post('detail','ProjectController@detail');
             Route::post('delete','ProjectController@deleteProject');
         });
 
@@ -109,5 +114,5 @@ Route::get('get-viewer','PageController@viewer');
 
 // get all parts from a component type like Audio Special Purpose
     Route::post('get-part','ProductController@getPart');
-
+//    Route::post('create/guest','CartController@cartWithoutToken');
 //]
