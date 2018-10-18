@@ -10,7 +10,7 @@ use App\Repository\FilterContent;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use PDOException;
+use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 
 class SearchController extends Controller
@@ -47,7 +47,7 @@ class SearchController extends Controller
         //        Searching Between Components
 
 
-        $component = DB::table('components')->where('slug', 'like', "%$keyword%")->get();
+        $component = DB::table('components')->where('name', 'like', "%$keyword%")->get();
 
         if ( !$component->isEmpty()) {
 
@@ -55,8 +55,15 @@ class SearchController extends Controller
 
                 $cName = $component[$i]->slug;
                 $cName = str_replace('-', '_', $cName);
+                // Danger!! Add all parts (IC,Connector,...) to App\IC directory
                 $models[$i] = 'App\IC\\' . $cName;
-                $models[$i] = new $models[$i]();
+                // WARNING! : if the created model haven't been added to App\IC, an exception error will appears
+                try{
+                    $models[$i] = new $models[$i]();
+
+                }catch (\Throwable $exception){
+                   return 'Model is not defined in the App directory';
+                }
             }
             if (!isset($models)) {
 
@@ -525,6 +532,7 @@ class SearchController extends Controller
         $component = DB::table('components')->where('name', 'like', "%$keyword%")
             ->join('commons', 'commons.component_id', '=', 'components.id')
             ->get();
+
         if(count($component) > 0){
             $this->type = '20';
             return [$this->type,$component,];

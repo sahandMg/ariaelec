@@ -18,6 +18,7 @@ class CreateBomsTable extends Migration
             $table->string('price')->nullable();
             $table->string('status')->nullable();
             $table->unsignedInteger('user_id')->default(0);
+            $table->string('order_number')->nullable();
 //            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 //            $table->unsignedInteger('cart_id')->default(0);
 //            $table->foreign('cart_id')->references('id')->on('carts')->onDelete('cascade');

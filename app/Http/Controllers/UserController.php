@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use App\Events\UserRegister;
 use App\Repository\ValidateQuery;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
@@ -133,8 +135,16 @@ class UserController extends Controller
                 $token = Auth::guard('user')->login($user);
                 $user->update(['token'=>$token]);
             //TODO this url should be changed and logged in user token will be sent over url
-            return redirect('http://localhost/google/' . $user->token);
+            return redirect('http://localhost/googleLogin/' . $user->token);
         }
     }
+
+    public function userData(Request $request){
+
+        $user = Auth::guard('user')->user();
+        $user['role'] = null ;
+        return ['token'=>$request->token,'userData'=>$user];
+    }
+
 
 }

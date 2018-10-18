@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import axios from 'axios';
-import {withRouter} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import dataCode from '../../dataCode';
 import Select from 'react-select';
 import { ClipLoader } from 'react-spinners';
@@ -12,17 +12,19 @@ import { connect } from 'react-redux';
 import './showSearchProductResult.css';
 import URLs from "../../URLs";
 import styles from './custom-styling.css';
+import CardWrapper from "../CardWrapper/CardWrapper";
 
 let prices = {};let counter = 0;
 
 class showSearchProductResult extends Component {
 
     state  = {
-        searchKey: '', data: '', dataParts: [], dataCode: '', dataFilters: [],open: false, prices: {},
-        tableHeaderS: '', filters: {}, loading: true, number: {},loadingAddCart: true,productName: '', category: ''
+        searchKey: '', data: '', dataParts: [], dataCode: '', dataFilters: [],open: false, prices: {}, projects: [],
+        tableHeaderS: '', filters: {}, loading: true, number: {},loadingAddCart: true,productName: '', category: '',
+        projectName: null
     }
 
-    componentDidMount() {
+    componentDidMount() {prices = {};counter = 0;
         let url = URLs.base_URL+URLs.search_part_category+this.props.match.params.category+'&keyword='+this.props.match.params.keyword;
         let temp = window.location.href;
         temp = temp.replace(URLs.react_search_url+this.props.match.params.category+'/'+this.props.match.params.keyword,'');
@@ -45,6 +47,7 @@ class showSearchProductResult extends Component {
             .catch(err => {
                 console.log(err);
             });
+        this.getProjects();
     }
 
     sort = (property,kind) => {
@@ -87,11 +90,11 @@ class showSearchProductResult extends Component {
            axios.post(URLs.base_URL+URLs.user_cart_create, {
                keyword: productName,
                num: this.state.number[productName],
-               token: this.props.token
+               token: this.props.token, project: this.state.projectName
            })
                .then(response => {
-                   console.log(response);
-                   this.props.addToCart(productName, this.state.number[productName], category);
+                   console.log(response);console.log("this.state.projectName");console.log(this.state.projectName);
+                   this.props.addToCart(productName, this.state.number[productName], category, this.state.projectName);
                    Alert.success('به سبد خرید اضافه شد', {
                        position: 'bottom-right',
                        effect: 'scale',
@@ -138,15 +141,17 @@ class showSearchProductResult extends Component {
                 });
             });
             console.log("setInitialForPriceInput");console.log(temp);
-            this.setState({number: temp});
+            this.setState({number: temp});let pricesBuf = {};
             Object.keys(prices).map((property, j) => {
                 console.log(j+" : "+ property);
                 axios.post(URLs.base_URL+URLs.product_get_price, {keyword: property})
                     .then(response => {
                         console.log(j+" : ");counter++;
                         console.log(response);
-                        if(connect === Object.keys(prices).length) {
-                            console.log("get last response ");
+                        pricesBuf[property] = response.data.unit_price;
+                        if(counter === Object.keys(prices).length) {
+                            console.log("get last response ");console.log(pricesBuf);
+                            this.setState({prices: pricesBuf, loadingAddCart: false});
                         }
                     })
                     .catch(err => {
@@ -171,11 +176,26 @@ class showSearchProductResult extends Component {
         this.setState({ open: false });
     };
 
+    getProjects = () => {
+        axios.post(URLs.base_URL+URLs.user_get_projects, {token: this.props.token})
+            .then(response => {
+                console.log("projects");console.log(response);
+                this.setState({projects: response.data});
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    }
+
+    selectChange = (event) => {
+        this.setState({projectName: event.target.value});
+    }
+
     render() {
         let dataParts;
         let tableHeads ;
         let dataFilters ;
-        let filterButton;
+        let filterButton;let projectsOption;
         if(this.state.dataCode === dataCode.partSearch) {
             // dataTables
              tableHeads = Object.keys(this.state.dataParts[0]).map((property) => {
@@ -237,6 +257,11 @@ class showSearchProductResult extends Component {
                     );
             });
 
+            if(this.state.projects.length > 0) {
+                projectsOption = this.state.projects.map((project, i) => {
+                    return (<option value={project.name} key={project.name}>{project.name}</option>)
+                });
+            }
             if(Object.keys(dataFiltersTemp).length > 1) {  filterButton = <button onClick={this.filterComponent} hidden={this.state.loading} className="btn btn-primary buttonFilter">فیلتر</button> }
         }
         return(
@@ -260,11 +285,9 @@ class showSearchProductResult extends Component {
                     <h3 className="text-center"> انتخاب پروژه</h3>
                     <br/>
                     <div className="col-lg-4 col-md-6 col-sm-10 horizontal-center">
-                        <select className="form-control" id="sel1">
-                            <option>-</option><option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
+                        <select value={this.state.projectName}  onChange={this.selectChange}> className="form-control" >
+                            <option value={null}>-</option>
+                            {projectsOption}
                         </select>
                     </div>
                     <br/>

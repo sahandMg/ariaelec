@@ -15,7 +15,7 @@
 //    return $request->user();
 //});
 Route::post('/',function (){
-    return 'weq';
+
 });
 
 Route::post('more-content','PageController@moreContent');
@@ -27,17 +27,22 @@ Route::post('home/{category?}','PageController@home');
 
         Route::post('register','UserController@register');
         Route::post('login','UserController@login');
-
+        Route::post('data','UserController@userData');
         Route::get('login/google/callback',['uses'=>'UserController@handleProviderCallback']);
 
         Route::group(['prefix'=>'cart'],function (){
 
             Route::post('create','CartController@createCart');
             Route::post('read','CartController@readCart');
+            Route::post('edit','CartController@editCart');
+
+//         ----------  NEW APIs FOR TESTING ---------
+
+            Route::post('confirm','CartController@confirm');
+            Route::post('price','CartController@price');
+//        -------------------------------------------------
 
         });
-
-
 
 
         Route::group(['prefix'=>'project'],function (){
@@ -96,7 +101,7 @@ Route::post('logout','AuthController@logout')->name('logout');
     Route::get('search-article','SearchController@findArticle');
     Route::post('sort-col','SearchController@sort');
     // -------------------------------  Getting price from shops  -----------------------------------
-    Route::get('get-price','SearchController@getPrice');
+    Route::post('get-price','SearchController@getPrice');
     // -------------------------------  Searching with filter  -----------------------------------
 
     Route::get('search-part-filter','SearchController@filterPart');

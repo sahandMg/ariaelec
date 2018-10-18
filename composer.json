@@ -17,7 +17,7 @@
         "laravel/scout": "^4.0",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "^1.0",
-        "morilog/jalali": "^2.3",
+        "morilog/jalali": "3.*",
         "predis/predis": "^1.1",
         "silber/page-cache": "^1.0",
         "symfony/dom-crawler": "^4.0",

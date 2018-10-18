@@ -77,8 +77,6 @@ export const auth = (email, password,url) => {
 
 export const authGoogle = (response) => {
     return dispatch => {
-                if(response.data !== 404)
-                {
                     console.log("authGoogle");console.log(response);
                     // response.data.expiresIn
                     const expirationDate = new Date(new Date().getTime() +  10000* 1000);
@@ -87,10 +85,6 @@ export const authGoogle = (response) => {
                     localStorage.setItem('userData', JSON.stringify(response.data.userData));
                     dispatch(authSuccess(response.data.token,response.data.userData));
                     dispatch(checkAuthTimeout(10000));
-                } else {
-                    console.log("Erorr");
-                    dispatch(authFail('ایمیل یا رمز خود را اشتباه وارد کرده اید'));
-                }
     };
 };
 
@@ -105,7 +99,7 @@ export const authCheckState = () => {
     return dispatch => {
         const token = localStorage.getItem('token');
         const userData = localStorage.getItem('userData');
-        console.log("authCheckState");console.log(token);
+        // console.log("authCheckState");console.log(token);
         // dispatch(logout());
         if (!token) {
             // dispatch(logout());
@@ -114,7 +108,7 @@ export const authCheckState = () => {
             // if (expirationDate <= new Date()) {
             //     dispatch(logout());
             // } else {
-            console.log("authCheckState");console.log(token);
+            // console.log("authCheckState");console.log(token);
 
             dispatch(authSuccess(token,JSON.parse(userData)));
              dispatch(CartActions.getCartFromServer(token));

@@ -101,8 +101,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'unique' => 'نام مورد نظر تکراری است',
         ],
     ],
 
@@ -117,6 +117,8 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name'=>'نام'
+    ],
 
 ];

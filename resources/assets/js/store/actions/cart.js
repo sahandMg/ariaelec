@@ -93,6 +93,16 @@ export const setLoadingAndError = (loading,error) => {
     }
 }
 
+export const restoreCart = (response) => {
+    return dispatch => {
+                let cartNumber = 0;
+                response.data.map((project, i) => {
+                    cartNumber = cartNumber + project.length;
+                });
+                dispatch(getCartSuccess(response.data, cartNumber));
+    }
+}
+
 export const sendCartToServer = (cart) => {
     return dispatch => {
         console.log("cart action sendCartToServer");

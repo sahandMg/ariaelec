@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Project;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Morilog\Jalali\Jalalian;
+
 
 class ProjectController extends Controller
 {
@@ -24,7 +27,7 @@ class ProjectController extends Controller
         $project->name = $request->name;
         $project->user_id = Auth::id();
         $project->save();
-        return 200;
+        return 'پروژه شما ایجاد شد';
     }
     // Sends back project detail for given token
     public function detail(Request $request){
@@ -32,7 +35,10 @@ class ProjectController extends Controller
         $token = $request->token;
 
        $prjs =  User::where('token',$token)->first()->projects;
+        foreach ($prjs as $prj){
 
+            $prj['created_at'] = Jalalian::fromCarbon($prj->created_at) ;
+        }
         return $prjs;
     }
     // TODO Add read cart to send user project names

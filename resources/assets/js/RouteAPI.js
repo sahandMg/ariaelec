@@ -10,6 +10,7 @@ import My404Component from './components/My404Component/My404Component';
 import Login from './components/User/Login/Login';
 import Logout from './components/User/Logout/Logout';
 import GoogleRegPass from './components/User/GoogleRegPass/GoogleRegPass';
+import GoogleLogin from './components/User/GoogleLogin/GoogleLogin';
 import Signup from './components/User/Signup/Signup';
 import Cart from './components/Cart/Cart';
 import showSearchProductResult from './components/showSearchProductResult/showSearchProductResult';
@@ -43,6 +44,7 @@ class RouteAPI extends Component {
                         <Route path="/User/Projects/:projectName" component={Project}/>
                         <Route path="/User/Projects" component={Projects}/>
                         <Route path="/Logout" component={Logout}/>
+                        <Route path="/googleLogin/:token" component={GoogleLogin}/>
                         <Route path="/google/:token" component={GoogleRegPass}/>
                         <Route path="/search/:category/:keyword" component={showSearchProductResult}/>
                         <Route path="/search/:category/:keyword/:filter" component={showSearchProductResult}/>

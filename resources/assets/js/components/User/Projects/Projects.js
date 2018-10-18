@@ -6,6 +6,7 @@ import { confirmAlert } from 'react-confirm-alert'; // Import
 import './Projects.css';
 import axios from "axios";
 import URLs from "../../../URLs";
+import Alert from 'react-s-alert';
 
 class Projects extends Component {
     state = {
@@ -17,10 +18,14 @@ class Projects extends Component {
     }
 
     componentDidMount() {
+        this.getProjects();
+    }
+
+    getProjects = () => {
         axios.post(URLs.base_URL+URLs.user_get_projects, {token: this.props.token})
             .then(response => {
-                console.log(response);
-                // this.setState({projects: response.data});
+                console.log("projects");console.log(response);
+                this.setState({projects: response.data});
             })
             .catch(err => {
                 console.log(err);
@@ -36,9 +41,24 @@ class Projects extends Component {
         axios.post(URLs.base_URL+URLs.user_create_project, {token: this.props.token, name: this.state.data.projectName})
             .then(response => {
                 console.log(response);
+                Alert.success(response.data[0], {
+                    position: 'bottom-right',
+                    effect: 'scale',
+                    beep: false,
+                    timeout: 4000,
+                    offset: 100
+                });
+                this.getProjects();
             })
             .catch(err => {
                 console.log(err);
+                Alert.error('اختلالی پیش آمدعه است،دوباره امتحن کنید', {
+                    position: 'bottom-right',
+                    effect: 'scale',
+                    beep: false,
+                    timeout: 4000,
+                    offset: 100
+                });
             });
     }
 
@@ -54,7 +74,9 @@ class Projects extends Component {
                 },
                 {
                     label: 'بله',
-                    onClick: () => console.log("yes")
+                    onClick: () => {
+
+                    }
                 }
             ]
         })
@@ -68,11 +90,11 @@ class Projects extends Component {
                     <li key={i}>
                         <CardWrapper>
                             <div className="flex-row space-between flex-center-align">
-                                <Link to="/User/Projects/felan1"><h3>پروژه فلان</h3></Link><span
+                                <Link to="/User/Projects/felan1"><h3>{project.name}</h3></Link><span
                                 onClick={this.deleteProject} className="badge badge-delete">حذف</span>
                             </div>
                             <div className="flex-row space-between">
-                                <span>مجموع هزینه ها : 20000 تومان</span><span>تاریخ شروع : 1397/05/22</span>
+                                <span>  تاریخ شروع : {project.created_at}  </span><span>{project.price}مجموع هزینه ها :  تومان </span>
                             </div>
                         </CardWrapper>
                     </li>

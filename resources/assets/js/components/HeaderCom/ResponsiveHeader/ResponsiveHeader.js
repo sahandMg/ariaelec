@@ -5,8 +5,61 @@ import ShoppingCart from '../../../assets/Images/shopping_cart.png';
 import './ResponsiveHeader.css';
 import Search from './Search/Search';
 import Navigation from './Navigation/Navigation'
+import URLs from "../../../URLs";
+import axios from "axios";
+import Alert from "react-s-alert";
+import * as actions from "../../../store/actions";
 
 class ResponsiveHeader extends Component {
+    state = {
+        loggingOut: false, userIconClicked: false
+    }
+
+    componentDidMount() { console.log("componentDidMount DesktopHeader");
+        this.props.checkAuthState();document.addEventListener('mousedown', this.handleClickOutside, false);
+
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('mousedown', this.handleClickOutside, false);
+    }
+
+    LogOutHandler = (e) => {
+        e.preventDefault();
+        this.setState({loggingOut: true});
+        // this.props.logout();
+        console.log("token 2 : "+this.props.token);
+        let url = URLs.base_URL+URLs.user_logout;
+        axios.post(url,{token: this.props.token})
+            .then(response => {
+                console.log("Not error start");
+                console.log(response);
+                this.props.logout();
+                this.setState({loggingOut: false});
+                // this.props.history.push(`/`);
+                console.log("Not error");
+            })
+            .catch(err => {
+                console.log("error");console.log(err);
+                this.setState({loggingOut: false});
+                Alert.error('اختلالی پیش آمده است، لطفا دوباره امتحان کنید', {
+                    position: 'top-left',
+                    effect: 'scale',
+                    beep: false,
+                    timeout: 3000,
+                    offset: 100
+                });
+            });
+
+    }
+
+    handleClickOutside = (e) => {
+        if( (this.node !== null) && (typeof this.node !== 'undefined') ) {
+            if (!this.node.contains(e.target)) {
+                this.setState({userIconClicked: false})
+            }
+        }
+    }
     render() {
         return (
         <div className="navbar-sticky-container d-block d-lg-none col-12 p-0">
@@ -18,7 +71,7 @@ class ResponsiveHeader extends Component {
                     <div className="shopping-cart-div p-1 mr-5">
                         <Link to="/cart" style={{fontSize: '22px'}}
                               className="border border-1 pl-1 pr-1 pt-1 pb-1 rounded shopping-cart-border-color">
-                            <span className="badge" style={{color: 'white'}}>0</span>
+                            <span className="badge" style={{color: 'white'}}>{this.props.cartLength}</span>
                             <img src={ShoppingCart} alt="سبد خرید" className="img-fluid" width="25"/>
                         </Link>
                     </div>
@@ -36,11 +89,22 @@ class ResponsiveHeader extends Component {
     }
 }
 
+
 const mapStateToProps = state => {
     return {
-        cart: state.cart.cart
+        isAuthenticated: state.auth.token !== null,
+        userRole: state.auth.userRole,
+        cartLength: state.cart.cartLength,
+        token: state.auth.token
     };
 };
 
-export default connect(mapStateToProps,null)(ResponsiveHeader);
+const mapDispatchToProps = dispatch => {
+    return {
+        checkAuthState: () => dispatch( actions.authCheckState() ),
+        logout: () => dispatch( actions.logout() )
+    };
+};
+
+export default connect(mapStateToProps,mapDispatchToProps)(ResponsiveHeader);
 

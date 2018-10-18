@@ -439,8 +439,8 @@ Route::get('eager',function (){
 // return \App\Brief::with('detail')->get();
 //
 });
-Route::get('home',function (){
-    return view('test');
+Route::get('test',function (){
+
 
 });
 Route::get('login/google',['uses'=>'UserController@redirectToProvider'])->name('googleLogin');

@@ -16,7 +16,7 @@ class CreateCartsTable extends Migration
         Schema::create('carts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name')->nullable();
-            $table->string('num')->nullable();
+            $table->string('order_number')->nullable();
             $table->unsignedInteger('project_id')->default(0);
 //            $table->foreign('project_id')->references('id')->on('projects')->onDelete('cascade');
             $table->unsignedInteger('bom_id')->default(0);
