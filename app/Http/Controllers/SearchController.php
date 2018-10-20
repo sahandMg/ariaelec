@@ -517,6 +517,20 @@ class SearchController extends Controller
 
     }
 
+//    Get num,name
+// check if there is much of it or not
+    public function getQuantity(Request $request){
+
+        $number = DB::table('commons')->where('manufacturer_part_number',$request->name)->first()->quantity_available;
+
+        if($number < $request->num){
+
+            return ' از تعداد موجود بیشتر است '.$request->name.' تعداد خواسته شده از ';
+        }else{
+            return 200;
+        }
+
+    }
 
     public function SearchPart(Request $request){
         $keyword = $request->keyword;
@@ -597,7 +611,7 @@ class SearchController extends Controller
 
     }
 
-
+//    Gets component,num(item per page),order(desc or asc),colName
     public function sort(Request $request)
     {
 //        باید دیتا ها رو ۲۰ تا ۲۰ تا سورت کنی
@@ -668,7 +682,7 @@ class SearchController extends Controller
             }
 
 //            $volts = not common table Ids
-            if($order == 'decs'){
+            if($order == 'desc'){
 
                 arsort($volts);
             }else{
@@ -736,7 +750,7 @@ class SearchController extends Controller
             }
 
 //            $volts = not common table Ids
-            if($order == 'decs'){
+            if($order == 'desc'){
 
                 arsort($volts);
             }else{
@@ -758,4 +772,7 @@ class SearchController extends Controller
             }
         }
     }
+
+    //TODO create an object of all components with their category
+    // TODO create an api for checking part quantity when clicking on buy button
 }
