@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Bom;
 use App\Cart;
 use App\Project;
+use Carbon\Carbon;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -23,7 +24,25 @@ class CartController extends Controller
     {
         $this->middleware('guest');
     }
+/*
+ * Add registered user order to cart
+ * use createCart method
+ *
+ */
+    public function addToCart(Request $request){
 
+
+
+        $carts = $request->cart;
+        for($i=0;$i<count($carts);$i++){
+            unset($request['cart']);
+
+            $request['keyword'] = $carts[$i]['keyword'];
+            $request['num'] = $carts[$i]['num'];
+            $request['project'] = $carts[$i]['project'];
+            $this->createCart($request);
+        }
+    }
 
     /*
      * Gets num + keyword + token + project = NULL || Project name
@@ -32,8 +51,6 @@ class CartController extends Controller
      * Get project_id from project name in $request->project
      */
     public function createCart(Request $request){
-
-
         /**
          * BOM Bill Of Materials
          * status = 0 -> BOM : open
@@ -168,8 +185,8 @@ class CartController extends Controller
 
     // Getting new Prices when ever the cart page, gets refreshed
     public function readCart(Request $request){
-        try{
 
+        try{
             $bom = Bom::where('user_id', Auth::guard('user')->id())->where('status',0)->firstOrFail();
         }catch (\Exception $exception){
             return '550';

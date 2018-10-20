@@ -37,7 +37,7 @@ Route::post('home/{category?}','PageController@home');
             Route::post('edit','CartController@editCart');
 
 //         ----------  NEW APIs FOR TESTING ---------
-
+            Route::post('add','CartController@addToCart');
             Route::post('confirm','CartController@confirm');
             Route::post('price','CartController@price');
 //        -------------------------------------------------
@@ -102,6 +102,9 @@ Route::post('logout','AuthController@logout')->name('logout');
     Route::post('sort-col','SearchController@sort');
     // -------------------------------  Getting price from shops  -----------------------------------
     Route::post('get-price','SearchController@getPrice');
+
+// -------------------------------  Getting price from shops  -----------------------------------
+    Route::post('get-quantity','SearchController@getQuantity');
     // -------------------------------  Searching with filter  -----------------------------------
 
     Route::get('search-part-filter','SearchController@filterPart');
