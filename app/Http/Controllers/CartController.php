@@ -201,9 +201,11 @@ class CartController extends Controller
 
         for($i=0 ; $i<count($carts) ;$i++){
             $orders[$i] =array_values(unserialize($carts[$i]->name));
-            for($t=0 ; $t<count($orders[$i]);$t++){
 
-                $request['keyword'] = $orders[$i][$t]['name'];
+            for($t=0 ; $t<count($orders[$i]);$t++){
+                $orders[$i][$t]['keyword'] = $orders[$i][$t]['name'];
+                unset($orders[$i][$t]['name']);
+                $request['keyword'] = $orders[$i][$t]['keyword'];
                 $ctrl = new SearchController();
 //                    /*
 //                     *
