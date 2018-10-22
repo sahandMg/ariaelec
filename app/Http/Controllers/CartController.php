@@ -30,17 +30,27 @@ class CartController extends Controller
  *
  */
     public function addToCart(Request $request){
-
-
-
+        $fault = [];
         $carts = $request->cart;
         for($i=0;$i<count($carts);$i++){
-            unset($request['cart']);
+            for($t=0;$t<count($carts[$i]);$t++){
+                unset($request['cart']);
+                $request['keyword'] = $carts[$i][$t]['keyword'];
+                $request['num'] = $carts[$i][$t]['num'];
+                $request['project'] = $carts[$i][$t]['project'];
+                $this->cart = [];
+                $resp = $this->createCart($request);
+//                Checks if quantity is available
+                if($resp != 200){
+                     array_push($fault,' وجود ندارد '.$request->keyword.' در حال حاضر این تعداد از قطعه ');
+                }
+            }
+        }
+        if(count($fault) == 0){
+            return 200;
+        }else{
 
-            $request['keyword'] = $carts[$i]['keyword'];
-            $request['num'] = $carts[$i]['num'];
-            $request['project'] = $carts[$i]['project'];
-            $this->createCart($request);
+            return $fault;
         }
     }
 
@@ -94,6 +104,7 @@ class CartController extends Controller
         /*
          * New order registration
          */
+
         if(count($orders) == 0){
             $cart = new Cart();
             $cart->name = serialize($this->cart);
@@ -272,7 +283,6 @@ class CartController extends Controller
                     ->update(['name' => serialize($cartArray)]);
 
             } else {
-
                 array_push($cartArray, $this->cart[0]);
                 DB::table('carts')->where('bom_id', $bom->id)
                     ->where('project_id',$userOrder->project_id)
