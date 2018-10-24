@@ -9,14 +9,14 @@ export const addToCart = (productName,number,category,projectName) => {
     }
 }
 
-export const removeFromCart = (productName) => {
+export const removeFromCart = (productName,projectName) => {
     return {
         type: actionTypes.REMOVE_FROM_CART,
-        productName: productName
+        keyword: productName, projectName: projectName
     }
 }
 
-export const removeAllCart = (productName) => {
+export const removeAllCart = () => {
     return {
         type: actionTypes.REMOVE_ALL_FROM_CART
     }
@@ -29,7 +29,7 @@ export const changeNumFromCart = (productName,number,category) => {
     }
 }
 
-export const getCartFromLocalStorage = () => {
+export const getCartFromLocalStorage = (token) => {
     let cart = localStorage.getItem('cart');
     let cartLength = 0;
     // console.log("getCartFromLocalStorage");console.log(cart);console.log(cart.length);
@@ -103,27 +103,92 @@ export const restoreCart = (response) => {
     }
 }
 
-export const sendCartToServer = (cart) => {
+export const sendCartToServer = (cart,token) => {
     return dispatch => {
         console.log("cart action sendCartToServer");
-        let cart = localStorage.getItem('cart');
-        if(cart != null) {
-            if(cart.length > 0 ) {
-                axios.post(URLS.base_URL + URLS.send_cart_to_server, {cart: cart})
+        console.log(cart);
+        if (cart != null) {
+            if (cart.length > 0) {
+                axios.post(URLS.base_URL + URLS.send_cart_to_server, {cart: cart, token: token})
                     .then(response => {
                         console.log("cart action sendCartToServer is done");
+                        console.log(cart);
+                        console.log(token);
                     })
                     .catch(err => {
+                        console.log("sendCartToServer err");
+                        console.log(cart);
+                        console.log(token);
                         console.log(err);
-                        Alert.error('دوباره امتحن کنید', {
-                            position: 'bottom-right',
-                            effect: 'scale',
-                            beep: false,
-                            timeout: 3000,
-                            offset: 100
-                        });
+                        // Alert.error('دوباره امتحن کنید', {
+                        //     position: 'bottom-right',
+                        //     effect: 'scale',
+                        //     beep: false,
+                        //     timeout: 3000,
+                        //     offset: 100
+                        // });
                     });
             }
         }
+    }
+}
+
+export const updateCart = (token) => {
+    return dispatch => {
+        let cart = localStorage.getItem('cart');
+        let cartLength = 0;
+        console.log("updateCart");console.log(cart);
+        if(token != null) {console.log("token is not null");
+            if (cart != null) {
+                console.log("Cart is not null");
+                cart = JSON.parse(cart);
+                if (cart.length > 0) {
+                    for (let i = 0; i < cart.length; i++) {
+                        // console.log(i+" : " + cart[i].length);
+                        cartLength = cartLength + cart[i].length;
+                    }
+                    dispatch(sendCartToServer(cart, token));
+                    dispatch(getCartSuccess(cart, cartLength));
+                }
+            } else {
+                console.log("Cart is  null");
+                dispatch(getCartFromServer(token));
+            }
+        } else {console.log("token is  null");
+            if (cart != null) {console.log("Cart is not null");
+                cart = JSON.parse(cart);
+                if (cart.length > 0) {
+                    for (let i = 0; i < cart.length; i++) {
+                        // console.log(i+" : " + cart[i].length);
+                        cartLength = cartLength + cart[i].length;
+                    }
+                }
+                dispatch(getCartSuccess(cart, cartLength));
+            } else {
+                console.log("Cart is  null");
+            }
+        }
+    }
+}
+
+export const updateCartPrices = () => {
+    return {
+        type: actionTypes.UPDATE_CART_PRICES,
+    }
+}
+
+export const addProductPrice = (productName, productPrice) => {
+    return dispatch => {
+        console.log("addProductPrice reducer");
+        console.log(productName);console.log(productPrice);
+        dispatch(updateProductPrice(productName, productPrice));
+        dispatch(updateCartPrices());
+    }
+}
+
+export const updateProductPrice = (productName, productPrice) => {
+    return {
+        type: actionTypes.ADD_PRODUCT_PRICE,
+        productName: productName, productPrice: productPrice
     }
 }

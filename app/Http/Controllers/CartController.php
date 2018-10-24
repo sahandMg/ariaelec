@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use League\Flysystem\Exception;
+use Morilog\Jalali\Jalalian;
 
 class CartController extends Controller
 {
@@ -450,7 +451,7 @@ class CartController extends Controller
 
         DB::table('users')->where('id', Auth::guard('user')->id())->update(['phone'=>$phone]);
 
-
+        // TODO CLEAN THE LINE BELLOW && redirect to localhost/user/follow-up after transaction gate
         return ['price'=>$totalPrice,'number'=>$order_number];
     }
 
@@ -505,6 +506,58 @@ class CartController extends Controller
         $order_number = Bom::where([['user_id', Auth::guard('user')->id()],['status',0]])->first()->order_number;
         return ['price'=>$totalPrice,'number'=>$order_number];
     }
+// send user Boms
+    public function getUserBom(){
+
+        $bom = DB::table('boms')->where('user_id',Auth::guard('user')->id())->first();
+
+        $bom->created_at = Jalalian::forge($bom->created_at)->toString();
+
+         return $bom;
+    }
+//    Get token,order_number and return user cart
+    public function getUserBill(Request $request){
+
+        $carts = Bom::where('order_number',$request->order_number)->first()->carts;
+//        $userCart = [];
+        for ($t=0;$t<count($carts);$t++){
+            if($carts[$t]['project_id'] != 0){
+                $temp = array_values(unserialize($carts[$t]->name));
+                $prjName = DB::table('projects')->where('id',$carts[$t]['project_id'])->first()->name;
+                for($i=0 ; $i<count($temp);$i++){
+                    $temp[$i]['keyword'] = $temp[$i]['name'];
+                    unset($temp[$i]['name']);
+                    $temp[$i]['project'] = $prjName;
+                }
+
+                $userCart[$t] = $temp;
+            }else{
+                $temp = array_values(unserialize($carts[$t]->name));
+                for($i=0 ; $i<count($temp);$i++){
+                    $temp[$i]['keyword'] = $temp[$i]['name'];
+                    unset($temp[$i]['name']);
+                    $temp[$i]['project'] = null;
+                }
+                $userCart[$t] = $temp;
+
+            }
 
 
+        }
+
+//        foreach ($carts as $cart){
+//            if($cart['project_id'] != 0){
+//                $prjName = DB::table('projects')->where('id',$cart['project_id'])->first()->name;
+//                array_push($userCart,unserialize($cart->name));
+//                array_push($userCart,$prjName);
+//
+//            }else{
+//                array_push($userCart,unserialize($cart->name));
+//                array_push($userCart,null);
+//
+//            }
+//        }
+
+        return ($userCart);
+    }
 }

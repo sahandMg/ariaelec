@@ -1,41 +1,55 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import CardWrapper from "../../CardWrapper/CardWrapper";
+import URLs from "../../../URLs";
 
 class SetFactorInfo extends Component {
     state = {
         data: {
-            projectName: '',
+            address: '', phone: ''
         },
+        price: 0, number: '',
         errors: {}
     }
 
+    componentDidMount() {
+        console.log("SetFactorInfo");
+        axios.post(URLs.base_URL+URLs.user_cart_submit, {token: this.props.token})
+            .then(response => {
+                console.log("deleteFromCart");console.log(response);
+                this.setState({price: response.data.price, number: response.data.number});
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    }
     onChange = e =>
         this.setState({
             data: { ...this.state.data, [e.target.name]: e.target.value }
         });
 
-    newProject = () => {
+    confirmFactor = () => {
 
     }
 
     render() {
+        console.log("SetFactorInfo render");
         let data = this.state.data;
         return (
             <div className="container" style={{direction: 'rtl'}}>
                 <CardWrapper>
                     <form>
-                        <h2>شماره فاکتور : 425648 </h2>
+                        <h2>شماره فاکتور : {this.state.number} </h2>
                         <div className="form-group">
                             <label>آدرس</label>
-                            <input type="text" className="form-control"/>
+                            <input value={data.address} onChange={this.onChange} type="text" className="form-control"/>
                         </div>
                         <div className="form-group">
                             <label>شماره تلفن</label>
-                            <input type="text" className="form-control"/>
+                            <input value={data.phone} onChange={this.onChange} type="text" className="form-control"/>
                         </div>
                         <div className="form-group">
-                            <h3>مبلغ پرداختی : 20000 تومان</h3>
+                            <h3>مبلغ پرداختی : {this.state.price} تومان</h3>
                         </div>
                         <button type="submit" className="btn btn-primary">پرداخت</button>
                     </form>
@@ -48,7 +62,7 @@ class SetFactorInfo extends Component {
 
 const mapStateToProps = state => {
     return {
-        cart: state.cart.cart
+        token: state.auth.token,
     };
 };
 

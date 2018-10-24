@@ -58,7 +58,7 @@ class Search extends Component {
 
     onChangeTest = (event, { newValue }) => {
         if(newValue.length > 3) {
-            console.log(newValue);
+            // console.log(newValue);
             let url = URLs.base_URL+URLs.search_part+newValue;
             axios.get(url)
                 .then(response => {
@@ -69,7 +69,7 @@ class Search extends Component {
                             searchSug.push({name: item.manufacturer_part_number});
                             return null;
                         });
-                        console.log(searchSug);
+                        // console.log(searchSug);
                     }
                 })
                 .catch(err => {

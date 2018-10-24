@@ -24,10 +24,17 @@ export const authFail = (error) => {
 };
 
 export const logout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('userData');
-    localStorage.removeItem('cart');
-    localStorage.removeItem('cartLength');
+    return dispatch => {
+        localStorage.removeItem('token');
+        localStorage.removeItem('userData');
+        localStorage.removeItem('cart');
+        localStorage.removeItem('cartLength');
+        dispatch(sendlogoutToReducer());
+        dispatch(CartActions.removeAllCart());
+    }
+};
+
+export const sendlogoutToReducer = () => {
     return {
         type: actionTypes.AUTH_LOGOUT
     };
@@ -59,7 +66,7 @@ export const auth = (email, password,url) => {
                     localStorage.setItem('token', response.data.token);
                     localStorage.setItem('userData', JSON.stringify(response.data.userData));
                     dispatch(authSuccess(response.data.token,response.data.userData));
-                    dispatch(CartActions.sendCartToServer());
+                    dispatch(CartActions.updateCart(response.data.token));
                     dispatch(checkAuthTimeout(10000));
                 } else {
                     console.log("Erorr");
@@ -101,8 +108,10 @@ export const authCheckState = () => {
         const userData = localStorage.getItem('userData');
         // console.log("authCheckState");console.log(token);
         // dispatch(logout());
+        // dispatch(CartActions.removeAllCart());
         if (!token) {
-            // dispatch(logout());
+            // console.log("authCheckState");console.log("token null");
+            dispatch(CartActions.updateCart(null));
         } else {
             // const expirationDate = new Date(localStorage.getItem('expirationDate'));
             // if (expirationDate <= new Date()) {
@@ -111,7 +120,7 @@ export const authCheckState = () => {
             // console.log("authCheckState");console.log(token);
 
             dispatch(authSuccess(token,JSON.parse(userData)));
-             dispatch(CartActions.getCartFromServer(token));
+            dispatch(CartActions.updateCart(token));
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }
         }

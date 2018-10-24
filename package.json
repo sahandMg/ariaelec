@@ -33,6 +33,7 @@
     },
     "dependencies": {
         "build-url": "^1.2.0",
+        "prop-types": "^15.6.2",
         "react-accessible-accordion": "^2.4.4",
         "react-autosuggest": "^9.4.2",
         "react-confirm-alert": "^2.0.6",

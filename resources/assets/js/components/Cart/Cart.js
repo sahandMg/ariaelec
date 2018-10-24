@@ -8,21 +8,20 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import URLs from '../../URLs';
 import './Cart.css';
-
-let prices = {};let counter = 0;
+import CartProductPrice from './CartProductPrice/CartProductPrice';
 
 class Cart extends Component {
 
     state  = {
-        prices: {}, loading: true, priceRequestSend: false
+        prices: {}, loading: true, priceRequestSend: false,
     }
 
-    componentDidMount() {prices = {};
-        console.log("Cart Component");console.log(this.props.token);
+    componentDidMount() {
+        console.log("Cart componentDidMount");console.log(this.props.token);
        if(this.props.token) {
            this.props.getCartFromServer(this.props.token);
        } else {
-           console.log("Cart Component");console.log(this.props.cart);
+           console.log("Cart componentDidMount");console.log(this.props.cart);
            if(this.props.cart.length === 0) {
                console.log("this.props.checkCartStore()");
                this.props.checkCartStore();
@@ -31,108 +30,105 @@ class Cart extends Component {
     }
 
     deleteFromCart = (productName,projectName) => {
-        axios.post(URLs.base_URL+URLs.user_cart_remove, {token: this.props.token, keyword: productName, project: projectName})
-            .then(response => {
-                console.log("deleteFromCart");console.log(response);
-                this.props.restoreCart(response);
-                Alert.success("از سبد خرید حذف شد", {
-                    position: 'bottom-right',
-                    effect: 'scale',
-                    beep: false,
-                    timeout: 4000,
-                    offset: 100
-                });
+        if(this.props.token) {
+            console.log("removeFromCart with token");
+            axios.post(URLs.base_URL + URLs.user_cart_remove, {
+                token: this.props.token,
+                keyword: productName,
+                project: projectName
             })
-            .catch(err => {
-                console.log(err);
-                Alert.error('اختلالی پیش آمدعه است،دوباره امتحن کنید', {
-                    position: 'bottom-right',
-                    effect: 'scale',
-                    beep: false,
-                    timeout: 4000,
-                    offset: 100
+                .then(response => {
+                    console.log("deleteFromCart");
+                    console.log(response);
+                    this.props.restoreCart(response);
+                    Alert.success("از سبد خرید حذف شد", {
+                        position: 'bottom-right',
+                        effect: 'scale',
+                        beep: false,
+                        timeout: 4000,
+                        offset: 100
+                    });
+                })
+                .catch(err => {
+                    console.log(err);
+                    Alert.error('اختلالی پیش آمدعه است،دوباره امتحن کنید', {
+                        position: 'bottom-right',
+                        effect: 'scale',
+                        beep: false,
+                        timeout: 4000,
+                        offset: 100
+                    });
                 });
-            });
+        } else {
+            console.log("removeFromCart reducer without token");
+           this.props.removeFromCart(productName,projectName)
+        }
     }
 
-    setInitialForPriceInput = () => {
-        console.log( "setInitialForPriceInput");console.log(prices);console.log(this.state.loading);
-        if(Object.keys(prices).length > 0 && (!this.state.priceRequestSend)) {let pricesBuf = {};counter = 0;
-            console.log( "sendRequest");
-            Object.keys(prices).map((property, j) => {
-                console.log(j + " : " + property);
-                axios.post(URLs.base_URL + URLs.product_get_price, {keyword: property})
-                    .then(response => {
-                        counter++;
-                        console.log(j + " : " + counter);
-                        console.log(response);
-                        pricesBuf[property] = response.data.unit_price;
-                        if (counter === Object.keys(prices).length) {
-                            console.log("get last response ");
-                            console.log(pricesBuf);
-                            this.setState({prices: pricesBuf, loading: false});
-                        }
-                    })
-                    .catch(err => {
-                        console.log(err);
-                    });
+    getProjectCost = (i) => {
+        console.log(' projectsPrice  ');console.log(i);
+        console.log(this.props.projectsPrice);
+        console.log(' getProjectCost productPrices ');console.log(this.props.productPrices);
+        if(this.props.projectsPrice.length > 0) {
+            return this.props.projectsPrice[0].cost;
+        }
+    }
+
+    renderCartTable = () => {
+        let cartLsit = this.props.cart.map((project, i) => {
+            let entry = project.map((list,j) => {
+                return (<CartProductPrice deleteFromCart={this.deleteFromCart} keyword={list.keyword} num={list.num} project={list.project} />);
             });
-            this.setState({priceRequestSend: true});
-        } else { console.log("prices array is zero")}
+            return (
+                <div key={i}>
+                    <h3>{project[0].project}</h3>
+                    <table className="table table-striped">
+                        <thead>
+                        <th>حذف از سبد خرید</th><th>نام محصول</th><th>تعداد</th><th>قیمت واحد</th><th>قیمت مجموع</th>
+                        </thead>
+                        <tbody>
+                        {entry}
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><h3 className="cart-responsive-font">جمع کل :</h3></td>
+                            <td><h3 className="cart-responsive-font">{this.getProjectCost(i)} تومان</h3></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                </div>
+            );
+        });
+      return cartLsit;
     }
 
     render() {
-        let cartLsit;let buyButton = null;let sum = null;
-        console.log('cart render if');console.log(this.props.cartLoading);
-       if(!this.props.cartLoading) {
-           console.log('cart render');console.log(this.props.cart);console.log(this.props.cartLoading);
-           if (Number(this.props.cart) === 550) {
-               cartLsit = <h1 className="text-center">سبد خرید شما خالی هست</h1>;
-           } else if(this.props.cart.length > 0){
-               cartLsit = this.props.cart.map((project, i) => {
-                   let entry = project.map((list,j) => { prices[list.name] = 0;
-                       return (
-                           <tr key={(i*100)+j}>
-                               <td><button onClick={()=>this.deleteFromCart(list.name, list.projectName)}><i class="fa fa-trash" aria-hidden="true"></i></button></td>
-                               <td>{list.name}</td>
-                               <td>{list.num}</td>
-                               <td><span hidden={this.state.loading}>{this.state.prices[list.name]}</span><ClipLoader size="50" color={'#123abc'} loading={this.state.loading} /></td>
-                               <td><span hidden={this.state.loading}>{this.state.prices[list.name]*list.num}</span><ClipLoader size="50" color={'#123abc'} loading={this.state.loading} /></td>
-                           </tr>);
-                   });
-                   return (
-                       <div key={i}>
-                        <h3>{project[0].project}</h3>
-                        <table className="table table-striped">
-                           <thead>
-                           <th>حذف از سبد خرید</th><th>نام محصول</th><th>تعداد</th><th>قیمت واحد</th><th>قیمت مجموع</th>
-                           </thead>
-                           <tbody>
-                              {entry}
-                              <tr>
-                                  <td></td>
-                                  <td></td>
-                                  <td></td>
-                                  <td><h3 className="cart-responsive-font">جمع کل :</h3></td>
-                                  <td><h3 className="cart-responsive-font">20000 تومان</h3></td>
-                              </tr>
-                           </tbody>
-                        </table>
-                        <br/>
-                       </div>
-                   );
-               });
-               sum = <h2>جمع کل : 20000 تومان</h2>;
+        let cartList;let buyButton = null;let sum = null;
+
+       // if(!this.props.cartLoading) {  {this.props.projectsPrice[i].cost}
+       //     console.log('cart render');console.log(this.props.cart);console.log(this.props.cartLoading);
+       //     if (Number(this.props.cart) === 550) {
+       //         cartLsit = <h1 className="text-center">سبد خرید شما خالی هست</h1>;
+            if(this.props.cartLength > 0){  //} else
+               // if(this.props.cart[0].length > 0) {console.log('test');}
+                cartList = this.renderCartTable();
+               sum = <h2>جمع کل : {this.props.cartSumCost} تومان</h2>;
                buyButton = <Link to="/User/SetFactorInfo" className="btn btn-success">نهایی کردن خرید</Link>;
-               this.setInitialForPriceInput();
-           } else { cartLsit = <h1 className="text-center">سبد خرید شما خالی هست</h1>;}
-       }
+               // this.setInitialForPriceInput();
+           } else { cartList = <h1 className="text-center">سبد خرید شما خالی هست</h1>;}
+       // } else if(!this.state.loading) {
+       //     cartLsit = this.renderCartTable();
+       //     sum = <h2>جمع کل : 20000 تومان</h2>;
+       //     buyButton = <Link to="/User/SetFactorInfo" className="btn btn-success">نهایی کردن خرید</Link>;
+       // }
 
         return(
             <div className="container table-responsive text-center searchResultContainer">
                 <br/>
                 <br/>
-                {cartLsit}
+                {cartList}
                 {sum}
                 <br/>
                 {buyButton}
@@ -148,16 +144,21 @@ const mapDispatchToProps = dispatch => {
         addToCart: (productName,number,category) => dispatch(actions.addToCart(productName,number,category)),
         checkCartStore: () => dispatch(actions.getCartFromLocalStorage()),
         getCartFromServer: (token) => dispatch(actions.getCartFromServer(token)),
-        restoreCart: (response) => dispatch(actions.restoreCart(response))
+        restoreCart: (response) => dispatch(actions.restoreCart(response)),
+        removeFromCart: (productName,projectName) => dispatch(actions.removeFromCart(productName,projectName)),
+        updateCartPrices: (productPrices) => dispatch(actions.updateCartPrices(productPrices)),
     };
 };
 
 const mapStateToProps = state => {
     return {
         cart: state.cart.cart,
-        cartLength: state.cart.cart,
+        cartLength: state.cart.cartLength,
         cartLoading: state.cart.loading,
         token: state.auth.token,
+        projectsPrice: state.cart.projectsPrice,
+        productPrices: state.cart.productPrices,
+        cartSumCost: state.cart.cartSumCost
     };
 };
 

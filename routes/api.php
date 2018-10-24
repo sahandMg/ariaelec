@@ -29,6 +29,8 @@ Route::post('home/{category?}','PageController@home');
         Route::post('login','UserController@login');
         Route::post('data','UserController@userData');
         Route::get('login/google/callback',['uses'=>'UserController@handleProviderCallback']);
+        Route::post('bom','CartController@getUserBom')->name('getUserBom');
+        Route::post('bill','CartController@getUserBill')->name('getUserBill');
 
         Route::group(['prefix'=>'cart'],function (){
 

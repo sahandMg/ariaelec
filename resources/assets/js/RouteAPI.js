@@ -18,6 +18,8 @@ import Projects from './components/User/Projects/Projects';
 import SetFactorInfo from './components/User/SetFactorInfo/SetFactorInfo';
 import Conversions from './components/Conversions/Conversions';
 import Project from './components/User/Projects/Project/Project';
+import Followup from './components/User/Followup/Followup';
+import Factor from './components/User/Factor/Factor';
 // import './react-select.css';
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
@@ -40,7 +42,8 @@ class RouteAPI extends Component {
                 <main>
                     <Switch>
                         <Route path="/User/SetFactorInfo" component={SetFactorInfo}/>
-                        <Route path="/User/Follow-up" component={Project}/>
+                        <Route path="/User/Follow-up" component={Followup}/>
+                        <Route path="/User/Factors/:factorNumber" component={Factor}/>
                         <Route path="/User/Projects/:projectName" component={Project}/>
                         <Route path="/User/Projects" component={Projects}/>
                         <Route path="/Logout" component={Logout}/>

@@ -5,5 +5,5 @@ export {
     authCheckState
 } from './auth';
 
-export { addToCart, changeNumFromCart, removeAllCart, restoreCart,
+export { addToCart, changeNumFromCart, removeAllCart, restoreCart, updateCart, updateCartPrices, addProductPrice,
     removeFromCart, getCartFromLocalStorage, getCartFromServer, setLoadingAndError } from './cart'
