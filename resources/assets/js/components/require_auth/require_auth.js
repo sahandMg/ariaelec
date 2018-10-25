@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
 import PropTypes from 'prop-types';
+
 export default function(ComposedComponent,role) {
+
   class Authentication extends Component {
     static contextTypes = {
       router: PropTypes.object

@@ -12,7 +12,7 @@ import { connect } from 'react-redux';
 import './showSearchProductResult.css';
 import URLs from "../../URLs";
 import styles from './custom-styling.css';
-import CardWrapper from "../CardWrapper/CardWrapper";
+import SearchedProductResult from './SearchedProductPrice/SearchedProductPrice';
 
 let prices = {};let counter = 0;
 
@@ -20,7 +20,7 @@ class showSearchProductResult extends Component {
 
     state  = {
         searchKey: '', data: '', dataParts: [], dataCode: '', dataFilters: [],open: false, prices: {}, projects: [],
-        tableHeaderS: '', filters: {}, loading: true, number: {},loadingAddCart: true,productName: '', category: '',
+        tableHeaderS: '', filters: {}, loading: true, number: 1,loadingAddCart: true,productName: '', category: '',
         projectName: null
     }
 
@@ -35,19 +35,19 @@ class showSearchProductResult extends Component {
         this.setState({searchKey: this.props.match.params.keyword});
         axios.get(url)
             .then(response => {
-                console.log("componentDidMount");
-                console.log(response);
-                console.log(dataCode.partSearch);
+                // console.log("componentDidMount");
+                // console.log(response);
+                // console.log(dataCode.partSearch);
                 if(response.data[0] === dataCode.partSearch) {
-                    console.log("IS EQUAL");
+                    // console.log("IS EQUAL");
                     this.setState({dataCode: response.data[0],dataParts: response.data[2],dataFilters: response.data[3],tableHeaderS: response.data[5]});
                 }
                 this.setState({loading: false});
             })
             .catch(err => {
-                console.log(err);
+                console.log("componentDidMount searchKey");console.log(err);
             });
-        this.getProjects();
+        if(this.props.token) { this.getProjects(); }
     }
 
     sort = (property,kind) => {
@@ -78,18 +78,18 @@ class showSearchProductResult extends Component {
         window.location.reload();
     }
 
-    setNumber = (e,num) => {
-        // console.log('num');console.log(num);console.log('e');console.log(e.target.value);
-       let temp = this.state.number;temp[num] = e.target.value; this.setState({number: temp});
-    }
+    // setNumber = (e,num) => {
+    //     // console.log('num');console.log(num);console.log('e');console.log(e.target.value);
+    //    let temp = this.state.number;temp[num] = e.target.value; this.setState({number: temp});
+    // }
 
-    addToCart = (productName,category) => {
+    addToCart = (productName,category,number) => {
        if(this.props.token) {
            this.setState({loadingAddCart: true});
            // console.log("number one :");console.log(this.state.number[productName]);
            axios.post(URLs.base_URL+URLs.user_cart_create, {
                keyword: productName,
-               num: this.state.number[productName],
+               num: number,
                token: this.props.token, project: this.state.projectName
            })
                .then(response => {
@@ -117,7 +117,7 @@ class showSearchProductResult extends Component {
                });
 
        } else {
-           this.props.addToCart(productName, this.state.number[productName], category, null);
+           this.props.addToCart(productName, this.state.number, category, null);
            Alert.success('به سبد خرید اضافه شد', {
                position: 'bottom-right',
                effect: 'scale',
@@ -163,12 +163,12 @@ class showSearchProductResult extends Component {
          }
     }
 
-    onOpenModal = (productName,category) => {
+    onOpenModal = (productName,category,number) => {
         if(this.props.token) {
             this.setState({open: true});
-            this.setState({productName: productName, category: category});
+            this.setState({productName: productName, category: category, number: number});
         } else {
-            this.addToCart(productName,category);
+            this.addToCart(productName,category,number);
         }
     };
 
@@ -183,6 +183,7 @@ class showSearchProductResult extends Component {
                 this.setState({projects: response.data});
             })
             .catch(err => {
+                console.log("get projects error");
                 console.log(err);
             });
     }
@@ -212,15 +213,11 @@ class showSearchProductResult extends Component {
                      }
                  } else {  return temp; }
              });
-             this.setInitialForPriceInput();
+             // this.setInitialForPriceInput();
              dataParts = this.state.dataParts.map((item, i) => {
                 let entry = Object.keys(item).map((property, j) => {
                     if(property === "unit_price") {
-                        return ( <td key={property}><p hidden={this.state.loadingAddCart}>{this.state.prices[item['manufacturer_part_number']]}</p>
-                                <input value={this.state.number[item['manufacturer_part_number']]} onChange={(e) => this.setNumber(e,item['manufacturer_part_number'])} type="number" className="form-control" placeholder="1"/>
-                                <button hidden={this.state.loadingAddCart} onClick={()=> this.onOpenModal(item['manufacturer_part_number'],item[property])} className="btn btn-success" style={{margin: '5px'}}>خرید</button>
-                                <ClipLoader color={'#123abc'} loading={this.state.loadingAddCart} />
-                        </td> )
+                        return ( <SearchedProductResult key={property} keyword={item['manufacturer_part_number']} category={item[property]} openModal={this.onOpenModal} />)
                     } else if(property === "hd_image") {
                         return ( <td key={property}><img alt={this.state.searchKey} src={item[property]} /></td> )
                     } else if(property === "ld_image") {
@@ -291,7 +288,7 @@ class showSearchProductResult extends Component {
                         </select>
                     </div>
                     <br/>
-                    <button onClick={()=> this.addToCart(this.state.productName, this.state.category)} className="btn btn-success horizontal-center">اضافه به سبد خرید</button>
+                    <button onClick={()=> this.addToCart(this.state.productName, this.state.category, this.state.number)} className="btn btn-success horizontal-center">اضافه به سبد خرید</button>
                     <br/>
                   </div>
                 </Modal>

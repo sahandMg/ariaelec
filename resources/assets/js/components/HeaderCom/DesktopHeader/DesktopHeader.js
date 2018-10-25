@@ -19,7 +19,6 @@ class DesktopHeader extends Component {
 
     componentDidMount() { console.log("componentDidMount DesktopHeader");
         this.props.checkAuthState();document.addEventListener('mousedown', this.handleClickOutside, false);
-
     }
 
     componentWillUnmount() {

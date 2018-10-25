@@ -1755,7 +1755,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
     base_URL: 'http://localhost:80/api',
     product: '/get-price',
-    send_cart_to_server: '/sendCart',
+    send_cart_to_server: '/user/cart/add',
     react_search_url: 'http://localhost:80/search/',
     search_part: '/search-part?keyword=',
     search_part_category: '/search-part-comp?category=',
@@ -1763,6 +1763,10 @@ exports.default = {
     user_cart_create: '/user/cart/create',
     user_cart_read: '/user/cart/read',
     user_cart_remove: '/user/cart/edit', // token, keyword, project  => return cart
+    user_cart_submit: '/user/cart/price', // token => price, factor number
+    user_cart_confirm: '/user/cart/confirm', // token address phone => redirect
+    user_get_orders: '/user/bom', //token => all orders
+    user_get_bill: '/user/bill', // token , factor number => get bill
     user_logout: '/logout',
     user_login: '/user/login',
     user_google_signup: 'http://localhost:80/login/google',
@@ -2150,6 +2154,24 @@ Object.defineProperty(exports, 'restoreCart', {
     enumerable: true,
     get: function get() {
         return _cart.restoreCart;
+    }
+});
+Object.defineProperty(exports, 'updateCart', {
+    enumerable: true,
+    get: function get() {
+        return _cart.updateCart;
+    }
+});
+Object.defineProperty(exports, 'updateCartPrices', {
+    enumerable: true,
+    get: function get() {
+        return _cart.updateCartPrices;
+    }
+});
+Object.defineProperty(exports, 'addProductPrice', {
+    enumerable: true,
+    get: function get() {
+        return _cart.addProductPrice;
     }
 });
 Object.defineProperty(exports, 'removeFromCart', {
@@ -3207,6 +3229,8 @@ var GET_CART_FROM_LOCALSTORAGE = exports.GET_CART_FROM_LOCALSTORAGE = 'GET_CART_
 var GET_CART_FROM_SERVER = exports.GET_CART_FROM_SERVER = 'GET_CART_FROM_SERVER';
 var SET_LOADING_AND_ERROR = exports.SET_LOADING_AND_ERROR = 'SET_LOADING_AND_ERROR';
 var SEND_CART_TO_SERVER = exports.SEND_CART_TO_SERVER = 'SEND_CART_TO_SERVER';
+var UPDATE_CART_PRICES = exports.UPDATE_CART_PRICES = 'UPDATE_CART_PRICES';
+var ADD_PRODUCT_PRICE = exports.ADD_PRODUCT_PRICE = 'ADD_PRODUCT_PRICE';
 
 /***/ }),
 /* 41 */
@@ -20747,7 +20771,7 @@ var updateObject = exports.updateObject = function updateObject(oldObject, updat
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.sendCartToServer = exports.restoreCart = exports.setLoadingAndError = exports.getCartSuccess = exports.getCartFromServer = exports.getCartFromLocalStorage = exports.changeNumFromCart = exports.removeAllCart = exports.removeFromCart = exports.addToCart = undefined;
+exports.updateProductPrice = exports.addProductPrice = exports.updateCartPrices = exports.updateCart = exports.sendCartToServer = exports.restoreCart = exports.setLoadingAndError = exports.getCartSuccess = exports.getCartFromServer = exports.getCartFromLocalStorage = exports.changeNumFromCart = exports.removeAllCart = exports.removeFromCart = exports.addToCart = undefined;
 
 var _actionTypes = __webpack_require__(40);
 
@@ -20772,14 +20796,14 @@ var addToCart = exports.addToCart = function addToCart(productName, number, cate
     };
 };
 
-var removeFromCart = exports.removeFromCart = function removeFromCart(productName) {
+var removeFromCart = exports.removeFromCart = function removeFromCart(productName, projectName) {
     return {
         type: actionTypes.REMOVE_FROM_CART,
-        productName: productName
+        keyword: productName, projectName: projectName
     };
 };
 
-var removeAllCart = exports.removeAllCart = function removeAllCart(productName) {
+var removeAllCart = exports.removeAllCart = function removeAllCart() {
     return {
         type: actionTypes.REMOVE_ALL_FROM_CART
     };
@@ -20792,7 +20816,7 @@ var changeNumFromCart = exports.changeNumFromCart = function changeNumFromCart(p
     };
 };
 
-var getCartFromLocalStorage = exports.getCartFromLocalStorage = function getCartFromLocalStorage() {
+var getCartFromLocalStorage = exports.getCartFromLocalStorage = function getCartFromLocalStorage(token) {
     var cart = localStorage.getItem('cart');
     var cartLength = 0;
     // console.log("getCartFromLocalStorage");console.log(cart);console.log(cart.length);
@@ -20819,15 +20843,17 @@ var getCartFromLocalStorage = exports.getCartFromLocalStorage = function getCart
 var getCartFromServer = exports.getCartFromServer = function getCartFromServer(token) {
     return function (dispatch) {
         dispatch(setLoadingAndError(true, null));
+        console.log("getCartFromServer");
         _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_cart_read, { token: token }).then(function (response) {
             dispatch(setLoadingAndError(false, null));
             var cartNumber = 0;
+            console.log("getCartFromServer response");console.log(response);
             response.data.map(function (project, i) {
                 cartNumber = cartNumber + project.length;
             });
             dispatch(getCartSuccess(response.data, cartNumber));
         }).catch(function (err) {
-            console.log(err);
+            console.log("getCartFromServer err");console.log(err);
             // Alert.error('دوباره امتحن کنید', {
             //     position: 'bottom-right',
             //     effect: 'scale',
@@ -20864,26 +20890,94 @@ var restoreCart = exports.restoreCart = function restoreCart(response) {
     };
 };
 
-var sendCartToServer = exports.sendCartToServer = function sendCartToServer(cart) {
+var sendCartToServer = exports.sendCartToServer = function sendCartToServer(cart, token) {
     return function (dispatch) {
         console.log("cart action sendCartToServer");
-        var cart = localStorage.getItem('cart');
-        if (cart != null) {
+        console.log(cart);
+        if (cart !== null) {
             if (cart.length > 0) {
-                _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.send_cart_to_server, { cart: cart }).then(function (response) {
+                _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.send_cart_to_server, { cart: cart, token: token }).then(function (response) {
                     console.log("cart action sendCartToServer is done");
+                    console.log(cart);
+                    console.log(token);
                 }).catch(function (err) {
+                    console.log("sendCartToServer err");
+                    console.log(cart);
+                    console.log(token);
                     console.log(err);
-                    Alert.error('دوباره امتحن کنید', {
-                        position: 'bottom-right',
-                        effect: 'scale',
-                        beep: false,
-                        timeout: 3000,
-                        offset: 100
-                    });
+                    // Alert.error('دوباره امتحن کنید', {
+                    //     position: 'bottom-right',
+                    //     effect: 'scale',
+                    //     beep: false,
+                    //     timeout: 3000,
+                    //     offset: 100
+                    // });
                 });
             }
         }
+    };
+};
+
+var updateCart = exports.updateCart = function updateCart(token) {
+    return function (dispatch) {
+        var cart = localStorage.getItem('cart');
+        var cartLength = 0;
+        console.log("updateCart");console.log(cart);
+        if (token !== null) {
+            console.log("token is not null");
+            if (cart !== null) {
+                console.log("Cart is not null");
+                cart = JSON.parse(cart);
+                if (cart.length > 0) {
+                    for (var i = 0; i < cart.length; i++) {
+                        // console.log(i+" : " + cart[i].length);
+                        cartLength = cartLength + cart[i].length;
+                    }
+                    dispatch(sendCartToServer(cart, token));
+                    dispatch(getCartSuccess(cart, cartLength));
+                }
+            } else {
+                console.log("Cart is  null");
+                dispatch(getCartFromServer(token));
+            }
+        } else {
+            console.log("token is  null");
+            if (cart !== null) {
+                console.log("Cart is not null");
+                cart = JSON.parse(cart);
+                if (cart.length > 0) {
+                    for (var _i = 0; _i < cart.length; _i++) {
+                        // console.log(i+" : " + cart[i].length);
+                        cartLength = cartLength + cart[_i].length;
+                    }
+                }
+                dispatch(getCartSuccess(cart, cartLength));
+            } else {
+                console.log("Cart is  null");
+            }
+        }
+    };
+};
+
+var updateCartPrices = exports.updateCartPrices = function updateCartPrices() {
+    return {
+        type: actionTypes.UPDATE_CART_PRICES
+    };
+};
+
+var addProductPrice = exports.addProductPrice = function addProductPrice(productName, productPrice) {
+    return function (dispatch) {
+        console.log("addProductPrice reducer");
+        console.log(productName);console.log(productPrice);
+        dispatch(updateProductPrice(productName, productPrice));
+        dispatch(updateCartPrices());
+    };
+};
+
+var updateProductPrice = exports.updateProductPrice = function updateProductPrice(productName, productPrice) {
+    return {
+        type: actionTypes.ADD_PRODUCT_PRICE,
+        productName: productName, productPrice: productPrice
     };
 };
 
@@ -72751,7 +72845,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n\nmain {\n  direction: rtl;width: 100%;\n}\n\na:hover {\n  text-decoration: none;\n}\nli {\n  list-style: none;\n}\n.displayBlock {\n  display: block !important;\n}\n.flex-row {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n}\n.flex-column {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n}\n.space-between {\n  justify-content: space-between;\n}\n.space-around {\n  justify-content: space-around;\n}\n.flex-start {\n  justify-content: flex-start;\n}\n.justify-content-center {\n  justify-content: center;\n}\n.horizontal-center {display: block;margin: auto;}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-start-align {\n  align-content: flex-start ;\n}\n.flex-center-align {\n  align-items: center;\n}\n.flex-item-1 {\n  flex: 0 1 8.33333%;\n}\n.flex-item-2 {\n  flex: 0 1 16.66666%;\n}\n.flex-item-3 {\n  flex: 0 1 24.99999%;\n}\n.flex-item-4 {\n  flex: 0 1 33.33333%;\n}\n.flex-item-5 {\n  flex: 0 1 41.66666%;\n}\n.flex-item-6 {\n  flex: 0 1 50%;\n}\n.flex-item-7 {\n  flex: 0 1 58.33333%;\n}\n.flex-item-8 {\n  flex: 0 1 66.66666%;\n}\n.flex-item-9 {\n  flex: 0 1 74.99999%;\n}\n.flex-item-10 {\n  flex: 0 1 83.33333%;\n}\n.flex-item-11 {\n  flex: 0 1 91.66666%;\n}\n.flex-item-12 {\n  flex: 0 1 100%;\n}\n\n@media (min-width: 576px) {\n  .flex-item-sm-1 {\n    flex: 0 1 8.33333%;\n  }\n  .flex-item-sm-2 {\n    flex: 0 1 16.66666%;\n  }\n  .flex-item-sm-3 {\n    flex: 0 1 24.99999%;\n  }\n  .flex-item-sm-4 {\n    flex: 0 1 33.33333%;\n  }\n  .flex-item-sm-5 {\n    flex: 0 1 41.66666%;\n  }\n  .flex-item-sm-6 {\n    flex: 0 1 50%;\n  }\n  .flex-item-sm-7 {\n    flex: 0 1 58.33333%;\n  }\n  .flex-item-sm-8 {\n    flex: 0 1 66.66666%;\n  }\n  .flex-item-sm-9 {\n    flex: 0 1 74.99999%;\n  }\n  .flex-item-sm-10 {\n    flex: 0 1 83.33333%;\n  }\n  .flex-item-sm-11 {\n    flex: 0 1 91.66666%;\n  }\n  .flex-item-sm-12 {\n    flex: 0 1 100%;\n  }\n}\n\n@media (min-width: 768px) {\n  .flex-item-md-1 {\n    flex: 0 1 8.33333%;\n  }\n  .flex-item-md-2 {\n    flex: 0 1 16.66666%;\n  }\n  .flex-item-md-3 {\n    flex: 0 1 24.99999%;\n  }\n  .flex-item-md-4 {\n    flex: 0 1 33.33333%;\n  }\n  .flex-item-md-5 {\n    flex: 0 1 41.66666%;\n  }\n  .flex-item-md-6 {\n    flex: 0 1 50%;\n  }\n  .flex-item-md-7 {\n    flex: 0 1 58.33333%;\n  }\n  .flex-item-md-8 {\n    flex: 0 1 66.66666%;\n  }\n  .flex-item-md-9 {\n    flex: 0 1 74.99999%;\n  }\n  .flex-item-md-10 {\n    flex: 0 1 83.33333%;\n  }\n  .flex-item-md-11 {\n    flex: 0 1 91.66666%;\n  }\n  .flex-item-md-12 {\n    flex: 0 1 100%;\n  }\n}\n\n.responsive-margin {margin-top: 1%;}\n\n@media (min-width: 300px) {\n  .responsive-margin {margin-top: 28%;}\n}\n\n@media (min-width: 768px) {\n  .responsive-margin {margin-top: 12%;}\n}\n\n@media (min-width: 1024px) {\n  .responsive-margin {margin-top: 2%;}\n}\n.margin-1 {\n  margin: 1%;\n}\n.margin-2 {\n  margin: 2%;\n}\n.margin-top-2 {\n  margin-top: 2%;\n}\n\n\n\n/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\n/*html, body, div, span, applet, object, iframe,*/\n/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/\n/*a, abbr, acronym, address, big, cite, code,*/\n/*del, dfn, em, img, ins, kbd, q, s, samp,*/\n/*small, strike, strong, sub, sup, tt, var,*/\n/*b, u, i, center,*/\n/*dl, dt, dd, ol, ul, li,*/\n/*fieldset, form, label, legend,*/\n/*table, caption, tbody, tfoot, thead, tr, th, td,*/\n/*article, aside, canvas, details, embed,*/\n/*figure, figcaption, footer, header, hgroup,*/\n/*menu, nav, output, ruby, section, summary,*/\n/*time, mark, audio, video {*/\n  /*margin: 0;*/\n  /*padding: 0;*/\n  /*border: 0;*/\n  /*font-size: 100%;*/\n  /*font: inherit;*/\n  /*vertical-align: baseline;*/\n/*}*/\n/*!* HTML5 display-role reset for older browsers *!*/\n/*article, aside, details, figcaption, figure,*/\n/*footer, header, hgroup, menu, nav, section {*/\n  /*display: block;*/\n/*}*/\n/*body {*/\n  /*line-height: 1;*/\n/*}*/\n/*ol, ul {*/\n  /*list-style: none;*/\n/*}*/\n/*blockquote, q {*/\n  /*quotes: none;*/\n/*}*/\n/*blockquote:before, blockquote:after,*/\n/*q:before, q:after {*/\n  /*content: '';*/\n  /*content: none;*/\n/*}*/\n/*table {*/\n  /*border-collapse: collapse;*/\n  /*border-spacing: 0;*/\n/*}*/", ""]);
+exports.push([module.i, "body {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n}\r\n\r\nmain {\r\n  direction: rtl;width: 100%;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n}\r\nli {\r\n  list-style: none;\r\n}\r\n.displayBlock {\r\n  display: block !important;\r\n}\r\n.flex-row {\r\n  display: flex;\r\n  flex-direction: row;\r\n  width: 100%;\r\n}\r\n.flex-column {\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n}\r\n.space-between {\r\n  justify-content: space-between;\r\n}\r\n.space-around {\r\n  justify-content: space-around;\r\n}\r\n.flex-start {\r\n  justify-content: flex-start;\r\n}\r\n.justify-content-center {\r\n  justify-content: center;\r\n}\r\n.horizontal-center {display: block;margin: auto;}\r\n.flex-wrap {\r\n  flex-wrap: wrap;\r\n}\r\n.flex-start-align {\r\n  align-content: flex-start ;\r\n}\r\n.flex-center-align {\r\n  align-items: center;\r\n}\r\n.flex-item-1 {\r\n  flex: 0 1 8.33333%;\r\n}\r\n.flex-item-2 {\r\n  flex: 0 1 16.66666%;\r\n}\r\n.flex-item-3 {\r\n  flex: 0 1 24.99999%;\r\n}\r\n.flex-item-4 {\r\n  flex: 0 1 33.33333%;\r\n}\r\n.flex-item-5 {\r\n  flex: 0 1 41.66666%;\r\n}\r\n.flex-item-6 {\r\n  flex: 0 1 50%;\r\n}\r\n.flex-item-7 {\r\n  flex: 0 1 58.33333%;\r\n}\r\n.flex-item-8 {\r\n  flex: 0 1 66.66666%;\r\n}\r\n.flex-item-9 {\r\n  flex: 0 1 74.99999%;\r\n}\r\n.flex-item-10 {\r\n  flex: 0 1 83.33333%;\r\n}\r\n.flex-item-11 {\r\n  flex: 0 1 91.66666%;\r\n}\r\n.flex-item-12 {\r\n  flex: 0 1 100%;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .flex-item-sm-1 {\r\n    flex: 0 1 8.33333%;\r\n  }\r\n  .flex-item-sm-2 {\r\n    flex: 0 1 16.66666%;\r\n  }\r\n  .flex-item-sm-3 {\r\n    flex: 0 1 24.99999%;\r\n  }\r\n  .flex-item-sm-4 {\r\n    flex: 0 1 33.33333%;\r\n  }\r\n  .flex-item-sm-5 {\r\n    flex: 0 1 41.66666%;\r\n  }\r\n  .flex-item-sm-6 {\r\n    flex: 0 1 50%;\r\n  }\r\n  .flex-item-sm-7 {\r\n    flex: 0 1 58.33333%;\r\n  }\r\n  .flex-item-sm-8 {\r\n    flex: 0 1 66.66666%;\r\n  }\r\n  .flex-item-sm-9 {\r\n    flex: 0 1 74.99999%;\r\n  }\r\n  .flex-item-sm-10 {\r\n    flex: 0 1 83.33333%;\r\n  }\r\n  .flex-item-sm-11 {\r\n    flex: 0 1 91.66666%;\r\n  }\r\n  .flex-item-sm-12 {\r\n    flex: 0 1 100%;\r\n  }\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .flex-item-md-1 {\r\n    flex: 0 1 8.33333%;\r\n  }\r\n  .flex-item-md-2 {\r\n    flex: 0 1 16.66666%;\r\n  }\r\n  .flex-item-md-3 {\r\n    flex: 0 1 24.99999%;\r\n  }\r\n  .flex-item-md-4 {\r\n    flex: 0 1 33.33333%;\r\n  }\r\n  .flex-item-md-5 {\r\n    flex: 0 1 41.66666%;\r\n  }\r\n  .flex-item-md-6 {\r\n    flex: 0 1 50%;\r\n  }\r\n  .flex-item-md-7 {\r\n    flex: 0 1 58.33333%;\r\n  }\r\n  .flex-item-md-8 {\r\n    flex: 0 1 66.66666%;\r\n  }\r\n  .flex-item-md-9 {\r\n    flex: 0 1 74.99999%;\r\n  }\r\n  .flex-item-md-10 {\r\n    flex: 0 1 83.33333%;\r\n  }\r\n  .flex-item-md-11 {\r\n    flex: 0 1 91.66666%;\r\n  }\r\n  .flex-item-md-12 {\r\n    flex: 0 1 100%;\r\n  }\r\n}\r\n\r\n.responsive-margin {margin-top: 1%;}\r\n\r\n@media (min-width: 300px) {\r\n  .responsive-margin {margin-top: 28%;}\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .responsive-margin {margin-top: 12%;}\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .responsive-margin {margin-top: 2%;}\r\n}\r\n.margin-1 {\r\n  margin: 1%;\r\n}\r\n.margin-2 {\r\n  margin: 2%;\r\n}\r\n.margin-top-2 {\r\n  margin-top: 2%;\r\n}\r\n\r\n\r\n\r\n/* http://meyerweb.com/eric/tools/css/reset/\r\n   v2.0 | 20110126\r\n   License: none (public domain)\r\n*/\r\n\r\n/*html, body, div, span, applet, object, iframe,*/\r\n/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/\r\n/*a, abbr, acronym, address, big, cite, code,*/\r\n/*del, dfn, em, img, ins, kbd, q, s, samp,*/\r\n/*small, strike, strong, sub, sup, tt, var,*/\r\n/*b, u, i, center,*/\r\n/*dl, dt, dd, ol, ul, li,*/\r\n/*fieldset, form, label, legend,*/\r\n/*table, caption, tbody, tfoot, thead, tr, th, td,*/\r\n/*article, aside, canvas, details, embed,*/\r\n/*figure, figcaption, footer, header, hgroup,*/\r\n/*menu, nav, output, ruby, section, summary,*/\r\n/*time, mark, audio, video {*/\r\n  /*margin: 0;*/\r\n  /*padding: 0;*/\r\n  /*border: 0;*/\r\n  /*font-size: 100%;*/\r\n  /*font: inherit;*/\r\n  /*vertical-align: baseline;*/\r\n/*}*/\r\n/*!* HTML5 display-role reset for older browsers *!*/\r\n/*article, aside, details, figcaption, figure,*/\r\n/*footer, header, hgroup, menu, nav, section {*/\r\n  /*display: block;*/\r\n/*}*/\r\n/*body {*/\r\n  /*line-height: 1;*/\r\n/*}*/\r\n/*ol, ul {*/\r\n  /*list-style: none;*/\r\n/*}*/\r\n/*blockquote, q {*/\r\n  /*quotes: none;*/\r\n/*}*/\r\n/*blockquote:before, blockquote:after,*/\r\n/*q:before, q:after {*/\r\n  /*content: '';*/\r\n  /*content: none;*/\r\n/*}*/\r\n/*table {*/\r\n  /*border-collapse: collapse;*/\r\n  /*border-spacing: 0;*/\r\n/*}*/", ""]);
 
 // exports
 
@@ -74216,54 +74310,126 @@ var _utility = __webpack_require__(106);
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 var initialState = {
-    cart: [], cartLength: 0, loading: false, errors: null
+    cart: [], cartLength: 0, loading: false, errors: null, projectsPrice: [], productPrices: [], cartSumCost: 0
 };
 
 var cartADD = function cartADD(state, action) {
-    var temp = state.cart;var was = 0;var project = [];var length = state.cartLength;
+    var temp = state.cart;var was = 0;var project = [];var projectPrices = state.projectsPrice;var length = state.cartLength;console.log("cartADD reducer :");
+    console.log(temp);
     for (var i = 0; i < temp.length; i++) {
-        if (temp[i][0].name === action.projectName) {
-            for (var j = 0; j < temp.length; j++) {
-                if (temp[i][j].name === action.productName) {
-                    temp[i][j].num = action.number + temp[i][j].num;
+        if (action.projectName == null) {
+            console.log("projectName is null ");
+            if (temp[i][0].project == null) {
+                for (var j = 0; j < temp[i].length; j++) {
+                    console.log("cart Add " + j + " : " + temp[i][j].keyword);
+                    if (temp[i][j].keyword === action.productName) {
+                        temp[i][j].num = action.number + temp[i][j].num;
+                        was = 1;console.log("was = 1 ");
+                    }
+                }
+                if (was === 0) {
+                    temp[i].push({
+                        keyword: action.productName,
+                        num: action.number,
+                        category: action.category,
+                        project: action.projectName,
+                        price: 0
+                    });
+                    length = length + 1;
                     was = 1;
                 }
             }
-            if (was === 0) {
-                temp[i].push({ name: action.productName, num: action.number, category: action.category, projectName: action.projectName });
-                length = length + 1;was = 1;
+        } else {
+            console.log("projectName is not null ");
+            if (temp[i][0].project === action.projectName) {
+                for (var _j = 0; _j < temp.length; _j++) {
+                    if (temp[i][_j].keyword === action.productName) {
+                        temp[i][_j].num = action.number + temp[i][_j].num;
+                        was = 1;
+                    }
+                }
+                if (was === 0) {
+                    temp[i].push({
+                        keyword: action.productName,
+                        num: action.number,
+                        category: action.category,
+                        project: action.projectName,
+                        price: 0
+                    });
+                    length = length + 1;
+                    was = 1;
+                }
             }
         }
     }
     if (was === 0) {
-        project.push({ name: action.productName, num: action.number, category: action.category, projectName: action.projectName });
+        project.push({ keyword: action.productName, num: action.number, category: action.category, project: action.projectName, price: 0 });
         temp.push(project);
+        projectPrices.push({ project: action.projectName, cost: 0 });
+        console.log("cartADD reducer  projectPrices: ");console.log(projectPrices);
         length = length + 1;
     }
     localStorage.setItem('cart', JSON.stringify(temp));
-    console.log("cartADD reducer : ");console.log(temp);
-    return (0, _utility.updateObject)(state, { cart: temp, cartLength: length });
+    return (0, _utility.updateObject)(state, { cart: temp, cartLength: length, projectsPrice: projectPrices });
+};
+
+var updateCartPrices = function updateCartPrices(state, action) {
+    var productPrices = state.productPrices;var cartSumCost = 0;
+    var temp = state.cart;var projectCost = [];console.log("updateCartPrices reducer productPrices:");console.log(productPrices);
+    for (var i = 0; i < temp.length; i++) {
+        var sumCost = 0;
+        for (var j = 0; j < temp[i].length; j++) {
+            for (var t = 0; t < productPrices.length; t++) {
+                if (productPrices[t].productName === temp[i][j].keyword) {
+                    temp[i][j].price = productPrices[t].productPrice;
+                    sumCost = sumCost + temp[i][j].price * temp[i][j].num;
+                }
+            }
+        }
+        projectCost.push({ projectName: temp[i][0].project, cost: sumCost });
+        cartSumCost = cartSumCost + sumCost;
+    }
+    // localStorage.setItem('cart', JSON.stringify(temp));
+    console.log(temp);console.log(projectCost);
+    var test = state.cart;
+    return (0, _utility.updateObject)(state, { cart: test, projectsPrice: projectCost, cartSumCost: cartSumCost });
+};
+
+var addProductPrice = function addProductPrice(state, action) {
+    var productPrices = state.productPrices;
+    productPrices.push({ productName: action.productName, productPrice: action.productPrice });
+    console.log("addProductPrice reducer");console.log(productPrices);
+    return (0, _utility.updateObject)(state, { productPrices: productPrices });
 };
 
 var cartRemove = function cartRemove(state, action) {
-    var temp = state.cart;
-    temp = temp.filter(function (el) {
-        return el !== action.name;
-    });
+    var temp = state.cart;var cartLength = 0;var projectsPrice = state.projectPrices;
+    if (temp.length > 0) {
+        temp[0] = temp[0].filter(function (el) {
+            return el.keyword !== action.keyword;
+        });
+        if (temp[0].length === 0) {
+            temp = [];
+        } else {
+            cartLength = temp[0].length;
+        }
+        localStorage.setItem('cart', JSON.stringify(temp));
+    }
     localStorage.setItem('cart', JSON.stringify(temp));
-    return (0, _utility.updateObject)(state, { cart: temp, cartLength: temp.length });
+    console.log("cartRemove reducer : ");console.log(temp);
+    return (0, _utility.updateObject)(state, { cart: temp, cartLength: cartLength });
 };
 
 var cartRemoveAll = function cartRemoveAll(state, action) {
     localStorage.removeItem('cart');
-    return (0, _utility.updateObject)(state, { cart: [], cartLength: 0 });
+    return (0, _utility.updateObject)(state, { cart: [], cartLength: 0, projectsPrice: [] });
 };
 
 var cartChangeNum = function cartChangeNum(state, action) {
     var temp = state.cart;
     for (var i = 0; i < temp.length; i++) {
-        if (temp[i].name === action.productName) {
-            console.log('cartChangeNum');console.log(action.productName);
+        if (temp[i].keyword === action.productkeyword) {
+            console.log('cartChangeNum');console.log(action.productkeyword);
             temp[i].num = action.number;
         }
     }
@@ -74299,6 +74465,10 @@ var reducer = function reducer() {
             return storeCart(state, action);
         case actionTypes.SET_LOADING_AND_ERROR:
             return setLoadingAndError(state, action);
+        case actionTypes.UPDATE_CART_PRICES:
+            return updateCartPrices(state, action);
+        case actionTypes.ADD_PRODUCT_PRICE:
+            return addProductPrice(state, action);
         default:
             return state;
     }
@@ -74316,7 +74486,7 @@ exports.default = reducer;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.authCheckState = exports.setAuthRedirectPath = exports.authGoogle = exports.auth = exports.checkAuthTimeout = exports.logout = exports.authFail = exports.authSuccess = exports.authStart = undefined;
+exports.authCheckState = exports.setAuthRedirectPath = exports.authGoogle = exports.auth = exports.checkAuthTimeout = exports.sendlogoutToReducer = exports.logout = exports.authFail = exports.authSuccess = exports.authStart = undefined;
 
 var _axios = __webpack_require__(9);
 
@@ -74356,10 +74526,18 @@ var authFail = exports.authFail = function authFail(error) {
 };
 
 var logout = exports.logout = function logout() {
-    localStorage.removeItem('token');
-    localStorage.removeItem('userData');
-    localStorage.removeItem('cart');
-    localStorage.removeItem('cartLength');
+    return function (dispatch) {
+        localStorage.removeItem('token');
+        localStorage.removeItem('userData');
+        localStorage.removeItem('cart');
+        localStorage.removeItem('cartLength');
+        localStorage.removeItem('firstLogin');
+        dispatch(sendlogoutToReducer());
+        dispatch(CartActions.removeAllCart());
+    };
+};
+
+var sendlogoutToReducer = exports.sendlogoutToReducer = function sendlogoutToReducer() {
     return {
         type: actionTypes.AUTH_LOGOUT
     };
@@ -74389,7 +74567,7 @@ var auth = exports.auth = function auth(email, password, url) {
                 localStorage.setItem('token', response.data.token);
                 localStorage.setItem('userData', JSON.stringify(response.data.userData));
                 dispatch(authSuccess(response.data.token, response.data.userData));
-                dispatch(CartActions.sendCartToServer());
+                dispatch(CartActions.updateCart(response.data.token));
                 dispatch(checkAuthTimeout(10000));
             } else {
                 console.log("Erorr");
@@ -74427,10 +74605,14 @@ var authCheckState = exports.authCheckState = function authCheckState() {
     return function (dispatch) {
         var token = localStorage.getItem('token');
         var userData = localStorage.getItem('userData');
+        var firstLogin = localStorage.getItem('firstLogin'); // for send cart to server when log in
+
         // console.log("authCheckState");console.log(token);
         // dispatch(logout());
+        // dispatch(CartActions.removeAllCart());
         if (!token) {
-            // dispatch(logout());
+            // console.log("authCheckState");console.log("token null");
+            dispatch(CartActions.updateCart(null));
         } else {
             // const expirationDate = new Date(localStorage.getItem('expirationDate'));
             // if (expirationDate <= new Date()) {
@@ -74439,7 +74621,10 @@ var authCheckState = exports.authCheckState = function authCheckState() {
             // console.log("authCheckState");console.log(token);
 
             dispatch(authSuccess(token, JSON.parse(userData)));
-            dispatch(CartActions.getCartFromServer(token));
+            if (firstLogin !== 'false' || firstLogin === null) {
+                dispatch(CartActions.updateCart(token));
+                localStorage.setItem('firstLogin', 'false');
+            }
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }
         }
@@ -74535,6 +74720,18 @@ var _Project = __webpack_require__(468);
 
 var _Project2 = _interopRequireDefault(_Project);
 
+var _Followup = __webpack_require__(495);
+
+var _Followup2 = _interopRequireDefault(_Followup);
+
+var _Factor = __webpack_require__(496);
+
+var _Factor2 = _interopRequireDefault(_Factor);
+
+var _require_auth = __webpack_require__(497);
+
+var _require_auth2 = _interopRequireDefault(_require_auth);
+
 __webpack_require__(472);
 
 __webpack_require__(474);
@@ -74589,11 +74786,12 @@ var RouteAPI = function (_Component) {
                     _react2.default.createElement(
                         _reactRouterDom.Switch,
                         null,
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/SetFactorInfo', component: _SetFactorInfo2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Follow-up', component: _Project2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Projects/:projectName', component: _Project2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Projects', component: _Projects2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/Logout', component: _Logout2.default }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/SetFactorInfo', component: (0, _require_auth2.default)(_SetFactorInfo2.default, null) }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Follow-up', component: (0, _require_auth2.default)(_Followup2.default, null) }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Factors/:factorNumber', component: (0, _require_auth2.default)(_Factor2.default, null) }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Projects/:projectName', component: (0, _require_auth2.default)(_Project2.default, null) }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/User/Projects', component: (0, _require_auth2.default)(_Projects2.default, null) }),
+                        _react2.default.createElement(_reactRouterDom.Route, { path: '/Logout', component: (0, _require_auth2.default)(_Logout2.default, null) }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/googleLogin/:token', component: _GoogleLogin2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/google/:token', component: _GoogleRegPass2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/search/:category/:keyword', component: _showSearchProductResult2.default }),
@@ -74602,7 +74800,6 @@ var RouteAPI = function (_Component) {
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/online-conversion-calculator', component: _Conversions2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/Signup', component: _Signup2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/Login', component: _Login2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/Logout', component: _Logout2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _main2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { component: _My404Component2.default })
                     )
@@ -75376,7 +75573,7 @@ var App = function (_Component) {
                   ),
                   _react2.default.createElement(
                     'button',
-                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5 pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
+                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5\r pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
                     '\u0645\u0634\u0627\u0647\u062F\u0647 \u0622\u0645\u0648\u0632\u0634'
                   )
                 )
@@ -75395,7 +75592,7 @@ var App = function (_Component) {
                   ),
                   _react2.default.createElement(
                     'button',
-                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5 pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
+                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5\r pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
                     '\u0645\u0634\u0627\u0647\u062F\u0647 \u0622\u0645\u0648\u0632\u0634'
                   )
                 )
@@ -75414,7 +75611,7 @@ var App = function (_Component) {
                   ),
                   _react2.default.createElement(
                     'button',
-                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5 pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
+                    { className: 'text-center btn btn-primary pt-lg-3 pb-lg-3 pr-lg-5 pl-lg-5\r pt-md-2 pb-lg-2 pr-md-4 pl-md-4 pt-sm-1 pb-sm-1 pr-sm-2 pl-sm-2 pt-0 pb-0 pr-1 pl-1' },
                     '\u06A9\u0644\u06CC\u06A9 \u06A9\u0646'
                   )
                 )
@@ -81720,7 +81917,7 @@ var Search = function (_Component) {
             var newValue = _ref2.newValue;
 
             if (newValue.length > 3) {
-                console.log(newValue);
+                // console.log(newValue);
                 var url = _URLs2.default.base_URL + _URLs2.default.search_part + newValue;
                 _axios2.default.get(url).then(function (response) {
                     console.log(response.data[1]);
@@ -81730,7 +81927,7 @@ var Search = function (_Component) {
                             searchSug.push({ name: item.manufacturer_part_number });
                             return null;
                         });
-                        console.log(searchSug);
+                        // console.log(searchSug);
                     }
                 }).catch(function (err) {});
             }
@@ -84924,7 +85121,7 @@ var FooterCom = function FooterCom(props) {
                     _react2.default.createElement(
                         'div',
                         { dir: 'rtl', className: 'text-justify p-2' },
-                        '\u0633\u0627\u06CC\u062A \u0627\u062A\u0631\u06CC\u06A9\u0633 \u062F\u0631 \u062A\u0644\u0627\u0634 \u0627\u0633\u062A \u062A\u0627 \u062A\u0645\u0627\u0645\u06CC \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u060C \u0642\u0637\u0639\u0627\u062A \u0648 \u0627\u0645\u06A9\u0627\u0646\u0627\u062A\u06CC \u06A9\u0647 \u0645\u0646\u062F\u0633\u06CC\u0646 \u0646\u06CC\u0627\u0632 \u062F\u0627\u0631\u0646\u062F \u0631\u0627 \u0628\u0627 \u0627\u0631\u0632\u0627\u0646 \u062A\u0631\u06CC\u0646 \u0642\u06CC\u0645\u062A \u0641\u0631\u0627\u0647\u0645 \u0622\u0648\u0631\u062F. \u062A\u0645\u0627\u0645\u06CC \u0645\u062D\u0635\u0648\u0644\u0627\u062A \u0633\u0627\u06CC\u062A \u0647\u0645\u0631\u0627\u0647 \u0628\u0627 \u062C\u0632\u0626\u06CC\u0627\u062A \u062F\u0631 \u0633\u0627\u06CC\u062A \u0642\u0631\u0627\u0631 \u062F\u0627\u062F\u0647 \u0634\u062F\u0647 \u0627\u0633\u062A. \u0634\u0645\u0627 \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0627 \u0645\u0648\u062A\u0648\u0631 \u062C\u0633\u062A \u0648 \u062C\u0648\u06CC \u0633\u0627\u06CC\u062A \u0645\u062D\u0635\u0648\u0644 \u0645\u0648\u0631\u062F \u0646\u06CC\u0627\u0632 \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0631\u0627\u062D\u062A\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0646\u06CC\u062F. \u0647\u0645\u0686\u0646\u06CC\u0646 \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u06AF\u0632\u0627\u0631\u0634 \u062E\u0631\u06CC\u062F\u0647\u0627\u06CC \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0635\u0648\u0631\u062A \u062C\u062F\u0627\u06AF\u0627\u0646\u0647 \u0628\u0631\u0627\u06CC \u0647\u0631 \u067E\u0631\u0648\u0698\u0647 \u0645\u0634\u0627\u0647\u062F\u0647 \u06A9\u0646\u06CC\u062F.'
+                        '\u0633\u0627\u06CC\u062A \u0627\u062A\u0631\u06CC\u06A9\u0633 \u062F\u0631 \u062A\u0644\u0627\u0634 \u0627\u0633\u062A \u062A\u0627 \u062A\u0645\u0627\u0645\u06CC \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u060C \u0642\u0637\u0639\u0627\u062A \u0648 \u0627\u0645\u06A9\u0627\u0646\u0627\u062A\u06CC \u06A9\u0647 \u0645\u0647\u0646\u062F\u0633\u06CC\u0646 \u0646\u06CC\u0627\u0632 \u062F\u0627\u0631\u0646\u062F \u0631\u0627 \u0628\u0627 \u0627\u0631\u0632\u0627\u0646 \u062A\u0631\u06CC\u0646 \u0642\u06CC\u0645\u062A \u0641\u0631\u0627\u0647\u0645 \u0622\u0648\u0631\u062F. \u062A\u0645\u0627\u0645\u06CC \u0645\u062D\u0635\u0648\u0644\u0627\u062A \u0633\u0627\u06CC\u062A \u0647\u0645\u0631\u0627\u0647 \u0628\u0627 \u062C\u0632\u0626\u06CC\u0627\u062A \u062F\u0631 \u0633\u0627\u06CC\u062A \u0642\u0631\u0627\u0631 \u062F\u0627\u062F\u0647 \u0634\u062F\u0647 \u0627\u0633\u062A. \u0634\u0645\u0627 \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0627 \u0645\u0648\u062A\u0648\u0631 \u062C\u0633\u062A \u0648 \u062C\u0648\u06CC \u0633\u0627\u06CC\u062A \u0645\u062D\u0635\u0648\u0644 \u0645\u0648\u0631\u062F \u0646\u06CC\u0627\u0632 \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0631\u0627\u062D\u062A\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0646\u06CC\u062F. \u0647\u0645\u0686\u0646\u06CC\u0646 \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u06AF\u0632\u0627\u0631\u0634 \u062E\u0631\u06CC\u062F\u0647\u0627\u06CC \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0635\u0648\u0631\u062A \u062C\u062F\u0627\u06AF\u0627\u0646\u0647 \u0628\u0631\u0627\u06CC \u0647\u0631 \u067E\u0631\u0648\u0698\u0647 \u0645\u0634\u0627\u0647\u062F\u0647 \u06A9\u0646\u06CC\u062F.'
                     )
                 ),
                 _react2.default.createElement(
@@ -89048,6 +89245,10 @@ var _URLs2 = _interopRequireDefault(_URLs);
 
 __webpack_require__(411);
 
+var _CartProject = __webpack_require__(492);
+
+var _CartProject2 = _interopRequireDefault(_CartProject);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -89057,8 +89258,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var prices = {};var counter = 0;
 
 var Cart = function (_Component) {
     _inherits(Cart, _Component);
@@ -89077,63 +89276,62 @@ var Cart = function (_Component) {
         return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Cart.__proto__ || Object.getPrototypeOf(Cart)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
             prices: {}, loading: true, priceRequestSend: false
         }, _this.deleteFromCart = function (productName, projectName) {
-            _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_cart_remove, { token: _this.props.token, keyword: productName, project: projectName }).then(function (response) {
-                console.log("deleteFromCart");console.log(response);
-                _this.props.restoreCart(response);
-                _reactSAlert2.default.success("از سبد خرید حذف شد", {
-                    position: 'bottom-right',
-                    effect: 'scale',
-                    beep: false,
-                    timeout: 4000,
-                    offset: 100
-                });
-            }).catch(function (err) {
-                console.log(err);
-                _reactSAlert2.default.error('اختلالی پیش آمدعه است،دوباره امتحن کنید', {
-                    position: 'bottom-right',
-                    effect: 'scale',
-                    beep: false,
-                    timeout: 4000,
-                    offset: 100
-                });
-            });
-        }, _this.setInitialForPriceInput = function () {
-            console.log("setInitialForPriceInput");console.log(prices);console.log(_this.state.loading);
-            if (Object.keys(prices).length > 0 && !_this.state.priceRequestSend) {
-                var pricesBuf = {};counter = 0;
-                console.log("sendRequest");
-                Object.keys(prices).map(function (property, j) {
-                    console.log(j + " : " + property);
-                    _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.product_get_price, { keyword: property }).then(function (response) {
-                        counter++;
-                        console.log(j + " : " + counter);
-                        console.log(response);
-                        pricesBuf[property] = response.data.unit_price;
-                        if (counter === Object.keys(prices).length) {
-                            console.log("get last response ");
-                            console.log(pricesBuf);
-                            _this.setState({ prices: pricesBuf, loading: false });
-                        }
-                    }).catch(function (err) {
-                        console.log(err);
+            if (_this.props.token) {
+                console.log("removeFromCart with token");
+                _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_cart_remove, {
+                    token: _this.props.token,
+                    keyword: productName,
+                    project: projectName
+                }).then(function (response) {
+                    console.log("deleteFromCart");
+                    console.log(response);
+                    _this.props.restoreCart(response);
+                    _reactSAlert2.default.success("از سبد خرید حذف شد", {
+                        position: 'bottom-right',
+                        effect: 'scale',
+                        beep: false,
+                        timeout: 4000,
+                        offset: 100
+                    });
+                }).catch(function (err) {
+                    console.log(err);
+                    _reactSAlert2.default.error('اختلالی پیش آمدعه است،دوباره امتحن کنید', {
+                        position: 'bottom-right',
+                        effect: 'scale',
+                        beep: false,
+                        timeout: 4000,
+                        offset: 100
                     });
                 });
-                _this.setState({ priceRequestSend: true });
             } else {
-                console.log("prices array is zero");
+                console.log("removeFromCart reducer without token");
+                _this.props.removeFromCart(productName, projectName);
             }
+        }, _this.getProjectCost = function (i) {
+            console.log(' projectsPrice  ');console.log(i);
+            console.log(_this.props.projectsPrice);
+            console.log(' getProjectCost productPrices ');console.log(_this.props.productPrices);
+            if (_this.props.projectsPrice.length > 0) {
+                return _this.props.projectsPrice[0].cost;
+            }
+        }, _this.renderCartTable = function () {
+            var cartLsit = _this.props.cart.map(function (project, i) {
+                // let entry = project.map((list,j) => {
+                //     return (<CartProductPrice deleteFromCart={this.deleteFromCart} keyword={list.keyword} num={list.num} project={list.project} />);
+                // });
+                return _react2.default.createElement(_CartProject2.default, { key: i, project: project, deleteFromCart: _this.deleteFromCart });
+            });
+            return cartLsit;
         }, _temp), _possibleConstructorReturn(_this, _ret);
     }
 
     _createClass(Cart, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
-            prices = {};
-            console.log("Cart Component");console.log(this.props.token);
+            console.log("Cart componentDidMount");console.log(this.props.token);
             if (this.props.token) {
                 this.props.getCartFromServer(this.props.token);
             } else {
-                console.log("Cart Component");console.log(this.props.cart);
                 if (this.props.cart.length === 0) {
                     console.log("this.props.checkCartStore()");
                     this.props.checkCartStore();
@@ -89143,160 +89341,28 @@ var Cart = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
-            var _this2 = this;
-
-            var cartLsit = void 0;var buyButton = null;var sum = null;
-            console.log('cart render if');console.log(this.props.cartLoading);
-            if (!this.props.cartLoading) {
-                console.log('cart render');console.log(this.props.cart);console.log(this.props.cartLoading);
-                if (Number(this.props.cart) === 550) {
-                    cartLsit = _react2.default.createElement(
-                        'h1',
-                        { className: 'text-center' },
-                        '\u0633\u0628\u062F \u062E\u0631\u06CC\u062F \u0634\u0645\u0627 \u062E\u0627\u0644\u06CC \u0647\u0633\u062A'
-                    );
-                } else if (this.props.cart.length > 0) {
-                    cartLsit = this.props.cart.map(function (project, i) {
-                        var entry = project.map(function (list, j) {
-                            prices[list.name] = 0;
-                            return _react2.default.createElement(
-                                'tr',
-                                { key: i * 100 + j },
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    _react2.default.createElement(
-                                        'button',
-                                        { onClick: function onClick() {
-                                                return _this2.deleteFromCart(list.name, list.projectName);
-                                            } },
-                                        _react2.default.createElement('i', { 'class': 'fa fa-trash', 'aria-hidden': 'true' })
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    list.name
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    list.num
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    _react2.default.createElement(
-                                        'span',
-                                        { hidden: _this2.state.loading },
-                                        _this2.state.prices[list.name]
-                                    ),
-                                    _react2.default.createElement(_reactSpinners.ClipLoader, { size: '50', color: '#123abc', loading: _this2.state.loading })
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    _react2.default.createElement(
-                                        'span',
-                                        { hidden: _this2.state.loading },
-                                        _this2.state.prices[list.name] * list.num
-                                    ),
-                                    _react2.default.createElement(_reactSpinners.ClipLoader, { size: '50', color: '#123abc', loading: _this2.state.loading })
-                                )
-                            );
-                        });
-                        return _react2.default.createElement(
-                            'div',
-                            { key: i },
-                            _react2.default.createElement(
-                                'h3',
-                                null,
-                                project[0].project
-                            ),
-                            _react2.default.createElement(
-                                'table',
-                                { className: 'table table-striped' },
-                                _react2.default.createElement(
-                                    'thead',
-                                    null,
-                                    _react2.default.createElement(
-                                        'th',
-                                        null,
-                                        '\u062D\u0630\u0641 \u0627\u0632 \u0633\u0628\u062F \u062E\u0631\u06CC\u062F'
-                                    ),
-                                    _react2.default.createElement(
-                                        'th',
-                                        null,
-                                        '\u0646\u0627\u0645 \u0645\u062D\u0635\u0648\u0644'
-                                    ),
-                                    _react2.default.createElement(
-                                        'th',
-                                        null,
-                                        '\u062A\u0639\u062F\u0627\u062F'
-                                    ),
-                                    _react2.default.createElement(
-                                        'th',
-                                        null,
-                                        '\u0642\u06CC\u0645\u062A \u0648\u0627\u062D\u062F'
-                                    ),
-                                    _react2.default.createElement(
-                                        'th',
-                                        null,
-                                        '\u0642\u06CC\u0645\u062A \u0645\u062C\u0645\u0648\u0639'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'tbody',
-                                    null,
-                                    entry,
-                                    _react2.default.createElement(
-                                        'tr',
-                                        null,
-                                        _react2.default.createElement('td', null),
-                                        _react2.default.createElement('td', null),
-                                        _react2.default.createElement('td', null),
-                                        _react2.default.createElement(
-                                            'td',
-                                            null,
-                                            _react2.default.createElement(
-                                                'h3',
-                                                { className: 'cart-responsive-font' },
-                                                '\u062C\u0645\u0639 \u06A9\u0644 :'
-                                            )
-                                        ),
-                                        _react2.default.createElement(
-                                            'td',
-                                            null,
-                                            _react2.default.createElement(
-                                                'h3',
-                                                { className: 'cart-responsive-font' },
-                                                '20000 \u062A\u0648\u0645\u0627\u0646'
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement('br', null)
-                        );
-                    });
-                    sum = _react2.default.createElement(
-                        'h2',
-                        null,
-                        '\u062C\u0645\u0639 \u06A9\u0644 : 20000 \u062A\u0648\u0645\u0627\u0646'
-                    );
-                    buyButton = _react2.default.createElement(
-                        _reactRouterDom.Link,
-                        { to: '/User/SetFactorInfo', className: 'btn btn-success' },
-                        '\u0646\u0647\u0627\u06CC\u06CC \u06A9\u0631\u062F\u0646 \u062E\u0631\u06CC\u062F'
-                    );
-                    this.setInitialForPriceInput();
-                } else {
-                    cartLsit = _react2.default.createElement(
-                        'h1',
-                        { className: 'text-center' },
-                        '\u0633\u0628\u062F \u062E\u0631\u06CC\u062F \u0634\u0645\u0627 \u062E\u0627\u0644\u06CC \u0647\u0633\u062A'
-                    );
-                }
+            var cartList = void 0;var buyButton = null;var sum = null;
+            if (this.props.cartLength > 0) {
+                //} else
+                cartList = this.renderCartTable();
+                sum = _react2.default.createElement(
+                    'h2',
+                    null,
+                    '\u062C\u0645\u0639 \u06A9\u0644 : ',
+                    this.props.cartSumCost,
+                    ' \u062A\u0648\u0645\u0627\u0646'
+                );
+                buyButton = _react2.default.createElement(
+                    _reactRouterDom.Link,
+                    { to: '/User/SetFactorInfo', className: 'btn btn-success' },
+                    '\u0646\u0647\u0627\u06CC\u06CC \u06A9\u0631\u062F\u0646 \u062E\u0631\u06CC\u062F'
+                );
+            } else {
+                cartList = _react2.default.createElement(
+                    'h1',
+                    { className: 'text-center' },
+                    '\u0633\u0628\u062F \u062E\u0631\u06CC\u062F \u0634\u0645\u0627 \u062E\u0627\u0644\u06CC \u0647\u0633\u062A'
+                );
             }
 
             return _react2.default.createElement(
@@ -89304,7 +89370,7 @@ var Cart = function (_Component) {
                 { className: 'container table-responsive text-center searchResultContainer' },
                 _react2.default.createElement('br', null),
                 _react2.default.createElement('br', null),
-                cartLsit,
+                cartList,
                 sum,
                 _react2.default.createElement('br', null),
                 buyButton,
@@ -89331,6 +89397,12 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
         },
         restoreCart: function restoreCart(response) {
             return dispatch(actions.restoreCart(response));
+        },
+        removeFromCart: function removeFromCart(productName, projectName) {
+            return dispatch(actions.removeFromCart(productName, projectName));
+        },
+        updateCartPrices: function updateCartPrices(productPrices) {
+            return dispatch(actions.updateCartPrices(productPrices));
         }
     };
 };
@@ -89338,9 +89410,12 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 var mapStateToProps = function mapStateToProps(state) {
     return {
         cart: state.cart.cart,
-        cartLength: state.cart.cart,
+        cartLength: state.cart.cartLength,
         cartLoading: state.cart.loading,
-        token: state.auth.token
+        token: state.auth.token,
+        projectsPrice: state.cart.projectsPrice,
+        productPrices: state.cart.productPrices,
+        cartSumCost: state.cart.cartSumCost
     };
 };
 
@@ -89386,7 +89461,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\r\n\r\n@media (min-width: 576px) {\r\n    .cart-responsive-font {\r\n        font-size: 75%;\r\n    }\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.cart-responsive-font {\r\n    font-size: 150%;\r\n}\r\n@media (max-width: 576px) {\r\n    .cart-responsive-font {\r\n        font-size: 75%;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
@@ -89452,9 +89527,9 @@ var _customStyling = __webpack_require__(431);
 
 var _customStyling2 = _interopRequireDefault(_customStyling);
 
-var _CardWrapper = __webpack_require__(32);
+var _SearchedProductPrice = __webpack_require__(494);
 
-var _CardWrapper2 = _interopRequireDefault(_CardWrapper);
+var _SearchedProductPrice2 = _interopRequireDefault(_SearchedProductPrice);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -89484,7 +89559,7 @@ var showSearchProductResult = function (_Component) {
 
         return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = showSearchProductResult.__proto__ || Object.getPrototypeOf(showSearchProductResult)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
             searchKey: '', data: '', dataParts: [], dataCode: '', dataFilters: [], open: false, prices: {}, projects: [],
-            tableHeaderS: '', filters: {}, loading: true, number: {}, loadingAddCart: true, productName: '', category: '',
+            tableHeaderS: '', filters: {}, loading: true, number: 1, loadingAddCart: true, productName: '', category: '',
             projectName: null
         }, _this.sort = function (property, kind) {
             console.log("sort");
@@ -89512,16 +89587,13 @@ var showSearchProductResult = function (_Component) {
             url = url.replace('?filters=', '/');
             _this.props.history.push(url);
             window.location.reload();
-        }, _this.setNumber = function (e, num) {
-            // console.log('num');console.log(num);console.log('e');console.log(e.target.value);
-            var temp = _this.state.number;temp[num] = e.target.value;_this.setState({ number: temp });
-        }, _this.addToCart = function (productName, category) {
+        }, _this.addToCart = function (productName, category, number) {
             if (_this.props.token) {
                 _this.setState({ loadingAddCart: true });
                 // console.log("number one :");console.log(this.state.number[productName]);
                 _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_cart_create, {
                     keyword: productName,
-                    num: _this.state.number[productName],
+                    num: number,
                     token: _this.props.token, project: _this.state.projectName
                 }).then(function (response) {
                     console.log(response);console.log("this.state.projectName");console.log(_this.state.projectName);
@@ -89546,7 +89618,7 @@ var showSearchProductResult = function (_Component) {
                     _this.setState({ loadingAddCart: false });
                 });
             } else {
-                _this.props.addToCart(productName, _this.state.number[productName], category, null);
+                _this.props.addToCart(productName, _this.state.number, category, null);
                 _reactSAlert2.default.success('به سبد خرید اضافه شد', {
                     position: 'bottom-right',
                     effect: 'scale',
@@ -89584,12 +89656,12 @@ var showSearchProductResult = function (_Component) {
                     });
                 });
             }
-        }, _this.onOpenModal = function (productName, category) {
+        }, _this.onOpenModal = function (productName, category, number) {
             if (_this.props.token) {
                 _this.setState({ open: true });
-                _this.setState({ productName: productName, category: category });
+                _this.setState({ productName: productName, category: category, number: number });
             } else {
-                _this.addToCart(productName, category);
+                _this.addToCart(productName, category, number);
             }
         }, _this.onCloseModal = function () {
             _this.setState({ open: false });
@@ -89598,6 +89670,7 @@ var showSearchProductResult = function (_Component) {
                 console.log("projects");console.log(response);
                 _this.setState({ projects: response.data });
             }).catch(function (err) {
+                console.log("get projects error");
                 console.log(err);
             });
         }, _this.selectChange = function (event) {
@@ -89620,19 +89693,27 @@ var showSearchProductResult = function (_Component) {
             // if(temp !== '') { url = url + '&filters='+temp; }
             this.setState({ searchKey: this.props.match.params.keyword });
             _axios2.default.get(url).then(function (response) {
-                console.log("componentDidMount");
-                console.log(response);
-                console.log(_dataCode2.default.partSearch);
+                // console.log("componentDidMount");
+                // console.log(response);
+                // console.log(dataCode.partSearch);
                 if (response.data[0] === _dataCode2.default.partSearch) {
-                    console.log("IS EQUAL");
+                    // console.log("IS EQUAL");
                     _this2.setState({ dataCode: response.data[0], dataParts: response.data[2], dataFilters: response.data[3], tableHeaderS: response.data[5] });
                 }
                 _this2.setState({ loading: false });
             }).catch(function (err) {
-                console.log(err);
+                console.log("componentDidMount searchKey");console.log(err);
             });
-            this.getProjects();
+            if (this.props.token) {
+                this.getProjects();
+            }
         }
+
+        // setNumber = (e,num) => {
+        //     // console.log('num');console.log(num);console.log('e');console.log(e.target.value);
+        //    let temp = this.state.number;temp[num] = e.target.value; this.setState({number: temp});
+        // }
+
     }, {
         key: 'render',
         value: function render() {
@@ -89690,30 +89771,11 @@ var showSearchProductResult = function (_Component) {
                         return temp;
                     }
                 });
-                this.setInitialForPriceInput();
+                // this.setInitialForPriceInput();
                 dataParts = this.state.dataParts.map(function (item, i) {
                     var entry = Object.keys(item).map(function (property, j) {
                         if (property === "unit_price") {
-                            return _react2.default.createElement(
-                                'td',
-                                { key: property },
-                                _react2.default.createElement(
-                                    'p',
-                                    { hidden: _this3.state.loadingAddCart },
-                                    _this3.state.prices[item['manufacturer_part_number']]
-                                ),
-                                _react2.default.createElement('input', { value: _this3.state.number[item['manufacturer_part_number']], onChange: function onChange(e) {
-                                        return _this3.setNumber(e, item['manufacturer_part_number']);
-                                    }, type: 'number', className: 'form-control', placeholder: '1' }),
-                                _react2.default.createElement(
-                                    'button',
-                                    { hidden: _this3.state.loadingAddCart, onClick: function onClick() {
-                                            return _this3.onOpenModal(item['manufacturer_part_number'], item[property]);
-                                        }, className: 'btn btn-success', style: { margin: '5px' } },
-                                    '\u062E\u0631\u06CC\u062F'
-                                ),
-                                _react2.default.createElement(_reactSpinners.ClipLoader, { color: '#123abc', loading: _this3.state.loadingAddCart })
-                            );
+                            return _react2.default.createElement(_SearchedProductPrice2.default, { key: property, keyword: item['manufacturer_part_number'], category: item[property], openModal: _this3.onOpenModal });
                         } else if (property === "hd_image") {
                             return _react2.default.createElement(
                                 'td',
@@ -89859,7 +89921,7 @@ var showSearchProductResult = function (_Component) {
                         _react2.default.createElement(
                             'button',
                             { onClick: function onClick() {
-                                    return _this3.addToCart(_this3.state.productName, _this3.state.category);
+                                    return _this3.addToCart(_this3.state.productName, _this3.state.category, _this3.state.number);
                                 }, className: 'btn btn-success horizontal-center' },
                             '\u0627\u0636\u0627\u0641\u0647 \u0628\u0647 \u0633\u0628\u062F \u062E\u0631\u06CC\u062F'
                         ),
@@ -92211,6 +92273,14 @@ var _CardWrapper = __webpack_require__(32);
 
 var _CardWrapper2 = _interopRequireDefault(_CardWrapper);
 
+var _URLs = __webpack_require__(10);
+
+var _URLs2 = _interopRequireDefault(_URLs);
+
+var _axios = __webpack_require__(9);
+
+var _axios2 = _interopRequireDefault(_axios);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -92237,19 +92307,34 @@ var SetFactorInfo = function (_Component) {
 
         return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SetFactorInfo.__proto__ || Object.getPrototypeOf(SetFactorInfo)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
             data: {
-                projectName: ''
+                address: '', phone: ''
             },
+            price: 0, number: '',
             errors: {}
         }, _this.onChange = function (e) {
             return _this.setState({
                 data: _extends({}, _this.state.data, _defineProperty({}, e.target.name, e.target.value))
             });
-        }, _this.newProject = function () {}, _temp), _possibleConstructorReturn(_this, _ret);
+        }, _this.confirmFactor = function () {}, _temp), _possibleConstructorReturn(_this, _ret);
     }
 
     _createClass(SetFactorInfo, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            console.log("SetFactorInfo");
+            _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_cart_submit, { token: this.props.token }).then(function (response) {
+                console.log("deleteFromCart");console.log(response);
+                _this2.setState({ price: response.data.price, number: response.data.number });
+            }).catch(function (err) {
+                console.log(err);
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
+            console.log("SetFactorInfo render");
             var data = this.state.data;
             return _react2.default.createElement(
                 'div',
@@ -92259,12 +92344,15 @@ var SetFactorInfo = function (_Component) {
                     null,
                     _react2.default.createElement(
                         'form',
-                        null,
+                        { method: 'post', action: _URLs2.default.base_URL + _URLs2.default.user_cart_confirm },
                         _react2.default.createElement(
                             'h2',
                             null,
-                            '\u0634\u0645\u0627\u0631\u0647 \u0641\u0627\u06A9\u062A\u0648\u0631 : 425648 '
+                            '\u0634\u0645\u0627\u0631\u0647 \u0641\u0627\u06A9\u062A\u0648\u0631 : ',
+                            this.state.number,
+                            ' '
                         ),
+                        _react2.default.createElement('input', { name: 'token', value: this.props.token, hidden: true }),
                         _react2.default.createElement(
                             'div',
                             { className: 'form-group' },
@@ -92273,7 +92361,7 @@ var SetFactorInfo = function (_Component) {
                                 null,
                                 '\u0622\u062F\u0631\u0633'
                             ),
-                            _react2.default.createElement('input', { type: 'text', className: 'form-control' })
+                            _react2.default.createElement('input', { name: 'address', value: data.address, onChange: this.onChange, type: 'text', className: 'form-control' })
                         ),
                         _react2.default.createElement(
                             'div',
@@ -92283,7 +92371,7 @@ var SetFactorInfo = function (_Component) {
                                 null,
                                 '\u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646'
                             ),
-                            _react2.default.createElement('input', { type: 'text', className: 'form-control' })
+                            _react2.default.createElement('input', { name: 'phone', value: data.phone, onChange: this.onChange, type: 'text', className: 'form-control' })
                         ),
                         _react2.default.createElement(
                             'div',
@@ -92291,7 +92379,9 @@ var SetFactorInfo = function (_Component) {
                             _react2.default.createElement(
                                 'h3',
                                 null,
-                                '\u0645\u0628\u0644\u063A \u067E\u0631\u062F\u0627\u062E\u062A\u06CC : 20000 \u062A\u0648\u0645\u0627\u0646'
+                                '\u0645\u0628\u0644\u063A \u067E\u0631\u062F\u0627\u062E\u062A\u06CC : ',
+                                this.state.price,
+                                ' \u062A\u0648\u0645\u0627\u0646'
                             )
                         ),
                         _react2.default.createElement(
@@ -92314,7 +92404,7 @@ var SetFactorInfo = function (_Component) {
 
 var mapStateToProps = function mapStateToProps(state) {
     return {
-        cart: state.cart.cart
+        token: state.auth.token
     };
 };
 
@@ -97287,6 +97377,1110 @@ exports.push([module.i, "body.react-confirm-alert-body-element {\n  overflow: hi
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 491 */,
+/* 492 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactSpinners = __webpack_require__(20);
+
+var _reactSAlert = __webpack_require__(19);
+
+var _reactSAlert2 = _interopRequireDefault(_reactSAlert);
+
+var _axios = __webpack_require__(9);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _index = __webpack_require__(12);
+
+var actions = _interopRequireWildcard(_index);
+
+var _reactRedux = __webpack_require__(8);
+
+var _URLs = __webpack_require__(10);
+
+var _URLs2 = _interopRequireDefault(_URLs);
+
+var _CartProductPrice = __webpack_require__(493);
+
+var _CartProductPrice2 = _interopRequireDefault(_CartProductPrice);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CartProject = function (_Component) {
+    _inherits(CartProject, _Component);
+
+    function CartProject() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, CartProject);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CartProject.__proto__ || Object.getPrototypeOf(CartProject)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+            projectPrice: 0, loading: true
+        }, _this.calculateProjectPrice = function (cost) {
+            var temp = _this.state.projectPrice;
+            temp = temp + cost;
+            _this.setState({ projectPrice: temp });
+        }, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(CartProject, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            var entry = this.props.project.map(function (list, j) {
+                return _react2.default.createElement(_CartProductPrice2.default, { calculateProjectPrice: _this2.calculateProjectPrice, deleteFromCart: _this2.props.deleteFromCart, keyword: list.keyword, num: list.num, project: list.project });
+            });
+            return _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                    'h3',
+                    null,
+                    this.props.project[0].project
+                ),
+                _react2.default.createElement(
+                    'table',
+                    { className: 'table table-striped' },
+                    _react2.default.createElement(
+                        'thead',
+                        null,
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u062D\u0630\u0641 \u0627\u0632 \u0633\u0628\u062F \u062E\u0631\u06CC\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0646\u0627\u0645 \u0645\u062D\u0635\u0648\u0644'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u062A\u0639\u062F\u0627\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0648\u0627\u062D\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0645\u062C\u0645\u0648\u0639'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'tbody',
+                        null,
+                        entry,
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    '\u062C\u0645\u0639 \u06A9\u0644 :'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    this.state.projectPrice,
+                                    ' \u062A\u0648\u0645\u0627\u0646'
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement('br', null)
+            );
+        }
+    }]);
+
+    return CartProject;
+}(_react.Component);
+
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        token: state.auth.token
+    };
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+    return {
+        addProductPrice: function addProductPrice(productName, productPrice) {
+            return dispatch(actions.addProductPrice(productName, productPrice));
+        }
+    };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(CartProject);
+
+/***/ }),
+/* 493 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactSpinners = __webpack_require__(20);
+
+var _reactSAlert = __webpack_require__(19);
+
+var _reactSAlert2 = _interopRequireDefault(_reactSAlert);
+
+var _axios = __webpack_require__(9);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _index = __webpack_require__(12);
+
+var actions = _interopRequireWildcard(_index);
+
+var _reactRedux = __webpack_require__(8);
+
+var _URLs = __webpack_require__(10);
+
+var _URLs2 = _interopRequireDefault(_URLs);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CartProductPrice = function (_Component) {
+    _inherits(CartProductPrice, _Component);
+
+    function CartProductPrice() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, CartProductPrice);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CartProductPrice.__proto__ || Object.getPrototypeOf(CartProductPrice)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+            price: 0, loading: true, number: 1
+        }, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(CartProductPrice, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.product_get_price, { keyword: this.props.keyword }).then(function (response) {
+                console.log("CartProductPrice price");
+                _this2.setState({ price: response.data.unit_price, loading: false });
+                _this2.props.addProductPrice(_this2.props.keyword, response.data.unit_price);
+                _this2.props.calculateProjectPrice(response.data.unit_price * _this2.props.num);
+            }).catch(function (err) {
+                console.log("CartProductPrice price error");
+                console.log(err);
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this3 = this;
+
+            return _react2.default.createElement(
+                'tr',
+                null,
+                _react2.default.createElement(
+                    'td',
+                    null,
+                    _react2.default.createElement(
+                        'button',
+                        { onClick: function onClick() {
+                                return _this3.props.deleteFromCart(_this3.props.keyword, _this3.props.project);
+                            } },
+                        _react2.default.createElement('i', { className: 'fa fa-trash', 'aria-hidden': 'true' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'td',
+                    null,
+                    this.props.keyword
+                ),
+                _react2.default.createElement(
+                    'td',
+                    null,
+                    this.props.num
+                ),
+                _react2.default.createElement(
+                    'td',
+                    null,
+                    _react2.default.createElement(
+                        'span',
+                        { hidden: this.state.loading },
+                        this.state.price
+                    ),
+                    _react2.default.createElement(_reactSpinners.ClipLoader, { size: '50', color: '#123abc', loading: this.state.loading })
+                ),
+                _react2.default.createElement(
+                    'td',
+                    null,
+                    _react2.default.createElement(
+                        'span',
+                        { hidden: this.state.loading },
+                        this.state.price * this.props.num
+                    ),
+                    _react2.default.createElement(_reactSpinners.ClipLoader, {
+                        size: '50', color: '#123abc', loading: this.state.loading })
+                )
+            );
+        }
+    }]);
+
+    return CartProductPrice;
+}(_react.Component);
+
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        isAuthenticated: state.auth.token !== null,
+        userRole: state.auth.userRole,
+        cartLength: state.cart.cartLength,
+        token: state.auth.token
+    };
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+    return {
+        checkAuthState: function checkAuthState() {
+            return dispatch(actions.authCheckState());
+        },
+        addProductPrice: function addProductPrice(productName, productPrice) {
+            return dispatch(actions.addProductPrice(productName, productPrice));
+        }
+    };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(CartProductPrice);
+
+/***/ }),
+/* 494 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactSpinners = __webpack_require__(20);
+
+var _reactSAlert = __webpack_require__(19);
+
+var _reactSAlert2 = _interopRequireDefault(_reactSAlert);
+
+var _axios = __webpack_require__(9);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _index = __webpack_require__(12);
+
+var actions = _interopRequireWildcard(_index);
+
+var _reactRedux = __webpack_require__(8);
+
+var _URLs = __webpack_require__(10);
+
+var _URLs2 = _interopRequireDefault(_URLs);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SearchedProductPrice = function (_Component) {
+    _inherits(SearchedProductPrice, _Component);
+
+    function SearchedProductPrice() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, SearchedProductPrice);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SearchedProductPrice.__proto__ || Object.getPrototypeOf(SearchedProductPrice)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+            price: 0, loadingAddCart: true, number: 1
+        }, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(SearchedProductPrice, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.product_get_price, { keyword: this.props.keyword }).then(function (response) {
+                console.log("SearchedProductPrice price");
+                _this2.setState({ price: response.data.unit_price, loadingAddCart: false });
+            }).catch(function (err) {
+                console.log("SearchedProductPrice price error");
+                console.log(err);
+            });
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {}
+
+        // <td key={property}><p hidden={this.state.loadingAddCart}>{this.state.prices[item['manufacturer_part_number']]}</p>
+        // <input value={this.state.number[item['manufacturer_part_number']]} onChange={(e) => this.setNumber(e,item['manufacturer_part_number'])} type="number" className="form-control" placeholder="1"/>
+        // <button hidden={this.state.loadingAddCart} onClick={()=> this.onOpenModal(item['manufacturer_part_number'],item[property])} className="btn btn-success" style={{margin: '5px'}}>خرید</button>
+        // <ClipLoader color={'#123abc'} loading={this.state.loadingAddCart} />
+        // </td>
+
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this3 = this;
+
+            return _react2.default.createElement(
+                'td',
+                null,
+                _react2.default.createElement(
+                    'p',
+                    { hidden: this.state.loadingAddCart },
+                    this.state.price
+                ),
+                _react2.default.createElement('input', { value: this.state.number, onChange: function onChange(e) {
+                        return _this3.setState({ number: e.target.value });
+                    }, type: 'number', className: 'form-control', placeholder: '1' }),
+                _react2.default.createElement(
+                    'button',
+                    { hidden: this.state.loadingAddCart, onClick: function onClick() {
+                            return _this3.props.openModal(_this3.props.keyword, _this3.props.category, _this3.state.number);
+                        }, className: 'btn btn-success', style: { margin: '5px' } },
+                    '\u062E\u0631\u06CC\u062F'
+                ),
+                _react2.default.createElement(_reactSpinners.ClipLoader, { color: '#123abc', loading: this.state.loadingAddCart })
+            );
+        }
+    }]);
+
+    return SearchedProductPrice;
+}(_react.Component);
+
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        isAuthenticated: state.auth.token !== null,
+        userRole: state.auth.userRole,
+        cartLength: state.cart.cartLength,
+        token: state.auth.token
+    };
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+    return {
+        checkAuthState: function checkAuthState() {
+            return dispatch(actions.authCheckState());
+        },
+        logout: function logout() {
+            return dispatch(actions.logout());
+        }
+    };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(SearchedProductPrice);
+
+/***/ }),
+/* 495 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(7);
+
+var _axios = __webpack_require__(9);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _URLs = __webpack_require__(10);
+
+var _URLs2 = _interopRequireDefault(_URLs);
+
+var _reactRedux = __webpack_require__(8);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Followup = function (_Component) {
+    _inherits(Followup, _Component);
+
+    function Followup() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, Followup);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Followup.__proto__ || Object.getPrototypeOf(Followup)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(Followup, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            console.log("componentDidMount Followup URL : ");console.log(_URLs2.default.base_URL + _URLs2.default.user_get_orders);
+            console.log(this.props.token);
+            _axios2.default.post(_URLs2.default.base_URL + _URLs2.default.user_get_orders, { token: this.props.token }).then(function (response) {
+                console.log("componentDidMount Followup response");console.log(response);
+                // this.setState({price: response.data.price, number: response.data.number});
+            }).catch(function (err) {
+                console.log("componentDidMount Followup err");
+                console.log(err);
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'container responsive-margin', style: { direction: "ltr" } },
+                _react2.default.createElement(
+                    'h1',
+                    { className: 'text-center' },
+                    '\u0633\u0641\u0627\u0631\u0634 \u0647\u0627 '
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { style: { direction: 'rtl', textAlign: "right" } },
+                    _react2.default.createElement(
+                        'table',
+                        { className: 'table table-striped' },
+                        _react2.default.createElement(
+                            'thead',
+                            null,
+                            _react2.default.createElement(
+                                'th',
+                                null,
+                                '\u0634\u0645\u0627\u0631\u0647 \u0641\u0627\u06A9\u062A\u0648\u0631'
+                            ),
+                            _react2.default.createElement(
+                                'th',
+                                null,
+                                '\u062A\u0627\u0631\u06CC\u062E'
+                            ),
+                            _react2.default.createElement(
+                                'th',
+                                null,
+                                '\u0633\u0627\u0639\u062A'
+                            ),
+                            _react2.default.createElement(
+                                'th',
+                                null,
+                                '\u0647\u0632\u06CC\u0646\u0647 \u06A9\u0644'
+                            ),
+                            _react2.default.createElement(
+                                'th',
+                                null,
+                                '\u0648\u0636\u0639\u06CC\u062A'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'tbody',
+                            null,
+                            _react2.default.createElement(
+                                'tr',
+                                null,
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    _react2.default.createElement(
+                                        _reactRouterDom.Link,
+                                        { to: "/User/Factors/" + "1234" },
+                                        ' 1234 '
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '1397/02/01'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '02:31'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '10000 \u062A\u0648\u0645\u0627\u0646'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '\u062F\u0631 \u062D\u0627\u0644 \u062C\u0645\u0639 \u0622\u0648\u0631\u06CC'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'tr',
+                                null,
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    _react2.default.createElement(
+                                        _reactRouterDom.Link,
+                                        { to: "/User/Factors/" + "1234" },
+                                        '1234'
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '1397/02/01'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '02:31'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '22000 \u062A\u0648\u0645\u0627\u0646'
+                                ),
+                                _react2.default.createElement(
+                                    'td',
+                                    null,
+                                    '\u062A\u062D\u0648\u06CC\u0644 \u062F\u0627\u062F\u0647 \u0634\u062F'
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('br', null)
+            );
+        }
+    }]);
+
+    return Followup;
+}(_react.Component);
+
+;
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        userRole: state.auth.userRole,
+        cartLength: state.cart.cartLength,
+        token: state.auth.token
+    };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, null)(Followup);
+
+/***/ }),
+/* 496 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(7);
+
+var _reactSpinners = __webpack_require__(20);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Factor = function (_Component) {
+    _inherits(Factor, _Component);
+
+    function Factor() {
+        var _ref;
+
+        var _temp, _this, _ret;
+
+        _classCallCheck(this, Factor);
+
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
+
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Factor.__proto__ || Object.getPrototypeOf(Factor)).call.apply(_ref, [this].concat(args))), _this), _this.getFactors = function () {}, _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    _createClass(Factor, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            console.log("Project");console.log("render");
+            return _react2.default.createElement(
+                'div',
+                { className: 'container responsive-margin', style: { direction: "rtl" } },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'flex-row space-around' },
+                    _react2.default.createElement(
+                        'h2',
+                        { className: 'text-right' },
+                        '\u0641\u0627\u06A9\u062A\u0648\u0631 \u0634\u0645\u0627\u0631\u0647 1234'
+                    ),
+                    _react2.default.createElement(
+                        'span',
+                        { className: 'text-left' },
+                        '\u0633\u0627\u0639\u062A: 11:34 '
+                    ),
+                    _react2.default.createElement(
+                        'span',
+                        { className: 'text-left' },
+                        '\u062A\u0627\u0631\u06CC\u062E : 1397/05/28 '
+                    )
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('hr', null),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'h3',
+                    { className: 'text-center' },
+                    '\u067E\u0631\u0648\u0698\u0647 \u0641\u0644\u0627\u0646'
+                ),
+                _react2.default.createElement(
+                    'table',
+                    { className: 'table table-striped' },
+                    _react2.default.createElement(
+                        'thead',
+                        null,
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0646\u0627\u0645 \u0645\u062D\u0635\u0648\u0644'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u062A\u0639\u062F\u0627\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0648\u0627\u062D\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0645\u062C\u0645\u0648\u0639'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'tbody',
+                        null,
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                'LM386'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '1000 \u062A\u0648\u0645\u0627\u0646'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5000 \u062A\u0648\u0645\u0627\u0646'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                'LM386'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '1000 \u062A\u0648\u0645\u0627\u0646'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5000 \u062A\u0648\u0645\u0627\u0646'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    '\u062C\u0645\u0639 \u06A9\u0644 :'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    '20000 \u062A\u0648\u0645\u0627\u0646'
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('hr', null),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'h3',
+                    { className: 'text-center' },
+                    '\u067E\u0631\u0648\u0698\u0647 \u0641\u0644\u0627\u0646'
+                ),
+                _react2.default.createElement(
+                    'table',
+                    { className: 'table table-striped' },
+                    _react2.default.createElement(
+                        'thead',
+                        null,
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0646\u0627\u0645 \u0645\u062D\u0635\u0648\u0644'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u062A\u0639\u062F\u0627\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0648\u0627\u062D\u062F'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            '\u0642\u06CC\u0645\u062A \u0645\u062C\u0645\u0648\u0639'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'tbody',
+                        null,
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                'LM386'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '1000 \u062A\u0648\u0645\u0627\u0646'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5000 \u062A\u0648\u0645\u0627\u0646'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                'LM386'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '1000 \u062A\u0648\u0645\u0627\u0646'
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                '5000 \u062A\u0648\u0645\u0627\u0646'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'tr',
+                            null,
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement('td', null),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    '\u062C\u0645\u0639 \u06A9\u0644 :'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'td',
+                                null,
+                                _react2.default.createElement(
+                                    'h3',
+                                    { className: 'cart-responsive-font' },
+                                    '20000 \u062A\u0648\u0645\u0627\u0646'
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'h2',
+                    { className: 'text-center' },
+                    '\u062C\u0645\u0639 \u06A9\u0644 : 20000 \u062A\u0648\u0645\u0627\u0646'
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement('br', null)
+            );
+        }
+    }]);
+
+    return Factor;
+}(_react.Component);
+
+;
+
+exports.default = Factor;
+
+/***/ }),
+/* 497 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+exports.default = function (ComposedComponent, role) {
+    var Authentication = function (_Component) {
+        _inherits(Authentication, _Component);
+
+        function Authentication() {
+            _classCallCheck(this, Authentication);
+
+            return _possibleConstructorReturn(this, (Authentication.__proto__ || Object.getPrototypeOf(Authentication)).apply(this, arguments));
+        }
+
+        _createClass(Authentication, [{
+            key: 'componentWillMount',
+            value: function componentWillMount() {
+                this.props.checkAuthState();
+                if (!this.props.isAuthenticated || this.props.userRole !== role) {
+                    this.context.router.history.push('/');
+                }
+            }
+        }, {
+            key: 'componentWillUpdate',
+            value: function componentWillUpdate(nextProps) {
+                if (!nextProps.isAuthenticated || this.props.userRole !== role) {
+                    this.context.router.history.push('/');
+                }
+            }
+        }, {
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(ComposedComponent, this.props);
+            }
+        }]);
+
+        return Authentication;
+    }(_react.Component);
+
+    Authentication.contextTypes = {
+        router: _propTypes2.default.object
+    };
+
+
+    var mapStateToProps = function mapStateToProps(state) {
+        return {
+            isAuthenticated: state.auth.token !== null,
+            userRole: state.auth.userRole
+        };
+    };
+
+    var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+        return {
+            checkAuthState: function checkAuthState() {
+                return dispatch(actions.authCheckState());
+            }
+        };
+    };
+
+    return (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Authentication);
+};
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(8);
+
+var _index = __webpack_require__(12);
+
+var actions = _interopRequireWildcard(_index);
+
+var _propTypes = __webpack_require__(2);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 /***/ })
 /******/ ]);

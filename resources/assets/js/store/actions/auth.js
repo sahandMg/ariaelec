@@ -24,10 +24,18 @@ export const authFail = (error) => {
 };
 
 export const logout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('userData');
-    localStorage.removeItem('cart');
-    localStorage.removeItem('cartLength');
+    return dispatch => {
+        localStorage.removeItem('token');
+        localStorage.removeItem('userData');
+        localStorage.removeItem('cart');
+        localStorage.removeItem('cartLength');
+        localStorage.removeItem('firstLogin');
+        dispatch(sendlogoutToReducer());
+        dispatch(CartActions.removeAllCart());
+    }
+};
+
+export const sendlogoutToReducer = () => {
     return {
         type: actionTypes.AUTH_LOGOUT
     };
@@ -59,7 +67,7 @@ export const auth = (email, password,url) => {
                     localStorage.setItem('token', response.data.token);
                     localStorage.setItem('userData', JSON.stringify(response.data.userData));
                     dispatch(authSuccess(response.data.token,response.data.userData));
-                    dispatch(CartActions.sendCartToServer());
+                    dispatch(CartActions.updateCart(response.data.token));
                     dispatch(checkAuthTimeout(10000));
                 } else {
                     console.log("Erorr");
@@ -99,10 +107,14 @@ export const authCheckState = () => {
     return dispatch => {
         const token = localStorage.getItem('token');
         const userData = localStorage.getItem('userData');
+        const firstLogin = localStorage.getItem('firstLogin'); // for send cart to server when log in
+
         // console.log("authCheckState");console.log(token);
         // dispatch(logout());
+        // dispatch(CartActions.removeAllCart());
         if (!token) {
-            // dispatch(logout());
+            // console.log("authCheckState");console.log("token null");
+            dispatch(CartActions.updateCart(null));
         } else {
             // const expirationDate = new Date(localStorage.getItem('expirationDate'));
             // if (expirationDate <= new Date()) {
@@ -111,7 +123,10 @@ export const authCheckState = () => {
             // console.log("authCheckState");console.log(token);
 
             dispatch(authSuccess(token,JSON.parse(userData)));
-             dispatch(CartActions.getCartFromServer(token));
+            if(firstLogin !== 'false' || firstLogin === null) {
+                dispatch(CartActions.updateCart(token));
+                localStorage.setItem('firstLogin', 'false');
+            }
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }
         }
