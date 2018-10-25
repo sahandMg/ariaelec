@@ -1,5 +1,8 @@
 import React , { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import URLs from "../../../URLs";
+import { connect } from 'react-redux';
 
 class Followup extends Component {
 
@@ -7,11 +10,21 @@ class Followup extends Component {
     }
 
     componentDidMount() {
+        console.log("componentDidMount Followup URL : ");console.log(URLs.base_URL+URLs.user_get_orders);
+        console.log(this.props.token);
+        axios.post(URLs.base_URL+URLs.user_get_orders, {token: this.props.token})
+            .then(response => {
+                console.log("componentDidMount Followup response");console.log(response);
+                // this.setState({price: response.data.price, number: response.data.number});
+            })
+            .catch(err => {
+                console.log("componentDidMount Followup err");
+                console.log(err);
+            });
     }
 
 
     render() {
-        console.log("Project");console.log("render");
         return (
             <div className="container responsive-margin" style={{direction: "ltr"}}>
                 <h1 className="text-center">سفارش ها </h1>
@@ -44,7 +57,14 @@ class Followup extends Component {
         )
     }
 };
+const mapStateToProps = state => {
+    return {
+        userRole: state.auth.userRole,
+        cartLength: state.cart.cartLength,
+        token: state.auth.token
+    };
+};
 
-export default Followup;
+export default connect(mapStateToProps,null)(Followup);
 
 

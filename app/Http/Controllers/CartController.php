@@ -201,13 +201,13 @@ class CartController extends Controller
         try{
             $bom = Bom::where('user_id', Auth::guard('user')->id())->where('status',0)->firstOrFail();
         }catch (\Exception $exception){
-            return '550';
+            return [];
         }
         if(count($bom->carts) != 0){
             $carts = $bom->carts;
 
         }else{
-            return '550';
+            return [];
         }
 
 
@@ -509,11 +509,22 @@ class CartController extends Controller
 // send user Boms
     public function getUserBom(){
 
-        $bom = DB::table('boms')->where('user_id',Auth::guard('user')->id())->first();
+        $boms = DB::table('boms')->where('user_id',Auth::guard('user')->id())->get();
 
-        $bom->created_at = Jalalian::forge($bom->created_at)->toString();
+        if(sizeof($boms) == 0){
 
-         return $bom;
+            return '404';
+        }else{
+
+            foreach ($boms as $bom){
+
+                $bom->created_at = Jalalian::forge($bom->created_at)->toString();
+            }
+
+
+            return $boms;
+        }
+
     }
 //    Get token,order_number and return user cart
     public function getUserBill(Request $request){

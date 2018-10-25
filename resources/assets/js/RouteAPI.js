@@ -20,6 +20,7 @@ import Conversions from './components/Conversions/Conversions';
 import Project from './components/User/Projects/Project/Project';
 import Followup from './components/User/Followup/Followup';
 import Factor from './components/User/Factor/Factor';
+import RequireAuth from './components/require_auth/require_auth';
 // import './react-select.css';
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
@@ -41,12 +42,12 @@ class RouteAPI extends Component {
                 <Alert stack={{limit: 3}} />
                 <main>
                     <Switch>
-                        <Route path="/User/SetFactorInfo" component={SetFactorInfo}/>
-                        <Route path="/User/Follow-up" component={Followup}/>
-                        <Route path="/User/Factors/:factorNumber" component={Factor}/>
-                        <Route path="/User/Projects/:projectName" component={Project}/>
-                        <Route path="/User/Projects" component={Projects}/>
-                        <Route path="/Logout" component={Logout}/>
+                        <Route path="/User/SetFactorInfo" component={RequireAuth(SetFactorInfo,null)}/>
+                        <Route path="/User/Follow-up" component={RequireAuth(Followup,null)}/>
+                        <Route path="/User/Factors/:factorNumber" component={RequireAuth(Factor,null)}/>
+                        <Route path="/User/Projects/:projectName" component={RequireAuth(Project,null)}/>
+                        <Route path="/User/Projects" component={RequireAuth(Projects,null)}/>
+                        <Route path="/Logout" component={RequireAuth(Logout,null)}/>
                         <Route path="/googleLogin/:token" component={GoogleLogin}/>
                         <Route path="/google/:token" component={GoogleRegPass}/>
                         <Route path="/search/:category/:keyword" component={showSearchProductResult}/>
@@ -55,7 +56,6 @@ class RouteAPI extends Component {
                         <Route path="/online-conversion-calculator" component={Conversions}/>
                         <Route path="/Signup" component={Signup}/>
                         <Route path="/Login" component={Login}/>
-                        <Route path="/Logout" component={Logout}/>
                         <Route exact path="/" component={Main}/>
                         <Route component={My404Component} />
                     </Switch>

@@ -17,6 +17,7 @@ class CartProductPrice extends Component {
                 console.log("CartProductPrice price");
                 this.setState({price: response.data.unit_price, loading: false});
                 this.props.addProductPrice(this.props.keyword, response.data.unit_price);
+                this.props.calculateProjectPrice(response.data.unit_price * this.props.num);
             })
             .catch(err => {
                 console.log("CartProductPrice price error");
@@ -24,9 +25,6 @@ class CartProductPrice extends Component {
             });
     }
 
-    componentWillUnmount() {
-
-    }
 
     render() {
 

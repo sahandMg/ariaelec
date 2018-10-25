@@ -29,6 +29,7 @@ export const logout = () => {
         localStorage.removeItem('userData');
         localStorage.removeItem('cart');
         localStorage.removeItem('cartLength');
+        localStorage.removeItem('firstLogin');
         dispatch(sendlogoutToReducer());
         dispatch(CartActions.removeAllCart());
     }
@@ -106,6 +107,8 @@ export const authCheckState = () => {
     return dispatch => {
         const token = localStorage.getItem('token');
         const userData = localStorage.getItem('userData');
+        const firstLogin = localStorage.getItem('firstLogin'); // for send cart to server when log in
+
         // console.log("authCheckState");console.log(token);
         // dispatch(logout());
         // dispatch(CartActions.removeAllCart());
@@ -120,7 +123,10 @@ export const authCheckState = () => {
             // console.log("authCheckState");console.log(token);
 
             dispatch(authSuccess(token,JSON.parse(userData)));
-            dispatch(CartActions.updateCart(token));
+            if(firstLogin !== 'false' || firstLogin === null) {
+                dispatch(CartActions.updateCart(token));
+                localStorage.setItem('firstLogin', 'false');
+            }
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }
         }

@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import URLs from '../../URLs';
 import './Cart.css';
-import CartProductPrice from './CartProductPrice/CartProductPrice';
+import CartProject from './CartProject/CartProject';
 
 class Cart extends Component {
 
@@ -21,7 +21,6 @@ class Cart extends Component {
        if(this.props.token) {
            this.props.getCartFromServer(this.props.token);
        } else {
-           console.log("Cart componentDidMount");console.log(this.props.cart);
            if(this.props.cart.length === 0) {
                console.log("this.props.checkCartStore()");
                this.props.checkCartStore();
@@ -76,29 +75,11 @@ class Cart extends Component {
 
     renderCartTable = () => {
         let cartLsit = this.props.cart.map((project, i) => {
-            let entry = project.map((list,j) => {
-                return (<CartProductPrice deleteFromCart={this.deleteFromCart} keyword={list.keyword} num={list.num} project={list.project} />);
-            });
+            // let entry = project.map((list,j) => {
+            //     return (<CartProductPrice deleteFromCart={this.deleteFromCart} keyword={list.keyword} num={list.num} project={list.project} />);
+            // });
             return (
-                <div key={i}>
-                    <h3>{project[0].project}</h3>
-                    <table className="table table-striped">
-                        <thead>
-                        <th>حذف از سبد خرید</th><th>نام محصول</th><th>تعداد</th><th>قیمت واحد</th><th>قیمت مجموع</th>
-                        </thead>
-                        <tbody>
-                        {entry}
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td><h3 className="cart-responsive-font">جمع کل :</h3></td>
-                            <td><h3 className="cart-responsive-font">{this.getProjectCost(i)} تومان</h3></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <br/>
-                </div>
+               <CartProject  key={i} project={project} deleteFromCart={this.deleteFromCart} />
             );
         });
       return cartLsit;
@@ -106,23 +87,11 @@ class Cart extends Component {
 
     render() {
         let cartList;let buyButton = null;let sum = null;
-
-       // if(!this.props.cartLoading) {  {this.props.projectsPrice[i].cost}
-       //     console.log('cart render');console.log(this.props.cart);console.log(this.props.cartLoading);
-       //     if (Number(this.props.cart) === 550) {
-       //         cartLsit = <h1 className="text-center">سبد خرید شما خالی هست</h1>;
             if(this.props.cartLength > 0){  //} else
-               // if(this.props.cart[0].length > 0) {console.log('test');}
-                cartList = this.renderCartTable();
+               cartList = this.renderCartTable();
                sum = <h2>جمع کل : {this.props.cartSumCost} تومان</h2>;
                buyButton = <Link to="/User/SetFactorInfo" className="btn btn-success">نهایی کردن خرید</Link>;
-               // this.setInitialForPriceInput();
            } else { cartList = <h1 className="text-center">سبد خرید شما خالی هست</h1>;}
-       // } else if(!this.state.loading) {
-       //     cartLsit = this.renderCartTable();
-       //     sum = <h2>جمع کل : 20000 تومان</h2>;
-       //     buyButton = <Link to="/User/SetFactorInfo" className="btn btn-success">نهایی کردن خرید</Link>;
-       // }
 
         return(
             <div className="container table-responsive text-center searchResultContainer">

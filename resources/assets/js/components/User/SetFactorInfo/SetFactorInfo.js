@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import CardWrapper from "../../CardWrapper/CardWrapper";
 import URLs from "../../../URLs";
+import axios from 'axios';
 
 class SetFactorInfo extends Component {
     state = {
@@ -38,15 +39,16 @@ class SetFactorInfo extends Component {
         return (
             <div className="container" style={{direction: 'rtl'}}>
                 <CardWrapper>
-                    <form>
+                    <form method="post" action={URLs.base_URL+URLs.user_cart_confirm}>
                         <h2>شماره فاکتور : {this.state.number} </h2>
+                        <input name="token" value={this.props.token} hidden />
                         <div className="form-group">
                             <label>آدرس</label>
-                            <input value={data.address} onChange={this.onChange} type="text" className="form-control"/>
+                            <input name="address" value={data.address} onChange={this.onChange} type="text" className="form-control"/>
                         </div>
                         <div className="form-group">
                             <label>شماره تلفن</label>
-                            <input value={data.phone} onChange={this.onChange} type="text" className="form-control"/>
+                            <input name="phone" value={data.phone} onChange={this.onChange} type="text" className="form-control"/>
                         </div>
                         <div className="form-group">
                             <h3>مبلغ پرداختی : {this.state.price} تومان</h3>
