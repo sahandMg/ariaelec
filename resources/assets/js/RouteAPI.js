@@ -44,7 +44,7 @@ class RouteAPI extends Component {
                     <Switch>
                         <Route path="/User/SetFactorInfo" component={RequireAuth(SetFactorInfo,null)}/>
                         <Route path="/User/Follow-up" component={RequireAuth(Followup,null)}/>
-                        <Route path="/User/Factors/:factorNumber" component={RequireAuth(Factor,null)}/>
+                        <Route path="/User/Factors/:orderNumber" component={RequireAuth(Factor,null)}/>
                         <Route path="/User/Projects/:projectName" component={RequireAuth(Project,null)}/>
                         <Route path="/User/Projects" component={RequireAuth(Projects,null)}/>
                         <Route path="/Logout" component={RequireAuth(Logout,null)}/>

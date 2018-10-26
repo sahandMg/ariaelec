@@ -13,8 +13,9 @@ $(document).ready(function () {
     });
 
     $("body").click(function (e) {
-        if(e.target.classList.contains('navbar-sticky-bg')){
-
+        // console.log(e.target.classList);
+        if(e.target.classList.contains('navbar-sticky-bg') || e.target.classList.contains('list-group-item')){
+            // console.log("test navbar");
             $('.navbar-sticky')
                 .animate({"left": "100%"}, 'fast');
 
@@ -23,6 +24,16 @@ $(document).ready(function () {
                 $('.iconbar-container').toggleClass('change');
             });
         }
+    })
+
+    $(".list-group-item a").click(function (e) {
+        $('.navbar-sticky')
+            .animate({"left": "100%"}, 'fast');
+
+        $('.navbar-sticky-bg').fadeOut('slow',function () {
+            $("body").css({overflow : "visible"});
+            $('.iconbar-container').toggleClass('change');
+        });
     })
 
 });
