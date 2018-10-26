@@ -7,6 +7,7 @@ use App\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Morilog\Jalali\Jalalian;
 
@@ -23,6 +24,12 @@ class ProjectController extends Controller
 //        if($validator->fails()){
 //           return json_decode($validator->errors(),true)['name'];
 //        }
+
+        $prjNames = DB::table('projects')->where('user_id',Auth::id())->pluck('name');
+        if(sizeof($prjNames) > 0 ){
+
+            return 'نام پروژه تکراری است';
+        }
         $project = new Project();
         $project->name = $request->name;
         $project->user_id = Auth::id();
