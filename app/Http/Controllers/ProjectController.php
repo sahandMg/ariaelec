@@ -27,8 +27,10 @@ class ProjectController extends Controller
 
         $prjNames = DB::table('projects')->where('user_id',Auth::id())->pluck('name');
         if(sizeof($prjNames) > 0 ){
+            if(in_array($request->name,$prjNames->toArray())){
+                return 'نام پروژه تکراری است';
+            }
 
-            return 'نام پروژه تکراری است';
         }
         $project = new Project();
         $project->name = $request->name;
