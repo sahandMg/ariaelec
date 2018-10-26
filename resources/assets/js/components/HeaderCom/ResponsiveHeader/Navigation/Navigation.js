@@ -1,8 +1,62 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import AuxWrapper from '../../../AuxWrapper/AuxWrapper';
 import './Navigation.css';
+import Alert from 'react-s-alert';
+import URLs from "../../../../URLs";
+import * as actions from '../../../../store/actions/index';
 
-const Navigation = (props) => (
+class Navigation extends Component {
+
+    LogOutHandler = (e) => {
+        e.preventDefault();
+        // this.setState({loggingOut: true});
+        // this.props.logout();
+        // console.log("token 2 : "+this.props.token);
+        let url = URLs.base_URL+URLs.user_logout;
+        axios.post(url,{token: this.props.token})
+            .then(response => {
+                // console.log("Not error start");
+                // console.log(response);
+                this.props.logout();
+                // this.setState({loggingOut: false});
+                // this.props.history.push(`/`);
+                // console.log("Not error");
+            })
+            .catch(err => {
+                console.log("error");console.log(err);
+                // this.setState({loggingOut: false});
+                Alert.error('اختلالی پیش آمده است، لطفا دوباره امتحان کنید', {
+                    position: 'top-left',
+                    effect: 'scale',
+                    beep: false,
+                    timeout: 3000,
+                    offset: 100
+                });
+            });
+
+    }
+
+    render() {
+        let authlink;
+        if(this.props.token) {
+            authlink = (
+                <AuxWrapper>
+                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/User/Projects">پروژه ها</Link></li>
+                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/User/Follow-up">پیگیری سفارش ها</Link></li>
+                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="" onClick={this.LogOutHandler}>خروج</Link></li>
+                </AuxWrapper>
+            );
+        } else {
+            authlink = (
+               <AuxWrapper>
+                <li className="list-group-item text-right"><Link to="/Login">ورود</Link></li>
+                <li className="list-group-item text-right"><Link to="/Signup">ثبت نام</Link></li>
+               </AuxWrapper>
+            );
+        }
+        return (
         <div className="navbar-sticky-bg col-12 m-0 p-0">
             <div className="navbar-sticky col-md-6 col-sm-8 col-10 p-0">
                 <ul className="list-group list-group-flush p-0">
@@ -49,14 +103,28 @@ const Navigation = (props) => (
                     </li>
                     {/*<li className="list-group-item text-right"><a href="/">آموزش</a></li>*/}
                     {/*<li className="list-group-item text-right"><a href="/">مجله</a></li>*/}
-                    <li className="list-group-item text-right"><Link to="/online-conversion-calculator">محاسبه تبدیل</Link></li>
+                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/online-conversion-calculator">محاسبه تبدیل</Link></li>
                     {/*<li className="list-group-item text-right"><a href="/">فوت پرینت</a></li>*/}
-                    <li className="list-group-item text-right"><a href="/">ورود</a></li>
-                    <li className="list-group-item text-right"><a href="/">ثبت نام</a></li>
+                    {authlink}
                 </ul>
             </div>
         </div>
-);
+        )
+    }
+};
 
-export default Navigation;
+const mapStateToProps = state => {
+    return {
+        token: state.auth.token
+    };
+};
+
+const mapDispatchToProps = dispatch => {
+    return {
+        checkAuthState: () => dispatch( actions.authCheckState() ),
+        logout: () => dispatch( actions.logout() )
+    };
+};
+
+export default connect(mapStateToProps ,mapDispatchToProps)(Navigation);
 

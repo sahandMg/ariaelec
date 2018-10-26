@@ -126,6 +126,8 @@ export const authCheckState = () => {
             if(firstLogin !== 'false' || firstLogin === null) {
                 dispatch(CartActions.updateCart(token));
                 localStorage.setItem('firstLogin', 'false');
+            } else {
+                dispatch(CartActions.getCartFromServer(token));
             }
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }

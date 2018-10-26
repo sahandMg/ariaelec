@@ -1,10 +1,23 @@
 import React , { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {ClipLoader} from "react-spinners";
+import URLs from "../../../URLs";
+import axios from 'axios';
+import { connect } from 'react-redux';
+
 
 class Factor extends Component {
 
     componentDidMount() {
+        axios.post(URLs.base_URL+URLs.user_get_bill, {token: this.props.token, order_number: this.props.match.params.orderNumber})
+            .then(response => {
+                console.log("componentDidMount Factor response");console.log(response);
+                // this.setState({factors: response.data, loading: false});
+            })
+            .catch(err => {
+                console.log("componentDidMount Factor err");
+                console.log(err);this.setState({loading: false});
+            });
     }
 
     getFactors = () => {
@@ -89,6 +102,12 @@ class Factor extends Component {
     }
 };
 
-export default Factor;
+const mapStateToProps = state => {
+    return {
+        token: state.auth.token
+    };
+};
+
+export default connect(mapStateToProps)(Factor);
 
 
