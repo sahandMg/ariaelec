@@ -19,13 +19,15 @@ class ProjectController extends Controller
     }
 
     public function createProject(Request $request){
-        $validator = Validator::make($request->all(),['name'=>'unique:projects']);
-        if($validator->fails()){
-           return json_decode($validator->errors(),true)['name'];
-        }
+//        $validator = Validator::make($request->all(),['name'=>'unique:projects']);
+//        if($validator->fails()){
+//           return json_decode($validator->errors(),true)['name'];
+//        }
         $project = new Project();
         $project->name = $request->name;
         $project->user_id = Auth::id();
+        $project->status = 0;
+        $project->price = 0;
         $project->save();
         return 'پروژه شما ایجاد شد';
     }

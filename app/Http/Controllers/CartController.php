@@ -529,7 +529,15 @@ class CartController extends Controller
 //    Get token,order_number and return user cart
     public function getUserBill(Request $request){
 
-        $carts = Bom::where('order_number',$request->order_number)->first()->carts;
+        try{
+
+            $carts = Bom::where('order_number',$request->order_number)->first()->carts;
+            $bom = Bom::where('order_number',$request->order_number)->first();
+        }catch (\ErrorException $exception){
+
+            return 'ORDER NUMBER NOT FOUND!';
+        }
+
 //        $userCart = [];
         for ($t=0;$t<count($carts);$t++){
             if($carts[$t]['project_id'] != 0){
@@ -540,7 +548,6 @@ class CartController extends Controller
                     unset($temp[$i]['name']);
                     $temp[$i]['project'] = $prjName;
                 }
-
                 $userCart[$t] = $temp;
             }else{
                 $temp = array_values(unserialize($carts[$t]->name));
@@ -555,20 +562,10 @@ class CartController extends Controller
 
 
         }
-
-//        foreach ($carts as $cart){
-//            if($cart['project_id'] != 0){
-//                $prjName = DB::table('projects')->where('id',$cart['project_id'])->first()->name;
-//                array_push($userCart,unserialize($cart->name));
-//                array_push($userCart,$prjName);
-//
-//            }else{
-//                array_push($userCart,unserialize($cart->name));
-//                array_push($userCart,null);
-//
-//            }
-//        }
-
+         array_push($userCart,['order_number'=>$bom->order_number,
+             'date'=>Jalalian::forge($bom->updated_at)->toString(),
+             'totalPrice'=>$bom->price
+         ]);
         return ($userCart);
     }
 }
