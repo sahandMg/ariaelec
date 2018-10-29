@@ -20,6 +20,11 @@ import Conversions from './components/Conversions/Conversions';
 import Project from './components/User/Projects/Project/Project';
 import Followup from './components/User/Followup/Followup';
 import Factor from './components/User/Factor/Factor';
+import AdminControlPanel from './components/AdminControlPanel/AdminControlPanel';
+import AdminLogIn from './components/AdminControlPanel/AdminLogIn/AdminLogIn';
+import ContentManagerPanel from './components/ContentManagerPanel/ContentManagerPanel';
+import ContentManagerLogin from './components/ContentManagerPanel/ContentManagerLogin/ContentManagerLogin';
+import ContentDetail from './components/Content/ContentDetail/ContentDetail';
 import RequireAuth from './components/require_auth/require_auth';
 // import './react-select.css';
 import 'react-s-alert/dist/s-alert-default.css';
@@ -40,7 +45,7 @@ class RouteAPI extends Component {
             <AuxWrapper>
                 <HeaderCom/>
                 <Alert stack={{limit: 3}} />
-                <main>
+                <main className="flex-column">
                     <Switch>
                         <Route path="/User/SetFactorInfo" component={RequireAuth(SetFactorInfo,null)}/>
                         <Route path="/User/Follow-up" component={RequireAuth(Followup,null)}/>
@@ -56,6 +61,11 @@ class RouteAPI extends Component {
                         <Route path="/online-conversion-calculator" component={Conversions}/>
                         <Route path="/Signup" component={Signup}/>
                         <Route path="/Login" component={Login}/>
+                        <Route path="/articles/:id/:title" component={ContentDetail}/>
+                        <Route path="/ContentManagerPanel" component={RequireAuth(ContentManagerPanel,'cm')}/>
+                        <Route path="/AdminLogIn" component={AdminLogIn}/>
+                        <Route path="/AdminControlPanel" component={RequireAuth(AdminControlPanel,'admin')}/>
+                        <Route path="/ContentManagerLogin" component={ContentManagerLogin}/>
                         <Route exact path="/" component={Main}/>
                         <Route component={My404Component} />
                     </Switch>

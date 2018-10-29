@@ -56,7 +56,7 @@ export const auth = (email, password,url) => {
             email: email,
             password: password
         };
-
+        console.log("auth action");console.log(url);
         axios.post(url, authData)
             .then((response) => {
                 if(response.data !== 404)
@@ -66,8 +66,11 @@ export const auth = (email, password,url) => {
                     localStorage.setItem('expirationDate', expirationDate);
                     localStorage.setItem('token', response.data.token);
                     localStorage.setItem('userData', JSON.stringify(response.data.userData));
+                    console.log("auth");console.log(response);
                     dispatch(authSuccess(response.data.token,response.data.userData));
-                    dispatch(CartActions.updateCart(response.data.token));
+                    if(response.data.userData.role === null) {
+                        dispatch(CartActions.updateCart(response.data.token));
+                    }
                     dispatch(checkAuthTimeout(10000));
                 } else {
                     console.log("Erorr");
@@ -121,13 +124,17 @@ export const authCheckState = () => {
             //     dispatch(logout());
             // } else {
             // console.log("authCheckState");console.log(token);
-
-            dispatch(authSuccess(token,JSON.parse(userData)));
-            if(firstLogin !== 'false' || firstLogin === null) {
-                dispatch(CartActions.updateCart(token));
-                localStorage.setItem('firstLogin', 'false');
-            } else {
-                dispatch(CartActions.getCartFromServer(token));
+            let temp = JSON.parse(userData);
+            // console.log("authCheckState");console.log(temp);
+            dispatch(authSuccess(token,temp));
+            if(temp.role === null) {
+                // console.log("userData role");console.log(temp.userData);
+                if (firstLogin !== 'false' || firstLogin === null) {
+                    dispatch(CartActions.updateCart(token));
+                    localStorage.setItem('firstLogin', 'false');
+                } else {
+                    dispatch(CartActions.getCartFromServer(token));
+                }
             }
             //  dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             // }

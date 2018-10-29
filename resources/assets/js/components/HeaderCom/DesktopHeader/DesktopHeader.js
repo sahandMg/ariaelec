@@ -10,6 +10,7 @@ import ShoppingCart from '../../../assets/Images/shopping_cart.png';
 import Search from './Search/Search';
 import Navigation from './Navigation/Navigation';
 import URLs from "../../../URLs";
+import user_avatar from  "../../../assets/Images/user_avatar.png";
 
 class DesktopHeader extends Component {
 
@@ -78,7 +79,7 @@ class DesktopHeader extends Component {
                     <li hidden={this.state.loggingOut} className="breadcrumb-item user-menu">
                         <div className="User-area">
                             <div className="User-avtar">
-                                <img ref={node => this.node = node} src="http://f1s.000webhostapp.com/images/avatar/avatar5.png"
+                                <img ref={node => this.node = node} src={user_avatar}
                                      onClick={()=> this.setState({userIconClicked: !this.state.userIconClicked})}/>
                             </div>
                             <ul className={className}>

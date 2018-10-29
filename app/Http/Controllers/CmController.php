@@ -65,6 +65,7 @@ class CmController extends Controller
         $user = $_POST['user'];
         $detail = new Detail();
         $brief = new Brief();
+
         $brief->title = $request->title;
         $brief->abstract = $request->abstract;
         $brief->category = $request->category;
@@ -103,7 +104,7 @@ class CmController extends Controller
             // Cropper::crop($request,$img,$size ='100x100');
         }
 
-        return redirect('http://localhost:3000/ContentManagerPanel/images');
+        return redirect('http://localhost:80/ContentManagerPanel/images');
     }
 
     public function getImages(){

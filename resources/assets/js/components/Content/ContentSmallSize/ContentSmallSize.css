@@ -1,0 +1,48 @@
+.ContentSmallSize {
+    flex: 0 1 calc(25% - 1em);
+    text-align: right;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+.ContentSmallSize:hover {
+    top: -2px;
+    /*box-shadow: 0 4px 5px rgba(0,0,0,0.2);*/
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media screen and (max-width: 800px) {
+    .ContentSmallSize {
+        flex: 0 1 calc(50% - 1em);
+    }
+}
+@media screen and (max-width: 600px) {
+    .ContentSmallSize {
+        flex: 0 1 calc(100% - 1em);
+    }
+}
+
+.ContentSmallSize figure {
+   position: relative;
+}
+.ContentSmallSize figcaption {
+    position: absolute;
+    top: 180px;
+    color: white;
+    background-color: black;
+    padding: 4px 8px;
+    font-size: 100%;
+    font-weight: 400;
+}
+.ContentSmallSize h3 {
+    color: black;
+}
+.ContentSmallSize span {
+    color: #999999;
+}
+.ContentSmallSize P {
+    color: black;
+}
+.ContentSmallSize div {
+    padding: 1% 2%;
+}
