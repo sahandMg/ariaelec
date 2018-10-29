@@ -50,5 +50,15 @@
      <div id="example">
      </div>
      <script src="{{asset('js/app.js')}}" ></script>
+     <style>
+     @font-face {
+         font-family: myFirstFont;
+         src: url(font/3.woff);
+     }
+
+     body {
+         font-family: myFirstFont;
+     }
+     </style>
     </body>
 </html>

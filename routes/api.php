@@ -18,7 +18,8 @@ Route::post('/',function (){
 
 });
 
-Route::post('more-content','PageController@moreContent');
+Route::post('more-content/{category?}','PageController@moreContent');
+Route::get('videos','PageController@Videos');
 Route::post('home/{category?}','PageController@home');
 // ----------------------------- User Routes ----------------------------------------
 //[
@@ -38,11 +39,11 @@ Route::post('home/{category?}','PageController@home');
             Route::post('read','CartController@readCart');
             Route::post('edit','CartController@editCart');
 
-//         ----------  NEW APIs FOR TESTING ---------
+
             Route::post('add','CartController@addToCart');
             Route::post('confirm','CartController@confirm');
             Route::post('price','CartController@price');
-//        -------------------------------------------------
+
 
         });
 

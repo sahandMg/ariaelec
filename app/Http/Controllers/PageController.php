@@ -3,15 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Brief;
-use App\Http\Middleware\TerminateMiddleware;
+use GuzzleHttp\Client as GuzzleClient;
 use App\Image;
 use App\Repository\Cropper;
 use App\User;
 use App\Variable;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use phpDocumentor\Reflection\DocBlock\Tags\Var_;
 use Tymon\JWTAuth\Facades\JWTAuth;
+use Psr\Http\Message\ResponseInterface;
 
 class PageController extends Controller
 {
@@ -19,26 +18,33 @@ class PageController extends Controller
 
     public function home($category=null,Request $request){
 
-        $data = Brief::latest()->first()->id;
+      $dataId = Brief::orderBy('id','desc')->first()->id;
+      $contents = Brief::orderBy('id','desc')->get()->take($this->info);
         if($category){
-            $contents = Brief::where('category',$category)->where([['id','<',$data],['id','>',$data - $this->info]])->get();
-        }else{
-            if($data - $this->info < 0){
-                $contents = Brief::where('id','<=',$data)->get();
-            }else{
-
-                $contents = Brief::where([['id','<',$data],['id','>',$data - $this->info]])->get();
-            }
+            $contents = Brief::orderBy('id','desc')->where('category',$category)->get()->take($this->info);
         }
+        // else{
+        //     if($dataId - $this->info < 0){
+        //         $contents = Brief::where('id','<=',$dataId)->get();
+        //     }else{
+
+        //         $contents = Brief::where([['id','<',$dataId],['id','>',$dataId - $this->info]])->get();
+        //     }
+        // }
 
 
         return $contents;
     }
 
-    public function moreContent(Request $request){
+    public function moreContent($category=null,Request $request){
         $num = $request->num;
-        $data = Brief::latest()->first()->id;
-        $contents = Brief::where([['id','<=',($data - $this->info -($num -1)*10)],['id','>',$data - $this->info - $num*10]] )->get();
+        $dataId = Brief::orderBy('id','desc')->first()->id;
+        $contents = Brief::orderBy('id','desc')->skip($num*10)->take($this->info)->get();
+        if($category){
+            $contents = Brief::orderBy('id','desc')->where('category',$category)
+            ->skip($num*10)->take($this->info)->get();
+        }
+        // $contents = Brief::where([['id','<=',($dataId - $this->info -($num -1)*10)],['id','>',$dataId - $this->info - $num*10]] )->get();
         return $contents;
     }
 
@@ -76,6 +82,28 @@ class PageController extends Controller
 
             return redirect('crop');
         }
+    }
+
+    public function Videos(){
+        $client = new GuzzleClient();
+        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/';
+        $headers = ['Content-Type' => 'application/json'];
+        // $promise1 = $client->requestAsync('GET',$url,$headers)->then(function (ResponseInterface $response) {
+        //     $this->resp = $response->getBody()->getContents();
+        //     return $this->resp;
+        // });
+
+        // $promise1->wait();
+
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => $url
+));
+        $result = curl_exec($curl);
+        curl_close($curl);
+        return json_decode($result,true)['videobyuser'];
+
     }
 
 

@@ -479,7 +479,7 @@ class CartController extends Controller
         }
         return 200;
     }
-// Calculate total cart price for final confirmation
+// Calculate total BOM price for final confirmation
     public function price(){
 
         if(is_null(Bom::where([['user_id', Auth::guard('user')->id()],['status',0]])->first())){

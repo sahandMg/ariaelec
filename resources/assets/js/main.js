@@ -4,11 +4,39 @@ import SlideImage1 from './assets/Images/Slide1.jpg';
 import SlideImage2 from './assets/Images/Slide2.jpg';
 import SlideImage3 from './assets/Images/bg_3.png';
 import './App.css';
+import axios from 'axios';
+import ContentSmallSize from './components/Content/ContentSmallSize/ContentSmallSize';
+import { Link } from 'react-router-dom';
+
 
 class App extends Component {
+    state = {
+        contents: []
+    }
+    componentDidMount() {
+        axios.post('http://localhost:80/api/home')
+            .then((res) => {
+                console.log('res ContainerSmallSize');
+                console.log(res);
+                this.setState({contents: res.data});
+            })
+            .catch((error)=> {
+                console.log('error');
+                console.log(error);
+            });
+    }
+
   render() {
+      const contentsBrief = this.state.contents.map((obj,i) => {
+         if(i<4) {
+             return <ContentSmallSize id={obj.id} abstract={obj.abstract} category={obj.category} days={obj.days}
+                                      key={obj.id} image={obj.image} product={obj.product} title={obj.title}/>
+         }
+      });
     return (
-      <AuxWrapper>
+     <AuxWrapper>
+        {/*  Slide Show  */}
+       <div style={{backgroundColor: "white"}}>
         <div className="carousel-container col-lg-10 col-md-10 col-sm-10 col-12 ml-auto mr-auto mt-lg-2 slide-div">
           <div className="carousel slide" data-ride="carousel" id="carousel-demo">
             <ul className="carousel-indicators">
@@ -47,7 +75,18 @@ class App extends Component {
             </div>
           </div>
         </div>
-    <div className="feature-container text-center mt-3 mb-3 mt-lg-5 mb-lg-5 mt-md-4 mb-md-4 mt-sm-3 mb-sm-3 mt-2 mb-2 container-fluid">
+       </div>
+        <section>
+          <h2 className="text-center" style={{marginTop: "1%", marginBottom: '1%'}}>آخرین مقالات</h2>
+          <div className="flex space-around flex-wrap">
+              {contentsBrief}
+          </div>
+          <Link to="/articles" className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه مقالات</Link>
+          <br/>
+        </section>
+       {/*Show Features*/}
+       <section style={{backgroundColor: "white"}}>
+       <div className="feature-container text-center mt-3 mb-3 mt-lg-5 mb-lg-5 mt-md-4 mb-md-4 mt-sm-3 mb-sm-3 mt-2 mb-2 container-fluid">
       <div className="row">
         <div className="feature-card col-lg-4 col-md-4 col-sm-6 col-12 p-lg-0 p-md-0 p-sm-2 pb-3">
           <div className="feature-icon"><span className="fa fa-truck"></span></div>
@@ -75,7 +114,8 @@ class App extends Component {
         </div>
       </div>
     </div>
-  </AuxWrapper>
+       </section>
+     </AuxWrapper>
   );
   }
 }

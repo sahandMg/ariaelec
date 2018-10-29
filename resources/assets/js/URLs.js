@@ -6,6 +6,14 @@ export default {
     search_part: '/search-part?keyword=',
     search_part_category: '/search-part-comp?category=',
     product_get_price: '/get-price', // keyword => price
+    admin_log_in: '/admin/login',
+    admin_control_panel: '/admin/control-panel',
+    admin_control_cm_delete: '/admin/cm/delete',
+    admin_control_cm_register: '/admin/cm/register',
+    cm_login: '/cm/login',
+    cm_add_content: '/cm/content/add',
+    cm_add_image: '/cm/image/add',
+    cm_get_images: '/cm/image/get?token=',
     user_cart_create: '/user/cart/create',
     user_cart_read: '/user/cart/read',
     user_cart_remove: '/user/cart/edit', // token, keyword, project  => return cart
