@@ -20,6 +20,7 @@ Route::post('/',function (){
 
 Route::post('more-content/{category?}','PageController@moreContent');
 Route::get('videos','PageController@Videos');
+Route::get('more-videos','PageController@moreVideos');
 Route::post('home/{category?}','PageController@home');
 // ----------------------------- User Routes ----------------------------------------
 //[

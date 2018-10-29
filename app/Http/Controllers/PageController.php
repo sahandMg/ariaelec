@@ -97,12 +97,43 @@ class PageController extends Controller
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-    CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => $url
-));
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => $url
+        ));
         $result = curl_exec($curl);
         curl_close($curl);
-        return json_decode($result,true)['videobyuser'];
+        $results = json_decode($result,true)['videobyuser'];
+
+       $videos = array_splice($results,0, 4);
+        $list = [];
+       for ($i=0;$i<count($videos);$i++) {
+           $list[$i] = ['title'=>$videos[$i]['title'], 'frame'=>$videos[$i]['frame']];
+       }
+
+       return $list;
+
+    }
+
+    public function moreVideos(Request $request){
+//        $num = 1 2 3 ....
+        $num = $request->num;
+        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/';
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_RETURNTRANSFER => 1,
+            CURLOPT_URL => $url
+        ));
+        $result = curl_exec($curl);
+        curl_close($curl);
+        $results = json_decode($result,true)['videobyuser'];
+
+        $videos = array_splice($results,($num-1)*10,10);
+        $list = [];
+        for ($i=0;$i<count($videos);$i++) {
+            $list[$i] = ['title'=>$videos[$i]['title'], 'frame'=>$videos[$i]['frame']];
+        }
+
+        return $list;
 
     }
 
