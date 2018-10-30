@@ -1,6 +1,5 @@
 import React , {Component} from 'react';
 import { Link } from 'react-router-dom';
-import ContentImage1 from '../../../assets/content1.jpg';
 import './ContentSmallSize.css';
 
 class ContentSmallSize extends Component {

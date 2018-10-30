@@ -27,6 +27,7 @@ import ContentManagerLogin from './components/ContentManagerPanel/ContentManager
 import ContentDetail from './components/Content/ContentDetail/ContentDetail';
 import RequireAuth from './components/require_auth/require_auth';
 import ContainerSmallSize from './components/Content/ContainerSmallSize/ContainerSmallSize';
+import VideoContentContainer from './components/Content/VideoContentContainer/VideoContentContainer';
 // import './react-select.css';
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
@@ -63,6 +64,7 @@ class RouteAPI extends Component {
                         <Route path="/Signup" component={Signup}/>
                         <Route path="/Login" component={Login}/>
                         <Route path="/articles/:id/:title" component={ContentDetail}/>
+                        <Route path="/videos" component={ContainerSmallSize}/>
                         <Route path="/articles" component={ContainerSmallSize}/>
                         <Route path="/ContentManagerPanel" component={RequireAuth(ContentManagerPanel,'cm')}/>
                         <Route path="/AdminLogIn" component={AdminLogIn}/>
