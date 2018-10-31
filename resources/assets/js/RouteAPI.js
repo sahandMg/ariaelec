@@ -47,7 +47,7 @@ class RouteAPI extends Component {
             <AuxWrapper>
                 <HeaderCom/>
                 <Alert stack={{limit: 3}} />
-                <main className="flex-column">
+                <main className="flex-column responsive-margin">
                     <Switch>
                         <Route path="/User/SetFactorInfo" component={RequireAuth(SetFactorInfo,null)}/>
                         <Route path="/User/Follow-up" component={RequireAuth(Followup,null)}/>
@@ -64,7 +64,7 @@ class RouteAPI extends Component {
                         <Route path="/Signup" component={Signup}/>
                         <Route path="/Login" component={Login}/>
                         <Route path="/articles/:id/:title" component={ContentDetail}/>
-                        <Route path="/videos" component={ContainerSmallSize}/>
+                        <Route path="/videos" component={VideoContentContainer}/>
                         <Route path="/articles" component={ContainerSmallSize}/>
                         <Route path="/ContentManagerPanel" component={RequireAuth(ContentManagerPanel,'cm')}/>
                         <Route path="/AdminLogIn" component={AdminLogIn}/>
