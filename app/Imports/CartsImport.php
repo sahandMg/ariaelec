@@ -22,12 +22,24 @@ class CartsImport implements ToModel
     public function model(array $row)
     {
         $myArr = [];
+        $lostParts = [];
+        $enoughParts = [];
         $myArr['keyword'] = [$row[0]];
-        $myArr['num'] = [$row[1]];
-        $myArr['project'] = $this->project;
-        $ctrl = new CartController();
-        $ctrl->createCart(request(),$myArr);
+        $part = DB::table('commons')->where('manufacturer_part_number',$row[0])->first();
+        if(is_null($part)){
+            array_push($lostParts,$row[0]);
+        }else {
+            if(!$part->quantity_available > 0){
+                array_push($enoughParts,$row[0]);
+            }else{
+                $myArr['num'] = [$row[1]];
+                $myArr['project'] = $this->project;
+                $ctrl = new CartController();
+                $ctrl->createCart(request(), $myArr);
+            }
 
+
+        }
     }
 
 }
