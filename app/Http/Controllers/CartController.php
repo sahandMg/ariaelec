@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Bom;
 use App\Cart;
-use App\Project;
+use App\Exports\CartsExport;
+use App\Imports\CartsImport;
 use Carbon\Carbon;
-use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
-use League\Flysystem\Exception;
+use Maatwebsite\Excel\Facades\Excel;
 use Morilog\Jalali\Jalalian;
 
 class CartController extends Controller
@@ -61,13 +61,20 @@ class CartController extends Controller
      * check parts availability with the requested number
      * Get project_id from project name in $request->project
      */
-    public function createCart(Request $request){
+    public function createCart(Request $request=null,$arr=null){
         /**
          * BOM Bill Of Materials
          * status = 0 -> BOM : open
          * status = 50 -> BOM : closed
          * status = 100 -> BOM : closed
          */
+        if(!is_null($arr)){
+            $request['keyword'] = $arr['keyword'][0];
+            $request['num'] = $arr['num'][0];
+            if(!is_null($arr['project'])){
+                $request['project'] = $arr['project'];
+            }
+        }
 
         if(count(Auth::user()->boms) > 0 ){
             $bom = Bom::where('user_id', Auth::guard('user')->id())->orderBy('created_at','decs')->first();
@@ -93,8 +100,10 @@ class CartController extends Controller
         }
         $quantity = get_object_vars(DB::table('commons')->where('manufacturer_part_number',$request->keyword)->first())['quantity_available'];
         if( $quantity < $request->num){
+
             return 'موجود نمی باشد'.' '.$request->keyword.' '.'در حال حاضر این تعداد از';
         }
+
         array_push($this->cart ,[
             'name'  =>  $request->keyword,
             'num'   =>  $request->num,
@@ -567,5 +576,20 @@ class CartController extends Controller
              'totalPrice'=>$bom->price
          ]);
         return ($userCart);
+    }
+
+    public function Excel_export(){
+        return Excel::download(new CartsExport, 'carts.xlsx');
+    }
+// Gets token,name(file name),project and imports data to carts table
+    public function Excel_import(Request $request){
+
+//        put the excel file in storage/imports
+//      Give the file name from user
+//        Give project name
+        Excel::import(new CartsImport($request->project),'/imports/carts.xlsx');
+
+        return 200;
+
     }
 }

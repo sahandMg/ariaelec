@@ -39,7 +39,7 @@ Route::post('home/{category?}','PageController@home');
             Route::post('create','CartController@createCart');
             Route::post('read','CartController@readCart');
             Route::post('edit','CartController@editCart');
-
+            Route::get('excel','CartController@Excel');
 
             Route::post('add','CartController@addToCart');
             Route::post('confirm','CartController@confirm');

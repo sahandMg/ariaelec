@@ -9,6 +9,7 @@ use App\Repository\Cropper;
 use App\User;
 use App\Variable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Tymon\JWTAuth\Facades\JWTAuth;
 use Psr\Http\Message\ResponseInterface;
 
@@ -116,16 +117,24 @@ class PageController extends Controller
 
     public function moreVideos(Request $request){
 //        $num = 1 2 3 ....
+
         $num = $request->num;
-        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/';
-        $curl = curl_init();
-        curl_setopt_array($curl, array(
-            CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_URL => $url
-        ));
-        $result = curl_exec($curl);
-        curl_close($curl);
-        $results = json_decode($result,true)['videobyuser'];
+        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/perpage/1000';
+        if(!Cache::has('AparatRes')){
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => $url
+            ));
+
+            $result = curl_exec($curl);
+            curl_close($curl);
+            $results = json_decode($result,true)['videobyuser'];
+//            TODO Clear this cache every 24 hours
+            Cache::put('AparatRes',$results,1440);
+        }else{
+            $results = Cache::get('AparatRes');
+        }
 
         $videos = array_splice($results,($num-1)*10,10);
         $list = [];

@@ -17,6 +17,7 @@
         "laravel/scout": "^4.0",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "^1.0",
+        "maatwebsite/excel": "^3.1",
         "morilog/jalali": "3.*",
         "predis/predis": "^1.1",
         "silber/page-cache": "^1.0",

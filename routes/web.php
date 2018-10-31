@@ -28,6 +28,9 @@ use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 
 
+Route::get('excel-export','CartController@Excel_export');
+Route::get('excel-import','CartController@Excel_import');
+
 
 Route::get('url',function (){
 
