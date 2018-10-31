@@ -120,6 +120,7 @@ class PageController extends Controller
 
         $num = $request->num;
         $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/perpage/1000';
+
         if(!Cache::has('AparatRes')){
             $curl = curl_init();
             curl_setopt_array($curl, array(
@@ -135,6 +136,15 @@ class PageController extends Controller
         }else{
             $results = Cache::get('AparatRes');
         }
+
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_RETURNTRANSFER => 1,
+            CURLOPT_URL => $url
+        ));
+        $result = curl_exec($curl);
+        curl_close($curl);
+        $results = json_decode($result,true)['videobyuser'];
 
         $videos = array_splice($results,($num-1)*10,10);
         $list = [];

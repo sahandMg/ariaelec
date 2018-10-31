@@ -121,8 +121,6 @@ class AddImages extends Component {
         });
         return (
             <div className="container text-right">
-                {/*onSubmit={this.sendData}*/}
-
                 <form method="post" action={URLs.base_URL+URLs.cm_add_image}  encType="multipart/form-data">
                     <input hidden type="text" name="token" value={this.props.token} />
                     <div className="form-group">

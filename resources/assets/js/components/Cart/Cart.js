@@ -9,17 +9,19 @@ import { Link } from 'react-router-dom';
 import URLs from '../../URLs';
 import './Cart.css';
 import CartProject from './CartProject/CartProject';
+import Modal from 'react-responsive-modal';
 
 class Cart extends Component {
 
     state  = {
-        prices: {}, loading: true, priceRequestSend: false,
+        prices: {}, loading: true, priceRequestSend: false, projects: [], open: false
     }
 
     componentDidMount() {
         console.log("Cart componentDidMount");console.log(this.props.token);
        if(this.props.token) {
            this.props.getCartFromServer(this.props.token);
+           this.getProjects();
        } else {
            if(this.props.cart.length === 0) {
                console.log("this.props.checkCartStore()");
@@ -85,6 +87,26 @@ class Cart extends Component {
       return cartLsit;
     }
 
+    onOpenModal = () => {
+            this.setState({open: true});
+    };
+
+    onCloseModal = () => {
+        this.setState({ open: false });
+    };
+
+    getProjects = () => {
+        axios.post(URLs.base_URL+URLs.user_get_projects, {token: this.props.token})
+            .then(response => {
+                console.log("projects");console.log(response);
+                this.setState({projects: response.data});
+            })
+            .catch(err => {
+                console.log("get projects error");
+                console.log(err);
+            });
+    }
+
     render() {
         let cartList;let buyButton = null;let sum = null;
             if(this.props.cartLength > 0){  //} else
@@ -92,7 +114,12 @@ class Cart extends Component {
                sum = <h2>جمع کل : {this.props.cartSumCost} تومان</h2>;
                buyButton = <Link to="/User/SetFactorInfo" className="btn btn-success">نهایی کردن خرید</Link>;
            } else { cartList = <h1 className="text-center">سبد خرید شما خالی هست</h1>;}
-
+           let projectsOption;
+        if(this.state.projects.length > 0) {
+            projectsOption = this.state.projects.map((project, i) => {
+                return (<option value={project.name} key={project.name}>{project.name}</option>)
+            });
+        }
         return(
             <div className="container table-responsive text-center searchResultContainer">
                 <br/>
@@ -100,9 +127,26 @@ class Cart extends Component {
                 {cartList}
                 {sum}
                 <br/>
+                <button onClick={this.onOpenModal} className="btn btn-primary">آپلود فایل اکسل BOM</button>
                 {buyButton}
                 <br/><br/>
                 <ClipLoader size="200" color={'#123abc'} loading={this.props.cartLoading} />
+                <Modal open={this.state.open} onClose={this.onCloseModal} center
+                       classNames={{overlay: styles.customOverlay, modal: styles.customModal,}}>
+                    <div className="select-project">
+                        <h3 className="text-center"> انتخاب پروژه</h3>
+                        <br/>
+                        <div className="col-lg-4 col-md-6 col-sm-10 horizontal-center">
+                            <select value={this.state.projectName}  onChange={this.selectChange}> className="form-control" >
+                                <option value={null}>-</option>
+                                {projectsOption}
+                            </select>
+                        </div>
+                        <br/>
+                        <button onClick={()=> this.addToCart(this.state.productName, this.state.category, this.state.number)} className="btn btn-success horizontal-center">اضافه به سبد خرید</button>
+                        <br/>
+                    </div>
+                </Modal>
             </div>
         )
     }

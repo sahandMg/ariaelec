@@ -6,22 +6,33 @@ import SlideImage3 from './assets/Images/bg_3.png';
 import './App.css';
 import axios from 'axios';
 import ContentSmallSize from './components/Content/ContentSmallSize/ContentSmallSize';
+import VideoContent from './components/Content/VideoContent/VideoContent';
 import { Link } from 'react-router-dom';
-
+import URLs from './URLs';
 
 class App extends Component {
     state = {
-        contents: []
+        contents: [], videos: []
     }
     componentDidMount() {
         axios.post('http://localhost:80/api/home')
             .then((res) => {
-                console.log('res ContainerSmallSize');
-                console.log(res);
+                // console.log('res ContainerSmallSize');
+                // console.log(res);
                 this.setState({contents: res.data});
             })
             .catch((error)=> {
                 console.log('error');
+                console.log(error);
+            });
+        axios.get(URLs.base_URL+URLs.get_videos)
+            .then((res) => {
+                console.log('res get videos');
+                console.log(res);
+                this.setState({videos: res.data});
+            })
+            .catch((error)=> {
+                console.log('error get videos');
                 console.log(error);
             });
     }
@@ -32,6 +43,11 @@ class App extends Component {
              return <ContentSmallSize id={obj.id} abstract={obj.abstract} category={obj.category} days={obj.days}
                                       key={obj.id} image={obj.image} product={obj.product} title={obj.title}/>
          }
+      });
+      const videos = this.state.videos.map((obj,i) => {
+          if(i<4) {
+              return <VideoContent key={obj.id} url={obj.frame} title={obj.title}/>
+          }
       });
     return (
      <AuxWrapper>
@@ -76,6 +92,7 @@ class App extends Component {
           </div>
         </div>
        </div>
+         {/* Articles */}
         <section>
           <h2 className="text-center" style={{marginTop: "1%", marginBottom: '1%'}}>آخرین مقالات</h2>
           <div className="flex space-around flex-wrap">
@@ -84,8 +101,17 @@ class App extends Component {
           <Link to="/articles" className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه مقالات</Link>
           <br/>
         </section>
+         {/* Videos */}
+         <section style={{backgroundColor: "white"}}>
+             <h2 className="text-center" style={{marginTop: "1%", marginBottom: '1%'}}>آخرین ویدیوها</h2>
+             <div className="flex space-around flex-wrap">
+                 {videos}
+             </div>
+             <Link to="/videos" className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه ویدیوها</Link>
+             <br/>
+         </section>
        {/*Show Features*/}
-       <section style={{backgroundColor: "white"}}>
+       <section>
        <div className="feature-container text-center mt-3 mb-3 mt-lg-5 mb-lg-5 mt-md-4 mb-md-4 mt-sm-3 mb-sm-3 mt-2 mb-2 container-fluid">
       <div className="row">
         <div className="feature-card col-lg-4 col-md-4 col-sm-6 col-12 p-lg-0 p-md-0 p-sm-2 pb-3">

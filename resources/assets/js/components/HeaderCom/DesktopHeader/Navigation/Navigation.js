@@ -108,6 +108,12 @@ const Navigation = (props) => (
             <li className="navbar-list-item">
                 <Link to="/online-conversion-calculator" className="navbar-list-item-link">محاسبه تبدیل</Link>
             </li>
+            <li className="navbar-list-item">
+                <Link to="/articles" className="navbar-list-item-link">مجله</Link>
+            </li>
+            <li className="navbar-list-item">
+                <Link to="/videos" className="navbar-list-item-link">ویدیوها</Link>
+            </li>
             {/*<li className="navbar-list-item">*/}
                 {/*<a className="navbar-list-item-link">*/}
                     {/*فوت پرینت ها*/}
