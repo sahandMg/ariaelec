@@ -3,6 +3,7 @@
 namespace App\Imports;
 
 use App\Http\Controllers\CartController;
+use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\ToModel;
 
 class CartsImport implements ToModel
