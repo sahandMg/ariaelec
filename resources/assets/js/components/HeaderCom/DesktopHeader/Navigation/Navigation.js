@@ -112,7 +112,7 @@ const Navigation = (props) => (
                 <Link to="/articles" className="navbar-list-item-link">مجله</Link>
             </li>
             <li className="navbar-list-item">
-                <Link to="/articles" className="navbar-list-item-link">ویدیوها</Link>
+                <Link to="/videos" className="navbar-list-item-link">ویدیوها</Link>
             </li>
             {/*<li className="navbar-list-item">*/}
                 {/*<a className="navbar-list-item-link">*/}

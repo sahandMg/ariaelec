@@ -105,7 +105,7 @@ class Navigation extends Component {
                     {/*<li className="list-group-item text-right"><a href="/">مجله</a></li>*/}
                     <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/online-conversion-calculator">محاسبه تبدیل</Link></li>
                     <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/articles">مجله</Link></li>
-                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/articles">ویدیوها</Link></li>
+                    <li className="list-group-item text-right"><Link className="desktop-item-nav" to="/videos">ویدیوها</Link></li>
                     {/*<li className="list-group-item text-right"><a href="/">فوت پرینت</a></li>*/}
                     {authlink}
                 </ul>

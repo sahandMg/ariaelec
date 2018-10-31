@@ -1,7 +1,7 @@
 export default {
     base_URL: 'http://localhost:80/api',
     get_videos: '/videos',
-    get_more_videos: '/more_videos', // num(starts from 1) => 10*num videos
+    get_more_videos: '/more-videos', // num(starts from 1) => 10*num videos
     product: '/get-price',
     send_cart_to_server: '/user/cart/add',
     react_search_url: 'http://localhost:80/search/',

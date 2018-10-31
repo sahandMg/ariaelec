@@ -107,7 +107,7 @@ class App extends Component {
              <div className="flex space-around flex-wrap">
                  {videos}
              </div>
-             <Link to="/articles" className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه ویدیوها</Link>
+             <Link to="/videos" className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه ویدیوها</Link>
              <br/>
          </section>
        {/*Show Features*/}

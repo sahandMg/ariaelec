@@ -117,7 +117,7 @@ class PageController extends Controller
     public function moreVideos(Request $request){
 //        $num = 1 2 3 ....
         $num = $request->num;
-        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/';
+        $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/perpage/1000';
         $curl = curl_init();
         curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => 1,
