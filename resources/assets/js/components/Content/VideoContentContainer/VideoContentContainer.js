@@ -51,7 +51,7 @@ class VideoContentContainer extends Component {
                 <div className="flex space-around flex-wrap">
                     {videos}
                 </div>
-                <button onClick={this.moreVideos} className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>مشاهده همه ویدیوها</button>
+                <button onClick={this.moreVideos} className="btn btn-primary col-md-2 col-sm-6" style={{margin: "auto", display: "block"}}>بیشتر</button>
                 <br/>
             </div>
         )

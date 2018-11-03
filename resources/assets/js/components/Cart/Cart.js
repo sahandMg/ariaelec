@@ -10,11 +10,12 @@ import URLs from '../../URLs';
 import './Cart.css';
 import CartProject from './CartProject/CartProject';
 import Modal from 'react-responsive-modal';
+import styles from './custom-styling.css';
 
 class Cart extends Component {
 
     state  = {
-        prices: {}, loading: true, priceRequestSend: false, projects: [], open: false
+        prices: {}, loading: true, priceRequestSend: false, projects: [], open: false, projectName: null
     }
 
     componentDidMount() {
@@ -107,6 +108,10 @@ class Cart extends Component {
             });
     }
 
+    selectChange = (event) => {
+        this.setState({projectName: event.target.value});
+    }
+
     render() {
         let cartList;let buyButton = null;let sum = null;
             if(this.props.cartLength > 0){  //} else
@@ -137,7 +142,7 @@ class Cart extends Component {
                         <h3 className="text-center"> انتخاب پروژه</h3>
                         <br/>
                         <div className="col-lg-4 col-md-6 col-sm-10 horizontal-center">
-                            <select value={this.state.projectName}  onChange={this.selectChange}> className="form-control" >
+                            <select value={this.state.projectName} onChange={this.selectChange}> className="form-control" >
                                 <option value={null}>-</option>
                                 {projectsOption}
                             </select>
@@ -145,6 +150,17 @@ class Cart extends Component {
                         <br/>
                         <button onClick={()=> this.addToCart(this.state.productName, this.state.category, this.state.number)} className="btn btn-success horizontal-center">اضافه به سبد خرید</button>
                         <br/>
+                        <form method="post" action={URLs.base_URL+URLs.cm_add_image}  encType="multipart/form-data">
+                            <input hidden type="text" name="token" value={this.props.token} />
+                            <div className="form-group">
+                                <label>فایل اکسل BOM </label>
+                                <input name="imageFile" onChange={this.onChangeFile} type="file" className="form-control"/>
+                                {errors.imageFile && <InlineError text={errors.imageFile} />}
+                            </div>
+                            <br/>
+                            <button hidden={loading} type="submit" className="btn btn-primary">Add images</button>
+                            <ClipLoader color={'#123abc'} loading={loading} />
+                        </form>
                     </div>
                 </Modal>
             </div>
