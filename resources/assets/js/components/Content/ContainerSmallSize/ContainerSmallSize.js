@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import axios from 'axios';
 import ContentSmallSize from '../ContentSmallSize/ContentSmallSize';
 import './ContainerSmallSize.css';
+import URLs from '../../../URLs';
 
 class ContainerSmallSize extends Component {
     state = {
@@ -9,7 +10,7 @@ class ContainerSmallSize extends Component {
         counter: 0
     }
     componentDidMount() {
-        axios.post('http://localhost:80/api/home',{ num: 0})
+        axios.post(URLs.base_URL+URLs.home,{ num: 0})
             .then((res) => {
                 console.log('res ContainerSmallSize');
                 console.log(res);
@@ -25,7 +26,7 @@ class ContainerSmallSize extends Component {
         let counter = this.state.counter;
         counter = counter + 1 ;
         this.setState({counter: counter});
-        axios.post('http://localhost:80/api/more-content', { num: counter})
+        axios.post(URLs.base_URL+URLs.get_more_content, { num: counter})
             .then((res) => {
                 console.log('res moreContent');
                 console.log(res);
