@@ -1,0 +1,15 @@
+Power Supply Controller,-,5.5 V ~ 25 V,1µA,-10°C ~ 100°C,Surface Mount,"28-SSOP (0.154""* 3.90mm Width)",28-SSOP/QSOP
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Power Supply Controller,-,4.5 V ~ 24 V,25µA,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.154""* 3.90mm Width)",28-QSOP
+Secondary-Side Controller* Synchronous Rectifier,-,9.2 V ~ 28 V,-,-40°C ~ 125°C,-,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Secondary-Side Controller,-,8.6 V ~ 38 V,1mA,-20°C ~ 150°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Overvoltage Protection Controller,-,2.7 V ~ 27 V,1.1mA,-40°C ~ 125°C,Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Push Button* On/Off Controller,-,2.7 V ~ 26.4 V,6µA,-40°C ~ 85°C,Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Secondary-Side Controller* Synchronous Rectifier,-,0 V ~ 18 V,80µA,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.209""* 5.30mm Width)",
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Power Supply* Supervisor,-,15 V ~ 30 V,5mA,-25°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Resonant Converter Controller,-,8.85 V ~ 16 V,3.5mA,0°C ~ 105°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP

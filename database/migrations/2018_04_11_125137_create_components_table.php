@@ -18,6 +18,7 @@ class CreateComponentsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->unsignedInteger('product_id')->default(0);
+            $table->unsignedInteger('subcategory_id')->default(0);
             $table->foreign('product_id',str_random(5).'_'.'product_id')->references('id')->on('products')->onDelete('cascade');
 //            $table->unsignedInteger('common_id')->default(0);
             $table->timestamps();

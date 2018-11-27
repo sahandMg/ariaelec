@@ -1,0 +1,232 @@
+Shunt,Adjustable,2.495V,36V,100mA,±1%,50ppm/°C Typical,-,-,-,-,1mA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Shunt,Fixed,2.5V,-,-,±2%,-,-,-,-,-,-,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,5V,-,15mA,±4%,-,-,-,-,-,10mA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,15mA,±0.5%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,15mA,±1%,150ppm/°C,-,35µVrms,-,-,70µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,10V,-,21mA,±1%,65ppm/°C,25µVp-p,-,13 V ~ 30 V,1.6mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,5V,-,21mA,±0.3%,15ppm/°C,4µVp-p,-,8 V ~ 40 V,1.4mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,21mA,±1%,65ppm/°C,12µVp-p,-,8 V ~ 30 V,1.6mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,600µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.225V,-,10mA,±0.08%,50ppm/°C,5µVp-p,20µVrms,-,-,50µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Programmable,2.5V* 5V* 7.5V* 10V,-,10mA,±0.1%,15ppm/°C,50µVp-p,-,4.5 V ~ 30 V,1mA,-,-55°C ~ 125°C (TA),Through Hole,TO-99-8 Metal Can,TO-99-8
+Series,Fixed,5V,-,10mA,±0.4%,25ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.1%,15ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.05%,5ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,1.235V,-,5mA,-0.00034526,100ppm/°C,-,5µVrms,-,-,50µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.2%,20ppm/°C,10µVp-p,-,4.5 V ~ 36 V,280µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.2%* ±0.17%,7ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.2%* ±0.17%,7ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.04%* ±0.03%,3ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.04%* ±0.03%,3ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,10V,-,10mA,±0.1%,10ppm/°C,20µVp-p,-,12 V ~ 36 V,1mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.1%,10ppm/°C,10µVp-p,-,7 V ~ 36 V,1mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.2%,10ppm/°C,6µVp-p,-,4.5 V ~ 36 V,1mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Programmable,0.5V* 1V,-,4mA,±0.35%,25ppm/°C,3µVp-p* 6µVp-p,-,2 V ~ 18 V,150µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-6
+Series,Fixed,1.2V,-,10mA,±0.1%,8ppm/°C,8µVp-p,28µVrms,2.3 V ~ 5.5 V,100µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Series,Fixed,3.3V,-,10mA,±0.1%,8ppm/°C,25µVp-p,46µVrms,3.5 V ~ 5.5 V,100µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Series,Fixed,2.5V,-,5mA,±0.24%,25ppm/°C,8.25µVp-p,-,2.8 V ~ 15 V,190µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-5
+Series,Fixed,2.5V,-,5mA,±0.24%,25ppm/°C,5µVp-p,-,2.8 V ~ 18 V,140µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.048V,-,5mA,±0.19%,9ppm/°C,5µVp-p,-,2.5 V ~ 15 V,140µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-5
+Series,Fixed,2.5V,-,5mA,±0.16%,9ppm/°C,5µVp-p,-,2.8 V ~ 15 V,140µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-5
+Series,Fixed,2.5V,-,10mA,±0.12%,10ppm/°C,1.75µVp-p,-,4.5 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Series,Fixed,2.5V,-,10mA,±0.12%,10ppm/°C,1.75µVp-p,-,4.5 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.04%,3ppm/°C,1.75µVp-p,-,4.5 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.04%,3ppm/°C,3.4µVp-p,-,7 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,30mA,±0.12%,10ppm/°C,6.25µVp-p,-,6.1 V ~ 18 V,800µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,30mA,±0.04%,3ppm/°C,6.25µVp-p,-,6.1 V ~ 18 V,800µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,30mA,±0.04%,3ppm/°C,8µVp-p,-,7 V ~ 18 V,800µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Series,Fixed,2.5V,-,10mA,±0.12%,10ppm/°C,1.2µVp-p,-,3 V ~ 18 V,3.75mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.04%,3ppm/°C,1.2µVp-p,-,3 V ~ 18 V,3.75mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,3V,-,10mA,±0.04%,3ppm/°C,1.4µVp-p,-,3.5 V ~ 18 V,3.75mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.12%,10ppm/°C,2.25µVp-p,-,5.5 V ~ 18 V,3.75mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.04%,3ppm/°C,2.25µVp-p,-,5.5 V ~ 18 V,3.75mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.04%,4ppm/°C,1.25µVp-p,-,3 V ~ 15 V,950µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.02%,2ppm/°C,1.25µVp-p,-,3 V ~ 15 V,950µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,3.3V,-,10mA,±0.04%,4ppm/°C,2.1µVp-p,-,3.4 V ~ 15 V,950µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,10mA,±0.02%,2ppm/°C,2.7µVp-p,-,4.2 V ~ 15 V,950µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,5V,-,15mA,±0.2%,100ppm/°C,6.6µVrms,280µVrms,-,-,60µA,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1V,-,10mA,±0.35%,85ppm/°C,4µVp-p,-,-,-,100µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.2V,-,10mA,±0.3%,60ppm/°C,4µVp-p,-,-,-,100µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,2.5V,36V,100mA,±0.4%,20ppm/°C Typical,-,-,-,-,1mA,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,2.5V,-,20mA,±1.5%,80ppm/°C Typical,-,120µVrms,-,-,30µA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,6.9V,-,15mA,-0.00220545,100ppm/°C,-,7µVrms,-,-,600µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,20mA,±1.5%,80ppm/°C Typical,-,120µVrms,-,-,30µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,2.5V,-,20mA,±1.5%,30ppm/°C,-,120µVrms,-,-,20µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,1.235V,-,20mA,-0.00049086,150ppm/°C,-,60µVrms,-,-,10µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.235V,-,20mA,-0.00049086,150ppm/°C,-,60µVrms,-,-,10µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.235V,-,20mA,-0.00049086,150ppm/°C,-,60µVrms,-,-,15µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,20mA,±3%,150ppm/°C,-,120µVrms,-,-,20µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,6.95V,-,10mA,±0.17%,2ppm/°C,-,7µVrms,-,-,500µA,0°C ~ 70°C (TA),Through Hole,TO-46-4 Metal Can,TO-46-4
+Shunt,Fixed,2.048V,-,15mA,±0.1%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,2.5V,-,15mA,±0.1%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,5V,-,15mA,±0.1%,100ppm/°C,-,80µVrms,-,-,80µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,2.5V,-,15mA,±0.2%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,5V,-,15mA,±0.2%,100ppm/°C,-,80µVrms,-,-,80µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,4.096V,-,15mA,±1%,150ppm/°C,-,80µVrms,-,-,78µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,4.096V,-,15mA,±1%,150ppm/°C,-,80µVrms,-,-,78µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Adjustable,1.233V,10V,12mA,±0.2%,100ppm/°C,-,20µVrms,-,-,80µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,1.233V,10V,12mA,±0.5%,100ppm/°C,-,20µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+Shunt,Adjustable,1.233V,10V,12mA,±0.5%,100ppm/°C,-,20µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.225V,-,12mA,±1%,150ppm/°C,-,20µVrms,-,-,70µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.225V,-,12mA,±2%,150ppm/°C,-,20µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,5mA,±0.2%,50ppm/°C,20µVp-p,36µVp-p,2 V ~ 12 V,275µA,-,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Series,Fixed,3V,-,5mA,±0.2%,50ppm/°C,20µVp-p,36µVp-p,2 V ~ 12 V,275µA,-,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Series,Fixed,3V,-,5mA,±0.5%,50ppm/°C,20µVp-p,36µVp-p,2 V ~ 12 V,275µA,-,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Series,Fixed,3.3V,-,20mA,±0.1%,75ppm/°C,310µVp-p,-,3.7 V ~ 5.5 V,100µA,-,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Shunt,Fixed,1.235V,-,20mA,±0.3%,20ppm/°C Typical,-,60µVrms,-,-,10µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,10mA,±0.2%,25ppm/°C,-,-,-,-,400µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,10mA,±0.4%,25ppm/°C,-,-,-,-,400µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt,Fixed,5V,-,10mA,±0.2%,20ppm/°C,2.5ppmp-p,2.5ppmrms,6.5 V ~ 40 V,1.5mA,800µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,5V,-,10mA,±1%,34ppm/°C,-,-,-,-,700µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Series,Fixed,2.5V,-,40mA,±0.1%,20ppm/°C,10µVp-p,10µVrms,3.4 V ~ 20 V,165µA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,40mA,±0.1%,20ppm/°C,20µVp-p,20µVrms,5.9 V ~ 20 V,225µA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,40mA,±0.2%,20ppm/°C,4µVp-p,4µVrms,5.9 V ~ 20 V,240µA,-,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,5mA,±0.05%,10ppm/°C,32µVp-p,48µVrms,3 V ~ 18 V,80µA,-,0°C ~ 70°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Series,Fixed,5V,-,5mA,±0.05%,10ppm/°C,80µVp-p,118µVrms,5.5 V ~ 18 V,80µA,-,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Series,Fixed,3V,-,10mA,±0.15%,40ppm/°C,8µVp-p,-,3.2 V ~ 12.6 V,8.5µA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,1.25V,-,5mA,±0.1%,10ppm/°C,2.4ppmp-p,-,2.7 V ~ 13.2 V,560µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Series,Fixed,2.048V,-,5mA,±0.025%,2ppm/°C,0.25ppmp-p,-,3 V ~ 13.2 V,7.5mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Series,Fixed,2.5V,-,15mA,±0.04%,10ppm/°C,16µVp-p,12µVrms,2.7 V ~ 12.6 V,85µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Series,Fixed,5V,-,15mA,±0.04%,10ppm/°C,40µVp-p,26µVrms,5.2 V ~ 12.6 V,85µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Series,Fixed,1.25V,-,5mA,±0.4%,75ppm/°C,13µVp-p,15µVrms,2.5 V ~ 12.6 V,125µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,3V,-,5mA,±0.4%,75ppm/°C,35µVp-p,40µVrms,3.2 V ~ 12.6 V,125µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.048V,-,5mA,±0.4%,75ppm/°C,22µVp-p,25µVrms,2.5 V ~ 12.6 V,125µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,1mA,±1%,50ppm/°C,15µVp-p,500µVp-p,2.7 V ~ 12.6 V,130µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.048V,-,10mA,±0.02%,3ppm/°C,1.3µVp-p,-,2.7 V ~ 12.6 V,725µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.02%,5ppm/°C,2.85µVp-p,-,5.2 V ~ 12.6 V,725µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,1mA,±1%,50ppm/°C,25µVp-p,700µVp-p,4.3 V ~ 12.6 V,130µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,30mA,±0.06%,3ppm/°C,9µVp-p,14.5µVrms,7 V ~ 40 V,700µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,30mA,±0.06%,3ppm/°C,9µVp-p,14.5µVrms,7 V ~ 40 V,700µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Adjustable,1.23V,12.4V,1mA,±1%,100ppm/°C,15µVp-p,500µVp-p,2.7 V ~ 12.6 V,130µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Series* Buried Zener,Fixed,2.5V,-,15mA,±0.04%,1.5ppm/°C,1.5µVp-p,1.3µVrms,8 V ~ 36 V,3mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Buried Zener,Fixed,5V,-,15mA,±0.02%,1.5ppm/°C,3µVp-p,2.5µVrms,8 V ~ 36 V,3.3mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±1%,40ppm/°C,-,-,4.5 V ~ 40 V,1.5mA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±1%,40ppm/°C,-,-,4.5 V ~ 40 V,1.5mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,2.5V,-,2mA,±1%,50ppm/°C,90µVp-p,500µVrms,2.7 V ~ 5.5 V,120µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,4.096V,-,2mA,±1%,50ppm/°C,145µVp-p,700µVrms,4.3 V ~ 5.5 V,120µA,-,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,10V,-,21mA,±0.5%,25ppm/°C,20µVp-p,-,13 V ~ 33 V,1.4mA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±1%,65ppm/°C,15µVp-p,-,7 V ~ 40 V,1.6mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.6%,50ppm/°C,6µVp-p,-,4.5 V ~ 33 V,1.4mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,10V,-,10mA,±0.05%,5ppm/°C,5µVp-p,-,11.4 V ~ 36 V,1.4mA,-,-25°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,2.5V,-,30mA,±0.08%,5ppm/°C,25µVp-p,-,3 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.5V,-,30mA,±0.04%,5ppm/°C,45µVp-p,-,4.75 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,30mA,±0.04%,5ppm/°C,50µVp-p,-,5.1 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,3.3V,-,30mA,±0.3%,25ppm/°C,33µVp-p,-,3.5 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,1.25V,-,25mA,±0.2%,75ppm/°C,14µVp-p,42µVrms,1.8 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.048V,-,25mA,±0.2%,75ppm/°C,23µVp-p,65µVrms,2.098 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,25mA,±0.2%,75ppm/°C,28µVp-p,80µVrms,2.55 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,3V,-,25mA,±0.2%,75ppm/°C,33µVp-p,94µVrms,3.05 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,3.3V,-,25mA,±0.2%,75ppm/°C,36µVp-p,105µVrms,3.35 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,4.096V,-,25mA,±0.2%,75ppm/°C,45µVp-p,128µVrms,4.146 V ~ 5.5 V,50µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,4.096V,-,10mA,±0.2%,20ppm/°C,53µVp-p,78µVrms,4.146 V ~ 5.5 V,135µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,3.3V,-,10mA,±0.2%,20ppm/°C,43µVp-p,63µVrms,3.35 V ~ 5.5 V,135µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Series,Fixed,1.25V,-,30mA,±0.15%,30ppm/°C,35µVp-p,-,1.8 V ~ 5.5 V,8.5µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,5mA,±0.15%,30ppm/°C,70µVp-p,-,2.7 V ~ 5.5 V,8.5µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,5mA,±0.15%,30ppm/°C,70µVp-p,-,2.7 V ~ 5.5 V,8.5µA,-,-40°C ~ 125°C (TA),Surface Mount,SC-70* SOT-323,SC-70-3
+Series,Fixed,3V,-,5mA,±0.15%,30ppm/°C,84µVp-p,-,3.2 V ~ 5.5 V,8.5µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,20mA,±0.1%,25ppm/°C,-,10µVrms,4.5 V ~ 40 V,450µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.048V,-,10mA,±0.1%,8ppm/°C,3µVp-p,-,2.7 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Series,Fixed,2.5V,-,10mA,±0.1%,8ppm/°C,3µVp-p,-,2.7 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Series,Fixed,2.5V,-,10mA,±0.1%,8ppm/°C,3µVp-p,-,2.7 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.05%,3ppm/°C,3µVp-p,-,2.7 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,10mA,±0.05%,3ppm/°C,3µVp-p,-,4.296 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,4.096V,-,10mA,±0.05%,3ppm/°C,3µVp-p,-,4.296 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,10mA,±0.1%,8ppm/°C,3µVp-p,-,5.2 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Adjustable,2.5V,36V,100mA,±0.4%,-,-,-,-,-,1mA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Adjustable,2.495V,36V,100mA,±2.2%,-,-,-,-,-,1mA,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,600µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,600µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,700µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,700µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Shunt,Adjustable,2.495V,36V,100mA,±2.2%,-,-,-,-,-,1mA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+Shunt,Adjustable,2.495V,36V,100mA,±2.2%,-,-,-,-,-,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,700µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Ground (Virtual),Adjustable,2V,20V,20mA,±1%,35ppm/°C Typical,-,120µVrms,4 V ~ 40 V,400µA,-,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Ground (Virtual),Adjustable,2V,20V,20mA,±1%,35ppm/°C Typical,-,120µVrms,4 V ~ 40 V,400µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Adjustable,1.24V,6V,15mA,±1%,-,-,-,-,-,80µA,0°C ~ 70°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Shunt,Adjustable,1.24V,6V,15mA,±0.5%,-,-,-,-,-,100µA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,1.24V,6V,15mA,±0.5%,-,-,-,-,-,100µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Shunt,Adjustable,1.24V,24V,100mA,±1%,100ppm/°C,-,-,-,-,500µA,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,1.24V,24V,100mA,±0.5%,100ppm/°C,-,-,-,-,500µA,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Adjustable,2.5V,20V,100mA,±0.5%,55ppm/°C,-,-,-,-,50µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23
+Shunt,Fixed,2.5V,-,5mA,±2%,90ppm/°C,-,60µVrms,-,-,20µA,-40°C ~ 85°C (TA),Through Hole,E-Line-3,E-Line (TO-92 compatible)
+Shunt,Fixed,2.5V,-,5mA,±1%,90ppm/°C,-,60µVrms,-,-,20µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23
+Shunt,Adjustable,2.495V,36V,100mA,±2%,-,-,-,-,-,1mA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,TO-236AB (SOT23)
+Shunt,Adjustable,2.5V,36V,100mA,±2%,50ppm/°C Typical,-,-,-,-,1mA,-25°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Shunt,Adjustable,2.495V,36V,100mA,±2.2%,-,-,-,-,-,1mA,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Shunt,Fixed,2.5V,-,20mA,±1.5%,150ppm/°C,-,120µVrms,-,-,20µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Adjustable,2.495V,36V,100mA,±1%,-,-,-,-,-,600µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Shunt,Fixed,6.95V,-,10mA,±0.17%,2ppm/°C,-,7µVrms,-,-,500µA,0°C ~ 70°C (TA),Through Hole,TO-46-4 Metal Can,TO-46-4
+Series* Shunt* Buried Zener,Fixed,10V,10mA,-,±0.05%,20ppm/°C,3µVp-p,2.2µVrms,11.5 V ~ 40 V,2mA,1.7mA,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Programmable,2.5V* 5V* 7.5V* 10V,10mA,-,±0.3%,30ppm/°C,50µVp-p,-,4.5 V ~ 30 V,1mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Shunt,Fixed,1.2V,5mA,-,-0.00039772,-,-,5µVrms,-,-,50µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92
+Series,Fixed,2.5V,2mA,-,±1%,50ppm/°C,90µVp-p,500µVrms,2.7 V ~ 5.5 V,120µA,-,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Series,Fixed,2.5V,10mA,-,±3%,85ppm/°C,8µVp-p,-,4.5 V ~ 30 V,1.5mA,-,0°C ~ 70°C (TA),Through Hole,TO-206AC* TO-52-3 Metal Can,TO-52-3
+Series,Fixed,10V,10mA,-,±0.3%,30ppm/°C,40µVp-p,-,13 V ~ 30 V,1mA,-,0°C ~ 70°C (TA),Through Hole,TO-205AA* TO-5-3 Metal Can,TO-5-3
+Through Hole,TO-99-8 Metal Can,TO-99-8,,-,,,,,,,-,,,,
+Series,Fixed,5V,10mA,-,±0.4%,25ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+Series,Programmable,±5V* ±10V,10mA,-,±0.01%,3ppm/°C,6µVp-p,-,10.8 V ~ 36 V,10mA,-,-25°C ~ 85°C (TA),Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CDIP
+Shunt,Adjustable,1.24V,Voltage - Output (Max) 20V,200mA,±1%,30ppm/°C,-,-,-,-,300µA,-20°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92
+Shunt,Fixed,1.235V,20mA,-,±1%,80ppm/°C Typical,-,60µVrms,-,-,20µA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+,,,,-,,,,,,,-,,,,
+Shunt,Fixed,1.235V,20mA,-,±1%,20ppm/°C Typical,-,60µVrms,-,-,15µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,2.5V,20mA,-,±3%,150ppm/°C,-,120µVrms,-,-,20µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,3V,10mA,-,±0.02%,5ppm/°C,1.75µVp-p,-,3.2 V ~ 12.6 V,725µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Through Hole,TO-99-8 Metal Can,TO-99-8,,-,,,,,,,-,,,,
+Series,Fixed,5V,30mA,-,±0.2%,25ppm/°C,50µVp-p,-,5.1 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,2.5V,20mA,-,±0.1%,25ppm/°C,-,10µVrms,4.5 V ~ 40 V,450µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,4.096V,10mA,-,±0.05%,3ppm/°C,3µVp-p,-,4.296 V ~ 18 V,1.2mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Series,Programmable,±5V* ±10V,10mA,-,±0.01%,3ppm/°C,6µVp-p,-,10.8 V ~ 36 V,10mA,-,-25°C ~ 85°C (TA),Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CDIP
+Series,Programmable,±5V* ±10V,10mA,-,±0.03%,3ppm/°C,6µVp-p,-,10.8 V ~ 36 V,10mA,-,-25°C ~ 85°C (TA),Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CDIP
+Series,Programmable,±5V* ±10V,10mA,-,±0.01%,3ppm/°C,6µVp-p,-,10.8 V ~ 36 V,10mA,-,-25°C ~ 85°C (TA),Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CDIP
+Shunt,Fixed,2.048V,-,15mA,±0.1%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,2.5V,-,15mA,±0.1%,100ppm/°C,-,35µVrms,-,-,65µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,3V,-,15mA,±0.1%,100ppm/°C,-,35µVrms,-,-,67µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,5V,-,15mA,±0.1%,100ppm/°C,-,80µVrms,-,-,80µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,10V,-,15mA,±0.1%,100ppm/°C,-,180µVrms,-,-,103µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,4.096V,15mA,-,±0.1%,100ppm/°C,-,80µVrms,-,-,73µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,5V,15mA,-,±0.1%,100ppm/°C,-,80µVrms,-,-,80µA,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.5V,-,20mA,±3%,150ppm/°C,-,120µVrms,-,-,20µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,1.235V,-,20mA,-0.00049086,150ppm/°C,-,60µVrms,-,-,15µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,6.95V,-,10mA,±0.17%,2ppm/°C,-,7µVrms,-,-,500µA,0°C ~ 70°C (TA),Through Hole,TO-46-4 Metal Can,TO-46-4
+Shunt,Fixed,5V,-,15mA,±4%,-,-,-,-,-,10mA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Shunt,Fixed,2.49V,-,10mA,±4%,-,-,-,-,-,400µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Series,Fixed,2.5V,-,20mA,±0.02%,7ppm/°C,1.9µVp-p,1.6µVrms,3.7 V ~ 36 V,1.28mA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.04%,3ppm/°C,1.75µVp-p,-,4.5 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,-,10mA,±0.12%,10ppm/°C,1.75µVp-p,-,4.5 V ~ 18 V,600µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Series,Fixed,3V,-,30mA,±0.33%,25ppm/°C,30µVp-p,-,3.3 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.048V,-,30mA,±0.5%,25ppm/°C,20µVp-p,-,3 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,-,30mA,±0.2%,25ppm/°C,50µVp-p,-,5.1 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,5V,30mA,-,±0.2%,25ppm/°C,50µVp-p,-,5.1 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,2.5V,-,30mA,±0.4%,25ppm/°C,25µVp-p,-,3 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,30mA,-,±0.4%,25ppm/°C,25µVp-p,-,3 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Programmable,2.5V* 5V* 7.5V* 10V,10mA,-,±0.3%,30ppm/°C,50µVp-p,-,4.5 V ~ 30 V,1mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Programmable,2.5V* 5V* 7.5V* 10V,-,10mA,±0.1%,15ppm/°C,50µVp-p,-,4.5 V ~ 30 V,1mA,-,-55°C ~ 125°C (TA),Through Hole,TO-99-8 Metal Can,TO-99-8
+Series,Fixed,5V,-,5mA,±0.1%,50ppm/°C,140µVp-p,100µVrms,5.2 V ~ 12 V,70µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,10mA,±0.04%,4ppm/°C,1.25µVp-p,-,3 V ~ 15 V,950µA,-,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt* Buried Zener,Fixed,10V,10mA,-,±0.05%,20ppm/°C,3µVp-p,2.2µVrms,11.5 V ~ 40 V,2mA,1.7mA,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series* Buried Zener,Fixed,5V,10mA,-,±0.05%,20ppm/°C,3µVp-p,2.2µVrms,7.2 V ~ 40 V,1.5mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series* Shunt* Buried Zener,Fixed,7V,-,10mA,±0.71%,20ppm/°C,4µVp-p,2.5µVrms,8.5 V ~ 40 V,1.5mA,1.2mA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,10V,10mA,-,±0.1%,20ppm/°C,4µVp-p,-,13.5 V ~ 36 V,4mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,10V,10mA,-,±0.1%,20ppm/°C,4µVp-p,-,13.5 V ~ 36 V,4mA,-,0°C ~ 70°C (TA),Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+Series,Fixed,10V,-,10mA,±0.05%,5ppm/°C,5µVp-p,-,11.4 V ~ 36 V,1.4mA,-,-25°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,4.096V,-,30mA,±0.24%,25ppm/°C,40µVp-p,-,4.5 V ~ 15 V,45µA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,20mA,-,±0.1%,25ppm/°C,-,10µVrms,4.5 V ~ 40 V,450µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.2%* ±0.17%,7ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.2%* ±0.17%,7ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series* Shunt,Programmable,±2.5V* ±3V,-,10mA,±0.04%* ±0.03%,3ppm/°C,4µVp-p,-,4 V ~ 36 V,1mA,1mA,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,3V,-,5mA,±0.1%,9ppm/°C,8.7µVp-p,-,3.3 V ~ 15 V,190µA,-,-40°C ~ 125°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-5
+Series,Fixed,4.096V,-,5mA,±0.98%,100ppm/°C,110µVp-p,90µVrms,4.3 V ~ 12 V,70µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,5mA,±0.8%,100ppm/°C,70µVp-p,50µVrms,2.7 V ~ 12 V,70µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.225V,-,10mA,±0.82%,100ppm/°C,5µVp-p,20µVrms,-,-,50µA,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,2.5V,-,10mA,±0.4%,25ppm/°C,10µVp-p,-,4.5 V ~ 36 V,280µA,-,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,2.5V,10mA,-,±0.2%,20ppm/°C,10µVp-p,-,4.5 V ~ 36 V,280µA,-,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Shunt,Fixed,1.235V,-,5mA,-0.00034526,100ppm/°C,-,5µVrms,-,-,50µA,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Fixed,1.235V,5mA,-,-0.00034526,100ppm/°C,-,5µVrms,-,-,50µA,0°C ~ 70°C (TA),Through Hole,TO-51-2 Metal Can,TO-51-2
+Series,Fixed,5V,10mA,-,±0.4%,25ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Series,Fixed,5V,10mA,-,±0.4%,25ppm/°C,4µVp-p,-,10.8 V ~ 36 V,3mA,-,0°C ~ 70°C (TA),Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+Series,Fixed,3V,-,5mA,±0.1%,50ppm/°C,85µVp-p,60µVrms,3.2 V ~ 12 V,70µA,-,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Series,Fixed,10V,-,8mA,±1%,65ppm/°C,30µVp-p,-,12 V ~ 40 V,1.6mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Series,Fixed,10V,-,8mA,±1%,65ppm/°C,30µVp-p,-,12 V ~ 40 V,1.6mA,-,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Shunt,Adjustable,2.495V,37V,100mA,±2.2%,50ppm/°C Typical,-,-,-,-,1mA,0°C ~ 70°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Shunt,Fixed,1.235V,-,20mA,-0.00049086,150ppm/°C,-,60µVrms,-,-,15µA,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3

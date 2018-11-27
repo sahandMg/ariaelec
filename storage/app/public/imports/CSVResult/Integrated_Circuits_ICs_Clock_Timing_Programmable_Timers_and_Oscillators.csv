@@ -1,0 +1,23 @@
+VCO (Dual),-,20MHz,4.75 V ~ 5.25 V,35mA,0°C ~ 70°C,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC,Surface Mount
+VCO,-,1.1GHz,4.2 V ~ 5.5 V,19mA,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Programmable Timer,2 ~ 2²⁴,5MHz,3 V ~ 18 V,3mA,-55°C ~ 125°C,"16-DIP (0.300""* 7.62mm)",16-PDIP,Through Hole
+VCO,-,20MHz,4.75 V ~ 5.25 V,20mA,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",14-PDIP,Through Hole
+555 Type* Timer/Oscillator (Single),-,500kHz,3 V ~ 16 V,180µA,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",8-SO,Surface Mount
+555 Type* Timer/Oscillator (Single),-,-,4.5 V ~ 16 V,7.5mA,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Programmable Timer,65536,100kHz,3 V ~ 20 V,-,-55°C ~ 125°C,"14-DIP (0.300""* 7.62mm)",14-PDIP,Through Hole
+4-Digit Up/Down Counter,9999,2MHz,4.5 V ~ 5.5 V,100mA,-20°C ~ 85°C,"28-DIP (0.600""* 15.24mm)",28-PDIP,Through Hole
+555 Type* Timer/Oscillator (Dual),-,100kHz,4.5 V ~ 16 V,20mA,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",14-PDIP,Through Hole
+Programmable Timer,2 ~ 2²⁴,5MHz,3 V ~ 18 V,3mA,-55°C ~ 125°C,"16-DIP (0.300""* 7.62mm)",16-PDIP,Through Hole
+Oscillator* Silicon,-,1kHz ~ 20MHz,2.7 V ~ 5.5 V,920µA,-40°C ~ 85°C,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5,Surface Mount
+555 Type* Timer/Oscillator (Dual),-,500kHz,4.5 V ~ 16 V,20mA,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",14-SO,Surface Mount
+555 Type* Timer/Oscillator (Single),-,500kHz,4.5 V ~ 16 V,10mA,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Counter/Timer Circuit (CTC),-,6MHz,4.5 V ~ 5.5 V,8mA,-40°C ~ 100°C,"28-DIP (0.600""* 15.24mm)",28-PDIP,Through Hole
+Counter/Timer Circuit (CTC),-,6MHz,4.75 V ~ 5.25 V,200mA,0°C ~ 70°C,"40-DIP (0.620""* 15.75mm)",40-PDIP,Through Hole
+Programmable Timer,-,100kHz,3 V ~ 20 V,-,-55°C ~ 125°C,"14-DIP (0.300""* 7.62mm)",14-DIP,Through Hole
+Counter/Timer Circuit (CTC),-,6MHz,4.75 V ~ 5.25 V,200mA,0°C ~ 70°C,"40-DIP (0.620""* 15.75mm)",40-PDIP,Through Hole
+555 Type* Timer/Oscillator (Single),-,500kHz,4.5 V ~ 16 V,10mA,-40°C ~ 105°C,"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+555 Type* Timer/Oscillator (Single),-,1MHz,2 V ~ 18 V,60µA,-25°C ~ 85°C,"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Programmable Timer,-,100kHz,3 V ~ 20 V,-,-55°C ~ 125°C,"14-DIP (0.300""* 7.62mm)",14-DIP,Through Hole
+Programmable Timer,-,36MHz,4.5 V ~ 15.5 V,500µA,-40°C ~ 85°C,"14-DIP (0.300""* 7.62mm)",14-DIP,Through Hole
+Programmable Timer,65536,100kHz,3 V ~ 15 V,-,-55°C ~ 125°C,"14-DIP (0.300""* 7.62mm)",14-PDIP,Through Hole
+VCXO,-,1124MHz* 1152MHz,2.375 V ~ 2.625 V,120mA,-40°C ~ 85°C,6-CLCC,6-CLCC (7x5),Surface Mount

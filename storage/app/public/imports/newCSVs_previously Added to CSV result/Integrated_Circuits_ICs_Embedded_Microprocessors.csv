@@ -1,0 +1,20 @@
+ARM926EJ-S,1 Core* 32-Bit,400MHz,-,DDR2* SDRAM* SRAM,No,-,10/100 Mbps,-,USB 2.0 (3),1.8V* 3.3V,-40°C ~ 85°C (TA),-,217-LFBGA,217-LFBGA (15x15),
+ARM926EJ-S,1 Core* 32-Bit,400MHz,-,LPDDR* LPSDR* DDR2* SDR* SRAM,No,LCD* Touchscreen,10/100 Mbps,-,USB 2.0 (3),1.8V* 3.3V,-40°C ~ 85°C (TA),-,324-TFBGA,324-TFBGA (15x15),
+ARM926EJ-S,1 Core* 32-Bit,400MHz,-,LPDDR* LPSDR* DDR2* SDR* SRAM,No,LCD* Touchscreen,10/100 Mbps,-,USB 2.0 (3),1.8V* 3.3V,-40°C ~ 85°C (TA),-,324-TFBGA,324-TFBGA (15x15),
+ARM926EJ-S,1 Core* 32-Bit,400MHz,-,LPDDR* LPDDR2* DDR2* DDR* SDR* SRAM,No,LCD* Touchscreen,10/100 Mbps,-,USB 2.0 (3),1.8V* 2.5V* 3.0V* 3.3V,-40°C ~ 85°C (TA),-,217-LFBGA,217-LFBGA (15x15),
+ARM® Cortex®-A5,1 Core* 32-Bit,600MHz,Multimedia; NEON™ SIMD,LPDDR* LPDDR2* DDR2,Yes,LCD* Touchscreen,10/100 Mbps (1),-,USB 2.0 (3),1.2V* 1.8V* 3.3V,-40°C ~ 85°C (TA),AES* SHA* TDES* TRNG,289-LFBGA,289-LFBGA (14x14),
+M68000,1 Core* 8/16-Bit,16MHz,Communications; RISC CPM,DRAM,No,-,-,-,-,5.0V,0°C ~ 70°C (TA),-,100-LQFP,100-LQFP (14x14),
+MPC8xx,1 Core* 32-Bit,80MHz,Communications; CPM,DRAM,No,-,10 Mbps (4)* 10/100 Mbps (1),-,-,3.3V,0°C ~ 95°C (TA),-,357-BBGA,357-PBGA (25x25),
+ARM926EJ-S,1 Core* 32-Bit,200MHz,Signal Processing; C674x* System Control; CP15,LPDDR* DDR2,No,-,10/100 Mbps (1),-,USB 2.0 + PHY (1),1.8V* 3.3V,-40°C ~ 105°C (TJ),-,361-LFBGA,361-NFBGA (16x16),
+CPU32+,1 Core* 32-Bit,33MHz,Communications; CPM,DRAM,No,-,10 Mbps (1),-,-,5.0V,0°C ~ 70°C (TA),-,240-BFQFP,240-FQFP (32x32),
+Z80,1 Core* 8-Bit,10MHz,-,-,No,-,-,-,-,5.0V,-40°C ~ 100°C (TA),-,100-QFP,100-QFP,
+68020,1 Core* 32-Bit,25MHz,-,-,No,-,-,SATA -,USB -,5.0V,0°C ~ 70°C (TA),-,114-BPGA,114-PGA (34.55x34.55),-
+CPU32,1 Core* 32-Bit,25MHz,-,DRAM,No,-,-,SATA -,USB -,5.0V,0°C ~ 70°C (TA),-,144-LQFP,144-LQFP (20x20),USART
+CPU32,1 Core* 32-Bit,16MHz,-,DRAM,No,-,-,SATA -,USB -,5.0V,0°C ~ 70°C (TA),-,144-LQFP,144-LQFP (20x20),USART
+MPC8xx,1 Core* 32-Bit,50MHz,Communications; CPM,DRAM,No,-,10 Mbps (1),SATA -,USB -,3.3V,0°C ~ 95°C (TA),-,256-BBGA,256-PBGA (23x23),HDLC/SDLC* PCMCIA* SPI* UART
+ARM926EJ-S,2 Core* 32-Bit,333MHz,-,DDR* DDR2,No,LCD* Touchscreen,10/100/1000 Mbps (1),SATA -,USB USB 2.0 + PHY (3),3.3V,-40°C ~ 85°C (TC),-,420-FBGA,420-PBGA,I²C* I²S* IrDA* Microwire* SPI* UART
+CPU32+,1 Core* 32-Bit,33MHz,Communications; CPM,DRAM,No,-,10 Mbps (1),-,-,5.0V,0°C ~ 70°C (TA),-,240-BFQFP,240-FQFP (32x32),
+Intel386 SX,1 Core* 32-Bit,25MHz,Math Engine; Intel387 SX,-,No,-,-,SATA -,USB -,5.0V,0°C ~ 100°C (TC),-,100-QFP,100-PQFP (19x19),
+4 Core* 64-Bit,2.8GHz,-,-,-,-,-,SATA -,USB -,-,-,,,,,
+ARM926EJ-S,1 Core* 32-Bit,180MHz,-,SDRAM* SRAM,No,LCD* Touchscreen,10/100 Mbps,SATA -,USB USB 2.0 (3),1.8V* 2.5V* 3.3V,-40°C ~ 85°C (TA),-,208-BFQFP,208-PQFP (28x28),EBI/EMI* I²C* ISI* MMC/SD/SDIO* SPI* SSC* UART/USART
+ARM7TDMI,1 Core* 32-Bit,90MHz,-,SDRAM,No,Keypad* LCD* Touchscreen,-,SATA -,USB -,2.5V* 2.7V* 3.0V* 3.3V,0°C ~ 70°C (TA),Hardware ID,208-LQFP,208-LQFP,DAI* IrDA* SSI* UART

@@ -1,0 +1,37 @@
+PNP - Pre-Biased,500mA,50V,1 kOhms,1 kOhms,33 @ 50mA* 5V,300mV @ 2.5mA* 50mA,500nA,200MHz,300mW,Through Hole,SC-72 Formed Leads,SPT
+NPN - Pre-Biased,30mA,50V,47 kOhms,47 kOhms,68 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,300mW,Through Hole,SC-72 Formed Leads,SPT
+NPN - Pre-Biased,100mA,50V,4.7 kOhms,4.7 kOhms,20 @ 10mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+NPN - Pre-Biased,100mA,50V,10 kOhms,10 kOhms,30 @ 5mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+PNP - Pre-Biased,100mA,50V,4.7 kOhms,4.7 kOhms,20 @ 10mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),200MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+PNP - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,68 @ 5mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),200MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+NPN - Pre-Biased,100mA,50V,10 kOhms,10 kOhms,30 @ 5mA* 5V,150mV @ 500åµA* 10mA,1åµA,230MHz,250mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,TO-236AB (SOT23)
+NPN - Pre-Biased,100mA,50V,10 kOhms,47 kOhms,100 @ 5mA* 5V,100mV @ 250åµA* 5mA,1åµA,-,250mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,TO-236AB (SOT23)
+NPN - Pre-Biased,100mA,50V,4.7 kOhms,10 kOhms,50 @ 10mA* 5V,100mV @ 500åµA* 10mA,1åµA,-,150mW,Surface Mount,SC-75* SOT-416,SC-75
+PNP - Pre-Biased,100mA,50V,2.2 kOhms,10 kOhms,30 @ 5mA* 10V,250mV @ 300åµA* 10mA,500nA,80MHz,125mW,Surface Mount,SC-89* SOT-490,SSMini3-F1
+NPN - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,70 @ 5mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),100MHz,250mW,Surface Mount,SC-70* SOT-323,PG-SOT323-3
+PNP - Pre-Biased,500mA,50V,2.2 kOhms,10 kOhms,70 @ 50mA* 5V,300mV @ 2.5mA* 50mA,100nA (ICBO),150MHz,330mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,PG-SOT23-3
+NPN - Pre-Biased,100mA,50V,10 kOhms,10 kOhms,30 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,150mW,Surface Mount,SOT-523,SOT-523
+PNP - Pre-Biased,50mA,50V,10 kOhms,10 kOhms,30 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,SC-70* SOT-323,UMT3
+PNP - Pre-Biased,100mA,50V,10 kOhms,4.7 kOhms,24 @ 10mA* 5V,300mV @ 250åµA* 5mA,500nA,250MHz,150mW,Surface Mount,SOT-523,SOT-523
+PNP - Pre-Biased,100mA,50V,22 kOhms,22 kOhms,56 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+PNP - Pre-Biased,100mA,50V,4.7 kOhms,4.7 kOhms,30 @ 10mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SMT3
+PNP - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,68 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,SC-70* SOT-323,SOT-323
+PNP - Pre-Biased,500mA,50V,4.7 kOhms,4.7 kOhms,47 @ 50mA* 5V,300mV @ 2.5mA* 50mA,500nA,200MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SMT3
+NPN - Pre-Biased,100mA,50V,10 kOhms,10 kOhms,35 @ 5mA* 10V,250mV @ 300åµA* 10mA,500nA,-,200mW,Surface Mount,SC-75* SOT-416,SC-75* SOT-416
+NPN - Pre-Biased,50mA,50V,10 kOhms,10 kOhms,30 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SMT3
+NPN - Pre-Biased,100mA,50V,4.7 kOhms,47 kOhms,80 @ 5mA* 10V,250mV @ 1mA* 10mA,500nA,-,200mW,Surface Mount,SC-75* SOT-416,SC-75* SOT-416
+NPN - Pre-Biased,100mA,50V,4.7 kOhms,47 kOhms,80 @ 10mA* 5V,300mV @ 250åµA* 5mA,500nA,250MHz,150mW,Surface Mount,SC-89* SOT-490,EMT3F (SOT-416FL)
+NPN - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,80 @ 5mA* 10V,250mV @ 300åµA* 10mA,500nA,-,200mW,Surface Mount,SC-75* SOT-416,SC-75* SOT-416
+NPN - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,68 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SMT3
+NPN - Pre-Biased,100mA,50V,47 kOhms,47 kOhms,68 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,200mW,Surface Mount,SC-70* SOT-323,SOT-323
+NPN - Pre-Biased,100mA,50V,47 kOhms,-,100 @ 1mA* 5V,300mV @ 250åµA* 2.5mA,500nA (ICBO),250MHz,150mW,Surface Mount,SOT-523,SOT-523
+NPN - Pre-Biased,100mA,50V,47 kOhms,-,100 @ 1mA* 5V,300mV @ 1mA* 10mA,500nA (ICBO),250MHz,200mW,Surface Mount,SC-70* SOT-323,SOT-323
+NPN - Pre-Biased,100mA,50V,47 kOhms,22 kOhms,56 @ 5mA* 5V,300mV @ 500åµA* 10mA,500nA,250MHz,150mW,Surface Mount,SOT-523,SOT-523
+PNP - Pre-Biased,500mA,50V,2.2 kOhms,10 kOhms,70 @ 50mA* 5V,300mV @ 2.5mA* 50mA,100nA (ICBO),150MHz,330mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,PG-SOT23-3
+Transistor Type PNP - Pre-Biased,Current - Collector (Ic) (Max) 100mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 4.7 kOhms,Resistor - Emitter Base (R2) 4.7 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 30 @ 10mA* 5V,Vce Saturation (Max) @ Ib* Ic 300mV @ 500åµA* 10mA,Current - Collector Cutoff (Max) 500nA,Frequency - Transition 250MHz,Power - Max 300mW,Mounting Type Through Hole,Package / Case SC-72 Formed Leads,Supplier Device Package SPT
+Transistor Type NPN - Pre-Biased,Current - Collector (Ic) (Max) 100mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 4.7 kOhms,Resistor - Emitter Base (R2) 4.7 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 30 @ 10mA* 5V,Vce Saturation (Max) @ Ib* Ic 150mV @ 500åµA* 10mA,Current - Collector Cutoff (Max) 1åµA,Power - Max 250mW,Mounting Type Surface Mount,Package / Case TO-236-3* SC-59* SOT-23-3,Supplier Device Package SMT3; MPAK,
+Transistor Type PNP - Pre-Biased,Current - Collector (Ic) (Max) 30mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 22 kOhms,Resistor - Emitter Base (R2) 22 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 56 @ 5mA* 5V,Vce Saturation (Max) @ Ib* Ic 300mV @ 500åµA* 10mA,Current - Collector Cutoff (Max) 500nA,Frequency - Transition 250MHz,Power - Max 300mW,Mounting Type Through Hole,Package / Case SC-72 Formed Leads,Supplier Device Package SPT
+Transistor Type NPN - Pre-Biased,Current - Collector (Ic) (Max) 30mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 22 kOhms,Resistor - Emitter Base (R2) 22 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 56 @ 5mA* 5V,Vce Saturation (Max) @ Ib* Ic 300mV @ 500åµA* 10mA,Current - Collector Cutoff (Max) 500nA,Frequency - Transition 250MHz,Power - Max 300mW,Mounting Type Through Hole,Package / Case SC-72 Formed Leads,Supplier Device Package SPT
+Transistor Type PNP - Pre-Biased,Current - Collector (Ic) (Max) 800mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 2.2 kOhms,Resistor - Emitter Base (R2) 10 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 90 @ 100mA* 1V,Vce Saturation (Max) @ Ib* Ic 250mV @ 1mA* 50mA,Current - Collector Cutoff (Max) 500nA,Frequency - Transition 200MHz,Power - Max 200mW,Mounting Type Surface Mount,Package / Case TO-236-3* SC-59* SOT-23-3,
+Transistor Type NPN - Pre-Biased,Current - Collector (Ic) (Max) 100mA,Voltage - Collector Emitter Breakdown (Max) 50V,Resistor - Base (R1) 4.7 kOhms,Resistor - Emitter Base (R2) 47 kOhms,DC Current Gain (hFE) (Min) @ Ic* Vce 70 @ 5mA* 5V,Vce Saturation (Max) @ Ib* Ic 300mV @ 500åµA* 10mA,Current - Collector Cutoff (Max) 100nA (ICBO),Frequency - Transition 150MHz,Power - Max 250mW,Mounting Type Surface Mount,Package / Case SC-75* SOT-416,Supplier Device Package PG-SC-75
+PNP - Pre-Biased,100mA,50V,4.7 kOhms,47 kOhms,70 @ 5mA* 5V,300mV @ 500åµA* 10mA,100nA (ICBO),160MHz,200mW,Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3

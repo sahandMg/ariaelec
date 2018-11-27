@@ -1,0 +1,57 @@
+Converter* Analog and Digital Satellite STB Receivers/SatTV,9 V ~ 16 V,1,12.71 V ~ 19.04 V,-20°C ~ 85°C,Surface Mount,20-WFQFN Exposed Pad,20-QFN (4x4)
+Converter* Power Over and Telecom Applications,16 V ~ 75 V,1,220V,-40°C ~ 125°C,Surface Mount,8-SMD* Gull Wing,8-SMD
+Controller* Intel Pentium® IV,12V,1,1.1 V ~ 1.85 V,0°C ~ 70°C,Surface Mount,"24-TSSOP (0.173""* 4.40mm Width)",24-TSSOP
+Controller* Mobile PCs,2 V ~ 24 V,1,0.9 V ~ 5.5 V,-10°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Controller* DDR,5 V ~ 28 V,2,0.9 V ~ 5.5 V,-10°C ~ 100°C,Surface Mount,"28-SSOP (0.154""* 3.90mm Width)",28-SSOP/QSOP
+Controller* Notebook Power System,5.5 V ~ 25 V,4,Multiple,-40°C ~ 100°C,Surface Mount,32-VFQFN Exposed Pad,32-QFN (5x5)
+Controller* Notebook Power System,5.5 V ~ 25 V,4,Multiple,-40°C ~ 100°C,Surface Mount,32-VFQFN Exposed Pad,32-QFN (5x5)
+Controller* Intel IMVP-6.5™,5 V ~ 21 V,1,0.013 V ~ 1.5 V,-10°C ~ 100°C,Surface Mount,40-VFQFN Exposed Pad,40-TQFN (5x5)
+Controller* Intel VR10* VR11* AMD CPU,5 V ~ 12 V,1,0.38 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,48-VFQFN Exposed Pad,48-QFN (7x7)
+Controller* Intel IMVP-7* VR12™,4.75 V ~ 5.25 V,2,0.25 V ~ 1.52 V,0°C ~ 70°C,Surface Mount,48-VFQFN Exposed Pad,48-QFN (6x6)
+Controller* Intel VRM8.5,10.8 V ~ 13.2 V,4,Multiple,0°C ~ 70°C,Surface Mount,"28-SOIC (0.295""* 7.50mm Width)",-
+Controller* Intel VR10X,3 V ~ 12 V,4,0.84 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,32-VFQFN Exposed Pad,32-QFN (5x5)
+Controller* Intel VRM9* VRM10* AMD Hammer Applications,3 V ~ 12 V,1,0.8 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (6x6)
+Controller/Converter* LCD Supply,9.5 V ~ 15 V,5,Adjustable,-40°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (6x6)
+Converter* Analog and Digital Satellite STB Receivers/SatTV,8 V ~ 15 V,2,13.3V* 18V,0°C ~ 85°C,Surface Mount,"36-BSSOP (0.433""* 11.00mm Width) Exposed Pad",PowerSO-36
+Converter* Analog and Digital Satellite STB Receivers/SatTV,8 V ~ 15 V,1,13V* 18V,0°C ~ 85°C,Surface Mount,"20-SOIC (0.433""* 11.00mm Width) Exposed Pad",PowerSO-20
+Converter* Energy Harvesting,0.23 V ~ 5 V,1,1.5 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"12-TSSOP (0.118""* 3.00mm Width)",12-MSOP
+Controller/Converter* Digital Cameras,0.7 V ~ 5.5 V,7,1.25 V ~ 5 V,-40°C ~ 85°C,Surface Mount,40-WFQFN Exposed Pad,40-TQFN-EP (6x6)
+Controller* Notebook Power System,4.2 V ~ 30 V,3,2.5 V ~ 5 V* 12V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+Controller* Fiber Optic Network,2.7 V ~ 5.5 V,1,4.5 V ~ 90 V,-40°C ~ 85°C,Surface Mount,12-WQFN Exposed Pad,12-TQFN (4x4)
+Controller* DDR,2 V ~ 28 V,1,1.8V* 2.5V* 0.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,28-WFQFN Exposed Pad,28-TQFN (5x5)
+Controller* Notebook Power System,6 V ~ 26 V,4,3.3V* 5V* 1 V ~ 26 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad,32-TQFN (5x5)
+Controller* Intel IMVP-6* IMVP-6+,2 V ~ 26 V,-,-,-40°C ~ 105°C,Surface Mount,32-WFQFN Exposed Pad,32-TQFN (5x5)
+Converter* PIC® Microcontrollers,0.8 V ~ 5.5 V,1,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Controller* Intel VR11* VR11.1* AMD CPU,4.75 V ~ 5.25 V,4,0.375 V ~ 1.6 V,0°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (6x6)
+Controller* Intel VR11.1,4.75 V ~ 5.25 V,4,0.5 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,48-VFQFN Exposed Pad,48-QFN (7x7)
+Controller* Notebook Power System,6 V ~ 25 V,2,3.3V* 5.5V* 2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad,32-WQFN (5x5)
+Controller* Notebook Power System,6 V ~ 25 V,2,3.3V* 5.5V* 2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad,32-WQFN (5x5)
+Controller* Intel VRD10* VRD11* AMD CPU,4.5 V ~ 5.5 V,5,Adjustable,-40°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-VQFN (6x6)
+Converter* DDR Bus Termination Regulator,1.46 V ~ 2.5 V,1,Adjustable,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOP-EP
+Power Supply* Automotive Applications,4.5 V ~ 45 V,3,5V* 3.3V/2.6V* 1.3V,-40°C ~ 150°C,Surface Mount,"36-BSSOP (0.295""* 7.50mm Width) Exposed Pad",PG-DSO-36
+Controller* DDR,4.5 V ~ 28 V,2,0.9 V ~ 24 V,-40°C ~ 85°C,Surface Mount,"30-TFSOP (0.173""* 4.40mm Width)",30-TSSOP
+Controller* DDR,3 V ~ 28 V,1,1.5V* 1.8V* 2.5V,-40°C ~ 85°C,Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Converter* DDR,2.38 V ~ 3.5 V,1,-,-40°C ~ 85°C,Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Converter* DDR,2.38 V ~ 3.5 V,1,-,-40°C ~ 85°C,Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Converter* Bluetooth (BLT),1.9 V ~ 3.9 V,1,2.1V,-40°C ~ 85°C,Surface Mount,6-UFDFN,6-SON (1.45x1)
+Converter* Bluetooth (BLT),2.2 V ~ 5.5 V,1,1.8 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,12-WFDFN Exposed Pad,12-WSON (3x2)
+Converter* Digital Still Cameras,1.5 V ~ 5.5 V,8,Adjustable,-25°C ~ 85°C,Surface Mount,48-VFQFN Exposed Pad,48-VQFN (6x6)
+Converter/Current Monitor* APD Bias Applications,2.8 V ~ 5.5 V,1,3.3 V ~ 76 V,-40°C ~ 85°C,Surface Mount,16-WFQFN Exposed Pad,16-TQFN (3x3)
+Converter* RF Data Links,0.7 V ~ 5.5 V,1,3.3V* 2.7 V ~ 5.5 V,0°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Converter* Analog and Digital Satellite Receivers,15 V ~ 25 V,1,13V* 18V,0°C ~ 85°C,Surface Mount,PowerSO-10 Exposed Bottom Pad,10-PowerSO
+Charge Pump* SIM Cards,2.7 V ~ 4.2 V,1,4.75V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-uMAX
+Converter* DDR Bus Termination Regulator,1.4 V ~ 5.5 V,1,Adjustable,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOP-EP
+Converter* DDR,3.1 V ~ 6.5 V,1,0.5 V ~ 0.9 V,-40°C ~ 85°C,Surface Mount,10-WFDFN Exposed Pad,10-SON (2x2)
+Converter* Bluetooth (BLT),2.2 V ~ 5.5 V,1,1.8 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,12-WFDFN Exposed Pad,12-WSON (3x2)
+Power Supply* Automotive Applications,5.5 V ~ 60 V,3,2.6V* 3.3V* 5V,-40°C ~ 150°C,Surface Mount,"36-BSSOP (0.433""* 11.00mm Width) Exposed Pad",PG-DSO-36
+Converter* DDR,1.6 V ~ 3.6 V,1,-,0°C ~ 70°C,Surface Mount,SPak-5 (5 leads + Tab),5-SPAK
+Converter* Power Over and Telecom Applications,16 V ~ 75 V,1,220V,-40°C ~ 125°C,Surface Mount,TO-263-7* D²Pak (6 Leads + Tab)* TO-263CB,TO-263-7C
+Converter* Power Over and Telecom Applications,16 V ~ 75 V,1,220V,-40°C ~ 125°C,Surface Mount,8-SMD* Gull Wing,8-SMD
+Converter* ISDN Power Supplies,-10 V ~ -60 V,1,5V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Controller* DDR,5 V ~ 28 V,2,0.9 V ~ 5.5 V,-10°C ~ 100°C,Surface Mount,"28-SSOP (0.154""* 3.90mm Width)",28-SSOP/QSOP
+Controller* Intel VRM9* VRM10* AMD Hammer Applications,3 V ~ 12 V,1,0.8 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (6x6)
+Controller* Intel VR11* AMD CPU,5 V ~ 12 V,1,0.5 V ~ 1.6 V,0°C ~ 70°C,Surface Mount,36-WFQFN Exposed Pad,36-TQFN (6x6)
+Controller* Intel Pentium® IV,10.8 V ~ 13.2 V,4,-,0°C ~ 70°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (7x7)
+Converter* Digital Still Cameras,1.5 V ~ 5.5 V,8,Adjustable,-25°C ~ 85°C,Surface Mount,48-VFQFN Exposed Pad,48-VQFN (6x6)
+Charge Pump* Wireless Devices,2.5 V ~ 5.5 V,1,-2V* -2.5 V ~ 6.1 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-uMAX
+Power Supply* Automotive Applications,5.5 V ~ 60 V,3,2.6V* 3.3V* 5V,-40°C ~ 150°C,Surface Mount,"36-BSSOP (0.433""* 11.00mm Width) Exposed Pad",PG-DSO-36

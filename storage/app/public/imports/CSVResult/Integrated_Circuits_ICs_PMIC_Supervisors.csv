@@ -1,0 +1,139 @@
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,250 ms Minimum,Adjustable/Selectable,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,40 ms Minimum,2.6V,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,150 ms Minimum,3.075V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,1.1 ms Minimum,2.25V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,1.1 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,10 µs Maximum Propagation Delay,Adjustable/Selectable,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Sequencer,1,Open Drain or Open Collector,Active High,Adjustable/Selectable,Adjustable/Selectable,-40°C ~ 125°C (TA),Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,100 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.63V,-40°C ~ 125°C (TA),Surface Mount,SC-82A* SOT-343,SC-70-4
+Battery Backup Circuit,1,Push-Pull* Totem Pole,Active Low,35 ms Minimum,4.65V,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Battery Backup Circuit,1,Open Drain* Push-Pull,Active High/Active Low,140 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Battery Backup Circuit,1,Open Drain* Push-Pull,Active High/Active Low,140 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,160 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,140 ms Minimum,4.63V,-40°C ~ 125°C (TA),Surface Mount,SC-70* SOT-323,SC-70-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.32V,-40°C ~ 125°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.38V,-40°C ~ 85°C (TA),Surface Mount,SC-82A* SOT-343,SC-70-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,Adjustable/Selectable,4.37V* 4.62V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,Adjustable/Selectable,4.37V* 4.62V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,Adjustable/Selectable,4.37V* 4.62V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,Adjustable/Selectable,4.37V* 4.62V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,250 ms Minimum,4.375V,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,250 ms Minimum,4.375V,-40°C ~ 85°C (TA),Surface Mount,TO-261-4* TO-261AA,SOT-223-3
+Battery Backup Circuit,1,Open Drain* Push-Pull,Active High/Active Low,25 ms Minimum,4.37V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,100 ms Minimum,4.35V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,100 ms Minimum,2.55V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Multi-Voltage Supervisor,2,Open Drain or Open Collector,Active High,-,Adjustable/Selectable,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,3.08V,-40°C ~ 85°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,140 ms Minimum,2.32V,-40°C ~ 85°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,100 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,100 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 105°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 105°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,1 ms Minimum,2.63V,-40°C ~ 85°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,1 ms Minimum,2.63V,-20°C ~ 85°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,1 ms Minimum,2.93V,-20°C ~ 85°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,1 ms Minimum,4.63V,-20°C ~ 85°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain* Open Drain,Active High/Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Multi-Voltage Supervisor,4,Open Drain or Open Collector,Active Low,140 ms Minimum,1.593V* 2.213V* 2.921V* Adj,0°C ~ 70°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Multi-Voltage Supervisor,3,Push-Pull* Totem Pole,Active Low,Adjustable/Selectable,3.086V* Adj* Adj,0°C ~ 70°C (TA),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active High/Active Low,35 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active High/Active Low,250 ms Minimum,4.37V* 4.62V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active High/Active Low,250 ms Minimum,4.37V* 4.62V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Watchdog Circuit,1,Push-Pull* Totem Pole,Active Low,100 ms Minimum,2.93V,-40°C ~ 125°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,100 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Battery Backup Circuit,1,Open Drain or Open Collector,Active Low,150 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,SOT-23-8,SOT-23-8
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,50 µs Typical,Adjustable/Selectable,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,90 ms Minimum,Adjustable/Selectable,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,140 ms Minimum,2.32V,-40°C ~ 125°C (TA),Surface Mount,SC-82A* SOT-343,SC-70-4
+Battery Backup Circuit,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Battery Backup Circuit,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Battery Backup Circuit,1,Push-Pull* Push-Pull,Active High/Active Low,35 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Battery Backup Circuit,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.4V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Battery Backup Circuit,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.4V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.4V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.63V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,3.08V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.65V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Battery Backup Circuit,1,-,Active High/Active Low,140 ms Minimum,4.675V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 105°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 105°C (TJ),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High,140 ms Minimum,4.63V,-40°C ~ 105°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.7V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,<1 ms Minimum,Adjustable/Selectable,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,80 µs Typical Propagation Delay,Adjustable/Selectable,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,4.6V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,4.6V,-40°C ~ 85°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,4.6V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,4.6V,0°C ~ 70°C (TA),Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,150 ms Minimum,3.075V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,150 ms Minimum,2.925V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,150 ms Minimum,2.625V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,150 ms Minimum,2.925V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,140 ms Minimum,2.9V,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,4.5V,-40°C ~ 125°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,140 ms Minimum,2.32V,-40°C ~ 105°C (TJ),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23-3 (TO-236)
+Simple Reset/Power-On Reset,1,-,Active High,140 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Smart ON/OFF Controller,1,Open Drain or Open Collector,Active Low,-,3.3V,-40°C ~ 85°C (TA),Surface Mount,12-WFDFN,12-TDFN (2x3)
+Smart ON/OFF Controller,1,Open Drain or Open Collector,Active Low,240 ms Minimum,3.3V,-40°C ~ 85°C (TA),Surface Mount,12-WFDFN,12-TDFN (2x3)
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.63V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,4.38V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,3.08V,-40°C ~ 85°C (TA),Surface Mount,TO-253-4* TO-253AA,SOT-143-4
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High,140 ms Minimum,4.63V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Watchdog Circuit,1,Open Drain or Open Collector,Active Low,2.3 ms Minimum,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Watchdog Circuit,1,Open Drain or Open Collector,Active Low,1.12 s Minimum,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Watchdog Circuit,1,Open Drain or Open Collector,Active Low,5.1 ms Minimum,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Watchdog Circuit,1,Open Drain or Open Collector,Active Low,1.12 s Minimum,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Watchdog Circuit,1,Open Drain or Open Collector,Active Low,1.12 s Minimum,-,-40°C ~ 125°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,10 µs Maximum Propagation Delay,Adjustable/Selectable,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,2.53V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,270 ns Typical Propagation Delay,4.55V,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,1.1 ms Minimum,4.55V,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,1.1 ms Minimum,4.55V,-40°C ~ 125°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,1.1 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Multi-Voltage Supervisor,2,Push-Pull* Totem Pole,Active High/Active Low,140 ms Minimum,1.68V* 2.93V,-40°C ~ 85°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-PowerPad
+Multi-Voltage Supervisor,2,Push-Pull* Totem Pole,Active High/Active Low,140 ms Minimum,2.93V* 4.55V,-40°C ~ 85°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-PowerPad
+Multi-Voltage Supervisor,2,Open Drain or Open Collector,Active Low,70 ms Minimum,1.4V* 2.93V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Multi-Voltage Supervisor,3,Open Drain or Open Collector,Active Low,200 ms Minimum,3.3V* 5V* 12V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,140 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,0.84V,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,0.84V,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,1.12V,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,1.12V,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,Adjustable/Selectable,4.65V,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,120 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High/Active Low,120 ms Minimum,4.55V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,120 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active High,100 ms Minimum,2.93V,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,Adjustable/Selectable,-40°C ~ 125°C (TJ),Surface Mount,6-WFDFN,6-WSON (1.5x1.5)
+Simple Reset/Power-On Reset,1,Push-Pull* Totem Pole,Active Low,160 ms Minimum,Adjustable/Selectable,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active High,100 ms Minimum,4.38V,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,10.8V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Battery Backup Circuit,1,Push-Pull* Push-Pull,Active High/Active Low,140 ms Minimum,4.4V,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,140 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain* Push-Pull,Active High/Active Low,140 ms Minimum,4.65V,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,-,2.7V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Open Drain or Open Collector,Active Low,150 ms Minimum,2.925V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Detector,1,Open Drain or Open Collector,Active Low,-,4.5V,-40°C ~ 85°C (TA),Surface Mount,TO-243AA,
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,1 µs Maximum Propagation Delay,4.55V,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,270 ns Typical Propagation Delay,4.55V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Detector,1,Open Drain or Open Collector,-,-,2.7V,-40°C ~ 85°C (TA),Surface Mount,TO-236-3* SC-59* SOT-23-3,SOT-23
+Multi-Voltage Supervisor,2,Open Drain or Open Collector,Active Low,100 ms Minimum,2.93V* 4.63V,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Simple Reset/Power-On Reset,1,Complementary,Active High/Active Low,270 ns Typical Propagation Delay,4.55V,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP

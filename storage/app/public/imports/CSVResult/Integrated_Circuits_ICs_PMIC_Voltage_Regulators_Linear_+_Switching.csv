@@ -1,0 +1,6 @@
+Step-Down (Buck) Synchronous (2)* Linear (LDO) (1),Any Function,3,300kHz ~ 1MHz,Controller,Controller,Controller,No,No,Yes,3.3 V ~ 12 V,0°C ~ 70°C,Surface Mount,24-TSSOP (0.173"* 4.40mm Width) Exposed Pad,24-TSSOP-EP,
+Step-Down (Buck) (1)* Linear (LDO) (1),Any Function,2,500kHz ~ 2.4MHz,0.8 V ~ 38.9 V* 2A,Adjustable* 13mA,-,No,No,No,3 V ~ 36 V,-40°C ~ 125°C,Surface Mount,12-WFDFN Exposed Pad,12-DFN (3x3),
+Step-Down (Buck) (2)* Linear (LDO) (1),Any Function,3,200kHz ~ 300kHz,Controller,Controller,12V* 120mA,No,No,Yes,4.2 V ~ 30 V,-40°C ~ 85°C,Surface Mount,28-SSOP (0.209"* 5.30mm Width),28-SSOP,
+Step-Down (Buck) Synchronous (1)* Linear (LDO) (2),Any Function,3,200kHz ~ 600kHz,Controller,Controller,Controller,No,No,No,4.75 V ~ 28 V,0°C ~ 70°C,Surface Mount,16-SOIC (0.154"* 3.90mm Width),16-SOP,
+Step-Down (Buck) Synchronous (3)* Linear (LDO) (2),Any Function,5,600kHz,Adj to 0.6V* 3A,Adj to 0.6V* 1A,Adj to 0.6V* 1A,No,No,No,4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad,32-VQFN (5x5),
+Step-Down (Buck) Synchronous (2)* Linear (LDO) (2),Any Function,4,460kHz,Controller,Controller,3.3V* 100mA,No,No,No,5.5 V ~ 28 V,-40°C ~ 85°C,Surface Mount,24-VFQFN Exposed Pad,24-VQFN (4x4),

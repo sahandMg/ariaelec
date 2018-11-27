@@ -1,0 +1,4 @@
+Receptacle,Female Socket,Board to Board,14,All,0.100" (2.54mm),1,-,Through Hole,Solder,Push-Pull,Gold,10.0µin (0.25µm),Black,0.175" (4.45mm),0.138" (3.50mm),-,-,-,-,-,-,-,-,
+Receptacle,Female Socket,Board to Board,16,All,0.100" (2.54mm),1,-,Through Hole,Solder,Push-Pull,Gold,10.0µin (0.25µm),Black,0.175" (4.45mm),0.138" (3.50mm),-,-,-,-,-,-,-,-,
+Receptacle,Female Socket,Board to Board,22,All,0.156" (3.96mm),1,-,Surface Mount,Solder,Push-Pull,Tin,-,Black,0.368" (9.35mm),-,-55°C ~ 105°C,-,Tin,-,-,Board Guide,-,-,
+Elevated Socket,Forked,Board to Board or Cable,10,All,0.079" (2.00mm),2,0.079" (2.00mm),Through Hole,Solder,Push-Pull,Gold,30.0µin (0.76µm),Black,0.531" (13.50mm),0.319" (8.10mm),-55°C ~ 125°C,UL94 V-0,Tin,-,-,-,4.5A per Contact,-,

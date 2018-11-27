@@ -1,0 +1,149 @@
+Window,2,Open Drain,1.8 V ~ 18 V,-,-,-,11µA,-,29µs,5.5mV,-40°C ~ 125°C,SOT-23-6 Thin* TSOT-23-6,Surface Mount,TSOT-23-6
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,7.5mV @ ±15V,0.25µA @ ±15V,50mA,7.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-PDIP
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,2,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+Differential,2,-,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 5V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-DIP
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-40°C ~ 125°C,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",Surface Mount,8-VSSOP
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.1µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-55°C ~ 125°C,"14-CDIP (0.300""* 7.62mm)",Through Hole,14-CDIP
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,7.5mV @ ±15V,0.25µA @ ±15V,-,7.5mA,-,-,-,0°C ~ 70°C,TO-99-8 Metal Can,Through Hole,TO-99-8
+General Purpose,1,CMOS* Complementary* TTL,3 V ~ 10 V* ±1.5 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,6mA* 3.3mA* 5.5mA,85dB CMRR* 65dB PSRR,9.8ns,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,CMOS* Complementary* TTL,3 V ~ 10 V* ±1.5 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,6mA* 3.3mA* 5.5mA,85dB CMRR* 65dB PSRR,9.8ns,-,-40°C ~ 85°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+Differential,2,Complementary* TTL,±5 V ~ 15 V,5mV @ 5V,10µA @ 5V,-,5mA* 10mA* 20mA,-,20ns,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-DIP
+General Purpose,1,CMOS* Open-Collector* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,7mV @ 30V,0.25µA @ 5V,13mA @ 5V,2mA,-,940µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Open Collector,3 V ~ 36 V* ±1.5 V ~ 18 V,0.75mV @ ±15V,0.035µA @ ±15V,50mA,4mA,115dB CMRR,-,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Latch,1,CMOS* Complementary* TTL,-,3mV @ ±5V,10µA @ ±5V,20mA,35mA,96dB CMRR* 75dB PSRR,14ns,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Latch,2,Complementary* ECL* Open-Emitter,-,2mV @ -5.2V* 5V,10µA @ -5.2V*5V,30mA,18mA*36mA,90dB CMRR* 70dB PSRR,3.5ns,-,-25°C ~ 85°C,"16-SOIC (0.154""* 3.90mm Width)",Surface Mount,16-SOIC
+General Purpose,4,CMOS* Rail-to-Rail* TTL,2.7 V ~ 6 V,3mV @ 5V,6µA @ 5V,20mA,7mA,70dB CMRR* 80dB PSRR,10ns,7mV,0°C ~ 70°C,"16-SOIC (0.154""* 3.90mm Width)",Surface Mount,16-SOIC
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-40°C ~ 125°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-25°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,2,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+General Purpose,1,Complementary* Push-Pull* TTL,5 V ~ 10 V* ±2.5 V ~ 5 V,3mV @ ±5V,1.1µA @ ±5V,20mA,14.7mA,100dB CMRR,12ns,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,CMOS* Complementary* TTL,3 V ~ 10 V* ±1.5 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,6mA* 3.3mA* 5.5mA,85dB CMRR* 65dB PSRR,9.8ns,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,4,CMOS* Open-Collector* TTL,3 V ~ 30 V* ±1.5 V ~ 15 V,20mV @ 5V,0.5µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 85°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+General Purpose,1,Open Collector,2.7 V ~ 5.5 V,7mV @ 5V,0.25µA @ 5V,84mA @ 5V,150µA,-,600ns,-,-40°C ~ 85°C,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-70-5
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,7.5mV @ ±15V,0.25µA @ ±15V,50mA,7.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-40°C ~ 125°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,MOS* Open-Collector* Open-Emitter* TTL,3.5 V ~ 30 V* ±1.75 V ~ 15 V,7.5mV @ ±15V,0.25µA @ ±15V,-,7.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,3.5 V ~ 30 V* ±1.75 V ~ 15 V,7.5mV @ ±15V,0.25µA @ ±15V,50mA,7.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,2,Open-Collector* Open-Emitter* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,8mV @ ±15V,1µA @ ±15V,-,12.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,2,DTL* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,8mV @ ±15V,1µA @ ±15V,-,12.5mA,CMRR* PSRR (Typ) -,-,-,0°C ~ 70°C,TO-100-10 Metal Can,Through Hole,TO-100-10
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-PDIP
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+General Purpose,2,DTL* Open-Collector* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,8mV @ ±15V,1µA @ ±15V,25mA,12.5mA,CMRR* PSRR (Typ) -,-,-,-40°C ~ 85°C,"14-DIP (0.300""* 7.62mm)",Through Hole,
+with Latch,1,CMOS* TTL,4.5 V ~ 7 V* ±2.25 V ~ 16.5 V,1.5mV @ 5V,5µA @ 5V,-,10mA,95dB CMRR* 90dB PSRR,50ns,500µV,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,1,CMOS* Complementary* TTL,3 V ~ 10 V* ±1.5 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,6mA* 3.3mA* 5.5mA,85dB CMRR* 65dB PSRR,9.8ns,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,CMOS* Complementary* TTL,3 V ~ 10 V* ±1.5 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,6mA* 3.3mA* 5.5mA,85dB CMRR* 65dB PSRR,9.8ns,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Latch,1,Complementary* TTL,3 V ~ 5 V,7mV @ 5V,6µA @ 5V,-,10mA* 4mA,CMRR* PSRR (Typ) 85dB CMRR* 73dB PSRR,5.5ns,-,-40°C ~ 85°C,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",Surface Mount,8-MSOP
+with Latch,2,Complementary* ECL* Open-Emitter,-,2mV @ -5.2V* 5V,10µA @ -5.2V*5V,30mA,18mA*36mA,CMRR* PSRR (Typ) 90dB CMRR* 70dB PSRR,3.5ns,-,-25°C ~ 85°C,"16-CDIP (0.300""* 7.62mm)",Through Hole,16-CDIP
+with Voltage Reference,2,Open Drain,1.7 V ~ 5.5 V,-,0.005µA @ 1.7V,-,10µA,-,10µs,-,-40°C ~ 125°C,SOT-23-8,Surface Mount,SOT-23-8
+with Voltage Reference,2,Open Drain,1.7 V ~ 5.5 V,-,0.005µA @ 1.7V,-,10µA,-,10µs,-,-40°C ~ 125°C,SOT-23-8,Surface Mount,SOT-23-8
+with Voltage Reference,1,Open Drain,2.25 V ~ 5.5 V,-,170µA @ 5.5V,-,15µA,-,-,15mV,-40°C ~ 125°C,SC-82A* SOT-343,Surface Mount,SC-70-4
+with Voltage Reference,1,Differential* Open-Drain,1.7 V ~ 5.5 V,-,0.005µA @ 1.7V,-,10µA,-,10µs,13.5mV,-40°C ~ 125°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+with Latch,2,Complementary* Differential* Open-Emitter* PECL,±4.75 V ~ 5.25 V,2mV @ -5.2V*5V,3µA @ -5.2V*5V,30mA,5mA* 28mA* 13mA,CMRR* PSRR (Typ) 80dB CMRR* 85dB PSRR,0.83ns,±1mV,-40°C ~ 85°C,"20-SSOP (0.154""* 3.90mm Width)",Surface Mount,20-QSOP
+with Latch,2,Complementary* Differential* Open-Emitter* PECL,±4.75 V ~ 5.25 V,5mV @ 5V,24µA @ 5V,30mA,20mA* 95mA* 18mA,CMRR* PSRR (Typ) 69dB CMRR,0.3ns,±1mV,-40°C ~ 85°C,32-VFQFN Exposed Pad* CSP,Surface Mount,32-LFCSP-VQ (5x5)
+General Purpose,1,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,8mV @ 5V,0.4µA @ 5V,16mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,SC-74A* SOT-753,Surface Mount,SOT-25
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,3mV @ ±15V,0.1µA @ ±15V,-,6mA,CMRR* PSRR (Typ) -,-,-,-55°C ~ 125°C,"8-CDIP (0.300""* 7.62mm)",Through Hole,8-CERDIP
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,3mV @ ±15V,0.1µA @ ±15V,-,6mA,CMRR* PSRR (Typ) -,-,-,-55°C ~ 125°C,"8-CDIP (0.300""* 7.62mm)",Through Hole,8-CERDIP
+General Purpose,2,DTL* Open-Collector* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,4mV @ ±15V,0.5µA @ ±15V,25mA,11.5mA,CMRR* PSRR (Typ) -,-,-,-55°C ~ 125°C,"14-CDIP (0.300""* 7.62mm)",Through Hole,14-CDIP
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.1µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-55°C ~ 125°C,"14-CDIP (0.300""* 7.62mm)",Through Hole,14-CDIP
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,3mV @ ±15V,0.1µA @ ±15V,50mA,6mA,-,-,-,-40°C ~ 105°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,3.5 V ~ 30 V* ±1.75 V ~ 15 V,3mV @ ±15V,0.1µA @ ±15V,50mA,6mA,-,-,-,-40°C ~ 85°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,2,DTL* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,4mV @ ±15V,0.5µA @ ±15V,-,4.3mA,CMRR* PSRR (Typ) -,-,-,-25°C ~ 85°C,"14-CDIP (0.300""* 7.62mm)",Through Hole,14-CDIP
+General Purpose,2,Open-Collector* Open-Emitter* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,4mV @ ±15V,0.5µA @ ±15V,-,11.5mA,CMRR* PSRR (Typ) -,-,-,-40°C ~ 105°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-DIP
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 32 V* ±1 V ~ 16 V,2mV @ 30V,0.1µA @ 5V,16mA @ 5V,2mA,-,-,-,-40°C ~ 105°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 32 V* ±1 V ~ 16 V,5mV @ 30V,0.25µA @ 5V,16mA @ 5V,2mA,-,-,-,-40°C ~ 105°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 32 V* ±1 V ~ 16 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 125°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 32 V* ±1 V ~ 16 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 125°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,4,CMOS* Open-Collector* TTL,3 V ~ 36 V* ±1.5 V ~ 18 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+General Purpose,4,CMOS* Open-Collector* TTL,3 V ~ 36 V* ±1.5 V ~ 18 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"14-TSSOP (0.173""* 4.40mm Width)",Surface Mount,14-TSSOP
+General Purpose,4,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 30V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 85°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+General Purpose,4,CMOS* Open-Collector* TTL,3 V ~ 36 V* ±1.5 V ~ 18 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 125°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,2,-,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 5V,0.25µA @ 5V,16mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-DIP
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,7mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-40°C ~ 125°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+Differential,2,CMOS* MOS* Open-Drain* TTL,2 V ~ 36 V* ±1 V ~ 18 V,2mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,-25°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,2,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+General Purpose,2,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,-40°C ~ 105°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,7.5mV @ ±15V,0.25µA @ ±15V,50mA,7.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,7.5mV @ ±15V,0.25µA @ ±15V,-,7.5mA,CMRR* PSRR (Typ) -,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,DTL* MOS* Open-Collector* Open-Emitter* RTL* TTL,5 V ~ 36 V* ±2.5 V ~ 18 V,7.5mV @ ±15V,0.25µA @ ±15V,50mA,7.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,2,Open-Collector* Open-Emitter* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,8mV @ ±15V,1µA @ ±15V,-,12.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+General Purpose,2,Open-Collector* Open-Emitter* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,8mV @ ±15V,1µA @ ±15V,-,12.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SO
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,3mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,4,CMOS* MOS* Open-Collector* TTL,2 V ~ 30 V* ±1 V ~ 15 V,3mV @ 30V,0.25µA @ 5V,20mA,2.5mA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,2,Complementary* TTL,±5 V ~ 15 V,5mV @ 5V,10µA @ 5V,-,5mA* 10mA* 20mA,-,20ns,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,2,Complementary* TTL,±5 V ~ 15 V,5mV @ 5V,10µA @ 5V,-,5mA* 10mA* 20mA,-,20ns,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-DIP
+Differential,2,-,2 V ~ 36 V* ±1 V ~ 18 V,2mV @ 5V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-DIP
+General Purpose,2,CMOS* DTL* ECL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+Differential,2,-,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 5V,0.25µA @ 5V,18mA @ 5V,2.5mA,-,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-DIP
+General Purpose,1,CMOS* Open-Collector* TTL,5 V ~ 30 V* ±2.5 V ~ 15 V,7mV @ 30V,0.25µA @ 5V,13mA @ 5V,2mA,-,940µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,2.7 V ~ 15 V* ±1.35 V ~ 7.5 V,5mV @ 5V,0.04pA @ 5V,30mA,14µA,75dB CMRR* 80dB PSRR,10µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,2.7 V ~ 15 V* ±1.35 V ~ 7.5 V,15mV @ 5V,0.04pA @ 5V,30mA,14µA,75dB CMRR* 80dB PSRR,10µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,2 V ~ 8 V* ±1 V ~ 4 V,6mV @ 5V,-,30mA,1µA,80dB CMRR* 90dB PSRR,24µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,2 V ~ 8 V* ±1 V ~ 4 V,6mV @ 5V,-,30mA,1µA,80dB CMRR* 90dB PSRR,24µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Open Collector,2.7 V ~ 5.5 V,7mV @ 5V,0.25µA @ 5V,84mA @ 5V,150µA,-,600ns,-,-40°C ~ 85°C,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-70-5
+General Purpose,1,Open Drain,2.7 V ~ 5 V,7mV @ 5V,0.25µA @ 5V,93mA @ 5V,150µA,-,550ns,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,CMOS* Open-Collector* TTL,2.7 V ~ 5.5 V,7mV @ 5V,0.25µA @ 5V,84mA @ 5V,120µA,-,600ns,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Open Drain,2.7 V ~ 5 V,9mV @ 5V,0.001µA @ 5V,84mA @ 5V,150µA,-,1.5µs,-,-,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-88A (SC-70-5/SOT-353)
+General Purpose,1,Push-Pull* Rail-to-Rail,2.7 V ~ 5 V,6mV @ 5V,0.95µA @ 5V,-,1.8mA,85dB CMRR* 85dB PSRR,20ns,7.5mV,-40°C ~ 85°C,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-70-5
+General Purpose,1,Open-Drain* Rail-to-Rail,2.7 V ~ 5.5 V,6mV @ 5V,0.4µA @ 5V,-,95µA,67dB CMRR* 85dB PSRR,62ns,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Open-Drain* Rail-to-Rail,2.7 V ~ 5.5 V,6mV @ 5V,0.4µA @ 5V,-,95µA,67dB CMRR* 85dB PSRR,62ns,-,-40°C ~ 85°C,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-70-5
+General Purpose,1,Push-Pull* Rail-to-Rail,2.7 V ~ 5.5 V,6mV @ 5V,0.4µA @ 5V,-,95µA,67dB CMRR* 85dB PSRR,62ns,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,CMOS* Push-Pull* Rail-to-Rail,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,4mV @ 5V,0.01µA @ 5V,-,14µA,78dB CMRR* 80dB PSRR,2.1µs,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,2.7 V ~ 5 V,0.2mV @ 5V,50pA @ 5V,-,700µA,100dB CMRR* 110dB PSRR,225ns,-,-40°C ~ 125°C,SOT-23-6,Surface Mount,SOT-23-6
+General Purpose,4,CMOS* MOS* Open-Collector,3 V ~ 30 V* ±1.5 V ~ 15 V,5mV @ 30V,0.025µA @ 5V,30mA @ 5V,100µA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+General Purpose,4,CMOS* MOS* Open-Collector,3 V ~ 30 V* ±1.5 V ~ 15 V,5mV @ 30V,0.025µA @ 5V,30mA @ 5V,100µA,-,-,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-PDIP
+General Purpose,1,Open Collector,3 V ~ 36 V* ±1.5 V ~ 18 V,2mV @ ±15V,0.065µA @ ±15V,50mA,4mA,CMRR* PSRR (Typ) 115dB CMRR,-,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,1,Open Collector,3 V ~ 36 V* ±1.5 V ~ 18 V,2mV @ ±15V,0.065µA @ ±15V,50mA,4mA,115dB CMRR,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,Open Collector,3 V ~ 36 V* ±1.5 V ~ 18 V,2mV @ ±15V,0.065µA @ ±15V,50mA,4mA,115dB CMRR,-,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Latch,1,CMOS* Complementary* Rail-to-Rail* TTL,2.4 V ~ 12 V* ±2.4 V ~ 6 V,5mV @ 5V,5µA @ 5V,20mA,22mA,75dB CMRR* 85dB PSRR,6ns,-,-40°C ~ 85°C,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",Surface Mount,8-MSOP
+with Latch,2,CMOS* Complementary* Rail-to-Rail* TTL,2.4 V ~ 12 V* ±2.4 V ~ 6 V,5mV @ 5V,5µA @ 5V,20mA,22mA,75dB CMRR* 85dB PSRR,6ns,-,0°C ~ 70°C,"16-SSOP (0.154""* 3.90mm Width)",Surface Mount,16-SSOP
+General Purpose,2,CMOS* Rail-to-Rail* TTL,2.7 V ~ 12 V,2.5mV @ ±5V,6µA @ ±5V,20mA,2mA,70dB CMRR* 80dB PSRR,9ns,6mV,0°C ~ 70°C,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",Surface Mount,10-MSOP
+General Purpose,2,CMOS* Rail-to-Rail* TTL,2.7 V ~ 12 V,2.5mV @ ±5V,6µA @ ±5V,20mA,2mA,70dB CMRR* 80dB PSRR,9ns,6mV,-40°C ~ 85°C,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",Surface Mount,10-MSOP
+General Purpose,1,CMOS* Rail-to-Rail* TTL,2.7 V ~ 6 V,2.5mV @ ±5V,6µA @ ±5V,20mA,9mA,70dB CMRR* 80dB PSRR,13ns,7mV,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Voltage Reference,2,Open Collector,1.4 V ~ 18 V,-,0.01µA @ 18V,-,17µA,-,29µs,11.5mV,-40°C ~ 85°C,SOT-23-6 Thin* TSOT-23-6,Surface Mount,TSOT-23-6
+with Voltage Reference,1,CMOS* TTL,2 V ~ 11 V* ±1 V ~ 5.5 V,10mV @ 5V,-,40mA,4.4µA,CMRR* PSRR (Typ) 80dB CMRR* 80dB PSRR,15µs,50mV,-40°C ~ 85°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+with Voltage Reference,2,CMOS* TTL,2 V ~ 11 V* ±1 V ~ 5.5 V,10mV @ 5V,-,40mA,5.7µA,CMRR* PSRR (Typ) 80dB CMRR* 80dB PSRR,15µs,50mV,-40°C ~ 85°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+General Purpose,2,CMOS* Push-Pull* Rail-to-Rail* TTL,1.7 V ~ 5.5 V,3.5mV @ 3V,-,-,32µA,70dB CMRR* 65dB PSRR,450ns,7.2mV,-40°C ~ 85°C,8-WFDFN Exposed Pad,Surface Mount,8-DFN (2x2)
+General Purpose,2,CMOS* Push-Pull* Rail-to-Rail,1.8 V ~ 5.5 V,5mV @ 5V,0.001µA @ 5V,50mA,2µA,80dB PSRR,28µs,4mV,-40°C ~ 85°C,SOT-23-8,Surface Mount,SOT-23-8
+General Purpose,4,TTL,5 V ~ 10 V* ±2.5 V ~ 5 V,4mV @ ±5V,10µA @ ±5V,-,15mA* 12mA* 6mA,82.5dB CMRR* 80dB PSRR,-,-,0°C ~ 70°C,"16-DIP (0.300""* 7.62mm)",Through Hole,16-PDIP
+with Latch,1,Complementary* TTL,5 V ~ 10 V,2mV @ ±5V,5µA @ ±5V,20mA,10mA,110dB CMRR* 100dB PSRR,14ns,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,4,TTL,4.75 V ~ 10.5 V* ±2.375 V ~ 5.75 V,4mV @ ±5V,5µA @ ±5V,-,7mA* 5mA* 3mA,86.02dB CMRR* 86.02dB PSRR,-,-,-40°C ~ 85°C,"16-SOIC (0.154""* 3.90mm Width)",Surface Mount,16-SOIC
+General Purpose,2,CMOS* Push-Pull* TTL,2.7 V ~ 5.5 V,2mV @ 5.5V,0.15µA @ 5.5V,-,600µA,81.94dB CMRR* 81.94dB PSRR,80ns,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,4,CMOS* Push-Pull* TTL,2.7 V ~ 5.5 V,2mV @ 5.5V,0.15µA @ 5.5V,-,600µA,81.94dB CMRR* 81.94dB PSRR,80ns,-,-40°C ~ 85°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+with Latch,2,Complementary* Differential* ECL,-,5mV @ -5.2V* 5V,6µA @ -5.2V*5V,50mA,24mA,70dB CMRR* 65dB PSRR,0.5ns,30mV,-40°C ~ 85°C,"20-TSSOP (0.173""* 4.40mm Width)",Surface Mount,20-TSSOP
+Window,2,Open-Drain* Rail-to-Rail,1.6 V ~ 5.5 V,7mV @ 5.5V,0.05µA @ 5.5V,-,16µA,56.48dB CMRR* 80dB PSRR,20µs,±1mV,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+with Latch,2,Complementary* ECL,-,6.5mV @ 5V,20µA @ 5V,50mA,46mA,80dB CMRR* 60dB PSRR,1.8ns,-,-40°C ~ 85°C,"16-DIP (0.300""* 7.62mm)",Through Hole,16-PDIP
+General Purpose,2,CMOS* Rail-to-Rail* TTL,2.7 V ~ 5.5 V,2mV @ 5V,0.075µA @ 5.5V,-,650µA,95dB CMRR* 100dB PSRR,28ns,4mV,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,2,CMOS* Push-Pull* Rail-to-Rail* TTL,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,5mV @ 5.5V,1pA @ 5.5V,-,24µA,80dB CMRR* 80dB PSRR,450ns,±3mV,-40°C ~ 85°C,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",Surface Mount,8-uMAX
+General Purpose,1,CMOS* TTL,2.7 V ~ 5.5 V,1.5mV @ 5V,15µA @ 5V,-,7mA,80dB CMRR* 86.02dB PSRR,7ns,3.5mV,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,CMOS* Push-Pull* Rail-to-Rail* TTL,1.6 V ~ 5.5 V,7mV @ 5.5V,1pA @ 5.5V,-,1µA,70dB CMRR* 80dB PSRR,8µs,6.5mV,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,CMOS* Open-Drain* Rail-to-Rail* TTL,1.6 V ~ 5.5 V,7mV @ 5.5V,1pA @ 5.5V,30mA,1µA,70dB CMRR* 80dB PSRR,8µs,6.5mV,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,4,CMOS* Push-Pull* Rail-to-Rail* TTL,1.8 V ~ 5.5 V,10mV @ 5.5V,1pA @ 5.5V,50mA,130µA,66dB CMRR* 70dB PSRR,80ns,5mV,-40°C ~ 125°C,"14-TSSOP (0.173""* 4.40mm Width)",Surface Mount,14-TSSOP
+General Purpose,2,CMOS* DTL* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 5V,0.25µA @ 5V,16nA @ 5V,2mA,-,-,-,-40°C ~ 85°C,"8-TSSOP* 8-MSOP (0.110""* 2.80mm Width)",Surface Mount,SM8
+General Purpose,1,Complementary* Push-Pull* TTL,5 V ~ 10 V* ±2.5 V ~ 5 V,3mV @ ±5V,1.1µA @ ±5V,20mA,14.7mA,100dB CMRR,12ns,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+Differential,1,CMOS* MOS* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 30V,0.25µA @ 5V,20mA,700µA,-,-,-,-40°C ~ 85°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,2,CMOS* Push-Pull* TTL,3 V ~ 16 V,5mV @ 10V,5pA @ 5V,20mA,50µA,84dB CMRR,4.5µs,-,0°C ~ 70°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+General Purpose,2,CMOS* Push-Pull* TTL,3 V ~ 16 V,5mV @ 10V,5pA @ 5V,20mA,50µA,84dB CMRR,4.5µs,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,4,CMOS* Push-Pull* TTL,3 V ~ 16 V,5mV @ 10V,5pA @ 5V,20mA,100µA,84dB CMRR,4.5µs,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-PDIP
+Differential,2,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,5mV @ 5V,5pA @ 5V,20mA,400µA,-,-,-,0°C ~ 70°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+Differential,2,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,5mV @ 5V,5pA @ 5V,20mA,400µA,-,-,-,0°C ~ 70°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+Differential,2,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,5mV @ 5V,5pA @ 5V,20mA,400µA,-,-,-,-40°C ~ 85°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+Differential,4,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,5mV @ 5V,5pA @ 5V,20mA,800µA,-,-,-,0°C ~ 70°C,"14-SOIC (0.154""* 3.90mm Width)",Surface Mount,14-SOIC
+Differential,4,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,5mV @ 5V,5pA @ 5V,20mA,800µA,-,-,-,0°C ~ 70°C,"14-DIP (0.300""* 7.62mm)",Through Hole,14-PDIP
+General Purpose,2,MOS* Open-Drain,3 V ~ 16 V,5mV @ 10V,5pA @ 5V,20mA,40µA,84dB CMRR,4.5µs,-,0°C ~ 70°C,"8-TSSOP (0.173""* 4.40mm Width)",Surface Mount,8-TSSOP
+General Purpose,2,CMOS* Open-Drain,2.7 V ~ 16 V* ±1.35 V ~ 8 V,3.6mV @ 15V,250pA @ 15V,10mA,950nA,88dB CMRR* 105dB PSRR,300µs,-,-40°C ~ 125°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SOIC
+General Purpose,1,CMOS* Push-Pull* Rail-to-Rail* TTL,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,6.5mV @ 5.5V,10pA @ 5.5V,-,5mA,70dB CMRR* 100dB PSRR,10ns,6mV,-40°C ~ 125°C,SOT-23-6,Surface Mount,SOT-23-6
+General Purpose,1,Push-Pull,0.9 V ~ 6.5 V* ±0.45 V ~ 3.25 V,3mV,100pA,42mA,150nA,-,35µs,-,-40°C ~ 125°C,5-TSSOP* SC-70-5* SOT-353,Surface Mount,SC-70-5
+General Purpose,1,Push-Pull,1.8 V ~ 5 V,6mV @ 5V,0.16µA @ 5V,-,90µA,79dB CMRR,105ns,-,-40°C ~ 125°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,1,Push-Pull,1.8 V ~ 5 V,6mV @ 5V,0.16µA @ 5V,-,90µA,79dB CMRR,105ns,-,-40°C ~ 125°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+Differential,2,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,10mV @ 5V,1pA,20mA,375µA,-,-,-,-40°C ~ 125°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+Differential,2,CMOS* MOS* Open-Drain* TTL,3 V ~ 16 V* ±1.5 V ~ 8 V,10mV @ 5V,1pA,20mA,375µA,CMRR* PSRR (Typ) -,-,-,-40°C ~ 125°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-DIP
+General Purpose,1,CMOS* DTL* ECL* Open-Collector* TTL,2 V ~ 36 V* ±1 V ~ 18 V,5mV @ 5V,0.25µA @ 5V,16mA @ 5V,1.25mA,-,-,-,-40°C ~ 125°C,SC-74A* SOT-753,Surface Mount,SOT-23-5
+General Purpose,2,CMOS* Open-Drain,2.7 V ~ 16 V* ±1.35 V ~ 8 V,5mV @ 10V,1pA @ 5V,20mA,25µA,71dB CMRR,-,-,-40°C ~ 125°C,"8-SOIC (0.154""* 3.90mm Width)",Surface Mount,8-SO
+Window,1,Open Collector,4.5 V ~ 30 V,-,-,-,-,CMRR* PSRR (Typ) -,-,-,-40°C ~ 85°C,"14-DIP (0.300""* 7.62mm)",Through Hole,PG-DIP-14
+with Latch,1,CMOS* TTL,4.5 V ~ 7 V* ±2.25 V ~ 16.5 V,1.5mV @ 5V,5µA @ 5V,-,10mA,CMRR* PSRR (Typ) 95dB CMRR* 90dB PSRR,50ns,500µV,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP
+with Latch,1,CMOS* Complementary* TTL,-,3mV @ ±5V,10µA @ ±5V,20mA,35mA,CMRR* PSRR (Typ) 96dB CMRR* 75dB PSRR,14ns,-,0°C ~ 70°C,"8-DIP (0.300""* 7.62mm)",Through Hole,8-PDIP

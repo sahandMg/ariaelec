@@ -1,0 +1,68 @@
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:01,No/No,2.4MHz,Yes/No,3 V ~ 18 V,-55°C ~ 125°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:04,No/No,38MHz,No/No,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,"16-SOIC (0.209""* 5.30mm Width)",16-SO
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:04,No/No,38MHz,No/No,4.5 V ~ 5.5 V,-55°C ~ 125°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:01,No/No,2.4MHz,Yes/No,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,1:04,No/No,38MHz,No/No,2 V ~ 6 V,-55°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Phase Lock Loop (PLL),Yes,Clock,Clock,1,1:04,No/No,2.7MHz,No/No,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Fractional N Synthesizer (RF),Yes,Clock* Crystal,Clock* Crystal,1,2:02,Yes/Yes,2.1GHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,24-VFQFN Exposed Pad,24-QFN-EP (4x4)
+Clock Generator* Fanout Distribution,Yes,CMOS* LVDS* LVPECL,CMOS* LVDS* LVPECL,1,1:14,Yes/Yes,2.4GHz,Yes/No,3.135 V ~ 3.465 V,-40°C ~ 85°C,Surface Mount,64-VFQFN Exposed Pad* CSP,64-LFCSP-VQ (9x9)
+-,Yes with Bypass,LVCMOS* LVDS* LVPECL* Crystal,HCSL* LVCMOS* LVDS* LVPECL,1,2:05,Yes/Yes,919MHz,Yes/No,2.375 V ~ 3.63 V,-25°C ~ 85°C,Surface Mount,48-WFQFN Exposed Pad* CSP,48-LFCSP-VQ (7x7)
+Clock/Synthesizer (RF)* Phase Detector,Yes with Bypass,CMOS* TTL,Clock,1,2:01,Yes/No,400MHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,6GHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Fractional N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,4GHz,No/Yes,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+-,Yes,CMOS* TTL,CMOS,1,2:01,Yes/No,13GHz,Yes/Yes,1.62 V ~ 3.45 V,-40°C ~ 125°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Clock/Synthesizer (RF/IF)* Fractional N* Integer N,Yes,CMOS* TTL,Clock,1,3:02,Yes/No,3GHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad* CSP,32-LFCSP-WQ (5x5)
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/Yes,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad* CSP,32-LFCSP-VQ (5x5)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,2.725GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,2.17GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,2.17GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,1.95GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,1.75GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,1.8GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,400MHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,400MHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Fanout Distribution* Integer N Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,400MHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Clock Generator,Yes,LVCMOS* LVDS* LVPECL* Crystal,LVCMOS* LVDS* LVPECL,1,2:02,Yes/Yes,1.175GHz,Yes/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad,32-VQFN (5x5)
+PLL Synthesizer,Yes with Bypass,LVCMOS* Crystal,LVCMOS,1,1:06,Yes/No,167MHz,Yes/Yes,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+Fanout Distribution* Fractional N Synthesizer,Yes,Clock,Clock,1,1:02,No/No,75MHz,Yes/Yes,3.1 V ~ 3.5 V,-10°C ~ 70°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Fanout Buffer (Distribution)* Zero Delay Buffer,Yes,LVCMOS* LVTTL,LVCMOS,1,1:05,No/No,133.33MHz,No/No,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Clock/Synthesizer* Modulator* Spread Spectrum Clock Generator,Yes,Clock* Crystal* Resonator,Clock,1,1:01,No/No,32MHz,Yes/Yes,2.97 V ~ 3.63 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Clock Generator,Yes,Clock* Crystal,CMOS,1,1:01,No/No,160MHz,No/Yes,3 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Jitter Cleaner,Yes,LVCMOS* LVDS* LVPECL,LVCMOS* LVDS* LVPECL,1,2:14,Yes/Yes,1.536GHz,Yes/No,3.15 V ~ 3.45 V,-40°C ~ 85°C,Surface Mount,64-WFQFN Exposed Pad,64-WQFN (9x9)
+PLL Synthesizer* Delta Sigma,Yes with Bypass,CMOS* TTL,CMOS,1,3:01,No/No,1.1GHz* 500MHz,Yes/No,2.7 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-TFQFN* CSP,16-CSP (3.5x3.5)
+PLL Synthesizer* Delta Sigma,Yes with Bypass,CMOS* TTL,CMOS,1,3:01,No/No,1.1GHz* 500MHz,Yes/No,2.7 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-TFQFN* CSP,16-CSP (3.5x3.5)
+PLL Synthesizer,Yes,CMOS,CMOS,1,2:01,No/No,550MHz,Yes/No,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+PLL Synthesizer,Yes with Bypass,CMOS* TTL,CMOS,1,3:01,No/No,1.2GHz* 510MHz,Yes/No,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+Synthesizer (RF),Yes,Clock,Clock,1,3:02,Yes/No,3GHz,Yes/Yes,2.5 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad,24-WQFN (4x4)
+Synthesizer (RF),Yes with Bypass,Clock* Crystal,Clock,1,2:02,Yes/No,1.4GHz,Yes/Yes,3.15 V ~ 3.45 V,-40°C ~ 85°C,Surface Mount,36-WFQFN Exposed Pad,36-WQFN (6x6)
+PLL Clock/Synthesizer,Yes,Clock,CMOS,1,1:01,No/No,25MHz,Yes/No,3 V ~ 9 V,-40°C ~ 85°C,Surface Mount,"28-SOIC (0.295""* 7.50mm Width)",28-SOIC
+Clock/Synthesizer* Fanout Buffer (Distribution),Yes,Clock,Clock,1,1:02,No/No,185MHz,Yes/No,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+PLL Clock Generator,Yes,Crystal,PECL,1,1:01,No/Yes,400MHz,Yes/No,3.135 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,4GHz,Yes/No,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad* CSP,32-LFCSP-WQ (5x5)
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/Yes,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad* CSP,32-LFCSP-VQ (5x5)
+Phase Lock Loop (PLL),Yes,CMOS,CMOS,1,2:02,No/No,1.9MHz,No/No,3 V ~ 18 V,-55°C ~ 125°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Clock Generator* Fanout Distribution,Yes,CMOS* LVDS* LVPECL,CMOS* LVPECL,1,2:12* 2:24,Yes/Yes,2.25GHz,Yes/No,3.135 V ~ 3.465 V,-40°C ~ 85°C,Surface Mount,64-VFQFN Exposed Pad* CSP,64-LFCSP-VQ (9x9)
+Clock Generator* Fanout Distribution,Yes,CMOS* LVDS* LVPECL,CMOS* LVDS* LVPECL,1,1:12,Yes/Yes,1.8GHz,Yes/No,3.135 V ~ 3.465 V,-40°C ~ 85°C,Surface Mount,48-VFQFN Exposed Pad* CSP,48-LFCSP-VQ (7x7)
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,6GHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Function Generator,No,CMOS* TTL,CMOS* TTL,1,1:03,No/No,40MHz,Yes/Yes,4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP
+Phase Lock Loop (PLL),Yes,Clock,Clock,1,1:04,No/No,2.7MHz,No/No,3 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,8GHz,No/No,3.2 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,20-WFQFN Exposed Pad* CSP,20-LFCSP-WQ (4x4)
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,4GHz,Yes/No,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/No,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad* CSP,32-LFCSP-WQ (5x5)
+Fanout Distribution* Fractional N* Integer N* Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,1:02,No/Yes,4.4GHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,32-VFQFN Exposed Pad* CSP,32-LFCSP-VQ (5x5)
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,6GHz,Yes/No,2.7 V ~ 3.3 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Clock/Synthesizer (RF),Yes,CMOS* TTL,Clock,1,2:01,Yes/No,8GHz,No/No,3.2 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,20-WFQFN Exposed Pad* CSP,20-LFCSP-WQ (4x4)
+Phase Lock Loop (PLL),Yes,Clock,Clock,1,1:01,No/No,500kHz,No/No,4.75 V ~ 9 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",
+PLL Synthesizer,Yes with Bypass,LVCMOS* Crystal,LVCMOS,1,1:06,Yes/No,300MHz,Yes/Yes,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+Phase Lock Loop (PLL),Yes,ECL* PECL,ECL* PECL,1,1:02,Yes/Yes,-,No/No,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+Synthesizer,No,Clock,Clock,1,1:02,No/No,133MHz,Yes/No,4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+PLL Yes,-,Clock,Clock,1,1:01,No/No,10.8GHz,Yes/No,2.7 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-SMT (6x6)
+Integer-N/Fractional-N,Yes,Clock,Clock,1,1:02,No/Yes,3GHz,Yes/No,3 V ~ 5.2 V,-40°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-SMT (6x6)
+PLL Yes,-,Clock,Clock,1,1:02,No/Yes,4.1GHz,Yes/No,3.1 V ~ 5.2 V,-40°C ~ 85°C,Surface Mount,40-VFQFN Exposed Pad,40-QFN (6x6)
+PLL Synthesizer,Yes,CMOS,CMOS,1,2:01,No/No,550MHz,Yes/No,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+PLL Synthesizer,Yes,CMOS,CMOS,1,2:01,No/No,2.8GHz,Yes/No,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+PLL Multi-Clock Generator,Yes,CMOS* Crystal,CMOS,1,1:06,No/No,36.87MHz,Yes/No,2.7 V ~ 3.6 V,-25°C ~ 85°C,Surface Mount,"20-SSOP (0.154""* 3.90mm Width)",20-SSOP/QSOP
+Phase Lock Loop (PLL),Yes,Clock,Clock,1,1:01,No/No,500kHz,No/No,4.75 V ~ 9 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",
+Clock/Synthesizer* Fanout Buffer (Distribution),Yes,Clock,Clock,1,1:02,No/No,185MHz,Yes/No,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC

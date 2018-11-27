@@ -1,0 +1,5 @@
+EE PLD,8,5V,15ns,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP
+EE PLD,8,5V,15ns,Surface Mount,28-LCC (J-Lead),28-PLCC (11.51x11.51)
+PAL,-,5V,15ns,Surface Mount,20-LCC (J-Lead),20-PLCC (9x9)
+PAL,-,5V,25ns,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP
+PAL,-,5V,25ns,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP

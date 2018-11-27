@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Logic_Flip_Flops extends Model
 {
-    protected $table = 'logic__flip__flops';
+    //
 }

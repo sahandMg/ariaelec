@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Logic_Multivibrators extends Model
 {
-    protected $table = 'logic__multivibrators';
+    //
 }

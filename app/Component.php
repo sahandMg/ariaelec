@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Component extends Model
 {
     use RelationshipsTrait;
-    protected $fillable=['persian_name'];
+    protected $fillable=['persian_name','name','subcategory_id','product_id'];
 
     public function persianName(){
 

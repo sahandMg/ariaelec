@@ -1,0 +1,32 @@
+12 b,16.776MHz,-,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"16-SSOP (0.209""* 5.30mm Width)",16-SSOP
+10 b,25MHz,32 b,2.97 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,48-LQFP,48-LQFP (7x7)
+10 b,50MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+10 b,75MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+10 b,50MHz,32 b,4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+10 b,125MHz,32 b,3.3V* 5V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+10 b,180MHz,32 b,2.7 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+10 b,400MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 105°C,Surface Mount,48-TQFP Exposed Pad,48-TQFP-EP (7x7)
+14 b,1GHz,32 b,1.8V* 3.3V,-40°C ~ 85°C,Surface Mount,100-TQFP Exposed Pad,100-TQFP-EP (14x14)
+10 b,500MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 85°C,Surface Mount,56-VFQFN Exposed Pad* CSP,56-LFCSP-VQ (8x8)
+14 b,400MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 105°C,Surface Mount,48-TQFP Exposed Pad,48-TQFP-EP (7x7)
+14 b,3GHz,48 b,1.71 V ~ 1.96 V,-40°C ~ 125°C,Surface Mount,48-VFQFN Exposed Pad* CSP,48-LFCSP-VQ (7x7)
+14 b,1GHz,32 b,1.8V* 3.3V,-40°C ~ 85°C,Surface Mount,100-TQFP Exposed Pad,100-TQFP-EP (14x14)
+10 b,500MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 85°C,Surface Mount,56-VFQFN Exposed Pad* CSP,56-LFCSP-VQ (8x8)
+12 b,16.776MHz,-,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"16-SSOP (0.209""* 5.30mm Width)",16-SSOP
+12 b,16.776MHz,-,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"16-SSOP (0.209""* 5.30mm Width)",16-SSOP
+10 b,500MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 85°C,Surface Mount,56-VFQFN Exposed Pad* CSP,56-LFCSP-VQ (8x8)
+10 b,25MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+10 b,50MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+10 b,125MHz,32 b,3.3V* 5V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+14 b,400MHz,32 b,1.71 V ~ 1.96 V,-40°C ~ 105°C,Surface Mount,48-TQFP Exposed Pad,48-TQFP-EP (7x7)
+10 b,180MHz,32 b,2.7 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+10 b,50MHz,32 b,4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+10 b,25MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+10 b,50MHz,28 b,2.3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+10 b,125MHz,32 b,3.3V* 5V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+10 b,180MHz,32 b,2.7 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP
+10 b,50MHz,32 b,4.75 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+12 b,16.776MHz,-,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"16-SSOP (0.209""* 5.30mm Width)",16-SSOP
+12 b,200MHz,48 b,3.14 V ~ 3.47 V,-40°C ~ 85°C,Surface Mount,80-LQFP,80-LQFP (14x14)
+12 b,300MHz,48 b,3.14 V ~ 3.47 V,-40°C ~ 85°C,Surface Mount,80-TQFP Exposed Pad,80-TQFP-EP (14x14)
+10 b,1GHz,32 b,3.14 V ~ 3.47 V,-40°C ~ 85°C,Surface Mount,100-TQFP Exposed Pad,100-TQFP-EP (14x14)

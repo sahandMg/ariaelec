@@ -1,0 +1,18 @@
+ADC Driver,Data Acquisition,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Logarithmic Amplifier,Receiver Signal Strength Indication (RSSI),Surface Mount,8-VFDFN Exposed Pad* CSP,8-LFCSP-VD (3x2)
+ADC Driver,Data Acquisition,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+ADC Driver,Data Acquisition,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Logarithmic Amplifier,Receiver Signal Strength Indication (RSSI),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Logarithmic Amplifier,Receiver Signal Strength Indication (RSSI),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Logarithmic Amplifier,Receiver Signal Strength Indication (RSSI),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Variable Amplifier,Signal Processing,Surface Mount,"20-SSOP (0.154""* 3.90mm Width)",20-QSOP
+ADC Driver,Data Acquisition,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+ADC Driver,Data Acquisition,Surface Mount,16-VFQFN Exposed Pad* CSP,16-LFCSP-VQ (3x3)
+ADC Driver,Data Acquisition,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Amplifier* Comparator,Transducer Amplifier,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+ADC Driver,Data Acquisition,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+ADC Driver,Data Acquisition,Surface Mount,16-WFQFN Exposed Pad,16-QFN-EP (3x3)
+Amplifier* Comparator* Reference,Current Sensing* Power Management,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Amplifier* Comparator* Reference,Smart Card,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Amplifier* Comparator,Smart Card,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Isolator* Error Amplifier,Shunt Regulators* Linear Power Supplies* Inverters* UPS,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP

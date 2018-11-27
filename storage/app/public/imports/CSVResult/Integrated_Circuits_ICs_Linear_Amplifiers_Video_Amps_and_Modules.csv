@@ -1,0 +1,29 @@
+Current Feedback,-,1,140MHz,1100 V/µs,10mA,60mA,4 V ~ 30 V* ±2 V ~ 15 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,-,1,80MHz,1000 V/µs,6.8mA,60mA,5 V ~ 36 V* ±2.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,-,1,140MHz,2500 V/µs,16.5mA,100mA,±4.5 V ~ 18 V,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Current Feedback,-,1,140MHz,2500 V/µs,16.5mA,100mA,±4.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,-,1,130MHz,500 V/µs,7mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,-,1,130MHz,500 V/µs,7mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,-,1,120MHz,230 V/µs,5.3mA,32mA,±4.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,-,1,120MHz,230 V/µs,5.3mA,32mA,±4.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,-,1,120MHz,230 V/µs,5.3mA,32mA,±4.5 V ~ 18 V,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,-,1,120MHz,230 V/µs,5.3mA,32mA,±4.5 V ~ 18 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+2:1 Multiplexer-Amplifier,-,3,300MHz,650 V/µs,48mA,40mA,-,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+2:1 Multiplexer-Amplifier,-,3,500MHz,870 V/µs,30mA,135mA,-,Surface Mount,"24-SSOP (0.154""* 3.90mm Width)",24-QSOP
+Current Feedback,-,2,400MHz,1300 V/µs,5.8mA,70mA,10 V ~ 12 V* ±5 V ~ 6 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,-,1,400MHz,1800 V/µs,5.6mA,70mA,8 V ~ 12.5 V* ±4 V ~ 6.25 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,-,2,270MHz,250 V/µs,6mA,55mA,4 V ~ 28 V* ±2 V ~ 14 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,Rail-to-Rail,4,90MHz,600 V/µs,8.5mA,60mA,3 V ~ 12.6 V,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+4:1 Multiplexer-Amplifier,Rail-to-Rail,1,127MHz,430 V/µs,6.9mA,95mA,4 V ~ 10.5 V* ±2 V ~ 5.25 V,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+8:1 Multiplexer-Amplifier,Rail-to-Rail,1,97MHz,310 V/µs,7.4mA,95mA,4 V ~ 10.5 V* ±2 V ~ 5.25 V,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Voltage Feedback,Rail-to-Rail,2,85MHz,500 V/µs,6mA,95mA,4.5 V ~ 11 V* ±2.25 V ~ 5.5 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,Rail-to-Rail,4,85MHz,500 V/µs,6mA,95mA,4.5 V ~ 11 V* ±2.25 V ~ 5.5 V,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Receiver,-,1,550MHz,5000 V/µs,41mA,120mA,±4.5 V ~ 5.5 V,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+General Purpose,Differential,1,-,-,18mA,10mA,±3 V ~ 8 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,Differential,1,-,-,18mA,10mA,±3 V ~ 8 V,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Buffer,Rail-to-Rail,1,8.5MHz,-,16.5mA,90mA,2.85 V ~ 5.25 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Buffer,Rail-to-Rail,3,36MHz,-,19.3mA,90mA,2.85 V ~ 5.5 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Buffer,Rail-to-Rail,3,500MHz,1150 V/µs,118mA,115mA,2.7 V ~ 5.5 V,Surface Mount,48-TQFP Exposed Pad,48-HTQFP (7x7)
+Buffer,Rail-to-Rail,3,550MHz,1200 V/µs,90mA,110mA,2.7 V ~ 5.5 V,Surface Mount,48-TQFP Exposed Pad,48-HTQFP (7x7)
+Differential,Differential,1,-,-,16mA,3.6mA,-,Surface Mount,"14-SOIC (0.209""* 5.30mm Width)",14-SOP
+DC Restoration,-,1,210MHz,400 V/µs,8mA,40mA,±4.75 V ~ 5.25 V,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP

@@ -1,0 +1,234 @@
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,-,55kHz ~ 67kHz,12W,Current Limiting* Over Load* Over Temperature* Over Voltage,Sync,-40°C ~ 85°C (TA),8-SMD* Gull Wing,8-LSOP,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,11W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,Through Hole
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,67%,67kHz,27W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,No,-,Half-Bridge,10.7V,8.85 V ~ 16 V,50%,60kHz ~ 235kHz,-,Current Limiting,Soft Start,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,No,-,Flyback,16V,8 V ~ 25 V,-,-,-,Current Limiting* Open Loop* Over Voltage,-,-40°C ~ 125°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,67%,67kHz,27W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),8-SMD* Gull Wing,8-LSOP,Surface Mount
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,82%,66kHz,70W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L (Forming),Surface Mount
+Isolated,Yes,650V,Flyback,9V,7 V ~ 20 V,67%,67kHz,13W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,-,48kHz ~ 67kHz,70W,Current Limiting* Over Load* Over Temperature* Over Voltage* Short Circuit,Sync,-25°C ~ 85°C (TA),TO-220-6 Formed Leads,TO-220F-6L (Forming),Through Hole
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,-,-,12W,Current Limiting* Over Load* Over Temperature* Over Voltage,Sync,-40°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,No,-,Flyback,13.5V,8.5 V ~ 21 V,72%,100kHz,-,Current Limiting* Open Loop* Over Load* Over Temperature* Over Voltage,Soft Start,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",PG-DIP-8,Through Hole
+Isolated,No,-,Flyback,15V,8.5 V ~ 21 V,72%,67kHz,-,Current Limiting* Open Loop* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 130°C (TJ),"8-DIP (0.300""* 7.62mm)",P-DIP-8,Through Hole
+-,Yes,650V,Flyback* Forward,15V,9 V ~ 30 V,77%,50kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Surface Mount
+-,Yes,650V,Flyback* Forward,15V,9 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+-,Yes,800V,Flyback* Forward,15V,9 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+Isolated,No,-,Boost* Flyback,15V,10 V ~ 20 V,93%,Up to 1MHz,-,Current Limiting* Over Voltage,Control* Soft Start* Sync,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,No,-,Flyback,14V,8 V ~ 23 V,75%,10kHz ~ 300kHz,-,Current Limiting* Over Load,Soft Start,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,No,-,Flyback* Forward,20V,8 V ~ 30 V,80%,Up to 1MHz,-,Current Limiting* Over Load,Control* Soft Start* Sync,-40°C ~ 125°C (TJ),"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP,Surface Mount
+Isolated,No,-,Full-Bridge,-,14 V ~ 100 V,-,Up to 2MHz,-,Current Limiting* Over Temperature* Over Voltage,Control* Soft Start* Sync,-40°C ~ 125°C (TJ),"28-TSSOP (0.173""* 4.40mm Width) Exposed Pad",28-HTSSOP,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",SO-8C,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,Through Hole
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",SO-8C,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,60%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,60%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,Through Hole
+Isolated,No,-,Flyback,-,10 V ~ 38 V,-,500Hz ~ 150KHz,-,-,-,-40°C ~ 125°C,"16-TFSOP (0.118""* 3.00mm Width) Exposed Pad",16-MSOP-EP,Surface Mount
+Either,-,-,-,-,7 V ~ 32 V,-,1kHz ~ 300kHz,-,-,-,-30°C ~ 85°C (TA),"16-SOIC (0.209""* 5.30mm Width)",16-SOP,Surface Mount
+Isolated,No,700V,Flyback,15V,7.6 V ~ 16 V,-,126kHz,-,Current Limiting* Over Temperature,-,-25°C ~ 125°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,13.1V,6.6 V ~ 16 V,82%,40kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-25°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,-
+Isolated,Yes,-,Boost* Buck* Flyback* Forward,14.5V,9 V ~ 20 V,50%,500kHz,-,-,Control,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback* Forward,8.5V,7.5 V ~ 10 V,72%,100kHz,-,Current Limiting* Over Temperature,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,Yes,700V,Flyback,-,8.5 V ~ 10 V,67%,65kHz,19W,Over Load* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),TO-261-4* TO-261AA,SOT-223,Surface Mount
+Isolated,No,-,Flyback,16V,-,80%,40kHz,-,Current Limiting* Over Load* Short Circuit,-,-25°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,12.8V,7.8 V ~ 16 V,80%,100kHz,-,Over Load* Over Temperature* Short Circuit,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Flyback,12.8V,7.8 V ~ 16 V,80%,60kHz,-,Over Load* Over Temperature* Short Circuit,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Flyback,-,10.6 V ~ 20 V,-,Up to 200kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,-,10.6 V ~ 20 V,-,Up to 200kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,-,10.6 V ~ 20 V,-,Up to 200kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Flyback,-,10.6 V ~ 20 V,-,Up to 200kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Isolated,No,-,Flyback,-,10 V ~ 16 V,46.50%,133kHz,-,Over Load* Over Temperature* Short Circuit,-,0°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,-,10 V ~ 16 V,46.50%,65kHz,-,Over Load* Over Temperature* Short Circuit,-,0°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-PDIP,Through Hole
+Isolated,No,-,Flyback,12.6V,7.7 V ~ 18 V,80%,133kHz,-,Current Limiting* Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,12.6V,10 V ~ 20 V,80%,100kHz,-,Current Limiting* Over Load* Over Voltage* Short Circuit,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Isolated,No,-,Flyback,12V,10 V ~ 20 V,-,130kHz,-,Current Limiting* Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Isolated,No,-,Flyback,12.5V,7.5 V ~ 18 V,-,Up to 300kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,12.5V,7.5 V ~ 18 V,-,Up to 100kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,14V,12 V ~ 25 V,75%,65kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-23-6,Surface Mount
+Non-Isolated,No,-,Inductorless,-,-,-,-,-,-,EN,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC,Surface Mount
+Isolated,No,650V,Flyback,11V,8.7 V ~ 20 V,-,25kHz ~ 175kHz,150W,Current Limiting* Over Power* Over Temperature* Over Voltage* Short Circuit,-,-20°C ~ 145°C (TJ),"14-SOIC (0.154""* 3.90mm Width)",14-SO,Surface Mount
+Isolated,Yes,650V,Flyback,9.5V,7.5 V ~ 40 V,75%,10kHz ~ 200kHz,30W,Current Limiting* Over Temperature* Short Circuit,Control,-40°C ~ 145°C (TJ),"14-SOIC (0.154""* 3.90mm Width)",14-SO,Surface Mount
+Isolated,No,650V,Flyback,11V,8.7 V ~ 20 V,-,25kHz ~ 175kHz,250W,Current Limiting* Over Power* Over Temperature* Over Voltage* Short Circuit,-,-20°C ~ 145°C (TJ),"14-SOIC (0.154""* 3.90mm Width)",14-SO,Surface Mount
+-,Yes,700V,Flyback,17V,8.5 V ~ 35 V,75%,22.5kHz ~ 50.5kHz,5W,Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SO,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,67%,130kHz,6.5W,Current Limiting* Over Temperature,EN,-40°C ~ 150°C (TJ),8-SMD* Gull Wing,8-SMD,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,15W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,23.5W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,Through Hole
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,28W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8C,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,32W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,Through Hole
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,25W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,50W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,Through Hole
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,75W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,Through Hole
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,150W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,Through Hole
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,25W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,28W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,Through Hole
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,57W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-263-7* D²Pak (6 Leads + Tab)* TO-263CB,TO-263-7C,Surface Mount
+Non-Isolated,-,-,Full-Bridge,10.75V,9.5 V ~ 20 V,100%,1MHz,-,Current Limiting,Control* Soft Start* Sync,-25°C ~ 85°C (TA),"28-SOIC (0.295""* 7.50mm Width)",28-SOIC,Surface Mount
+Non-Isolated,-,-,Full-Bridge,-,9.25 V ~ 20 V,50%,300kHz,-,Current Limiting,Control* Soft Start* Sync,-40°C ~ 85°C (TA),"20-SOIC (0.295""* 7.50mm Width)",20-SOIC,Surface Mount
+Non-Isolated,-,-,Full-Bridge,-,9.25 V ~ 20 V,50%,300kHz,-,Current Limiting,Control* Soft Start* Sync,-40°C ~ 85°C (TA),"20-DIP (0.300""* 7.62mm)",20-PDIP,Through Hole
+Non-Isolated,No,-,Boost* Buck* Flyback* Forward,16V,10 V ~ 22 V,100%,1MHz,-,Current Limiting,Control* Soft Start,-55°C ~ 150°C (TJ),"16-SOIC (0.295""* 7.50mm Width)",16-SOIC,Surface Mount
+Non-Isolated,No,-,Boost* Buck* Flyback* Forward,9.2V,8.4 V ~ 30 V,100%,1MHz,-,Current Limiting,Control* Soft Start,0°C ~ 70°C (TA),"16-SOIC (0.295""* 7.50mm Width)",16-SOIC,Surface Mount
+Non-Isolated,No,-,Boost* Buck* Flyback* Forward,16V,10 V ~ 22 V,50%,1MHz,-,Current Limiting,Control* Soft Start,-55°C ~ 150°C (TJ),"16-DIP (0.300""* 7.62mm)",16-PDIP,Through Hole
+-,No,-,Boost* Flyback* Forward,12.5V,8.3 V ~ 12 V,99%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 85°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,-
+-,No,-,Boost* Flyback* Forward,12.5V,8.3 V ~ 12 V,49%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 85°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+-,No,-,Boost* Flyback* Forward,12.5V,8.3 V ~ 12 V,49%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Full-Bridge* Half-Bridge* Push-Pull,12.5V,8.3 V ~ 15 V,49%,1MHz,-,-,Control,-55°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Flyback,21V,9 V ~ 35 V,-,1kHz ~ 130kHz,-,Current Limiting* Over Voltage,-,-20°C ~ 125°C (TJ),SOT-23-6,SOT-23-6,Surface Mount
+Isolated,No,-,Flyback,21V,9 V ~ 35 V,-,680Hz ~ 100kHz,-,Current Limiting* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Isolated,No,-,Flyback,21V,9 V ~ 35 V,-,680Hz ~ 100kHz,-,Current Limiting* Over Voltage,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,3.9V,5V,55%,62kHz,4.5W,Current Limiting* Over Load* Over Temperature* Short Circuit,-,-40°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)* 7 Leads",7-SOIC,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-SOIC (0.295""* 7.50mm Width)",20-SOIC,Surface Mount
+Isolated,No,-,Forward,14.5V,9 V ~ 18 V,48%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 105°C (TA),"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP,Surface Mount
+-,No,-,Boost* Buck* Flyback* Forward,12.5V,8.3 V ~ 12 V,99%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 85°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+-,No,-,Boost* Buck* Flyback* Forward,12.5V,8.3 V ~ 12 V,49%,Up to 1MHz,-,Current Limiting,Control,-40°C ~ 85°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Push-Pull,12.5V,8.3 V ~ 14 V,50%,1MHz,-,-,Control,-55°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Boost* Buck* Flyback* Forward,15V,8 V ~ 19 V,70%,1MHz,-,-,Control* Soft Start,-55°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Boost* Buck* Flyback* Forward,15V,8 V ~ 19 V,70%,1MHz,-,-,Control* Soft Start,-55°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Boost* Buck* Flyback* Forward,11.3V,8.3 V ~ 11 V,49%,1MHz,-,-,Control* Sync,-40°C ~ 85°C (TA),"16-SOIC (0.295""* 7.50mm Width)",16-SOIC,Surface Mount
+Non-Isolated,Yes,-,Boost* Buck* Flyback* Forward,12.5V,8.3 V ~ 12 V,49%,1MHz,-,-,Control,-55°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-SOIC (0.295""* 7.50mm Width)",20-SOIC,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-DIP (0.300""* 7.62mm)",20-PDIP,Through Hole
+Isolated,Yes,700V,Flyback,11V,8 V ~ 15 V,-,Up to 200kHz,100W,Current Limiting* Over Temperature,EN* Control* Soft Start,-,Pentawatt-5 HV (Bent and Staggered Leads),5-PENTAWATT,Surface Mount
+Non-Isolated,Yes,730V,-,14.5V,9 V ~ 38 V,-,60kHz,13W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TC),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,620V,Flyback,11V,8 V ~ 15 V,-,Up to 200kHz,50W,Current Limiting* Over Temperature,Control* Soft Start* Sync,-,PowerSO-10 Exposed Bottom Pad,5-PENTAWATT,Surface Mount
+Isolated,Yes,620V,Flyback,11.5V,8.4 V ~ 19 V,-,Up to 300kHz,65W,Current Limiting* Over Load* Over Temperature* Short Circuit,EN* Control* Soft Start,-40°C ~ 150°C (TC),PowerSO-10 Exposed Bottom Pad,10-PowerSO,Surface Mount
+Isolated,No,-,Flyback* Forward,10V,9 V ~ 28 V,48%,Up to 500kHz,-,Current Limiting,Control* Soft Start,-25°C ~ 125°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,36.5W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,Through Hole
+Isolated,Yes,700V,Flyback,-,-,68%,44kHz,2W,Current Limiting* Over Temperature,EN,-40°C ~ 150°C (TJ),8-SMD* Gull Wing,8-SMD,Surface Mount
+Isolated,No,-,Boost* Flyback,15V,10 V ~ 20 V,93%,Up to 1MHz,-,Current Limiting* Over Voltage,Control* Soft Start* Sync,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,No,-,Flyback,14V,12 V ~ 25 V,75%,65kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),SOT-23-6,SOT-23-6,Surface Mount
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,67%,67kHz,27W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,No,-,Flyback,14.5V,9 V ~ 18 V,80%,Up to 250kHz,-,Current Limiting* Over Voltage,Soft Start* Sync,-25°C ~ 150°C (TJ),"16-SOIC (0.295""* 7.50mm Width)",16-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,11V,8 V ~ 15 V,-,Up to 200kHz,20W,Current Limiting* Over Temperature,-,-,PowerSO-10 Exposed Bottom Pad,10-PowerSO,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz ~ 132kHz,75W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 5 Leads,TO-220-7B,Through Hole
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,19W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,Through Hole
+-,Yes,800V,Flyback* Forward,15V,9 V ~ 30 V,77%,50kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,23.5W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8C,Surface Mount
+Isolated,No,700V,Flyback,15V,7.6 V ~ 16 V,-,126kHz,-,Current Limiting* Over Temperature,Control,-25°C ~ 125°C (TA),"16-SOIC (0.154""* 3.90mm Width)* 14 Leads",16-SOIC,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-SOIC (0.295""* 7.50mm Width)",20-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz ~ 132kHz,15W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8B,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-DIP (0.300""* 7.62mm)",20-PDIP,Through Hole
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-SOIC (0.295""* 7.50mm Width)",20-SOIC,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-DIP (0.300""* 7.62mm)",20-PDIP,Through Hole
+Isolated,Yes,700V,Flyback,11V,8 V ~ 15 V,-,Up to 200kHz,100W,Current Limiting* Over Temperature,EN* Control* Soft Start,-,Pentawatt-5 HV (Bent and Staggered Leads),5-PENTAWATT,Surface Mount
+Isolated,No,-,Full-Bridge,11V,10 V ~ 16.5 V,100%,1MHz,-,-,Control* Soft Start* Sync,-55°C ~ 150°C (TJ),"20-DIP (0.300""* 7.62mm)",20-PDIP,Through Hole
+Isolated,Yes,700V,Flyback,11V,8 V ~ 15 V,-,Up to 200kHz,100W,Current Limiting* Over Temperature,EN* Control* Soft Start,-,Pentawatt-5 HV (Bent and Staggered Leads),5-PENTAWATT,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,19W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),8-SMD (7 Leads)* Gull Wing,SMD-8C,Surface Mount
+-,Yes,650V,Flyback* Forward,15V,8.8 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+Isolated,No,-,Boost* Flyback,15V,10 V ~ 20 V,93%,Up to 1MHz,-,Current Limiting* Over Voltage,Control* Soft Start* Sync,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,23W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,28W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Non-Isolated,Yes,650V,Buck* Flyback,8V,7 V ~ 26 V,-,50kHz,7W,Current Limiting* Open Loop* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,66.80%,66kHz ~ 132kHz,290W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Either,Yes,800V,Flyback,13V,11.5 V ~ 23.5 V,70%,60kHz,20W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+-,Yes,-,Flyback,12V,8 V ~ 20 V,95%,Up to 300kHz,-,Over Temperature* Over Voltage,Control* Soft Start,-25°C ~ 125°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,650V,Flyback,15V,9 V ~ 20 V,95%,20kHz,70W,Current Limiting* Over Load* Over Temperature* Over Voltage,Sync,-25°C ~ 85°C (TA),TO-220-5 Full Pack (Formed Leads),TO-220F-5L (Forming),Through Hole
+Isolated,Yes,700V,Flyback,7V,6 V ~ 10 V,65%,134kHz,7W,Current Limiting* Over Load* Over Temperature,-,-25°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,77%,50kHz,23W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,650V,Flyback,12V,8 V ~ 20 V,82%,66kHz,56W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L (Forming),Surface Mount
+Isolated,Yes,650V,Flyback,12V,7.5 V ~ 26 V,70%,66kHz,80W,Current Limiting* Over Load* Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 125°C (TJ),TO-220-6 Full Pack* Formed Leads,TO-220F-6L (Forming),Through Hole
+Isolated,Yes,650V,Flyback,8V,7 V ~ 26 V,72%,67kHz,12W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,650V,Flyback,18V,10.5 V ~ 27 V,50%,52kHz,88W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",PG-DIP-8-6,Through Hole
+Isolated,Yes,650V,Flyback,18V,10.3 V ~ 26 V,75%,67kHz,42W,Current Limiting* Open Circuit* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 130°C (TJ),"8-DIP (0.300""* 7.62mm)",PG-DIP-8,Through Hole
+Isolated,Yes,650V,Flyback,15V,8.5 V ~ 21 V,72%,67kHz,240W,Current Limiting* Open Loop* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 130°C (TJ),TO-220-6 Formed Leads,PG-TO220-6,Through Hole
+Isolated,Yes,650V,Flyback,18V,10.5 V ~ 25 V,75%,65kHz,26W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",PG-DIP-7,
+Isolated,No,-,Flyback,15V,8.5 V ~ 21 V,72%,67kHz,-,Current Limiting* Open Loop* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 130°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8,Surface Mount
+Non-Isolated,Yes,650V,Flyback* Forward,15V,10 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),TO-220-4 Full Pack,TO-220F-4L,Through Hole
+Non-Isolated,Yes,650V,Flyback* Forward,15V,10 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+-,No,-,Flyback,16V,10 V ~ 30 V,96%,Up to 500kHz,-,Current Limiting,Control,0°C ~ 70°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOP,Surface Mount
+-,Yes,650V,Flyback,15V,8.8 V ~ 30 V,67%,100kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-25°C ~ 85°C (TA),TO-220-4 Full Pack,TO-220F-4L,Through Hole
+-,Yes,800V,Flyback* Forward,15V,8.8 V ~ 30 V,67%,100kHz,-,Current Limiting* Over Load* Over Temperature* Over Voltage,Soft Start,-25°C ~ 85°C (TA),TO-220-4 Full Pack,TO-220F-4L,Through Hole
+-,Yes,800V,Flyback* Forward,15V,9 V ~ 30 V,77%,50kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack,TO-220F-4L,Through Hole
+-,Yes,800V,Flyback* Forward,15V,9 V ~ 30 V,77%,50kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+-,Yes,800V,Flyback* Forward,15V,9 V ~ 30 V,77%,67kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),TO-220-4 Full Pack (Formed Leads),TO-220F-4L (Forming),Through Hole
+Isolated,No,-,Flyback,13.5V,10.3 V ~ 18 V,-,-,-,Current Limiting,-,-40°C ~ 150°C (TJ),"8-SOIC (0.154""* 3.90mm Width)",8-SO,Surface Mount
+Isolated,No,-,Half-Bridge,14V,8.7 V ~ 22 V,50%,Up to 500kHz,-,Current Limiting* Over Load,Control* Soft Start,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Isolated,No,-,Half-Bridge,10.7V,8 V ~ 16.6 V,50%,400kHz,-,-,EN,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Non-Isolated,Yes,700V,Buck* Buck-Boost* Flyback,-,-,69%,66kHz,-,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,77%,30kHz ~ 42kHz,5.5W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,No,-,Buck,16V,10 V ~ 25 V,48%,Up to 500kHz,-,-,Control,-40°C ~ 100°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,700V,Flyback,15V,7.6 V ~ 16 V,-,126kHz,-,Current Limiting* Over Temperature,-,-25°C ~ 125°C (TA),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,-,8.5 V ~ 10 V,67%,65kHz,19W,Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-PDIP,Through Hole
+Isolated,Yes,700V,Flyback,8.5V,7.2 V ~ 10 V,80%,65kHz,25W,Over Power* Over Voltage* Short Circuit,-,0°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-PDIP,Through Hole
+Isolated,No,-,Flyback,16V,-,80%,60kHz,-,Current Limiting* Over Load* Short Circuit,-,-25°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)",8-PDIP,Through Hole
+Isolated,No,-,Flyback,12.6V,10 V ~ 20 V,80%,65kHz,-,Current Limiting* Over Load* Over Voltage* Short Circuit,-,-40°C ~ 125°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-PDIP,Through Hole
+Isolated,No,-,-,16V,10 V ~ 30 V,48%,100Hz ~ 500kHz,-,Current Limiting,Control,-55°C ~ 125°C (TA),"8-CDIP (0.300""* 7.62mm)",8-CDIP,
+Isolated,No,-,Flyback* Forward,-,9.5 V ~ 13.5 V,50%,40kHz ~ 1MHz,-,-,-,-40°C ~ 85°C (TA),"16-DIP (0.300""* 7.62mm)",16-PDIP,Through Hole
+Isolated,No,-,Flyback* Forward,-,9.5 V ~ 13.5 V,50%,40kHz ~ 1MHz,-,-,-,-40°C ~ 85°C (TA),"16-DIP (0.300""* 7.62mm)",16-PDIP,Through Hole
+Isolated,Yes,650V,Flyback,15.3V,8.1 V ~ 32 V,83%,100kHz,30W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 125°C (TA),"8-DIP (0.300""* 7.62mm)* 7 Leads",8-DIP,
+Isolated,Yes,800V,Flyback,15.3V,8.1 V ~ 32 V,83%,67kHz,13W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 125°C (TA),"8-DIP (0.300""* 7.62mm)* 7 Leads",8-DIP,
+Isolated,Yes,650V,Flyback,35V,-,-,74W,-,Current Limiting* Over Load* Over Temperature,-,-,10-SIP* 8 Leads,STA-10L,
+Isolated,Yes,650V,Flyback,17.5V,10 V ~ 35 V,-,-,17W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 125°C (TA),8-SIP* 6 Leads,8-SIP,
+Isolated,Yes,650V,Flyback,15.3V,8.1 V ~ 32 V,71%,60kHz ~ 74kHz,45W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 115°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L,
+Isolated,Yes,650V,Flyback,9.5V,7.5 V ~ 40 V,75%,10kHz ~ 200kHz,30W,Current Limiting* Over Temperature* Short Circuit,Control,-40°C ~ 145°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,68%,44kHz,2W,Current Limiting* Over Temperature,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,
+Isolated,Yes,700V,Flyback,-,-,67%,130kHz,6.5W,Current Limiting* Over Temperature,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,15W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,23.5W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,725V,Flyback,-,-,67%,124kHz ~ 140kHz,16W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,725V,Flyback,-,-,67%,124kHz ~ 140kHz,20W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Either,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,25W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,12W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,25W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,25W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,30W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,100W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,125W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz ~ 132kHz,50W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 5 Leads,TO-220-7B,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,65W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,34W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,165W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-262-7 (Formed Leads)* 6 Leads,TO-262-7C,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,165W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz* 132kHz,62W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz,30W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz,48W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz,333W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Non-Isolated,No,-,Boost* Buck* Flyback* Forward,16V,10 V ~ 22 V,100%,1MHz,-,Current Limiting,Control* Soft Start,-55°C ~ 150°C (TJ),"16-DIP (0.300""* 7.62mm)",16-PDIP,
+Isolated,No,-,Boost* Buck* Flyback* Forward,13V,9 V ~ 15 V,99%,700kHz,-,Current Limiting,Soft Start* Sync,-55°C ~ 150°C (TJ),"14-SOIC (0.154""* 3.90mm Width)",14-SOIC,Surface Mount
+Either,Yes,800V,Buck* Flyback,13V,11.5 V ~ 23.5 V,70%,115kHz,8W,Current Limiting* Open Loop* Over Temperature,-,-40°C ~ 150°C (TJ),"10-SOP (0.154""* 3.90mm Width)",10-SSO,Surface Mount
+Non-Isolated,Yes,730V,-,14.5V,9 V ~ 38 V,-,60kHz,8W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TC),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Either,Yes,800V,Buck* Buck-Boost* Flyback,13V,11.5 V ~ 23.5 V,70%,60kHz,10W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"16-SOIC (0.154""* 3.90mm Width)",16-SO,Surface Mount
+Either,Yes,800V,Buck* Buck-Boost* Flyback,13V,11.5 V ~ 23.5 V,70%,60kHz,10W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,730V,Flyback,14.5V,8 V ~ 38 V,-,60kHz,7W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TC),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,800V,Flyback,14V,8.5 V ~ 23.5 V,80%,60kHz,20W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,800V,Flyback,14V,8.5 V ~ 23.5 V,80%,115kHz,16W,Current Limiting* Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,800V,Flyback,14V,8.5 V ~ 23.5 V,80%,60kHz,16W,Current Limiting* Over Temperature* Over Voltage* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,620V,Flyback,11.5V,8.4 V ~ 19 V,-,Up to 300kHz,50W,Current Limiting* Over Load* Over Temperature* Short Circuit,EN* Control* Soft Start,-40°C ~ 150°C (TC),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz* 132kHz,195W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Either,Yes,800V,Buck* Buck-Boost* Flyback,13V,11.5 V ~ 23.5 V,70%,60kHz,10W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",7-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,66.80%,66kHz ~ 132kHz,290W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz* 132kHz,333W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),7-SIP* 6 Leads* Exposed Pad* Formed Leads,eSIP-7C,
+Non-Isolated,Yes,730V,-,14.5V,9 V ~ 38 V,-,60kHz,8W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TC),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz ~ 132kHz,50W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 5 Leads,TO-220-7B,
+Isolated,Yes,700V,Flyback,8.5V,7.5 V ~ 10 V,77%,136kHz,40W,Current Limiting* Open Loop* Over Load* Over Temperature,-,-40°C ~ 150°C (TJ),TO-261-4* TO-261AA,SOT-223,Surface Mount
+-,Yes,650V,Flyback* Forward,15V,9 V ~ 30 V,77%,50kHz,-,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 85°C (TA),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,60%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,30W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz,28W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz* 132kHz,333W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),7-SIP* 6 Leads* Exposed Pad* Formed Leads,eSIP-7C,
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz,333W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,60%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,650V,Flyback,15.5V,8.9 V ~ 18 V,75%,60kHz ~ 74kHz,45W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 115°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L,
+Isolated,Yes,650V,Flyback,15.5V,8.9 V ~ 18 V,75%,60kHz ~ 74kHz,60W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 115°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,45W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,25W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,66.80%,66kHz ~ 132kHz,250W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,725V,Flyback,-,-,78%,66kHz* 132kHz,62W,Current Limiting* Over Load* Over Temperature* Over Voltage* Short Circuit,Control,-40°C ~ 150°C (TJ),7-SIP* 6 Leads* Exposed Pad* Formed Leads,eSIP-7C,
+Isolated,Yes,700V,Flyback,-,-,77%,30kHz ~ 42kHz,5.5W,Current Limiting* Open Loop* Over Temperature* Short Circuit,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,85W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,65W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,23.5W,Current Limiting* Open Loop* Over Temperature* Over Voltage* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8C,
+Isolated,Yes,730V,Flyback,14.5V,8 V ~ 38 V,-,60kHz,7W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TC),"8-SOIC (0.154""* 3.90mm Width)",8-SOIC,Surface Mount
+Isolated,Yes,700V,Flyback,-,-,66.50%,66kHz ~ 132kHz,125W,Current Limiting* Over Temperature* Over Voltage,Control,-40°C ~ 150°C (TJ),TO-220-7 (Formed Leads)* 6 Leads,TO-220-7C,
+Isolated,Yes,700V,Flyback,-,-,65%,132kHz,9W,Current Limiting* Open Loop* Over Temperature* Short Circuit,EN,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)* 7 Leads",DIP-8B,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,50W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,75W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),TO-220-3,TO-220-3,
+Isolated,Yes,700V,Boost* Buck* Flyback* Forward,-,-,67%,100kHz,30W,Current Limiting* Over Temperature,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,
+Isolated,No,-,Flyback,13.5V,10.3 V ~ 18 V,-,-,-,Current Limiting,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,No,-,Flyback,13.5V,10.3 V ~ 18 V,-,-,-,Current Limiting,-,-40°C ~ 150°C (TJ),"8-DIP (0.300""* 7.62mm)",8-DIP,Through Hole
+Isolated,Yes,700V,Flyback,-,-,78%,66kHz* 132kHz,81W,Current Limiting* Over Temperature* Over Voltage,-,-40°C ~ 150°C (TJ),7-SIP* 6 Leads* Exposed Pad* Formed Leads,eSIP-7C,
+Isolated,Yes,650V,Flyback,15.3V,8.1 V ~ 32 V,71%,60kHz ~ 74kHz,60W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 115°C (TA),TO-220-6 Full Pack* Formed Leads,TO-220F-6L,
+Isolated,Yes,650V,Flyback,15.3V,8.1 V ~ 32 V,83%,100kHz,30W,Current Limiting* Over Load* Over Temperature* Over Voltage,-,-20°C ~ 125°C (TA),"8-DIP (0.300""* 7.62mm)* 7 Leads",8-DIP,

@@ -55,11 +55,13 @@ class Digikey
         $part = str_replace('__', '_', $part);
         $part = str_replace(',', '', $part);
         $part = str_replace('.', '', $part);
-        $part = preg_replace('/[0-9]+/', '', $part);
+        // $part = preg_replace('/[0-9]+/', '', $part);
         array_pop($part);
         array_pop($part);
-        $part = array_slice($part,13,count($part)-13);
-        dd($part);
+
+        $offset = array_search('part_status', $part) + 1;
+        $part = array_slice($part,$offset,count($part) - $offset);
+
             return $part;
 
 
@@ -69,8 +71,7 @@ class Digikey
 
 public function getLinks(){
 
-
-    $url = 'https://www.digikey.com/products/en/integrated-circuits-ics/32';
+    $url = 'https://www.digikey.com/products/en/capacitors/3';
     $client = new GuzzleClient();
     $promise1 = $client->requestAsync('GET',$url)->then(function (ResponseInterface $response) {
         $this->resp = $response->getBody()->getContents();
@@ -82,20 +83,19 @@ public function getLinks(){
 
 //    $links = $crawler->filterXPath('//ul[contains(@class,"catfiltersub")]');
     $links = $crawler->filterXPath('//a[contains(@class,"catfilterlink")]')->extract('href');
-    dd($links);
-//    for($t=93;$t<94;$t++){
-//
-//
-//        $this->url = 'https://www.digikey.com'.$links[$t];
-//        $tableData[$t] = $this->digikey();
-//    $helper = new Helper();
-//    $helper->helper = serialize($tableData[$t]);
-//    $helper->links = $this->url;
-//    $helper->type = 'IC';
-//    $helper->save();
-////        sleep(3);
-//    }
 
+   for($t=0;$t<count($links);$t++){
+       $this->url = 'https://www.digikey.com'.$links[$t];
+       $tableData[$t] = $this->digikey();
+   $helper = new Helper();
+   $helper->helper = serialize($tableData[$t]);
+   $helper->links = $this->url;
+   $helper->type = 'uncategorized';
+   $helper->save();
+       sleep(3);
+   }
+
+return 200;
 }
 
 

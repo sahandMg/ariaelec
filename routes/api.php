@@ -22,6 +22,9 @@ Route::post('more-content/{category?}','PageController@moreContent');
 Route::get('videos','PageController@Videos');
 Route::get('more-videos','PageController@moreVideos');
 Route::post('home/{category?}','PageController@home');
+Route::get('excel-export','CartController@Excel_export');
+Route::get('excel-import','CartController@Excel_import');
+
 // ----------------------------- User Routes ----------------------------------------
 //[
 
@@ -70,7 +73,6 @@ Route::post('home/{category?}','PageController@home');
         Route::post('image/add','CmController@addImage')->name('addImage');
         Route::get('image/get','CmController@getImages');
         /**
-         * TODO add google login APIs for content managers
          */
 //        ->middleware('terminate')
         Route::get('login/google',['uses'=>'CmController@redirectToProvider'])->name('googleLogin');

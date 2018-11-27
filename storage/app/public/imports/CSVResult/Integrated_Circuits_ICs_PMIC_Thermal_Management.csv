@@ -1,0 +1,15 @@
+Temp Monitoring System (Sensor),Internal and External,-,±3.5°C Local(Max)* ±1.5°C Remote(Max),ADC* Multiplexer* Voltage Reference,I²C,Yes,Yes,2.9 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,"20-SSOP (0.209""* 5.30mm Width)",20-SSOP
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Thermocouple Amplifier,External,-,±3°C(Max),Ice Point Compensation* Overload Detection,Voltage,Yes,No,5 V ~ ±15 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Thermocouple Amplifier,External,-,±3°C(Max),Ice Point Compensation* Overload Detection,Voltage,Yes,No,5 V ~ ±15 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Thermocouple Conditioner,External,-200°C ~ 1250°C,±4°C(Max),Ice Point Compensation,Voltage,Yes,No,5 V ~ 30 V,-55°C ~ 125°C,Through Hole,TO-100-10 Metal Can,TO-100-10
+Thermocouple Amplifier,External,-,±3°C(Max),Ice Point Compensation* Overload Detection,Voltage,Yes,No,5 V ~ ±15 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Thermocouple Amplifier,External,-,±3°C(Max),Ice Point Compensation* Overload Detection,Voltage,Yes,No,5 V ~ ±15 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Thermocouple Conditioner,External,-200°C ~ 1250°C,±4°C(Max),Ice Point Compensation,Voltage,Yes,No,5 V ~ 30 V,-55°C ~ 125°C,Through Hole,TO-100-10 Metal Can,TO-100-10
+Temp Monitoring System (Sensor),Internal and External,-,±3.5°C Local(Max)* ±1.5°C Remote(Max),ADC* Multiplexer* Voltage Reference,I²C,Yes,Yes,2.9 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Temp Monitoring System (Sensor),External,-,±0.5°C(Max),ADC (Sigma Delta)* Comparator* Register Bank,SPI,No,No,3 V ~ 3.6 V,-40°C ~ 125°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Hardware Monitor,Internal and External,-25°C ~ 125°C* External Sensor,±3°C(Max),ADC* Comparator* Fan Counter* Register Bank,I²C,No,No,2.8 V ~ 5.75 V,-25°C ~ 125°C,Surface Mount,"24-TSSOP (0.173""* 4.40mm Width)",24-TSSOP

@@ -1,0 +1,58 @@
+Average Current,200kHz,250µA,10 V ~ 20 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Continuous Conduction (CCM)* Discontinuous Conduction (DCM),66kHz ~ 84kHz,100µA,11 V ~ 16.5 V,-40°C ~ 125°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Average Current,67kHz,200µA,10 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Average Current,-,200µA,11 V ~ 16.5 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Critical Conduction (CRM),-,20µA,8.5 V ~ 25 V,-40°C ~ 105°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOP
+Discontinuous (Transition),-,60µA,11.5 V ~ 30 V,-25°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Boundary Conduction (BCM),16.5kHz ~ 525kHz,80µA,9 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Boundary Conduction (BCM),16.5kHz ~ 525kHz,80µA,9 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Boundary Conduction (BCM),-,10µA,10.5 V ~ 24.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Continuous Conduction (CCM),133kHz,100µA,10.2 V ~ 21 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),133kHz,100µA,10.2 V ~ 21 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),50kHz ~ 315kHz,450µA,11 V ~ 25 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),65kHz,450µA,11 V ~ 25 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),21kHz ~ 250kHz,380µA,11 V ~ 25 V,-25°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",PG-DSO-14
+Continuous Conduction (CCM),21kHz ~ 250kHz,380µA,11 V ~ 25 V,-25°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),200kHz,175µA,15 V ~ 20 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Average Current,100kHz,100µA,14.5 V ~ 19.5V,-40°C ~ 125°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Average Current,100kHz,100µA,14.5 V ~ 19.5V,-40°C ~ 125°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Continuous Conduction (CCM),-,65µA,10.3 V ~ 22.5 V,-40°C ~ 150°C,Surface Mount,"10-SOP (0.154""* 3.90mm Width)",10-SSOP
+Discontinuous (Transition),-,50µA,11 V ~ 18 V,-25°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Discontinuous Conduction (DCM),-,100µA,11 V ~ 16 V,-40°C ~ 105°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Critical Conduction (CRM),-,250µA,12 V ~ 28 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Critical Conduction (CRM),-,16mA,10 V ~ 16 V,-25°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)* 14 Leads",16-SOIC
+Critical Conduction (CRM),-,250µA,12 V ~ 28 V,0°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Continuous Conduction (CCM),60.3kHz ~ 73.7kHz,-,8.75 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Average Current,200kHz,50µA,0 V ~ 17.5 V,-25°C ~ 85°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",P-DSO-20
+Discontinuous Conduction (DCM),-,-,11 V ~ 19 V,-40°C ~ 150°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8-1
+Discontinuous Conduction (DCM),-,20µA,12.5 V ~ 20 V,-40°C ~ 150°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Average Current,80kHz ~ 120kHz,250µA,10 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Continuous Conduction (CCM),200kHz,400µA,14.5 V ~ 30 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Average Current,200kHz,250µA,10 V ~ 20 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Average Current,500kHz,150µA,10.5 V ~ 20 V,0°C ~ 70°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SOIC
+Average Current,500kHz,150µA,10.5 V ~ 20 V,0°C ~ 70°C,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP
+Discontinuous (Transition),500kHz,100µA,14 V ~ 21 V,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Average Current,6kHz ~ 220kHz,150µA,12 V ~ 17 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Average Current,6kHz ~ 220kHz,150µA,12 V ~ 17 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Average Current,6kHz ~ 220kHz,150µA,12 V ~ 17 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Continuous Conduction (CCM),200kHz,400µA,14.5 V ~ 30 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Average Current,76kHz,700µA,10.5 V ~ 13.2 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Average Current,-,700µA,12.8 V ~ 14.2 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Average Current,200kHz,1.5mA,14.5 V ~ 30 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Average Current,500kHz,150µA,10.5 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SOIC
+Average Current,76kHz,700µA,10.5 V ~ 13.2 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Discontinuous (Transition),1MHz,40µA,10.3 V ~ 22 V,-25°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Average Current,67kHz,200µA,10 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Critical Conduction (CRM)* Discontinuous (Transition),-,40µA,12 V ~ 22 V,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Continuous Conduction (CCM),65kHz,100µA,10.2 V ~ 21 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),Adjustable,450µA,11 V ~ 25 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",PG-DSO-8
+Continuous Conduction (CCM),200kHz,175µA,15 V ~ 20 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Average Current,100kHz,100µA,14.5 V ~ 19.5V,-40°C ~ 125°C,Through Hole,"20-DIP (0.300""* 7.62mm)",20-DIP
+Discontinuous (Transition),-,30µA,10.5 V ~ 22.5 V,-25°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Discontinuous (Transition),1MHz,40µA,10.3 V ~ 22 V,-25°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Average Current,300kHz,250µA,15.5 V ~ 27 V,0°C ~ 100°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Average Current,76kHz,200µA,11 V ~ 16.5 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Average Current,200kHz,-,0 V ~ 7 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Continuous Conduction (CCM),24kHz ~ 95kHz,-,10 V ~ 12 V,-40°C ~ 125°C,Through Hole,7-SSIP* 6 Leads* Exposed Pad* Formed Leads,
+Average Current,200kHz,50µA,0 V ~ 17.5 V,-25°C ~ 85°C,Through Hole,"20-DIP (0.300""* 7.62mm)",P-DIP-20-5
+Average Current,100kHz,150µA,9.7 V ~ 18 V,0°C ~ 70°C,Through Hole,"20-DIP (0.300""* 7.62mm)",20-PDIP

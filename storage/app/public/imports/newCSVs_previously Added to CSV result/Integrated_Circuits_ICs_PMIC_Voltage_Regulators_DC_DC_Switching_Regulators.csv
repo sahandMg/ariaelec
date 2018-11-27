@@ -1,0 +1,541 @@
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,12V,-,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,1A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,2,4.5V,18V,0.76V,7V,2A* 3A,700kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,1V,-,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,3.5V,28V,0.8V,25V,3A,570kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,38V,0.6V,38V,3A,250kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-HSOP-EP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Fixed,1,2V,30V,3.3V,-,400mA (Switch),72kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,2.5V,5.5V,2.5V,20V,2A (Switch),650kHz* 1.3MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down,Positive,Buck,Fixed,1,3V,20V,5V,-,3A,700kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,36V,0.6V,32.4V,1A,300kHz ~ 1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,12-WFQFN Exposed Pad* CSP,12-LFCSP-WQ (3x3)
+Step-Down,Positive,Buck,Adjustable,1,4.5V,16V,0.8V,16V,3A,500kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,18V,0.8V,18V,3A,600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,16V,0.8V,16V,3A,500kHz,Yes,-40°C ~ 85°C (TA),-,-,-
+Step-Down,Positive,Buck,Adjustable,1,4.5V,27V,0.8V,22.95V,2A,370kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,36V,0.8V,36V,1.2A,450kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,3V,36V,0.8V,30.6V,4A,200kHz ~ 1MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SO-EP
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,3.3V,-,3A,150kHz,No,-20°C ~ 85°C (TA),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,3A,150kHz,No,-20°C ~ 85°C (TA),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.23V,37V,3A,150kHz,No,-20°C ~ 85°C (TA),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,18V,0.76V,6V,4A,650kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SO-EP
+Step-Down,Positive,Buck,Adjustable,1,4.2V,18V,0.9V,12.6V,3A,380kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-HTSOP-J
+Step-Down,Positive,Buck,Adjustable,1,7V,35V,1V,35V,2A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TA),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,HRP7
+Step-Down,Positive,Buck,Adjustable,1,6V,42V,1V,29.4V,500mA,1.5MHz,No,-40°C ~ 105°C (TA),Surface Mount,SOT-23-6,6-SSOP
+Step-Down,Positive,Buck,Adjustable,1,8V,55V,3.3V,50V,1.5A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO W
+Step-Down,Positive,Buck,Adjustable,1,15V,50V,5.1V,40V,2A,100kHz ~ 200kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Step-Down,Positive,Buck,Adjustable (Fixed),1,8V,55V,0.5V (3.3V),50V,3.5A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Step-Down,Positive,Buck,Adjustable (Fixed),1,8V,55V,5.1V (5.1V),50V,3.5A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Step-Up,Positive,Boost,Adjustable (Fixed),1,0.6V,5.5V,1.8V (3.3V* 5V),5.5V,800mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,36V,0.8V,32.4V,2A,100kHz ~ 1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,42V,1.285V,37V,1A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,42V,1.285V,37V,5A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-7 Thin,TO-263-7 Thin
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,500mA,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"14-SOIC (0.295""* 7.50mm Width)",14-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,37V,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,15V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,3.3V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,12V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Buck-Boost,Fixed,1,7V,40V,3.3V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,D2PAK-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,3.3V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,3.3V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,15V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Flyback* Forward Converter,Adjustable,1,3.5V,40V,1.23V,60V (Switch),3A (Switch),52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"24-SOIC (0.295""* 7.50mm Width)",24-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,3A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,3A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,5A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,60V,1.2V,57V,2A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,60V,1.2V,57V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,12V,-,500mA,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,12V,-,1A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,1A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Buck-Boost,Adjustable,1,4.5V,40V,1.23V,37V,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,D2PAK-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,3.3V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,3A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,60V,5V,-,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up/Step-Down,Negative,Cuk,Adjustable,1,2.7V,14V,-1.23V,-22V,900mA,1.4MHz,No,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1.2V,14V,1.24V,14V,2.85A (Switch),300kHz ~ 2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Down,Positive,Buck,Adjustable,2,3V,20V,0.6V,16V,2A,520kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.8V,5.5V,-Vin* 2Vin,-,40mA,80kHz,No,-40°C ~ 85°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Ratiometric,Positive,Charge Pump,Fixed,1,2.5V,5.5V,2Vin* Vin/2,-,40mA,80kHz,No,-40°C ~ 85°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.2V,37V,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,12V,-,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,3.3V,-,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,5V,-,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.21V,37V,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,16-WFDFN Exposed Pad,16-WSON (5x5)
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,12V,-,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.21V,37V,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,5V,-,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.2V,37V,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,5V,-,500mA,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,5V,-,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.21V,37V,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.21V,37V,1A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,8V,40V,3.3V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,4.5V,24V,1.254V,20V,3A,100kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* SEPIC,Adjustable,1,2.2V,12V,2.2V,17.5V,1.35A (Switch),600kHz* 1.25MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Up,Positive,Boost,Adjustable,1,2.7V,14V,5V,28V,800mA (Switch),1.6MHz,No,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,1.2V,-,2A,1.5MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,2.5V,-,2A,1.5MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,1.8V,-,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,2.5V,-,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,3.3V,-,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,2.7V,5.5V,3.3V,-,600mA,2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Up* Step-Up/Step-Down,Positive* Isolation Capable,Boost* Flyback* Forward Converter* SEPIC,Adjustable,1,3.1V,75V,3.1V,76V (Switch),800mA (Switch),50kHz ~ 1.5MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,7V,75V,1.225V,70V,2.5A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,9V,75V,2.5V,73V,500mA,-,No,-40°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Down,Positive,Buck,Adjustable,1,9.5V,95V,2.5V,75V,350mA,50kHz ~ 600kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Down,Positive,Buck,Adjustable,1,7.5V,100V,1.225V,90V,600mA,Adj to 1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,6V,75V,1.225V,70V,1.5A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,6V,75V,1.225V,70V,1.5A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,6V,75V,1.225V,70V,1.5A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,6V,75V,1.225V,70V,3A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,2.5V,40V,1.25V,40V (Switch),1.5A (Switch),100Hz ~ 100kHz,No,0°C ~ 70°C (TA),Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Ratiometric* Step-Up,Positive or Negative,Charge Pump,Adjustable (Fixed),1,3.5V,15V,2.5V (-Vin* 2Vin),30V,100mA,25kHz,No,0°C ~ 100°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.25V,65V (Switch),5A (Switch),40kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5,TO-220-5 Flow 6
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.25V,75V (Switch),5A (Switch),40kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.25V,65V (Switch),2.5A (Switch),40kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5,TO-220-5 Flow 6
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,45V,2.5V,35V,5.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5,TO-220-5 Flow 6
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,45V,2.5V,35V,5.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,64V,2.5V,35V,5.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5,TO-220-5 Flow 6
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,64V,2.5V,35V,5.5A (Switch),100kHz,No,-40°C ~ 85°C (TA),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,64V,2.5V,35V,2A (Switch),100kHz,No,-40°C ~ 85°C (TA),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,D2PAK-7
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,40V,1.244V,65V (Switch),5A (Switch),100kHz,No,0°C ~ 100°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,5-DDPAK
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.244V,75V (Switch),5A (Switch),100kHz,No,0°C ~ 100°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,5-DDPAK
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.244V,75V (Switch),5A (Switch),100kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,40V,1.244V,65V (Switch),1.25A (Switch),100kHz,No,0°C ~ 100°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,3.5V,30V,1.244V,60V (Switch),10A (Switch),60kHz,No,0°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up,Positive,Boost,Fixed,1,1.8V,10V,5V,-,2.3A (Switch),310kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1V,10V,1.22V,34V,2A (Switch),600kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1V,10V,1.22V,34V,2A (Switch),600kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck* SEPIC,Adjustable,1,5V,32V,2.42V,27.52V,4.5A (Switch),500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck* SEPIC,Adjustable,1,5V,25V,2.42V,21.5V,1.5A (Switch),500kHz,No,0°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck* SEPIC,Fixed,1,5V,25V,5V,-,1.5A (Switch),500kHz,No,0°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter* SEPIC,Adjustable,1,2.7V,30V,1.245V,35V (Switch),1.5A (Switch),1MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.6V,25V,1.25V,21.75V,600mA,1.4MHz,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,7.4V,40V,1.24V,34V,550mA (Switch),200kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* SEPIC,Adjustable,1,2.45V,16V,2.45V,36V (Switch),1A (Switch),1.2MHz,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1.7V,12V,1.7V,28V,1A (Switch),600kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck* SEPIC,Adjustable,1,4.3V,15V,1.21V,12.9V,4.5A (Switch),500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,D2PAK-7
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.25V,16V,200mA,-,No,0°C ~ 85°C (TA),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Step-Up* Step-Up/Step-Down,Positive and Negative (Dual Rail),Boost* Cuk* Flyback* SEPIC,Adjustable,2,2.4V,16V,±1V,±40V,1.3A,1.2MHz,No,0°C ~ 70°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-DFN (3x3)
+Step-Up,Positive or Negative,Boost,Adjustable,1,2.5V,24V,1.235V,42V (Switch),3A (Switch),200kHz ~ 3.5MHz,No,0°C ~ 70°C (TA),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-TSSOP-EP
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,2.5V,16V,2.5V,40V (Switch),275mA (Switch),-,No,-40°C ~ 125°C (TJ),Surface Mount,10-WFDFN Exposed Pad,10-DFN (3x2)
+Step-Down,Positive,Buck,Adjustable,2,3.1V,25V,0.8V,23.75V,3A,250kHz ~ 1.5MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-TSSOP-EP
+Step-Down,Positive,Buck,Adjustable,2,3.1V,25V,0.8V,23.75V,3A,250kHz ~ 1.5MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-TSSOP-EP
+Step-Down,Positive,Buck,Adjustable,4,3.2V,40V,0.8V,40V,1A,250kHz ~ 2.1MHz,No,-40°C ~ 125°C (TJ),Surface Mount,28-WFQFN Exposed Pad,28-QFN (4x5)
+Step-Down,Positive,Buck,Adjustable,1,3.6V,36V,0.78V,33.84V,1.2A,200kHz ~ 3.01MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-EP
+Step-Down,Positive,Buck,Adjustable,1,3.6V,34V,1.265V,20V,2A,300kHz ~ 2.8MHz,No,-40°C ~ 85°C (TA),Surface Mount,14-WFDFN Exposed Pad,14-DFN (4x3)
+Step-Down,Positive,Buck,Adjustable,1,3.9V,36V,0.8V,20V,4A,138kHz ~ 1.5MHz,No,-40°C ~ 125°C (TJ),Surface Mount,26-WFQFN Exposed Pad,26-QFN (4x6)
+Step-Down,Positive,Buck,Adjustable,1,3.6V,36V,0.79V,30V,3.5A,230kHz ~ 2.45MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-EP
+Step-Down,Positive,Buck,Fixed,1,4.3V,55V,3.3V,-,1.2A,200kHz ~ 2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-EP
+Step-Up/Step-Down,Positive or Negative* Isolation Capable,Flyback,-,1,2.7V,42V,-,-,1.2A,Down to 10kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up* Step-Up/Step-Down,Positive or Negative* Isolation Capable,Boost* SEPIC,Adjustable,1,3V,40V,1.6V* -0.8V,60V (Switch),1A,2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Buck-Boost,Adjustable,1,4V,13.5V,1.25V,13V,340mA* 600mA,200kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Buck-Boost* SEPIC,Fixed,1,3V,18V,3.3V,-,750mA (Switch),-,No,0°C ~ 70°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Buck-Boost* SEPIC,Fixed,1,3V,18V,3.3V,-,750mA (Switch),-,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Charge Pump,Fixed,1,2.7V,4.4V,5V,-,30mA,550kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,2.2V,40V,2.7V,40V,1A* 2A,100kHz ~ 2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-TSSOP-EP
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.92V,15V,1.4V,15.75V,200mA,1.2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"16-TFSOP (0.118""* 3.00mm Width) Exposed Pad",16-MSOP-EP
+Step-Down,Positive,Buck,Adjustable,1,2.25V,5.5V,1.125V,5.5V,3A,1MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-TSSOP-EP
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,2V,5V,200mA,-,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-DFN (3x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,1.8V,5.5V,3.32V,-,200mA,-,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-DFN (3x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,1.8V,5.5V,1A,300kHz ~ 2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"12-TSSOP (0.118""* 3.00mm Width) Exposed Pad",12-MSOP-EP
+Step-Down,Positive,Buck,Adjustable,1,4V,15V,0.6V,14.52V,1.5A,2MHz ~ 4MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"16-TFSOP (0.118""* 3.00mm Width) Exposed Pad",16-MSOP-EP
+Step-Down,Positive,Buck,Adjustable,1,4V,15V,0.6V,14.52V,1.5A,2MHz ~ 4MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"16-TFSOP (0.118""* 3.00mm Width) Exposed Pad",16-MSOP-EP
+Step-Down,Negative,Charge Pump,Adjustable,1,2V,5.5V,-1.5V,-5.5V,125mA,350kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable (Fixed),1,2.7V,14V,1.25V (3.3V),14V,1A,600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP
+Step-Up,Positive,Boost,Fixed,1,0.8V,5.5V,3.3V,-,400mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,SOT-23-5
+Step-Up,Positive,Boost,Fixed,1,0.8V,5.5V,5V,-,400mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up,Positive,Boost,Adjustable (Fixed),1,0.7V,5.5V,2.5V (3.3V),5.5V,1A (Switch),1MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-uMAX
+Step-Down,Positive,Buck,Adjustable,1,2.6V,5.5V,0.75V,5.5V,800mA,800kHz ~ 1.2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-uMAX
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,5.5V,-Vin* 2Vin,-,100mA,10kHz* 80kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,5.5V,-Vin* 2Vin,-,100mA,10kHz* 80kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,6V,16V,5V,-,750mA,160kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up,Positive and Negative (Dual Rail),Boost* Buck-Boost,Programmable,2,4.2V,6V,±12V* ±15V,-,2A (Switch),200kHz,No,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Step-Up,Positive and Negative (Dual Rail),Boost* Buck-Boost,Programmable,2,4.2V,6V,±12V* ±15V,-,2A (Switch),200kHz,No,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Step-Up,Positive,Boost,Programmable,1,0.7V,7V,3.3V* 5V,-,-,500kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up/Step-Down,Negative,Buck-Boost,Adjustable (Fixed),1,3V,16V,-1V (-5V),-16V,260mA,300kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up/Step-Down,Negative,Buck-Boost,Adjustable (Fixed),1,3V,16V,-1V (-5V),-16V,260mA,300kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,5.5V,#NAME?,-,25mA,12kHz,No,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Up,Positive,Boost,Adjustable (Fixed),1,1.2V,5.5V,3.3V (5V),5V,2.75A (Switch),2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-TDFN-EP (3x3)
+Step-Down,Positive,Buck,Adjustable,1,3.5V,11V,1.25V,10.5V,600mA,250kHz ~ 350kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Fixed,1,2.5V,5.5V,5V,-,700mA,3MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,9-WFBGA* WLBGA,9-WLP (1.26x1.26)
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,2.5V,40V,1.25V,40V (Switch),3.4A (Switch),50kHz,No,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,7.5V,40V,5.05V,40V (Switch),5.5A (Switch),72kHz,No,-40°C ~ 85°C (TA),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Step-Down* Step-Up/Step-Down,Positive,Buck* Buck-Boost,Fixed,1,4V,34V,5V,-,1.3A,200kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down* Step-Up/Step-Down,Positive,Buck* Buck-Boost,Adjustable,1,4V,34V,1.23V,32.98V,1.3A,200kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4V,34V,1.23V,32.3V,2A,200kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.7V,16V,0.8V,14.4V,2A,490kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,4.75V,18V,0.923V,15V,2A,340kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.75V,18V,0.923V,15V,2A,340kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,2.5V,6V,3V,22V,300mA,1.3MHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up,Positive,Boost,Adjustable,1,2.5V,22V,3V,22V,2A (Switch),1.3MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down,Positive,Buck,Adjustable,1,4.75V,25V,1.22V,21V,2A,380kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.75V,23V,1.22V,21V,3A,385kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Step-Down,Positive,Buck,Adjustable,1,6.5V,32V,1.23V,21V,2A,330kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,30V,0.81V,27V,5A,420kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOICE
+Step-Up,Positive,Boost,Fixed,1,0.8V,3.3V,3.3V,-,100mA (Switch),180kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up,Positive,Boost,Fixed,1,0.8V,3.8V,3.8V,-,100mA (Switch),180kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up,Positive,Boost,Fixed,1,0.8V,5V,5V,-,100mA (Switch),180kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up,Positive,Boost,Fixed,1,0.8V,3.3V,3.3V,-,130mA (Switch),Up to 200kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up,Positive,Boost,Fixed,1,0.8V,5V,5V,-,130mA (Switch),Up to 200kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),150kHz,No,0°C ~ 70°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,18V,0.925V,16.2V,2A,340kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Fixed,1,2.9V,5.5V,1V,-,1.5A,2.5MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Down,Positive,Buck,Adjustable,1,4.4V,24V,0.8V,20.4V,3A,600kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Step-Down,Positive,Buck,Adjustable,1,4.75V,28V,0.5V,24V,3.5A,500kHz,Yes,-30°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.173""* 4.40mm Width) Exposed Pad",8-HSOP
+Step-Down,Positive,Buck,Fixed,1,7V,40V,5V,-,3A,60kHz,No,-30°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Down,Positive,Buck,Fixed,1,7V,40V,5V,-,3A,60kHz,No,-30°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Up,Positive,Boost,Adjustable,1,0.7V,5.5V,1.8V,5.5V,220mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Up,Positive,Boost,Fixed,1,0.7V,3.3V,3.3V,-,160mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Step-Down,Positive,Buck,Adjustable,1,4V,17V,0.9V,5V,3A,2.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Step-Down,Positive,Buck,Adjustable,1,4V,17V,0.9V,5V,1A,2.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Step-Down,Positive,Buck,Adjustable,1,2.7V,5.5V,0.6V,5.23V,1.5A,1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive* Isolation Capable,Buck* Boost* Flyback* Forward Converter,-,1,-,-,-,-,-,120kHz,No,-40°C ~ 150°C (TJ),Surface Mount,8-SMD* Gull Wing,8-SMD
+Step-Down,Positive,Buck,Adjustable,1,3.5V,60V,0.8V,58V,1.5A,100kHz ~ 2.5MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,28V,0.596V,28V,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,2V,18V,0.76V,5.5V,2A,700kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,3.5V,28V,0.8V,25V,2A,1MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.5V,60V,0.8V,60V,2.5A,100kHz ~ 2.5MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,5.5V,23V,1.221V,20.47V,3A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,2V,18V,0.76V,5.5V,3A,700kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,3.5V,28V,0.8V,25V,3A,570kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,28V,0.8V,24V,3A,50kHz ~ 1.5MHz,Yes,-40°C ~ 150°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,28V,0.8V,24V,3A,50kHz ~ 1.5MHz,Yes,-40°C ~ 150°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,20V,0.891V,17.2V,3A,250kHz* 500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,5.5V,36V,1.221V,31.32V,5A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,4.5V,17V,0.8V,15V,6A,200kHz ~ 1.6MHz,Yes,-40°C ~ 150°C (TJ),Surface Mount,14-VFQFN Exposed Pad,14-VQFN (3.5x3.5)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,1.5V,40V,5V,-,500mA,440kHz,Yes,-40°C ~ 125°C (TA),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Down,Positive,Charge Pump,Fixed,1,1.8V,6.5V,1.8V,-,250mA,800kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Step-Up,Positive,Boost,Adjustable,1,0.9V,6.5V,1.8V,5.5V,1.5A (Switch),600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Adjustable,1,0.9V,6.5V,1.8V,5.5V,800mA (Switch),600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Adjustable,1,1.8V,5.5V,1.8V,5.5V,3.6A (Switch),600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Up,Positive,Boost,Adjustable,1,1.8V,6V,1.8V,28V,300mA (Switch),Up to 1MHz,No,-40°C ~ 85°C (TA),Surface Mount,8-VDFN Exposed Pad,8-SON (3x3)
+Step-Up,Positive,Boost,Adjustable,1,2.3V,6V,2.8V,18.5V,2A (Switch),650kHz* 1.2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Up,Positive,Boost,Adjustable,1,1.6V,6V,1.6V,17V,900mA (Switch),1.2MHz,No,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-SON (2.5x2.5)
+Step-Up* Step-Up/Step-Down,Positive,Boost* Buck-Boost* Flyback* SEPIC,Adjustable,1,3V,18V,3V,38V,960mA (Switch),1.2MHz,No,-40°C ~ 85°C (TA),Surface Mount,6-WDFN Exposed Pad,6-SON (2x2)
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* SEPIC,Adjustable,1,2.9V,18V,2.9V,38V,3A (Switch),200kHz ~ 2.2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Up,Positive,Boost,Adjustable,1,0.3V,5.5V,1.8V,5.5V,1.2A (Switch),1.25MHz ~ 1.65MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Adjustable,1,0.7V,5.5V,1.8V,6 V,200mA (Switch),Up to 2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Step-Up,Positive,Boost,Adjustable,1,2.3V,5.5V,2.5V,5.5V,4A (Switch),2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Fixed,1,2.3V,5.5V,5V,-,4A (Switch),2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Adjustable,1,2.3V,4.9V,2.9V,5.5V,6.5A (Switch),1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,9-VFQFN,9-VQFN-HR (2.5x2.5)
+Step-Down,Positive,Buck,Fixed,1,2.5V,6V,3.3V,-,1.2A,1.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,2.3V,6V,0.5V,4V,1.2A,2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-WSON (2x2)
+Step-Down,Positive,Buck,Fixed,1,3.1V,17V,3.3V,-,1.5A,1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,16-VQFN Exposed Pad,16-QFN (4x4)
+Step-Down,Positive,Buck,Fixed,1,3.1V,17V,5V,-,1.5A,1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,16-VQFN Exposed Pad,16-QFN (4x4)
+Step-Down,Positive,Buck,Adjustable,1,2V,15V,1.2V,5.5V,75mA,Up to 800kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-8,SOT-23-8
+Step-Down,Positive,Buck,Adjustable,1,3V,17V,0.9V,6V,3A,2.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Step-Down,Positive,Buck,Fixed,1,3V,17V,3.3V,-,2A,2.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Step-Down,Positive,Buck,Fixed,1,3V,17V,5V,-,2A,2.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Step-Down,Positive,Buck,Adjustable,1,3V,17V,0.9V,6V,1A,2.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Down,Positive,Buck,Fixed,1,3V,17V,1.8V,-,1A,2.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-WSON (2x2)
+Step-Down,Positive,Buck,Fixed,1,3V,17V,3.3V,-,1A,2.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-WSON (2x2)
+Step-Down,Positive,Buck,Fixed,1,3V,17V,5V,-,500mA,2.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,8-WFDFN Exposed Pad,8-WSON (2x2)
+Step-Down,Positive,Buck,Adjustable,1,2.5V,6V,0.7V,6V,300mA,1MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Down,Positive,Buck,Fixed,1,2.05V,6V,1.5V,-,500mA,3MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,6-UFDFN,6-SON (1.45x1)
+Step-Down,Positive,Buck,Fixed,1,2.05V,6V,3V,-,500mA,3MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,6-UFDFN,6-SON (1.45x1)
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,1.2V,5.5V,1.6A (Switch),1.25MHz ~ 1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,1.8V,5.5V,3.3V,-,1.6A (Switch),1.25MHz ~ 1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,1.8V,5.5V,5V,-,1.6A (Switch),1.25MHz ~ 1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,1.2V,5.5V,3.5A (Switch),2.4MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,14-VFDFN Exposed Pad,14-VSON (4x3)
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,1.2V,5.5V,900mA (Switch),2.4MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-SON (2.5x2.5)
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,1.8V,5.5V,1.2V,5.5V,900mA (Switch),2.4MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-SON (2.5x2.5)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,1.8V,5.5V,3.3V,-,900mA (Switch),2.4MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-SON (2.5x2.5)
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,2.5V,12V,5V,-,2A (Switch),2.4MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-WSON (3x3)
+Step-Up* Step-Down,Negative,Buck,Fixed,1,4V,6.2V,-5V,-,200mA,160kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,-,2,4.75V,18V,-,-,10A,300kHz ~ 2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,32-VQFN Exposed Pad,32-VQFN-HR (6x6)
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,-Vin* 2Vin,-,20mA,10kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Negative,Boost* Cuk* Charge Pump,Adjustable,1,1V,15V,-1V,-34V,75mA (Switch),-,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up,Positive,Boost,Adjustable (Programmable),1,0.7V,5.5V,2V (3.3V* 5V),5.5V,360mA (Switch)* 750mA (Switch),Up to 500Hz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-uMAX
+Step-Down,Positive,Buck,Adjustable,1,3.8V,36V,0.8V,30V,3.5A,Up to 4MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOICE
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,7V,-Vin* 2Vin,-,100mA,25kHz* 120kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,7V,#NAME?,-,100mA,25kHz* 120kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,5.5V,#NAME?,-,25mA,120kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Up/Step-Down,Positive,Buck-Boost,Fixed,1,2.3V,5.5V,3.5V,-,1A,2.5MHz,Yes,-40°C ~ 125°C (TA),Surface Mount,10-WFDFN Exposed Pad* CSP,10-LFCSP-WD (3x3)
+Step-Up/Step-Down,Negative,Charge Pump,Adjustable,1,3V,6V,-3V,-12V,120mA,250kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,#NAME?,-,20mA,10kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,12V,-Vin* 2Vin,-,45mA,10kHz ~ 35kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,0°C ~ 70°C (TA),Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1.2V,14V,1.24V,14V,2.85A (Switch),300kHz ~ 2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Step-Up,Positive,Boost,Adjustable,1,0.8V,14V,1.24V,14V,2.2A (Switch),300kHz ~ 2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,5.5V,-Vin* 2Vin* Vin/2,-,200mA,10kHz* 75kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,10V,#NAME?,-,-,10kHz,No,-,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,10V,#NAME?,-,-,10kHz,No,-,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric* Step-Up,Positive or Negative,Charge Pump,Adjustable (Fixed),1,3.5V,15V,2.5V (-Vin* 2Vin),30V,100mA,25kHz,No,0°C ~ 100°C (TJ),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Ratiometric* Step-Up,Positive or Negative,Charge Pump,Adjustable (Fixed),1,3.5V,15V,3.5V (-Vin* 2Vin),26.4V,100mA,25kHz,No,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Fixed,1,1.5V,8V,3.3V,-,800mA (Switch),Up to 300kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,1V,10V,1.22V,30V (Switch),2A (Switch),600kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* SEPIC,Adjustable,1,1V,15V,1.23V,34V,75mA (Switch),-,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up* Step-Up/Step-Down,Negative,Boost* Cuk* Charge Pump,Adjustable,1,1V,15V,-1V,-34V,75mA (Switch),-,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Up/Step-Down,Positive or Negative* Isolation Capable,Flyback,-,1,4.5V,100V,-,-,240mA,40kHz ~ 650kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TFSOP (0.118""* 3.00mm Width)* 12 Leads",16-MSOP
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Cuk* SEPIC,Adjustable,1,2.5V,32V,5V,42V (Switch),2A (Switch),200kHz ~ 2MHz,No,0°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-EP
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Cuk* SEPIC,Adjustable,1,2.5V,32V,5V,42V (Switch),2A (Switch),200kHz ~ 2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-EP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,9V,-Vin* 2Vin* Vin/2,-,20mA,1kHz ~ 5kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive and Negative (Dual Rail),Charge Pump,Fixed,2,4.5V,32V,#NAME?,-,100mA,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TFSOP (0.118""* 3.00mm Width) Exposed Pad",16-MSOP-EP
+Step-Down* Step-Up/Step-Down,Positive,Buck* Buck-Boost,Adjustable,2,2.5V,5.5V,0.6V,5V,800mA,2.25MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,10-WFDFN Exposed Pad,10-DFN (3x3)
+Step-Down,Positive,Buck,Adjustable,2,2.5V,5.5V,0.6V,5V,600mA,1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-EP
+Step-Up/Step-Down,Positive,Buck-Boost,Adjustable,1,2.5V,5.5V,2.5V,5.5V,600mA,300kHz ~ 2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Step-Up,Positive,Boost,Adjustable (Programmable),1,0.7V,5.5V,2V (3.3V* 5V),5.5V,360mA (Switch),Up to 500Hz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-uMAX
+Step-Up,Positive,Boost,Adjustable (Fixed),1,0.7V,5.5V,2.5V (3.3V),5.5V,2A (Switch),750kHz ~ 1.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-TSSOP-EP
+Step-Up,Positive,Boost,Adjustable,1,3V,11V,3V,36V,260mA (Switch),500kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,7.5V,76V,1.25V,13.2V,1A,125kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,3V,28V,3V,28V,1.4A (Switch),250kHz,No,-40°C ~ 85°C (TA),Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP
+Step-Up,Positive,Boost,Adjustable,1,2.2V,16.5V,2.2V,18V (Switch),525mA (Switch),40kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Charge Pump,Fixed,1,4.5V,5.5V,12V,-,30mA,500kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive and Negative (Dual Rail),Charge Pump,Fixed,2,2V,6V,±2Vin,-,10mA,8kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down,Positive,Buck* Boost,Programmable,1,1.8V,11V,3.3V* 5V,-,1.1A (Switch),-,No,-40°C ~ 85°C (TA),Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SO
+Step-Up,Positive,Boost,Adjustable,1,0.7V,7V,2.7V,5.5V,-,500kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,0.7V,7V,2.7V,5.5V,-,500kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up/Step-Down,Negative,Buck-Boost,Adjustable (Fixed),1,3V,16V,-1V (-12V),-16V,120mA,300kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Programmable,1,0.8V,6V,3.3V* 5V,-,500mA (Switch),500kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,0.8V,6V,2.7V,6V,500mA (Switch),500kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),100kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,7.5V,40V,5.05V,40V (Switch),5.5A (Switch),72kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up,Positive,Boost,Adjustable,1,0.8V,5.5V,2V,5.5V,350mA,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,-Vin* 2Vin,-,20mA,10kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,15V,-Vin* 2Vin,-,20mA,10kHz ~ 35kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,3V,18V,-Vin* 2Vin* Vin/2,-,80mA,12kHz ~ 24kHz,No,0°C ~ 70°C (TA),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Step-Down,Positive,Buck* Split Rail,Adjustable,1,3.5V,60V,0.8V,58V,500mA,100kHz ~ 2.5MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,5.5V,36V,1.221V,31.32V,1A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.5V,60V,0.8V,58V,1.5A,100kHz ~ 2.5MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,5.5V,36V,1.22V,31V,2A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,5.5V,35V,1.22V,31V,2A,500kHz,No,-55°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.5V,28V,0.8V,25V,2A,570kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.5V,28V,0.8V,25V,2A,300kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,5.5V,36V,1.221V,32.04V,3A,500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,3V,6V,0.891V,3.3V,3A,350kHz* 550kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Up,Positive,Boost,Adjustable,1,1.5V,40V,2.5V,50V,3A (Switch),80kHz ~ 2.2MHz,No,-40°C ~ 150°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.8V,5.25V,-Vin* 2Vin* Vin/2,-,60mA,50kHz ~ 250kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.8V,5.25V,-Vin* 2Vin* Vin/2,-,60mA,250kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Down,Positive,Charge Pump,Adjustable,1,1.8V,6.5V,0.8V,3.3V,250mA,800kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Step-Up,Positive,Boost,Adjustable,1,0.9V,5.5V,1.8V,5.5V,500mA (Switch),1.2MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Up,Positive,Boost,Fixed,1,0.3V,5.5V,3.3V,-,1.2A (Switch),1.25MHz ~ 1.65MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-VFDFN Exposed Pad,10-VSON (3x3)
+Step-Up,Positive,Boost,Fixed,1,0.7V,5.5V,3.3V,-,200mA (Switch),Up to 2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Step-Up,Positive,Boost,Fixed,1,2.3V,5.5V,5V,-,500mA (Switch),3.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,6-WDFN Exposed Pad,6-SON (2x2)
+Step-Down,Positive,Buck,Adjustable,1,2.5V,5.5V,0.8V,5.5V,600mA,750kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Step-Down,Positive,Buck,Adjustable,1,2.5V,6V,0.7V,6V,1.2A,1.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Fixed,1,2.5V,6V,1.8V,-,1.2A,1.25MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-PowerPad
+Step-Down,Positive,Buck,Adjustable,1,2.7V,10V,0.7V,6V,800mA,850kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Step-Down,Positive,Buck,Adjustable,1,3.1V,17V,1.2V,16V,1.5A,1MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,16-VQFN Exposed Pad,16-QFN (4x4)
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,3A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up,Positive,Charge Pump,Fixed,1,4.5V,5.5V,12V,-,30mA,500kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,28V,0.8V,25V,3A,100kHz ~ 1.5MHz,No,-20°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.8V,5.25V,-Vin* 2Vin* Vin/2,-,60mA,20kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,23V,0.76V,7V,3A,600kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Step-Down,Positive,Buck,Adjustable,1,6V,75V,1.225V,70V,3A,50kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,27V,0.8V,22.95V,3A,370kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,16V,0.8V,16V,5A,500kHz,No,-40°C ~ 85°C (TA),Surface Mount,8-PowerVDFN,8-DFN (5x4)
+Step-Down,Positive,Buck,Adjustable,1,4.5V,16V,0.8V,16V,5A,500kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,24V,1.254V,20V,3A,100kHz ~ 500kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",16-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,3A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up/Step-Down,Positive or Negative* Isolation Capable,Buck* Boost* Flyback* Forward Converter,Adjustable,1,3V,75V,1.244V,100V (Switch),1.07A (Switch),12kHz ~ 60kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,3.3V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,3.3V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,-,1,3V,40V,-,-,1.25A,100kHz,No,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Fixed,1,4V,40V,15V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,45V,2.5V,35V,5.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5,TO-220-5 Flow 6
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,7.5V,40V,5.05V,40V (Switch),5.5A (Switch),72kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5 Formed Leads,TO-220-5 Horizontal
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,1A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,7.5V,40V,5.05V,40V (Switch),5.5A (Switch),72kHz,No,-40°C ~ 85°C (TA),Through Hole,TO-220-5 Formed Leads,TO-220-5 Horizontal
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,5V,-,500mA,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"14-SOIC (0.295""* 7.50mm Width)",14-SOIC
+Step-Up,Positive,Boost,Adjustable,1,0.8V,5.5V,2V,5.5V,350mA,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.2V,37V,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,6.5V,40V,12V,-,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.2V,37V,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,4V,30V,1.235V,28.2V,3A,200kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SPak-7 (7 leads + Tab),S-PAK-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,4.5V,60V,1.2V,57V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Fixed,1,4V,40V,5V,-,3A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,8V,55V,3.3V,50V,2A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO
+Step-Down,Positive,Buck* SEPIC,Adjustable,1,5V,25V,2.42V,21.5V,4.5A (Switch),500kHz,No,0°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,D2PAK-7
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,#NAME?,-,20mA,10kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,2.85V,5.5V,3.3V,-,2A,500kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,60V,1.2V,57V,1A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,5A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down* Step-Up/Step-Down,Positive,Buck* Boost* Buck-Boost,Adjustable,1,3V,40V,0.8V,38V,2.5A,200kHz ~ 2.2MHz,Both,-40°C ~ 105°C (TA),Surface Mount,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-HTSSOP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,42V,0.765V,34V,100mA,550kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-6
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.21V,37V,5A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.2V,37V,3A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.21V,37V,1A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,60V,1.2V,57V,2A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,5A (Switch),100kHz ~ 200kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Up* Step-Up/Step-Down,Positive,Boost* Flyback* Forward Converter,Adjustable,1,4V,40V,1.23V,60V,5A (Switch),100kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Flyback* Forward Converter,Adjustable,1,3.5V,40V,1.23V,60V (Switch),3A (Switch),52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,57V,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,40V,1.23V,37V,1A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Step-Down,Positive,Buck,Adjustable,1,15V,50V,5.1V,40V,2A,100kHz ~ 200kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SO
+Ratiometric,Negative,Charge Pump,Fixed,1,1.5V,7V,#NAME?,-,100mA,25kHz* 120kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,7V,-Vin* 2Vin,-,100mA,25kHz* 120kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up/Step-Down,Negative,Cuk,Adjustable,1,2.45V,16V,-1.255V,-34V,1A,2.2MHz,No,0°C ~ 70°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Step-Down,Positive,Buck,Fixed,1,8V,40V,3.3V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,3A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Fixed,1,4V,60V,12V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,15V,40V,12V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,3.3V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Down,Positive,Buck,Fixed,1,8V,40V,5V,-,5A,260kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Up,Positive,Charge Pump,Fixed,1,2V,3.6V,5V,-,50mA,500kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up/Step-Down,Positive,Buck* Boost,Adjustable (Programmable),1,1.8V,11V,1.25V (3.3V* 5.5V),5.5V,300mA,-,No,-40°C ~ 85°C (TA),Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,12V,-Vin* 2Vin,-,45mA,3kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Programmable,1,0.7V,7V,3.3V* 5V,-,-,500kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,4V,60V,1.23V,37V,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,1A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.25V,75V (Switch),5A (Switch),40kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4.75V,23V,1.22V,21V,3A,385kHz,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,4.5V,12V,±1.2V,30V* -25V,500mA (Switch),-,No,0°C ~ 70°C (TA),Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+Step-Down,Positive,Buck,Fixed,1,7V,40V,5V,-,3A,60kHz,No,-30°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,TO-263-5
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),100kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Ratiometric,Negative,Charge Pump,Fixed,1,4.5V,20V,#NAME?,-,-,10kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric* Step-Up,Positive or Negative,Charge Pump,Adjustable (Fixed),1,3.5V,15V,2.5V (-Vin* 2Vin),30V,100mA,25kHz,No,0°C ~ 100°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric* Step-Up,Positive or Negative,Charge Pump,Adjustable (Fixed),1,3.5V,15V,3.5V (-Vin* 2Vin),26.4V,100mA,25kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Up* Step-Down,Positive,Buck* Boost,Fixed,1,1V,30V,5V,-,1.5A (Switch),19kHz,No,0°C ~ 70°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Up,Positive,Boost,Adjustable,1,3V,11V,3V,36V,260mA (Switch),500kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,SOT-23-6
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,12V,-,1A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,5V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,40V,1.244V,65V (Switch),5A (Switch),100kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.244V,75V (Switch),1.25A (Switch),100kHz,No,0°C ~ 100°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,5-DDPAK
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,60V,1.244V,75V (Switch),1.25A (Switch),100kHz,No,0°C ~ 100°C (TJ),Through Hole,TO-220-5 Formed Leads,TO-220-5
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,12V,-Vin* 2Vin,-,45mA,10kHz ~ 35kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up,Positive,Boost,Fixed,1,2.5V,5.5V,5V,-,3.8A (Switch),2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,8-UFDFN Exposed Pad,8-TDFN (2x2)
+Step-Down,Positive,Buck,Adjustable,1,15V,50V,5.1V,40V,10A,200kHz,No,-40°C ~ 150°C (TJ),Through Hole,Multiwatt-15 (Vertical* Bent and Staggered Leads),15-Multiwatt
+Step-Down,Positive,Buck,Adjustable,1,4.5V,28V,0.81V,25.76V,1.5A,1.4MHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6,
+Step-Down,Positive,Buck,Adjustable,1,3.6V,23V,0.8V,23V,3A,300kHz,No,-25°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Step-Down,Positive,Buck,Adjustable,1,3.6V,18V,0.8V,18V,2A,300kHz,No,-25°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Step-Down,Positive,Buck,Adjustable,1,3.6V,18V,0.8V,18V,3A,300kHz,No,-20°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.27V,38V,1.5A,520kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,40V,4A,100kHz,No,-40°C ~ 150°C (TJ),Through Hole,Multiwatt-15 (Vertical* Bent and Staggered Leads),15-Multiwatt
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,40V,2.5A,100kHz ~ 150kHz,No,-40°C ~ 150°C (TJ),Through Hole,Heptawatt-7 (Vertical* Bent and Staggered Leads),7-HEPTAWATT
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,40V,1.5A,100kHz,No,-40°C ~ 150°C (TJ),Through Hole,"16-DIP (0.300""* 7.62mm)",16-PowerDIP
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,36V,1.5A,42kHz ~ 83kHz,No,-40°C ~ 150°C (TJ),Through Hole,"18-DIP (0.300""* 7.62mm)",18-DIP
+Step-Down,Positive,Buck,Adjustable,1,8V,55V,3.3V,50V,1.5A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Down,Positive,Buck,Adjustable (Fixed),1,8V,55V,5.1V (5.1V),50V,3.5A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Through Hole,"18-DIP (0.300""* 7.62mm)",18-DIP
+Step-Down,Positive,Buck,Adjustable,1,15V,50V,5.1V,40V,3.5A,100kHz ~ 200kHz,No,-40°C ~ 150°C (TJ),Through Hole,"20-DIP (0.300""* 7.62mm)",20-PowerDIP
+Step-Down,Positive,Buck,Adjustable,1,8V,55V,3.3V,50V,2A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Down,Positive,Buck,Adjustable,1,4.4V,36V,1.2V,35V,1A,250kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Step-Up,Positive,Boost,Adjustable (Fixed),1,0.6V,5.5V,1.8V (3.3V* 5V),5.5V,800mA (Switch),-,Yes,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down,Positive,Buck,Adjustable,1,2V,5.5V,0.6V,5.5V,800mA,1.4MHz,Yes,-40°C ~ 150°C (TJ),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down,Positive,Buck,Fixed,1,4V,40V,15V,-,500mA,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Buck-Boost,Fixed,1,4.75V,40V,3.3V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,D2PAK-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,5V,-,1A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"24-SOIC (0.295""* 7.50mm Width)",24-SOIC
+Step-Down,Positive,Buck,Fixed,1,4V,60V,15V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Fixed,1,4V,60V,3.3V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Fixed,1,4V,40V,15V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Buck-Boost,Adjustable,1,4.5V,40V,1.23V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.2V,37V,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,3.5V,36V,1V,28V,2A,200kHz ~ 2.2MHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter,Adjustable,1,3V,40V,1.25V,65V (Switch),1.25A (Switch),40kHz,No,0°C ~ 100°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,45V,2.5V,35V,5.5A (Switch),100kHz,No,-40°C ~ 85°C (TA),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Up/Step-Down,Positive or Negative* Isolation Capable,Buck* Boost* Flyback* Forward Converter,Adjustable,1,3V,75V,1.244V,100V (Switch),1.07A (Switch),12kHz ~ 60kHz,No,0°C ~ 100°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Cuk* Flyback* Forward Converter* SEPIC,Adjustable,1,2.7V,30V,1.245V,35V (Switch),3A (Switch),500kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-7 (Formed Leads),TO-220-7
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Cuk* Flyback* SEPIC,Adjustable,1,3V,40V,1.6V,40V (Switch),5A (Switch),100kHz ~ 1MHz,No,-40°C ~ 125°C (TJ),Surface Mount,36-WFQFN* 28 Leads* Exposed Pad,
+Step-Down,Positive,Buck,Adjustable,1,2.25V,5.5V,0.6V,5.5V,6A,300kHz ~ 4MHz,Yes,-55°C ~ 150°C (TJ),Surface Mount,24-WFQFN Exposed Pad,
+Step-Up/Step-Down,Positive,Charge Pump,Programmable,1,2.7V,5.5V,3.3V* 5V,-,120mA,650kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Down,Positive,Buck,Adjustable,1,4V,36V,1.23V,33V,3A,200kHz,No,-40°C ~ 85°C (TA),Through Hole,TO-220-5,TO-220-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,55V,0.81V,52.25V,500mA,480kHz,No,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-6 Thin* TSOT-23-6,TSOT-23-6
+Step-Down,Positive,Buck,Adjustable,1,2.7V,5.5V,0.9V,3.9V,1A,1.7MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),150kHz,No,-40°C ~ 125°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,2.5V,5.5V,0.6V,5.5V,600mA,1.5MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,
+Step-Down,Positive,Buck,Adjustable,1,4.75V,22V,1.222V,16V,2A,1.2MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",
+Step-Down,Positive,Buck,Fixed,1,15V,40V,12V,-,1.5A,125kHz,No,-30°C ~ 125°C (TJ),Through Hole,TO-220-5 Full Pack (Formed Leads),
+Step-Down,Positive,Buck,Adjustable,1,2.5V,18V,0.8V,16.2V,3A,900kHz,Yes,-40°C ~ 125°C (TJ),Surface Mount,8-VDFN Exposed Pad,8-DFN (4x4)
+Step-Up,Positive,Boost,Fixed,1,0.3V,5.5V,5V,-,1.2A (Switch),1.25MHz ~ 1.65MHz,Yes,-40°C ~ 85°C (TA),Surface Mount,10-WFDFN Exposed Pad,10-WSON (3x3)
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,-Vin* 2Vin,-,20mA,10kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,4.4V,36V,1.235V,35V,2A,250kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Step-Down,Positive,Buck,Adjustable,1,4V,36V,1.235V,35V,2A,500kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-HSOP
+Step-Down,Positive,Buck,Fixed,2,4V,20V,3.3V,-,2.2A* 3.2A,300kHz ~ 600kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"24-TSSOP (0.173""* 4.40mm Width)",24-TSSOP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Fixed,1,2V,30V,5V,-,1.5A (Switch),23kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Cuk* SEPIC,Adjustable,1,2.5V,32V,5V,42V (Switch),2A (Switch),200kHz ~ 2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,8-WFDFN Exposed Pad,8-DFN (3x3)
+Step-Up* Step-Up/Step-Down,Positive or Negative,Boost* Cuk* SEPIC,Adjustable,1,2.5V,32V,5V,42V (Switch),2A (Switch),200kHz ~ 2MHz,No,-40°C ~ 125°C (TJ),Surface Mount,8-WFDFN Exposed Pad,8-DFN (3x3)
+Step-Up* Step-Down,Negative,Buck,Adjustable (Fixed),1,2.3V,16.5V,-1.31V (-12V),-12V,200mA,50kHz,No,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Up* Step-Down* Step-Up/Step-Down,Positive or Negative,Buck* Boost* Flyback,Adjustable,1,8V,40V,2.5V,35V,5.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,TO-220-5,TO-220-5
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,-40°C ~ 125°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,38V,1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Up/Step-Down,Positive,Charge Pump,Adjustable,1,2V,5.5V,1.5V,5.5V,120mA,650kHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Up/Step-Down,Positive,Charge Pump,Programmable,1,2.7V,5.5V,3.3V* 5V,-,120mA,1MHz,No,-40°C ~ 85°C (TA),Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Step-Up,Positive,Boost,Fixed,1,0.9V,10V,5V,-,100mA,100kHz,No,-40°C ~ 85°C (TA),Surface Mount,SOT-89-5/6,SOT-89-5
+Step-Down,Positive,Buck,Adjustable,1,8V,55V,3.3V,50V,2A,100kHz ~ 300kHz,No,-40°C ~ 150°C (TJ),Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Step-Down,Positive,Buck,Adjustable,1,15V,50V,5.1V,40V,5A,200kHz ~ 500kHz,No,-40°C ~ 150°C (TJ),Through Hole,Multiwatt-15 (Vertical* Bent and Staggered Leads),15-Multiwatt
+Step-Up* Step-Down,Positive or Negative,Buck* Boost,Adjustable,1,3V,40V,1.25V,40V (Switch),1.5A (Switch),100kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,40V,4A,100kHz,No,-40°C ~ 150°C (TJ),Through Hole,Multiwatt-15 (Vertical* Bent and Staggered Leads),15-Multiwatt
+Step-Down,Positive,Buck,Fixed,1,4.5V,40V,3.3V,-,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,3A,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5
+Step-Down,Positive,Buck,Adjustable,1,4V,36V,1.235V,35V,2A,500kHz,No,-40°C ~ 150°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-HSOP
+Step-Down,Positive,Buck,Adjustable,1,6.5V,40V,1.2V,37V,500mA,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Step-Down,Positive,Buck,Adjustable,1,4.5V,40V,1.2V,37V,500mA,150kHz,No,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,10V,-Vin* 2Vin,-,20mA,10kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,8V,40V,1.2V,37V,3A,260kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,1.5V,7V,-Vin* 2Vin,-,100mA,25kHz* 120kHz,No,-40°C ~ 85°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,36V,1.5A,42kHz ~ 83kHz,No,-40°C ~ 150°C (TJ),Through Hole,"18-DIP (0.300""* 7.62mm)",18-DIP
+Step-Down,Positive,Buck,Adjustable,1,9V,46V,5.1V,40V,1.5A,100kHz,No,-40°C ~ 150°C (TJ),Through Hole,"16-DIP (0.300""* 7.62mm)",16-PowerDIP
+Ratiometric,Positive or Negative,Charge Pump,Fixed,1,3V,18V,-Vin* 2Vin,-,40mA,12kHz,No,0°C ~ 70°C (TA),Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Step-Down,Positive,Buck,Fixed,1,4V,40V,15V,-,3A,52kHz,No,-40°C ~ 125°C (TJ),Surface Mount,TO-263-6* D²Pak (5 Leads + Tab)* TO-263BA,DDPAK/TO-263-5

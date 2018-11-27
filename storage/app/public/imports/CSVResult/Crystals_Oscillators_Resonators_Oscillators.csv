@@ -1,0 +1,7 @@
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,
+XO (Standard),737.28MHz,Enable/Disable,LVDS,2.5V,±25ppm,-,-40°C ~ 85°C,70mA,-,Surface Mount,8-SMD* No Lead,0.276" L x 0.197" W (7.00mm x 5.00mm),0.075" (1.90mm),
+XO (Standard),580MHz,Enable/Disable,LVDS,2.5V,±25ppm,-,-40°C ~ 85°C,70mA,-,Surface Mount,8-SMD* No Lead,0.276" L x 0.197" W (7.00mm x 5.00mm),0.075" (1.90mm),
+XO (Standard),515MHz,Enable/Disable,LVDS,2.5V,±25ppm,-,-40°C ~ 85°C,70mA,-,Surface Mount,8-SMD* No Lead,0.276" L x 0.197" W (7.00mm x 5.00mm),0.075" (1.90mm),
+XO (Standard),575MHz,Enable/Disable,LVDS,2.5V,±25ppm,-,-40°C ~ 85°C,70mA,-,Surface Mount,8-SMD* No Lead,0.276" L x 0.197" W (7.00mm x 5.00mm),0.075" (1.90mm),
+XO (Standard),580MHz,Enable/Disable,LVDS,2.5V,±25ppm,-,-40°C ~ 85°C,70mA,-,Surface Mount,8-SMD* No Lead,0.276" L x 0.197" W (7.00mm x 5.00mm),0.075" (1.90mm),
+Base Resonator Crystal,Type XO (Standard),Frequency 25MHz,Function Enable/Disable,Output CMOS,Voltage - Supply 1V,Frequency Stability ±20ppm,Operating Temperature -40°C ~ 85°C,Current - Supply (Max) -,Ratings -,Mounting Type Surface Mount,Package / Case 4-SMD* No Lead,Size / Dimension 0.126" L x 0.098" W (3.20mm x 2.50mm),Height - Seated (Max) 0.040" (1.02mm),

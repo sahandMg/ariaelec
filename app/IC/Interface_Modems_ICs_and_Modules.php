@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Interface_Modems_ICs_and_Modules extends Model
 {
-    protected $table = 'interface__modems__ics_and__modules';
+    //
 }

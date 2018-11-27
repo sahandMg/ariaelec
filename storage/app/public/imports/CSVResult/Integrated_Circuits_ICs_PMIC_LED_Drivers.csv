@@ -1,0 +1,16 @@
+DC DC Regulator,Switched Capacitor (Charge Pump),Yes,2,2.7V,5.5V,6V,200mA,1MHz,-,Camera Flash,-40°C ~ 85°C (TA),Surface Mount,16-WFQFN Exposed Pad,16-TQFN (3x3)
+DC DC Regulator,Step-Up (Boost),Yes,1,2.2V,5.5V,22V,750mA (Switch),1MHz,Analog* PWM,Backlight,-40°C ~ 85°C (TA),Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+DC DC Regulator,Step-Up (Boost),Yes,1,1.8V,5.5V,30V,1.5A (Switch),1.5MHz,Analog* PWM,Backlight,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+DC DC Regulator,Step-Down (Buck),Yes,1,6V,42V,40V,1A,1MHz,PWM,Automotive* Lighting,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+DC DC Regulator,Step-Up (Boost),Yes,1,2.5V,10V,15V,750mA (Switch),1.2MHz,Analog* PWM,Backlight,-40°C ~ 125°C (TJ),Surface Mount,8-VFDFN Exposed Pad* 8-MLF®,8-MLF® (2x2)
+AC DC Offline Switcher,Flyback,No,1,11V,27V,-,-,-,Triac,Lighting,-40°C ~ 125°C (TJ),Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+DC DC Regulator,Step-Up (Boost),Yes,1,1.8V,6V,28V,350mA (Switch),1MHz,PWM,Backlight,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+DC DC Regulator,Step-Up (Boost),Yes,1,1.8V,6V,28V,215mA (Switch),1MHz,PWM,Backlight,-40°C ~ 85°C (TA),Surface Mount,SC-74A* SOT-753,SOT-23-5
+Linear,Shift Register,Yes,16,4.5V,5.5V,10V,50mA,-,-,-,-30°C ~ 85°C (TA),Surface Mount,"25-SOP (0.213""* 5.40mm Width) + 2 Heat Tabs",25-HSOP
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+DC DC Regulator,Step-Down (Buck),Yes,1,6V,75V,-,1.5A,10kHz ~ 1MHz,PWM,Automotive* Lighting,-40°C ~ 125°C (TJ),Surface Mount,"14-TSSOP (0.173""* 4.40mm Width) Exposed Pad",14-HTSSOP
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+DC DC Regulator,Step-Down (Buck),Yes,1,5V,36V,-,3A (Switch),2MHz,PWM,Backlight* Lighting,-40°C ~ 85°C (TA),Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+DC DC Regulator,Step-Up (Boost),Yes,1,2.5V,5.5V,-,1.2A (Switch),1MHz,Dimming PWM,Applications Backlight,-40°C ~ 85°C (TA),Surface Mount,SOT-23-6 Thin* TSOT-23-6,

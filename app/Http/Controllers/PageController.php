@@ -36,7 +36,9 @@ class PageController extends Controller
 
         return $contents;
     }
-
+/*
+ * Gets num (1,2,3,4) , category and return more contents
+ */
     public function moreContent($category=null,Request $request){
         $num = $request->num;
         $dataId = Brief::orderBy('id','desc')->first()->id;
@@ -86,16 +88,8 @@ class PageController extends Controller
     }
 
     public function Videos(){
-        $client = new GuzzleClient();
+
         $url = 'https://www.aparat.com/etc/api/videoByUser/username/sahandmg/';
-        $headers = ['Content-Type' => 'application/json'];
-        // $promise1 = $client->requestAsync('GET',$url,$headers)->then(function (ResponseInterface $response) {
-        //     $this->resp = $response->getBody()->getContents();
-        //     return $this->resp;
-        // });
-
-        // $promise1->wait();
-
         $curl = curl_init();
         curl_setopt_array($curl, array(
                 CURLOPT_RETURNTRANSFER => 1,

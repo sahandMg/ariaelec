@@ -16,17 +16,21 @@ class RouteRedirectMiddleware
     public function handle($request, Closure $next)
     {
 
-        if(explode('/',$request->path())[0] == 'api' ||
-            $request->url() == 'http://localhost/login/google' ||
-            $request->url() == 'http://localhost/api/user/login/google/callback' ||
-            $request->url() == 'http://localhost/excel-import' ||
-            $request->url() == 'http://localhost/excel-export'
-        ){
+        // if(explode('/',$request->path())[0] == 'api' ||
+        //     $request->url() == 'http://localhost/login/google' ||
+        //     $request->url() == 'http://localhost/api/user/login/google/callback' ||
+        //     $request->url() == 'http://localhost/excel-import' ||
+        //     $request->url() == 'http://localhost/excel-export'
+        // ){
 
+        //     return $next($request);
+        // }else{
+
+        //     return response()->view('welcome');
+        // }
+
+        if(explode('/',$request->path())[0] != 'api'){
             return $next($request);
-        }else{
-
-            return response()->view('welcome');
         }
     }
 }

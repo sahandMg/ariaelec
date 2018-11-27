@@ -1,0 +1,16 @@
+USB FIFO,-,Surface Mount,32-LQFP,32-LQFP (7x7)
+Silicon Serial Number,PCB* Network Node* Equipment Identification/Registration,Surface Mount,TO-261-4* TO-261AA,SOT-223-3
+ECG Front End,Heart Rate Monitoring,Surface Mount,20-UFBGA* WLCSP,20-WLCSP
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+USB FIFO,-,Surface Mount,32-LQFP,32-LQFP (7x7)
+Code Hopping Encoder,Remote Secure Access* Keyless Entry,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Code Hopping Decoder,Remote Secure Access* Keyless Entry,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Code Hopping Encoder,Remote Secure Access* Keyless Entry,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Code Hopping Decoder,Remote Secure Access* Keyless Entry,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+ECG Front End,Heart Rate Monitoring,Surface Mount,20-WFQFN Exposed Pad* CSP,20-LFCSP-WQ (4x4)
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+10/100 Integrated Switch,Port Switch/Network Interface,Surface Mount,128-BFQFP,128-PQFP (14x20)
+-,-,Surface Mount,9-SIP Exposed Tab* Formed Leads,9-PDBS-EP

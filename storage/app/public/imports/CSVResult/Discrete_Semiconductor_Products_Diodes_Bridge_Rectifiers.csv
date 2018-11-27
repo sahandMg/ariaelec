@@ -1,0 +1,63 @@
+Single Phase,Standard,1kV,35A,1.1V @ 17.5A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square* KBPC-W,KBPC-W
+Single Phase,Standard,1kV,1A,1.1V @ 1A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,DB-S
+Single Phase,Standard,600V,800mA,1V @ 400mA,5µA @ 600V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,4-MiniDIP
+Single Phase,Standard,600V,4A,1.1V @ 4A,10µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBL,KBL
+Single Phase,Standard,600V,2A,1.1V @ 2A,5µA @ 600V,-65°C ~ 150°C (TJ),Through Hole,4-SIP* KBP,KBP
+Single Phase,Standard,600V,500mA,1V @ 500mA,5µA @ 600V,-55°C ~ 150°C (TJ),Surface Mount,TO-269AA* 4-BESOP,4-SOIC
+Single Phase,Standard,600V,25A,1.05V @ 12.5A,10µA @ 600V,-65°C ~ 150°C (TJ),Through Hole,4-SIP* GBJ,GBJ
+Single Phase,Standard,1kV,25A,1.1V @ 12.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square* GBPC-W,GBPC-W
+Single Phase,Standard,200V,35A,1.1V @ 17.5A,5µA @ 200V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* GBPC,GBPC
+Single Phase,Standard,800V,35A,1.1V @ 17.5A,10µA @ 800V,-55°C ~ 150°C (TJ),Through Hole,4-Square* GBPC-W,GBPC-W
+Single Phase,Standard,600V,4A,1V @ 2A,5µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBU,GBU
+Single Phase,Standard,600V,6A,1V @ 3A,5µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBU,GBU
+Single Phase,Standard,400V,800mA,1V @ 400mA,5µA @ 400V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,4-MiniDIP
+Single Phase,Standard,1kV,10A,1.1V @ 5A,10µA @ 1000V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* KBPC,KBPC
+Single Phase,Standard,400V,1A,1.1V @ 1A,10µA @ 400V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,SDB-1
+Single Phase,Standard,600V,2A,1.1V @ 3.14A,5µA @ 600V,-55°C ~ 165°C (TJ),Through Hole,4-SIP* KBPM,KBPM
+Single Phase,Standard,30V,900mA,-,350µA @ 30V,150°C (TJ),Surface Mount,TO-253-4* TO-253AA,PG-SOT143-4
+Single Phase,Standard,1kV,1.5A,1.1V @ 1.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,DB-S
+Single Phase,Standard,800V,10A,1.05V @ 5A,10µA @ 800V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBJ,GBJ
+Single Phase,Standard,1kV,2A,1.1V @ 2A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBPR,KBPR
+Single Phase,Standard,1kV,8A,1V @ 8A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBU,KBU
+Three Phase,Standard,1.6kV,110A,-,-,-40°C ~ 150°C (TJ),Chassis Mount,MT-K Module,MT-K
+Single Phase,Standard,1kV,6A,1V @ 6A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBU,KBU
+Single Phase,Standard,200V,4A,1V @ 3A,10µA @ 200V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* RS-4L,RS-4L
+Single Phase,Standard,600V,4A,1V @ 3A,10µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* RS-4L,RS-4L
+Single Phase,Standard,1kV,35A,1.1V @ 17.5A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square* KBPC-W,KBPC-W
+Single Phase,Standard,600V,35A,1.1V @ 17.5A,10µA @ 600V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* KBPC,KBPC
+Single Phase,Standard,600V,15A,1.1V @ 15A,10µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* TS-6P,TS-6P
+Single Phase,Standard,1kV,50A,1.1V @ 25A,5µA @ 1000V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* KBPC-T,KBPC-T
+Single Phase,Standard,800V,8A,1V @ 4A,5µA @ 800V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBU,GBU
+Single Phase,Standard,1kV,10A,1V @ 5A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBU,KBU
+Single Phase,Standard,1kV,1A,1.1V @ 1A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,DB-S
+Single Phase,Standard,1kV,15A,1.1V @ 7.5A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-ESIP,GBJ
+Single Phase,Standard,800V,15A,1.05V @ 7.5A,10µA @ 800V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBJ,GBJ
+Single Phase,Technology Standard,1kV,1A,1.1V @ 1A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,"4-EDIP (0.321""* 8.15mm)",DB-1
+Three Phase,Technology Standard,1.6kV,50A,1.15V @ 15A,20µA @ 1600V,-55°C ~ 175°C (TJ),Through Hole,i4-Pac™-5,
+Single Phase,Technology Standard,1kV,35A,1.1V @ 17.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* GBPC,GBPC
+Single Phase,Technology Standard,1kV,35A,1.1V @ 17.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-Square* GBPC-W,GBPC-W
+Single Phase,Technology Standard,1.2kV,35A,2mA @ 1200V,-,-55°C ~ 150°C (TJ),Through Hole,4-Square* GBPC-W,
+Single Phase,Standard,600V,4A,1.1V @ 4A,10µA @ 600V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBL,KBL
+Single Phase,Technology Standard,800V,1.5A,1.1V @ 1.5A,5µA @ 800V,-65°C ~ 150°C (TJ),Through Hole,4-SIP* KBP,KBP
+Single Phase,Technology Standard,400V,500mA,1V @ 500mA,5µA @ 400V,-55°C ~ 150°C (TJ),Surface Mount,TO-269AA* 4-BESOP,4-SOIC
+Single Phase,Technology Standard,1.2kV,35A,10µA @ 1200V,-,-55°C ~ 150°C (TJ),QC Terminal,4-Square* D-34,
+Three Phase,Technology Standard,800V,35A,10µA @ 800V,-,-55°C ~ 150°C (TJ),QC Terminal,5-Square* D-63,
+Single Phase,Technology Standard,800V,1.5A,1.1V @ 1.5A,5µA @ 800V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,
+Single Phase,Technology Standard,1kV,1.5A,1.1V @ 1.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,4-SDIP
+Single Phase,Standard,800V,1.5A,1.1V @ 1.5A,10µA @ 800V,-55°C ~ 150°C (TJ),Surface Mount,4-SMD* Gull Wing,DFS
+Three Phase,Technology Standard,1.4kV,58A,1.9V @ 150A,300µA @ 1400V,-40°C ~ 125°C (TJ),Chassis Mount,FO-F-B,FO-F-B
+Single Phase,Technology Standard,1kV,1A,1.1V @ 1A,10µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,"4-EDIP (0.321""* 8.15mm)",DB-1
+Single Phase,Technology Standard,1kV,4A,1V @ 1.5A,5µA @ 1000V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* GBU,
+Three Phase,Technology Standard,1.6kV,160A,10mA @ 1600V,-,-40°C ~ 150°C (TJ),Chassis Mount,MTK,MTK
+Three Phase,Technology Standard,800V,25A,100µA @ 800V,-,-55°C ~ 150°C (TJ),QC Terminal,5-Square* D-63,
+Single Phase,Technology Standard,1.6kV,35A,10µA @ 1600V,-,-55°C ~ 150°C (TJ),QC Terminal,4-Square* D-34,
+Three Phase,Technology Standard,1.6kV,35A,10µA @ 1600V,-,-55°C ~ 150°C (TJ),QC Terminal,5-Square* D-63,
+Single Phase,Technology Standard,1kV,35A,1.2V @ 17.5A,10µA @ 1000V,-55°C ~ 150°C (TJ),QC Terminal,4-Square* MB,MB
+Three Phase,Technology Standard,800V,20A,1.07V @ 20A,1.5mA @ 800V,-40°C ~ 150°C (TJ),Chassis Mount,Module,
+Three Phase,Technology Standard,1.6kV,175A,1.1V @ 60A,200µA @ 1600V,-40°C ~ 150°C (TJ),Chassis Mount,PWS-E1,PWS-E1
+Three Phase,Technology Standard,1.6kV,58A,1.03V @ 20A,100µA @ 1600V,-40°C ~ 150°C (TJ),Chassis Mount,PWS-B,PWS-B
+Three Phase,Technology Standard,1.6kV,88A,1.6V @ 150A,300µA @ 1600V,-40°C ~ 150°C (TJ),Chassis Mount,PWS-D,PWS-D
+Single Phase,Standard,100V,8A,1.1V @ 8A,5µA @ 100V,-55°C ~ 150°C (TJ),Through Hole,4-SIP* KBU,KBU
+Single Phase,Technology Standard,1kV,3A,1.1V @ 1.5A,10µA @ 1000V,-40°C ~ 150°C (TJ),Through Hole,4-Square* D-72,
+Three Phase,Technology Standard,1.6kV,175A,1.1V @ 60A,200µA @ 1600V,-40°C ~ 150°C (TJ),Chassis Mount,PWS-E1,PWS-E1
+Three Phase,Technology Standard,1.8kV,36A,1.13V @ 50A,20µA @ 1800V,-40°C ~ 150°C (TJ),Chassis Mount,V1-A,V1-A

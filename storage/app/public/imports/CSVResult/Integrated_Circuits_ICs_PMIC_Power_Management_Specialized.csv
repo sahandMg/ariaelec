@@ -1,0 +1,35 @@
+USB Dedicated Charging Port (DCP)* Power Switch,155µA,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Mobile/OMAP™,-,2.7 V ~ 4.5 V,-40°C ~ 85°C,Surface Mount,209-VFBGA,209-NFBGA
+Transformer Driver,450µA,3.3V* 5V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Transformer Driver,450µA,3.3V* 5V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+LCD Display,8mA,5 V ~ 14 V,-40°C ~ 95°C,Surface Mount,"20-LSSOP (0.173""* 4.40mm Width)",20-SSOP-B
+LCD TV/Monitor,-,5 V ~ 25.5 V,-25°C ~ 85°C,Surface Mount,"20-SOIC (0.295""* 7.50mm Width)",20-SOIC
+Memory* DDR/DDR2 Regulator,7mA,-,0°C ~ 70°C,Surface Mount,28-VQFN Exposed Pad,28-QFN (6x6)
+Memory* DDR/DDR2 Regulator,7mA,-,0°C ~ 70°C,Surface Mount,28-VQFN Exposed Pad,28-QFN (6x6)
+Photoflash Capacitor Charger,5mA,2.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Energy Harvesting,3mA,20mV ~ 500mV,0°C ~ 85°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-SSOP
+Energy Harvesting,400µA,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"12-TSSOP (0.118""* 3.00mm Width) Exposed Pad",12-MSOP-EP
+Energy Harvesting,950nA,2.7 V ~ 20 V,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width) Exposed Pad",10-MSOP-EP
+Transformer Driver,300µA,3 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+USB Dedicated Charging Port (DCP)* Power Switch,180µA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-PowerPad
+Battery Backup,30µA,2.3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,8-WFDFN Exposed Pad,8-WSON (2x2)
+Power Supplies,75µA,2.2 V ~ 6.5 V,-40°C ~ 85°C,Surface Mount,20-VFQFN Exposed Pad,20-VQFN (3.5x4.5)
+Feedback Generator,5mA,4.5 V ~ 40 V,-40°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+Load Share Controller,6mA,4.5 V ~ 36 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+USB* Peripherals,380µA,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad,24-QFN (4x4)
+Supercapacitor Charger,20µA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"12-TSSOP (0.118""* 3.00mm Width) Exposed Pad",12-MSOP-EP
+Battery Management* Display (LED Drivers)* Handheld/Mobile Devices* Power Supply,-,2.75 V ~ 5.8 V,-40°C ~ 105°C,Surface Mount,48-VFQFN Exposed Pad,48-VQFN (6x6)
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"28-TSSOP (0.173""* 4.40mm Width) Exposed Pad",28-TSSOP-EP
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"28-TSSOP (0.173""* 4.40mm Width) Exposed Pad",28-TSSOP-EP
+Thermoelectric Cooler,-,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,20-WQFN Exposed Pad,20-TQFN-EP (5x5)
+Power Supplies,100mA,6 V ~ 26 V,-40°C ~ 125°C,Through Hole,TO-220-11 (Formed Leads),TO-220-11
+Overvoltage Protection* Circuit Breaker,180µA,4.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Overvoltage Protection* Circuit Breaker,180µA,4.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Switching Regulator,-,60V,-55°C ~ 125°C,-,-,-
+Processor,11mA,9.5 V ~ 14 V,0°C ~ 100°C,Surface Mount,28-VFQFN Exposed Pad,28-MLPQ (5x5)
+Processor,14mA,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,32-WFQFN Exposed Pad,
+Photovoltaics,5mA,6.5 V ~ 45 V,-40°C ~ 85°C,Surface Mount,"36-BFSOP (0.295""* 7.50mm Width) Exposed Pad",PowerSSO-36
+Handheld/Mobile Devices,6mA,3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,32-VQFN Exposed Pad,32-QFN (7x7)
+USB Dedicated Charging Port (DCP)* Power Switch,155µA,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+Mobile/OMAP™,-,2.7 V ~ 4.5 V,-40°C ~ 85°C,Surface Mount,209-VFBGA,209-NFBGA
+Processor,10mA,8.4 V ~ 14 V,0°C ~ 125°C,Surface Mount,20-VFQFN Exposed Pad,20-MLPQ (4x4)

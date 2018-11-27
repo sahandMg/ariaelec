@@ -1,0 +1,13 @@
+Controller (PD),1,15W,Yes,No,802.3af (PoE),2.8 V ~ 57 V,2mA,-40°C ~ 85°C,20-VQFN Exposed Pad,20-QFN (5x5)
+Controller (PD)* DC/DC,1,13W,Both,No,802.3at (PoE+)* 802.3af (PoE),0 V ~ 57 V,580µA,-40°C ~ 125°C,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Controller (PD)* DC/DC,1,30W,Both,No,802.3at (PoE+)* 802.3af (PoE),0 V ~ 57 V,920µA,-40°C ~ 125°C,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Controller (PD)* DC/DC,1,30W,Both,No,802.3at (PoE+)* 802.3af (PoE),0 V ~ 57 V,960µA,-40°C ~ 125°C,"24-TSSOP (0.173""* 4.40mm Width) Exposed Pad",24-HTSSOP
+Controller (PD)* DC/DC,1,12.95W,Yes,No,802.3af (PoE),0 V ~ 67 V,2mA,-40°C ~ 85°C,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Controller (PD)* DC/DC,1,12.95W,Both,No,802.3af (PoE),0 V ~ 67 V,1mA,-40°C ~ 85°C,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Controller (PSE),4,15.4W,No,No,802.3af (PoE),48 V ~ 57 V,2mA,0°C ~ 70°C,"36-BSOP (0.295""* 7.50mm Width)",36-SSOP
+Controller (PSE),1,15.4W,Yes,No,802.3af (PoE),33 V ~ 66 V,2mA,-40°C ~ 85°C,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Controller (PD),1,12.95W,Yes,No,802.3af (PoE),0 V ~ 57 V,240µA,-40°C ~ 85°C,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Controller (PD),1,12.95W,Yes,No,802.3af (PoE),0 V ~ 57 V,240µA,-40°C ~ 85°C,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Controller (PD)* DC/DC,1,12.95W,Both,No,802.3af (PoE),48V,3mA,-40°C ~ 85°C,"16-TSSOP (0.173""* 4.40mm Width) Exposed Pad",
+Controller (PD)* DC/DC,1,25.5W,Both,No,802.3at (PoE+)* 802.3af (PoE),-,-,-40°C ~ 85°C,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-HTSSOP
+Controller (PD)* DC/DC,1,40W,Both,No,802.3at (PoE+)* 802.3af (PoE),0 V ~ 57 V,-,-40°C ~ 85°C,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-TSSOP-EP

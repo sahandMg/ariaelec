@@ -585,8 +585,8 @@ class CartController extends Controller
     public function Excel_import(Request $request){
 
 //        put the excel file in storage/imports
-//      Give the file name from user
-//        Give project name
+//      Get the file name from user
+//        Get project name
         Excel::import(new CartsImport($request->project),'/imports/carts.xlsx');
 
         return 200;

@@ -1,0 +1,10 @@
+Ballast Controller,36kHz ~ 44kHz,10.5 V ~ 16.5 V,10mA,-,No,-25°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Ballast Controller,57kHz ~ 78kHz,4.5 V ~ 24 V,6mA,-,No,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Ballast Controller,57kHz ~ 78kHz,4.5 V ~ 24 V,6mA,-,No,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Ballast Controller,34kHz ~ 86kHz,11.4 V ~ 15.4 V,10mA,-,No,-25°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+PFC/Ballast Controller,39kHz ~ 50kHz,10 V ~ 17 V,10mA,-,No,-25°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Ballast Controller,48.7kHz ~ 57.3kHz,12.4 V ~ 15.2 V,3.2mA,-,No,-25°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+PFC/Ballast Controller,39kHz ~ 50kHz,10 V ~ 17 V,10mA,-,No,-25°C ~ 125°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+PFC/Ballast Controller,41kHz ~ 47kHz,10.4 V ~ 16.5 V,10mA,-,No,-40°C ~ 125°C,Through Hole,"20-DIP (0.300""* 7.62mm)",20-DIP
+PFC/Ballast Controller,40kHz ~ 46kHz,11.5 V ~ 16.6 V,20mA,-,No,-25°C ~ 125°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+HID Lamp Controller,100kHz,10.5 V ~ 13.5 V,500µA,-,No,-40°C ~ 125°C,Surface Mount,"28-SSOP (0.209""* 5.30mm Width)",28-SSOP

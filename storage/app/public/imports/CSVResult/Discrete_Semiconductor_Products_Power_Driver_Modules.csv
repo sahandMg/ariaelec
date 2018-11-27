@@ -1,0 +1,35 @@
+IGBT,3 Phase,10A,600V,2000Vrms,"26-PowerDIP Module (1.024""* 26.00mm)"
+IGBT,3 Phase,15A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,30A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,30A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,15A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,3A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,3A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,12A,600V,2000Vrms,23-PowerSIP Module* 19 Leads* Formed Leads
+IGBT,3 Phase,20A,600V,2000Vrms,23-PowerSIP Module* 19 Leads* Formed Leads
+MOSFET,3 Phase,1.8A,500V,1500Vrms,"23-PowerDIP Module (0.748""* 19.00mm)"
+IGBT,3 Phase,35A,1.2kV,2500VDC,-
+IGBT,3 Phase,35A,1.2kV,2500Vrms,-
+IGBT,3 Phase,15A,600V,2000Vrms,-
+IGBT,1 Phase,30A,600V,2500Vrms,-
+IGBT,3 Phase,30A,600V,2500Vrms,-
+IGBT,3 Phase,30A,600V,2500Vrms,"27-PowerDIP Module (1.205""* 30.60mm)"
+IGBT,3 Phase,15A,600V,2000Vrms,-
+IGBT,3 Phase,20A,600V,2000Vrms,-
+IGBT,3 Phase,20A,600V,2500Vrms,-
+IGBT,3 Phase,15A,600V,2500Vrms,-
+IGBT,3 Phase,5A,600V,2500VDC,-
+IGBT,3 Phase,10A,600V,2500VDC,-
+IGBT,3 Phase,10A,600V,2500VDC,-
+IGBT,3 Phase,15A,600V,2500VDC,-
+IGBT,3 Phase,30A,600V,2000Vrms,-
+IGBT,3 Phase,20A,600V,2000Vrms,-
+IGBT,3 Phase,20A,600V,2000Vrms,-
+IGBT,3 Phase,20A,600V,2000Vrms,23-PowerSIP Module* 19 Leads* Formed Leads
+IGBT,3 Phase,14A,600V,2500VDC,-
+IGBT,3 Phase,3A,600V,1000VDC,-
+IGBT,3 Phase,10A,600V,2500VDC,-
+IGBT,3 Phase,17A,600V,2500VDC,-
+IGBT,1 Phase,40A,600V,2500Vrms,-
+IGBT,3 Phase,20A,600V,2500Vrms,-
+IGBT,3 Phase,30A,600V,2500Vrms,-

@@ -543,5 +543,17 @@ App::instance('ColumnCode',new ColumnCode());
 Route::get('column/name','TableController@ColumnName');
 Route::get('column/merge','TableController@merging');
 Route::get('column/map','TableController@mapping');
-
+Route::get('getLinks','TableMakerController@getLinks');
+Route::get('import-category','TableMakerController@import_Categories');
+Route::get('migration','TableMakerController@migration_maker');
+Route::get('subcategory','TableMakerController@subcategory');
+Route::get('category','TableMakerController@category');
+Route::get('underlay','TableMakerController@underlay');
+Route::get('products','TableMakerController@products');
+Route::get('fill-table','TableMakerController@FillTable');
+Route::get('commons','TableMakerController@commons');
+Route::get('separate','TableMakerController@separate');
+Route::get('mycomponent','TableMakerController@component');
+Route::get('modify-id','TableMakerController@modifyId');
+Route::get('modify-commonid','TableMakerController@modifyCommonId');
 

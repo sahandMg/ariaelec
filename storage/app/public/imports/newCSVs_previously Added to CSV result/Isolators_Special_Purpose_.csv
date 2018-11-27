@@ -1,0 +1,4 @@
+Current Loop Transmitter,1,3750Vrms,1kV/µs,Logic,30mA,1.6µs* 1µs,16ns* 23ns,-,-,4.5 V ~ 20 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP,CSA* UR
+Current Loop Receiver,1,3750Vrms,1kV/µs,DC,25mA,1.6µs* 1µs,55ns* 15ns,-,-,4.5 V ~ 20 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP,CSA* UR
+Current Loop Transmitter,1,3750Vrms,1kV/µs,Logic,30mA,1.6µs* 1µs,16ns* 23ns,-,-,4.5 V ~ 20 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP,
+Power Transistor Driver,1,2500Vrms,2kV/µs,DC,320mA,5µs* 5µs,50ns* 50ns,1.55V,25mA,5 V ~ 13 V,-30°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP,

@@ -1,0 +1,6 @@
+Hot Swap Controller,1,No,-48V,Latched Fault* Turn On Voltage,Circuit Breaker* Current Limit* Fault Timeout* OVP* UVLO,-90 V ~ -10 V,-,-40°C ~ 105°C,820µA,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Hot Swap Controller,1,No,General Purpose,Auto Retry,Current Limit* Fault Timeout* OVP* UVLO,9 V ~ 80 V,-,-40°C ~ 125°C,1.3mA,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Hot Swap Controller,1,No,General Purpose,Latched Fault,Current Limit* Fault Timeout* Slew Rate* UVLO,10.8 V ~ 80 V,-,-40°C ~ 85°C,1.8mA,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Hot Swap Controller* Monitor,1,No,ATCA* MicroTCA™,-,Auto Retry* Current Limit* Fault Timeout* Latched Fault* OVP* UVLO,2.9 V ~ 26.5 V,-,-40°C ~ 85°C,1.6mA,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-SSOP
+Hot Swap Controller,1,No,-48V* VoIP,Auto Retry* Fault Timeout,Current Limit* OVP* UVLO,20 V ~ 80 V,-,-40°C ~ 85°C,2.4mA,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Hot Plug Controller,1,Yes,General Purpose,Auto Retry* OVP* UVLO,Circuit Breaker* Current Limit* OVP* Slew Rate* UVLO,4.2 V ~ 55 V,2.23A,-40°C ~ 125°C,300µA,Surface Mount,"16-PowerTSSOP (0.173""* 4.40mm Width)",16-HTSSOP

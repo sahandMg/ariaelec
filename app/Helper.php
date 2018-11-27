@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Helper extends Model
 {
-    protected $fillable = ['links','helper'];
+    protected $fillable = ['links','helper','id'];
 }

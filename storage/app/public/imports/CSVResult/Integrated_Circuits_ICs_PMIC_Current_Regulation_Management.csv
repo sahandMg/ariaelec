@@ -1,0 +1,31 @@
+Current Monitor,High-Side,±0.5%,2.7 V ~ 40 V,-,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Limiting,High/Low-Side,-,50V (Max),10mA,-65°C ~ 150°C,Surface Mount,SOD-123F,SOD-123FL
+Current Source,-,±6%,1 V ~ 40 V,Adjustable,0°C ~ 70°C,Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Current Monitor,High-Side,-,10 V ~ 80 V,-,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad* CSP,16-LFCSP-VQ (3x3)
+Current Source,-,±2%,1 V ~ 40 V,Adjustable,-25°C ~ 100°C,Through Hole,TO-226-3* TO-92-3 (TO-226AA),TO-92-3
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,TO-261-4* TO-261AA,SOT-223-3
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-55°C ~ 125°C (TJ),Surface Mount,TO-261-4* TO-261AA,SOT-223-3
+Current Mirror* Current Sink/Source,-,±0.25%,2.5 V ~ 40 V,100µA,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Switch,High-Side,-,4.5 V ~ 5.5 V,500mA,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Current Monitor,High-Side,±3%,2.2 V ~ 20 V,-,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+Current Sense,-,±0.5%,9.5 V ~ 20 V,20mA,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Current Sense,-,±0.5%,9.5 V ~ 20 V,20mA,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Monitor,-,-,-,-,-40°C ~ 85°C,Surface Mount,14-WFDFN Exposed Pad,14-TDFN-EP (3x3)
+Current Monitor,High-Side,±3%,-16 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Monitor,High-Side,±3%,-16 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Monitor,High-Side,±3%,-16 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Monitor,High-Side,±5%,2.7 V ~ 76 V,-,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,TO-261-4* TO-261AA,SOT-223-3
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Current Source,-,±3%,1 V ~ 40 V,10mA,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Current Source,-,±3%,1 V ~ 40 V,Adjustable,-55°C ~ 125°C,Through Hole,TO-206AB* TO-46-3 Metal Can,TO-46-3
+Current Source,-,±6%,1 V ~ 40 V,Adjustable,0°C ~ 70°C,Through Hole,TO-226-3* TO-92-3 (TO-226AA) (Formed Leads),TO-92-3
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Current Source,-,±1%,1.2 V ~ 40 V,200mA,-40°C ~ 125°C (TJ),Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Function Electronic Fuse,Sensing Method -,Accuracy -,9 V ~ 18 V,2A,-40°C ~ 175°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Monitor,High-Side,±3%,-16 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Sense,High/Low-Side,±1.5%,2.7 V ~ 26 V,-,-40°C ~ 125°C,Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Current Monitor,High-Side,±3.5%,-16 V ~ 80 V,1mA,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Current Monitor,High/Low-Side,±0.4%,-14 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Monitor,High/Low-Side,±0.4%,-14 V ~ 80 V,-,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC

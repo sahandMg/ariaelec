@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Interface_Controllers extends Model
 {
-    protected $table = 'interface__controllers';
+    //
 }

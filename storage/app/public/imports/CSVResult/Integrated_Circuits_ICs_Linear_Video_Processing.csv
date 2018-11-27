@@ -1,0 +1,34 @@
+Modulator* Demodulator,Video,Surface Mount,"24-LSSOP (0.220""* 5.60mm Width)",24-SSOP
+RF Modulator,Video Camera,Surface Mount,"16-SOIC (0.209""* 5.30mm Width)",16-DMP
+Synchronous Separator,HDTV* Projectors* Set-Top Boxes,Surface Mount,"24-SSOP (0.154""* 3.90mm Width)",24-QSOP
+Line Driver* Transmitter,Modems* CATV,Surface Mount,"20-SSOP (0.154""* 3.90mm Width)",20-QSOP
+Video Filter,Recorders* Set-Top Boxes,Surface Mount,32-VFQFN Exposed Pad* CSP,32-LFCSP-VQ (5x5)
+Video Decoder,Digital Cameras* Mobile Phones* Portable Video,Surface Mount,40-VFQFN Exposed Pad* CSP,40-LFCSP-VQ (6x6)
+Video Decoder,Digital Cameras* Mobile Phones* Portable Video,Surface Mount,64-LQFP,64-LQFP (10x10)
+Video Decoder,Digital Cameras* Mobile Phones* Portable Video,Surface Mount,64-LQFP,64-LQFP (10x10)
+Synchronous Separator,On-Screen Displays,Surface Mount,"8-SOIC (0.173""* 4.40mm Width)",8-SOP
+Synchronous Separator,Drivers* Communications* PCMCIA,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Cable Driver,Video,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Video Processor,Video,Surface Mount,80-LQFP,80-LQFP (14x14)
+Synchronous Separator,NTSC* PAL,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Synchronous Separator,NTSC* PAL,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Serial Driver,SMPTE 259M / 344M,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Reclocker,SDTV/HDTV,Surface Mount,48-WFQFN Exposed Pad,48-WQFN (7x7)
+Driver,Video Switching,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Driver,Amplifiers* Video Distribution,Surface Mount,16-WQFN Exposed Pad,16-WQFN (4x4)
+Reclocker,SDTV/HDTV,Surface Mount,"20-PowerTSSOP (0.173""* 4.40mm Width)",20-HTSSOP
+Video Processor,AGP Cards* PCMCIA* Video Phones,Surface Mount,44-QFP,44-PQFP (10x10)
+FM Stereo Transmitter,MP3 Players* Portable Media Players,Surface Mount,24-WFQFN Exposed Pad,24-WQFN (4x4)
+Receiver,Professional Video,Surface Mount,100-LBGA,
+Transmitter,Video,Surface Mount,100-LBGA,
+Cable Driver,Video,Surface Mount,16-VQFN Exposed Pad,
+Cable Equalizer,Video,Surface Mount,16-VQFN Exposed Pad,
+Receiver,Video,Surface Mount,100-LBGA,
+Reclocker,Video,Surface Mount,64-VFQFN Exposed Pad,
+Serializer,Professional Video,Surface Mount,44-TQFP,44-TQFP (10x10)
+Video Processor,Video,Surface Mount,80-LQFP,80-LQFP (14x14)
+Cable Equalizer,Video,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Equalizer,Professional Video,Surface Mount,"16-SSOP (0.209""* 5.30mm Width)",16-SSOP
+Video Processor,PCMCIA* Processing* Video Phone,Surface Mount,64-LQFP,64-LQFP (10x10)
+Satellite Tuner,Demodulation,Surface Mount,32-VFQFN Exposed Pad,32-HVQFN (5x5)
+Video,Displays* Monitors* TV,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP

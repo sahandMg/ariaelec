@@ -1,0 +1,852 @@
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)* 8 Leads",16-PDIP
+General Purpose,1,-,1.5 V/µs,150kHz,-,-,1mV,3mA,10mA,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Audio,1,-,10 V/µs,-,7MHz,-,50µV,2.7mA,45mA,±6 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,1,-,10 V/µs,-,7MHz,-,50µV,2.7mA,45mA,±6 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+RF/IF Differential,1,Differential,9800 V/µs,-,2.9GHz,3µA,-,40mA,-,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad* CSP,16-LFCSP-VQ (3x3)
+RF/IF Differential,1,Differential,9800 V/µs,-,3.3GHz,3µA,-,80mA,-,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad* CSP,16-LFCSP-VQ (3x3)
+RF/IF Differential,1,-,11000 V/µs,-,7GHz,5µA,-,80mA,30mA,2.8 V ~ 5.2 V,-40°C ~ 85°C,Surface Mount,16-WFQFN Exposed Pad* CSP,16-LFCSP-WQ (3x3)
+Instrumentation,1,-,1.2 V/µs,-,1MHz,500pA,30µV,900µA,18mA,±2.3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,1.2 V/µs,-,1MHz,500pA,30µV,900µA,18mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,2,Rail-to-Rail,0.4 V/µs,1.5MHz,-,10pA,1µV,850µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,2,Rail-to-Rail,1 V/µs,2.5MHz,2.5MHz,30pA,1µV,850µA,30mA,2.7 V ~ 5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,60mA,3 V ~ 30 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+Audio,1,-,20 V/µs,8MHz,-,5pA,500µV,4mA,35mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Isolation,1,Differential,-,-,100kHz,500nA,300µV,10.86mA,15.5mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SMD* Gull Wing,8-DIP Gull Wing
+Isolation,1,-,-,-,100kHz,500nA,300µV,10.9mA,16mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Isolation,1,-,-,-,30kHz,-,3mV,20mA,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)* 8 Leads",16-PDIP
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,"28-SOIC (0.295""* 7.50mm Width)* 8 Leads",8-SOIC
+Current Sense,1,-,0.4 V/µs,80kHz,-,28µA,5µV,65µA,-,2.7 V ~ 26 V,-40°C ~ 125°C,Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Current Sense,1,-,0.4 V/µs,80kHz,-,28µA,5µV,65µA,-,2.7 V ~ 26 V,-40°C ~ 125°C,Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Current Sense,1,-,2 V/µs,-,100kHz,-,100µV,240µA,1mA,2.85 V ~ 36 V* ±1.425 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Current Sense,1,-,-,-,200kHz,40nA,150µV,70µA,1mA,2.7 V ~ 36 V,0°C ~ 70°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Current Sense,1,-,-,-,200kHz,40nA,150µV,70µA,1mA,2.7 V ~ 36 V,-55°C ~ 150°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Current Sense,1,Open Drain,-,1MHz,-,60nA,200µV,450µA,-,2.7 V ~ 60 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Current Sense,1,-,-,200kHz,-,100nA,400µV,375µA,1mA,4 V ~ 60 V,0°C ~ 70°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Current Sense,1,-,-,-,250kHz,5µA,100µV,75µA,-,4.5 V ~ 76 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Sense,1,-,-,-,150kHz,5µA,100µV,103µA,-,4.5 V ~ 76 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Sample and Hold,1,-,-,-,-,5nA,1mV,4.5mA,-,±5 V ~ 18 V,-55°C ~ 125°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+Isolation,1,-,-,-,30kHz,-,3mV,20mA,20mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO
+General Purpose,1,Rail-to-Rail,1.9 V/µs,1.5MHz,-,10pA,600µV,-,-,4 V ~ 10 V* ±2 V ~ 5 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Programmable Gain,1,-,9 V/µs,-,1.5MHz,50nA,200µV,2.6mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.3 V/µs,700kHz,-,20nA,3mV,1mA,30mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,3,-,940 V/µs,-,190MHz,5µA,1mV,6.5mA,85mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,Rail-to-Rail,1.1 V/µs,2.5MHz,-,0.2pA,37µV,790µA,86mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,4,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,-,0.3 V/µs,600kHz,-,1.8nA,60µV,-,-,±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,4,-,3.5 V/µs,1MHz,-,30pA,3mV,200µA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+J-FET,4,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.209""* 5.30mm Width)",14-SOP
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+Voltage Feedback,1,-,460 V/µs,560MHz,-,7.5µA,400µV,7.8mA,70mA,4.5 V ~ 24 V* ±2.25 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3 V/µs,1.9MHz,1.9MHz,2pA,400µV,1.4mA,20mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,350 V/µs,50MHz,50MHz,3.3µA,500µV,6.6mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,2,-,350 V/µs,50MHz,50MHz,3.3µA,500µV,6.6mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,30 V/µs,15MHz,-,5pA,8mV,10mA,45mA,5 V ~ 16 V* ±2.5 V ~ 8 V,-55°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,9 V/µs,4.5MHz,-,10pA,5mV,4mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-55°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,4,-,13 V/µs,4MHz,-,50pA,5mV,7.2mA,-,8 V ~ 36 V* ±4 V ~ 18 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,4,-,13 V/µs,3MHz,-,50pA,5mV,8mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+J-FET,2,-,13 V/µs,3MHz,-,50pA,5mV,3.6mA,-,±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,12 V/µs,5MHz,-,30pA,3mV,5mA,-,±15V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Sample and Hold,1,-,-,-,-,10nA,2mV,4.5mA,-,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,15 V/µs,4MHz,-,50pA,800µV,1.8mA,-,10 V ~ 36 V* ±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,15 V/µs,4MHz,-,50pA,1mV,3.6mA,-,10 V ~ 36 V* ±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-25°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-25°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,0.3 V/µs,700kHz,-,20nA,3mV,1mA,30mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.6 V/µs,1.1MHz,-,20nA,1mV,700µA,60mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 105°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,2,-,0.3 V/µs,700kHz,-,20nA,3mV,1mA,30mA,3 V ~ 26 V* ±1.5 V ~ 13 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,1,-,70 V/µs,15MHz,15MHz,150nA,4mV,5mA,-,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,0.5 V/µs,1MHz,-,30nA,1mV,2.4mA,25mA,8 V ~ 36 V* ±4 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,-,-,-,45nA,2.9mV,800µA,30mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+Audio,2,-,7 V/µs,15MHz,-,500nA,300µV,5mA,-,±5 V ~ 15 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,1 V/µs,1MHz,-,15nA,1.7mV,210µA,160mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,9 V/µs,10MHz,-,200nA,500µV,8mA,38mA,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,1,-,13 V/µs,10MHz,-,500nA,500µV,4mA,38mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,0.3 V/µs,600kHz,-,1.8nA,60µV,-,-,±3 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,0.3 V/µs,600kHz,-,1.2nA,20µV,1.6mA,-,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.15 V/µs,500kHz,-,100pA,80µV,570µA,-,±3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.7 V/µs,1.3MHz,-,500pA,15µV,400µA,10mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,2.8 V/µs,8MHz,-,15nA,30µV,-,-,±4 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,2.8 V/µs,8MHz,-,15nA,30µV,-,-,±4 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,17 V/µs,63MHz,-,15nA,30µV,-,-,±4 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,0.012 V/µs,20kHz,-,4.2nA,600µV,60µA,-,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,1,-,15 V/µs,2MHz,-,10pA,1.5mV,4.2mA,15mA,20 V ~ 90 V* ±10 V ~ 45 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,1.7 V/µs,3MHz,-,150nA,500µV,2.5mA,-,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,1.7 V/µs,3MHz,-,150nA,500µV,2.5mA,-,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,3.5 V/µs,1MHz,-,30pA,3mV,200µA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,3.5 V/µs,1MHz,-,30pA,3mV,200µA,20mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+J-FET,1,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,13 V/µs,3MHz,-,30pA,3mV,1.4mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,13 V/µs,3MHz,-,30pA,3mV,1.4mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,4,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+J-FET,4,-,13 V/µs,3MHz,-,30pA,3mV,1.4mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,1,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,950µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,950µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,1,-,0.04 V/µs,100kHz,-,1pA,1.1mV,10µA,45mA,3 V ~ 16 V* ±1.5 V ~ 8 V,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,2,-,0.6 V/µs,1MHz,-,1pA,900µV,150µA,45mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,2,Rail-to-Rail,10 V/µs,20MHz,-,1pA,100µV,820µA,35mA,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,0.5 V/µs,1MHz,-,80nA,1mV,1.7mA,25mA,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Isolation,2,-,-,2kHz,-,30pA,15mV,5mA,400µA,-,0°C ~ 70°C,Through Hole,"38-DIP (0.600""* 15.24mm)* 11 Leads",10-PDIP
+Isolation,2,-,-,2kHz,-,30pA,5mV,5mA,400µA,-,0°C ~ 70°C,Through Hole,38-SIP* 10 Leads* Leads,10-SIP
+Isolation,4,-,-,5kHz,-,30pA,15mV,-,2mA,-,0°C ~ 70°C,Through Hole,38-SIP* 10 Leads* Leads,10-SIP
+General Purpose,1,-,3 V/µs,1MHz,-,0.15pA,500µV,600µA,20mA,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+Sample and Hold,1,-,10 V/µs,2MHz,-,2nA,2mV,10mA,50mA,±5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CERDIP
+Variable Gain,2,-,275 V/µs,35MHz,-,350nA,11mA,50mA,-,±4.75 V ~ 5.25 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Variable Gain,2,-,275 V/µs,-,35MHz,350nA,-,11mA,50mA,±4.75 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Variable Gain,1,-,275 V/µs,-,90MHz,200nA,-,12.5mA,50mA,9.5 V ~ 12.6 V* ±4.75 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Variable Gain,1,-,275 V/µs,-,90MHz,200nA,-,12.5mA,50mA,9.5 V ~ 12.6 V* ±4.75 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Variable Gain,2,-,170 V/µs,-,40MHz,400nA,-,32mA,40mA,-,-40°C ~ 85°C,Surface Mount,"24-SOIC (0.295""* 7.50mm Width)",24-SOIC
+Logarithmic,1,Differential,-,-,-,4µA,-,13mA,1.2mA,4.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Instrumentation,1,-,1.2 V/µs,-,1MHz,500pA,15µV,900µA,18mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,1.2 V/µs,-,800kHz,500pA,75µV,900µA,18mA,±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,0.3 V/µs,-,800kHz,17nA,25µV,375µA,-,2.7 V ~ 12 V* ± 2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,5 V/µs,25MHz,1MHz,50nA,200µV,3.5mA,-,±6 V ~ 18 V,-25°C ~ 85°C,Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CDIP
+Instrumentation,1,-,5 V/µs,25MHz,1MHz,50nA,75µV,3.5mA,-,±6 V ~ 18 V,-55°C ~ 125°C,Through Hole,"16-CDIP (0.300""* 7.62mm)",16-CERDIP
+Instrumentation,1,-,5 V/µs,25MHz,650kHz,30nA,50µV,3.5mA,-,±6 V ~ 18 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,5 V/µs,25MHz,650kHz,20nA,25µV,3.5mA,-,±6 V ~ 18 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Differential,1,-,0.22 V/µs,-,100kHz,-,50µV,1.5mA,12mA,2.4 V ~ 12 V* ±1.2 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,0.06 V/µs,80kHz,-,2nA,50µV,60µA,25mA,2.2 V ~ 36 V* ±1.1 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Differential,1,-,2.1 V/µs,500kHz,-,-,200µV,900µA,25mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Differential,1,-,2.1 V/µs,-,500kHz,-,200µV,900µA,25mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,1.8 V/µs,1MHz,-,5pA,750µV,340µA,15mA,±4.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,0.15 V/µs,800kHz,-,100pA,50µV,1.5mA,15mA,4 V ~ 36 V* ±2 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,0.15 V/µs,800kHz,-,50pA,30µV,750µA,15mA,4 V ~ 36 V* ±2 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.3 V/µs,900kHz,-,1nA,30µV,4.5mA,-,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,20 V/µs,4MHz,-,15pA,300µV,2.5mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,20 V/µs,-,4MHz,15pA,300µV,2.5mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,20 V/µs,4MHz,-,25pA,300µV,5mA,25mA,±4.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,20 V/µs,-,4MHz,25pA,300µV,5mA,25mA,±4.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,4,-,20 V/µs,-,4MHz,55pA,300µV,10mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Sample and Hold,1,-,-,4MHz,-,50nA,4mA,5mA,-,±10.8 V ~ 13.2 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,20 V/µs,110MHz,8MHz,250nA,25µV,8.2mA,50mA,±5 V ~ 15 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,20 V/µs,110MHz,8MHz,250nA,25µV,8.2mA,50mA,±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,4100 V/µs,-,1.58GHz,5µA,1mV,13.5mA,100mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Current Feedback,1,-,1200 V/µs,880MHz,-,5µA,2mV,5mA,70mA,±3 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Current Feedback,1,-,1200 V/µs,715MHz,-,5µA,2mV,5mA,70mA,±3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,3,-,3800 V/µs,-,1.65GHz,7µA,700µV,9.5mA,100mA,4.5 V ~ 10 V* ±2.25 V ~ 5 V,-40°C ~ 85°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Current Feedback,2,-,1000 V/µs,650MHz,-,4µA,500µV,9mA,130mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,5500 V/µs,1GHz,-,50µA,2mV,16mA,175mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,5500 V/µs,-,1GHz,50µA,2mV,16mA,175mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,3500 V/µs,400MHz,-,5µA,2mV,1.3mA,30mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,4600 V/µs,-,480MHz,5µA,2mV,1.15mA,50mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Transimpedance,1,Differential,-,240MHz,-,-,-,25mA,-,4.5 V ~ 11 V* ±2.25 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,460 V/µs,-,560MHz,7.5µA,400µV,7.8mA,70mA,4.5 V ~ 24 V* ±2.25 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,4,-,390 V/µs,-,200MHz,1µA,2mV,16mA,50mA,5 V ~ 24 V* ±2.5 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Voltage Feedback,1,Rail-to-Rail,35 V/µs,-,80MHz,450nA,1mV,900µA,15mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,Rail-to-Rail,35 V/µs,-,80MHz,450nA,1mV,900µA,15mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,Rail-to-Rail,35 V/µs,80MHz,-,450nA,1mV,900µA,15mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,1500 V/µs,270MHz,-,3µA,2mV,18.5mA,70mA,±3 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,1,-,425 V/µs,-,350MHz,400pA,500µV,1mA,-,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,Rail-to-Rail,225 V/µs,170MHz,-,1.2µA,3mV,6mA,50mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,4,Rail-to-Rail,190 V/µs,160MHz,-,2µA,1.4mV,11.5mA,30mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Voltage Feedback,1,-,750 V/µs,-,250MHz,1µA,1mV,5.8mA,50mA,6 V ~ 12 V* ±3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,1000 V/µs,-,260MHz,1µA,1mV,5.9mA,50mA,6 V ~ 12 V* ±3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,1400 V/µs,300MHz,-,400nA,3mV,5.4mA,60mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,1,-,1400 V/µs,-,300MHz,400nA,3mV,5.4mA,60mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,1400 V/µs,300MHz,-,400nA,3mV,5.4mA,60mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,1150 V/µs,325MHz,-,500nA,1mV,14mA,-,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,Rail-to-Rail,650 V/µs,320MHz,-,3.5µA,1mV,6.8mA,50mA,2.7 V ~ 8 V* ±1.35 V ~ 4 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Voltage Feedback,1,Rail-to-Rail,180 V/µs,145MHz,-,3pA,400µV,6.6mA,30mA,5 V ~ 24 V* ±2.5 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,Rail-to-Rail,640 V/µs,-,54MHz,0.6pA,200µV,6.6mA,26mA,5 V ~ 24 V* ±2.5 V ~ 12 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Differential,1,Differential,1200 V/µs,-,360MHz,3µA,1mV,12mA,70mA,2.7 V ~ 11 V* ±1.35 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,Differential* Rail-to-Rail,450 V/µs,-,110MHz,500nA,700µV,3.2mA,20mA,2.7 V ~ 12 V* ± 2.7 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,Differential* Rail-to-Rail,800 V/µs,-,410MHz,2.25µA,150µV,24.5mA,100mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+General Purpose,1,-,350 V/µs,50MHz,50MHz,3.3µA,500µV,7mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,350 V/µs,50MHz,50MHz,3.3µA,500µV,7mA,50mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,Rail-to-Rail,3 V/µs,1.8MHz,1.9MHz,2pA,400µV,700µA,20mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,Rail-to-Rail,3 V/µs,1.9MHz,-,2pA,400µV,700µA,20mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+J-FET,1,Rail-to-Rail,3 V/µs,1.9MHz,-,2pA,300µV,700µA,20mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,2 V/µs,-,1.5MHz,25pA,250µV,750µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Instrumentation,1,Rail-to-Rail,2 V/µs,-,1.5MHz,10pA,125µV,750µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Instrumentation,1,Rail-to-Rail,2 V/µs,-,1.5MHz,25pA,250µV,750µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Instrumentation,1,-,2 V/µs,-,825kHz,500pA,60µV,900µA,18mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Instrumentation,1,-,2 V/µs,-,825kHz,200pA,25µV,900µA,18mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,2,-,2 V/µs,-,1.2MHz,500pA,120µV,900µA,18mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,16-VQFN Exposed Pad* CSP,16-LFCSP-VQ (4x4)
+Instrumentation,2,Rail-to-Rail,2 V/µs,1.5MHz,-,10pA,175µV,750µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,16-VQFN Exposed Pad* CSP,16-LFCSP-VQ (4x4)
+General Purpose,2,Rail-to-Rail,3 V/µs,1.9MHz,1.9MHz,2pA,400µV,1.4mA,20mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,3 V/µs,1.9MHz,1.9MHz,2pA,300µV,1.4mA,20mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3 V/µs,1.9MHz,-,2pA,800µV,1.4mA,20mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,2,Rail-to-Rail,1.1 V/µs,7MHz,-,250pA,4µV,4mA,70mA,3 V ~ 5 V* ±1.5 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,16-WQFN Exposed Pad* CSP,16-LFCSP-WQ (4x4)
+Instrumentation,1,Rail-to-Rail,0.011 V/µs,-,23kHz,1pA,3.5mV,33µA,6mA,1.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+J-FET,2,Rail-to-Rail,25 V/µs,16MHz,-,5pA,700µV,7mA,17mA,3 V ~ 36 V* ±1.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Push-Pull,25 V/µs,-,10MHz,5nA,70µV,4.1mA,37mA,±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Instrumentation,1,-,20 V/µs,-,10MHz,5nA,150µV,4.6mA,37mA,±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+J-FET,1,-,140 V/µs,26MHz,46MHz,15pA,1mV,6.5mA,50mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,140 V/µs,26MHz,46MHz,15pA,1mV,6.5mA,50mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Variable Gain,4,Differential,380 V/µs,-,235MHz,5µA,-,99mA,-,±2.5 V ~ 5 V,-40°C ~ 105°C,Surface Mount,40-VFQFN Exposed Pad* CSP,40-LFCSP-VQ (6x6)
+Programmable Gain,1,Rail-to-Rail,30 V/µs,15MHz,-,500nA,300µV,2.3mA,100mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Differential,1,Rail-to-Rail,1.1 V/µs,550kHz,-,-,100µV,200µA,15mA,2 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Sense,1,-,-,-,250kHz,100pA,-,1.2mA,-,2.6 V ~ 5.5 V* ±1.3 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,16-UFQFN Exposed Pad* CSP,16-LFCSP-UQ (3x3)
+Variable Gain,1,Differential* Rail-to-Rail,1500 V/µs,-,150MHz,100nA,-,20mA,-,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP
+Variable Gain,1,-,-,-,500MHz,27µA,-,26mA,-,2.7 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Variable Gain,1,-,-,-,800MHz,-,-,60mA,-,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,24-VFQFN Exposed Pad* CSP,24-LFCSP-VQ (4x4)
+Instrumentation,1,-,35 V/µs,-,10MHz,100pA,25µV,2mA,65mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,22 V/µs,-,15MHz,300nA,150µV,6.7mA,35mA,±4 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,22 V/µs,-,15MHz,150nA,50µV,6.7mA,35mA,±4 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,2000 V/µs,60MHz,-,200pA,50µV,6.5mA,80mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+,,,,,,,,,-,,,,,
+J-FET,1,-,100 V/µs,16MHz,-,500pA,100µV,10mA,50mA,±4.75 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+J-FET,1,-,100 V/µs,16MHz,-,750pA,700µV,10mA,50mA,±4.75 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Differential,1,Differential* Rail-to-Rail,50 V/µs,-,150MHz,-,-,3mA,110mA,3 V ~ 10 V* ±1.5 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Differential,1,Differential* Rail-to-Rail,50 V/µs,-,150MHz,-,-,3mA,110mA,3 V ~ 10 V* ±1.5 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+General Purpose,1,Rail-to-Rail,8 V/µs,-,130kHz,-,500µV,550µA,55mA,±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,300 V/µs,50MHz,-,3.3µA,500µV,5.3mA,32mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,0.004 V/µs,7kHz,-,1pA,235µV,750nA,5mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,4,Rail-to-Rail,0.004 V/µs,7kHz,-,1pA,500µV,750nA,5mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+J-FET,1,-,20 V/µs,8MHz,-,25pA,100µV,2.2mA,70mA,±4.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+J-FET,4,-,20 V/µs,8MHz,-,25pA,100µV,2.2mA,70mA,±4.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,Rail-to-Rail,2.9 V/µs,8MHz,-,300nA,600µV,600µA,25mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,2.9 V/µs,8MHz,-,300nA,600µV,600µA,25mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,5 V/µs,3MHz,-,5pA,25mV,750µA,250mA,2.7 V ~ 6 V* ±1.35 V ~ 3 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,2,Rail-to-Rail,0.92 V/µs,1MHz,-,4pA,1mV,45µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.92 V/µs,1MHz,-,4pA,1mV,45µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,4,Rail-to-Rail,0.92 V/µs,1MHz,-,4pA,1mV,45µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Zero-Drift,2,Rail-to-Rail,0.4 V/µs,1.5MHz,-,10pA,1mV,850µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,-,1kHz,-,400pA,120µV,1.1mA,35mA,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Zero-Drift,1,Rail-to-Rail,0.4 V/µs,1.5MHz,-,10pA,1µV,850µA,30mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,16 V/µs,10MHz,-,25nA,10µV,5mA,52mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,6 V/µs,8.4MHz,-,0.2pA,80µV,750µA,50mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.1 V/µs,400kHz,-,0.2pA,12µV,40µA,70mA,1.8 V ~ 5 V* ±0.9 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-5
+General Purpose,4,Rail-to-Rail,6 V/µs,8.4MHz,-,0.2pA,80µV,750µA,50mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,Rail-to-Rail,6 V/µs,8.4MHz,-,0.2pA,80µV,750µA,50mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,1,Rail-to-Rail,5 V/µs,10MHz,-,0.2pA,80µV,1mA,80mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,5 V/µs,10MHz,-,0.2pA,80µV,1mA,80mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,2,Rail-to-Rail,5 V/µs,10MHz,-,0.2pA,80µV,1mA,80mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,4,Rail-to-Rail,0.1 V/µs,400kHz,-,0.2pA,12µV,40µA,70mA,1.8 V ~ 5 V* ±0.9 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+J-FET,1,-,60 V/µs,25MHz,-,3pA,85µV,3mA,45mA,±5 V ~ 13 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,12 V/µs,24MHz,-,0.2pA,23µV,1.7mA,150mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+General Purpose,2,Rail-to-Rail,12 V/µs,24MHz,-,0.2pA,23µV,1.7mA,150mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,Rail-to-Rail,0.48 V/µs,560kHz,-,45pA,10µV,215µA,40mA,±2.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,Rail-to-Rail,5 V/µs,5MHz,-,0.25pA,350µV,710µA,15mA,5 V ~ 26 V* ±2.5 V ~ 13 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,1,Rail-to-Rail,1 V/µs,2.5MHz,2.5MHz,30pA,1µV,850µA,30mA,2.7 V ~ 5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Zero-Drift,2,Rail-to-Rail,1 V/µs,2.5MHz,2.5MHz,30pA,1µV,850µA,30mA,2.7 V ~ 5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Zero-Drift,4,Rail-to-Rail,1 V/µs,2.5MHz,2.5MHz,100pA,1µV,850µA,30mA,2.7 V ~ 5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Zero-Drift,1,Rail-to-Rail,2 V/µs,1.5MHz,-,1pA,3µV,1.25mA,37mA,5 V ~ 16 V* ±2.5 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,2,Rail-to-Rail,2 V/µs,1.5MHz,-,1pA,3µV,1.25mA,37mA,5 V ~ 16 V* ±2.5 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,11 V/µs,28MHz,-,1pA,50µV,3.7mA,220mA,2.7 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.07 V/µs,200kHz,-,5pA,350µV,18µA,12mA,2.7 V ~ 18 V* ±1.35 V ~ 9 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,0.3 V/µs,540kHz,-,0.3pA,40µV,230µA,50mA,5 V ~ 16 V* ±2.5 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,4 V/µs,10MHz,-,3nA,20µV,3mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,4 V/µs,10MHz,-,3nA,20µV,3mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,4 V/µs,10MHz,-,3nA,20µV,3mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,Rail-to-Rail,2.5 V/µs,10MHz,-,500pA,10µV,2.5mA,35mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,2.5 V/µs,10MHz,-,2nA,100µV,2.7mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,2,Rail-to-Rail,2.5 V/µs,10MHz,-,2nA,100µV,2.7mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.4 V/µs,1MHz,-,700pA,20µV,2.8mA,-,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,12 V/µs,6.5MHz,-,30nA,200µV,1.8mA,40mA,±4.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,1.5 V/µs,3.5MHz,-,300pA,3µV,500µA,25mA,±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,1,Rail-to-Rail,0.5 V/µs,4MHz,-,90pA,0.3µV,1.5mA,40mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,8-WFDFN Exposed Pad* CSP,8-LFCSP-WD (3x3)
+Zero-Drift,1,Rail-to-Rail,0.5 V/µs,4MHz,-,90pA,0.3µV,1.5mA,40mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Zero-Drift,2,Rail-to-Rail,0.5 V/µs,3.4MHz,6.5MHz,125pA,0.3µV,1.5mA,40mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Voltage Feedback,2,Rail-to-Rail,1.3 V/µs,3.6MHz,-,0.5pA,500µV,180µA,55mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,4,Rail-to-Rail,1.3 V/µs,3.6MHz,-,0.5pA,500µV,180µA,55mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,Rail-to-Rail,20 V/µs,3.5MHz,-,15nA,200µV,1.7mA,72mA,±5 V ~ 50 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Voltage Feedback,1,-,870 V/µs,410MHz,1.05GHz,2pA,400µV,19mA,40mA,5 V ~ 10 V* ±2.5 V ~ 5 V,-40°C ~ 105°C,Surface Mount,8-WFDFN Exposed Pad* CSP,8-LFCSP-WD (3x3)
+Voltage Feedback,1,-,870 V/µs,410MHz,1.05GHz,2pA,400µV,19mA,40mA,5 V ~ 10 V* ±2.5 V ~ 5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Voltage Feedback,2,Rail-to-Rail,13 V/µs,-,80MHz,3µA,40µV,1.2mA,60mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,2,Rail-to-Rail,210 V/µs,-,240MHz,2pA,2.5mV,4.4mA,125mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,Rail-to-Rail,120 V/µs,-,230MHz,11µA,28µV,3mA,80mA,3 V ~ 10 V* ±1.5 V ~ 5 V,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-MSOP
+Voltage Feedback,2,-,55 V/µs,-,65MHz,100nA,20µV,7.9mA,40mA,±4.5 V ~ 16.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Differential,1,Differential,95 V/µs,-,260MHz,1.1µA,60µV,1.25mA,46mA,3 V ~ 7 V,-40°C ~ 125°C,Surface Mount,16-VFQFN Exposed Pad* CSP,16-LFCSP-VQ (3x3)
+Differential,1,Differential,95 V/µs,-,260MHz,1.1µA,60µV,1.25mA,46mA,3 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,2,Differential,95 V/µs,-,260MHz,1.1µA,60µV,1.25mA,46mA,3 V ~ 7 V,-40°C ~ 125°C,Surface Mount,24-WFQFN Exposed Pad* CSP,24-LFCSP-WQ (4x4)
+Current Feedback,1,-,500 V/µs,90MHz,-,1µA,1.5mV,6.8mA,60mA,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,4,-,20 V/µs,5MHz,-,2pA,1.5mV,1.2mA,27mA,8 V ~ 36 V* ±4 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Instrumentation,1,-,4.5 V/µs,570kHz,-,2nA,40µV,3mA,120mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"18-CDIP (0.300""* 7.62mm)",18-CDIP
+Instrumentation,1,-,6 V/µs,-,1.2MHz,4nA,40µV,5mA,32mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,1,-,-,-,700kHz,22nA,30µV,750µA,30mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.2 V/µs,500kHz,-,20nA,2mV,600µA,35mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,"14-LSSOP (0.173""* 4.40mm Width)",14-SSOPB
+General Purpose,4,-,0.2 V/µs,500kHz,-,20nA,2mV,600µA,35mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,"14-LSSOP (0.173""* 4.40mm Width)",14-SSOPB
+Buffer,1,-,2000 V/µs,-,180MHz,5µA,30mV,15mA,250mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Transconductance,1,Push-Pull,75 V/µs,2MHz,-,2µA,400µV,1mA,650µA,±2 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,30 V/µs,15MHz,-,5pA,2mV,10mA,45mA,5 V ~ 16 V* ±2.5 V ~ 8 V,-55°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,9 V/µs,4.5MHz,-,10pA,2mV,4mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-55°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,9 V/µs,4.5MHz,-,10pA,2mV,8mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,9 V/µs,4.5MHz,-,10pA,5mV,8mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,5 V/µs,-,-,100pA,10µV,3.6mA,-,2.7 V ~ 6.7 V* ±1.35 V ~ 3.35 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,6000 V/µs,1.4GHz,-,8.5µA,500µV,8.5mA,-,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,Differential,1100 V/µs,-,100MHz,6µA,6mV,7.4mA,80mA,4.75 V ~ 11 V* ±2.38 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,3,-,4500 V/µs,-,380MHz,1.5µA,1mV,1.5mA,-,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-QSOP
+Buffer,1,-,1300 V/µs,-,110MHz,2µA,5mV,8.3mA,220mA,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 75°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Buffer,1,-,1300 V/µs,110MHz,-,2µA,5mV,8.3mA,220mA,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 75°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,1.6 V/µs,1.4MHz,-,1pA,15mV,1mA,40mA,2 V ~ 16 V* ±1 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,1.6 V/µs,1.4MHz,-,1pA,15mV,1mA,40mA,2 V ~ 16 V* ±1 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,0.016 V/µs,480kHz,-,1pA,2mV,100µA,-,2 V ~ 16 V* ±1 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.16 V/µs,480kHz,-,1pA,15mV,100µA,1mA,2 V ~ 16 V* ±1 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,0.4 V/µs,-,300kHz,15nA,125µV,6.7mA,10mA,±5 V ~ 20 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+Instrumentation,1,-,0.4 V/µs,-,300kHz,15nA,125µV,6.7mA,10mA,±5 V ~ 20 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,1,-,15 V/µs,-,6MHz,2.5µA,30µV,9mA,40mA,±9 V ~ 25 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,17 V/µs,-,2.5MHz,20pA,100µV,3mA,25mA,±6 V ~ 18 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,17 V/µs,-,2MHz,2pA,200µV,3.3mA,30mA,±6 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,17 V/µs,-,2MHz,2pA,200µV,3.3mA,30mA,±6 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,1,-,0.6 V/µs,-,1MHz,500pA,25µV,2.2mA,20mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,0.6 V/µs,-,1MHz,500pA,10µV,2.2mA,20mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,0.8 V/µs,-,800kHz,0.003pA,500µV,1mA,12mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Differential,1,-,2.6 V/µs,-,200kHz,-,600µV,1.5mA,20mA,±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,-,2.6 V/µs,-,200kHz,-,120µV,1.5mA,20mA,±5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,0.9 V/µs,-,800kHz,1nA,25µV,350µA,12mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,0.9 V/µs,-,800kHz,1nA,25µV,350µA,12mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,0.7 V/µs,-,600kHz,4pA,300µV,450µA,14mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,0.16 V/µs,-,120kHz,10nA,150µV,60µA,30mA,2.2 V ~ 36 V* -0.9 V/+1.3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,0.2 V/µs,-,150kHz,10nA,50µV,460µA,12mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Instrumentation,1,-,0.4 V/µs,-,200kHz,10nA,150µV,175µA,10mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,4 V/µs,-,1.3MHz,2nA,25µV,700µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Instrumentation,1,-,4 V/µs,-,1.3MHz,2nA,25µV,700µA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,-,0.1 V/µs,-,300kHz,-,75µV,160µA,12mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,-,15 V/µs,-,800kHz,2µA,50µV,10mA,60mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Instrumentation,2,-,0.4 V/µs,-,200kHz,10nA,150µV,175µA,10mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+Instrumentation,2,-,4 V/µs,-,1.3MHz,20nA,25µV,1.4mA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,2,-,4 V/µs,-,1.3MHz,20nA,25µV,1.4mA,15mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,2,-,0.1 V/µs,-,300kHz,-,75µV,160µA,12mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Instrumentation,1,Rail-to-Rail,5 V/µs,-,2MHz,0.5pA,250µV,415µA,48mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-55°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Instrumentation,1,Rail-to-Rail,5 V/µs,-,2MHz,0.5pA,2mV,415µA,48mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-55°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Instrumentation,1,Rail-to-Rail,0.16 V/µs,-,150kHz,70pA,10µV,50µA,40mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,8-WFDFN Exposed Pad,8-SON (3x3)
+Instrumentation,1,Rail-to-Rail,0.16 V/µs,-,150kHz,70pA,10µV,50µA,40mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Instrumentation,1,Rail-to-Rail,0.16 V/µs,150kHz,-,70pA,10µV,50µA,40mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Transimpedance,1,-,3 V/µs,2MHz,-,0.1pA,500µV,4.1mA,20mA,±4.75 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,-,-,-,-,40nA,1mV,800µA,30mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,13 V/µs,4MHz,-,50pA,5mV,2.3mA,-,-,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,2,-,2 V/µs,1.2MHz,-,200nA,10mV,10mA,1.5A,4 V ~ 28 V* ±2 V ~ 14 V,-,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PowerDIP
+General Purpose,4,-,-,-,-,45nA,2mV,1.5mA,40mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-30°C ~ 85°C,Surface Mount,"14-SOIC (0.173""* 4.40mm Width)",14-MFP
+J-FET,1,-,12 V/µs,5MHz,-,30pA,3mV,5mA,-,10 V ~ 44 V* ±5 V ~ 22 V,-55°C ~ 125°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+Sample and Hold,1,-,-,-,-,5nA,1mV,4.5mA,-,±5 V ~ 18 V,-25°C ~ 85°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+J-FET,4,-,13 V/µs,3MHz,-,50pA,3mV,8mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+J-FET,1,-,13 V/µs,4MHz,-,50pA,5mV,2.3mA,-,-,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+J-FET,1,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 32 V* ±3 V ~ 16 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+J-FET,2,-,13 V/µs,3MHz,-,50pA,5mV,3.6mA,-,±3.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,13 V/µs,4MHz,-,50pA,5mV,3.6mA,-,10 V ~ 36 V* ±5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,12 V/µs,5MHz,-,30pA,3mV,5mA,-,±15V,0°C ~ 70°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+Sample and Hold,1,-,-,-,-,10nA,1mV,4.5mA,-,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Sample and Hold,1,-,-,-,-,10nA,2mV,4.5mA,-,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+J-FET,2,-,13 V/µs,3MHz,-,50pA,800µV,4.5mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,1 V/µs,1MHz,-,10pA,500µV,300µA,-,10 V ~ 44 V* ±5 V ~ 22 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Isolation,2,-,0.3 V/µs,40kHz,-,-,3mV,5mA,-,±5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+Isolation,2,-,0.3 V/µs,40kHz,-,-,3mV,5mA,-,±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-Flatpack
+General Purpose,1,-,0.5 V/µs,1MHz,-,30nA,700µV,1.8mA,-,10 V ~ 44 V* ±5 V ~ 22 V,-55°C ~ 125°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-55°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Power,1,-,9 V/µs,700kHz,-,150nA,2mV,60mA,16A,15 V ~ 60 V* ±7.5 V ~ 30 V,0°C ~ 70°C,Through Hole,TO-3-4,TO-3-4
+General Purpose,2,-,0.5 V/µs,1MHz,-,200nA,1mV,3mA,-,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.5 V/µs,1MHz,-,30nA,1mV,2.4mA,25mA,10 V ~ 44 V* ±5 V ~ 22 V,-55°C ~ 125°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+General Purpose,1,-,0.5 V/µs,1MHz,-,30nA,700µV,1.8mA,-,±5 V ~ 22 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.5 V/µs,1MHz,-,45nA,2mV,1.5mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,-25°C ~ 85°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+General Purpose,4,-,0.5 V/µs,1MHz,-,30nA,1mV,2.4mA,-,8 V ~ 36 V* ±4 V ~ 18 V,-25°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,0.6 V/µs,1.1MHz,-,20nA,1mV,700µA,60mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 105°C,Surface Mount,8-UFDFN Exposed Pad,8-DFN (2x2)
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,60mA,3 V ~ 26 V* ±1.5 V ~ 13 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.4 V/µs,1.3MHz,-,20nA,2mV,1.5mA,20mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,2,-,0.6 V/µs,1.1MHz,-,20nA,2mV,700µA,40mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,-,0.3 V/µs,-,-,45nA,2.9mV,800µA,30mA,3 V ~ 26 V* ±1.5 V ~ 13 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+General Purpose,2,-,0.3 V/µs,700kHz,-,20nA,3mV,1mA,-,3 V ~ 26 V* ±1.5 V ~ 13 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,1,-,0.5 V/µs,1MHz,-,70nA,2mV,1.8mA,-,10 V ~ 36 V* ±5 V ~ 18 V,0°C ~ 70°C,Through Hole,TO-99-8 Metal Can,TO-99-8
+General Purpose,1,-,0.5 V/µs,1MHz,-,70nA,2mV,1.8mA,30mA,±5 V ~ 22 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,1,-,-,-,-,1.5nA,2mV,300µA,-,±2 V ~ 18 V,0°C ~ 70°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+General Purpose,1,-,70 V/µs,15MHz,15MHz,150nA,4mV,5mA,-,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 70°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+General Purpose,1,-,70 V/µs,15MHz,15MHz,150nA,4mV,5mA,-,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.4 V/µs,1MHz,-,45nA,2mV,660µA,40mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.6 V/µs,1MHz,-,90nA,2mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,-,-,-,40nA,1.5mV,1mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOP
+General Purpose,1,-,70 V/µs,15MHz,15MHz,150nA,4mV,5mA,-,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 70°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+General Purpose,1,-,70 V/µs,15MHz,15MHz,150nA,4mV,5mA,-,10 V ~ 40 V* ±5 V ~ 20 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.4 V/µs,1MHz,-,45nA,2mV,660µA,40mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.6 V/µs,1MHz,-,90nA,2mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,-,-,-,40nA,1.5mV,1mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOP
+General Purpose,4,-,0.5 V/µs,1.2MHz,-,20nA,3mV,1.4mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,2,-,0.1 V/µs,1MHz,-,45nA,2mV,1mA,40mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Through Hole,TO-205AA* TO-5-8 Metal Can,TO-5-8
+General Purpose,2,-,-,-,-,45nA,2.9mV,800µA,30mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOP
+General Purpose,2,-,0.6 V/µs,1.1MHz,-,20nA,2mV,700µA,60mA,3 V ~ 30 V* ±1.5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,2,-,0.6 V/µs,1.1MHz,-,20nA,2mV,700µA,60mA,3 V ~ 30 V* ±1.5 V ~ 15 V,0°C ~ 70°C,Surface Mount,8-UFDFN Exposed Pad,8-DFN (2x2)
+General Purpose,2,Rail-to-Rail,14 V/µs,11MHz,-,125nA,1.7mV,390µA,4mA,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,14 V/µs,11MHz,-,125nA,1.7mV,390µA,-,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,14 V/µs,11MHz,-,125nA,1.7mV,390µA,-,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,14 V/µs,11MHz,-,125nA,1.7mV,390µA,3.5mA,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,25 V/µs,9MHz,-,174nA,1.3mV,750µA,-,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,25 V/µs,9MHz,-,174nA,1.3mV,750µA,-,1.8 V ~ 24 V* ±0.9 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Voltage Feedback,1,-,3600 V/µs,100MHz,160MHz,1µA,1.5mV,2.5mA,116mA,5.5 V ~ 34 V* ±2.75 V ~ 17 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,3600 V/µs,100MHz,160MHz,1µA,1.5mV,2.5mA,116mA,5.5 V ~ 34 V* ±2.75 V ~ 17 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Current Feedback,1,-,2000 V/µs,-,100MHz,5µA,3.5mV,7.5mA,130mA,7 V ~ 32 V* ±3.5 V ~ 16 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,1,-,1300 V/µs,175MHz,235MHz,5.2µA,900µV,5.3mA,71mA,4.5 V ~ 33 V* ±2.25 V ~ 16.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,520 V/µs,105MHz,160MHz,5.5µA,1.6mV,5.1mA,-,4.5 V ~ 11 V* ±2.25 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,-,4100 V/µs,200MHz,220MHz,2.7µA,200µV,6.5mA,118mA,5.5 V ~ 36 V* ±2.75 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,4100 V/µs,200MHz,220MHz,2.7µA,200µV,6.5mA,118mA,5.5 V ~ 36 V* ±2.75 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,Rail-to-Rail,1.25 V/µs,4MHz,-,103nA,40µV,720µA,-,1.8 V ~ 32 V* ±0.9 V ~ 16 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,18 V/µs,20MHz,-,1.1µA,700µV,2.5mA,100mA,2.5 V ~ 32 V* ±1.25 V ~ 16 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,18 V/µs,20MHz,-,1.1µA,700µV,2.5mA,100mA,2.5 V ~ 32 V* ±1.25 V ~ 16 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,1,-,0.5 V/µs,1.5MHz,-,80nA,2mV,1.7mA,25mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,Die,Wafersale
+General Purpose,1,-,0.5 V/µs,1.5MHz,-,80nA,2mV,1.7mA,25mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,Die,Wafersale
+General Purpose,1,-,0.5 V/µs,1.5MHz,-,80nA,1mV,1.7mA,25mA,10 V ~ 44 V* ±5 V ~ 22 V,-55°C ~ 125°C,Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+General Purpose,2,Rail-to-Rail,15 V/µs,15MHz,12.5MHz,2µA,700µV,1.9mA,65mA,2.5 V ~ 24 V* ±1.25 V ~ 12 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Audio,2,-,7 V/µs,16MHz,-,300nA,150µV,2.05mA,37mA,±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,4,-,10 V/µs,25MHz,-,500nA,300µV,10mA,40mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,Rail-to-Rail,1.5 V/µs,1.3MHz,-,0.01pA,350µV,550µA,-,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.11 V/µs,350kHz,-,0.04pA,1mV,86µA,-,4.75 V ~ 15.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,1.1 V/µs,1.4MHz,-,0.04pA,1mV,750µA,40mA,4.75 V ~ 15.5 V* ±2.38 V ~ 7.75 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,1.1 V/µs,1.4MHz,-,0.04pA,1mV,1.5mA,-,4.75 V ~ 15.5 V* ±2.38 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,Rail-to-Rail,0.02 V/µs,75kHz,-,0.002pA,1mV,18µA,40mA,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.35 V/µs,100kHz,-,0.01pA,100µV,40µA,-,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,1.5 V/µs,1.3MHz,-,0.01pA,150µV,550µA,-,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,1.5 V/µs,1.3MHz,-,0.01pA,150µV,1.1mA,-,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,1.5 V/µs,1.3MHz,-,0.01pA,150µV,2.2mA,-,4.5 V ~ 15.5 V* ±2.25 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,1.3 V/µs,1.5MHz,-,0.02pA,110µV,1.3mA,-,3 V ~ 15.5 V* ±1.5 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,1.3 V/µs,1.5MHz,-,0.02pA,110µV,1.3mA,-,3 V ~ 15.5 V* ±1.5 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,1.3 V/µs,1.5MHz,-,0.02pA,110µV,1.3mA,-,3 V ~ 15.5 V* ±1.5 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,1.3 V/µs,1.5MHz,-,0.02pA,110µV,2.6mA,30mA,3 V ~ 15.5 V* ±1.5 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,1.1 V/µs,1.4MHz,-,0.002pA,1mV,1.5mA,40mA,4.75 V ~ 15.5 V* ±2.38 V ~ 7.75 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,1.1 V/µs,1.4MHz,-,0.002pA,1mV,750µA,40mA,4.75 V ~ 15.5 V* ±2.38 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,1.1 V/µs,1.1MHz,-,1pA,110µV,800µA,-,2.7 V ~ 15.5 V* ±1.35 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,1.1 V/µs,1.1MHz,-,1pA,110µV,800µA,50mA,2.7 V ~ 15.5 V* ±1.35 V ~ 7.75 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Audio,1,-,22 V/µs,110MHz,-,30nA,130µV,9mA,26mA,±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Variable Gain,1,-,1800 V/µs,-,135MHz,11µA,-,37mA,90mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Voltage Feedback,1,Differential,3000 V/µs,-,400MHz,8µA,1mV,20mA,75mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,Differential,3800 V/µs,-,1.5GHz,60µA,1.5mV,22.5mA,80mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,Rail-to-Rail,200 V/µs,90MHz,228MHz,1.4µA,1.3mV,4.18mA,112mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,Rail-to-Rail,135 V/µs,-,130MHz,1.6µA,1mV,2.7mA,75mA,2.7 V ~ 12.8 V* ±1.35 V ~ 6.4 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,2,Rail-to-Rail,135 V/µs,-,130MHz,1.6µA,1mV,2.7mA,75mA,2.7 V ~ 12.8 V* ±1.35 V ~ 6.4 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,4,Rail-to-Rail,135 V/µs,-,130MHz,20nA,1mV,2.7mA,75mA,2.7 V ~ 12.8 V* ±1.35 V ~ 6.4 V,-40°C ~ 85°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Voltage Feedback,1,-,200 V/µs,260MHz,-,5µA,1mV,4.5mA,120mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,135 V/µs,-,90MHz,8µA,100µV,7.2mA,525mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 150°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,3100 V/µs,-,1.7GHz,6µA,1mV,12.5mA,80mA,10 V ~ 12 V* ±5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,1.1 V/µs,2.5MHz,-,0.2pA,37µV,1.7mA,86mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,11.5 V/µs,17MHz,-,0.1pA,10µV,1.15mA,66mA,1.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,2.4 V/µs,22MHz,-,14nA,6µV,2.5mA,49mA,1.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,1 V/µs,1MHz,-,15nA,1.7mV,130µA,160mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,4,Rail-to-Rail,1 V/µs,1MHz,-,15nA,1.7mV,410µA,160mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,Rail-to-Rail,1 V/µs,1MHz,-,15nA,1.7mV,410µA,160mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Voltage Feedback,2,Rail-to-Rail,1.5 V/µs,1.4MHz,-,1nA,1mV,100µA,34mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,5.25 V/µs,10MHz,-,260nA,80µV,1.03mA,-,2.2 V ~ 5.5 V* ±1.1 V ~ 2.25 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,2 V/µs,5.6MHz,-,100nA,3.5mV,300µA,-,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,2 V/µs,5.6MHz,-,100nA,3.5mV,300µA,45mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,2,Rail-to-Rail,2 V/µs,5.6MHz,-,100nA,3.5mV,500µA,-,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,1,Rail-to-Rail,4.5 V/µs,8MHz,-,0.1pA,260µV,430µA,65mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,2,Rail-to-Rail,4.5 V/µs,8MHz,-,0.1pA,260µV,820µA,65mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,4,Rail-to-Rail,0.42 V/µs,1.5MHz,-,14nA,1mV,116µA,100mA,1.8 V ~ 5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Logarithmic and Log Ratio,1,-,-,45kHz,-,1pA,700µV,7mA,5mA,±12 V ~ 18 V,0°C ~ 70°C,Through Hole,"14-CDIP (0.300""* 7.62mm)",14-CDIP
+Logarithmic and Log Ratio,1,-,0.5 V/µs,-,45kHz,5pA,300µV,1mA,18mA,±4.5 V ~ 18 V,-5°C ~ 75°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Logarithmic and Log Ratio,1,-,0.5 V/µs,1.4MHz,45kHz,5pA,300µV,1.25mA,18mA,±4.5 V ~ 18 V,-5°C ~ 75°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Logarithmic and Log Ratio,1,-,0.5 V/µs,1.4MHz,45kHz,5pA,300µV,1.25mA,18mA,±4.5 V ~ 18 V,-5°C ~ 75°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.05 V/µs,100kHz,-,2nA,2mV,85µA,10mA,3 V ~ 32 V* ±1.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,Rail-to-Rail,0.1 V/µs,152kHz,-,2nA,1.5mV,9µA,-,2.7 V ~ 5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,4,Rail-to-Rail,0.1 V/µs,152kHz,-,2nA,1.5mV,28µA,-,2.7 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,-,0.0027 V/µs,6.2kHz,-,0.04pA,100µV,475nA,23mA,1.6 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,2,Rail-to-Rail,0.002 V/µs,8kHz,-,0.1pA,3.5mV,320nA,4.7mA,1.6 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,-,1 V/µs,2.5MHz,-,100nA,500µV,800µA,23mA,6 V ~ 30 V* ±3 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,1.2 V/µs,-,-,10nA,80µV,360µA,-,5 V ~ 30 V* ±2.5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,2.5 V/µs,8MHz,-,15nA,20µV,-,-,±4 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,2.5 V/µs,8MHz,-,15nA,20µV,-,-,±4 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Buffer,1,-,75 V/µs,20MHz,-,-,-,500µA,5mA,4.5 V ~ 40 V* ±2.25 V ~ 20 V,0°C ~ 100°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,0.2 V/µs,-,-,25pA,8µV,380µA,-,2.4 V ~ 40 V* ±1.2 V ~ 20 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.4 V/µs,-,-,15nA,60µV,350µA,20mA,4 V ~ 44 V* ±2 V ~ 22 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.4 V/µs,1MHz,-,15nA,60µV,350µA,-,4 V ~ 44 V* ±2 V ~ 22 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,15 V/µs,75MHz,-,25nA,10µV,7.4mA,-,±4 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,15 V/µs,75MHz,-,30nA,20µV,7.6mA,-,±4 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,13 V/µs,5MHz,-,7pA,220µV,1.7mA,-,±10 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,0.12 V/µs,230kHz,-,7nA,30µV,56µA,-,2.2 V ~ 30 V* ±1.1 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,-,0.1 V/µs,200kHz,-,7nA,70µV,47µA,-,2.2 V ~ 30 V* ±1.1 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,-,0.3 V/µs,750kHz,-,80pA,25µV,350µA,-,2 V ~ 40 V* ±1 V ~ 20 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,4,-,4.5 V/µs,12.5MHz,-,7nA,30µV,2.3mA,-,±4 V ~ 18 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO
+J-FET,2,-,4.2 V/µs,5.3MHz,-,4pA,600µV,5.3mA,-,±4.5 V ~ 20 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Current Feedback,1,-,900 V/µs,-,60MHz,10µA,3mV,20mA,1.2A,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,-,400 V/µs,1GHz,-,4µA,300µV,7mA,-,±2.5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Voltage Feedback,1,-,600 V/µs,25MHz,-,120nA,200µV,2mA,30mA,±2.5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Voltage Feedback,1,-,800 V/µs,50MHz,-,300nA,300µV,4mA,34mA,±2.5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Voltage Feedback,2,-,1000 V/µs,70MHz,-,600nA,500µV,6.3mA,60mA,5 V ~ 36 V* ±2.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Voltage Feedback,2,-,1000 V/µs,70MHz,-,600nA,500µV,6.3mA,60mA,5 V ~ 36 V* ±2.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,Rail-to-Rail,0.07 V/µs,200kHz,-,4nA,400µV,50µA,25mA,2 V ~ 44 V* ±1 V ~ 22 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,4,Rail-to-Rail,0.001 V/µs,2.7kHz,-,25pA,200µV,1.4µA,1.5mA,2.2 V ~ 36 V* ±1.1 V ~ 18 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,2,Rail-to-Rail,6 V/µs,10.5MHz,-,250nA,200µV,1.8mA,30mA,2.2 V ~ 36 V* ±1.1 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,Rail-to-Rail,6 V/µs,20MHz,-,2nA,20µV,2.5mA,35mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Instrumentation,1,-,0.066 V/µs,25kHz,-,17nA,30µV,85µA,8.5mA,2.2 V ~ 36 V* ±1.1 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,Rail-to-Rail,25 V/µs,80MHz,-,25nA,75µV,1.6mA,-,2.3 V ~ 12.6 V* ±1.15 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,4,Rail-to-Rail,1 V/µs,2.2MHz,-,150pA,30µV,850µA,50mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+Instrumentation,1,-,1.2 V/µs,1MHz,-,500pA,30µV,900µA,27mA,4.6 V ~ 36 V* ±2.3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,1.6 V/µs,3.6MHz,-,160nA,200µV,7mA,-,5 V ~ 36 V* ±2.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width) Exposed Pad",20-TSSOP-EP
+Differential,1,Rail-to-Rail,65 V/µs,70MHz,-,18µA,3mV,14.8mA,85mA,2.375 V ~ 12.6 V* ±1.188 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,0.018 V/µs,60kHz,-,4nA,500µV,20µA,10mA,1.8 V ~ 16 V* ±0.9 V ~ 8 V,0°C ~ 70°C,Surface Mount,6-WFDFN Exposed Pad,6-DFN (2x3)
+General Purpose,2,Rail-to-Rail,0.2 V/µs,1.4MHz,-,150pA,35µV,200µA,20mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Current Sense,1,-,0.05 V/µs,-,150kHz,-,80µV,60µA,15mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,20 V/µs,60MHz,-,250nA,700µV,1mA,50mA,2.2 V ~ 12.6 V* ±1.1 V ~ 6.3 V,0°C ~ 70°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+General Purpose,4,Rail-to-Rail,70 V/µs,215MHz,-,5µA,50µV,3.3mA,30mA,3 V ~ 12.6 V* ±1.5 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-SSOP
+Differential,1,Differential,-,-,-,50µA,10mV,46mA,-,3 V ~ 11 V* ±1.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Differential,1,Differential,-,-,-,30µA,8mV,30mA,-,3 V ~ 11 V* ±1.5 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Differential,1,Differential,-,-,-,15µA,5mV,28mA,-,3 V ~ 11 V* ±1.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Zero-Drift,1,-,4 V/µs,2.5MHz,-,10pA,0.5µV,1mA,-,4.75 V ~ 16 V* ±2.38 V ~ 8 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,2,-,4 V/µs,2.5MHz,-,15pA,0.5µV,1mA,-,4.75 V ~ 16 V* ±2.38 V ~ 8 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,-,4 V/µs,1.2MHz,-,1pA,0.5µV,1.7mA,-,4.75 V ~ 16 V* ±2.38 V ~ 8 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,-,-,18kHz,-,2.5pA,1µV,2.4mA,-,5 V ~ 16 V* ±2.5 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SO
+Zero-Drift,1,-,3 V/µs,2.5MHz,-,10pA,0.5µV,800µA,-,4.75 V ~ 32 V* ±2.38 V ~ 16 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,Rail-to-Rail,0.5 V/µs,700kHz,-,10pA,1µV,2.2mA,-,2.7 V ~ 14 V* ±1.35 V ~ 7 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,Rail-to-Rail,0.2 V/µs,200kHz,-,4nA,5µV,950µA,-,2.7 V ~ 11 V* ±1.35 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Zero-Drift,1,Rail-to-Rail,0.2 V/µs,200kHz,-,4nA,5µV,950µA,-,2.7 V ~ 11 V* ±1.35 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Zero-Drift,1,Rail-to-Rail,0.2 V/µs,200kHz,-,4nA,5µV,950µA,-,2.7 V ~ 11 V* ±1.35 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Zero-Drift,1,Rail-to-Rail,0.45 V/µs,1.5MHz,-,30pA,0.5µV,900µA,-,4.75 V ~ 60 V* ±2.38 V ~ 30 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,2,Rail-to-Rail,0.05 V/µs,750kHz,-,0.2pA,10µV,55µA,25mA,2.7 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,21 V/µs,12MHz,-,3pA,330µV,2.8mA,-,9.5 V ~ 140 V* ±4.75 V ~ 70V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+Current Sense,1,-,-,200kHz,-,100nA,85µV,375µA,1mA,4 V ~ 60 V,-40°C ~ 85°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,TSOT-23-5
+Current Sense,1,-,-,200kHz,-,100nA,85µV,350µA,1mA,5 V ~ 100 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+Current Sense,1,-,-,200kHz,-,60pA,3µV,420µA,1mA,5 V ~ 100 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,10 V/µs,18MHz,-,0.5pA,60µV,2.7mA,35mA,2.8 V ~ 11 V* ±1.4 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,Rail-to-Rail,10 V/µs,18MHz,-,0.5pA,50µV,2.5mA,35mA,2.8 V ~ 11 V* ±1.4 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,Rail-to-Rail,90 V/µs,180MHz,120MHz,400nA,100µV,1.25mA,-,2.5 V ~ 5.25 V* ±1.25 V ~ 2.625 V,-40°C ~ 85°C,Surface Mount,"16-TFSOP (0.118""* 3.00mm Width)",16-MSOP
+General Purpose,-,Rail-to-Rail,1500 V/µs,4GHz,-,4pA,200µV,16.5mA,90mA,3.1 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Programmable Gain,1,Rail-to-Rail,16 V/µs,11MHz,-,-,1.5mV,3.5mA,35mA,2.7 V ~ 10.5 V* ±2.7 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,SOT-23-8 Thin* TSOT-23-8,TSOT-23-8
+Programmable Gain,2,Rail-to-Rail,26 V/µs,33MHz,-,-,125µV,2.25mA,35mA,2.7 V ~ 10.5 V* ±2.7 V ~ 5.25 V,0°C ~ 70°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-SSOP
+Instrumentation,1,Rail-to-Rail,0.2 V/µs,200kHz,-,4nA,5µV,1.73mA,-,2.7 V ~ 11 V* ±1.35 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SSOP (0.154""* 3.90mm Width)",16-SSOP
+Voltage Feedback,3,Rail-to-Rail,600 V/µs,-,150MHz,5.4µA,4mV,5.5mA,-,3.15 V ~ 11 V* ±1.575 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,-,4.5 V/µs,28MHz,-,80nA,120µV,2.5mA,-,4.8 V ~ 10.5 V* ±2.4 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,4.5 V/µs,28MHz,-,80nA,150µV,2.5mA,-,4.8 V ~ 10.5 V* ±2.4 V ~ 5.25 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,0.115 V/µs,200kHz,-,1pA,500µV,25µA,15mA,2.7 V ~ 10 V* ±1.35 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Sense,1,-,-,-,800kHz,50µA,1mV,800µA,-,3 V ~ 32 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.08 V/µs,150kHz,-,0.1pA,1mV,1µA,-,2.5 V ~ 10 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,0.06 V/µs,-,250kHz,6nA,100µV,93µA,4.5mA,2.7 V ~ 7.5 V* ±1.35 V ~ 3.75 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Instrumentation,1,Rail-to-Rail,0.08 V/µs,750kHz,-,1pA,3µV,1.4mA,25mA,2.85 V ~ 5.5 V* ±1.425 V ~ 2.25 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-uMAX
+Buffer,1,Rail-to-Rail,600 V/µs,-,230MHz,5.4µA,4mV,5.5mA,120mA,3.15 V ~ 11 V* ±1.575 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Feedback,1,-,1700 V/µs,-,600MHz,4µA,500µV,6mA,80mA,±2.85 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+General Purpose,2,Push-Pull* Rail-to-Rail,2.1 V/µs,22MHz,-,1pA,70µV,420µA,-,2.4 V ~ 5.5 V* ±1.2 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-uMAX
+General Purpose,1,Push-Pull* Rail-to-Rail,2.1 V/µs,22MHz,-,1pA,70µV,420µA,68mA,2.4 V ~ 5.5 V* ±1.2 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,1.5 V/µs,3MHz,-,25nA,250µV,275µA,-,2.3 V ~ 6.5 V* ±1.15 V ~ 3.25 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,30 V/µs,50MHz,-,0.01pA,10µV,750µA,85mA,1.8 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,6-TSSOP* SC-88* SOT-363,SC-70-6
+Voltage Feedback,2,-,388 V/µs,150MHz,-,14µA,1mV,15mA,65mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3 V/µs,10MHz,-,1pA,70µV,2.5mA,48mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3 V/µs,10MHz,-,1pA,70µV,2.5mA,48mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-uMAX
+Current Sense,1,-,-,125kHz,-,-,100µV,1.1µA,-,-,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Sense,1,Rail-to-Rail,0.9 V/µs,-,250kHz,175µA,400µV,1mA,-,4.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SOIC-EP
+General Purpose,2,-,0.5 V/µs,1MHz,-,80nA,1mV,3.4mA,25mA,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.8 V/µs,1MHz,-,30nA,1mV,2.3mA,-,5 V ~ 30 V* ±2.5 V ~ 15 V,-55°C ~ 125°C,Through Hole,TO-99-8 Metal Can,
+General Purpose,2,-,13 V/µs,4.5MHz,-,100nA,500µV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,-,11 V/µs,37MHz,-,280nA,130µV,3.5mA,33mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,7 V/µs,16MHz,-,300nA,150µV,2.05mA,37mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,7 V/µs,16MHz,-,300nA,150µV,4.1mA,37mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,7 V/µs,15MHz,-,250nA,150µV,4mA,37mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 105°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,4,-,7 V/µs,16MHz,-,300nA,150µV,8.4mA,37mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,1,-,2 V/µs,2.1MHz,-,20nA,1mV,220µA,27mA,4 V ~ 44 V* ±2 V ~ 22 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,2,-,2.1 V/µs,1.8MHz,-,20nA,2mV,220µA,27mA,3 V ~ 44 V* ±1.5 V ~ 22 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,2.1 V/µs,1.8MHz,-,20nA,2mV,220µA,27mA,3 V ~ 44 V* ±1.5 V ~ 22 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,1 V/µs,2.2MHz,-,80nA,8mV,900µA,80mA,1.8 V ~ 12 V* ±0.9 V ~ 6 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,1 V/µs,2.2MHz,-,80nA,8mV,900µA,80mA,1.8 V ~ 12 V* ±0.9 V ~ 6 V,-40°C ~ 105°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,10 V/µs,24MHz,-,300nA,100µV,2.15mA,37mA,3 V ~ 36 V* ±1.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3 V/µs,5MHz,-,0.04pA,500µV,1.65mA,70mA,1 V ~ 7 V* ±0.5 V ~ 3.5 V,-40°C ~ 105°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,13 V/µs,4.5MHz,-,100nA,1mV,1.9mA,30mA,3 V ~ 44 V* ±1.5 V ~ 22 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,Rail-to-Rail,0.6 V/µs,1MHz,-,1pA,4.5mV,100µA,23mA,1.8 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.6 V/µs,1MHz,-,1pA,4.5mV,100µA,23mA,1.8 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,0.6 V/µs,1MHz,-,1pA,4.5mV,100µA,23mA,1.8 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,0.6 V/µs,1MHz,-,1pA,4.5mV,100µA,23mA,1.8 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,0.6 V/µs,1MHz,-,1pA,4.5mV,100µA,23mA,1.8 V ~ 6 V,-40°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,1,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,7 V/µs,10MHz,-,1pA,500µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,7 V/µs,10MHz,-,1pA,500µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,7 V/µs,10MHz,-,1pA,500µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,7 V/µs,10MHz,-,1pA,500µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,0.003 V/µs,14kHz,-,1pA,3mV,600nA,20mA,1.4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,0.003 V/µs,14kHz,-,1pA,3mV,600nA,20mA,1.4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,2.3 V/µs,2.8MHz,-,1pA,700µV,230µA,22mA,2.7 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,Rail-to-Rail,0.15 V/µs,300kHz,-,1pA,5mV,20µA,23mA,1.8 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,0.9 V/µs,2MHz,-,1pA,3mV,170µA,25mA,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,0.9 V/µs,2MHz,-,1pA,3mV,170µA,25mA,2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,Rail-to-Rail,0.6 V/µs,1MHz,-,2pA,1mV,85µA,-,1.8 V ~ 6 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+Programmable Gain,8,Push-Pull* Rail-to-Rail,22 V/µs,12MHz,-,1pA,275µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Programmable Gain,8,Push-Pull* Rail-to-Rail,22 V/µs,12MHz,-,1pA,275µV,1mA,30mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.154""* 3.90mm Width)",16-SOIC
+General Purpose,1,Rail-to-Rail,0.5 V/µs,370kHz,-,0.5pA,1mV,1.5mA,115mA,2.2 V ~ 10 V* ±1.1 V ~ 5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.5 V/µs,370kHz,-,0.5pA,1mV,1.5mA,115mA,2.2 V ~ 10 V* ±1.1 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MSOP
+General Purpose,1,Rail-to-Rail,1.6 V/µs,1.4MHz,-,10pA,500µV,820µA,96mA,0.9 V ~ 7 V* ±0.45 V ~ 3.5 V,-40°C ~ 125°C,Surface Mount,SOT-23-5 Thin* TSOT-23-5,5-TSOP
+Transconductance,2,Push-Pull,50 V/µs,2MHz,-,400nA,400µV,2.6mA,650µA,4 V ~ 44 V* ±2 V ~ 22 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-DIP
+General Purpose,2,-,9 V/µs,10MHz,-,200nA,500µV,8mA,38mA,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,2,-,9 V/µs,10MHz,-,200nA,500µV,8mA,38mA,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,9 V/µs,10MHz,-,200nA,500µV,8mA,38mA,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,13 V/µs,10MHz,-,500nA,500µV,4mA,38mA,±3 V ~ 20 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,13 V/µs,10MHz,-,500nA,500µV,4mA,38mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Transconductance,2,Push-Pull,50 V/µs,2MHz,-,400nA,400µV,2.6mA,650µA,±18V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.209""* 5.30mm Width)",
+General Purpose,2,-,0.5 V/µs,600kHz,-,25nA,2mV,700µA,-,3 V ~ 32 V* ±1.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",
+General Purpose,4,-,1.2 V/µs,1.2MHz,-,70nA,2mV,3mA,30mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.209""* 5.30mm Width)",14-DMP
+General Purpose,2,-,1.2 V/µs,1.2MHz,-,70nA,2mV,2mA,30mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",
+General Purpose,2,-,1.2 V/µs,1.2MHz,-,70nA,2mV,2mA,-,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",
+General Purpose,2,-,1 V/µs,3MHz,-,25nA,500µV,3.5mA,-,±4 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",
+Audio,2,-,5 V/µs,15MHz,-,100nA,500µV,6mA,50mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",
+CMOS,1,Rail-to-Rail,3 V/ms,9kHz,-,1pA,100µV,650nA,11mA,1.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+CMOS,2,Rail-to-Rail,0.003 V/µs,9kHz,-,1pA,100µV,650nA,11mA,1.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-MiniSO
+General Purpose,1,-,0.3 V/µs,-,600kHz,1.8nA,60µV,-,-,±3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.3 V/µs,-,600kHz,1.8nA,60µV,-,-,±3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.3 V/µs,-,600kHz,1.2nA,30µV,-,-,±3 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,1.2 V/µs,3.4MHz,-,240nA,150µV,3mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.7 V/µs,1.3MHz,-,500pA,15µV,400µA,10mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.3 V/µs,600kHz,-,1.2nA,20µV,1.6mA,-,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,3 V/µs,5MHz,-,300nA,5mV,3.75mA,50mA,4.5 V ~ 12 V* ±2.25 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.015 V/µs,35kHz,-,20nA,150µV,30µA,25mA,1.7 V ~ 36 V* ±0.85 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,1.2 V/µs,3.4MHz,-,240nA,250µV,3mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,1.2 V/µs,3.4MHz,-,240nA,250µV,3mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,22 V/µs,4.7MHz,-,30pA,200µV,5.6mA,36mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,22 V/µs,4.7MHz,-,30pA,200µV,5.6mA,36mA,±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,13 V/µs,15MHz,-,260nA,25µV,550µA,30mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,2,-,22 V/µs,9MHz,-,100nA,1mV,30mA,90mA,±4.5 V ~ 22 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Audio,2,-,22 V/µs,9MHz,-,100nA,1mV,30mA,90mA,±4.5 V ~ 22 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,2.8 V/µs,8MHz,-,10nA,10µV,-,-,±4 V ~ 18 V,-55°C ~ 125°C,Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP
+Through Hole,"8-CDIP (0.300""* 7.62mm)",8-CERDIP,,,-,,,,-,,,,,
+General Purpose,1,-,2.8 V/µs,8MHz,-,10nA,10µV,-,-,±4 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,2,-,9 V/µs,4MHz,-,3pA,200µV,210µA,12mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 90°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,4 V/µs,4.25MHz,-,80nA,175µV,2.25mA,10mA,3 V ~ 36 V* ±1.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.012 V/µs,20kHz,-,4nA,125µV,25µA,,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,0.5 V/µs,3MHz,-,30nA,80µV,260µA,16mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.03 V/µs,85kHz,-,7nA,300µV,175µA,25mA,3 V ~ 36 V* ±1.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.3 V/µs,450kHz,-,10nA,35µV,60µA,4mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.15 V/µs,500kHz,-,35pA,50µV,525µA,-,4 V ~ 40 V* ±2 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,17 V/µs,63MHz,-,10nA,10µV,-,-,±4 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,17 V/µs,63MHz,-,15nA,30µV,-,-,±4 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.15 V/µs,500kHz,-,750pA,80µV,600µA,-,±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,4,Rail-to-Rail,1.2 V/µs,3.4MHz,-,240nA,275µV,3mA,40mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,4,-,0.7 V/µs,1.3MHz,-,500pA,15µV,400µA,10mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,-,0.7 V/µs,1.3MHz,-,500pA,15µV,400µA,10mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,350 V/µs,28MHz,-,150nA,200µV,8mA,-,±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,4,-,0.012 V/µs,20kHz,-,4.2nA,600µV,60µA,-,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,4,Rail-to-Rail,0.3 V/µs,450kHz,-,10nA,35µV,60µA,4mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,0.3 V/µs,450kHz,-,10nA,35µV,60µA,4mA,3 V ~ 12 V* ±1.5 V ~ 6 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,-,0.15 V/µs,500kHz,-,60pA,80µV,525µA,25mA,±2 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,1,-,0.012 V/µs,-,-,4nA,125µV,14µA,5mA,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,0.012 V/µs,-,-,4nA,125µV,14µA,5mA,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.012 V/µs,-,-,4nA,125µV,14µA,5mA,1.6 V ~ 36 V* ±0.8 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.2 V/µs,-,900kHz,30pA,30µV,380µA,-,±2 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,1.6 V/µs,1.5MHz,-,1pA,200µV,2.5mA,10mA,10 V ~ 36 V* ±5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,2.5 V/µs,1MHz,-,0.03pA,1mV,1.2mA,10mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,10 V/µs,4MHz,-,5pA,200µV,1.5mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,1,-,20 V/µs,8MHz,-,5pA,500µV,4mA,35mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,1,-,20 V/µs,8MHz,-,5pA,500µV,4mA,35mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,1,Differential,50 V/µs,-,180MHz,2µA,500µV,14mA,85mA,5 V ~ 32 V* ±2.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-PowerPad
+Audio,1,Rail-to-Rail,20 V/µs,11MHz,-,2pA,1mV,1.8mA,36mA,4.5 V ~ 36 V* ±2.25 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.3 V/µs,600kHz,-,500pA,10µV,1.3mA,-,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,20 V/µs,8MHz,-,5pA,500µV,4mA,40mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Audio,2,-,20 V/µs,8MHz,-,5pA,500µV,4mA,35mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,2.3 V/µs,8MHz,-,2.5nA,10µV,3.7mA,45mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.16 V/µs,430kHz,-,10nA,700µV,40µA,25mA,2.2 V ~ 36 V* ±1.1 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.01 V/µs,35kHz,-,4nA,50µV,27µA,50mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,0.01 V/µs,35kHz,-,4nA,50µV,27µA,50mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,0.8 V/µs,1MHz,-,500pA,20µV,790µA,35mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,0.8 V/µs,1MHz,-,500pA,20µV,790µA,35mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,2.3 V/µs,8MHz,-,2.5nA,10µV,3.7mA,45mA,5 V ~ 36 V* ±2.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,80 V/µs,150MHz,-,0.1pA,1mV,9.5mA,70mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,6 V/µs,10MHz,-,5pA,500µV,400µA,-,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Zero-Drift,2,Rail-to-Rail,1.6 V/µs,2MHz,-,70pA,1µV,570µA,50mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.03 V/µs,100kHz,-,1pA,60µV,20µA,5mA,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,6 V/µs,5.5MHz,-,0.2pA,150µV,750µA,50mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.17 V/µs,350kHz,-,0.5pA,2mV,20µA,17mA,2.3 V ~ 5.5 V* ±1.15 V ~ 2.75 V,-55°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.2 V/µs,350kHz,-,12nA,70µV,275µA,22mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,22 V/µs,38MHz,-,0.5pA,150µV,5.2mA,40mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,22 V/µs,38MHz,-,0.5pA,150µV,5.2mA,40mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,5 V/µs,7MHz,-,1pA,900µV,1.1mA,85mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+General Purpose,2,Rail-to-Rail,25 V/µs,50MHz,-,0.2pA,100µV,4.6mA,65mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.25 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,0.005 V/µs,12kHz,-,10pA,250µV,700nA,-,1.8 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,2 V/µs,5.5MHz,-,0.2pA,5µV,760µA,50mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,1,-,0.5 V/µs,1.5MHz,-,8.5nA,350µV,200µA,8mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,0.01 V/µs,35kHz,-,4nA,50µV,27µA,21mA,2.7 V ~ 36 V* ±1.35 V ~ 18 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,25 V/µs,20MHz,-,100pA,1mV,10.5mA,35mA,9 V ~ 48 V* ±4.5 V ~ 24 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,25 V/µs,20MHz,-,100pA,1mV,10.5mA,35mA,9 V ~ 48 V* ±4.5 V ~ 24 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,335 V/µs,200MHz,700MHz,4µA,1.5mV,11mA,140mA,6 V ~ 12 V* ±3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SOT-23-8,SOT-23-8
+Voltage Feedback,2,-,335 V/µs,200MHz,700MHz,4µA,1.5mV,11mA,140mA,6 V ~ 12 V* ±3 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,0.8 V/µs,1MHz,-,500pA,20µV,790µA,35mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,2,-,170 V/µs,240MHz,400MHz,9µA,200µV,9.6mA,150mA,4 V ~ 12.6 V* ±2 V ~ 6.3 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,1,Rail-to-Rail,0.16 V/µs,350kHz,-,70pA,2µV,17µA,5mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.03 V/µs,100kHz,-,1pA,60µV,20µA,5mA,2.3 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,6 V/µs,5.5MHz,-,0.6pA,2mV,750µA,50mA,2.5 V ~ 5.5 V,-55°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+General Purpose,1,Rail-to-Rail,1 V/µs,1MHz,-,0.2pA,1mV,150µA,15mA,2.7 V ~ 5.5 V* ±1.35 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.5 V/µs,1MHz,-,0.5pA,1mV,45µA,10mA,2.1 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,0.5 V/µs,1MHz,-,0.5pA,1mV,45µA,10mA,2.1 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,1,Rail-to-Rail,0.02 V/µs,70kHz,-,0.5pA,2mV,1µA,8mA,1.8 V ~ 5.5 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,22 V/µs,38MHz,-,0.5pA,150µV,5.2mA,40mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,1,Rail-to-Rail,22 V/µs,38MHz,-,0.5pA,150µV,5.2mA,40mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,Rail-to-Rail,150 V/µs,100MHz,250MHz,3pA,2mV,4.9mA,100mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,Rail-to-Rail,360 V/µs,200MHz,450MHz,3pA,2mV,8.3mA,100mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,Rail-to-Rail,150 V/µs,100MHz,250MHz,3pA,2mV,4.9mA,100mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SOT-23-6,SOT-23-6
+General Purpose,1,Rail-to-Rail,5 V/µs,7MHz,-,1pA,500µV,1.1mA,85mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,25 V/µs,50MHz,-,0.2pA,100µV,4.6mA,65mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.25 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,0.03 V/µs,90kHz,-,5pA,400µV,2.9µA,5mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,5-TSSOP* SC-70-5* SOT-353,SC-70-5
+General Purpose,4,-,10 V/µs,4MHz,-,5pA,200µV,1.5mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,4,-,0.8 V/µs,1MHz,-,500pA,20µV,790µA,35mA,4 V ~ 36 V* ±2 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,6 V/µs,5.5MHz,-,0.2pA,2mV,850µA,50mA,2.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,2 V/µs,5.5MHz,-,0.2pA,5µV,760µA,50mA,2.2 V ~ 5.5 V* ±1.1 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,4,Rail-to-Rail,0.03 V/µs,90kHz,-,5pA,400µV,2.9µA,5mA,1.8 V ~ 5.5 V* ±0.9 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,-,38 V/µs,7.5MHz,-,7pA,1mV,5.5mA,50mA,20 V ~ 80 V* ±10 V ~ 40 V,-40°C ~ 125°C,Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+General Purpose,1,-,13 V/µs,2.5MHz,-,1.4pA,200µV,3.2mA,-,10 V ~ 100 V* ±5 V ~ 50 V,-40°C ~ 85°C,Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+General Purpose,4,Rail-to-Rail,10 V/µs,7MHz,-,1pA,1.5mV,1.1mA,20mA,3.5 V ~ 12 V* ±1.75 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+Power,1,-,10 V/µs,1.6MHz,-,4pA,2mV,20mA,10A,20 V ~ 70 V* ±10 V ~ 35 V,-25°C ~ 85°C,Through Hole,TO-3-8,TO-3-8
+Power,1,-,10 V/µs,1.6MHz,-,4pA,2mV,20mA,10A,20 V ~ 70 V* ±10 V ~ 35 V,-25°C ~ 85°C,Through Hole,TO-220-11 (Formed Leads),TO-220-11
+Power,1,-,8 V/µs,1.4MHz,-,15pA,1mV,12mA,4A,20 V ~ 70 V* ±10 V ~ 35 V,-40°C ~ 85°C,Through Hole,TO-220-5,TO-220-5
+General Purpose,1,-,6 V/µs,1MHz,-,100nA,1mV,10mA,750mA,8 V ~ 60 V* ±4 V ~ 30 V,-40°C ~ 85°C,Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+Power,1,-,10 V/µs,1MHz,-,100nA,2mV,17mA,5A,8 V ~ 60 V* ±4 V ~ 30 V,-40°C ~ 85°C,Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+General Purpose,1,-,15 V/µs,3MHz,-,20pA,1mV,7mA,200mA,8 V ~ 60 V* ±4 V ~ 30 V,-40°C ~ 125°C,Surface Mount,TO-263-8* D²Pak (7 Leads + Tab)* TO-263CA,DDPAK/TO-263-7
+General Purpose,1,-,15 V/µs,3MHz,-,20pA,1mV,7mA,200mA,8 V ~ 60 V* ±4 V ~ 30 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,24 V/µs,12MHz,-,20pA,1mV,7mA,200mA,8 V ~ 60 V* ±4 V ~ 30 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,35 V/µs,6.5MHz,-,2pA,1mV,3mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,35 V/µs,6.5MHz,-,1pA,500µV,3mA,20mA,10 V ~ 36 V* ±5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,25 V/µs,20MHz,-,5pA,1mV,5.3mA,35mA,9 V ~ 48 V* ±4.5 V ~ 24 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,30 V/µs,12MHz,-,8pA,300µV,6.5mA,10mA,10 V ~ 36 V* ±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,55 V/µs,16MHz,-,2pA,130µV,7mA,45mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,55 V/µs,16MHz,-,2pA,130µV,7mA,45mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,55 V/µs,16MHz,-,1pA,40µV,7mA,45mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Buffer,1,-,2500 V/µs,-,260MHz,15µA,5mV,21mA,100mA,±5 V ~ 16 V,0°C ~ 75°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,135 V/µs,80MHz,-,2pA,130µV,7mA,45mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,-,135 V/µs,80MHz,-,2pA,130µV,7mA,45mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-25°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,295 V/µs,230MHz,500MHz,1pA,100µV,14mA,70mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,-,700 V/µs,1.6GHz,350MHz,2pA,250µV,14mA,70mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,-,700 V/µs,1.6GHz,350MHz,2pA,250µV,14mA,70mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,-,700 V/µs,1.6GHz,350MHz,1pA,100µV,14mA,70mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,700 V/µs,1.6GHz,350MHz,1pA,100µV,14mA,70mA,8 V ~ 12 V* ±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,1800 V/µs,300MHz,500MHz,3µA,1mV,5.5mA,190mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Current Feedback,1,-,2100 V/µs,2GHz,280MHz,15µA,500µV,5.1mA,190mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Current Feedback,1,-,4300 V/µs,-,1.7GHz,20µA,300µV,12.9mA,120mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+General Purpose,1,Rail-to-Rail,30 V/µs,20MHz,-,30pA,1.2mV,4.3mA,40mA,4 V ~ 12 V* ±2 V ~ 6 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Zero-Drift,1,Rail-to-Rail,1.5 V/µs,1.6MHz,-,100pA,1µV,600µA,20mA,2.7 V ~ 12 V* ±1.35 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,1,Rail-to-Rail,10 V/µs,7MHz,-,1pA,1.5mV,1.1mA,20mA,3.5 V ~ 12 V* ±1.75 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Voltage Feedback,1,-,600 V/µs,110MHz,310MHz,5µA,1.5mV,4.25mA,85mA,2.8 V ~ 11 V* ±1.4 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Voltage Feedback,1,-,950 V/µs,3.9GHz,-,19µA,100µV,18.1mA,100mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,SOT-23-6,SOT-23-6
+Power,1,-,700 V/µs,140MHz,-,200pA,500µV,17mA,100mA,100 V ~ 900 V* ±50 V ~ 450 V,-25°C ~ 85°C,Through Hole,12-SIP* 8 Leads,8-SIP
+Power,1,-,1000 V/µs,100MHz,-,5pA,500µV,21mA,200mA,30 V ~ 450 V* ±15 V ~ 225 V,-25°C ~ 85°C,Through Hole,12-SIP,12-SIP
+Power,1,-,100 V/µs,1MHz,-,-,750mV,14mA,1.5A,30 V ~ 300 V* ±15 V ~ 150 V,-25°C ~ 85°C,Through Hole,TO-3-8,TO-3-8
+Programmable Gain,1,-,9 V/µs,-,1.5MHz,50nA,200µV,2.6mA,25mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Programmable Gain,1,Rail-to-Rail,8 V/µs,-,10MHz,1.5nA,75µV,330µA,-,2.2 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"10-TFSOP* 10-MSOP (0.118""* 3.00mm Width)",10-VSSOP
+Programmable Gain,1,Rail-to-Rail,8 V/µs,-,10MHz,1.5nA,75µV,330µA,60mA,2.2 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"20-TSSOP (0.173""* 4.40mm Width)",20-TSSOP
+Instrumentation,1,-,0.7 V/µs,-,1MHz,500pA,25µV,5.2mA,23mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,1,-,0.7 V/µs,-,1MHz,500pA,10µV,5.2mA,23mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,0.7 V/µs,-,1MHz,500pA,25µV,5.2mA,23mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Instrumentation,1,-,0.7 V/µs,-,1MHz,500pA,10µV,5.2mA,23mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,25 V/µs,-,5MHz,2pA,1mV,12.4mA,17mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Instrumentation,1,-,25 V/µs,-,5MHz,2pA,1mV,12.4mA,17mA,9 V ~ 36 V* ±4.5 V ~ 18 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Programmable Gain,1,Differential,2 V/µs,6MHz,-,800pA,50µV,2.4mA,15mA,10 V ~ 36 V* ±5 V ~ 18 V,-40°C ~ 105°C,Surface Mount,"24-TSSOP (0.173""* 4.40mm Width)",24-TSSOP
+General Purpose,4,-,1.7 V/µs,3MHz,-,140nA,500µV,5mA,-,±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,9 V/µs,10MHz,-,200nA,500µV,8mA,38mA,±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,13 V/µs,10MHz,-,500nA,500µV,4mA,38mA,±3 V ~ 20 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,-,1 V/µs,400kHz,-,30pA,2mV,1mA,-,5 V ~ 16 V* ±2.5 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,2,-,2.5 V/µs,1.5MHz,-,120pA,15µV,650µA,-,7 V ~ 16 V* ±3.5 V ~ 8.3 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Zero-Drift,2,-,2.5 V/µs,1.5MHz,-,90pA,5µV,650µA,-,7 V ~ 16 V* ±3.5 V ~ 8.3 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,1.4 V/µs,1.4MHz,-,100nA,1mV,5mA,1A,5 V ~ 40 V* ±2.5 V ~ 20 V,-40°C ~ 125°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,-,1.4 V/µs,1.4MHz,-,100nA,1mV,5mA,1A,5 V ~ 40 V* ±2.5 V ~ 20 V,-40°C ~ 125°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+Current Feedback,1,-,7300 V/µs,-,235MHz,4µA,900µV,9.5mA,280mA,10 V ~ 30 V* ±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Current Feedback,1,-,7300 V/µs,-,235MHz,4µA,900µV,9.5mA,280mA,10 V ~ 30 V* ±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-PowerSOIC (0.154""* 3.90mm Width)",8-SO PowerPad
+Voltage Feedback,1,-,100 V/µs,-,100MHz,3µA,500µV,8.5mA,90mA,9 V ~ 32 V* ±4.5 V ~ 16 V,0°C ~ 70°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width) Exposed Pad",8-MSOP-PowerPad
+Voltage Feedback,1,-,240 V/µs,-,70MHz,2.5µA,2.5mV,8.5mA,-,9 V ~ 32 V* ±4.5 V ~ 16 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Differential,1,Differential,450 V/µs,205MHz,160MHz,5.1µA,1mV,13.2mA,85mA,4 V ~ 33 V* ±2 V ~ 16.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Voltage Feedback,1,Rail-to-Rail,35 V/µs,-,95MHz,500nA,500µV,800µA,-,2.7 V ~ 16.5 V* ±1.35 V ~ 8.25 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,5500 V/µs,18GHz,1.8GHz,7µA,1.5mV,34mA,180mA,3 V ~ 5 V* ±1.5 V ~ 2.5 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Voltage Feedback,1,-,830 V/µs,870MHz,3GHz,7µA,500µV,18mA,140mA,2.7 V ~ 5 V* ±1.35 V ~ 2.5 V,-40°C ~ 85°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+Differential,1,Differential,6600 V/µs,3GHz,2GHz,8µA,1mV,37.7mA,96mA,3 V ~ 5.25 V* ±1.5 V ~ 2.625 V,-40°C ~ 85°C,Surface Mount,16-VFQFN Exposed Pad,16-QFN (3x3)
+Differential,2,Differential* Rail-to-Rail,600 V/µs,95MHz,145MHz,700nA,240µV,1.14mA,55mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 85°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Differential,2,Differential* Rail-to-Rail,390 V/µs,27MHz,36MHz,200nA,80µV,250µA,-,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"16-TSSOP (0.173""* 4.40mm Width)",16-TSSOP
+Differential,1,Rail-to-Rail,220 V/µs,135MHz,150MHz,1µA,50µV,1.35mA,-,2.7 V ~ 5.4 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,1,-,100 V/µs,180MHz,440MHz,30pA,1mV,10mA,80mA,10 V ~ 30 V* ±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,-,1000 V/µs,210MHz,325MHz,50pA,260µV,11.5mA,98mA,10 V ~ 30 V* ±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,5.1 V/µs,1.1MHz,-,2pA,500µV,217µA,40mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,5.1 V/µs,1.1MHz,-,2pA,390µV,434µA,40mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,5.1 V/µs,1.1MHz,-,2pA,570µV,434µA,40mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,4,-,5.1 V/µs,1.1MHz,-,2pA,580µV,870µA,40mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,4,-,5.1 V/µs,1.1MHz,-,2pA,790µV,870µA,40mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,2,-,20.7 V/µs,3MHz,-,30pA,650µV,4.8mA,-,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,20.7 V/µs,3MHz,-,30pA,650µV,4.8mA,80mA,10 V ~ 30 V* ±5 V ~ 15 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,1,-,3.5 V/µs,1MHz,-,30pA,3mV,200µA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,3.5 V/µs,1MHz,-,30pA,3mV,200µA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,1,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+J-FET,4,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,4,-,13 V/µs,3MHz,-,65pA,3mV,1.4mA,-,±5 V ~ 15 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,1,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+J-FET,2,-,16 V/µs,4MHz,-,20pA,3mV,1.4mA,40mA,6 V ~ 36 V* ±3 V ~ 18 V,-40°C ~ 105°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+J-FET,4,-,13 V/µs,3MHz,-,30pA,3mV,1.4mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+J-FET,4,-,13 V/µs,3MHz,-,30pA,3mV,1.4mA,-,7 V ~ 36 V* ±3.5 V ~ 18 V,-40°C ~ 85°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,1,-,1 V/µs,1MHz,-,200nA,2mV,700µA,30mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,-,13 V/µs,4MHz,-,100nA,1mV,3.5mA,34mA,4 V ~ 36 V* ±2 V ~ 18 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,19 V/µs,10MHz,-,1.5pA,390µV,2.1mA,57mA,4.5 V ~ 16 V* ±2.25 V ~ 8 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,0.047 V/µs,110kHz,-,0.7pA,180µV,29µA,30mA,1.4 V ~ 16 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,2,Rail-to-Rail,0.55 V/µs,730kHz,-,1pA,300µV,425µA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,2,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,2.4mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,4.8mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,Rail-to-Rail,3.6 V/µs,2.25MHz,-,1pA,300µV,4.8mA,50mA,4.4 V ~ 16 V* ±2.2 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+Zero-Drift,1,-,3.1 V/µs,1.9MHz,-,4pA,0.5µV,1.5mA,50mA,3.8 V ~ 16 V* ±1.9 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+Zero-Drift,1,-,3.1 V/µs,1.9MHz,-,4pA,0.6µV,1.5mA,50mA,3.8 V ~ 16 V* ±1.9 V ~ 8 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,1,-,5.3 V/µs,2.2MHz,-,0.7pA,900µV,950µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,900µV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-TSSOP (0.173""* 4.40mm Width)",8-TSSOP
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,1.4mA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,1.4mA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,5.3 V/µs,2.2MHz,-,0.7pA,900µV,3.8mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,5.3 V/µs,2.2MHz,-,0.7pA,390µV,3.8mA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,5.3 V/µs,2.2MHz,-,0.7pA,390µV,3.8mA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,5.3 V/µs,2.2MHz,-,0.7pA,1.1mV,3.8mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,250µV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.3 V/µs,2.2MHz,-,0.7pA,250µV,1.9mA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,4,-,5.3 V/µs,2.2MHz,-,0.7pA,370µV,3.8mA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,2,-,0.05 V/µs,110kHz,-,0.7pA,1.1mV,29µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.05 V/µs,110kHz,-,0.7pA,1.1mV,57µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SOIC
+General Purpose,4,-,0.05 V/µs,110kHz,-,0.7pA,1.1mV,57µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,2,-,0.62 V/µs,635kHz,-,0.7pA,224µV,285µA,30mA,4 V ~ 16 V* ±2 V ~ 8 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.62 V/µs,635kHz,-,0.7pA,1.1mV,570µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Through Hole,"14-DIP (0.300""* 7.62mm)",14-PDIP
+General Purpose,4,-,0.62 V/µs,635kHz,-,0.7pA,1.1mV,570µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,2,-,0.62 V/µs,635kHz,-,0.7pA,190µV,285µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,2,-,0.62 V/µs,635kHz,-,0.7pA,190µV,285µA,30mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.209""* 5.30mm Width)",8-SO
+General Purpose,2,-,0.65 V/µs,1.7MHz,-,33nA,120µV,550µA,30mA,4 V ~ 40 V* ±2 V ~ 20 V,-55°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,4,-,0.7 V/µs,2.8MHz,-,50nA,1mV,1.05mA,40mA,4 V ~ 40 V* ±2 V ~ 20 V,0°C ~ 70°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+General Purpose,4,-,0.7 V/µs,2.8MHz,-,50nA,1mV,1.05mA,40mA,4 V ~ 40 V* ±2 V ~ 20 V,-40°C ~ 85°C,Surface Mount,"16-SOIC (0.295""* 7.50mm Width)",16-SOIC
+J-FET,2,-,45 V/µs,10MHz,-,20pA,1.1mV,3.1mA,48mA,4.5 V ~ 38 V* ±2.25 V ~ 19 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP
+General Purpose,1,Rail-to-Rail,0.18 V/µs,510kHz,-,1pA,610µV,110µA,50mA,2.7 V ~ 10 V* ±1.35 V ~ 5 V,0°C ~ 70°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,Rail-to-Rail,2.1 V/µs,3MHz,-,1pA,2mV,750µA,16mA,2.7 V ~ 16 V* ±1.35 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,2.1 V/µs,3MHz,-,1pA,2mV,750µA,16mA,2.7 V ~ 16 V* ±1.35 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,0.25 V/µs,550kHz,-,1pA,300µV,100µA,50mA,2.7 V ~ 10 V* ±1.35 V ~ 5 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,1,Rail-to-Rail,0.25 V/µs,510kHz,-,1pA,500µV,110µA,50mA,2.7 V ~ 10 V* ±1.35 V ~ 5 V,-40°C ~ 85°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,4,Rail-to-Rail,2.6 V/µs,3MHz,-,1pA,500µV,625µA,8mA,2.7 V ~ 16 V* ±1.35 V ~ 8 V,0°C ~ 70°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,2,Rail-to-Rail,10.5 V/µs,5.1MHz,-,2pA,500µV,1mA,50mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-TSSOP* 8-MSOP (0.118""* 3.00mm Width)",8-VSSOP
+General Purpose,2,Rail-to-Rail,10.5 V/µs,5.1MHz,-,2pA,500µV,1mA,50mA,2.5 V ~ 5.5 V* ±1.25 V ~ 2.75 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+General Purpose,2,-,5.5 V/µs,3.5MHz,-,1pA,1.1mV,1mA,45mA,3 V ~ 16 V* ±1.5 V ~ 8 V,0°C ~ 70°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,-,5.5 V/µs,3.5MHz,-,1pA,900µV,1mA,45mA,3 V ~ 16 V* ±1.5 V ~ 8 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,1,Rail-to-Rail,4 V/µs,12MHz,-,200nA,1mV,2mA,-,2.7 V ~ 10 V* ±1.35 V ~ 5 V,-20°C ~ 70°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,-,7 V/µs,15MHz,-,250nA,850µV,4mA,37mA,5 V ~ 30 V* ±2.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Current Feedback,2,-,420 V/µs,-,40MHz,5µA,1mV,13.5mA,490mA,5 V ~ 12 V* ±2.5 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width) Exposed Pad",8-SO-EP
+General Purpose,2,Rail-to-Rail,1.3 V/µs,4MHz,-,15nA,3mV,2mA,80mA,2.7 V ~ 12 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,1,Rail-to-Rail,4 V/µs,12MHz,-,200nA,1mV,2mA,100mA,2.7 V ~ 10 V* ±1.35 V ~ 5 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+Current Sense,1,-,0.9 V/µs,-,500kHz,5.5µA,200µV,165µA,60mA,4 V ~ 24 V,-40°C ~ 125°C,Surface Mount,SC-74A* SOT-753,SOT-23-5
+General Purpose,2,-,15 V/µs,25MHz,-,100nA,2.5mV,2.15mA,37mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,-,15 V/µs,25MHz,-,100nA,2.5mV,2.15mA,37mA,3 V ~ 30 V* ±1.5 V ~ 15 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,4,Rail-to-Rail,0.003 V/µs,9kHz,-,1pA,100µV,650nA,11mA,1.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,2,Rail-to-Rail,4.5 V/µs,8MHz,-,1pA,100µV,820µA,35mA,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+General Purpose,4,Rail-to-Rail,10 V/µs,20MHz,-,1pA,100µV,820µA,35mA,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"14-SOIC (0.154""* 3.90mm Width)",14-SO
+General Purpose,4,Rail-to-Rail,10 V/µs,20MHz,-,1pA,100µV,820µA,35mA,2.5 V ~ 5.5 V,-40°C ~ 125°C,Surface Mount,"14-TSSOP (0.173""* 4.40mm Width)",14-TSSOP
+General Purpose,1,-,0.5 V/µs,1MHz,-,10nA,1mV,1.7mA,25mA,10 V ~ 44 V* ±5 V ~ 22 V,0°C ~ 70°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-DIP
+General Purpose,1,-,0.5 V/µs,1MHz,-,10nA,1mV,1.7mA,25mA,10 V ~ 44 V* ±5 V ~ 22 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SO
+Variable Gain,1,-,350 V/µs,-,35MHz,6µA,100µV,20mA,60mA,±4 V ~ 6 V,-40°C ~ 85°C,Surface Mount,"8-SOIC (0.154""* 3.90mm Width)",8-SOIC
+Isolation,1,-,2 V/µs,-,50kHz,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)* 8 Leads",16-PDIP
+General Purpose,1,-,1.5 V/µs,150kHz,-,-,1mV,3mA,10mA,±5 V ~ 18 V,0°C ~ 70°C,Through Hole,"16-DIP (0.300""* 7.62mm)",16-PDIP
+Isolation,1,Differential,-,200kHz,-,100nA,600µV,13mA,11mA,4.5 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO Stretched
+Isolation,1,Differential,-,-,200kHz,100nA,600µV,13mA,11mA,4.5 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO Stretched
+Isolation,1,Differential,-,-,200kHz,100nA,600µV,13mA,11mA,4.5 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO Stretched
+Isolation,1,Differential,-,-,100kHz,1.5nA,300µV,10.5mA,30mA,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO Stretched
+Isolation,1,Differential,-,-,100kHz,1.5nA,300µV,10.5mA,30mA,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO
+Isolation,1,Differential,-,-,100kHz,1.5nA,300µV,10.5mA,30mA,3 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.268""* 6.81mm Width)",8-SO Stretched
+Isolation,1,Differential,-,-,100kHz,-,200µV,5.4mA,-,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,"8-SOIC (0.295""* 7.50mm Width)",8-SOIC
+Isolation,1,Differential,-,-,100kHz,-,200µV,5.4mA,20mA,2.7 V ~ 5.5 V,-40°C ~ 105°C,Surface Mount,8-SMD* Gull Wing,8-SOP
+Isolation,1,Differential,-,100kHz,-,500nA,300µV,10.86mA,15.5mA,4.5 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,8-SMD* Gull Wing,8-DIP Gull Wing
+Isolation,1,-,2 V/µs,50kHz,-,-,20mV,5mA,15mA,±4.5 V ~ 18 V,-25°C ~ 85°C,Through Hole,"16-DIP (0.300""* 7.62mm)* 8 Leads",16-PDIP
+Zero-Drift,1,-,3 V/µs,2.5MHz,-,10pA,0.5µV,800µA,-,4.75 V ~ 32 V* ±2.38 V ~ 16 V,-40°C ~ 85°C,Through Hole,"8-DIP (0.300""* 7.62mm)",8-PDIP

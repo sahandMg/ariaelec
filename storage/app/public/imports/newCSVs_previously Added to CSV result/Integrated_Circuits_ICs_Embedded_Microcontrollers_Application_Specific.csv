@@ -1,0 +1,13 @@
+USB Microcontroller,8051,ROMless,CY7C646xx,8K x 8,I²C* USB* USART,40,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,128-BFQFP,128-PQFP (14x20)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,24,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,"56-BSSOP (0.295""* 7.50mm Width)",56-SSOP
+USB Host/Slave Controller,-,-,USB-Hosts,256 x 8,USB,8,3 V ~ 3.6 V,0°C ~ 65°C,Surface Mount,48-LQFP,48-TQFP (7x7)
+RKE* Security Systems,PIC,FLASH (1.75 kB),rfPIC™,64 x 8,-,6,2 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"20-SSOP (0.209""* 5.30mm Width)",20-SSOP
+USB Microcontroller,8051,ROMless,AN213x,8K x 8,I²C* USB,24,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,80-QFP,80-PQFP
+USB Microcontroller,8051,ROMless,AN213x,8K x 8,I²C* USB,24,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,80-QFP,80-PQFP
+USB Host/Slave Controller,-,-,USB-Hosts,256 x 8,USB,8,3 V ~ 3.6 V,0°C ~ 65°C,Surface Mount,48-LQFP,48-TQFP (7x7)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,40,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,100-LQFP,100-TQFP (14x20)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,40,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,100-LQFP,100-TQFP (14x20)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,40,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,100-LQFP,100-TQFP (14x20)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,40,3 V ~ 3.6 V,0°C ~ 70°C,Surface Mount,128-LQFP,128-TQFP (14x20)
+USB Microcontroller,8051,ROMless,CY7C680xx,16K x 8,I²C* USB* USART,24,3 V ~ 3.6 V,-40°C ~ 85°C,Surface Mount,"56-BSSOP (0.295""* 7.50mm Width)",56-SSOP
+Capacitive Sensing,M8C,FLASH (16 kB),CY8C20xx6A,2K x 8,I²C* SPI,36,1.71 V ~ 5.5 V,-40°C ~ 85°C,Surface Mount,"48-BSSOP (0.295""* 7.50mm Width)",48-SSOP
